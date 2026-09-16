@@ -205,6 +205,11 @@ body {
   font-weight: 800;
   margin: 0.15rem 0;
   word-break: break-word;
+  /* Latin-first so ’ in Nga’ayho stays tight (CJK faces widen U+2019) */
+  font-family: "Segoe UI", "Helvetica Neue", Arial, "Noto Sans",
+    "Noto Sans CJK TC", "Noto Sans TC", "PingFang TC", sans-serif;
+  font-kerning: normal;
+  font-feature-settings: "kern" 1;
 }
 
 .sentence-meta .zh {
@@ -219,6 +224,8 @@ body {
   color: var(--footer);
   margin: 0.15rem 0 0;
   opacity: 0.95;
+  font-family: "Segoe UI", "Helvetica Neue", Arial, "Noto Sans",
+    "Noto Sans CJK TC", "Noto Sans TC", "PingFang TC", sans-serif;
 }
 
 .practice-hint {

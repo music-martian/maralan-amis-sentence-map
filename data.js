@@ -8,13 +8,13 @@ const GREETINGS = {
   "sentences": [
     {
       "id": "01",
-      "amis": "Nga’ayho ko miso?",
+      "amis": "Ngaʼayho ko miso?",
       "zh": "你好嗎？",
       "en": "How are you?",
       "tokens": [
         {
           "id": "pred",
-          "text": "Nga’ayho",
+          "text": "Ngaʼayho",
           "role": "pred",
           "gloss_zh": "好嗎",
           "gloss_en": "good-Q"
@@ -44,7 +44,7 @@ const GREETINGS = {
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Nga’ayho 為中心；ko 標記主格對象 miso（你）"
+        "structure": "謂語 Ngaʼayho 為中心；ko 標記主格對象 miso（你）"
       },
       "audio": "https://klokah.tw/extension/sp_junior/sound/4/2sentence/1_1.mp3",
       "audio_exchange": "ex1",
@@ -52,13 +52,13 @@ const GREETINGS = {
     },
     {
       "id": "02",
-      "amis": "Nga’ayayto kako, kiso i?",
+      "amis": "Ngaʼayayto kako, kiso i?",
       "zh": "我很好，你呢？",
       "en": "I’m fine, and you?",
       "tokens": [
         {
           "id": "pred",
-          "text": "Nga’ayayto",
+          "text": "Ngaʼayayto",
           "role": "pred",
           "gloss_zh": "很好了",
           "gloss_en": "already-good"
@@ -98,7 +98,7 @@ const GREETINGS = {
         ],
         "hangs": {},
         "plus_between_groups": true,
-        "structure": "兩句以 ＋ 連接：左句 Nga’ayayto 說明 kako；右句 kiso ＋ 助詞 i"
+        "structure": "兩句以 ＋ 連接：左句 Ngaʼayayto 說明 kako；右句 kiso ＋ 助詞 i"
       },
       "audio": "https://klokah.tw/extension/sp_junior/sound/4/2sentence/1_1.mp3",
       "audio_exchange": "ex1",
@@ -106,7 +106,7 @@ const GREETINGS = {
     },
     {
       "id": "03",
-      "amis": "Mamaan nga’ayayto kako, awiday tisowanan.",
+      "amis": "Mamaan ngaʼayayto kako, awiday tisowanan.",
       "zh": "我也很好，謝謝你。",
       "en": "I’m fine too, thank you.",
       "tokens": [
@@ -119,7 +119,7 @@ const GREETINGS = {
         },
         {
           "id": "pred",
-          "text": "nga’ayayto",
+          "text": "ngaʼayayto",
           "role": "pred",
           "gloss_zh": "很好了",
           "gloss_en": "already-good"

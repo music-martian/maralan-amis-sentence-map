@@ -72,7 +72,7 @@
     let w = 0;
     for (const ch of text) {
       const code = ch.codePointAt(0);
-      if (ch === "’" || ch === "'" || ch === "‘") w += fontSize * 0.28;
+      if (ch === "’" || ch === "'" || ch === "‘" || ch === "ʼ") w += fontSize * 0.22;
       else if (code < 0x80 || (code >= 0xa0 && code <= 0x024f)) w += fontSize * 0.58;
       else w += fontSize * 0.95;
     }
@@ -217,7 +217,7 @@
         fill: meta.fg,
         "font-size": fontSize,
         "font-weight": 700,
-        "font-family": '"Noto Sans CJK TC","Noto Sans TC","PingFang TC","Segoe UI",sans-serif',
+        "font-family": '"Segoe UI","Helvetica Neue",Arial,"Noto Sans","Noto Sans CJK TC","Noto Sans TC","PingFang TC",sans-serif',
         "text-anchor": "middle",
         "dominant-baseline": "central",
         textContent: label,
@@ -253,7 +253,7 @@
         fill: COLORS.gloss,
         "font-size": fontSize,
         "font-weight": 500,
-        "font-family": '"Noto Sans CJK TC","Noto Sans TC","PingFang TC","Segoe UI",sans-serif',
+        "font-family": '"Segoe UI","Helvetica Neue",Arial,"Noto Sans","Noto Sans CJK TC","Noto Sans TC","PingFang TC",sans-serif',
         "text-anchor": "middle",
         "dominant-baseline": "hanging",
         textContent: text,
@@ -331,7 +331,7 @@
           y,
           fill: COLORS.text,
           "font-size": fontSize,
-          "font-family": '"Noto Sans CJK TC","Noto Sans TC","PingFang TC","Segoe UI",sans-serif',
+          "font-family": '"Segoe UI","Helvetica Neue",Arial,"Noto Sans","Noto Sans CJK TC","Noto Sans TC","PingFang TC",sans-serif',
           "dominant-baseline": "central",
           textContent: lab,
         })
@@ -388,7 +388,7 @@
       fill: COLORS.footer,
       "font-size": 12,
       "font-weight": 700,
-      "font-family": '"Noto Sans CJK TC","Noto Sans TC","PingFang TC","Segoe UI",sans-serif',
+      "font-family": '"Segoe UI","Helvetica Neue",Arial,"Noto Sans","Noto Sans CJK TC","Noto Sans TC","PingFang TC",sans-serif',
       "text-anchor": "middle",
     };
     layer.appendChild(
@@ -575,7 +575,7 @@
           y: mapBox.y1 - 22,
           fill: COLORS.gloss,
           "font-size": 12,
-          "font-family": '"Noto Sans CJK TC","Noto Sans TC","PingFang TC","Segoe UI",sans-serif',
+          "font-family": '"Segoe UI","Helvetica Neue",Arial,"Noto Sans","Noto Sans CJK TC","Noto Sans TC","PingFang TC",sans-serif',
           "text-anchor": "middle",
           textContent: structure,
         })
@@ -587,7 +587,7 @@
           y: mapBox.y1 - 22,
           fill: COLORS.gloss,
           "font-size": 12,
-          "font-family": '"Noto Sans CJK TC","Noto Sans TC","PingFang TC","Segoe UI",sans-serif',
+          "font-family": '"Segoe UI","Helvetica Neue",Arial,"Noto Sans","Noto Sans CJK TC","Noto Sans TC","PingFang TC",sans-serif',
           "text-anchor": "middle",
           textContent: "點彩珠／色塊看阿美語",
         })
@@ -602,7 +602,7 @@
         y: H - 28,
         fill: COLORS.footer,
         "font-size": 11,
-        "font-family": '"Noto Sans CJK TC","Noto Sans TC","PingFang TC","Segoe UI",sans-serif',
+        "font-family": '"Segoe UI","Helvetica Neue",Arial,"Noto Sans","Noto Sans CJK TC","Noto Sans TC","PingFang TC",sans-serif',
         "text-anchor": "middle",
         textContent: FOOTER,
       })
