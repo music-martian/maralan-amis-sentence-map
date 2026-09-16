@@ -117,6 +117,51 @@
     return x;
   }
 
+
+  function layoutBeadsWrapped(nodes, y0, gap, maxWidth, rowGap) {
+    rowGap = rowGap || 56;
+    if (!nodes.length) return { width: 0, height: 0, rows: [] };
+    const rows = [];
+    let row = [];
+    let rowWidth = 0;
+    nodes.forEach((n, i) => {
+      const g = row.length ? gap : 0;
+      const need = n.w + g;
+      if (row.length && rowWidth + need > maxWidth) {
+        rows.push(row);
+        row = [];
+        rowWidth = 0;
+      }
+      const g2 = row.length ? gap : 0;
+      rowWidth += g2 + n.w;
+      row.push(n);
+    });
+    if (row.length) rows.push(row);
+
+    let maxRowW = 0;
+    rows.forEach((r, ri) => {
+      const y = y0 + ri * rowGap;
+      let x = 0;
+      r.forEach((n, i) => {
+        if (i) x += gap;
+        n.cx = x + n.w / 2;
+        n.cy = y;
+        n._row = ri;
+        x += n.w;
+      });
+      maxRowW = Math.max(maxRowW, x);
+      // center each row later via shift
+      r._width = x;
+    });
+    return {
+      width: maxRowW,
+      height: (rows.length - 1) * rowGap,
+      rows,
+      rowCount: rows.length,
+      rowGap,
+    };
+  }
+
   function shiftNodes(nodes, dx, dy) {
     dy = dy || 0;
     nodes.forEach((n) => {
@@ -354,9 +399,26 @@
     container.innerHTML = "";
 
     const W = 900;
-    const H = 680;
     const stroke = 4;
     const byId = tokenMap(sentence);
+
+    // --- Measure wrapped beads first (affects SVG height) ---
+    const beadFont = 16;
+    const beadGlossFont = 11;
+    const beadY0 = 88;
+    const beadMaxW = W - 80;
+    const beads = sentence.tokens.map((t) => makeNode(t, beadFont, true));
+    const beadLayout = layoutBeadsWrapped(beads, beadY0, 10, beadMaxW, 58);
+    beadLayout.rows.forEach((r) => {
+      const dx = (W - r._width) / 2;
+      r.forEach((n) => {
+        n.cx += dx;
+      });
+    });
+
+    const extraBeadH = beadLayout.height || 0;
+    const H = 680 + extraBeadH;
+    const mapY0 = 172 + extraBeadH;
 
     const svg = svgEl("svg", {
       viewBox: `0 0 ${W} ${H}`,
@@ -398,26 +460,20 @@
       svgEl(
         "text",
         Object.assign(
-          { x: W / 2, y: 158, textContent: "依附關係（謂語當中心，不是英文 SVO）" },
+          { x: W / 2, y: mapY0 - 14, textContent: "依附關係（謂語當中心，不是英文 SVO）" },
           labelAttrs
         )
       )
     );
 
-    // --- Bead row ---
-    const beadFont = 16;
-    const beadGlossFont = 11;
-    const beadY = 88;
-    const beads = sentence.tokens.map((t) => makeNode(t, beadFont, true));
-    const beadTotal = layoutSequence(beads, beadY, 10);
-    shiftNodes(beads, (W - beadTotal) / 2);
-
-    if (beads.length >= 2) {
-      thickLine(layer, beads[0].cx, beadY, beads[beads.length - 1].cx, beadY, 3, COLORS.black);
-    }
+    // --- Bead rows (wrapped) ---
+    beadLayout.rows.forEach((r) => {
+      if (r.length >= 2) {
+        thickLine(layer, r[0].cx, r[0].cy, r[r.length - 1].cx, r[0].cy, 3, COLORS.black);
+      }
+    });
     beads.forEach((n) => {
       const tok = byId[n.id];
-      const clickable = practice && !revealed.has(n.id);
       drawShape(
         layer,
         n,
@@ -431,7 +487,7 @@
     });
 
     // --- Map box ---
-    const mapBox = { x0: 40, y0: 172, x1: W - 40, y1: H - 90 };
+    const mapBox = { x0: 40, y0: mapY0, x1: W - 40, y1: H - 90 };
     const bw = mapBox.x1 - mapBox.x0;
     const bh = mapBox.y1 - mapBox.y0;
 

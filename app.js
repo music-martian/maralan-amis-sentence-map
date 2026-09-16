@@ -423,6 +423,23 @@
     });
   }
 
+
+  /** Insert line breaks after sentence-ending punctuation (keep punctuation). */
+  function breakSentences(text) {
+    if (!text) return "";
+    let t = String(text).replace(/\r\n/g, "\n").trim();
+    // Split on .!?。！？ when followed by space or quote/bracket then more text
+    t = t.replace(/([.!?。！？])(?!["'」』）\)]?\s*$)/g, "$1\n");
+    // Collapse extra blank lines; trim each line
+    t = t
+      .split("\n")
+      .map((ln) => ln.trim())
+      .filter((ln, i, arr) => ln || (i > 0 && arr[i - 1]))
+      .join("\n");
+    // Avoid breaking decimals / abbreviations lightly: undo break after single capital? skip for Amis
+    return t.replace(/\n{3,}/g, "\n\n");
+  }
+
   function updateMeta(s) {
     const n = state.sentences.length;
     const title =
@@ -442,10 +459,20 @@
       syncAudio(null);
       return;
     }
-    els.amis.textContent = s.amis || "";
-    els.zh.textContent = s.zh || "";
-    els.en.textContent = s.en || "";
-    els.en.hidden = !s.en;
+    const amisText = breakSentences(s.amis || "");
+    const zhText = breakSentences(s.zh || "");
+    const enText = breakSentences(s.en || "");
+    els.amis.textContent = amisText;
+    els.zh.textContent = zhText;
+    els.en.textContent = enText;
+    els.en.hidden = !enText;
+    const long =
+      amisText.length > 70 ||
+      zhText.length > 70 ||
+      (amisText + zhText).includes("\n");
+    els.amis.classList.toggle("is-long", long);
+    els.zh.classList.toggle("is-long", long);
+    els.en.classList.toggle("is-long", long && !!enText);
     els.select.value = String(state.index);
     els.prev.disabled = state.index === 0;
     els.next.disabled = state.index >= n - 1;

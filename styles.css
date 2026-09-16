@@ -200,11 +200,20 @@ body {
   margin-bottom: 0.2rem;
 }
 
+.sentence-meta .amis,
+.sentence-meta .zh,
+.sentence-meta .en {
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  white-space: pre-wrap; /* honor sentence line-breaks */
+  line-height: 1.45;
+}
+
 .sentence-meta .amis {
-  font-size: clamp(1.15rem, 4vw, 1.55rem);
+  font-size: clamp(1.0rem, 3.6vw, 1.45rem);
   font-weight: 800;
   margin: 0.15rem 0;
-  word-break: break-word;
   /* Latin-first so ’ in Nga’ayho stays tight (CJK faces widen U+2019) */
   font-family: "Segoe UI", "Helvetica Neue", Arial, "Noto Sans",
     "Noto Sans CJK TC", "Noto Sans TC", "PingFang TC", sans-serif;
@@ -212,11 +221,21 @@ body {
   font-feature-settings: "kern" 1;
 }
 
+.sentence-meta .amis.is-long {
+  font-size: clamp(0.92rem, 3.2vw, 1.2rem);
+  text-align: left;
+}
+
 .sentence-meta .zh {
-  font-size: 1.1rem;
+  font-size: 1.05rem;
   font-weight: 600;
   color: var(--gloss);
-  margin: 0.2rem 0 0;
+  margin: 0.35rem 0 0;
+}
+
+.sentence-meta .zh.is-long,
+.sentence-meta .en.is-long {
+  text-align: left;
 }
 
 .sentence-meta .en {
@@ -238,7 +257,8 @@ body {
 
 .diagram-wrap {
   width: 100%;
-  overflow: hidden;
+  overflow-x: auto;
+  overflow-y: visible;
   border-radius: 14px;
   background: transparent;
   touch-action: manipulation;
