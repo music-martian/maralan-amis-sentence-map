@@ -1,0 +1,594 @@
+{
+  "id": "talk_book17",
+  "module": "talk",
+  "title": "你要吃什麼？",
+  "title_ab": "O manan ko kakaenen iso?",
+  "source_url": "https://klokah.iformosa.com.tw/talk/learn/17",
+  "dialect": "馬蘭阿美語",
+  "sentences": [
+    {
+      "id": "001",
+      "amis": "O manan ko kakaenen iso?",
+      "zh": "Soʼir：你要吃什麼？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "O",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "manan",
+          "text": "manan",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kakaenen",
+          "text": "kakaenen",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "iso",
+          "text": "iso",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t5",
+          "text": "?",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "manan",
+            "ko",
+            "kakaenen",
+            "iso",
+            "t5"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "謂語 O 為中心（自動標記）"
+      },
+      "structure": "謂語 O 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c17s1.mp3",
+      "audio_primary": true,
+      "speaker": "Soʼir"
+    },
+    {
+      "id": "002",
+      "amis": "Fanohongay ko siraw ira sanay, tanamen ako.",
+      "zh": "Kay^ing：聽說這裡的醃肉很好吃，我要嚐嚐看。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Fanohongay",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "siraw",
+          "text": "siraw",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ira",
+          "text": "ira",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "sanay",
+          "text": "sanay",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t5",
+          "text": ",",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "tanamen",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ako",
+          "text": "ako",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t8",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "siraw",
+            "ira",
+            "sanay"
+          ],
+          [
+            "pred2",
+            "ako",
+            "t8"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c17s2.mp3",
+      "audio_primary": true,
+      "speaker": "Kay^ing"
+    },
+    {
+      "id": "003",
+      "amis": "Halisiraway to kiso niy. O maan ho?",
+      "zh": "Soʼir：你真的很愛吃醃肉耶，還要點什麼？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Halisiraway",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kiso",
+          "text": "kiso",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "niy",
+          "text": "niy",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t4",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "o",
+          "text": "O",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "maan",
+          "text": "maan",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ho",
+          "text": "ho",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t8",
+          "text": "?",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "to",
+            "kiso",
+            "niy",
+            "t4",
+            "o",
+            "maan",
+            "ho",
+            "t8"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "謂語 Halisiraway 為中心（自動標記）"
+      },
+      "structure": "謂語 Halisiraway 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c17s3.mp3",
+      "audio_primary": true,
+      "speaker": "Soʼir"
+    },
+    {
+      "id": "004",
+      "amis": "Oni comoli, kalang, paheko, o hakhak ho....",
+      "zh": "Kay^ing：我想點蝸牛、螃蟹、過貓還有糯米飯…。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Oni",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "comoli",
+          "text": "comoli",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t2",
+          "text": ",",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "kalang",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t4",
+          "text": ",",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "paheko",
+          "text": "paheko",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t6",
+          "text": ",",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "o",
+          "text": "o",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "hakhak",
+          "text": "hakhak",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ho",
+          "text": "ho",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t10",
+          "text": "....",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "comoli"
+          ],
+          [
+            "pred2"
+          ],
+          [
+            "paheko"
+          ],
+          [
+            "o",
+            "hakhak",
+            "ho",
+            "t10"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c17s4.mp3",
+      "audio_primary": true,
+      "speaker": "Kay^ing"
+    },
+    {
+      "id": "005",
+      "amis": "O maan ko ha kohaw ita?",
+      "zh": "Soʼir：我們要喝什麼湯？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "O",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "maan",
+          "text": "maan",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ha",
+          "text": "ha",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kohaw",
+          "text": "kohaw",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ita",
+          "text": "ita",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t6",
+          "text": "?",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "maan",
+            "ko",
+            "ha",
+            "kohaw",
+            "ita",
+            "t6"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "謂語 O 為中心（自動標記）"
+      },
+      "structure": "謂語 O 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c17s5.mp3",
+      "audio_primary": true,
+      "speaker": "Soʼir"
+    },
+    {
+      "id": "006",
+      "amis": "O dongec makena?",
+      "zh": "Kay^ing：藤心湯怎麼樣？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "O",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "dongec",
+          "text": "dongec",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "makena",
+          "text": "makena",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t3",
+          "text": "?",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "dongec",
+            "makena",
+            "t3"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "謂語 O 為中心（自動標記）"
+      },
+      "structure": "謂語 O 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c17s6.mp3",
+      "audio_primary": true,
+      "speaker": "Kay^ing"
+    },
+    {
+      "id": "007",
+      "amis": "Aya! ʼAnengelay ko dongec, falicen.",
+      "zh": "Soʼir：哎呀！藤心很苦啦，換一個。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Aya",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t1",
+          "text": "!",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ʼanengelay",
+          "text": "ʼAnengelay",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "dongec",
+          "text": "dongec",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t5",
+          "text": ",",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "falicen",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t7",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "t1",
+            "ʼanengelay",
+            "ko",
+            "dongec"
+          ],
+          [
+            "pred2",
+            "t7"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c17s7.mp3",
+      "audio_primary": true,
+      "speaker": "Soʼir"
+    }
+  ]
+}

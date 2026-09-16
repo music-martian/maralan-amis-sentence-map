@@ -42,7 +42,7 @@
     [COLORS.pred2, "第二子句謂語"],
   ];
 
-  const FOOTER = "Klokah 句型篇國中版 · 馬蘭阿美語 · 問候道別謝謝";
+  const FOOTER = "Klokah · 馬蘭阿美語 · 句型圖（自動標記）";
 
   function svgEl(name, attrs, children) {
     const el = document.createElementNS("http://www.w3.org/2000/svg", name);

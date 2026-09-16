@@ -1,0 +1,2563 @@
+{
+  "id": "dialogue_s2_l3",
+  "module": "dialogue",
+  "scene": 2,
+  "stage": 3,
+  "title": "情境2 · 初級 · 對話練習(三)",
+  "source_url": "https://klokah.iformosa.com.tw/dialogue/d4/s2/l3/talking",
+  "dialect": "馬蘭阿美語",
+  "sentences": [
+    {
+      "id": "001",
+      "amis": "Siwkayen ho ko tireng iso.",
+      "zh": "A:請自我介紹。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Siwkayen",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ho",
+          "text": "ho",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "tireng",
+          "text": "tireng",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "iso",
+          "text": "iso",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t5",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ho",
+            "ko",
+            "tireng",
+            "iso",
+            "t5"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "謂語 Siwkayen 為中心（自動標記）"
+      },
+      "structure": "謂語 Siwkayen 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/63177/883388.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "002",
+      "amis": "Si Caki kako, Moetepay to ko mihecaan ako.",
+      "zh": "B:我叫Caki，我今年10歲。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Si",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "caki",
+          "text": "Caki",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kako",
+          "text": "kako",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t3",
+          "text": ",",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "Moetepay",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "mihecaan",
+          "text": "mihecaan",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ako",
+          "text": "ako",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t9",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "caki",
+            "kako"
+          ],
+          [
+            "pred2",
+            "to",
+            "ko",
+            "mihecaan",
+            "ako",
+            "t9"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://web.klokah.tw/text/sound/63177/883389.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "003",
+      "amis": "Cima ko ngangan no miso?",
+      "zh": "A:你叫甚麼名字?",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Cima",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ngangan",
+          "text": "ngangan",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "no",
+          "text": "no",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "miso",
+          "text": "miso",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t5",
+          "text": "?",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "ngangan",
+            "t5"
+          ]
+        ],
+        "hangs": {
+          "ngangan": [
+            "no",
+            "miso"
+          ]
+        },
+        "plus_between_groups": false,
+        "structure": "謂語為中心；屬格 no/nu 掛於名詞下（自動）"
+      },
+      "structure": "謂語為中心；屬格 no/nu 掛於名詞下（自動）",
+      "audio": "https://web.klokah.tw/text/sound/63177/883390.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "004",
+      "amis": "Si Caki ko ngangan no mako.",
+      "zh": "B:我叫Caki。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Si",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "caki",
+          "text": "Caki",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ngangan",
+          "text": "ngangan",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "no",
+          "text": "no",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "mako",
+          "text": "mako",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t6",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "caki",
+            "ko",
+            "ngangan",
+            "t6"
+          ]
+        ],
+        "hangs": {
+          "ngangan": [
+            "no",
+            "mako"
+          ]
+        },
+        "plus_between_groups": false,
+        "structure": "謂語為中心；屬格 no/nu 掛於名詞下（自動）"
+      },
+      "structure": "謂語為中心；屬格 no/nu 掛於名詞下（自動）",
+      "audio": "https://web.klokah.tw/text/sound/63177/883391.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "005",
+      "amis": "O maan ko finacadan no miso?",
+      "zh": "A:你是哪一族的小孩?",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "O",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "maan",
+          "text": "maan",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "finacadan",
+          "text": "finacadan",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "no",
+          "text": "no",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "miso",
+          "text": "miso",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t6",
+          "text": "?",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "maan",
+            "ko",
+            "finacadan",
+            "t6"
+          ]
+        ],
+        "hangs": {
+          "finacadan": [
+            "no",
+            "miso"
+          ]
+        },
+        "plus_between_groups": false,
+        "structure": "謂語為中心；屬格 no/nu 掛於名詞下（自動）"
+      },
+      "structure": "謂語為中心；屬格 no/nu 掛於名詞下（自動）",
+      "audio": "https://web.klokah.tw/text/sound/63177/883392.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "006",
+      "amis": "O wawa no ’Amis kako.",
+      "zh": "B:我是阿美族小孩。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "O",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "wawa",
+          "text": "wawa",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "no",
+          "text": "no",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "amis",
+          "text": "’Amis",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kako",
+          "text": "kako",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t5",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "wawa",
+            "kako",
+            "t5"
+          ]
+        ],
+        "hangs": {
+          "wawa": [
+            "no",
+            "amis"
+          ]
+        },
+        "plus_between_groups": false,
+        "structure": "謂語為中心；屬格 no/nu 掛於名詞下（自動）"
+      },
+      "structure": "謂語為中心；屬格 no/nu 掛於名詞下（自動）",
+      "audio": "https://web.klokah.tw/text/sound/63177/883393.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "007",
+      "amis": "Saheto o Yencomin ko paro no loma’ namo haw?",
+      "zh": "A:你的家人都是原住民嗎?",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Saheto",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "o",
+          "text": "o",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "yencomin",
+          "text": "Yencomin",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "paro",
+          "text": "paro",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "no",
+          "text": "no",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "loma",
+          "text": "loma’",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "namo",
+          "text": "namo",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "haw",
+          "text": "haw",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t9",
+          "text": "?",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "o",
+            "yencomin",
+            "ko",
+            "paro",
+            "namo",
+            "haw",
+            "t9"
+          ]
+        ],
+        "hangs": {
+          "paro": [
+            "no",
+            "loma"
+          ]
+        },
+        "plus_between_groups": false,
+        "structure": "謂語為中心；屬格 no/nu 掛於名詞下（自動）"
+      },
+      "structure": "謂語為中心；屬格 no/nu 掛於名詞下（自動）",
+      "audio": "https://web.klokah.tw/text/sound/63177/883394.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "008",
+      "amis": "Hai, saheto o ’Amis ko paro no loma’ niyam.",
+      "zh": "B:是的，我們全家都是阿美族人。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Hai",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t1",
+          "text": ",",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "saheto",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "o",
+          "text": "o",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "amis",
+          "text": "’Amis",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "paro",
+          "text": "paro",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "no",
+          "text": "no",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "loma",
+          "text": "loma’",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "niyam",
+          "text": "niyam",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t10",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred"
+          ],
+          [
+            "pred2",
+            "o",
+            "amis",
+            "ko",
+            "paro",
+            "niyam",
+            "t10"
+          ]
+        ],
+        "hangs": {
+          "paro": [
+            "no",
+            "loma"
+          ]
+        },
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://web.klokah.tw/text/sound/63177/883395.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "009",
+      "amis": "Saheto o ’Amis ko paro no loma’ iso haw?",
+      "zh": "A:你的家人都是原住民嗎?",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Saheto",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "o",
+          "text": "o",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "amis",
+          "text": "’Amis",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "paro",
+          "text": "paro",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "no",
+          "text": "no",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "loma",
+          "text": "loma’",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "iso",
+          "text": "iso",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "haw",
+          "text": "haw",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t9",
+          "text": "?",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "o",
+            "amis",
+            "ko",
+            "paro",
+            "iso",
+            "haw",
+            "t9"
+          ]
+        ],
+        "hangs": {
+          "paro": [
+            "no",
+            "loma"
+          ]
+        },
+        "plus_between_groups": false,
+        "structure": "謂語為中心；屬格 no/nu 掛於名詞下（自動）"
+      },
+      "structure": "謂語為中心；屬格 no/nu 掛於名詞下（自動）",
+      "audio": "https://web.klokah.tw/text/sound/63177/883396.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "010",
+      "amis": "Cowa, o wama ako i, o ’Amis; o ina ako i, o Payrang.",
+      "zh": "B:不是，我的爸爸是阿美族，我的媽媽是漢人。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "cowa",
+          "text": "Cowa",
+          "role": "adverb",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t1",
+          "text": ",",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "o",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "wama",
+          "text": "wama",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ako",
+          "text": "ako",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "i",
+          "text": "i",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t6",
+          "text": ",",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "o",
+          "text": "o",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "amis",
+          "text": "’Amis",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t9",
+          "text": ";",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "o_3",
+          "text": "o",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ina",
+          "text": "ina",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ako_3",
+          "text": "ako",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "i_3",
+          "text": "i",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t14",
+          "text": ",",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "o_4",
+          "text": "o",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "payrang",
+          "text": "Payrang",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t17",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "cowa",
+            "t1",
+            "pred2",
+            "wama",
+            "ako",
+            "i",
+            "t6",
+            "o",
+            "amis",
+            "t9",
+            "o_3",
+            "ina",
+            "ako_3",
+            "i_3",
+            "t14",
+            "o_4",
+            "payrang",
+            "t17"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "長句：線性排列（自動標記，結構簡化）"
+      },
+      "structure": "長句：線性排列（自動標記，結構簡化）",
+      "audio": "https://web.klokah.tw/text/sound/63177/883397.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "011",
+      "amis": "Nima a wawa kiso?",
+      "zh": "A:你是誰的小孩?",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Nima",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "a",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "wawa",
+          "text": "wawa",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kiso",
+          "text": "kiso",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t4",
+          "text": "?",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "a",
+            "wawa",
+            "kiso",
+            "t4"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "謂語 Nima 為中心（自動標記）"
+      },
+      "structure": "謂語 Nima 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/63177/883398.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "012",
+      "amis": "O wawa ni Mayaw Lahok kako.",
+      "zh": "B:我是Mayaw Lahok的小孩。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "O",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "wawa",
+          "text": "wawa",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ni",
+          "text": "ni",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "mayaw",
+          "text": "Mayaw",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "lahok",
+          "text": "Lahok",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kako",
+          "text": "kako",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t6",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "wawa",
+            "ni",
+            "mayaw",
+            "lahok",
+            "kako",
+            "t6"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "謂語 O 為中心（自動標記）"
+      },
+      "structure": "謂語 O 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/63177/883399.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "013",
+      "amis": "O ama iso kora haw? Pinaay to ko mihecaan nira?",
+      "zh": "A:那位是你爸爸嗎? 他幾歲了?",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "O",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ama",
+          "text": "ama",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "iso",
+          "text": "iso",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kora",
+          "text": "kora",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "haw",
+          "text": "haw",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t5",
+          "text": "?",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pinaay",
+          "text": "Pinaay",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "mihecaan",
+          "text": "mihecaan",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "nira",
+          "text": "nira",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t11",
+          "text": "?",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ama",
+            "iso",
+            "kora",
+            "haw",
+            "t5",
+            "pinaay",
+            "to",
+            "ko",
+            "mihecaan",
+            "nira",
+            "t11"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "謂語 O 為中心（自動標記）"
+      },
+      "structure": "謂語 O 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/63177/883400.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "014",
+      "amis": "Enem polo’ ko mihecaan nira.",
+      "zh": "B:他六十歲了。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Enem",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "polo",
+          "text": "polo’",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "mihecaan",
+          "text": "mihecaan",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "nira",
+          "text": "nira",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t5",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "polo",
+            "ko",
+            "mihecaan",
+            "nira",
+            "t5"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "謂語 Enem 為中心（自動標記）"
+      },
+      "structure": "謂語 Enem 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/63177/883401.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "015",
+      "amis": "Cowa, o kalas no niyaro’ cira, falo polo’ to ko mihecaan nira.",
+      "zh": "B:不是，他是我們部落的耆老，他80歲了。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "cowa",
+          "text": "Cowa",
+          "role": "adverb",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t1",
+          "text": ",",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "o",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kalas",
+          "text": "kalas",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "no",
+          "text": "no",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "niyaro",
+          "text": "niyaro’",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "cira",
+          "text": "cira",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t7",
+          "text": ",",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "falo",
+          "text": "falo",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "polo",
+          "text": "polo’",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "mihecaan",
+          "text": "mihecaan",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "nira",
+          "text": "nira",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t14",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "cowa",
+            "t1",
+            "pred2",
+            "kalas",
+            "no",
+            "niyaro",
+            "cira",
+            "t7",
+            "falo",
+            "polo",
+            "to",
+            "ko",
+            "mihecaan",
+            "nira",
+            "t14"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "長句：線性排列（自動標記，結構簡化）"
+      },
+      "structure": "長句：線性排列（自動標記，結構簡化）",
+      "audio": "https://web.klokah.tw/text/sound/63177/883403.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "016",
+      "amis": "Pina to ko mihecaan no kaka iso to faʼinayan?",
+      "zh": "A:你哥哥幾歲了?",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Pina",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "mihecaan",
+          "text": "mihecaan",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "no",
+          "text": "no",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kaka",
+          "text": "kaka",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "iso",
+          "text": "iso",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "to_3",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "faʼinayan",
+          "text": "faʼinayan",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t9",
+          "text": "?",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "to",
+            "ko",
+            "mihecaan",
+            "iso",
+            "to_3",
+            "faʼinayan",
+            "t9"
+          ]
+        ],
+        "hangs": {
+          "mihecaan": [
+            "no",
+            "kaka"
+          ]
+        },
+        "plus_between_groups": false,
+        "structure": "謂語為中心；屬格 no/nu 掛於名詞下（自動）"
+      },
+      "structure": "謂語為中心；屬格 no/nu 掛於名詞下（自動）",
+      "audio": "https://web.klokah.tw/text/sound/63177/883404.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "017",
+      "amis": "Moetep ira ko falo ko mihecaan no kaka ako.",
+      "zh": "B:我哥哥18歲了。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Moetep",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ira",
+          "text": "ira",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "falo",
+          "text": "falo",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko_3",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "mihecaan",
+          "text": "mihecaan",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "no",
+          "text": "no",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kaka",
+          "text": "kaka",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ako",
+          "text": "ako",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t9",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ira",
+            "ko",
+            "falo",
+            "ko_3",
+            "mihecaan",
+            "ako",
+            "t9"
+          ]
+        ],
+        "hangs": {
+          "mihecaan": [
+            "no",
+            "kaka"
+          ]
+        },
+        "plus_between_groups": false,
+        "structure": "謂語為中心；屬格 no/nu 掛於名詞下（自動）"
+      },
+      "structure": "謂語為中心；屬格 no/nu 掛於名詞下（自動）",
+      "audio": "https://web.klokah.tw/text/sound/63177/883405.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "018",
+      "amis": "Adihayay ko kaikaka no mihecaan no kaka iso tisowanan haw?",
+      "zh": "A:你哥哥年紀比你大很多嗎?",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Adihayay",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kaikaka",
+          "text": "kaikaka",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "no",
+          "text": "no",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "mihecaan",
+          "text": "mihecaan",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "no_3",
+          "text": "no",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kaka",
+          "text": "kaka",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "iso",
+          "text": "iso",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "tisowanan",
+          "text": "tisowanan",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "haw",
+          "text": "haw",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t10",
+          "text": "?",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "kaikaka",
+            "no_3",
+            "kaka",
+            "iso",
+            "tisowanan",
+            "haw",
+            "t10"
+          ]
+        ],
+        "hangs": {
+          "kaikaka": [
+            "no",
+            "mihecaan"
+          ]
+        },
+        "plus_between_groups": false,
+        "structure": "謂語為中心；屬格 no/nu 掛於名詞下（自動）"
+      },
+      "structure": "謂語為中心；屬格 no/nu 掛於名詞下（自動）",
+      "audio": "https://web.klokah.tw/text/sound/63177/883406.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "019",
+      "amis": "Lima a mihecaan ko kalalaʼed no mihecaan niyam.",
+      "zh": "B:我們差5歲。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Lima",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "a",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "mihecaan",
+          "text": "mihecaan",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kalalaʼed",
+          "text": "kalalaʼed",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "no",
+          "text": "no",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "mihecaan_3",
+          "text": "mihecaan",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "niyam",
+          "text": "niyam",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t8",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "a",
+            "mihecaan",
+            "ko",
+            "kalalaʼed",
+            "niyam",
+            "t8"
+          ]
+        ],
+        "hangs": {
+          "kalalaʼed": [
+            "no",
+            "mihecaan_3"
+          ]
+        },
+        "plus_between_groups": false,
+        "structure": "謂語為中心；屬格 no/nu 掛於名詞下（自動）"
+      },
+      "structure": "謂語為中心；屬格 no/nu 掛於名詞下（自動）",
+      "audio": "https://web.klokah.tw/text/sound/63177/883407.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "020",
+      "amis": "Hakowaay ko ’akawang iso?",
+      "zh": "A:你身高多少?",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Hakowaay",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "akawang",
+          "text": "’akawang",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "iso",
+          "text": "iso",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t4",
+          "text": "?",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "akawang",
+            "iso",
+            "t4"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "謂語 Hakowaay 為中心（自動標記）"
+      },
+      "structure": "謂語 Hakowaay 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/63177/883408.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "021",
+      "amis": "Cecay soʼot ira ko sepat polo’ a kongfen ko ’akawang ako.",
+      "zh": "B:我140公分。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Cecay",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "soʼot",
+          "text": "soʼot",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ira",
+          "text": "ira",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "sepat",
+          "text": "sepat",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "polo",
+          "text": "polo’",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "a",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kongfen",
+          "text": "kongfen",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko_3",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "akawang",
+          "text": "’akawang",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ako",
+          "text": "ako",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t11",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "soʼot",
+            "ira",
+            "ko",
+            "sepat",
+            "polo",
+            "a",
+            "kongfen",
+            "ko_3",
+            "akawang",
+            "ako",
+            "t11"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "謂語 Cecay 為中心（自動標記）"
+      },
+      "structure": "謂語 Cecay 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/63177/883409.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "022",
+      "amis": "Halafin to caay kasasoʼaraw, ’akawangay to kiso haw?",
+      "zh": "A:好久不見，你是不是長高了?",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Halafin",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "caay",
+          "text": "caay",
+          "role": "adverb",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kasasoʼaraw",
+          "text": "kasasoʼaraw",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t4",
+          "text": ",",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "’akawangay",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "to_3",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kiso",
+          "text": "kiso",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "haw",
+          "text": "haw",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t9",
+          "text": "?",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "to",
+            "caay",
+            "kasasoʼaraw"
+          ],
+          [
+            "pred2",
+            "to_3",
+            "kiso",
+            "haw",
+            "t9"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://web.klokah.tw/text/sound/63177/883410.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "023",
+      "amis": "Hai, Cecay soʼot ira ko tolo polo’ ko ’akawang ako.",
+      "zh": "B:對阿，我130公分了。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Hai",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t1",
+          "text": ",",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "Cecay",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "soʼot",
+          "text": "soʼot",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ira",
+          "text": "ira",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "tolo",
+          "text": "tolo",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "polo",
+          "text": "polo’",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko_3",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "akawang",
+          "text": "’akawang",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ako",
+          "text": "ako",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t11",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred"
+          ],
+          [
+            "pred2",
+            "soʼot",
+            "ira",
+            "ko",
+            "tolo",
+            "polo",
+            "ko_3",
+            "akawang",
+            "ako",
+            "t11"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://web.klokah.tw/text/sound/63177/883411.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "024",
+      "amis": "Maso^soay kiso haw?",
+      "zh": "A:你是不是胖了?",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Maso^soay",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kiso",
+          "text": "kiso",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "haw",
+          "text": "haw",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t3",
+          "text": "?",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "kiso",
+            "haw",
+            "t3"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "謂語 Maso^soay 為中心（自動標記）"
+      },
+      "structure": "謂語 Maso^soay 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/63177/883412.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "025",
+      "amis": "Cowa, mararaway ko pinengneng iso.",
+      "zh": "B:沒有，你看錯了。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "cowa",
+          "text": "Cowa",
+          "role": "adverb",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t1",
+          "text": ",",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "mararaway",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pinengneng",
+          "text": "pinengneng",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "iso",
+          "text": "iso",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t6",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "cowa"
+          ],
+          [
+            "pred2",
+            "ko",
+            "pinengneng",
+            "iso",
+            "t6"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://web.klokah.tw/text/sound/63177/883413.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "026",
+      "amis": "Mangiliway kiso haw?",
+      "zh": "A:你瘦了嗎?",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Mangiliway",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kiso",
+          "text": "kiso",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "haw",
+          "text": "haw",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t3",
+          "text": "?",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "kiso",
+            "haw",
+            "t3"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "謂語 Mangiliway 為中心（自動標記）"
+      },
+      "structure": "謂語 Mangiliway 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/63177/883414.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "027",
+      "amis": "Cowa, maso^soay kako.",
+      "zh": "B:沒有，我胖了。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "cowa",
+          "text": "Cowa",
+          "role": "adverb",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t1",
+          "text": ",",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "maso^soay",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kako",
+          "text": "kako",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t4",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "cowa"
+          ],
+          [
+            "pred2",
+            "kako",
+            "t4"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://web.klokah.tw/text/sound/63177/883415.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "028",
+      "amis": "Hai, tolo polo’ to ko tingting ako.",
+      "zh": "B:對，我現在30公斤了。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Hai",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t1",
+          "text": ",",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "tolo",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "polo",
+          "text": "polo’",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "tingting",
+          "text": "tingting",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ako",
+          "text": "ako",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t8",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred"
+          ],
+          [
+            "pred2",
+            "polo",
+            "to",
+            "ko",
+            "tingting",
+            "ako",
+            "t8"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://web.klokah.tw/text/sound/63177/883417.mp3",
+      "audio_primary": true
+    }
+  ]
+}

@@ -1,0 +1,2157 @@
+{
+  "id": "dialogue_s6_l3",
+  "module": "dialogue",
+  "scene": 6,
+  "stage": 3,
+  "title": "情境6 · 中級 · 對話練習(三)",
+  "source_url": "https://klokah.iformosa.com.tw/dialogue/d4/s6/l3/talking",
+  "dialect": "馬蘭阿美語",
+  "sentences": [
+    {
+      "id": "001",
+      "amis": "Iraay i loma’ ko fofo haw?",
+      "zh": "A:奶奶在家嗎?",
+      "en": "",
+      "tokens": [
+        {
+          "id": "iraay",
+          "text": "Iraay",
+          "role": "adverb",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "i",
+          "text": "i",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred",
+          "text": "loma’",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "fofo",
+          "text": "fofo",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "haw",
+          "text": "haw",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t6",
+          "text": "?",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "iraay",
+            "i",
+            "pred",
+            "ko",
+            "fofo",
+            "haw",
+            "t6"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "謂語 loma’ 為中心（自動標記）"
+      },
+      "structure": "謂語 loma’ 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/63183/883510.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "002",
+      "amis": "Iraay, mafotiʼay cira i kafotiʼan.",
+      "zh": "B:在，她在房間睡覺。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "iraay",
+          "text": "Iraay",
+          "role": "adverb",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t1",
+          "text": ",",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "mafotiʼay",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "cira",
+          "text": "cira",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "i",
+          "text": "i",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kafotiʼan",
+          "text": "kafotiʼan",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t6",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "iraay"
+          ],
+          [
+            "pred2",
+            "cira",
+            "i",
+            "kafotiʼan",
+            "t6"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://web.klokah.tw/text/sound/63183/883511.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "003",
+      "amis": "Awaay, mahadakay cira, dadaya nga, minokayay.",
+      "zh": "B:不在，她剛出去了，要晚上才回家。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Awaay",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t1",
+          "text": ",",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "mahadakay",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "cira",
+          "text": "cira",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t4",
+          "text": ",",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "dadaya",
+          "text": "dadaya",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "nga",
+          "text": "nga",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t7",
+          "text": ",",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "minokayay",
+          "text": "minokayay",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t9",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred"
+          ],
+          [
+            "pred2",
+            "cira"
+          ],
+          [
+            "dadaya",
+            "nga"
+          ],
+          [
+            "minokayay",
+            "t9"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://web.klokah.tw/text/sound/63183/883513.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "004",
+      "amis": "Iraay i loma’ ko akong haw?",
+      "zh": "A:爺爺在家嗎?",
+      "en": "",
+      "tokens": [
+        {
+          "id": "iraay",
+          "text": "Iraay",
+          "role": "adverb",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "i",
+          "text": "i",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred",
+          "text": "loma’",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "akong",
+          "text": "akong",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "haw",
+          "text": "haw",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t6",
+          "text": "?",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "iraay",
+            "i",
+            "pred",
+            "ko",
+            "akong",
+            "haw",
+            "t6"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "謂語 loma’ 為中心（自動標記）"
+      },
+      "structure": "謂語 loma’ 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/63183/883514.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "005",
+      "amis": "Iraay i kafekang o sakarosa a tingroh, kilimen cira.",
+      "zh": "B:他在二樓，你上去找他吧。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "iraay",
+          "text": "Iraay",
+          "role": "adverb",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "i",
+          "text": "i",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred",
+          "text": "kafekang",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "o",
+          "text": "o",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "sakarosa",
+          "text": "sakarosa",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "a",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "tingroh",
+          "text": "tingroh",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t7",
+          "text": ",",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "kilimen",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "cira",
+          "text": "cira",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t10",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "iraay",
+            "i",
+            "pred",
+            "o",
+            "sakarosa",
+            "a",
+            "tingroh"
+          ],
+          [
+            "pred2",
+            "cira",
+            "t10"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://web.klokah.tw/text/sound/63183/883515.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "006",
+      "amis": "Iraay ko tamdaw i loma’ haw?",
+      "zh": "A:有人在家嗎?",
+      "en": "",
+      "tokens": [
+        {
+          "id": "iraay",
+          "text": "Iraay",
+          "role": "adverb",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred",
+          "text": "tamdaw",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "i",
+          "text": "i",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "loma",
+          "text": "loma’",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "haw",
+          "text": "haw",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t6",
+          "text": "?",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "iraay",
+            "ko",
+            "pred",
+            "i",
+            "loma",
+            "haw",
+            "t6"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "謂語 tamdaw 為中心（自動標記）"
+      },
+      "structure": "謂語 tamdaw 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/63183/883516.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "007",
+      "amis": "Ci Kacaw ha! Halafin to cowa kaʼaraw kiso. Ngaʼayay ho ko miso?",
+      "zh": "B:是Kacaw阿，很久沒有看到你了，你好嗎?",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Ci",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kacaw",
+          "text": "Kacaw",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ha",
+          "text": "ha",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t3",
+          "text": "!",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "halafin",
+          "text": "Halafin",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "cowa",
+          "text": "cowa",
+          "role": "adverb",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kaʼaraw",
+          "text": "kaʼaraw",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kiso",
+          "text": "kiso",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t9",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ngaʼayay",
+          "text": "Ngaʼayay",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ho",
+          "text": "ho",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "miso",
+          "text": "miso",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t14",
+          "text": "?",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "kacaw",
+            "ha",
+            "t3",
+            "halafin",
+            "to",
+            "cowa",
+            "kaʼaraw",
+            "kiso",
+            "t9",
+            "ngaʼayay",
+            "ho",
+            "ko",
+            "miso",
+            "t14"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "長句：線性排列（自動標記，結構簡化）"
+      },
+      "structure": "長句：線性排列（自動標記，結構簡化）",
+      "audio": "https://web.klokah.tw/text/sound/63183/883517.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "008",
+      "amis": "Ngaʼayay! Malaholol ho kita sa kako.",
+      "zh": "A:很好啊!我來找你聊天。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Ngaʼayay",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t1",
+          "text": "!",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "malaholol",
+          "text": "Malaholol",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ho",
+          "text": "ho",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kita",
+          "text": "kita",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "sa",
+          "text": "sa",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kako",
+          "text": "kako",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t7",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "t1",
+            "malaholol",
+            "ho",
+            "kita",
+            "sa",
+            "kako",
+            "t7"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "謂語 Ngaʼayay 為中心（自動標記）"
+      },
+      "structure": "謂語 Ngaʼayay 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/63183/883518.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "009",
+      "amis": "Icowaay ko ama iso?",
+      "zh": "A:你的爸爸在哪裡?",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Icowaay",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ama",
+          "text": "ama",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "iso",
+          "text": "iso",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t4",
+          "text": "?",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "ama",
+            "iso",
+            "t4"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "謂語 Icowaay 為中心（自動標記）"
+      },
+      "structure": "謂語 Icowaay 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/63183/883519.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "010",
+      "amis": "Miciyanay cira to dateng i caka, paiyoyen ako cira.",
+      "zh": "B:他在廚房炒菜，我去叫他。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Miciyanay",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "cira",
+          "text": "cira",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "dateng",
+          "text": "dateng",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "i",
+          "text": "i",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "caka",
+          "text": "caka",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t6",
+          "text": ",",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "paiyoyen",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ako",
+          "text": "ako",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "cira_3",
+          "text": "cira",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t10",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "cira",
+            "to",
+            "dateng",
+            "i",
+            "caka"
+          ],
+          [
+            "pred2",
+            "ako",
+            "cira_3",
+            "t10"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://web.klokah.tw/text/sound/63183/883520.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "011",
+      "amis": "Talacowaay ci Panay?",
+      "zh": "A:Panay去哪裡了?",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Talacowaay",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ci",
+          "text": "ci",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "panay",
+          "text": "Panay",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t3",
+          "text": "?",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ci",
+            "panay",
+            "t3"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "謂語 Talacowaay 為中心（自動標記）"
+      },
+      "structure": "謂語 Talacowaay 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/63183/883521.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "012",
+      "amis": "Micepetay cira to koko’ i pakokoʼan.",
+      "zh": "B:她去雞寮抓雞了。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Micepetay",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "cira",
+          "text": "cira",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "koko",
+          "text": "koko’",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "i",
+          "text": "i",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pakokoʼan",
+          "text": "pakokoʼan",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t6",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "cira",
+            "to",
+            "koko",
+            "i",
+            "pakokoʼan",
+            "t6"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "謂語 Micepetay 為中心（自動標記）"
+      },
+      "structure": "謂語 Micepetay 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/63183/883522.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "013",
+      "amis": "Akong, tayniay to kami.",
+      "zh": "A:爺爺，我們來了。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Akong",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t1",
+          "text": ",",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "tayniay",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kami",
+          "text": "kami",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t5",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred"
+          ],
+          [
+            "pred2",
+            "to",
+            "kami",
+            "t5"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://web.klokah.tw/text/sound/63183/883523.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "014",
+      "amis": "Awaay i loma’ ko akong namo, itiraay i omah cira. i loma’ sa ho kamo a mitala ciraan.",
+      "zh": "B:你們的爺爺不在家，他在田裡，你們在家等他回來吧。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Awaay",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "i",
+          "text": "i",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "loma",
+          "text": "loma’",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "akong",
+          "text": "akong",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "namo",
+          "text": "namo",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t6",
+          "text": ",",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "itiraay",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "i_3",
+          "text": "i",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "omah",
+          "text": "omah",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "cira",
+          "text": "cira",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t11",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "i_4",
+          "text": "i",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "loma_3",
+          "text": "loma’",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "sa",
+          "text": "sa",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ho",
+          "text": "ho",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kamo",
+          "text": "kamo",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "a",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "mitala",
+          "text": "mitala",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ciraan",
+          "text": "ciraan",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t20",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "i",
+            "loma",
+            "ko",
+            "akong",
+            "namo",
+            "t6",
+            "pred2",
+            "i_3",
+            "omah",
+            "cira",
+            "t11",
+            "i_4",
+            "loma_3",
+            "sa",
+            "ho",
+            "kamo",
+            "a",
+            "mitala",
+            "ciraan",
+            "t20"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "長句：線性排列（自動標記，結構簡化）"
+      },
+      "structure": "長句：線性排列（自動標記，結構簡化）",
+      "audio": "https://web.klokah.tw/text/sound/63183/883524.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "015",
+      "amis": "Faki, iraay to kiso!",
+      "zh": "A:叔叔你來啦!",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Faki",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t1",
+          "text": ",",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "iraay",
+          "text": "iraay",
+          "role": "adverb",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kiso",
+          "text": "kiso",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t5",
+          "text": "!",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred"
+          ],
+          [
+            "iraay",
+            "to",
+            "kiso",
+            "t5"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://web.klokah.tw/text/sound/63183/883525.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "016",
+      "amis": "Halafin to cowa kaʼaraw kiso, ’akawangay to kiso.",
+      "zh": "B:好久不見，你長高了。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Halafin",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "cowa",
+          "text": "cowa",
+          "role": "adverb",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kaʼaraw",
+          "text": "kaʼaraw",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kiso",
+          "text": "kiso",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t5",
+          "text": ",",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "’akawangay",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "to_3",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kiso_3",
+          "text": "kiso",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t9",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "to",
+            "cowa",
+            "kaʼaraw",
+            "kiso"
+          ],
+          [
+            "pred2",
+            "to_3",
+            "kiso_3",
+            "t9"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://web.klokah.tw/text/sound/63183/883526.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "017",
+      "amis": "Mahemek ko faloco’ to katayni iso.",
+      "zh": "A:看到你來真開心。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Mahemek",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "faloco",
+          "text": "faloco’",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "katayni",
+          "text": "katayni",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "iso",
+          "text": "iso",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t6",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "faloco",
+            "to",
+            "katayni",
+            "iso",
+            "t6"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "謂語 Mahemek 為中心（自動標記）"
+      },
+      "structure": "謂語 Mahemek 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/63183/883527.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "018",
+      "amis": "O papafelien kamo tona onglay, pingsyangen.",
+      "zh": "B:這是給你們的鳳梨，要放到冰箱裡。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "O",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "papafelien",
+          "text": "papafelien",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kamo",
+          "text": "kamo",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "tona",
+          "text": "tona",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "onglay",
+          "text": "onglay",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t5",
+          "text": ",",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "pingsyangen",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t7",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "papafelien",
+            "kamo",
+            "tona",
+            "onglay"
+          ],
+          [
+            "pred2",
+            "t7"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://web.klokah.tw/text/sound/63183/883528.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "019",
+      "amis": "Halafin sa, awa ho a tayni, pohayen ho ako cangra a mapolong a malahok.",
+      "zh": "A:這麼久沒來，我叫大家一起來吃飯。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Halafin",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "sa",
+          "text": "sa",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t2",
+          "text": ",",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "awa",
+          "text": "awa",
+          "role": "adverb",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "ho",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "a",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "tayni",
+          "text": "tayni",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t7",
+          "text": ",",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pohayen",
+          "text": "pohayen",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ho",
+          "text": "ho",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ako",
+          "text": "ako",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "cangra",
+          "text": "cangra",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "a_3",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "mapolong",
+          "text": "mapolong",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "a_4",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "malahok",
+          "text": "malahok",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t16",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "sa",
+            "t2",
+            "awa",
+            "pred2",
+            "a",
+            "tayni",
+            "t7",
+            "pohayen",
+            "ho",
+            "ako",
+            "cangra",
+            "a_3",
+            "mapolong",
+            "a_4",
+            "malahok",
+            "t16"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "長句：線性排列（自動標記，結構簡化）"
+      },
+      "structure": "長句：線性排列（自動標記，結構簡化）",
+      "audio": "https://web.klokah.tw/text/sound/63183/883529.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "020",
+      "amis": "Hapimaan, ocya sa ko nananomen ako, itira kita i palafangan a malaholoholol.",
+      "zh": "B:不用麻煩了，我喝茶就好，我們來客廳聊天。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Hapimaan",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t1",
+          "text": ",",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "ocya",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "sa",
+          "text": "sa",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "nananomen",
+          "text": "nananomen",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ako",
+          "text": "ako",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t7",
+          "text": ",",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "itira",
+          "text": "itira",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kita",
+          "text": "kita",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "i",
+          "text": "i",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "palafangan",
+          "text": "palafangan",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "a",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "malaholoholol",
+          "text": "malaholoholol",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t14",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "t1",
+            "pred2",
+            "sa",
+            "ko",
+            "nananomen",
+            "ako",
+            "t7",
+            "itira",
+            "kita",
+            "i",
+            "palafangan",
+            "a",
+            "malaholoholol",
+            "t14"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "長句：線性排列（自動標記，結構簡化）"
+      },
+      "structure": "長句：線性排列（自動標記，結構簡化）",
+      "audio": "https://web.klokah.tw/text/sound/63183/883530.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "021",
+      "amis": "Ahowiday to pihamham iso. Minokay to kako.",
+      "zh": "A:謝謝你的招待，我要回去了。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Ahowiday",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pihamham",
+          "text": "pihamham",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "iso",
+          "text": "iso",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t4",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "minokay",
+          "text": "Minokay",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "to_3",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kako",
+          "text": "kako",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t8",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "to",
+            "pihamham",
+            "iso",
+            "t4",
+            "minokay",
+            "to_3",
+            "kako",
+            "t8"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "謂語 Ahowiday 為中心（自動標記）"
+      },
+      "structure": "謂語 Ahowiday 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/63183/883531.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "022",
+      "amis": "Maherekay to a miliʼopih koni koko’, panokayen cedeng han iso a komaen.",
+      "zh": "B:這隻雞剛殺好，你帶回去慢慢吃。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Maherekay",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "a",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "miliʼopih",
+          "text": "miliʼopih",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "koni",
+          "text": "koni",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "koko",
+          "text": "koko’",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t6",
+          "text": ",",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "panokayen",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "cedeng",
+          "text": "cedeng",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "han",
+          "text": "han",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "iso",
+          "text": "iso",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "a_3",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "komaen",
+          "text": "komaen",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t13",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "to",
+            "a",
+            "miliʼopih",
+            "koni",
+            "koko",
+            "t6",
+            "pred2",
+            "cedeng",
+            "han",
+            "iso",
+            "a_3",
+            "komaen",
+            "t13"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "長句：線性排列（自動標記，結構簡化）"
+      },
+      "structure": "長句：線性排列（自動標記，結構簡化）",
+      "audio": "https://web.klokah.tw/text/sound/63183/883532.mp3",
+      "audio_primary": true
+    }
+  ]
+}

@@ -1,0 +1,2313 @@
+{
+  "id": "dialogue_s4_l1",
+  "module": "dialogue",
+  "scene": 4,
+  "stage": 1,
+  "title": "情境4 · 初級 · 對話練習(一)",
+  "source_url": "https://klokah.iformosa.com.tw/dialogue/d4/s4/l1/talking",
+  "dialect": "馬蘭阿美語",
+  "sentences": [
+    {
+      "id": "001",
+      "amis": "Masamaan ko romiʼad anini?",
+      "zh": "A:今天天氣如何?",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Masamaan",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "romiʼad",
+          "text": "romiʼad",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "anini",
+          "text": "anini",
+          "role": "adverb",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t4",
+          "text": "?",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "romiʼad",
+            "anini",
+            "t4"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "謂語 Masamaan 為中心（自動標記）"
+      },
+      "structure": "謂語 Masamaan 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26967/441729.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "002",
+      "amis": "Masadakayto ko cidal, fa^det ko romiʼad.",
+      "zh": "B:太陽出來了，天氣很熱。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Masadakayto",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "cidal",
+          "text": "cidal",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t3",
+          "text": ",",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "fa^det",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko_3",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "romiʼad",
+          "text": "romiʼad",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t7",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "cidal"
+          ],
+          [
+            "pred2",
+            "ko_3",
+            "romiʼad",
+            "t7"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://web.klokah.tw/text/sound/26967/441730.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "003",
+      "amis": "Si^naw i papotal?",
+      "zh": "A:外面會很冷嗎?",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Si^naw",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "i",
+          "text": "i",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "papotal",
+          "text": "papotal",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t3",
+          "text": "?",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "i",
+            "papotal",
+            "t3"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "謂語 Si^naw 為中心（自動標記）"
+      },
+      "structure": "謂語 Si^naw 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26967/441731.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "004",
+      "amis": "Si^naw, adihayen ko kaciriko’.",
+      "zh": "B:很冷，要多穿衣服。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Si^naw",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t1",
+          "text": ",",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "adihayen",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kaciriko",
+          "text": "kaciriko’",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t5",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred"
+          ],
+          [
+            "pred2",
+            "ko",
+            "kaciriko",
+            "t5"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://web.klokah.tw/text/sound/26967/441732.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "005",
+      "amis": "Fa^det ko papotal haw?",
+      "zh": "A:外面會很熱嗎?",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Fa^det",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "papotal",
+          "text": "papotal",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "haw",
+          "text": "haw",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t4",
+          "text": "?",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "papotal",
+            "haw",
+            "t4"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "謂語 Fa^det 為中心（自動標記）"
+      },
+      "structure": "謂語 Fa^det 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26967/441733.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "006",
+      "amis": "Caay, mafalito, sa^meray.",
+      "zh": "B:不會，起風了，很涼快。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "caay",
+          "text": "Caay",
+          "role": "adverb",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t1",
+          "text": ",",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "mafalito",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t3",
+          "text": ",",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "sameray",
+          "text": "sa^meray",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t5",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "caay"
+          ],
+          [
+            "pred2"
+          ],
+          [
+            "sameray",
+            "t5"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://web.klokah.tw/text/sound/26967/441734.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "007",
+      "amis": "Samaan ko romiʼad anini?",
+      "zh": "A:今天天氣怎麼樣?",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Samaan",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "romiʼad",
+          "text": "romiʼad",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "anini",
+          "text": "anini",
+          "role": "adverb",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t4",
+          "text": "?",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "romiʼad",
+            "anini",
+            "t4"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "謂語 Samaan 為中心（自動標記）"
+      },
+      "structure": "謂語 Samaan 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26967/441735.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "008",
+      "amis": "Caay ka si^naw, caay ka fa^det, sangaʼay saan.",
+      "zh": "B:今天不冷也不熱，很舒服。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "caay",
+          "text": "Caay",
+          "role": "adverb",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred",
+          "text": "ka",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "sinaw",
+          "text": "si^naw",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t3",
+          "text": ",",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "caay_3",
+          "text": "caay",
+          "role": "adverb",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "ka",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "fadet",
+          "text": "fa^det",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t7",
+          "text": ",",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "sangaʼay",
+          "text": "sangaʼay",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "saan",
+          "text": "saan",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t10",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "caay",
+            "pred",
+            "sinaw"
+          ],
+          [
+            "caay_3",
+            "pred2",
+            "fadet"
+          ],
+          [
+            "sangaʼay",
+            "saan",
+            "t10"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://web.klokah.tw/text/sound/26967/441736.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "009",
+      "amis": "Masamaan ko romiʼad tona dadaya?",
+      "zh": "A:今天晚上天氣如何?",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Masamaan",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "romiʼad",
+          "text": "romiʼad",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "tona",
+          "text": "tona",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "dadaya",
+          "text": "dadaya",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t5",
+          "text": "?",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "romiʼad",
+            "tona",
+            "dadaya",
+            "t5"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "謂語 Masamaan 為中心（自動標記）"
+      },
+      "structure": "謂語 Masamaan 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26967/441737.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "010",
+      "amis": "Awaay ko to^em i kakarayan, masadakay ko foʼis.",
+      "zh": "B:天空沒有雲，星星出來了。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Awaay",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "toem",
+          "text": "to^em",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "i",
+          "text": "i",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kakarayan",
+          "text": "kakarayan",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t5",
+          "text": ",",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "masadakay",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko_3",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "foʼis",
+          "text": "foʼis",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t9",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "toem",
+            "i",
+            "kakarayan"
+          ],
+          [
+            "pred2",
+            "ko_3",
+            "foʼis",
+            "t9"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://web.klokah.tw/text/sound/26967/441738.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "011",
+      "amis": "Masamaan ko romiʼad i papotal?",
+      "zh": "A:外面天氣如何?",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Masamaan",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "romiʼad",
+          "text": "romiʼad",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "i",
+          "text": "i",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "papotal",
+          "text": "papotal",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t5",
+          "text": "?",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "romiʼad",
+            "i",
+            "papotal",
+            "t5"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "謂語 Masamaan 為中心（自動標記）"
+      },
+      "structure": "謂語 Masamaan 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26967/441739.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "012",
+      "amis": "Terp saho ko ’orad, masadakto ko cidal, madasak ko talakal ni Idek.",
+      "zh": "B:雨剛剛停，出了太陽，彩虹出來了。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Terp",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "saho",
+          "text": "saho",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "orad",
+          "text": "’orad",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t4",
+          "text": ",",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "masadakto",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko_3",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "cidal",
+          "text": "cidal",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t8",
+          "text": ",",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "madasak",
+          "text": "madasak",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko_4",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "talakal",
+          "text": "talakal",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ni",
+          "text": "ni",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "idek",
+          "text": "Idek",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t14",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "saho",
+            "ko",
+            "orad",
+            "t4",
+            "pred2",
+            "ko_3",
+            "cidal",
+            "t8",
+            "madasak",
+            "ko_4",
+            "talakal",
+            "ni",
+            "idek",
+            "t14"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "長句：線性排列（自動標記，結構簡化）"
+      },
+      "structure": "長句：線性排列（自動標記，結構簡化）",
+      "audio": "https://web.klokah.tw/text/sound/26967/441740.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "013",
+      "amis": "Samaan ko romiʼad i tisowanan?",
+      "zh": "A:你那裡的天氣如何?",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Samaan",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "romiʼad",
+          "text": "romiʼad",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "i",
+          "text": "i",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "tisowanan",
+          "text": "tisowanan",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t5",
+          "text": "?",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "romiʼad",
+            "i",
+            "tisowanan",
+            "t5"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "謂語 Samaan 為中心（自動標記）"
+      },
+      "structure": "謂語 Samaan 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26967/441741.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "014",
+      "amis": "Tataʼang ko pifiyok no fali i tamiyanan.",
+      "zh": "B:我們這裡颳大風。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Tataʼang",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pifiyok",
+          "text": "pifiyok",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "no",
+          "text": "no",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "fali",
+          "text": "fali",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "i",
+          "text": "i",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "tamiyanan",
+          "text": "tamiyanan",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t7",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "pifiyok",
+            "i",
+            "tamiyanan",
+            "t7"
+          ]
+        ],
+        "hangs": {
+          "pifiyok": [
+            "no",
+            "fali"
+          ]
+        },
+        "plus_between_groups": false,
+        "structure": "謂語為中心；屬格 no/nu 掛於名詞下（自動）"
+      },
+      "structure": "謂語為中心；屬格 no/nu 掛於名詞下（自動）",
+      "audio": "https://web.klokah.tw/text/sound/26967/441742.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "015",
+      "amis": "Mangaʼay ko romiʼad i tisowanan?",
+      "zh": "A:你那裡的天氣好嗎?",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Mangaʼay",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "romiʼad",
+          "text": "romiʼad",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "i",
+          "text": "i",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "tisowanan",
+          "text": "tisowanan",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t5",
+          "text": "?",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "romiʼad",
+            "i",
+            "tisowanan",
+            "t5"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "謂語 Mangaʼay 為中心（自動標記）"
+      },
+      "structure": "謂語 Mangaʼay 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26967/441743.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "016",
+      "amis": "Mangaʼayay, tataʼang ko sadak no cidal.",
+      "zh": "B:很好，出大太陽。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Mangaʼayay",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t1",
+          "text": ",",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "tataʼang",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "sadak",
+          "text": "sadak",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "no",
+          "text": "no",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "cidal",
+          "text": "cidal",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t7",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred"
+          ],
+          [
+            "pred2",
+            "ko",
+            "sadak",
+            "t7"
+          ]
+        ],
+        "hangs": {
+          "sadak": [
+            "no",
+            "cidal"
+          ]
+        },
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://web.klokah.tw/text/sound/26967/441744.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "017",
+      "amis": "Mitilid to kako.",
+      "zh": "A:我要去上學了。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Mitilid",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kako",
+          "text": "kako",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t3",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "to",
+            "kako",
+            "t3"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "謂語 Mitilid 為中心（自動標記）"
+      },
+      "structure": "謂語 Mitilid 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26967/441745.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "018",
+      "amis": "Si^naw ko romiʼad, tongalen ko kaciriko’.",
+      "zh": "B:天氣很冷，要多穿衣服。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Si^naw",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "romiʼad",
+          "text": "romiʼad",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t3",
+          "text": ",",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "tongalen",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko_3",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kaciriko",
+          "text": "kaciriko’",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t7",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "romiʼad"
+          ],
+          [
+            "pred2",
+            "ko_3",
+            "kaciriko",
+            "t7"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://web.klokah.tw/text/sound/26967/441746.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "019",
+      "amis": "Masadak to kako talapapotal.",
+      "zh": "A:我要出門了。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Masadak",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kako",
+          "text": "kako",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "talapapotal",
+          "text": "talapapotal",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t4",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "to",
+            "kako",
+            "talapapotal",
+            "t4"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "謂語 Masadak 為中心（自動標記）"
+      },
+      "structure": "謂語 Masadak 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26967/441747.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "020",
+      "amis": "Maʼorad ano sawni, hawikiden ko saong iso.",
+      "zh": "B:等一下會下大雨，你要記得帶傘。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Maʼorad",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ano",
+          "text": "ano",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "sawni",
+          "text": "sawni",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t3",
+          "text": ",",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "hawikiden",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "saong",
+          "text": "saong",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "iso",
+          "text": "iso",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t8",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ano",
+            "sawni"
+          ],
+          [
+            "pred2",
+            "ko",
+            "saong",
+            "iso",
+            "t8"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://web.klokah.tw/text/sound/26967/441748.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "021",
+      "amis": "O mamaʼorad haw?",
+      "zh": "A:會下雨嗎?",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "O",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "mamaʼorad",
+          "text": "mamaʼorad",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "haw",
+          "text": "haw",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t3",
+          "text": "?",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "mamaʼorad",
+            "haw",
+            "t3"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "謂語 O 為中心（自動標記）"
+      },
+      "structure": "謂語 O 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26967/441749.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "022",
+      "amis": "Makakeleng i sawni, o mamaʼorad anosawni.",
+      "zh": "B:剛剛打雷了，等一下應該就會下雨。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Makakeleng",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "i",
+          "text": "i",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "sawni",
+          "text": "sawni",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t3",
+          "text": ",",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "o",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "mamaʼorad",
+          "text": "mamaʼorad",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "anosawni",
+          "text": "anosawni",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t7",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "i",
+            "sawni"
+          ],
+          [
+            "pred2",
+            "mamaʼorad",
+            "anosawni",
+            "t7"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://web.klokah.tw/text/sound/26967/441750.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "023",
+      "amis": "Maʼoradayto haw?",
+      "zh": "A:下雨了嗎?",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Maʼoradayto",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "haw",
+          "text": "haw",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t2",
+          "text": "?",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "haw",
+            "t2"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "謂語 Maʼoradayto 為中心（自動標記）"
+      },
+      "structure": "謂語 Maʼoradayto 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26967/441751.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "024",
+      "amis": "Maʼoraday i sawni, tomrepto imatini.",
+      "zh": "B:剛剛有下雨，現在雨停了。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Maʼoraday",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "i",
+          "text": "i",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "sawni",
+          "text": "sawni",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t3",
+          "text": ",",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "tomrepto",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "imatini",
+          "text": "imatini",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t6",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "i",
+            "sawni"
+          ],
+          [
+            "pred2",
+            "imatini",
+            "t6"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://web.klokah.tw/text/sound/26967/441752.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "025",
+      "amis": "Mato maʼoraday, masengerho ko lalan.",
+      "zh": "B:好像下過雨了，馬路是濕的。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Mato",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "maʼoraday",
+          "text": "maʼoraday",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t2",
+          "text": ",",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "masengerho",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "lalan",
+          "text": "lalan",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t6",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "maʼoraday"
+          ],
+          [
+            "pred2",
+            "ko",
+            "lalan",
+            "t6"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://web.klokah.tw/text/sound/26967/441754.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "026",
+      "amis": "Maʼoraday haw? Mana macepa’ ko tireng iso?",
+      "zh": "A:有下雨嗎?你怎麼全身都濕了?",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Maʼoraday",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "haw",
+          "text": "haw",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t2",
+          "text": "?",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "mana",
+          "text": "Mana",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "macepa",
+          "text": "macepa’",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "tireng",
+          "text": "tireng",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "iso",
+          "text": "iso",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t8",
+          "text": "?",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "haw",
+            "t2",
+            "mana",
+            "macepa",
+            "ko",
+            "tireng",
+            "iso",
+            "t8"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "謂語 Maʼoraday 為中心（自動標記）"
+      },
+      "structure": "謂語 Maʼoraday 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26967/441755.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "027",
+      "amis": "Maʼorad ko papotal, caay pihawikid kako to saong.",
+      "zh": "B:外面在下雨，我沒有帶雨傘。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Maʼorad",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "papotal",
+          "text": "papotal",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t3",
+          "text": ",",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "caay",
+          "text": "caay",
+          "role": "adverb",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "pihawikid",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kako",
+          "text": "kako",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "saong",
+          "text": "saong",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t9",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "papotal"
+          ],
+          [
+            "caay",
+            "pred2",
+            "kako",
+            "to",
+            "saong",
+            "t9"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://web.klokah.tw/text/sound/26967/441756.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "028",
+      "amis": "Mangaʼayho kiso?",
+      "zh": "A:你還好嗎?",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Mangaʼayho",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kiso",
+          "text": "kiso",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t2",
+          "text": "?",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "kiso",
+            "t2"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "謂語 Mangaʼayho 為中心（自動標記）"
+      },
+      "structure": "謂語 Mangaʼayho 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26967/441757.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "029",
+      "amis": "Tataʼang ko fali, adada ko fongoh ako.",
+      "zh": "B:風好大，吹得我頭好痛。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Tataʼang",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "fali",
+          "text": "fali",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t3",
+          "text": ",",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "adada",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko_3",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "fongoh",
+          "text": "fongoh",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ako",
+          "text": "ako",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t8",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "fali"
+          ],
+          [
+            "pred2",
+            "ko_3",
+            "fongoh",
+            "ako",
+            "t8"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://web.klokah.tw/text/sound/26967/441758.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "030",
+      "amis": "Tataʼang ko cidal, malileng ko fongoh ako.",
+      "zh": "B:太陽好大，曬得我頭好暈。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Tataʼang",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "cidal",
+          "text": "cidal",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t3",
+          "text": ",",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "malileng",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko_3",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "fongoh",
+          "text": "fongoh",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ako",
+          "text": "ako",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t8",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "cidal"
+          ],
+          [
+            "pred2",
+            "ko_3",
+            "fongoh",
+            "ako",
+            "t8"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://web.klokah.tw/text/sound/26967/441760.mp3",
+      "audio_primary": true
+    }
+  ]
+}

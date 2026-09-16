@@ -1,0 +1,680 @@
+{
+  "id": "essay_s1_l2",
+  "module": "essay",
+  "title": "短文 s1/l2 · 姓名與問候",
+  "theme": "姓名與問候",
+  "source_url": "https://klokah.iformosa.com.tw/essay/d4/s1/l2/learn",
+  "dialect": "馬蘭阿美語",
+  "sentences": [
+    {
+      "id": "001",
+      "amis": "Maosoyay kako talakongkoan i papacem.",
+      "zh": "我早上上學遲到了。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Maosoyay",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kako",
+          "text": "kako",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "talakongkoan",
+          "text": "talakongkoan",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "i",
+          "text": "i",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "papacem",
+          "text": "papacem",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t5",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "kako",
+            "talakongkoan",
+            "i",
+            "papacem",
+            "t5"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "謂語 Maosoyay 為中心（自動標記）"
+      },
+      "structure": "謂語 Maosoyay 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/63854/897430.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "002",
+      "amis": "Ya malingad i, matawalay ako ko kafang.",
+      "zh": "去學校的時候，我忘了帶書包。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Ya",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "malingad",
+          "text": "malingad",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "i",
+          "text": "i",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t3",
+          "text": ",",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "matawalay",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ako",
+          "text": "ako",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kafang",
+          "text": "kafang",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t8",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "malingad",
+            "i"
+          ],
+          [
+            "pred2",
+            "ako",
+            "ko",
+            "kafang",
+            "t8"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://web.klokah.tw/text/sound/63854/897431.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "003",
+      "amis": "Awa ko cecacecay a mihawikidan ako.",
+      "zh": "我什麼東西都沒有帶。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "awa",
+          "text": "Awa",
+          "role": "adverb",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred",
+          "text": "cecacecay",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "a",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "mihawikidan",
+          "text": "mihawikidan",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ako",
+          "text": "ako",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t6",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "awa",
+            "ko",
+            "pred",
+            "a",
+            "mihawikidan",
+            "ako",
+            "t6"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "謂語 cecacecay 為中心（自動標記）"
+      },
+      "structure": "謂語 cecacecay 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/63854/897432.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "004",
+      "amis": "Yo mipakafana’ ko singsi i, hacafay hananay ako ko kapot a minengneng to tilid nira.",
+      "zh": "上課的時候，我和同學一起看課本。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Yo",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "mipakafana",
+          "text": "mipakafana’",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "singsi",
+          "text": "singsi",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "i",
+          "text": "i",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t5",
+          "text": ",",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "hacafay",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "hananay",
+          "text": "hananay",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ako",
+          "text": "ako",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko_3",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kapot",
+          "text": "kapot",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "a",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "minengneng",
+          "text": "minengneng",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "tilid",
+          "text": "tilid",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "nira",
+          "text": "nira",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t16",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "mipakafana",
+            "ko",
+            "singsi",
+            "i",
+            "t5",
+            "pred2",
+            "hananay",
+            "ako",
+            "ko_3",
+            "kapot",
+            "a",
+            "minengneng",
+            "to",
+            "tilid",
+            "nira",
+            "t16"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "長句：線性排列（自動標記，結構簡化）"
+      },
+      "structure": "長句：線性排列（自動標記，結構簡化）",
+      "audio": "https://web.klokah.tw/text/sound/63854/897433.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "005",
+      "amis": "Yo miseking i, pacaliwan no kapot kako to impic ato sasipasip.",
+      "zh": "考試的時候，同學借我筆和橡皮擦。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Yo",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "miseking",
+          "text": "miseking",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "i",
+          "text": "i",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t3",
+          "text": ",",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "pacaliwan",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "no",
+          "text": "no",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kapot",
+          "text": "kapot",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kako",
+          "text": "kako",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "impic",
+          "text": "impic",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ato",
+          "text": "ato",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "sasipasip",
+          "text": "sasipasip",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t12",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "miseking",
+            "i",
+            "t3",
+            "pred2",
+            "no",
+            "kapot",
+            "kako",
+            "to",
+            "impic",
+            "ato",
+            "sasipasip",
+            "t12"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "長句：線性排列（自動標記，結構簡化）"
+      },
+      "structure": "長句：線性排列（自動標記，結構簡化）",
+      "audio": "https://web.klokah.tw/text/sound/63854/926219.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "006",
+      "amis": "“Manikar a lomowad, aka to kaosoy!",
+      "zh": "老師跟我說：「下次早點起床，不要再遲到了!",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "“Manikar",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "a",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "lomowad",
+          "text": "lomowad",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t3",
+          "text": ",",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "aka",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kaosoy",
+          "text": "kaosoy",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t7",
+          "text": "!",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "a",
+            "lomowad"
+          ],
+          [
+            "pred2",
+            "to",
+            "kaosoy",
+            "t7"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://web.klokah.tw/text/sound/63854/897435.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "007",
+      "amis": "” han no singsi kako.",
+      "zh": "」",
+      "en": "",
+      "tokens": [
+        {
+          "id": "t0",
+          "text": "”",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred",
+          "text": "han",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "no",
+          "text": "no",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "singsi",
+          "text": "singsi",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kako",
+          "text": "kako",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t5",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "t0",
+            "pred",
+            "no",
+            "singsi",
+            "kako",
+            "t5"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "謂語 han 為中心（自動標記）"
+      },
+      "structure": "謂語 han 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/63854/897435.mp3",
+      "audio_primary": true
+    }
+  ]
+}

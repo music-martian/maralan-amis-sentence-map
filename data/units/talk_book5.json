@@ -1,0 +1,593 @@
+{
+  "id": "talk_book5",
+  "module": "talk",
+  "title": "今天星期幾？",
+  "title_ab": "Sakapina no mitiliday anini?",
+  "source_url": "https://klokah.iformosa.com.tw/talk/learn/5",
+  "dialect": "馬蘭阿美語",
+  "sentences": [
+    {
+      "id": "001",
+      "amis": "Hacowaay ko kahofocan no miso?",
+      "zh": "Panay：你是哪一年出生的？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Hacowaay",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kahofocan",
+          "text": "kahofocan",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "no",
+          "text": "no",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "miso",
+          "text": "miso",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t5",
+          "text": "?",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "kahofocan",
+            "t5"
+          ]
+        ],
+        "hangs": {
+          "kahofocan": [
+            "no",
+            "miso"
+          ]
+        },
+        "plus_between_groups": false,
+        "structure": "謂語為中心；屬格 no/nu 掛於名詞下（自動）"
+      },
+      "structure": "謂語為中心；屬格 no/nu 掛於名詞下（自動）",
+      "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c5s1.mp3",
+      "audio_primary": true,
+      "speaker": "Panay"
+    },
+    {
+      "id": "002",
+      "amis": "I 1984 a mihecaan ko kahofocan ako.",
+      "zh": "Sawmah：我是1984年出生的。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "i",
+          "text": "I",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred",
+          "text": "1984",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "a",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "mihecaan",
+          "text": "mihecaan",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kahofocan",
+          "text": "kahofocan",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ako",
+          "text": "ako",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t7",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "i",
+            "pred",
+            "a",
+            "mihecaan",
+            "ko",
+            "kahofocan",
+            "ako",
+            "t7"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "謂語 1984 為中心（自動標記）"
+      },
+      "structure": "謂語 1984 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c5s2.mp3",
+      "audio_primary": true,
+      "speaker": "Sawmah"
+    },
+    {
+      "id": "003",
+      "amis": "I tiyaay i 1984 a mihecaan ko kahofocan ako, sakatosa poloʼ no sakapito a folad.",
+      "zh": "Panay：我也是1984年出生的，7月20日是我的生日。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "i",
+          "text": "I",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred",
+          "text": "tiyaay",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "i_3",
+          "text": "i",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "1984",
+          "text": "1984",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "a",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "mihecaan",
+          "text": "mihecaan",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kahofocan",
+          "text": "kahofocan",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ako",
+          "text": "ako",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t9",
+          "text": ",",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "sakatosa",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "poloʼ",
+          "text": "poloʼ",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "no",
+          "text": "no",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "sakapito",
+          "text": "sakapito",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "a_3",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "folad",
+          "text": "folad",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t16",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "i",
+            "pred",
+            "i_3",
+            "1984",
+            "a",
+            "mihecaan",
+            "ko",
+            "kahofocan",
+            "ako",
+            "t9",
+            "pred2",
+            "poloʼ",
+            "no",
+            "sakapito",
+            "a_3",
+            "folad",
+            "t16"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "長句：線性排列（自動標記，結構簡化）"
+      },
+      "structure": "長句：線性排列（自動標記，結構簡化）",
+      "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c5s3.mp3",
+      "audio_primary": true,
+      "speaker": "Panay"
+    },
+    {
+      "id": "004",
+      "amis": "O laloodan ko kahofocan iso, salaw maolah kiso midangoy.",
+      "zh": "Sawmah：原來你是夏天出生的，難怪那麼喜歡游泳。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "O",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "laloodan",
+          "text": "laloodan",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kahofocan",
+          "text": "kahofocan",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "iso",
+          "text": "iso",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t5",
+          "text": ",",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "salaw",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "maolah",
+          "text": "maolah",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kiso",
+          "text": "kiso",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "midangoy",
+          "text": "midangoy",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t10",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "laloodan",
+            "ko",
+            "kahofocan",
+            "iso"
+          ],
+          [
+            "pred2",
+            "maolah",
+            "kiso",
+            "midangoy",
+            "t10"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c5s4.mp3",
+      "audio_primary": true,
+      "speaker": "Sawmah"
+    },
+    {
+      "id": "005",
+      "amis": "Sakapina no mitiliday anini?",
+      "zh": "Ina：今天是星期幾？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Sakapina",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "no",
+          "text": "no",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "mitiliday",
+          "text": "mitiliday",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "anini",
+          "text": "anini",
+          "role": "adverb",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t4",
+          "text": "?",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "no",
+            "mitiliday",
+            "anini",
+            "t4"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "謂語 Sakapina 為中心（自動標記）"
+      },
+      "structure": "謂語 Sakapina 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c5s5.mp3",
+      "audio_primary": true,
+      "speaker": "Ina"
+    },
+    {
+      "id": "006",
+      "amis": "Sakaenem.",
+      "zh": "Panay：今天是星期六。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Sakaenem",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t1",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "t1"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "謂語 Sakaenem 為中心（自動標記）"
+      },
+      "structure": "謂語 Sakaenem 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c5s6.mp3",
+      "audio_primary": true,
+      "speaker": "Panay"
+    },
+    {
+      "id": "007",
+      "amis": "Mafawahay ko yofing haw?",
+      "zh": "Ina：郵局有開嗎？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Mafawahay",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "yofing",
+          "text": "yofing",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "haw",
+          "text": "haw",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t4",
+          "text": "?",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "yofing",
+            "haw",
+            "t4"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "謂語 Mafawahay 為中心（自動標記）"
+      },
+      "structure": "謂語 Mafawahay 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c5s7.mp3",
+      "audio_primary": true,
+      "speaker": "Ina"
+    }
+  ]
+}

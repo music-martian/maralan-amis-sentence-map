@@ -1,0 +1,659 @@
+{
+  "id": "talk_book8",
+  "module": "talk",
+  "title": "你明天會來聚會嗎？",
+  "title_ab": "Tayni kiso masaʼopo anocila haw?",
+  "source_url": "https://klokah.iformosa.com.tw/talk/learn/8",
+  "dialect": "馬蘭阿美語",
+  "sentences": [
+    {
+      "id": "001",
+      "amis": "Tayni kiso masaʼopo anocila haw?",
+      "zh": "Kolas：你明天會來聚會嗎？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Tayni",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kiso",
+          "text": "kiso",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "masaʼopo",
+          "text": "masaʼopo",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "anocila",
+          "text": "anocila",
+          "role": "adverb",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "haw",
+          "text": "haw",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t5",
+          "text": "?",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "kiso",
+            "masaʼopo",
+            "anocila",
+            "haw",
+            "t5"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "謂語 Tayni 為中心（自動標記）"
+      },
+      "structure": "謂語 Tayni 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c8s1.mp3",
+      "audio_primary": true,
+      "speaker": "Kolas"
+    },
+    {
+      "id": "002",
+      "amis": "Aya, ira ko tayal ako anocila.",
+      "zh": "Laway：對不起，我明天有事。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Aya",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t1",
+          "text": ",",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ira",
+          "text": "ira",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "tayal",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ako",
+          "text": "ako",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "anocila",
+          "text": "anocila",
+          "role": "adverb",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t7",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred"
+          ],
+          [
+            "ira",
+            "ko",
+            "pred2",
+            "ako",
+            "anocila",
+            "t7"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c8s2.mp3",
+      "audio_primary": true,
+      "speaker": "Laway"
+    },
+    {
+      "id": "003",
+      "amis": "Aya, o kiso aca ko aawa.",
+      "zh": "Kolas：真可惜，只有你一個人不能參加。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Aya",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t1",
+          "text": ",",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "o",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kiso",
+          "text": "kiso",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "aca",
+          "text": "aca",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "aawa",
+          "text": "aawa",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t7",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred"
+          ],
+          [
+            "pred2",
+            "kiso",
+            "aca",
+            "ko",
+            "aawa",
+            "t7"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c8s3.mp3",
+      "audio_primary": true,
+      "speaker": "Kolas"
+    },
+    {
+      "id": "004",
+      "amis": "Hay samaanen, miliyaw sato.",
+      "zh": "Laway：沒辦法，只好下次再參加了。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Hay",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "samaanen",
+          "text": "samaanen",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t2",
+          "text": ",",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "miliyaw",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "sato",
+          "text": "sato",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t5",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "samaanen"
+          ],
+          [
+            "pred2",
+            "sato",
+            "t5"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c8s4.mp3",
+      "audio_primary": true,
+      "speaker": "Laway"
+    },
+    {
+      "id": "005",
+      "amis": "Ya kayki i sakatolo no mitiliday ira kiso haw?",
+      "zh": "Kolas：那星期三的會議你會來嗎？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Ya",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kayki",
+          "text": "kayki",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "i",
+          "text": "i",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "sakatolo",
+          "text": "sakatolo",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "no",
+          "text": "no",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "mitiliday",
+          "text": "mitiliday",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ira",
+          "text": "ira",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kiso",
+          "text": "kiso",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "haw",
+          "text": "haw",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t9",
+          "text": "?",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "kayki",
+            "i",
+            "sakatolo",
+            "ira",
+            "kiso",
+            "haw",
+            "t9"
+          ]
+        ],
+        "hangs": {
+          "sakatolo": [
+            "no",
+            "mitiliday"
+          ]
+        },
+        "plus_between_groups": false,
+        "structure": "謂語為中心；屬格 no/nu 掛於名詞下（自動）"
+      },
+      "structure": "謂語為中心；屬格 no/nu 掛於名詞下（自動）",
+      "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c8s5.mp3",
+      "audio_primary": true,
+      "speaker": "Kolas"
+    },
+    {
+      "id": "006",
+      "amis": "Aciya, iraay aca ko tayal ako itiya, ngaʼay falicen i sakalima no pitilidan haw?",
+      "zh": "Laway：哇，我那天也有事耶，可以改成週五嗎？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Aciya",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t1",
+          "text": ",",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "iraay",
+          "text": "iraay",
+          "role": "adverb",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "aca",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "tayal",
+          "text": "tayal",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ako",
+          "text": "ako",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "itiya",
+          "text": "itiya",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t8",
+          "text": ",",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ngaʼay",
+          "text": "ngaʼay",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "falicen",
+          "text": "falicen",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "i",
+          "text": "i",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "sakalima",
+          "text": "sakalima",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "no",
+          "text": "no",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pitilidan",
+          "text": "pitilidan",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "haw",
+          "text": "haw",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t16",
+          "text": "?",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "t1",
+            "iraay",
+            "pred2",
+            "ko",
+            "tayal",
+            "ako",
+            "itiya",
+            "t8",
+            "ngaʼay",
+            "falicen",
+            "i",
+            "sakalima",
+            "no",
+            "pitilidan",
+            "haw",
+            "t16"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "長句：線性排列（自動標記，結構簡化）"
+      },
+      "structure": "長句：線性排列（自動標記，結構簡化）",
+      "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c8s6.mp3",
+      "audio_primary": true,
+      "speaker": "Laway"
+    },
+    {
+      "id": "007",
+      "amis": "Licayen ho ako ko romaroma na!",
+      "zh": "Kolas：我得問問其他人喔！",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Licayen",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ho",
+          "text": "ho",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ako",
+          "text": "ako",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "romaroma",
+          "text": "romaroma",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "na",
+          "text": "na",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t6",
+          "text": "!",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ho",
+            "ako",
+            "ko",
+            "romaroma",
+            "na",
+            "t6"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "謂語 Licayen 為中心（自動標記）"
+      },
+      "structure": "謂語 Licayen 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c8s7.mp3",
+      "audio_primary": true,
+      "speaker": "Kolas"
+    }
+  ]
+}

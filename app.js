@@ -1,25 +1,45 @@
 /**
- * Minimal Learn / Practice shell for 馬蘭阿美語 sentence maps.
+ * Learn / Practice shell for 馬蘭阿美語 sentence maps.
+ * Cascading Module → Type → Unit selectors; fetches per-unit JSON on Pages.
  */
 (function () {
   "use strict";
 
-  const data = typeof GREETINGS !== "undefined" ? GREETINGS : window.GREETINGS;
-  if (!data || !data.sentences || !data.sentences.length) {
-    document.body.innerHTML =
-      "<p style='padding:2rem;color:#fff;font-family:sans-serif'>Missing greetings data (data.js).</p>";
-    return;
-  }
+  const catalog =
+    typeof CATALOG !== "undefined"
+      ? CATALOG
+      : typeof window !== "undefined"
+        ? window.CATALOG
+        : null;
 
-  const sentences = data.sentences;
+  const greetingsFallback =
+    typeof GREETINGS !== "undefined"
+      ? GREETINGS
+      : typeof window !== "undefined"
+        ? window.GREETINGS
+        : null;
+
   const state = {
+    moduleId: null,
+    typeId: null,
+    unitId: null,
+    unitMeta: null,
+    unitData: null,
+    sentences: [],
     index: 0,
-    mode: "learn", // 'learn' | 'practice'
+    mode: "learn",
     revealed: new Set(),
+    loading: false,
   };
 
   const els = {
     body: document.body,
+    subtitle: document.getElementById("unit-subtitle"),
+    klokah: document.getElementById("klokah-link"),
+    footerUnit: document.getElementById("footer-unit"),
+    selModule: document.getElementById("sel-module"),
+    selType: document.getElementById("sel-type"),
+    selUnit: document.getElementById("sel-unit"),
     amis: document.getElementById("meta-amis"),
     zh: document.getElementById("meta-zh"),
     en: document.getElementById("meta-en"),
@@ -40,14 +60,230 @@
     audioBtn: document.getElementById("btn-audio"),
     audio: document.getElementById("sentence-audio"),
     audioNote: document.getElementById("audio-note"),
+    loadStatus: document.getElementById("load-status"),
   };
 
+  function findModule(id) {
+    return (catalog.modules || []).find((m) => m.id === id);
+  }
+
+  function findType(mod, typeId) {
+    return (mod.types || []).find((t) => t.id === typeId);
+  }
+
+  function findUnit(type, unitId) {
+    return (type.units || []).find((u) => u.id === unitId);
+  }
+
+  function findUnitInCatalog(unitId) {
+    for (const mod of catalog.modules || []) {
+      for (const typ of mod.types || []) {
+        for (const u of typ.units || []) {
+          if (u.id === unitId) {
+            return { mod, typ, unit: u };
+          }
+        }
+      }
+    }
+    return null;
+  }
+
+  function fillSelect(sel, items, getValue, getLabel, selected) {
+    sel.innerHTML = "";
+    items.forEach((item) => {
+      const opt = document.createElement("option");
+      opt.value = getValue(item);
+      opt.textContent = getLabel(item);
+      sel.appendChild(opt);
+    });
+    if (selected != null) sel.value = selected;
+  }
+
+  function populateModules(preferred) {
+    const mods = catalog.modules || [];
+    fillSelect(
+      els.selModule,
+      mods,
+      (m) => m.id,
+      (m) => {
+        const n = (m.types || []).reduce(
+          (a, t) => a + (t.units || []).reduce((b, u) => b + (u.count || 0), 0),
+          0
+        );
+        return m.title + "（" + n + "）";
+      },
+      preferred || mods[0]?.id
+    );
+    state.moduleId = els.selModule.value;
+  }
+
+  function populateTypes(preferred) {
+    const mod = findModule(state.moduleId);
+    const types = (mod && mod.types) || [];
+    fillSelect(
+      els.selType,
+      types,
+      (t) => t.id,
+      (t) => {
+        const n = (t.units || []).reduce((a, u) => a + (u.count || 0), 0);
+        return t.title + "（" + (t.units || []).length + "課 / " + n + "句）";
+      },
+      preferred || types[0]?.id
+    );
+    state.typeId = els.selType.value;
+  }
+
+  function populateUnits(preferred) {
+    const mod = findModule(state.moduleId);
+    const typ = findType(mod, state.typeId);
+    const units = (typ && typ.units) || [];
+    fillSelect(
+      els.selUnit,
+      units,
+      (u) => u.id,
+      (u) => u.title + "（" + (u.count || 0) + "）",
+      preferred || units[0]?.id
+    );
+    state.unitId = els.selUnit.value;
+  }
+
+  function setLoadStatus(msg, isError) {
+    if (!els.loadStatus) return;
+    if (!msg) {
+      els.loadStatus.hidden = true;
+      els.loadStatus.textContent = "";
+      return;
+    }
+    els.loadStatus.hidden = false;
+    els.loadStatus.textContent = msg;
+    els.loadStatus.classList.toggle("is-error", !!isError);
+  }
+
+  function unitPath(unitMeta) {
+    return unitMeta.path || "data/units/" + unitMeta.id + ".json";
+  }
+
+  async function fetchUnit(unitMeta) {
+    const path = unitPath(unitMeta);
+    // Default greetings: prefer inlined GREETINGS when offline / file://
+    if (
+      unitMeta.id === "junior_type2_class16" &&
+      greetingsFallback &&
+      greetingsFallback.sentences &&
+      greetingsFallback.sentences.length
+    ) {
+      try {
+        const res = await fetch(path, { cache: "no-cache" });
+        if (res.ok) {
+          return await res.json();
+        }
+      } catch (_) {
+        /* fall through to inline */
+      }
+      return {
+        id: unitMeta.id,
+        title: greetingsFallback.unit || unitMeta.title,
+        source_url: greetingsFallback.source || unitMeta.source_url || "",
+        sentences: greetingsFallback.sentences,
+        hand_tuned: true,
+      };
+    }
+    const res = await fetch(path, { cache: "no-cache" });
+    if (!res.ok) {
+      throw new Error("HTTP " + res.status + " for " + path);
+    }
+    return await res.json();
+  }
+
+  async function loadSelectedUnit() {
+    const mod = findModule(state.moduleId);
+    const typ = findType(mod, state.typeId);
+    const unitMeta = findUnit(typ, state.unitId);
+    if (!unitMeta) {
+      setLoadStatus("找不到單元資料", true);
+      return;
+    }
+    state.unitMeta = unitMeta;
+    state.loading = true;
+    setLoadStatus("載入單元中…");
+    els.diagram.innerHTML = "";
+    try {
+      const data = await fetchUnit(unitMeta);
+      state.unitData = data;
+      state.sentences = data.sentences || [];
+      state.index = 0;
+      state.revealed = new Set();
+      setLoadStatus("");
+      updateChrome();
+      rebuildSentenceSelect();
+      setMode(state.mode);
+    } catch (err) {
+      console.warn(err);
+      // file:// fallback only for greetings
+      if (
+        unitMeta.id === "junior_type2_class16" &&
+        greetingsFallback &&
+        greetingsFallback.sentences
+      ) {
+        state.unitData = {
+          id: unitMeta.id,
+          title: greetingsFallback.unit,
+          source_url: greetingsFallback.source,
+          sentences: greetingsFallback.sentences,
+        };
+        state.sentences = greetingsFallback.sentences;
+        state.index = 0;
+        setLoadStatus(
+          "無法 fetch 單元 JSON（file://？）。已改用內建問候單元。其他單元請用本機伺服器開啟。",
+          true
+        );
+        updateChrome();
+        rebuildSentenceSelect();
+        setMode(state.mode);
+      } else {
+        state.sentences = [];
+        setLoadStatus(
+          "無法載入單元（若用 file:// 開啟，請改用：python3 -m http.server）。" +
+            String(err && err.message ? err.message : err),
+          true
+        );
+        els.diagram.innerHTML = "";
+        updateChrome();
+      }
+    } finally {
+      state.loading = false;
+    }
+  }
+
+  function updateChrome() {
+    const title =
+      (state.unitData && state.unitData.title) ||
+      (state.unitMeta && state.unitMeta.title) ||
+      "";
+    const n = state.sentences.length;
+    if (els.subtitle) {
+      els.subtitle.textContent = title
+        ? title + "（" + n + " 句）"
+        : "選擇單元開始學習";
+    }
+    const src =
+      (state.unitData && state.unitData.source_url) ||
+      (state.unitMeta && state.unitMeta.source_url) ||
+      (catalog && catalog.hub_url) ||
+      "https://klokah.iformosa.com.tw/";
+    if (els.klokah) els.klokah.href = src;
+    if (els.footerUnit) {
+      els.footerUnit.textContent =
+        "Klokah · 馬蘭阿美語 · " + (title || "句型圖");
+    }
+  }
+
   function current() {
-    return sentences[state.index];
+    return state.sentences[state.index];
   }
 
   function tokenCount(s) {
-    return s.tokens.length;
+    return (s.tokens || []).length;
   }
 
   function stopAudio() {
@@ -60,7 +296,7 @@
   function syncAudio(s) {
     if (!els.audio || !els.audioBtn) return;
     stopAudio();
-    const url = s.audio || "";
+    const url = (s && s.audio) || "";
     if (!url) {
       els.audio.removeAttribute("src");
       els.audioBtn.disabled = true;
@@ -77,14 +313,15 @@
       els.audio.setAttribute("src", url);
       els.audio.load();
     }
-    // Hint: Klokah clips are per-exchange (often A/B/C), not per unique line
     if (els.audioNote) {
-      const multiExchange = s.id !== "07";
-      if (multiExchange) {
+      const note =
+        s.audio_note ||
+        (s.audio_primary === false
+          ? "音訊為整段對話（含前後句），非單句錄音"
+          : "");
+      if (note) {
         els.audioNote.hidden = false;
-        els.audioNote.textContent = s.audio_primary
-          ? "音訊為 Klokah 對話段（可能含多句）"
-          : "音訊為整段對話（含前後句），非單句錄音";
+        els.audioNote.textContent = note;
       } else {
         els.audioNote.hidden = true;
         els.audioNote.textContent = "";
@@ -121,7 +358,10 @@
     els.body.classList.toggle("mode-practice", mode === "practice");
     els.body.classList.toggle("mode-learn", mode === "learn");
     els.modeLearn.setAttribute("aria-pressed", mode === "learn" ? "true" : "false");
-    els.modePractice.setAttribute("aria-pressed", mode === "practice" ? "true" : "false");
+    els.modePractice.setAttribute(
+      "aria-pressed",
+      mode === "practice" ? "true" : "false"
+    );
     els.practiceBar.hidden = mode !== "practice";
     els.practiceHint.hidden = mode !== "practice";
     els.colorLegend.hidden = mode === "practice";
@@ -129,7 +369,7 @@
   }
 
   function go(i) {
-    if (i < 0 || i >= sentences.length) return;
+    if (i < 0 || i >= state.sentences.length) return;
     state.index = i;
     state.revealed = new Set();
     render();
@@ -143,50 +383,85 @@
   }
 
   function revealAll() {
-    current().tokens.forEach((t) => state.revealed.add(t.id));
+    const s = current();
+    if (!s) return;
+    (s.tokens || []).forEach((t) => state.revealed.add(t.id));
     render();
   }
 
   function buildDots() {
     els.dots.innerHTML = "";
-    sentences.forEach((s, i) => {
+    const maxDots = 40;
+    const n = state.sentences.length;
+    if (n > maxDots) {
+      // Too many for dots — show compact progress chip instead
+      const chip = document.createElement("span");
+      chip.className = "dots-chip";
+      chip.textContent = state.index + 1 + " / " + n;
+      els.dots.appendChild(chip);
+      return;
+    }
+    state.sentences.forEach((s, i) => {
       const b = document.createElement("button");
       b.type = "button";
-      b.title = s.zh;
-      b.setAttribute("aria-label", "Sentence " + (i + 1) + ": " + s.zh);
+      b.title = s.zh || s.amis;
+      b.setAttribute("aria-label", "Sentence " + (i + 1));
       if (i === state.index) b.setAttribute("aria-current", "true");
       b.addEventListener("click", () => go(i));
       els.dots.appendChild(b);
     });
   }
 
-  function buildSelect() {
-    if (els.select.options.length) return;
-    sentences.forEach((s, i) => {
+  function rebuildSentenceSelect() {
+    els.select.innerHTML = "";
+    state.sentences.forEach((s, i) => {
       const opt = document.createElement("option");
       opt.value = String(i);
-      opt.textContent = i + 1 + ". " + s.zh;
+      const label = (s.zh || s.amis || "").slice(0, 40);
+      opt.textContent = i + 1 + ". " + label;
       els.select.appendChild(opt);
     });
   }
 
   function updateMeta(s) {
-    els.num.textContent = state.index + 1 + " / " + sentences.length + "  ·  馬蘭阿美語 句型圖";
-    els.amis.textContent = s.amis;
-    els.zh.textContent = s.zh;
-    els.en.textContent = s.en;
+    const n = state.sentences.length;
+    const title =
+      (state.unitData && state.unitData.title) ||
+      (state.unitMeta && state.unitMeta.title) ||
+      "";
+    els.num.textContent =
+      (n ? state.index + 1 + " / " + n : "—") +
+      "  ·  馬蘭阿美語 句型圖" +
+      (title ? " · " + title : "");
+    if (!s) {
+      els.amis.textContent = "";
+      els.zh.textContent = "";
+      els.en.textContent = "";
+      els.prev.disabled = true;
+      els.next.disabled = true;
+      syncAudio(null);
+      return;
+    }
+    els.amis.textContent = s.amis || "";
+    els.zh.textContent = s.zh || "";
+    els.en.textContent = s.en || "";
+    els.en.hidden = !s.en;
     els.select.value = String(state.index);
     els.prev.disabled = state.index === 0;
-    els.next.disabled = state.index === sentences.length - 1;
+    els.next.disabled = state.index >= n - 1;
     syncAudio(s);
   }
 
   function updateProgress(s) {
     if (state.mode !== "practice") return;
+    if (!s) {
+      els.progress.textContent = "已顯示 0 / 0";
+      return;
+    }
     const n = state.revealed.size;
     const m = tokenCount(s);
     els.progress.textContent = "已顯示 " + n + " / " + m;
-    els.nextQ.disabled = state.index >= sentences.length - 1;
+    els.nextQ.disabled = state.index >= state.sentences.length - 1;
   }
 
   function render() {
@@ -194,7 +469,10 @@
     updateMeta(s);
     buildDots();
     updateProgress(s);
-
+    if (!s) {
+      els.diagram.innerHTML = "";
+      return;
+    }
     renderDiagram(els.diagram, s, {
       practice: state.mode === "practice",
       revealed: state.revealed,
@@ -222,12 +500,49 @@
     });
   }
 
+  els.selModule.addEventListener("change", () => {
+    state.moduleId = els.selModule.value;
+    populateTypes();
+    populateUnits();
+    loadSelectedUnit();
+  });
+  els.selType.addEventListener("change", () => {
+    state.typeId = els.selType.value;
+    populateUnits();
+    loadSelectedUnit();
+  });
+  els.selUnit.addEventListener("change", () => {
+    state.unitId = els.selUnit.value;
+    loadSelectedUnit();
+  });
+
   document.addEventListener("keydown", (e) => {
-    if (e.target && (e.target.tagName === "SELECT" || e.target.tagName === "INPUT")) return;
+    if (
+      e.target &&
+      (e.target.tagName === "SELECT" || e.target.tagName === "INPUT")
+    )
+      return;
     if (e.key === "ArrowLeft") go(state.index - 1);
     if (e.key === "ArrowRight") go(state.index + 1);
   });
 
-  buildSelect();
-  setMode("learn");
+  // Boot
+  if (!catalog || !catalog.modules || !catalog.modules.length) {
+    document.body.innerHTML =
+      "<p style='padding:2rem;color:#fff;font-family:sans-serif'>Missing catalog.js</p>";
+    return;
+  }
+
+  const defaultId = catalog.default_unit || "junior_type2_class16";
+  const found = findUnitInCatalog(defaultId);
+  if (found) {
+    populateModules(found.mod.id);
+    populateTypes(found.typ.id);
+    populateUnits(found.unit.id);
+  } else {
+    populateModules();
+    populateTypes();
+    populateUnits();
+  }
+  loadSelectedUnit();
 })();

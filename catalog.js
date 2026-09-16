@@ -1,0 +1,1466 @@
+/** Auto-generated catalog — module/type/unit index for sentence maps. */
+const CATALOG = {
+  "dialect": "馬蘭阿美語",
+  "dialect_id": "4",
+  "default_unit": "junior_type2_class16",
+  "generated_note": "Auto-tagged sentence maps from Klokah gather. Roles/layout are best-effort heuristics for learning — not linguistic gold.",
+  "totals": {
+    "junior": 680,
+    "senior": 1014,
+    "talk": 209,
+    "dialogue": 883,
+    "essay": 30,
+    "all": 2816
+  },
+  "modules": [
+    {
+      "id": "junior",
+      "title": "國中句型",
+      "types": [
+        {
+          "id": "1",
+          "title": "基本詞彙",
+          "units": [
+            {
+              "id": "junior_type1_class1",
+              "title": "數字",
+              "class_id": "1",
+              "path": "data/units/junior_type1_class1.json",
+              "count": 20,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/1/1",
+              "hand_tuned": false
+            },
+            {
+              "id": "junior_type1_class2",
+              "title": "代名詞",
+              "class_id": "2",
+              "path": "data/units/junior_type1_class2.json",
+              "count": 16,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/1/2",
+              "hand_tuned": false
+            },
+            {
+              "id": "junior_type1_class3",
+              "title": "疑問詞",
+              "class_id": "3",
+              "path": "data/units/junior_type1_class3.json",
+              "count": 6,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/1/3",
+              "hand_tuned": false
+            },
+            {
+              "id": "junior_type1_class4",
+              "title": "親屬",
+              "class_id": "4",
+              "path": "data/units/junior_type1_class4.json",
+              "count": 12,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/1/4",
+              "hand_tuned": false
+            },
+            {
+              "id": "junior_type1_class5",
+              "title": "人物",
+              "class_id": "5",
+              "path": "data/units/junior_type1_class5.json",
+              "count": 11,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/1/5",
+              "hand_tuned": false
+            },
+            {
+              "id": "junior_type1_class6",
+              "title": "人名",
+              "class_id": "6",
+              "path": "data/units/junior_type1_class6.json",
+              "count": 11,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/1/6",
+              "hand_tuned": false
+            },
+            {
+              "id": "junior_type1_class7",
+              "title": "身體部位",
+              "class_id": "7",
+              "path": "data/units/junior_type1_class7.json",
+              "count": 10,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/1/7",
+              "hand_tuned": false
+            },
+            {
+              "id": "junior_type1_class8",
+              "title": "動物",
+              "class_id": "8",
+              "path": "data/units/junior_type1_class8.json",
+              "count": 10,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/1/8",
+              "hand_tuned": false
+            },
+            {
+              "id": "junior_type1_class9",
+              "title": "植(食)物/水果",
+              "class_id": "9",
+              "path": "data/units/junior_type1_class9.json",
+              "count": 10,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/1/9",
+              "hand_tuned": false
+            },
+            {
+              "id": "junior_type1_class10",
+              "title": "物品",
+              "class_id": "10",
+              "path": "data/units/junior_type1_class10.json",
+              "count": 10,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/1/10",
+              "hand_tuned": false
+            },
+            {
+              "id": "junior_type1_class11",
+              "title": "山川建築/自然景觀",
+              "class_id": "11",
+              "path": "data/units/junior_type1_class11.json",
+              "count": 9,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/1/11",
+              "hand_tuned": false
+            },
+            {
+              "id": "junior_type1_class12",
+              "title": "時間",
+              "class_id": "12",
+              "path": "data/units/junior_type1_class12.json",
+              "count": 10,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/1/12",
+              "hand_tuned": false
+            },
+            {
+              "id": "junior_type1_class13",
+              "title": "顏色",
+              "class_id": "13",
+              "path": "data/units/junior_type1_class13.json",
+              "count": 4,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/1/13",
+              "hand_tuned": false
+            },
+            {
+              "id": "junior_type1_class14",
+              "title": "事件[動詞]-肯定敘述句用",
+              "class_id": "14",
+              "path": "data/units/junior_type1_class14.json",
+              "count": 56,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/1/14",
+              "hand_tuned": false
+            },
+            {
+              "id": "junior_type1_class15",
+              "title": "事件[動詞]-祈使句時的動詞形式",
+              "class_id": "15",
+              "path": "data/units/junior_type1_class15.json",
+              "count": 9,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/1/15",
+              "hand_tuned": false
+            },
+            {
+              "id": "junior_type1_class212",
+              "title": "否定詞",
+              "class_id": "212",
+              "path": "data/units/junior_type1_class212.json",
+              "count": 4,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/1/212",
+              "hand_tuned": false
+            },
+            {
+              "id": "junior_type1_class213",
+              "title": "其他",
+              "class_id": "213",
+              "path": "data/units/junior_type1_class213.json",
+              "count": 9,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/1/213",
+              "hand_tuned": false
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "title": "生活百句",
+          "units": [
+            {
+              "id": "junior_type2_class16",
+              "title": "問候道別謝謝",
+              "class_id": "16",
+              "path": "data/units/junior_type2_class16.json",
+              "count": 7,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/2/16",
+              "hand_tuned": true
+            },
+            {
+              "id": "junior_type2_class17",
+              "title": "訊息問句",
+              "class_id": "17",
+              "path": "data/units/junior_type2_class17.json",
+              "count": 54,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/2/17",
+              "hand_tuned": false
+            },
+            {
+              "id": "junior_type2_class18",
+              "title": "是非問句",
+              "class_id": "18",
+              "path": "data/units/junior_type2_class18.json",
+              "count": 70,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/2/18",
+              "hand_tuned": false
+            },
+            {
+              "id": "junior_type2_class19",
+              "title": "祈使句",
+              "class_id": "19",
+              "path": "data/units/junior_type2_class19.json",
+              "count": 11,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/2/19",
+              "hand_tuned": false
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "title": "看圖識字",
+          "units": [
+            {
+              "id": "junior_type3_class20",
+              "title": "身體部位",
+              "class_id": "20",
+              "path": "data/units/junior_type3_class20.json",
+              "count": 10,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/3/20",
+              "hand_tuned": false
+            },
+            {
+              "id": "junior_type3_class21",
+              "title": "動物",
+              "class_id": "21",
+              "path": "data/units/junior_type3_class21.json",
+              "count": 10,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/3/21",
+              "hand_tuned": false
+            },
+            {
+              "id": "junior_type3_class22",
+              "title": "植(食)物/水果",
+              "class_id": "22",
+              "path": "data/units/junior_type3_class22.json",
+              "count": 10,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/3/22",
+              "hand_tuned": false
+            },
+            {
+              "id": "junior_type3_class23",
+              "title": "物品",
+              "class_id": "23",
+              "path": "data/units/junior_type3_class23.json",
+              "count": 10,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/3/23",
+              "hand_tuned": false
+            },
+            {
+              "id": "junior_type3_class24",
+              "title": "山川建築/自然景觀",
+              "class_id": "24",
+              "path": "data/units/junior_type3_class24.json",
+              "count": 8,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/3/24",
+              "hand_tuned": false
+            },
+            {
+              "id": "junior_type3_class216",
+              "title": "人物",
+              "class_id": "216",
+              "path": "data/units/junior_type3_class216.json",
+              "count": 5,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/3/216",
+              "hand_tuned": false
+            }
+          ]
+        },
+        {
+          "id": "4",
+          "title": "選擇題（一）",
+          "units": [
+            {
+              "id": "junior_type4_class26",
+              "title": "擁有句",
+              "class_id": "26",
+              "path": "data/units/junior_type4_class26.json",
+              "count": 15,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/4/26",
+              "hand_tuned": false
+            },
+            {
+              "id": "junior_type4_class27",
+              "title": "訊息問句[問地方]",
+              "class_id": "27",
+              "path": "data/units/junior_type4_class27.json",
+              "count": 15,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/4/27",
+              "hand_tuned": false
+            },
+            {
+              "id": "junior_type4_class28",
+              "title": "進行式(男錄音)",
+              "class_id": "28",
+              "path": "data/units/junior_type4_class28.json",
+              "count": 15,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/4/28",
+              "hand_tuned": false
+            },
+            {
+              "id": "junior_type4_class29",
+              "title": "連動結構(女錄音)",
+              "class_id": "29",
+              "path": "data/units/junior_type4_class29.json",
+              "count": 15,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/4/29",
+              "hand_tuned": false
+            },
+            {
+              "id": "junior_type4_class30",
+              "title": "單一動詞[氣象景觀]",
+              "class_id": "30",
+              "path": "data/units/junior_type4_class30.json",
+              "count": 15,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/4/30",
+              "hand_tuned": false
+            }
+          ]
+        },
+        {
+          "id": "5",
+          "title": "選擇題（二）",
+          "units": [
+            {
+              "id": "junior_type5_class31",
+              "title": "訊息問句[問姓名或關係]",
+              "class_id": "31",
+              "path": "data/units/junior_type5_class31.json",
+              "count": 15,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/5/31",
+              "hand_tuned": false
+            },
+            {
+              "id": "junior_type5_class32",
+              "title": "訊息問句[問數量]",
+              "class_id": "32",
+              "path": "data/units/junior_type5_class32.json",
+              "count": 15,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/5/32",
+              "hand_tuned": false
+            },
+            {
+              "id": "junior_type5_class33",
+              "title": "訊息問句[問地方]",
+              "class_id": "33",
+              "path": "data/units/junior_type5_class33.json",
+              "count": 15,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/5/33",
+              "hand_tuned": false
+            },
+            {
+              "id": "junior_type5_class34",
+              "title": "敘述句[單一動詞]",
+              "class_id": "34",
+              "path": "data/units/junior_type5_class34.json",
+              "count": 15,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/5/34",
+              "hand_tuned": false
+            },
+            {
+              "id": "junior_type5_class35",
+              "title": "祈使句",
+              "class_id": "35",
+              "path": "data/units/junior_type5_class35.json",
+              "count": 15,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/5/35",
+              "hand_tuned": false
+            }
+          ]
+        },
+        {
+          "id": "6",
+          "title": "配合題",
+          "units": [
+            {
+              "id": "junior_type6_class36",
+              "title": "配合題沒有類別",
+              "class_id": "36",
+              "path": "data/units/junior_type6_class36.json",
+              "count": 80,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/6/36",
+              "hand_tuned": false
+            }
+          ]
+        },
+        {
+          "id": "9",
+          "title": "簡短對話",
+          "units": [
+            {
+              "id": "junior_type9_class217",
+              "title": "簡短對話沒有類別",
+              "class_id": "217",
+              "path": "data/units/junior_type9_class217.json",
+              "count": 37,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/9/217",
+              "hand_tuned": false
+            }
+          ]
+        },
+        {
+          "id": "10",
+          "title": "看圖說話",
+          "units": [
+            {
+              "id": "junior_type10_class218",
+              "title": "看圖說話沒有類別",
+              "class_id": "218",
+              "path": "data/units/junior_type10_class218.json",
+              "count": 1,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/10/218",
+              "hand_tuned": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "senior",
+      "title": "高中句型",
+      "types": [
+        {
+          "id": "1",
+          "title": "基本詞彙",
+          "units": [
+            {
+              "id": "senior_type1_class1",
+              "title": "數字",
+              "class_id": "1",
+              "path": "data/units/senior_type1_class1.json",
+              "count": 32,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/1/1",
+              "hand_tuned": false
+            },
+            {
+              "id": "senior_type1_class2",
+              "title": "代名詞",
+              "class_id": "2",
+              "path": "data/units/senior_type1_class2.json",
+              "count": 18,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/1/2",
+              "hand_tuned": false
+            },
+            {
+              "id": "senior_type1_class3",
+              "title": "疑問詞",
+              "class_id": "3",
+              "path": "data/units/senior_type1_class3.json",
+              "count": 9,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/1/3",
+              "hand_tuned": false
+            },
+            {
+              "id": "senior_type1_class4",
+              "title": "親屬",
+              "class_id": "4",
+              "path": "data/units/senior_type1_class4.json",
+              "count": 13,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/1/4",
+              "hand_tuned": false
+            },
+            {
+              "id": "senior_type1_class5",
+              "title": "人物",
+              "class_id": "5",
+              "path": "data/units/senior_type1_class5.json",
+              "count": 11,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/1/5",
+              "hand_tuned": false
+            },
+            {
+              "id": "senior_type1_class6",
+              "title": "人名",
+              "class_id": "6",
+              "path": "data/units/senior_type1_class6.json",
+              "count": 11,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/1/6",
+              "hand_tuned": false
+            },
+            {
+              "id": "senior_type1_class7",
+              "title": "身體部位",
+              "class_id": "7",
+              "path": "data/units/senior_type1_class7.json",
+              "count": 12,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/1/7",
+              "hand_tuned": false
+            },
+            {
+              "id": "senior_type1_class8",
+              "title": "動物",
+              "class_id": "8",
+              "path": "data/units/senior_type1_class8.json",
+              "count": 12,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/1/8",
+              "hand_tuned": false
+            },
+            {
+              "id": "senior_type1_class9",
+              "title": "植(食)物/水果",
+              "class_id": "9",
+              "path": "data/units/senior_type1_class9.json",
+              "count": 15,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/1/9",
+              "hand_tuned": false
+            },
+            {
+              "id": "senior_type1_class10",
+              "title": "物品",
+              "class_id": "10",
+              "path": "data/units/senior_type1_class10.json",
+              "count": 15,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/1/10",
+              "hand_tuned": false
+            },
+            {
+              "id": "senior_type1_class11",
+              "title": "山川建築/自然景觀",
+              "class_id": "11",
+              "path": "data/units/senior_type1_class11.json",
+              "count": 15,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/1/11",
+              "hand_tuned": false
+            },
+            {
+              "id": "senior_type1_class12",
+              "title": "時間",
+              "class_id": "12",
+              "path": "data/units/senior_type1_class12.json",
+              "count": 17,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/1/12",
+              "hand_tuned": false
+            },
+            {
+              "id": "senior_type1_class13",
+              "title": "顏色",
+              "class_id": "13",
+              "path": "data/units/senior_type1_class13.json",
+              "count": 4,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/1/13",
+              "hand_tuned": false
+            },
+            {
+              "id": "senior_type1_class14",
+              "title": "事件[動詞]-肯定敘述句用",
+              "class_id": "14",
+              "path": "data/units/senior_type1_class14.json",
+              "count": 82,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/1/14",
+              "hand_tuned": false
+            },
+            {
+              "id": "senior_type1_class15",
+              "title": "事件[動詞]-祈使句時的動詞形式",
+              "class_id": "15",
+              "path": "data/units/senior_type1_class15.json",
+              "count": 23,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/1/15",
+              "hand_tuned": false
+            },
+            {
+              "id": "senior_type1_class211",
+              "title": "事件[動詞]-否定句時的動詞形式",
+              "class_id": "211",
+              "path": "data/units/senior_type1_class211.json",
+              "count": 43,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/1/211",
+              "hand_tuned": false
+            },
+            {
+              "id": "senior_type1_class212",
+              "title": "否定詞",
+              "class_id": "212",
+              "path": "data/units/senior_type1_class212.json",
+              "count": 5,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/1/212",
+              "hand_tuned": false
+            },
+            {
+              "id": "senior_type1_class213",
+              "title": "其他",
+              "class_id": "213",
+              "path": "data/units/senior_type1_class213.json",
+              "count": 10,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/1/213",
+              "hand_tuned": false
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "title": "生活百句",
+          "units": [
+            {
+              "id": "senior_type2_class16",
+              "title": "問候道別謝謝",
+              "class_id": "16",
+              "path": "data/units/senior_type2_class16.json",
+              "count": 9,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/2/16",
+              "hand_tuned": false
+            },
+            {
+              "id": "senior_type2_class17",
+              "title": "訊息問句",
+              "class_id": "17",
+              "path": "data/units/senior_type2_class17.json",
+              "count": 72,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/2/17",
+              "hand_tuned": false
+            },
+            {
+              "id": "senior_type2_class18",
+              "title": "是非問句",
+              "class_id": "18",
+              "path": "data/units/senior_type2_class18.json",
+              "count": 85,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/2/18",
+              "hand_tuned": false
+            },
+            {
+              "id": "senior_type2_class19",
+              "title": "祈使句",
+              "class_id": "19",
+              "path": "data/units/senior_type2_class19.json",
+              "count": 15,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/2/19",
+              "hand_tuned": false
+            },
+            {
+              "id": "senior_type2_class214",
+              "title": "否定句",
+              "class_id": "214",
+              "path": "data/units/senior_type2_class214.json",
+              "count": 53,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/2/214",
+              "hand_tuned": false
+            },
+            {
+              "id": "senior_type2_class215",
+              "title": "複雜句",
+              "class_id": "215",
+              "path": "data/units/senior_type2_class215.json",
+              "count": 16,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/2/215",
+              "hand_tuned": false
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "title": "看圖識字",
+          "units": [
+            {
+              "id": "senior_type3_class20",
+              "title": "擁有句",
+              "class_id": "20",
+              "path": "data/units/senior_type3_class20.json",
+              "count": 15,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/3/20",
+              "hand_tuned": false
+            },
+            {
+              "id": "senior_type3_class21",
+              "title": "訊息問句[問地方]",
+              "class_id": "21",
+              "path": "data/units/senior_type3_class21.json",
+              "count": 15,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/3/21",
+              "hand_tuned": false
+            },
+            {
+              "id": "senior_type3_class22",
+              "title": "進行式(男錄音)",
+              "class_id": "22",
+              "path": "data/units/senior_type3_class22.json",
+              "count": 15,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/3/22",
+              "hand_tuned": false
+            },
+            {
+              "id": "senior_type3_class23",
+              "title": "連動結構(女錄音)",
+              "class_id": "23",
+              "path": "data/units/senior_type3_class23.json",
+              "count": 15,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/3/23",
+              "hand_tuned": false
+            },
+            {
+              "id": "senior_type3_class24",
+              "title": "單一動詞[氣象景觀]",
+              "class_id": "24",
+              "path": "data/units/senior_type3_class24.json",
+              "count": 15,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/3/24",
+              "hand_tuned": false
+            }
+          ]
+        },
+        {
+          "id": "4",
+          "title": "選擇題（一）",
+          "units": [
+            {
+              "id": "senior_type4_class26",
+              "title": "訊息問句(問關係、動植物、物品)",
+              "class_id": "26",
+              "path": "data/units/senior_type4_class26.json",
+              "count": 18,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/4/26",
+              "hand_tuned": false
+            },
+            {
+              "id": "senior_type4_class27",
+              "title": "訊息問句(問數量)",
+              "class_id": "27",
+              "path": "data/units/senior_type4_class27.json",
+              "count": 24,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/4/27",
+              "hand_tuned": false
+            },
+            {
+              "id": "senior_type4_class28",
+              "title": "訊息問句(問地方)",
+              "class_id": "28",
+              "path": "data/units/senior_type4_class28.json",
+              "count": 28,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/4/28",
+              "hand_tuned": false
+            },
+            {
+              "id": "senior_type4_class29",
+              "title": "是非問句(問職業、關係、數量、物品、健康、外貌、動作、天氣)",
+              "class_id": "29",
+              "path": "data/units/senior_type4_class29.json",
+              "count": 31,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/4/29",
+              "hand_tuned": false
+            },
+            {
+              "id": "senior_type4_class30",
+              "title": "是非問句(問動作進行、能力、喜好--連動結構)",
+              "class_id": "30",
+              "path": "data/units/senior_type4_class30.json",
+              "count": 29,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/4/30",
+              "hand_tuned": false
+            }
+          ]
+        },
+        {
+          "id": "5",
+          "title": "選擇題（二）",
+          "units": [
+            {
+              "id": "senior_type5_class31",
+              "title": "訊息問句(問姓名、關係、數量、地方",
+              "class_id": "31",
+              "path": "data/units/senior_type5_class31.json",
+              "count": 15,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/5/31",
+              "hand_tuned": false
+            },
+            {
+              "id": "senior_type5_class32",
+              "title": "是非問句(肯定/否定；問職業、關係、動物、植物、物品)",
+              "class_id": "32",
+              "path": "data/units/senior_type5_class32.json",
+              "count": 15,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/5/32",
+              "hand_tuned": false
+            },
+            {
+              "id": "senior_type5_class33",
+              "title": "敘述句(單一動詞；肯定/否定)",
+              "class_id": "33",
+              "path": "data/units/senior_type5_class33.json",
+              "count": 15,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/5/33",
+              "hand_tuned": false
+            },
+            {
+              "id": "senior_type5_class34",
+              "title": "祈使句(肯定/否定)",
+              "class_id": "34",
+              "path": "data/units/senior_type5_class34.json",
+              "count": 15,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/5/34",
+              "hand_tuned": false
+            },
+            {
+              "id": "senior_type5_class35",
+              "title": "複雜結構(連動結構、條件結構)",
+              "class_id": "35",
+              "path": "data/units/senior_type5_class35.json",
+              "count": 15,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/5/35",
+              "hand_tuned": false
+            }
+          ]
+        },
+        {
+          "id": "7",
+          "title": "選擇題（三）",
+          "units": [
+            {
+              "id": "senior_type7_class37",
+              "title": "身體部位",
+              "class_id": "37",
+              "path": "data/units/senior_type7_class37.json",
+              "count": 10,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/7/37",
+              "hand_tuned": false
+            },
+            {
+              "id": "senior_type7_class38",
+              "title": "動物",
+              "class_id": "38",
+              "path": "data/units/senior_type7_class38.json",
+              "count": 10,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/7/38",
+              "hand_tuned": false
+            },
+            {
+              "id": "senior_type7_class39",
+              "title": "植(食)物/水果",
+              "class_id": "39",
+              "path": "data/units/senior_type7_class39.json",
+              "count": 10,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/7/39",
+              "hand_tuned": false
+            },
+            {
+              "id": "senior_type7_class40",
+              "title": "物品",
+              "class_id": "40",
+              "path": "data/units/senior_type7_class40.json",
+              "count": 10,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/7/40",
+              "hand_tuned": false
+            },
+            {
+              "id": "senior_type7_class41",
+              "title": "山川建築/自然景觀",
+              "class_id": "41",
+              "path": "data/units/senior_type7_class41.json",
+              "count": 10,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/7/41",
+              "hand_tuned": false
+            }
+          ]
+        },
+        {
+          "id": "8",
+          "title": "唸唸看",
+          "units": [
+            {
+              "id": "senior_type8_class42",
+              "title": "唸唸看沒有類別",
+              "class_id": "42",
+              "path": "data/units/senior_type8_class42.json",
+              "count": 50,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/8/42",
+              "hand_tuned": false
+            }
+          ]
+        },
+        {
+          "id": "9",
+          "title": "簡短對話",
+          "units": [
+            {
+              "id": "senior_type9_class43",
+              "title": "簡短對話沒有類別",
+              "class_id": "43",
+              "path": "data/units/senior_type9_class43.json",
+              "count": 35,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/9/43",
+              "hand_tuned": false
+            }
+          ]
+        },
+        {
+          "id": "10",
+          "title": "看圖說話",
+          "units": [
+            {
+              "id": "senior_type10_class44",
+              "title": "看圖說話沒有類別",
+              "class_id": "44",
+              "path": "data/units/senior_type10_class44.json",
+              "count": 2,
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/10/44",
+              "hand_tuned": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "talk",
+      "title": "生活會話",
+      "types": [
+        {
+          "id": "books",
+          "title": "會話課本",
+          "units": [
+            {
+              "id": "talk_book1",
+              "title": "你要去哪裡？",
+              "path": "data/units/talk_book1.json",
+              "count": 7,
+              "source_url": "https://klokah.iformosa.com.tw/talk/learn/1"
+            },
+            {
+              "id": "talk_book2",
+              "title": "你叫什麼名字？",
+              "path": "data/units/talk_book2.json",
+              "count": 7,
+              "source_url": "https://klokah.iformosa.com.tw/talk/learn/2"
+            },
+            {
+              "id": "talk_book3",
+              "title": "肚子餓",
+              "path": "data/units/talk_book3.json",
+              "count": 7,
+              "source_url": "https://klokah.iformosa.com.tw/talk/learn/3"
+            },
+            {
+              "id": "talk_book4",
+              "title": "今天天氣如何？",
+              "path": "data/units/talk_book4.json",
+              "count": 7,
+              "source_url": "https://klokah.iformosa.com.tw/talk/learn/4"
+            },
+            {
+              "id": "talk_book5",
+              "title": "今天星期幾？",
+              "path": "data/units/talk_book5.json",
+              "count": 7,
+              "source_url": "https://klokah.iformosa.com.tw/talk/learn/5"
+            },
+            {
+              "id": "talk_book6",
+              "title": "問路",
+              "path": "data/units/talk_book6.json",
+              "count": 7,
+              "source_url": "https://klokah.iformosa.com.tw/talk/learn/6"
+            },
+            {
+              "id": "talk_book7",
+              "title": "多少錢？",
+              "path": "data/units/talk_book7.json",
+              "count": 7,
+              "source_url": "https://klokah.iformosa.com.tw/talk/learn/7"
+            },
+            {
+              "id": "talk_book8",
+              "title": "你明天會來聚會嗎？",
+              "path": "data/units/talk_book8.json",
+              "count": 7,
+              "source_url": "https://klokah.iformosa.com.tw/talk/learn/8"
+            },
+            {
+              "id": "talk_book9",
+              "title": "你的阿美語說得真好",
+              "path": "data/units/talk_book9.json",
+              "count": 7,
+              "source_url": "https://klokah.iformosa.com.tw/talk/learn/9"
+            },
+            {
+              "id": "talk_book10",
+              "title": "生日",
+              "path": "data/units/talk_book10.json",
+              "count": 7,
+              "source_url": "https://klokah.iformosa.com.tw/talk/learn/10"
+            },
+            {
+              "id": "talk_book11",
+              "title": "你有幾個兄弟姊妹？",
+              "path": "data/units/talk_book11.json",
+              "count": 7,
+              "source_url": "https://klokah.iformosa.com.tw/talk/learn/11"
+            },
+            {
+              "id": "talk_book12",
+              "title": "你是做什麼的？",
+              "path": "data/units/talk_book12.json",
+              "count": 7,
+              "source_url": "https://klokah.iformosa.com.tw/talk/learn/12"
+            },
+            {
+              "id": "talk_book13",
+              "title": "在餐廳裡",
+              "path": "data/units/talk_book13.json",
+              "count": 7,
+              "source_url": "https://klokah.iformosa.com.tw/talk/learn/13"
+            },
+            {
+              "id": "talk_book14",
+              "title": "坐公車",
+              "path": "data/units/talk_book14.json",
+              "count": 7,
+              "source_url": "https://klokah.iformosa.com.tw/talk/learn/14"
+            },
+            {
+              "id": "talk_book15",
+              "title": "生病",
+              "path": "data/units/talk_book15.json",
+              "count": 7,
+              "source_url": "https://klokah.iformosa.com.tw/talk/learn/15"
+            },
+            {
+              "id": "talk_book16",
+              "title": "打電話",
+              "path": "data/units/talk_book16.json",
+              "count": 7,
+              "source_url": "https://klokah.iformosa.com.tw/talk/learn/16"
+            },
+            {
+              "id": "talk_book17",
+              "title": "你要吃什麼？",
+              "path": "data/units/talk_book17.json",
+              "count": 7,
+              "source_url": "https://klokah.iformosa.com.tw/talk/learn/17"
+            },
+            {
+              "id": "talk_book18",
+              "title": "你的興趣是什麼？",
+              "path": "data/units/talk_book18.json",
+              "count": 6,
+              "source_url": "https://klokah.iformosa.com.tw/talk/learn/18"
+            },
+            {
+              "id": "talk_book19",
+              "title": "我最喜歡夏天",
+              "path": "data/units/talk_book19.json",
+              "count": 7,
+              "source_url": "https://klokah.iformosa.com.tw/talk/learn/19"
+            },
+            {
+              "id": "talk_book20",
+              "title": "豐年祭",
+              "path": "data/units/talk_book20.json",
+              "count": 7,
+              "source_url": "https://klokah.iformosa.com.tw/talk/learn/20"
+            },
+            {
+              "id": "talk_book21",
+              "title": "他是一個勤快的人",
+              "path": "data/units/talk_book21.json",
+              "count": 7,
+              "source_url": "https://klokah.iformosa.com.tw/talk/learn/21"
+            },
+            {
+              "id": "talk_book22",
+              "title": "請幫我",
+              "path": "data/units/talk_book22.json",
+              "count": 7,
+              "source_url": "https://klokah.iformosa.com.tw/talk/learn/22"
+            },
+            {
+              "id": "talk_book23",
+              "title": "你讀哪一所學校？",
+              "path": "data/units/talk_book23.json",
+              "count": 7,
+              "source_url": "https://klokah.iformosa.com.tw/talk/learn/23"
+            },
+            {
+              "id": "talk_book24",
+              "title": "馬蘭阿美語好學嗎？",
+              "path": "data/units/talk_book24.json",
+              "count": 7,
+              "source_url": "https://klokah.iformosa.com.tw/talk/learn/24"
+            },
+            {
+              "id": "talk_book25",
+              "title": "你們上次去哪裡玩？",
+              "path": "data/units/talk_book25.json",
+              "count": 7,
+              "source_url": "https://klokah.iformosa.com.tw/talk/learn/25"
+            },
+            {
+              "id": "talk_book26",
+              "title": "應徵工作",
+              "path": "data/units/talk_book26.json",
+              "count": 7,
+              "source_url": "https://klokah.iformosa.com.tw/talk/learn/26"
+            },
+            {
+              "id": "talk_book27",
+              "title": "她談戀愛了",
+              "path": "data/units/talk_book27.json",
+              "count": 7,
+              "source_url": "https://klokah.iformosa.com.tw/talk/learn/27"
+            },
+            {
+              "id": "talk_book28",
+              "title": "傳統舞蹈",
+              "path": "data/units/talk_book28.json",
+              "count": 7,
+              "source_url": "https://klokah.iformosa.com.tw/talk/learn/28"
+            },
+            {
+              "id": "talk_book29",
+              "title": "祈雨祭",
+              "path": "data/units/talk_book29.json",
+              "count": 7,
+              "source_url": "https://klokah.iformosa.com.tw/talk/learn/29"
+            },
+            {
+              "id": "talk_book30",
+              "title": "有幾個原住民族？",
+              "path": "data/units/talk_book30.json",
+              "count": 7,
+              "source_url": "https://klokah.iformosa.com.tw/talk/learn/30"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dialogue",
+      "title": "情境族語",
+      "types": [
+        {
+          "id": "s1",
+          "title": "情境 1",
+          "units": [
+            {
+              "id": "dialogue_s1_l1",
+              "title": "情境1 · 初級 · 對話練習(一)",
+              "path": "data/units/dialogue_s1_l1.json",
+              "count": 22,
+              "source_url": "https://klokah.iformosa.com.tw/dialogue/d4/s1/l1/talking"
+            },
+            {
+              "id": "dialogue_s1_l2",
+              "title": "情境1 · 初級 · 對話練習(二)",
+              "path": "data/units/dialogue_s1_l2.json",
+              "count": 32,
+              "source_url": "https://klokah.iformosa.com.tw/dialogue/d4/s1/l2/talking"
+            },
+            {
+              "id": "dialogue_s1_l3",
+              "title": "情境1 · 初級 · 對話練習(三)",
+              "path": "data/units/dialogue_s1_l3.json",
+              "count": 29,
+              "source_url": "https://klokah.iformosa.com.tw/dialogue/d4/s1/l3/talking"
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "情境 2",
+          "units": [
+            {
+              "id": "dialogue_s2_l1",
+              "title": "情境2 · 初級 · 對話練習(一)",
+              "path": "data/units/dialogue_s2_l1.json",
+              "count": 33,
+              "source_url": "https://klokah.iformosa.com.tw/dialogue/d4/s2/l1/talking"
+            },
+            {
+              "id": "dialogue_s2_l2",
+              "title": "情境2 · 初級 · 對話練習(二)",
+              "path": "data/units/dialogue_s2_l2.json",
+              "count": 37,
+              "source_url": "https://klokah.iformosa.com.tw/dialogue/d4/s2/l2/talking"
+            },
+            {
+              "id": "dialogue_s2_l3",
+              "title": "情境2 · 初級 · 對話練習(三)",
+              "path": "data/units/dialogue_s2_l3.json",
+              "count": 28,
+              "source_url": "https://klokah.iformosa.com.tw/dialogue/d4/s2/l3/talking"
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "情境 3",
+          "units": [
+            {
+              "id": "dialogue_s3_l1",
+              "title": "情境3 · 初級 · 對話練習(一)",
+              "path": "data/units/dialogue_s3_l1.json",
+              "count": 39,
+              "source_url": "https://klokah.iformosa.com.tw/dialogue/d4/s3/l1/talking"
+            },
+            {
+              "id": "dialogue_s3_l2",
+              "title": "情境3 · 初級 · 對話練習(二)",
+              "path": "data/units/dialogue_s3_l2.json",
+              "count": 30,
+              "source_url": "https://klokah.iformosa.com.tw/dialogue/d4/s3/l2/talking"
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "title": "情境 4",
+          "units": [
+            {
+              "id": "dialogue_s4_l1",
+              "title": "情境4 · 初級 · 對話練習(一)",
+              "path": "data/units/dialogue_s4_l1.json",
+              "count": 30,
+              "source_url": "https://klokah.iformosa.com.tw/dialogue/d4/s4/l1/talking"
+            },
+            {
+              "id": "dialogue_s4_l2",
+              "title": "情境4 · 初級 · 對話練習(二)",
+              "path": "data/units/dialogue_s4_l2.json",
+              "count": 29,
+              "source_url": "https://klokah.iformosa.com.tw/dialogue/d4/s4/l2/talking"
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "title": "情境 5",
+          "units": [
+            {
+              "id": "dialogue_s5_l1",
+              "title": "情境5 · 初級 · 對話練習(一)",
+              "path": "data/units/dialogue_s5_l1.json",
+              "count": 38,
+              "source_url": "https://klokah.iformosa.com.tw/dialogue/d4/s5/l1/talking"
+            },
+            {
+              "id": "dialogue_s5_l2",
+              "title": "情境5 · 初級 · 對話練習(二)",
+              "path": "data/units/dialogue_s5_l2.json",
+              "count": 34,
+              "source_url": "https://klokah.iformosa.com.tw/dialogue/d4/s5/l2/talking"
+            },
+            {
+              "id": "dialogue_s5_l3",
+              "title": "情境5 · 初級 · 對話練習(三)",
+              "path": "data/units/dialogue_s5_l3.json",
+              "count": 24,
+              "source_url": "https://klokah.iformosa.com.tw/dialogue/d4/s5/l3/talking"
+            }
+          ]
+        },
+        {
+          "id": "s6",
+          "title": "情境 6",
+          "units": [
+            {
+              "id": "dialogue_s6_l1",
+              "title": "情境6 · 中級 · 對話練習(一)",
+              "path": "data/units/dialogue_s6_l1.json",
+              "count": 30,
+              "source_url": "https://klokah.iformosa.com.tw/dialogue/d4/s6/l1/talking"
+            },
+            {
+              "id": "dialogue_s6_l2",
+              "title": "情境6 · 中級 · 對話練習(二)",
+              "path": "data/units/dialogue_s6_l2.json",
+              "count": 30,
+              "source_url": "https://klokah.iformosa.com.tw/dialogue/d4/s6/l2/talking"
+            },
+            {
+              "id": "dialogue_s6_l3",
+              "title": "情境6 · 中級 · 對話練習(三)",
+              "path": "data/units/dialogue_s6_l3.json",
+              "count": 22,
+              "source_url": "https://klokah.iformosa.com.tw/dialogue/d4/s6/l3/talking"
+            }
+          ]
+        },
+        {
+          "id": "s7",
+          "title": "情境 7",
+          "units": [
+            {
+              "id": "dialogue_s7_l1",
+              "title": "情境7 · 中級 · 對話練習(一)",
+              "path": "data/units/dialogue_s7_l1.json",
+              "count": 34,
+              "source_url": "https://klokah.iformosa.com.tw/dialogue/d4/s7/l1/talking"
+            },
+            {
+              "id": "dialogue_s7_l2",
+              "title": "情境7 · 中級 · 對話練習(二)",
+              "path": "data/units/dialogue_s7_l2.json",
+              "count": 30,
+              "source_url": "https://klokah.iformosa.com.tw/dialogue/d4/s7/l2/talking"
+            }
+          ]
+        },
+        {
+          "id": "s8",
+          "title": "情境 8",
+          "units": [
+            {
+              "id": "dialogue_s8_l1",
+              "title": "情境8 · 中級 · 對話練習(一)",
+              "path": "data/units/dialogue_s8_l1.json",
+              "count": 36,
+              "source_url": "https://klokah.iformosa.com.tw/dialogue/d4/s8/l1/talking"
+            },
+            {
+              "id": "dialogue_s8_l2",
+              "title": "情境8 · 中級 · 對話練習(二)",
+              "path": "data/units/dialogue_s8_l2.json",
+              "count": 29,
+              "source_url": "https://klokah.iformosa.com.tw/dialogue/d4/s8/l2/talking"
+            }
+          ]
+        },
+        {
+          "id": "s9",
+          "title": "情境 9",
+          "units": [
+            {
+              "id": "dialogue_s9_l1",
+              "title": "情境9 · 中級 · 對話練習(一)",
+              "path": "data/units/dialogue_s9_l1.json",
+              "count": 29,
+              "source_url": "https://klokah.iformosa.com.tw/dialogue/d4/s9/l1/talking"
+            },
+            {
+              "id": "dialogue_s9_l2",
+              "title": "情境9 · 中級 · 對話練習(二)",
+              "path": "data/units/dialogue_s9_l2.json",
+              "count": 29,
+              "source_url": "https://klokah.iformosa.com.tw/dialogue/d4/s9/l2/talking"
+            },
+            {
+              "id": "dialogue_s9_l3",
+              "title": "情境9 · 中級 · 對話練習(三)",
+              "path": "data/units/dialogue_s9_l3.json",
+              "count": 20,
+              "source_url": "https://klokah.iformosa.com.tw/dialogue/d4/s9/l3/talking"
+            }
+          ]
+        },
+        {
+          "id": "s10",
+          "title": "情境 10",
+          "units": [
+            {
+              "id": "dialogue_s10_l1",
+              "title": "情境10 · 中高級 · 對話練習(一)",
+              "path": "data/units/dialogue_s10_l1.json",
+              "count": 32,
+              "source_url": "https://klokah.iformosa.com.tw/dialogue/d4/s10/l1/talking"
+            },
+            {
+              "id": "dialogue_s10_l2",
+              "title": "情境10 · 中高級 · 對話練習(二)",
+              "path": "data/units/dialogue_s10_l2.json",
+              "count": 26,
+              "source_url": "https://klokah.iformosa.com.tw/dialogue/d4/s10/l2/talking"
+            },
+            {
+              "id": "dialogue_s10_l3",
+              "title": "情境10 · 中高級 · 對話練習(三)",
+              "path": "data/units/dialogue_s10_l3.json",
+              "count": 21,
+              "source_url": "https://klokah.iformosa.com.tw/dialogue/d4/s10/l3/talking"
+            }
+          ]
+        },
+        {
+          "id": "s11",
+          "title": "情境 11",
+          "units": [
+            {
+              "id": "dialogue_s11_l1",
+              "title": "情境11 · 中高級 · 對話練習(一)",
+              "path": "data/units/dialogue_s11_l1.json",
+              "count": 29,
+              "source_url": "https://klokah.iformosa.com.tw/dialogue/d4/s11/l1/talking"
+            },
+            {
+              "id": "dialogue_s11_l2",
+              "title": "情境11 · 中高級 · 對話練習(二)",
+              "path": "data/units/dialogue_s11_l2.json",
+              "count": 25,
+              "source_url": "https://klokah.iformosa.com.tw/dialogue/d4/s11/l2/talking"
+            }
+          ]
+        },
+        {
+          "id": "s12",
+          "title": "情境 12",
+          "units": [
+            {
+              "id": "dialogue_s12_l1",
+              "title": "情境12 · 中高級 · 對話練習(一)",
+              "path": "data/units/dialogue_s12_l1.json",
+              "count": 33,
+              "source_url": "https://klokah.iformosa.com.tw/dialogue/d4/s12/l1/talking"
+            },
+            {
+              "id": "dialogue_s12_l2",
+              "title": "情境12 · 中高級 · 對話練習(二)",
+              "path": "data/units/dialogue_s12_l2.json",
+              "count": 23,
+              "source_url": "https://klokah.iformosa.com.tw/dialogue/d4/s12/l2/talking"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "essay",
+      "title": "族語短文",
+      "types": [
+        {
+          "id": "lessons",
+          "title": "短文課",
+          "units": [
+            {
+              "id": "essay_s1_l1",
+              "title": "短文 s1/l1 · 上課用語",
+              "path": "data/units/essay_s1_l1.json",
+              "count": 9,
+              "source_url": "https://klokah.iformosa.com.tw/essay/d4/s1/l1/learn"
+            },
+            {
+              "id": "essay_s1_l2",
+              "title": "短文 s1/l2 · 姓名與問候",
+              "path": "data/units/essay_s1_l2.json",
+              "count": 7,
+              "source_url": "https://klokah.iformosa.com.tw/essay/d4/s1/l2/learn"
+            },
+            {
+              "id": "essay_s2_l1",
+              "title": "短文 s2/l1 · 上課用語",
+              "path": "data/units/essay_s2_l1.json",
+              "count": 9,
+              "source_url": "https://klokah.iformosa.com.tw/essay/d4/s2/l1/learn"
+            },
+            {
+              "id": "essay_s2_l2",
+              "title": "短文 s2/l2 · 姓名與問候",
+              "path": "data/units/essay_s2_l2.json",
+              "count": 5,
+              "source_url": "https://klokah.iformosa.com.tw/essay/d4/s2/l2/learn"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "hub_url": "https://klokah.iformosa.com.tw/"
+};
+if (typeof window !== 'undefined') window.CATALOG = CATALOG;

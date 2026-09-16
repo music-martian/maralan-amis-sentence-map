@@ -1,0 +1,458 @@
+{
+  "id": "talk_book2",
+  "module": "talk",
+  "title": "你叫什麼名字？",
+  "title_ab": "Cima ko ngangan iso?",
+  "source_url": "https://klokah.iformosa.com.tw/talk/learn/2",
+  "dialect": "馬蘭阿美語",
+  "sentences": [
+    {
+      "id": "001",
+      "amis": "Ngaʼay ho! Cima kiso?",
+      "zh": "Ngayaw：你好。請問你叫什麼名字？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Ngaʼay",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ho",
+          "text": "ho",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t2",
+          "text": "!",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "cima",
+          "text": "Cima",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kiso",
+          "text": "kiso",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t5",
+          "text": "?",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ho",
+            "t2",
+            "cima",
+            "kiso",
+            "t5"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "謂語 Ngaʼay 為中心（自動標記）"
+      },
+      "structure": "謂語 Ngaʼay 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c2s1.mp3",
+      "audio_primary": true,
+      "speaker": "Ngayaw"
+    },
+    {
+      "id": "002",
+      "amis": "Si Komeng kako.",
+      "zh": "Komeng：我叫Komeng。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Si",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "komeng",
+          "text": "Komeng",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kako",
+          "text": "kako",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t3",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "komeng",
+            "kako",
+            "t3"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "謂語 Si 為中心（自動標記）"
+      },
+      "structure": "謂語 Si 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c2s2.mp3",
+      "audio_primary": true,
+      "speaker": "Komeng"
+    },
+    {
+      "id": "003",
+      "amis": "Cima kora?",
+      "zh": "Ngayaw：那位是誰？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Cima",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kora",
+          "text": "kora",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t2",
+          "text": "?",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "kora",
+            "t2"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "謂語 Cima 為中心（自動標記）"
+      },
+      "structure": "謂語 Cima 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c2s3.mp3",
+      "audio_primary": true,
+      "speaker": "Ngayaw"
+    },
+    {
+      "id": "004",
+      "amis": "O widang ako, si Tanaka.",
+      "zh": "Komeng：我的朋友田中。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "O",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "widang",
+          "text": "widang",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ako",
+          "text": "ako",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t3",
+          "text": ",",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "si",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "tanaka",
+          "text": "Tanaka",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t6",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "widang",
+            "ako"
+          ],
+          [
+            "pred2",
+            "tanaka",
+            "t6"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c2s4.mp3",
+      "audio_primary": true,
+      "speaker": "Komeng"
+    },
+    {
+      "id": "005",
+      "amis": "Nanicowaay ko mira?",
+      "zh": "Ngayaw：他是從哪裡來的？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Nanicowaay",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "mira",
+          "text": "mira",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t3",
+          "text": "?",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "mira",
+            "t3"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "謂語 Nanicowaay 為中心（自動標記）"
+      },
+      "structure": "謂語 Nanicowaay 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c2s5.mp3",
+      "audio_primary": true,
+      "speaker": "Ngayaw"
+    },
+    {
+      "id": "006",
+      "amis": "NaniDipongay, tayniay minanam to sowal no ʼAmis.",
+      "zh": "Komeng：從日本來，來學阿美語。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "NaniDipongay",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t1",
+          "text": ",",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "tayniay",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "minanam",
+          "text": "minanam",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "sowal",
+          "text": "sowal",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "no",
+          "text": "no",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ʼamis",
+          "text": "ʼAmis",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t8",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred"
+          ],
+          [
+            "pred2",
+            "minanam",
+            "to",
+            "sowal",
+            "t8"
+          ]
+        ],
+        "hangs": {
+          "sowal": [
+            "no",
+            "ʼamis"
+          ]
+        },
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c2s6.mp3",
+      "audio_primary": true,
+      "speaker": "Komeng"
+    },
+    {
+      "id": "007",
+      "amis": "Cima aca kora?",
+      "zh": "Ngayaw：那位又是誰？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Cima",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "aca",
+          "text": "aca",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kora",
+          "text": "kora",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t3",
+          "text": "?",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "aca",
+            "kora",
+            "t3"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "謂語 Cima 為中心（自動標記）"
+      },
+      "structure": "謂語 Cima 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c2s7.mp3",
+      "audio_primary": true,
+      "speaker": "Ngayaw"
+    }
+  ]
+}

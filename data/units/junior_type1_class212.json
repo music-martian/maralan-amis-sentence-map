@@ -1,0 +1,204 @@
+{
+  "id": "junior_type1_class212",
+  "module": "junior",
+  "type_id": "1",
+  "type_name": "基本詞彙",
+  "class_id": "212",
+  "title": "否定詞",
+  "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/1/212",
+  "dialect": "馬蘭阿美語",
+  "sentences": [
+    {
+      "id": "001",
+      "amis": "awa / awaay",
+      "zh": "沒有[表擁有的否定]",
+      "en": "",
+      "tokens": [
+        {
+          "id": "awa",
+          "text": "awa",
+          "role": "adverb",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t1",
+          "text": "/",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred",
+          "text": "awaay",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "awa",
+            "t1",
+            "pred"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "謂語 awaay 為中心（自動標記）"
+      },
+      "structure": "謂語 awaay 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/sp_junior/sound/4/1word/15_1.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "002",
+      "amis": "cowa / caʼka",
+      "zh": "沒有[表過去沒有作某事]",
+      "en": "",
+      "tokens": [
+        {
+          "id": "cowa",
+          "text": "cowa",
+          "role": "adverb",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t1",
+          "text": "/",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred",
+          "text": "caʼka",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "cowa",
+            "t1",
+            "pred"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "謂語 caʼka 為中心（自動標記）"
+      },
+      "structure": "謂語 caʼka 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/sp_junior/sound/4/1word/15_2.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "003",
+      "amis": "aka / akaa / akaka / caʼto",
+      "zh": "不要[表未來不要作某事]",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "aka",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t1",
+          "text": "/",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "akaa",
+          "text": "akaa",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t3",
+          "text": "/",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "akaka",
+          "text": "akaka",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t5",
+          "text": "/",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "caʼto",
+          "text": "caʼto",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "t1",
+            "akaa",
+            "t3",
+            "akaka",
+            "t5",
+            "caʼto"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "謂語 aka 為中心（自動標記）"
+      },
+      "structure": "謂語 aka 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/sp_junior/sound/4/1word/15_3.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "004",
+      "amis": "aka",
+      "zh": "別；不要[祈使句用]",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "aka",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "謂語 aka 為中心（自動標記）"
+      },
+      "structure": "謂語 aka 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/sp_junior/sound/4/1word/15_4.mp3",
+      "audio_primary": true
+    }
+  ]
+}

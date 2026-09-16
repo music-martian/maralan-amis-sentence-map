@@ -3,22 +3,38 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <meta name="description" content="馬蘭阿美語句型圖 — 問候道別謝謝（Klokah 國中版 class 16）即時 SVG 學習／練習原型" />
-  <title>馬蘭阿美語 · 句型圖 — 問候道別謝謝</title>
+  <meta name="description" content="馬蘭阿美語句型圖 — Klokah 全庫（國中／高中句型、生活會話、情境族語、族語短文）即時 SVG 學習／練習" />
+  <title>馬蘭阿美語 · 句型圖</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body class="mode-learn">
   <div class="app">
     <header class="site-header">
       <h1>馬蘭阿美語 · 句型圖</h1>
-      <p class="subtitle">問候道別謝謝（class 16）</p>
+      <p class="subtitle" id="unit-subtitle">選擇單元開始學習</p>
       <a
         class="klokah-link"
-        href="https://klokah.iformosa.com.tw/sentence/junior/learn/4/2/16"
+        id="klokah-link"
+        href="https://klokah.iformosa.com.tw/"
         target="_blank"
         rel="noopener noreferrer"
       >Klokah 原文教材 ↗</a>
     </header>
+
+    <div class="unit-pickers" role="group" aria-label="選擇教材單元">
+      <label class="picker">
+        <span class="picker-label">模組</span>
+        <select id="sel-module" aria-label="模組"></select>
+      </label>
+      <label class="picker">
+        <span class="picker-label">類型</span>
+        <select id="sel-type" aria-label="類型／分類"></select>
+      </label>
+      <label class="picker picker-wide">
+        <span class="picker-label">單元</span>
+        <select id="sel-unit" aria-label="單元／課"></select>
+      </label>
+    </div>
 
     <div class="toolbar">
       <div class="mode-toggle" role="group" aria-label="學習模式">
@@ -32,7 +48,7 @@
         <button type="button" id="btn-next" aria-label="下一句">下一句 ›</button>
       </div>
 
-      <label class="visually-hidden" for="sentence-select" style="position:absolute;left:-9999px">選擇句子</label>
+      <label class="visually-hidden" for="sentence-select">選擇句子</label>
       <select id="sentence-select" class="sentence-select" aria-label="選擇句子"></select>
     </div>
 
@@ -55,6 +71,7 @@
       <p class="practice-hint" id="practice-hint" hidden>點彩珠看阿美語</p>
 
       <div class="diagram-wrap" id="diagram" aria-live="polite"></div>
+      <p class="load-status" id="load-status" hidden></p>
 
       <div class="color-legend" id="color-legend" aria-label="顏色圖例">
         <span><i class="swatch" style="background:#C9A6E8"></i>謂語 pred</span>
@@ -75,11 +92,13 @@
     </main>
 
     <footer class="site-footer">
-      <p>Klokah 句型篇國中版 · 馬蘭阿美語 · 問候道別謝謝</p>
-      <p>即時 SVG 句型圖 · 靜態原型 · 無需建置步驟</p>
+      <p id="footer-unit">Klokah · 馬蘭阿美語 · 句型圖</p>
+      <p>自動標記句型圖 — 簡化供學習用，結構可能需再調整</p>
+      <p class="footer-note">GitHub Pages 會依單元動態載入 JSON；若以 file:// 開啟請用本機小伺服器，或先看內建問候單元。</p>
     </footer>
   </div>
 
+  <script src="catalog.js"></script>
   <script src="data.js"></script>
   <script src="diagram.js"></script>
   <script src="app.js"></script>

@@ -1,0 +1,529 @@
+{
+  "id": "talk_book21",
+  "module": "talk",
+  "title": "他是一個勤快的人",
+  "title_ab": "O talekaway a tamdaw ko mira",
+  "source_url": "https://klokah.iformosa.com.tw/talk/learn/21",
+  "dialect": "馬蘭阿美語",
+  "sentences": [
+    {
+      "id": "001",
+      "amis": "Pacelem kiso Enah?",
+      "zh": "Tengo：Enah，你怎麼這麼早啊！",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Pacelem",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kiso",
+          "text": "kiso",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "enah",
+          "text": "Enah",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t3",
+          "text": "?",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "kiso",
+            "enah",
+            "t3"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "謂語 Pacelem 為中心（自動標記）"
+      },
+      "structure": "謂語 Pacelem 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c21s1.mp3",
+      "audio_primary": true,
+      "speaker": "Tengo"
+    },
+    {
+      "id": "002",
+      "amis": "Hay, o mamifawah kako to fawahan no pitilidan.",
+      "zh": "Enah：是啊，我要去開我們班教室的門。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Hay",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t1",
+          "text": ",",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "o",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "mamifawah",
+          "text": "mamifawah",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kako",
+          "text": "kako",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "fawahan",
+          "text": "fawahan",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "no",
+          "text": "no",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pitilidan",
+          "text": "pitilidan",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t9",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred"
+          ],
+          [
+            "pred2",
+            "mamifawah",
+            "kako",
+            "to",
+            "fawahan",
+            "t9"
+          ]
+        ],
+        "hangs": {
+          "fawahan": [
+            "no",
+            "pitilidan"
+          ]
+        },
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c21s2.mp3",
+      "audio_primary": true,
+      "speaker": "Enah"
+    },
+    {
+      "id": "003",
+      "amis": "Maharek a mifawah nimaan to kiso?",
+      "zh": "Tengo：開了門之後你要做什麼？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Maharek",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "a",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "mifawah",
+          "text": "mifawah",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "nimaan",
+          "text": "nimaan",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kiso",
+          "text": "kiso",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t6",
+          "text": "?",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "a",
+            "mifawah",
+            "nimaan",
+            "to",
+            "kiso",
+            "t6"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "謂語 Maharek 為中心（自動標記）"
+      },
+      "structure": "謂語 Maharek 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c21s3.mp3",
+      "audio_primary": true,
+      "speaker": "Tengo"
+    },
+    {
+      "id": "004",
+      "amis": "Milasoʼ kako to pahanaan.",
+      "zh": "Enah：我要去花圃澆水。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Milasoʼ",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kako",
+          "text": "kako",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pahanaan",
+          "text": "pahanaan",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t4",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "kako",
+            "to",
+            "pahanaan",
+            "t4"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "謂語 Milasoʼ 為中心（自動標記）"
+      },
+      "structure": "謂語 Milasoʼ 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c21s4.mp3",
+      "audio_primary": true,
+      "speaker": "Enah"
+    },
+    {
+      "id": "005",
+      "amis": "Maharek milasoʼ nimaan ho kiso?",
+      "zh": "Tengo：澆完水之後你還要做什麼？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Maharek",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "milasoʼ",
+          "text": "milasoʼ",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "nimaan",
+          "text": "nimaan",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ho",
+          "text": "ho",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kiso",
+          "text": "kiso",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t5",
+          "text": "?",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "milasoʼ",
+            "nimaan",
+            "ho",
+            "kiso",
+            "t5"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "謂語 Maharek 為中心（自動標記）"
+      },
+      "structure": "謂語 Maharek 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c21s5.mp3",
+      "audio_primary": true,
+      "speaker": "Tengo"
+    },
+    {
+      "id": "006",
+      "amis": "Mineneng kako to tatiliden anini.",
+      "zh": "Enah：要預習今天要教的功課。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Mineneng",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kako",
+          "text": "kako",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "tatiliden",
+          "text": "tatiliden",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "anini",
+          "text": "anini",
+          "role": "adverb",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t5",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "kako",
+            "to",
+            "tatiliden",
+            "anini",
+            "t5"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "謂語 Mineneng 為中心（自動標記）"
+      },
+      "structure": "謂語 Mineneng 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c21s6.mp3",
+      "audio_primary": true,
+      "speaker": "Enah"
+    },
+    {
+      "id": "007",
+      "amis": "Aciyah! Adihayay to ko tayal iso.",
+      "zh": "Tengo：哎唷！你的事情真多啊。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Aciyah",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t1",
+          "text": "!",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "adihayay",
+          "text": "Adihayay",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "tayal",
+          "text": "tayal",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "iso",
+          "text": "iso",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "t7",
+          "text": ".",
+          "role": "particle",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "t1",
+            "adihayay",
+            "to",
+            "ko",
+            "tayal",
+            "iso",
+            "t7"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "謂語 Aciyah 為中心（自動標記）"
+      },
+      "structure": "謂語 Aciyah 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c21s7.mp3",
+      "audio_primary": true,
+      "speaker": "Tengo"
+    }
+  ]
+}
