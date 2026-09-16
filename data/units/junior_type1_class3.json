@@ -18,21 +18,14 @@
           "id": "pred",
           "text": "cima",
           "role": "pred",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t1",
-          "text": "/",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "誰",
           "gloss_en": ""
         },
         {
           "id": "nima",
           "text": "nima",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "誰",
           "gloss_en": ""
         }
       ],
@@ -40,7 +33,6 @@
         "groups": [
           [
             "pred",
-            "t1",
             "nima"
           ]
         ],
@@ -62,21 +54,14 @@
           "id": "pred",
           "text": "maan",
           "role": "pred",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t1",
-          "text": "/",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "什麼",
           "gloss_en": ""
         },
         {
           "id": "manan",
           "text": "manan",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "什麼",
           "gloss_en": ""
         }
       ],
@@ -84,7 +69,6 @@
         "groups": [
           [
             "pred",
-            "t1",
             "manan"
           ]
         ],
@@ -106,21 +90,14 @@
           "id": "pred",
           "text": "pina",
           "role": "pred",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t1",
-          "text": "/",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "多少",
           "gloss_en": ""
         },
         {
           "id": "pinaay",
           "text": "pinaay",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "多少",
           "gloss_en": ""
         }
       ],
@@ -128,7 +105,6 @@
         "groups": [
           [
             "pred",
-            "t1",
             "pinaay"
           ]
         ],
@@ -150,21 +126,14 @@
           "id": "pred",
           "text": "papina",
           "role": "pred",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t1",
-          "text": "/",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "多少    幾位",
           "gloss_en": ""
         },
         {
           "id": "papinaay",
           "text": "papinaay",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "多少    幾位",
           "gloss_en": ""
         }
       ],
@@ -172,7 +141,6 @@
         "groups": [
           [
             "pred",
-            "t1",
             "papinaay"
           ]
         ],
@@ -194,49 +162,28 @@
           "id": "cowa",
           "text": "cowa",
           "role": "adverb",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t1",
-          "text": "/",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "不是[回答用]",
           "gloss_en": ""
         },
         {
           "id": "pred",
           "text": "cowaay",
           "role": "pred",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t3",
-          "text": "/",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "什麼地方；哪裡",
           "gloss_en": ""
         },
         {
           "id": "icowa",
           "text": "icowa",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t5",
-          "text": "/",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "哪裡",
           "gloss_en": ""
         },
         {
           "id": "sakacowa",
           "text": "sakacowa",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "什麼地方；哪裡",
           "gloss_en": ""
         }
       ],
@@ -244,11 +191,8 @@
         "groups": [
           [
             "cowa",
-            "t1",
             "pred",
-            "t3",
             "icowa",
-            "t5",
             "sakacowa"
           ]
         ],
@@ -270,28 +214,21 @@
           "id": "pred",
           "text": "ano",
           "role": "pred",
-          "gloss_zh": "",
+          "gloss_zh": "如果",
           "gloss_en": ""
         },
         {
           "id": "hacowa",
           "text": "hacowa",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t2",
-          "text": "/",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "什麼時候；何時",
           "gloss_en": ""
         },
         {
           "id": "hacowa_3",
           "text": "hacowa",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "什麼時候；何時",
           "gloss_en": ""
         }
       ],
@@ -300,7 +237,6 @@
           [
             "pred",
             "hacowa",
-            "t2",
             "hacowa_3"
           ]
         ],

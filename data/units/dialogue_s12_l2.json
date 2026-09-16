@@ -17,7 +17,7 @@
           "id": "pred",
           "text": "O",
           "role": "pred",
-          "gloss_zh": "",
+          "gloss_zh": "主題",
           "gloss_en": ""
         },
         {
@@ -31,7 +31,7 @@
           "id": "ko",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "主格",
           "gloss_en": ""
         },
         {
@@ -45,7 +45,7 @@
           "id": "to",
           "text": "to",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "斜格",
           "gloss_en": ""
         },
         {
@@ -59,7 +59,7 @@
           "id": "a",
           "text": "a",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "連繫",
           "gloss_en": ""
         },
         {
@@ -70,17 +70,10 @@
           "gloss_en": ""
         },
         {
-          "id": "t8",
-          "text": ",",
-          "role": "particle",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "pred2",
+          "id": "o",
           "text": "o",
-          "role": "pred2",
-          "gloss_zh": "",
+          "role": "noun",
+          "gloss_zh": "主題",
           "gloss_en": ""
         },
         {
@@ -94,7 +87,7 @@
           "id": "ko_3",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "主格",
           "gloss_en": ""
         },
         {
@@ -108,7 +101,7 @@
           "id": "to_3",
           "text": "to",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "斜格",
           "gloss_en": ""
         },
         {
@@ -119,16 +112,9 @@
           "gloss_en": ""
         },
         {
-          "id": "t15",
-          "text": ",",
-          "role": "particle",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
           "id": "matatodongay",
           "text": "matatodongay",
-          "role": "pred2",
+          "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -136,13 +122,6 @@
           "id": "haenen",
           "text": "haenen",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t18",
-          "text": ".",
-          "role": "particle",
           "gloss_zh": "",
           "gloss_en": ""
         }
@@ -158,17 +137,14 @@
             "edo",
             "a",
             "miʼadop",
-            "t8",
-            "pred2",
+            "o",
             "waʼil",
             "ko_3",
             "sapitalakal",
             "to_3",
             "tolok",
-            "t15",
             "matatodongay",
-            "haenen",
-            "t18"
+            "haenen"
           ]
         ],
         "hangs": {},
@@ -196,20 +172,13 @@
           "id": "han",
           "text": "han",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "助詞",
           "gloss_en": ""
         },
         {
-          "id": "t2",
-          "text": ",",
-          "role": "particle",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "pred2",
+          "id": "mararaway",
           "text": "mararaway",
-          "role": "pred2",
+          "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -217,7 +186,7 @@
           "id": "ko",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "主格",
           "gloss_en": ""
         },
         {
@@ -231,14 +200,7 @@
           "id": "ako",
           "text": "ako",
           "role": "pronoun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t7",
-          "text": "!",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "我的",
           "gloss_en": ""
         },
         {
@@ -252,14 +214,14 @@
           "id": "awa",
           "text": "awa",
           "role": "adverb",
-          "gloss_zh": "",
+          "gloss_zh": "沒有[表擁有的否",
           "gloss_en": ""
         },
         {
           "id": "ko_3",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "主格",
           "gloss_en": ""
         },
         {
@@ -273,21 +235,14 @@
           "id": "no",
           "text": "no",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "屬格",
           "gloss_en": ""
         },
         {
           "id": "mako",
           "text": "mako",
           "role": "pronoun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t14",
-          "text": ".",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "我的",
           "gloss_en": ""
         }
       ],
@@ -296,26 +251,26 @@
           [
             "pred",
             "han",
-            "t2",
-            "pred2",
+            "mararaway",
             "ko",
             "demak",
             "ako",
-            "t7",
             "salaw",
             "awa",
             "ko_3",
-            "maʼadpay",
-            "no",
-            "mako",
-            "t14"
+            "maʼadpay"
           ]
         ],
-        "hangs": {},
+        "hangs": {
+          "maʼadpay": [
+            "no",
+            "mako"
+          ]
+        },
         "plus_between_groups": false,
-        "structure": "長句：線性排列（自動標記，結構簡化）"
+        "structure": "謂語為中心；屬格 no/nu 掛於名詞下（自動）"
       },
-      "structure": "長句：線性排列（自動標記，結構簡化）",
+      "structure": "謂語為中心；屬格 no/nu 掛於名詞下（自動）",
       "audio": "https://web.klokah.tw/text/sound/36011/561415.mp3",
       "audio_primary": true
     },
@@ -343,14 +298,14 @@
           "id": "ako",
           "text": "ako",
           "role": "pronoun",
-          "gloss_zh": "",
+          "gloss_zh": "我的",
           "gloss_en": ""
         },
         {
           "id": "kiso",
           "text": "kiso",
           "role": "pronoun",
-          "gloss_zh": "",
+          "gloss_zh": "你",
           "gloss_en": ""
         },
         {
@@ -371,27 +326,20 @@
           "id": "tosa",
           "text": "tosa",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "二",
           "gloss_en": ""
         },
         {
           "id": "a",
           "text": "a",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "連繫",
           "gloss_en": ""
         },
         {
           "id": "satalakal",
           "text": "satalakal",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t9",
-          "text": ".",
-          "role": "particle",
           "gloss_zh": "",
           "gloss_en": ""
         }
@@ -407,8 +355,7 @@
             "tona",
             "tosa",
             "a",
-            "satalakal",
-            "t9"
+            "satalakal"
           ]
         ],
         "hangs": {},
@@ -433,13 +380,6 @@
           "gloss_en": ""
         },
         {
-          "id": "t1",
-          "text": "!",
-          "role": "particle",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
           "id": "tadangaʼayay",
           "text": "Tadangaʼayay",
           "role": "noun",
@@ -450,21 +390,14 @@
           "id": "to",
           "text": "to",
           "role": "case",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t4",
-          "text": "!",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "斜格",
           "gloss_en": ""
         },
         {
           "id": "ano",
           "text": "Ano",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "如果",
           "gloss_en": ""
         },
         {
@@ -492,21 +425,21 @@
           "id": "to_3",
           "text": "to",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "斜格",
           "gloss_en": ""
         },
         {
           "id": "ako",
           "text": "ako",
           "role": "pronoun",
-          "gloss_zh": "",
+          "gloss_zh": "我的",
           "gloss_en": ""
         },
         {
           "id": "a",
           "text": "a",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "連繫",
           "gloss_en": ""
         },
         {
@@ -529,23 +462,14 @@
           "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
-        },
-        {
-          "id": "t15",
-          "text": ".",
-          "role": "particle",
-          "gloss_zh": "",
-          "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
             "pred",
-            "t1",
             "tadangaʼayay",
             "to",
-            "t4",
             "ano",
             "miliyaw",
             "miʼadop",
@@ -555,8 +479,7 @@
             "a",
             "mitalakal",
             "nga",
-            "citama",
-            "t15"
+            "citama"
           ]
         ],
         "hangs": {},
@@ -584,7 +507,7 @@
           "id": "ko",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "主格",
           "gloss_en": ""
         },
         {
@@ -598,7 +521,7 @@
           "id": "i",
           "text": "i",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "呢",
           "gloss_en": ""
         },
         {
@@ -609,31 +532,24 @@
           "gloss_en": ""
         },
         {
-          "id": "t5",
-          "text": ",",
-          "role": "particle",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "pred2",
+          "id": "tayra",
           "text": "tayra",
-          "role": "pred2",
-          "gloss_zh": "",
+          "role": "noun",
+          "gloss_zh": "去",
           "gloss_en": ""
         },
         {
           "id": "kita",
           "text": "kita",
           "role": "pronoun",
-          "gloss_zh": "",
+          "gloss_zh": "咱們",
           "gloss_en": ""
         },
         {
           "id": "i_3",
           "text": "i",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "呢",
           "gloss_en": ""
         },
         {
@@ -654,7 +570,7 @@
           "id": "to",
           "text": "to",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "斜格",
           "gloss_en": ""
         },
         {
@@ -665,16 +581,9 @@
           "gloss_en": ""
         },
         {
-          "id": "t13",
-          "text": ",",
-          "role": "particle",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
           "id": "akawangay",
           "text": "’akawangay",
-          "role": "pred2",
+          "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -682,14 +591,14 @@
           "id": "to_3",
           "text": "to",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "斜格",
           "gloss_en": ""
         },
         {
           "id": "ko_3",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "主格",
           "gloss_en": ""
         },
         {
@@ -703,20 +612,13 @@
           "id": "i_4",
           "text": "i",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "呢",
           "gloss_en": ""
         },
         {
           "id": "omah_3",
           "text": "omah",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t20",
-          "text": ".",
-          "role": "particle",
           "gloss_zh": "",
           "gloss_en": ""
         }
@@ -729,22 +631,19 @@
             "kawkaw",
             "i",
             "kofaw",
-            "t5",
-            "pred2",
+            "tayra",
             "kita",
             "i_3",
             "omah",
             "mifariw",
             "to",
             "semot",
-            "t13",
             "akawangay",
             "to_3",
             "ko_3",
             "semot_3",
             "i_4",
-            "omah_3",
-            "t20"
+            "omah_3"
           ]
         ],
         "hangs": {},
@@ -779,20 +678,13 @@
           "id": "ko",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "主格",
           "gloss_en": ""
         },
         {
           "id": "kawkaw",
           "text": "kawkaw",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t4",
-          "text": "?",
-          "role": "particle",
           "gloss_zh": "",
           "gloss_en": ""
         }
@@ -803,8 +695,7 @@
             "pred",
             "miteli",
             "ko",
-            "kawkaw",
-            "t4"
+            "kawkaw"
           ]
         ],
         "hangs": {},
@@ -832,7 +723,7 @@
           "id": "i",
           "text": "i",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "呢",
           "gloss_en": ""
         },
         {
@@ -846,7 +737,7 @@
           "id": "no",
           "text": "no",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "屬格",
           "gloss_en": ""
         },
         {
@@ -857,16 +748,9 @@
           "gloss_en": ""
         },
         {
-          "id": "t5",
-          "text": ",",
-          "role": "particle",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "pred2",
+          "id": "comod",
           "text": "comod",
-          "role": "pred2",
+          "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -874,14 +758,14 @@
           "id": "sa",
           "text": "sa",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "助詞",
           "gloss_en": ""
         },
         {
           "id": "kiso",
           "text": "kiso",
           "role": "pronoun",
-          "gloss_zh": "",
+          "gloss_zh": "你",
           "gloss_en": ""
         },
         {
@@ -895,14 +779,7 @@
           "id": "to",
           "text": "to",
           "role": "case",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t11",
-          "text": ".",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "斜格",
           "gloss_en": ""
         }
       ],
@@ -911,15 +788,12 @@
           [
             "pred",
             "i",
-            "fatiʼian"
-          ],
-          [
-            "pred2",
+            "fatiʼian",
+            "comod",
             "sa",
             "kiso",
             "maʼaraw",
-            "to",
-            "t11"
+            "to"
           ]
         ],
         "hangs": {
@@ -928,10 +802,10 @@
             "tanomal"
           ]
         },
-        "plus_between_groups": true,
-        "structure": "兩句以 ＋ 連接（自動切分）"
+        "plus_between_groups": false,
+        "structure": "謂語為中心；屬格 no/nu 掛於名詞下（自動）"
       },
-      "structure": "兩句以 ＋ 連接（自動切分）",
+      "structure": "謂語為中心；屬格 no/nu 掛於名詞下（自動）",
       "audio": "https://web.klokah.tw/text/sound/36011/561419.mp3",
       "audio_primary": true
     },
@@ -956,16 +830,9 @@
           "gloss_en": ""
         },
         {
-          "id": "t2",
-          "text": ",",
-          "role": "particle",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "pred2",
+          "id": "cihinangay",
           "text": "cihinangay",
-          "role": "pred2",
+          "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -973,7 +840,7 @@
           "id": "ko",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "主格",
           "gloss_en": ""
         },
         {
@@ -989,34 +856,24 @@
           "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
-        },
-        {
-          "id": "t7",
-          "text": "!",
-          "role": "particle",
-          "gloss_zh": "",
-          "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
             "pred",
-            "miala"
-          ],
-          [
-            "pred2",
+            "miala",
+            "cihinangay",
             "ko",
             "kawkaw",
-            "kiya",
-            "t7"
+            "kiya"
           ]
         ],
         "hangs": {},
-        "plus_between_groups": true,
-        "structure": "兩句以 ＋ 連接（自動切分）"
+        "plus_between_groups": false,
+        "structure": "謂語 Naʼonen 為中心（自動標記）"
       },
-      "structure": "兩句以 ＋ 連接（自動切分）",
+      "structure": "謂語 Naʼonen 為中心（自動標記）",
       "audio": "https://web.klokah.tw/text/sound/36011/561420.mp3",
       "audio_primary": true
     },
@@ -1030,7 +887,7 @@
           "id": "pred",
           "text": "Aka",
           "role": "pred",
-          "gloss_zh": "",
+          "gloss_zh": "不要[表未來不要",
           "gloss_en": ""
         },
         {
@@ -1044,7 +901,7 @@
           "id": "ko",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "主格",
           "gloss_en": ""
         },
         {
@@ -1058,14 +915,7 @@
           "id": "ako",
           "text": "ako",
           "role": "pronoun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t5",
-          "text": "!",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "我的",
           "gloss_en": ""
         }
       ],
@@ -1076,8 +926,7 @@
             "ripaʼen",
             "ko",
             "talakal",
-            "ako",
-            "t5"
+            "ako"
           ]
         ],
         "hangs": {},
@@ -1105,7 +954,7 @@
           "id": "iso",
           "text": "iso",
           "role": "pronoun",
-          "gloss_zh": "",
+          "gloss_zh": "你的",
           "gloss_en": ""
         },
         {
@@ -1119,7 +968,7 @@
           "id": "ko",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "主格",
           "gloss_en": ""
         },
         {
@@ -1133,14 +982,7 @@
           "id": "iso_3",
           "text": "iso",
           "role": "pronoun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t6",
-          "text": "?",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "你的",
           "gloss_en": ""
         }
       ],
@@ -1152,8 +994,7 @@
             "miteli",
             "ko",
             "talakal",
-            "iso_3",
-            "t6"
+            "iso_3"
           ]
         ],
         "hangs": {},
@@ -1174,7 +1015,7 @@
           "id": "i",
           "text": "I",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "呢",
           "gloss_en": ""
         },
         {
@@ -1188,21 +1029,21 @@
           "id": "nora",
           "text": "nora",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "那個",
           "gloss_en": ""
         },
         {
           "id": "kilang",
           "text": "kilang",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "樹",
           "gloss_en": ""
         },
         {
           "id": "ko",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "主格",
           "gloss_en": ""
         },
         {
@@ -1216,21 +1057,14 @@
           "id": "no",
           "text": "no",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "屬格",
           "gloss_en": ""
         },
         {
           "id": "mako",
           "text": "mako",
           "role": "pronoun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t8",
-          "text": ".",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "我的",
           "gloss_en": ""
         }
       ],
@@ -1242,8 +1076,7 @@
             "nora",
             "kilang",
             "ko",
-            "talakal",
-            "t8"
+            "talakal"
           ]
         ],
         "hangs": {
@@ -1269,7 +1102,7 @@
           "id": "pred",
           "text": "Mana",
           "role": "pred",
-          "gloss_zh": "",
+          "gloss_zh": "為什麼",
           "gloss_en": ""
         },
         {
@@ -1283,14 +1116,7 @@
           "id": "iso",
           "text": "iso",
           "role": "pronoun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t3",
-          "text": "?",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "你的",
           "gloss_en": ""
         }
       ],
@@ -1299,8 +1125,7 @@
           [
             "pred",
             "maharateng",
-            "iso",
-            "t3"
+            "iso"
           ]
         ],
         "hangs": {},
@@ -1321,14 +1146,14 @@
           "id": "ira",
           "text": "Ira",
           "role": "pronoun",
-          "gloss_zh": "",
+          "gloss_zh": "他的",
           "gloss_en": ""
         },
         {
           "id": "ko",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "主格",
           "gloss_en": ""
         },
         {
@@ -1342,27 +1167,20 @@
           "id": "ako",
           "text": "ako",
           "role": "pronoun",
-          "gloss_zh": "",
+          "gloss_zh": "我的",
           "gloss_en": ""
         },
         {
           "id": "ini",
           "text": "ini",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "這裡",
           "gloss_en": ""
         },
         {
-          "id": "t5",
-          "text": ",",
-          "role": "particle",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "pred2",
+          "id": "mansa",
           "text": "mansa",
-          "role": "pred2",
+          "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -1370,34 +1188,27 @@
           "id": "mafana",
           "text": "mafana’",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "會；能",
           "gloss_en": ""
         },
         {
           "id": "to",
           "text": "to",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "斜格",
           "gloss_en": ""
         },
         {
           "id": "kako",
           "text": "kako",
           "role": "pronoun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t10",
-          "text": ",",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "我",
           "gloss_en": ""
         },
         {
           "id": "icowaan",
           "text": "icowaan",
-          "role": "pred2",
+          "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -1405,7 +1216,7 @@
           "id": "ako_3",
           "text": "ako",
           "role": "pronoun",
-          "gloss_zh": "",
+          "gloss_zh": "我的",
           "gloss_en": ""
         },
         {
@@ -1419,7 +1230,7 @@
           "id": "ko_3",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "主格",
           "gloss_en": ""
         },
         {
@@ -1433,14 +1244,7 @@
           "id": "ako_4",
           "text": "ako",
           "role": "pronoun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t17",
-          "text": ".",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "我的",
           "gloss_en": ""
         }
       ],
@@ -1452,19 +1256,16 @@
             "pred",
             "ako",
             "ini",
-            "t5",
-            "pred2",
+            "mansa",
             "mafana",
             "to",
             "kako",
-            "t10",
             "icowaan",
             "ako_3",
             "miteli",
             "ko_3",
             "talakal",
-            "ako_4",
-            "t17"
+            "ako_4"
           ]
         ],
         "hangs": {},
@@ -1485,7 +1286,7 @@
           "id": "pred",
           "text": "O",
           "role": "pred",
-          "gloss_zh": "",
+          "gloss_zh": "主題",
           "gloss_en": ""
         },
         {
@@ -1499,20 +1300,13 @@
           "id": "koni",
           "text": "koni",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "這個",
           "gloss_en": ""
         },
         {
-          "id": "t3",
-          "text": ",",
-          "role": "particle",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "pred2",
+          "id": "telien",
           "text": "telien",
-          "role": "pred2",
+          "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -1520,14 +1314,14 @@
           "id": "niyam",
           "text": "niyam",
           "role": "pronoun",
-          "gloss_zh": "",
+          "gloss_zh": "我們的",
           "gloss_en": ""
         },
         {
           "id": "i",
           "text": "i",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "呢",
           "gloss_en": ""
         },
         {
@@ -1541,34 +1335,27 @@
           "id": "no",
           "text": "no",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "屬格",
           "gloss_en": ""
         },
         {
           "id": "alo",
           "text": "’alo",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "溪",
           "gloss_en": ""
         },
         {
           "id": "a",
           "text": "a",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "連繫",
           "gloss_en": ""
         },
         {
           "id": "mifoting",
           "text": "mifoting",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t12",
-          "text": ".",
-          "role": "particle",
           "gloss_zh": "",
           "gloss_en": ""
         }
@@ -1579,23 +1366,24 @@
             "pred",
             "foefo",
             "koni",
-            "t3",
-            "pred2",
+            "telien",
             "niyam",
             "i",
             "lawac",
-            "no",
-            "alo",
             "a",
-            "mifoting",
-            "t12"
+            "mifoting"
           ]
         ],
-        "hangs": {},
+        "hangs": {
+          "lawac": [
+            "no",
+            "alo"
+          ]
+        },
         "plus_between_groups": false,
-        "structure": "長句：線性排列（自動標記，結構簡化）"
+        "structure": "謂語為中心；屬格 no/nu 掛於名詞下（自動）"
       },
-      "structure": "長句：線性排列（自動標記，結構簡化）",
+      "structure": "謂語為中心；屬格 no/nu 掛於名詞下（自動）",
       "audio": "https://web.klokah.tw/text/sound/36011/561424.mp3",
       "audio_primary": true
     },
@@ -1609,14 +1397,14 @@
           "id": "pred",
           "text": "Awaay",
           "role": "pred",
-          "gloss_zh": "",
+          "gloss_zh": "沒有[表擁有的否",
           "gloss_en": ""
         },
         {
           "id": "ko",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "主格",
           "gloss_en": ""
         },
         {
@@ -1634,16 +1422,9 @@
           "gloss_en": ""
         },
         {
-          "id": "t4",
-          "text": ",",
-          "role": "particle",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "pred2",
+          "id": "pacemot",
           "text": "pacemot",
-          "role": "pred2",
+          "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -1658,7 +1439,7 @@
           "id": "ko_3",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "主格",
           "gloss_en": ""
         },
         {
@@ -1672,20 +1453,13 @@
           "id": "i",
           "text": "i",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "呢",
           "gloss_en": ""
         },
         {
           "id": "tamiyanan_3",
           "text": "tamiyanan",
           "role": "pronoun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t11",
-          "text": ".",
-          "role": "particle",
           "gloss_zh": "",
           "gloss_en": ""
         }
@@ -1696,23 +1470,20 @@
             "pred",
             "ko",
             "foefo",
-            "tamiyanan"
-          ],
-          [
-            "pred2",
+            "tamiyanan",
+            "pacemot",
             "hananay",
             "ko_3",
             "pifoting",
             "i",
-            "tamiyanan_3",
-            "t11"
+            "tamiyanan_3"
           ]
         ],
         "hangs": {},
-        "plus_between_groups": true,
-        "structure": "兩句以 ＋ 連接（自動切分）"
+        "plus_between_groups": false,
+        "structure": "謂語 Awaay 為中心（自動標記）"
       },
-      "structure": "兩句以 ＋ 連接（自動切分）",
+      "structure": "謂語 Awaay 為中心（自動標記）",
       "audio": "https://web.klokah.tw/text/sound/36011/561425.mp3",
       "audio_primary": true
     },
@@ -1726,7 +1497,7 @@
           "id": "pred",
           "text": "Ca",
           "role": "pred",
-          "gloss_zh": "",
+          "gloss_zh": "主格標記",
           "gloss_en": ""
         },
         {
@@ -1747,14 +1518,14 @@
           "id": "kako",
           "text": "kako",
           "role": "pronoun",
-          "gloss_zh": "",
+          "gloss_zh": "我",
           "gloss_en": ""
         },
         {
           "id": "a",
           "text": "a",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "連繫",
           "gloss_en": ""
         },
         {
@@ -1765,16 +1536,9 @@
           "gloss_en": ""
         },
         {
-          "id": "t6",
-          "text": ",",
-          "role": "particle",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "pred2",
+          "id": "cila",
           "text": "cila",
-          "role": "pred2",
+          "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -1782,7 +1546,7 @@
           "id": "to",
           "text": "to",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "斜格",
           "gloss_en": ""
         },
         {
@@ -1796,34 +1560,27 @@
           "id": "han",
           "text": "han",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "助詞",
           "gloss_en": ""
         },
         {
           "id": "to_3",
           "text": "to",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "斜格",
           "gloss_en": ""
         },
         {
           "id": "kako_3",
           "text": "kako",
           "role": "pronoun",
-          "gloss_zh": "",
+          "gloss_zh": "我",
           "gloss_en": ""
         },
         {
           "id": "makena",
           "text": "makena",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t14",
-          "text": "?",
-          "role": "particle",
           "gloss_zh": "",
           "gloss_en": ""
         }
@@ -1837,15 +1594,13 @@
             "kako",
             "a",
             "mipacemot",
-            "t6",
-            "pred2",
+            "cila",
             "to",
             "pakafana",
             "han",
             "to_3",
             "kako_3",
-            "makena",
-            "t14"
+            "makena"
           ]
         ],
         "hangs": {},
@@ -1870,16 +1625,9 @@
           "gloss_en": ""
         },
         {
-          "id": "t1",
-          "text": ",",
-          "role": "particle",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "pred2",
+          "id": "cila",
           "text": "cila",
-          "role": "pred2",
+          "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -1887,7 +1635,7 @@
           "id": "to",
           "text": "to",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "斜格",
           "gloss_en": ""
         },
         {
@@ -1908,14 +1656,14 @@
           "id": "kita",
           "text": "kita",
           "role": "pronoun",
-          "gloss_zh": "",
+          "gloss_zh": "咱們",
           "gloss_en": ""
         },
         {
           "id": "a",
           "text": "a",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "連繫",
           "gloss_en": ""
         },
         {
@@ -1924,36 +1672,26 @@
           "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
-        },
-        {
-          "id": "t9",
-          "text": ".",
-          "role": "particle",
-          "gloss_zh": "",
-          "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
-            "pred"
-          ],
-          [
-            "pred2",
+            "pred",
+            "cila",
             "to",
             "lacafay",
             "sato",
             "kita",
             "a",
-            "mipacemot",
-            "t9"
+            "mipacemot"
           ]
         ],
         "hangs": {},
-        "plus_between_groups": true,
-        "structure": "兩句以 ＋ 連接（自動切分）"
+        "plus_between_groups": false,
+        "structure": "謂語 Hayda 為中心（自動標記）"
       },
-      "structure": "兩句以 ＋ 連接（自動切分）",
+      "structure": "謂語 Hayda 為中心（自動標記）",
       "audio": "https://web.klokah.tw/text/sound/36011/561427.mp3",
       "audio_primary": true
     },
@@ -1974,14 +1712,14 @@
           "id": "to",
           "text": "to",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "斜格",
           "gloss_en": ""
         },
         {
           "id": "a",
           "text": "a",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "連繫",
           "gloss_en": ""
         },
         {
@@ -2002,35 +1740,35 @@
           "id": "han",
           "text": "han",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "助詞",
           "gloss_en": ""
         },
         {
           "id": "to_3",
           "text": "to",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "斜格",
           "gloss_en": ""
         },
         {
           "id": "ako",
           "text": "ako",
           "role": "pronoun",
-          "gloss_zh": "",
+          "gloss_zh": "我的",
           "gloss_en": ""
         },
         {
           "id": "kiso",
           "text": "kiso",
           "role": "pronoun",
-          "gloss_zh": "",
+          "gloss_zh": "你",
           "gloss_en": ""
         },
         {
           "id": "a_3",
           "text": "a",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "連繫",
           "gloss_en": ""
         },
         {
@@ -2044,20 +1782,13 @@
           "id": "to_4",
           "text": "to",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "斜格",
           "gloss_en": ""
         },
         {
           "id": "foefo",
           "text": "foefo",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t13",
-          "text": ".",
-          "role": "particle",
           "gloss_zh": "",
           "gloss_en": ""
         }
@@ -2077,8 +1808,7 @@
             "a_3",
             "misanga",
             "to_4",
-            "foefo",
-            "t13"
+            "foefo"
           ]
         ],
         "hangs": {},
@@ -2106,14 +1836,14 @@
           "id": "to",
           "text": "to",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "斜格",
           "gloss_en": ""
         },
         {
           "id": "ko",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "主格",
           "gloss_en": ""
         },
         {
@@ -2127,20 +1857,13 @@
           "id": "iso",
           "text": "iso",
           "role": "pronoun",
-          "gloss_zh": "",
+          "gloss_zh": "你的",
           "gloss_en": ""
         },
         {
-          "id": "t5",
-          "text": ",",
-          "role": "particle",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "pred2",
+          "id": "mapacemotay",
           "text": "mapacemotay",
-          "role": "pred2",
+          "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -2148,21 +1871,21 @@
           "id": "to_3",
           "text": "to",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "斜格",
           "gloss_en": ""
         },
         {
           "id": "ko_3",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "主格",
           "gloss_en": ""
         },
         {
           "id": "foting",
           "text": "foting",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "魚",
           "gloss_en": ""
         },
         {
@@ -2173,16 +1896,9 @@
           "gloss_en": ""
         },
         {
-          "id": "t11",
-          "text": ",",
-          "role": "particle",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
           "id": "halikien",
           "text": "halikien",
-          "role": "pred2",
+          "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -2190,20 +1906,13 @@
           "id": "a",
           "text": "a",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "連繫",
           "gloss_en": ""
         },
         {
           "id": "mitengteng",
           "text": "mitengteng",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t15",
-          "text": ".",
-          "role": "particle",
           "gloss_zh": "",
           "gloss_en": ""
         }
@@ -2216,17 +1925,14 @@
             "ko",
             "sapacemot",
             "iso",
-            "t5",
-            "pred2",
+            "mapacemotay",
             "to_3",
             "ko_3",
             "foting",
             "alatek",
-            "t11",
             "halikien",
             "a",
-            "mitengteng",
-            "t15"
+            "mitengteng"
           ]
         ],
         "hangs": {},
@@ -2247,7 +1953,7 @@
           "id": "pred",
           "text": "Aka",
           "role": "pred",
-          "gloss_zh": "",
+          "gloss_zh": "不要[表未來不要",
           "gloss_en": ""
         },
         {
@@ -2258,16 +1964,9 @@
           "gloss_en": ""
         },
         {
-          "id": "t2",
-          "text": ",",
-          "role": "particle",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "pred2",
+          "id": "ngiyangi",
           "text": "ngiyangi",
-          "role": "pred2",
+          "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -2282,7 +1981,7 @@
           "id": "ko",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "主格",
           "gloss_en": ""
         },
         {
@@ -2293,31 +1992,24 @@
           "gloss_en": ""
         },
         {
-          "id": "t7",
-          "text": ".",
-          "role": "particle",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
           "id": "itini",
           "text": "Itini",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "這裡",
           "gloss_en": ""
         },
         {
           "id": "sa",
           "text": "sa",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "助詞",
           "gloss_en": ""
         },
         {
           "id": "kako",
           "text": "kako",
           "role": "pronoun",
-          "gloss_zh": "",
+          "gloss_zh": "我",
           "gloss_en": ""
         },
         {
@@ -2331,7 +2023,7 @@
           "id": "to",
           "text": "to",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "斜格",
           "gloss_en": ""
         },
         {
@@ -2342,16 +2034,9 @@
           "gloss_en": ""
         },
         {
-          "id": "t14",
-          "text": ",",
-          "role": "particle",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
           "id": "patadoen",
           "text": "patadoen",
-          "role": "pred2",
+          "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -2366,7 +2051,7 @@
           "id": "kako_3",
           "text": "kako",
           "role": "pronoun",
-          "gloss_zh": "",
+          "gloss_zh": "我",
           "gloss_en": ""
         },
         {
@@ -2380,7 +2065,7 @@
           "id": "to_3",
           "text": "to",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "斜格",
           "gloss_en": ""
         },
         {
@@ -2394,14 +2079,7 @@
           "id": "itira",
           "text": "itira",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t22",
-          "text": ".",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "那裡",
           "gloss_en": ""
         }
       ],
@@ -2410,27 +2088,23 @@
           [
             "pred",
             "ho",
-            "t2",
-            "pred2",
+            "ngiyangi",
             "sanay",
             "ko",
             "tamina",
-            "t7",
             "itini",
             "sa",
             "kako",
             "mitengteng",
             "to",
             "sapacemot",
-            "t14",
             "patadoen",
             "ho_3",
             "kako_3",
             "miala",
             "to_3",
             "salil",
-            "itira",
-            "t22"
+            "itira"
           ]
         ],
         "hangs": {},
@@ -2465,27 +2139,20 @@
           "id": "kora",
           "text": "kora",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "那個",
           "gloss_en": ""
         },
         {
           "id": "foting",
           "text": "foting",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "魚",
           "gloss_en": ""
         },
         {
-          "id": "t4",
-          "text": ",",
-          "role": "particle",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "pred2",
+          "id": "patadoen",
           "text": "patadoen",
-          "role": "pred2",
+          "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -2493,41 +2160,34 @@
           "id": "no",
           "text": "no",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "屬格",
           "gloss_en": ""
         },
         {
           "id": "mako",
           "text": "mako",
           "role": "pronoun",
-          "gloss_zh": "",
+          "gloss_zh": "我的",
           "gloss_en": ""
         },
         {
           "id": "kiso",
           "text": "kiso",
           "role": "pronoun",
-          "gloss_zh": "",
+          "gloss_zh": "你",
           "gloss_en": ""
         },
         {
           "id": "a",
           "text": "a",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "連繫",
           "gloss_en": ""
         },
         {
           "id": "mitengteng",
           "text": "mitengteng",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t11",
-          "text": ".",
-          "role": "particle",
           "gloss_zh": "",
           "gloss_en": ""
         }
@@ -2538,23 +2198,23 @@
             "pred",
             "patayni",
             "kora",
-            "foting"
-          ],
-          [
-            "pred2",
-            "no",
-            "mako",
+            "foting",
+            "patadoen",
             "kiso",
             "a",
-            "mitengteng",
-            "t11"
+            "mitengteng"
           ]
         ],
-        "hangs": {},
-        "plus_between_groups": true,
-        "structure": "兩句以 ＋ 連接（自動切分）"
+        "hangs": {
+          "patadoen": [
+            "no",
+            "mako"
+          ]
+        },
+        "plus_between_groups": false,
+        "structure": "謂語為中心；屬格 no/nu 掛於名詞下（自動）"
       },
-      "structure": "兩句以 ＋ 連接（自動切分）",
+      "structure": "謂語為中心；屬格 no/nu 掛於名詞下（自動）",
       "audio": "https://web.klokah.tw/text/sound/36011/561431.mp3",
       "audio_primary": true
     },
@@ -2572,13 +2232,6 @@
           "gloss_en": ""
         },
         {
-          "id": "t1",
-          "text": "!",
-          "role": "particle",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
           "id": "makadofah",
           "text": "Makadofah",
           "role": "noun",
@@ -2589,20 +2242,13 @@
           "id": "anini",
           "text": "anini",
           "role": "adverb",
-          "gloss_zh": "",
+          "gloss_zh": "今天",
           "gloss_en": ""
         },
         {
-          "id": "t4",
-          "text": ",",
-          "role": "particle",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "pred2",
+          "id": "tomes",
           "text": "tomes",
-          "role": "pred2",
+          "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -2617,7 +2263,7 @@
           "id": "ko",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "主格",
           "gloss_en": ""
         },
         {
@@ -2626,36 +2272,25 @@
           "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
-        },
-        {
-          "id": "t9",
-          "text": ".",
-          "role": "particle",
-          "gloss_zh": "",
-          "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
             "pred",
-            "t1",
             "makadofah",
-            "anini"
-          ],
-          [
-            "pred2",
+            "anini",
+            "tomes",
             "sanay",
             "ko",
-            "faroro",
-            "t9"
+            "faroro"
           ]
         ],
         "hangs": {},
-        "plus_between_groups": true,
-        "structure": "兩句以 ＋ 連接（自動切分）"
+        "plus_between_groups": false,
+        "structure": "謂語 Wata 為中心（自動標記）"
       },
-      "structure": "兩句以 ＋ 連接（自動切分）",
+      "structure": "謂語 Wata 為中心（自動標記）",
       "audio": "https://web.klokah.tw/text/sound/36011/561432.mp3",
       "audio_primary": true
     },
@@ -2676,7 +2311,7 @@
           "id": "a",
           "text": "a",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "連繫",
           "gloss_en": ""
         },
         {
@@ -2697,7 +2332,7 @@
           "id": "no",
           "text": "no",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "屬格",
           "gloss_en": ""
         },
         {
@@ -2711,20 +2346,13 @@
           "id": "ko",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "主格",
           "gloss_en": ""
         },
         {
           "id": "salawinawina",
           "text": "salawinawina",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t8",
-          "text": ".",
-          "role": "particle",
           "gloss_zh": "",
           "gloss_en": ""
         }
@@ -2737,8 +2365,7 @@
             "minokay",
             "palilamen",
             "ko",
-            "salawinawina",
-            "t8"
+            "salawinawina"
           ]
         ],
         "hangs": {

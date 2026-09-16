@@ -16,20 +16,13 @@
           "id": "pred",
           "text": "Ngaʼay",
           "role": "pred",
-          "gloss_zh": "",
+          "gloss_zh": "可以",
           "gloss_en": ""
         },
         {
           "id": "ho",
           "text": "ho",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t2",
-          "text": "!",
-          "role": "particle",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -44,14 +37,7 @@
           "id": "kiso",
           "text": "kiso",
           "role": "pronoun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t5",
-          "text": "?",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "你",
           "gloss_en": ""
         }
       ],
@@ -60,10 +46,8 @@
           [
             "pred",
             "ho",
-            "t2",
             "tatalacowa",
-            "kiso",
-            "t5"
+            "kiso"
           ]
         ],
         "hangs": {},
@@ -92,28 +76,28 @@
           "id": "kako",
           "text": "kako",
           "role": "pronoun",
-          "gloss_zh": "",
+          "gloss_zh": "我",
           "gloss_en": ""
         },
         {
           "id": "to",
           "text": "to",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "斜格",
           "gloss_en": ""
         },
         {
           "id": "wama",
           "text": "wama",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "爸爸",
           "gloss_en": ""
         },
         {
           "id": "ako",
           "text": "ako",
           "role": "pronoun",
-          "gloss_zh": "",
+          "gloss_zh": "我的",
           "gloss_en": ""
         },
         {
@@ -127,21 +111,14 @@
           "id": "wina",
           "text": "wina",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "媽媽",
           "gloss_en": ""
         },
         {
           "id": "ako_3",
           "text": "ako",
           "role": "pronoun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t8",
-          "text": ".",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "我的",
           "gloss_en": ""
         }
       ],
@@ -155,8 +132,7 @@
             "ako",
             "ato",
             "wina",
-            "ako_3",
-            "t8"
+            "ako_3"
           ]
         ],
         "hangs": {},
@@ -185,28 +161,21 @@
           "id": "sa",
           "text": "sa",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "助詞",
           "gloss_en": ""
         },
         {
           "id": "mira",
           "text": "mira",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "他",
           "gloss_en": ""
         },
         {
           "id": "haw",
           "text": "haw",
-          "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t4",
-          "text": "?",
           "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "助詞",
           "gloss_en": ""
         }
       ],
@@ -216,8 +185,7 @@
             "pred",
             "sa",
             "mira",
-            "haw",
-            "t4"
+            "haw"
           ]
         ],
         "hangs": {},
@@ -239,27 +207,13 @@
           "id": "pred",
           "text": "Hay",
           "role": "pred",
-          "gloss_zh": "",
+          "gloss_zh": "是的[回答用]",
           "gloss_en": ""
         },
         {
-          "id": "t1",
-          "text": ",",
-          "role": "particle",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "pred2",
+          "id": "ngaʼayay",
           "text": "ngaʼayay",
-          "role": "pred2",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t3",
-          "text": ".",
-          "role": "particle",
+          "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
         }
@@ -267,18 +221,15 @@
       "layout": {
         "groups": [
           [
-            "pred"
-          ],
-          [
-            "pred2",
-            "t3"
+            "pred",
+            "ngaʼayay"
           ]
         ],
         "hangs": {},
-        "plus_between_groups": true,
-        "structure": "兩句以 ＋ 連接（自動切分）"
+        "plus_between_groups": false,
+        "structure": "謂語 Hay 為中心（自動標記）"
       },
-      "structure": "兩句以 ＋ 連接（自動切分）",
+      "structure": "謂語 Hay 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c1s4.mp3",
       "audio_primary": true,
       "speaker": "Takiyo"
@@ -293,7 +244,7 @@
           "id": "pred",
           "text": "Pina",
           "role": "pred",
-          "gloss_zh": "",
+          "gloss_zh": "多少",
           "gloss_en": ""
         },
         {
@@ -307,14 +258,7 @@
           "id": "kiso",
           "text": "kiso",
           "role": "pronoun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t3",
-          "text": "?",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "你",
           "gloss_en": ""
         }
       ],
@@ -323,8 +267,7 @@
           [
             "pred",
             "romiʼad",
-            "kiso",
-            "t3"
+            "kiso"
           ]
         ],
         "hangs": {},
@@ -353,21 +296,14 @@
           "id": "to",
           "text": "to",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "斜格",
           "gloss_en": ""
         },
         {
           "id": "anocila",
           "text": "anocila",
           "role": "adverb",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t3",
-          "text": ".",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "明天",
           "gloss_en": ""
         }
       ],
@@ -376,8 +312,7 @@
           [
             "pred",
             "to",
-            "anocila",
-            "t3"
+            "anocila"
           ]
         ],
         "hangs": {},
@@ -406,21 +341,14 @@
           "id": "kiso",
           "text": "kiso",
           "role": "pronoun",
-          "gloss_zh": "",
+          "gloss_zh": "你",
           "gloss_en": ""
         },
         {
           "id": "anocila",
           "text": "anocila",
           "role": "adverb",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t3",
-          "text": "?",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "明天",
           "gloss_en": ""
         },
         {
@@ -434,20 +362,13 @@
           "id": "kita",
           "text": "kita",
           "role": "pronoun",
-          "gloss_zh": "",
+          "gloss_zh": "咱們",
           "gloss_en": ""
         },
         {
           "id": "makena",
           "text": "makena",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t7",
-          "text": "?",
-          "role": "particle",
           "gloss_zh": "",
           "gloss_en": ""
         }
@@ -458,11 +379,9 @@
             "pred",
             "kiso",
             "anocila",
-            "t3",
             "mifoting",
             "kita",
-            "makena",
-            "t7"
+            "makena"
           ]
         ],
         "hangs": {},

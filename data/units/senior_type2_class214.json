@@ -18,35 +18,28 @@
           "id": "pred",
           "text": "O",
           "role": "pred",
-          "gloss_zh": "",
+          "gloss_zh": "主題",
           "gloss_en": ""
         },
         {
           "id": "ekong",
           "text": "ekong",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "貓頭鷹",
           "gloss_en": ""
         },
         {
           "id": "kora",
           "text": "kora",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "那個",
           "gloss_en": ""
         },
         {
           "id": "haw",
           "text": "haw",
-          "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t4",
-          "text": "?",
           "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "助詞",
           "gloss_en": ""
         }
       ],
@@ -56,8 +49,7 @@
             "pred",
             "ekong",
             "kora",
-            "haw",
-            "t4"
+            "haw"
           ]
         ],
         "hangs": {},
@@ -80,70 +72,53 @@
           "id": "cowa",
           "text": "Cowa",
           "role": "adverb",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t1",
-          "text": ",",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "不是[回答用]",
           "gloss_en": ""
         },
         {
           "id": "cowa_3",
           "text": "cowa",
           "role": "adverb",
-          "gloss_zh": "",
+          "gloss_zh": "不是[回答用]",
           "gloss_en": ""
         },
         {
           "id": "ko",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "主格",
           "gloss_en": ""
         },
         {
-          "id": "pred2",
+          "id": "pred",
           "text": "ekong",
-          "role": "pred2",
-          "gloss_zh": "",
+          "role": "pred",
+          "gloss_zh": "貓頭鷹",
           "gloss_en": ""
         },
         {
           "id": "kora",
           "text": "kora",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t6",
-          "text": ".",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "那個",
           "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
-            "cowa"
-          ],
-          [
+            "cowa",
             "cowa_3",
             "ko",
-            "pred2",
-            "kora",
-            "t6"
+            "pred",
+            "kora"
           ]
         ],
         "hangs": {},
-        "plus_between_groups": true,
-        "structure": "兩句以 ＋ 連接（自動切分）"
+        "plus_between_groups": false,
+        "structure": "謂語 ekong 為中心（自動標記）"
       },
-      "structure": "兩句以 ＋ 連接（自動切分）",
+      "structure": "謂語 ekong 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_senior/sound/4/2sentence/5_1.mp3",
       "audio_primary": false,
       "audio_note": "音訊為整段對話（含前後句），非單句錄音",
@@ -159,42 +134,35 @@
           "id": "pred",
           "text": "O",
           "role": "pred",
-          "gloss_zh": "",
+          "gloss_zh": "主題",
           "gloss_en": ""
         },
         {
           "id": "singsi",
           "text": "singsi",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "老師",
           "gloss_en": ""
         },
         {
           "id": "ko",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "主格",
           "gloss_en": ""
         },
         {
           "id": "mira",
           "text": "mira",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "他",
           "gloss_en": ""
         },
         {
           "id": "haw",
           "text": "haw",
-          "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t5",
-          "text": "?",
           "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "助詞",
           "gloss_en": ""
         }
       ],
@@ -205,8 +173,7 @@
             "singsi",
             "ko",
             "mira",
-            "haw",
-            "t5"
+            "haw"
           ]
         ],
         "hangs": {},
@@ -229,78 +196,61 @@
           "id": "cowa",
           "text": "Cowa",
           "role": "adverb",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t1",
-          "text": ",",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "不是[回答用]",
           "gloss_en": ""
         },
         {
           "id": "cowa_3",
           "text": "cowa",
           "role": "adverb",
-          "gloss_zh": "",
+          "gloss_zh": "不是[回答用]",
           "gloss_en": ""
         },
         {
           "id": "ko",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "主格",
           "gloss_en": ""
         },
         {
-          "id": "pred2",
+          "id": "pred",
           "text": "singsi",
-          "role": "pred2",
-          "gloss_zh": "",
+          "role": "pred",
+          "gloss_zh": "老師",
           "gloss_en": ""
         },
         {
           "id": "ko_3",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "主格",
           "gloss_en": ""
         },
         {
           "id": "mira",
           "text": "mira",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t7",
-          "text": ".",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "他",
           "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
-            "cowa"
-          ],
-          [
+            "cowa",
             "cowa_3",
             "ko",
-            "pred2",
+            "pred",
             "ko_3",
-            "mira",
-            "t7"
+            "mira"
           ]
         ],
         "hangs": {},
-        "plus_between_groups": true,
-        "structure": "兩句以 ＋ 連接（自動切分）"
+        "plus_between_groups": false,
+        "structure": "謂語 singsi 為中心（自動標記）"
       },
-      "structure": "兩句以 ＋ 連接（自動切分）",
+      "structure": "謂語 singsi 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_senior/sound/4/2sentence/5_2.mp3",
       "audio_primary": false,
       "audio_note": "音訊為整段對話（含前後句），非單句錄音",
@@ -316,49 +266,42 @@
           "id": "pred",
           "text": "O",
           "role": "pred",
-          "gloss_zh": "",
+          "gloss_zh": "主題",
           "gloss_en": ""
         },
         {
           "id": "singsi",
           "text": "singsi",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "老師",
           "gloss_en": ""
         },
         {
           "id": "iso",
           "text": "iso",
           "role": "pronoun",
-          "gloss_zh": "",
+          "gloss_zh": "你的",
           "gloss_en": ""
         },
         {
           "id": "ko",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "主格",
           "gloss_en": ""
         },
         {
           "id": "mira",
           "text": "mira",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "他",
           "gloss_en": ""
         },
         {
           "id": "haw",
           "text": "haw",
-          "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t6",
-          "text": "?",
           "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "助詞",
           "gloss_en": ""
         }
       ],
@@ -370,8 +313,7 @@
             "iso",
             "ko",
             "mira",
-            "haw",
-            "t6"
+            "haw"
           ]
         ],
         "hangs": {},
@@ -394,97 +336,80 @@
           "id": "cowa",
           "text": "Cowa",
           "role": "adverb",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t1",
-          "text": ",",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "不是[回答用]",
           "gloss_en": ""
         },
         {
           "id": "cowa_3",
           "text": "cowa",
           "role": "adverb",
-          "gloss_zh": "",
+          "gloss_zh": "不是[回答用]",
           "gloss_en": ""
         },
         {
           "id": "ko",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "主格",
           "gloss_en": ""
         },
         {
-          "id": "pred2",
+          "id": "pred",
           "text": "singsi",
-          "role": "pred2",
-          "gloss_zh": "",
+          "role": "pred",
+          "gloss_zh": "老師",
           "gloss_en": ""
         },
         {
           "id": "no",
           "text": "no",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "屬格",
           "gloss_en": ""
         },
         {
           "id": "mako",
           "text": "mako",
           "role": "pronoun",
-          "gloss_zh": "",
+          "gloss_zh": "我的",
           "gloss_en": ""
         },
         {
           "id": "ko_3",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "主格",
           "gloss_en": ""
         },
         {
           "id": "mira",
           "text": "mira",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t9",
-          "text": ".",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "他",
           "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
-            "cowa"
-          ],
-          [
+            "cowa",
             "cowa_3",
             "ko",
-            "pred2",
+            "pred",
             "ko_3",
-            "mira",
-            "t9"
+            "mira"
           ]
         ],
         "hangs": {
-          "pred2": [
+          "pred": [
             "no",
             "mako"
           ]
         },
-        "plus_between_groups": true,
-        "structure": "兩句以 ＋ 連接（自動切分）"
+        "plus_between_groups": false,
+        "structure": "謂語為中心；屬格 no/nu 掛於名詞下（自動）"
       },
-      "structure": "兩句以 ＋ 連接（自動切分）",
+      "structure": "謂語為中心；屬格 no/nu 掛於名詞下（自動）",
       "audio": "https://klokah.tw/extension/sp_senior/sound/4/2sentence/5_3.mp3",
       "audio_primary": false,
       "audio_note": "音訊為整段對話（含前後句），非單句錄音",
@@ -500,7 +425,7 @@
           "id": "pred",
           "text": "O",
           "role": "pred",
-          "gloss_zh": "",
+          "gloss_zh": "主題",
           "gloss_en": ""
         },
         {
@@ -514,42 +439,35 @@
           "id": "ko",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "主格",
           "gloss_en": ""
         },
         {
           "id": "riko",
           "text": "riko’",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "衣服",
           "gloss_en": ""
         },
         {
           "id": "no",
           "text": "no",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "屬格",
           "gloss_en": ""
         },
         {
           "id": "mira",
           "text": "mira",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "他",
           "gloss_en": ""
         },
         {
           "id": "haw",
           "text": "haw",
-          "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t7",
-          "text": "?",
           "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "助詞",
           "gloss_en": ""
         }
       ],
@@ -560,8 +478,7 @@
             "kahengangay",
             "ko",
             "riko",
-            "haw",
-            "t7"
+            "haw"
           ]
         ],
         "hangs": {
@@ -589,34 +506,27 @@
           "id": "cowa",
           "text": "Cowa",
           "role": "adverb",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t1",
-          "text": ",",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "不是[回答用]",
           "gloss_en": ""
         },
         {
           "id": "cowa_3",
           "text": "cowa",
           "role": "adverb",
-          "gloss_zh": "",
+          "gloss_zh": "不是[回答用]",
           "gloss_en": ""
         },
         {
           "id": "ko",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "主格",
           "gloss_en": ""
         },
         {
-          "id": "pred2",
+          "id": "pred",
           "text": "kahengangay",
-          "role": "pred2",
+          "role": "pred",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -624,50 +534,40 @@
           "id": "ko_3",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "主格",
           "gloss_en": ""
         },
         {
           "id": "riko",
           "text": "riko’",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "衣服",
           "gloss_en": ""
         },
         {
           "id": "no",
           "text": "no",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "屬格",
           "gloss_en": ""
         },
         {
           "id": "mira",
           "text": "mira",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t9",
-          "text": ".",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "他",
           "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
-            "cowa"
-          ],
-          [
+            "cowa",
             "cowa_3",
             "ko",
-            "pred2",
+            "pred",
             "ko_3",
-            "riko",
-            "t9"
+            "riko"
           ]
         ],
         "hangs": {
@@ -676,10 +576,10 @@
             "mira"
           ]
         },
-        "plus_between_groups": true,
-        "structure": "兩句以 ＋ 連接（自動切分）"
+        "plus_between_groups": false,
+        "structure": "謂語為中心；屬格 no/nu 掛於名詞下（自動）"
       },
-      "structure": "兩句以 ＋ 連接（自動切分）",
+      "structure": "謂語為中心；屬格 no/nu 掛於名詞下（自動）",
       "audio": "https://klokah.tw/extension/sp_senior/sound/4/2sentence/5_4.mp3",
       "audio_primary": false,
       "audio_note": "音訊為整段對話（含前後句），非單句錄音",
@@ -702,28 +602,21 @@
           "id": "kora",
           "text": "kora",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "那個",
           "gloss_en": ""
         },
         {
           "id": "hakenang",
           "text": "hakenang",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "椅子",
           "gloss_en": ""
         },
         {
           "id": "haw",
           "text": "haw",
-          "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t4",
-          "text": "?",
           "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "助詞",
           "gloss_en": ""
         }
       ],
@@ -733,8 +626,7 @@
             "pred",
             "kora",
             "hakenang",
-            "haw",
-            "t4"
+            "haw"
           ]
         ],
         "hangs": {},
@@ -757,20 +649,13 @@
           "id": "cowa",
           "text": "Cowa",
           "role": "adverb",
-          "gloss_zh": "",
+          "gloss_zh": "不是[回答用]",
           "gloss_en": ""
         },
         {
-          "id": "t1",
-          "text": ",",
-          "role": "particle",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "pred2",
+          "id": "pred",
           "text": "ca^ka",
-          "role": "pred2",
+          "role": "pred",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -778,49 +663,39 @@
           "id": "kareteng",
           "text": "kareteng",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "重",
           "gloss_en": ""
         },
         {
           "id": "kora",
           "text": "kora",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "那個",
           "gloss_en": ""
         },
         {
           "id": "hakenang",
           "text": "hakenang",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t6",
-          "text": ".",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "椅子",
           "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
-            "cowa"
-          ],
-          [
-            "pred2",
+            "cowa",
+            "pred",
             "kareteng",
             "kora",
-            "hakenang",
-            "t6"
+            "hakenang"
           ]
         ],
         "hangs": {},
-        "plus_between_groups": true,
-        "structure": "兩句以 ＋ 連接（自動切分）"
+        "plus_between_groups": false,
+        "structure": "謂語 ca^ka 為中心（自動標記）"
       },
-      "structure": "兩句以 ＋ 連接（自動切分）",
+      "structure": "謂語 ca^ka 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_senior/sound/4/2sentence/5_5.mp3",
       "audio_primary": false,
       "audio_note": "音訊為整段對話（含前後句），非單句錄音",
@@ -843,35 +718,28 @@
           "id": "ko",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "主格",
           "gloss_en": ""
         },
         {
           "id": "wina",
           "text": "wina",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "媽媽",
           "gloss_en": ""
         },
         {
           "id": "iso",
           "text": "iso",
           "role": "pronoun",
-          "gloss_zh": "",
+          "gloss_zh": "你的",
           "gloss_en": ""
         },
         {
           "id": "haw",
           "text": "haw",
-          "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t5",
-          "text": "?",
           "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "助詞",
           "gloss_en": ""
         }
       ],
@@ -882,8 +750,7 @@
             "ko",
             "wina",
             "iso",
-            "haw",
-            "t5"
+            "haw"
           ]
         ],
         "hangs": {},
@@ -906,20 +773,13 @@
           "id": "cowa",
           "text": "Cowa",
           "role": "adverb",
-          "gloss_zh": "",
+          "gloss_zh": "不是[回答用]",
           "gloss_en": ""
         },
         {
-          "id": "t1",
-          "text": ",",
-          "role": "particle",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "pred2",
+          "id": "pred",
           "text": "ca^ka",
-          "role": "pred2",
+          "role": "pred",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -927,57 +787,47 @@
           "id": "akawang",
           "text": "akawang",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "高",
           "gloss_en": ""
         },
         {
           "id": "ko",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "主格",
           "gloss_en": ""
         },
         {
           "id": "wina",
           "text": "wina",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "媽媽",
           "gloss_en": ""
         },
         {
           "id": "ako",
           "text": "ako",
           "role": "pronoun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t7",
-          "text": ".",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "我的",
           "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
-            "cowa"
-          ],
-          [
-            "pred2",
+            "cowa",
+            "pred",
             "akawang",
             "ko",
             "wina",
-            "ako",
-            "t7"
+            "ako"
           ]
         ],
         "hangs": {},
-        "plus_between_groups": true,
-        "structure": "兩句以 ＋ 連接（自動切分）"
+        "plus_between_groups": false,
+        "structure": "謂語 ca^ka 為中心（自動標記）"
       },
-      "structure": "兩句以 ＋ 連接（自動切分）",
+      "structure": "謂語 ca^ka 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_senior/sound/4/2sentence/5_6.mp3",
       "audio_primary": false,
       "audio_note": "音訊為整段對話（含前後句），非單句錄音",
@@ -1000,35 +850,28 @@
           "id": "ko",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "主格",
           "gloss_en": ""
         },
         {
           "id": "fokes",
           "text": "fokes",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "頭髮",
           "gloss_en": ""
         },
         {
           "id": "iso",
           "text": "iso",
           "role": "pronoun",
-          "gloss_zh": "",
+          "gloss_zh": "你的",
           "gloss_en": ""
         },
         {
           "id": "haw",
           "text": "haw",
-          "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t5",
-          "text": "?",
           "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "助詞",
           "gloss_en": ""
         }
       ],
@@ -1039,8 +882,7 @@
             "ko",
             "fokes",
             "iso",
-            "haw",
-            "t5"
+            "haw"
           ]
         ],
         "hangs": {},
@@ -1063,20 +905,13 @@
           "id": "cowa",
           "text": "Cowa",
           "role": "adverb",
-          "gloss_zh": "",
+          "gloss_zh": "不是[回答用]",
           "gloss_en": ""
         },
         {
-          "id": "t1",
-          "text": ",",
-          "role": "particle",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "pred2",
+          "id": "pred",
           "text": "ca^ka",
-          "role": "pred2",
+          "role": "pred",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -1084,57 +919,47 @@
           "id": "kiedaw",
           "text": "kiedaw",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "長",
           "gloss_en": ""
         },
         {
           "id": "ko",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "主格",
           "gloss_en": ""
         },
         {
           "id": "fokes",
           "text": "fokes",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "頭髮",
           "gloss_en": ""
         },
         {
           "id": "ako",
           "text": "ako",
           "role": "pronoun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t7",
-          "text": ".",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "我的",
           "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
-            "cowa"
-          ],
-          [
-            "pred2",
+            "cowa",
+            "pred",
             "kiedaw",
             "ko",
             "fokes",
-            "ako",
-            "t7"
+            "ako"
           ]
         ],
         "hangs": {},
-        "plus_between_groups": true,
-        "structure": "兩句以 ＋ 連接（自動切分）"
+        "plus_between_groups": false,
+        "structure": "謂語 ca^ka 為中心（自動標記）"
       },
-      "structure": "兩句以 ＋ 連接（自動切分）",
+      "structure": "謂語 ca^ka 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_senior/sound/4/2sentence/5_7.mp3",
       "audio_primary": false,
       "audio_note": "音訊為整段對話（含前後句），非單句錄音",
@@ -1157,28 +982,21 @@
           "id": "kora",
           "text": "kora",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "那個",
           "gloss_en": ""
         },
         {
           "id": "tamdaw",
           "text": "tamdaw",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "人",
           "gloss_en": ""
         },
         {
           "id": "haw",
           "text": "haw",
-          "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t4",
-          "text": "?",
           "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "助詞",
           "gloss_en": ""
         }
       ],
@@ -1188,8 +1006,7 @@
             "pred",
             "kora",
             "tamdaw",
-            "haw",
-            "t4"
+            "haw"
           ]
         ],
         "hangs": {},
@@ -1212,20 +1029,13 @@
           "id": "cowa",
           "text": "Cowa",
           "role": "adverb",
-          "gloss_zh": "",
+          "gloss_zh": "不是[回答用]",
           "gloss_en": ""
         },
         {
-          "id": "t1",
-          "text": ",",
-          "role": "particle",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "pred2",
+          "id": "pred",
           "text": "ca^ka",
-          "role": "pred2",
+          "role": "pred",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -1240,42 +1050,32 @@
           "id": "ko",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "主格",
           "gloss_en": ""
         },
         {
           "id": "mira",
           "text": "mira",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t6",
-          "text": ".",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "他",
           "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
-            "cowa"
-          ],
-          [
-            "pred2",
+            "cowa",
+            "pred",
             "lalok",
             "ko",
-            "mira",
-            "t6"
+            "mira"
           ]
         ],
         "hangs": {},
-        "plus_between_groups": true,
-        "structure": "兩句以 ＋ 連接（自動切分）"
+        "plus_between_groups": false,
+        "structure": "謂語 ca^ka 為中心（自動標記）"
       },
-      "structure": "兩句以 ＋ 連接（自動切分）",
+      "structure": "謂語 ca^ka 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_senior/sound/4/2sentence/5_8.mp3",
       "audio_primary": false,
       "audio_note": "音訊為整段對話（含前後句），非單句錄音",
@@ -1291,56 +1091,49 @@
           "id": "pred",
           "text": "Ilaay",
           "role": "pred",
-          "gloss_zh": "",
+          "gloss_zh": "有；擁有",
           "gloss_en": ""
         },
         {
           "id": "ko",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "主格",
           "gloss_en": ""
         },
         {
           "id": "faʼinayan",
           "text": "faʼinayan",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "男",
           "gloss_en": ""
         },
         {
           "id": "a",
           "text": "a",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "連繫",
           "gloss_en": ""
         },
         {
           "id": "safa",
           "text": "safa",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "弟；妹",
           "gloss_en": ""
         },
         {
           "id": "iso",
           "text": "iso",
           "role": "pronoun",
-          "gloss_zh": "",
+          "gloss_zh": "你的",
           "gloss_en": ""
         },
         {
           "id": "haw",
           "text": "haw",
-          "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t7",
-          "text": "?",
           "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "助詞",
           "gloss_en": ""
         }
       ],
@@ -1353,8 +1146,7 @@
             "a",
             "safa",
             "iso",
-            "haw",
-            "t7"
+            "haw"
           ]
         ],
         "hangs": {},
@@ -1377,85 +1169,68 @@
           "id": "awa",
           "text": "Awa",
           "role": "adverb",
-          "gloss_zh": "",
+          "gloss_zh": "沒有[表擁有的否",
           "gloss_en": ""
         },
         {
-          "id": "t1",
-          "text": ",",
-          "role": "particle",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "pred2",
+          "id": "pred",
           "text": "awaay",
-          "role": "pred2",
-          "gloss_zh": "",
+          "role": "pred",
+          "gloss_zh": "沒有[表擁有的否",
           "gloss_en": ""
         },
         {
           "id": "ko",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "主格",
           "gloss_en": ""
         },
         {
           "id": "faʼinayan",
           "text": "faʼinayan",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "男",
           "gloss_en": ""
         },
         {
           "id": "a",
           "text": "a",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "連繫",
           "gloss_en": ""
         },
         {
           "id": "safa",
           "text": "safa",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "弟；妹",
           "gloss_en": ""
         },
         {
           "id": "no",
           "text": "no",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "屬格",
           "gloss_en": ""
         },
         {
           "id": "mako",
           "text": "mako",
           "role": "pronoun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t9",
-          "text": ".",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "我的",
           "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
-            "awa"
-          ],
-          [
-            "pred2",
+            "awa",
+            "pred",
             "ko",
             "faʼinayan",
             "a",
-            "safa",
-            "t9"
+            "safa"
           ]
         ],
         "hangs": {
@@ -1464,10 +1239,10 @@
             "mako"
           ]
         },
-        "plus_between_groups": true,
-        "structure": "兩句以 ＋ 連接（自動切分）"
+        "plus_between_groups": false,
+        "structure": "謂語為中心；屬格 no/nu 掛於名詞下（自動）"
       },
-      "structure": "兩句以 ＋ 連接（自動切分）",
+      "structure": "謂語為中心；屬格 no/nu 掛於名詞下（自動）",
       "audio": "https://klokah.tw/extension/sp_senior/sound/4/2sentence/5_9.mp3",
       "audio_primary": false,
       "audio_note": "音訊為整段對話（含前後句），非單句錄音",
@@ -1490,28 +1265,21 @@
           "id": "kora",
           "text": "kora",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "那個",
           "gloss_en": ""
         },
         {
           "id": "loma",
           "text": "loma’",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "家",
           "gloss_en": ""
         },
         {
           "id": "haw",
           "text": "haw",
-          "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t4",
-          "text": "?",
           "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "助詞",
           "gloss_en": ""
         }
       ],
@@ -1521,8 +1289,7 @@
             "pred",
             "kora",
             "loma",
-            "haw",
-            "t4"
+            "haw"
           ]
         ],
         "hangs": {},
@@ -1545,20 +1312,13 @@
           "id": "cowa",
           "text": "Cowa",
           "role": "adverb",
-          "gloss_zh": "",
+          "gloss_zh": "不是[回答用]",
           "gloss_en": ""
         },
         {
-          "id": "t1",
-          "text": ",",
-          "role": "particle",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "pred2",
+          "id": "pred",
           "text": "ca^ka",
-          "role": "pred2",
+          "role": "pred",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -1573,42 +1333,32 @@
           "id": "kora",
           "text": "kora",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "那個",
           "gloss_en": ""
         },
         {
           "id": "loma",
           "text": "loma’",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t6",
-          "text": ".",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "家",
           "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
-            "cowa"
-          ],
-          [
-            "pred2",
+            "cowa",
+            "pred",
             "taangay",
             "kora",
-            "loma",
-            "t6"
+            "loma"
           ]
         ],
         "hangs": {},
-        "plus_between_groups": true,
-        "structure": "兩句以 ＋ 連接（自動切分）"
+        "plus_between_groups": false,
+        "structure": "謂語 ca^ka 為中心（自動標記）"
       },
-      "structure": "兩句以 ＋ 連接（自動切分）",
+      "structure": "謂語 ca^ka 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_senior/sound/4/2sentence/5_10.mp3",
       "audio_primary": false,
       "audio_note": "音訊為整段對話（含前後句），非單句錄音",
@@ -1631,35 +1381,28 @@
           "id": "ko",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "主格",
           "gloss_en": ""
         },
         {
           "id": "romiad",
           "text": "romiad",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "日子；天",
           "gloss_en": ""
         },
         {
           "id": "anini",
           "text": "anini",
           "role": "adverb",
-          "gloss_zh": "",
+          "gloss_zh": "今天",
           "gloss_en": ""
         },
         {
           "id": "haw",
           "text": "haw",
-          "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t5",
-          "text": "?",
           "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "助詞",
           "gloss_en": ""
         }
       ],
@@ -1670,8 +1413,7 @@
             "ko",
             "romiad",
             "anini",
-            "haw",
-            "t5"
+            "haw"
           ]
         ],
         "hangs": {},
@@ -1694,20 +1436,13 @@
           "id": "cowa",
           "text": "Cowa",
           "role": "adverb",
-          "gloss_zh": "",
+          "gloss_zh": "不是[回答用]",
           "gloss_en": ""
         },
         {
-          "id": "t1",
-          "text": ",",
-          "role": "particle",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "pred2",
+          "id": "pred",
           "text": "ca^ka",
-          "role": "pred2",
+          "role": "pred",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -1715,57 +1450,47 @@
           "id": "fadet",
           "text": "fa^det",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "炎熱",
           "gloss_en": ""
         },
         {
           "id": "ko",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "主格",
           "gloss_en": ""
         },
         {
           "id": "romiad",
           "text": "romiad",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "日子；天",
           "gloss_en": ""
         },
         {
           "id": "anini",
           "text": "anini",
           "role": "adverb",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t7",
-          "text": ".",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "今天",
           "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
-            "cowa"
-          ],
-          [
-            "pred2",
+            "cowa",
+            "pred",
             "fadet",
             "ko",
             "romiad",
-            "anini",
-            "t7"
+            "anini"
           ]
         ],
         "hangs": {},
-        "plus_between_groups": true,
-        "structure": "兩句以 ＋ 連接（自動切分）"
+        "plus_between_groups": false,
+        "structure": "謂語 ca^ka 為中心（自動標記）"
       },
-      "structure": "兩句以 ＋ 連接（自動切分）",
+      "structure": "謂語 ca^ka 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_senior/sound/4/2sentence/5_11.mp3",
       "audio_primary": false,
       "audio_note": "音訊為整段對話（含前後句），非單句錄音",
@@ -1795,7 +1520,7 @@
           "id": "to",
           "text": "to",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "斜格",
           "gloss_en": ""
         },
         {
@@ -1809,21 +1534,14 @@
           "id": "samira",
           "text": "samira",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "他們",
           "gloss_en": ""
         },
         {
           "id": "haw",
           "text": "haw",
-          "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t6",
-          "text": "?",
           "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "助詞",
           "gloss_en": ""
         }
       ],
@@ -1835,8 +1553,7 @@
             "to",
             "tilifi",
             "samira",
-            "haw",
-            "t6"
+            "haw"
           ]
         ],
         "hangs": {},
@@ -1859,20 +1576,13 @@
           "id": "cowa",
           "text": "Cowa",
           "role": "adverb",
-          "gloss_zh": "",
+          "gloss_zh": "不是[回答用]",
           "gloss_en": ""
         },
         {
-          "id": "t1",
-          "text": ",",
-          "role": "particle",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "pred2",
+          "id": "pred",
           "text": "ca^ka",
-          "role": "pred2",
+          "role": "pred",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -1887,14 +1597,14 @@
           "id": "minengneng",
           "text": "minengneng",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "看",
           "gloss_en": ""
         },
         {
           "id": "to",
           "text": "to",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "斜格",
           "gloss_en": ""
         },
         {
@@ -1908,37 +1618,27 @@
           "id": "samira",
           "text": "samira",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t8",
-          "text": ".",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "他們",
           "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
-            "cowa"
-          ],
-          [
-            "pred2",
+            "cowa",
+            "pred",
             "romiamiad",
             "minengneng",
             "to",
             "tilifi",
-            "samira",
-            "t8"
+            "samira"
           ]
         ],
         "hangs": {},
-        "plus_between_groups": true,
-        "structure": "兩句以 ＋ 連接（自動切分）"
+        "plus_between_groups": false,
+        "structure": "謂語 ca^ka 為中心（自動標記）"
       },
-      "structure": "兩句以 ＋ 連接（自動切分）",
+      "structure": "謂語 ca^ka 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_senior/sound/4/2sentence/5_12.mp3",
       "audio_primary": false,
       "audio_note": "音訊為整段對話（含前後句），非單句錄音",
@@ -1968,35 +1668,28 @@
           "id": "to",
           "text": "to",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "斜格",
           "gloss_en": ""
         },
         {
           "id": "tilid",
           "text": "tilid",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "書",
           "gloss_en": ""
         },
         {
           "id": "kiso",
           "text": "kiso",
           "role": "pronoun",
-          "gloss_zh": "",
+          "gloss_zh": "你",
           "gloss_en": ""
         },
         {
           "id": "haw",
           "text": "haw",
-          "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t6",
-          "text": "?",
           "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "助詞",
           "gloss_en": ""
         }
       ],
@@ -2008,8 +1701,7 @@
             "to",
             "tilid",
             "kiso",
-            "haw",
-            "t6"
+            "haw"
           ]
         ],
         "hangs": {},
@@ -2032,20 +1724,13 @@
           "id": "cowa",
           "text": "Cowa",
           "role": "adverb",
-          "gloss_zh": "",
+          "gloss_zh": "不是[回答用]",
           "gloss_en": ""
         },
         {
-          "id": "t1",
-          "text": ",",
-          "role": "particle",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "pred2",
+          "id": "pred",
           "text": "ca^ka",
-          "role": "pred2",
+          "role": "pred",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -2060,7 +1745,7 @@
           "id": "a",
           "text": "a",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "連繫",
           "gloss_en": ""
         },
         {
@@ -2074,52 +1759,42 @@
           "id": "to",
           "text": "to",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "斜格",
           "gloss_en": ""
         },
         {
           "id": "tilid",
           "text": "tilid",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "書",
           "gloss_en": ""
         },
         {
           "id": "kako",
           "text": "kako",
           "role": "pronoun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t9",
-          "text": ".",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "我",
           "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
-            "cowa"
-          ],
-          [
-            "pred2",
+            "cowa",
+            "pred",
             "romiamiad",
             "a",
             "miosi",
             "to",
             "tilid",
-            "kako",
-            "t9"
+            "kako"
           ]
         ],
         "hangs": {},
-        "plus_between_groups": true,
-        "structure": "兩句以 ＋ 連接（自動切分）"
+        "plus_between_groups": false,
+        "structure": "謂語 ca^ka 為中心（自動標記）"
       },
-      "structure": "兩句以 ＋ 連接（自動切分）",
+      "structure": "謂語 ca^ka 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_senior/sound/4/2sentence/5_13.mp3",
       "audio_primary": false,
       "audio_note": "音訊為整段對話（含前後句），非單句錄音",
@@ -2142,35 +1817,28 @@
           "id": "to",
           "text": "to",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "斜格",
           "gloss_en": ""
         },
         {
           "id": "tilid",
           "text": "tilid",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "書",
           "gloss_en": ""
         },
         {
           "id": "kiso",
           "text": "kiso",
           "role": "pronoun",
-          "gloss_zh": "",
+          "gloss_zh": "你",
           "gloss_en": ""
         },
         {
           "id": "haw",
           "text": "haw",
-          "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t5",
-          "text": "?",
           "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "助詞",
           "gloss_en": ""
         }
       ],
@@ -2181,8 +1849,7 @@
             "to",
             "tilid",
             "kiso",
-            "haw",
-            "t5"
+            "haw"
           ]
         ],
         "hangs": {},
@@ -2205,20 +1872,13 @@
           "id": "cowa",
           "text": "Cowa",
           "role": "adverb",
-          "gloss_zh": "",
+          "gloss_zh": "不是[回答用]",
           "gloss_en": ""
         },
         {
-          "id": "t1",
-          "text": ",",
-          "role": "particle",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "pred2",
+          "id": "pred",
           "text": "ca^ka",
-          "role": "pred2",
+          "role": "pred",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -2233,50 +1893,40 @@
           "id": "to",
           "text": "to",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "斜格",
           "gloss_en": ""
         },
         {
           "id": "tilid",
           "text": "tilid",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "書",
           "gloss_en": ""
         },
         {
           "id": "kako",
           "text": "kako",
           "role": "pronoun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t7",
-          "text": ".",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "我",
           "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
-            "cowa"
-          ],
-          [
-            "pred2",
+            "cowa",
+            "pred",
             "piosi",
             "to",
             "tilid",
-            "kako",
-            "t7"
+            "kako"
           ]
         ],
         "hangs": {},
-        "plus_between_groups": true,
-        "structure": "兩句以 ＋ 連接（自動切分）"
+        "plus_between_groups": false,
+        "structure": "謂語 ca^ka 為中心（自動標記）"
       },
-      "structure": "兩句以 ＋ 連接（自動切分）",
+      "structure": "謂語 ca^ka 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_senior/sound/4/2sentence/5_14.mp3",
       "audio_primary": false,
       "audio_note": "音訊為整段對話（含前後句），非單句錄音",
@@ -2296,13 +1946,6 @@
           "gloss_en": ""
         },
         {
-          "id": "t1",
-          "text": "!",
-          "role": "particle",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
           "id": "sidinayay",
           "text": "Sidinayay",
           "role": "noun",
@@ -2313,21 +1956,14 @@
           "id": "kiso",
           "text": "kiso",
           "role": "pronoun",
-          "gloss_zh": "",
+          "gloss_zh": "你",
           "gloss_en": ""
         },
         {
           "id": "haw",
           "text": "haw",
-          "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t5",
-          "text": "?",
           "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "助詞",
           "gloss_en": ""
         }
       ],
@@ -2335,11 +1971,9 @@
         "groups": [
           [
             "pred",
-            "t1",
             "sidinayay",
             "kiso",
-            "haw",
-            "t5"
+            "haw"
           ]
         ],
         "hangs": {},
@@ -2362,62 +1996,45 @@
           "id": "cowa",
           "text": "Cowa",
           "role": "adverb",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t1",
-          "text": ",",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "不是[回答用]",
           "gloss_en": ""
         },
         {
           "id": "cowa_3",
           "text": "cowa",
           "role": "adverb",
-          "gloss_zh": "",
+          "gloss_zh": "不是[回答用]",
           "gloss_en": ""
         },
         {
-          "id": "pred2",
+          "id": "pred",
           "text": "kasidinay",
-          "role": "pred2",
-          "gloss_zh": "",
+          "role": "pred",
+          "gloss_zh": "攜帶",
           "gloss_en": ""
         },
         {
           "id": "kako",
           "text": "kako",
           "role": "pronoun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t5",
-          "text": ".",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "我",
           "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
-            "cowa"
-          ],
-          [
+            "cowa",
             "cowa_3",
-            "pred2",
-            "kako",
-            "t5"
+            "pred",
+            "kako"
           ]
         ],
         "hangs": {},
-        "plus_between_groups": true,
-        "structure": "兩句以 ＋ 連接（自動切分）"
+        "plus_between_groups": false,
+        "structure": "謂語 kasidinay 為中心（自動標記）"
       },
-      "structure": "兩句以 ＋ 連接（自動切分）",
+      "structure": "謂語 kasidinay 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_senior/sound/4/2sentence/5_15.mp3",
       "audio_primary": false,
       "audio_note": "音訊為整段對話（含前後句），非單句錄音",
@@ -2439,15 +2056,8 @@
         {
           "id": "haw",
           "text": "haw",
-          "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t2",
-          "text": "?",
           "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "助詞",
           "gloss_en": ""
         }
       ],
@@ -2455,8 +2065,7 @@
         "groups": [
           [
             "pred",
-            "haw",
-            "t2"
+            "haw"
           ]
         ],
         "hangs": {},
@@ -2479,27 +2088,20 @@
           "id": "cowa",
           "text": "Cowa",
           "role": "adverb",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t1",
-          "text": ",",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "不是[回答用]",
           "gloss_en": ""
         },
         {
           "id": "cowa_3",
           "text": "cowa",
           "role": "adverb",
-          "gloss_zh": "",
+          "gloss_zh": "不是[回答用]",
           "gloss_en": ""
         },
         {
-          "id": "pred2",
+          "id": "pred",
           "text": "ka",
-          "role": "pred2",
+          "role": "pred",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -2507,34 +2109,24 @@
           "id": "orad",
           "text": "’orad",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t5",
-          "text": "!",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "雨水",
           "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
-            "cowa"
-          ],
-          [
+            "cowa",
             "cowa_3",
-            "pred2",
-            "orad",
-            "t5"
+            "pred",
+            "orad"
           ]
         ],
         "hangs": {},
-        "plus_between_groups": true,
-        "structure": "兩句以 ＋ 連接（自動切分）"
+        "plus_between_groups": false,
+        "structure": "謂語 ka 為中心（自動標記）"
       },
-      "structure": "兩句以 ＋ 連接（自動切分）",
+      "structure": "謂語 ka 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_senior/sound/4/2sentence/5_16.mp3",
       "audio_primary": false,
       "audio_note": "音訊為整段對話（含前後句），非單句錄音",
@@ -2564,35 +2156,28 @@
           "id": "tilid",
           "text": "tilid",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "書",
           "gloss_en": ""
         },
         {
           "id": "ko",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "主格",
           "gloss_en": ""
         },
         {
           "id": "mira",
           "text": "mira",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "他",
           "gloss_en": ""
         },
         {
           "id": "haw",
           "text": "haw",
-          "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t6",
-          "text": "?",
           "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "助詞",
           "gloss_en": ""
         }
       ],
@@ -2604,8 +2189,7 @@
             "tilid",
             "ko",
             "mira",
-            "haw",
-            "t6"
+            "haw"
           ]
         ],
         "hangs": {},
@@ -2628,28 +2212,21 @@
           "id": "cowa",
           "text": "Cowa",
           "role": "adverb",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t1",
-          "text": ",",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "不是[回答用]",
           "gloss_en": ""
         },
         {
           "id": "cowa_3",
           "text": "cowa",
           "role": "adverb",
-          "gloss_zh": "",
+          "gloss_zh": "不是[回答用]",
           "gloss_en": ""
         },
         {
-          "id": "pred2",
+          "id": "pred",
           "text": "kaolah",
-          "role": "pred2",
-          "gloss_zh": "",
+          "role": "pred",
+          "gloss_zh": "喜歡",
           "gloss_en": ""
         },
         {
@@ -2663,51 +2240,41 @@
           "id": "tilid",
           "text": "tilid",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "書",
           "gloss_en": ""
         },
         {
           "id": "ko",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "主格",
           "gloss_en": ""
         },
         {
           "id": "mira",
           "text": "mira",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t8",
-          "text": ".",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "他",
           "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
-            "cowa"
-          ],
-          [
+            "cowa",
             "cowa_3",
-            "pred2",
+            "pred",
             "tora",
             "tilid",
             "ko",
-            "mira",
-            "t8"
+            "mira"
           ]
         ],
         "hangs": {},
-        "plus_between_groups": true,
-        "structure": "兩句以 ＋ 連接（自動切分）"
+        "plus_between_groups": false,
+        "structure": "謂語 kaolah 為中心（自動標記）"
       },
-      "structure": "兩句以 ＋ 連接（自動切分）",
+      "structure": "謂語 kaolah 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_senior/sound/4/2sentence/5_17.mp3",
       "audio_primary": false,
       "audio_note": "音訊為整段對話（含前後句），非單句錄音",
@@ -2730,35 +2297,28 @@
           "id": "to",
           "text": "to",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "斜格",
           "gloss_en": ""
         },
         {
           "id": "fofo",
           "text": "fofo",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "祖父",
           "gloss_en": ""
         },
         {
           "id": "kiso",
           "text": "kiso",
           "role": "pronoun",
-          "gloss_zh": "",
+          "gloss_zh": "你",
           "gloss_en": ""
         },
         {
           "id": "haw",
           "text": "haw",
-          "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t5",
-          "text": "?",
           "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "助詞",
           "gloss_en": ""
         }
       ],
@@ -2769,8 +2329,7 @@
             "to",
             "fofo",
             "kiso",
-            "haw",
-            "t5"
+            "haw"
           ]
         ],
         "hangs": {},
@@ -2793,20 +2352,13 @@
           "id": "pred",
           "text": "Hay",
           "role": "pred",
-          "gloss_zh": "",
+          "gloss_zh": "是的[回答用]",
           "gloss_en": ""
         },
         {
-          "id": "t1",
-          "text": ",",
-          "role": "particle",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "pred2",
+          "id": "mailolay",
           "text": "mailolay",
-          "role": "pred2",
+          "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -2814,49 +2366,39 @@
           "id": "to",
           "text": "to",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "斜格",
           "gloss_en": ""
         },
         {
           "id": "fofo",
           "text": "fofo",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "祖父",
           "gloss_en": ""
         },
         {
           "id": "kako",
           "text": "kako",
           "role": "pronoun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t6",
-          "text": ".",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "我",
           "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
-            "pred"
-          ],
-          [
-            "pred2",
+            "pred",
+            "mailolay",
             "to",
             "fofo",
-            "kako",
-            "t6"
+            "kako"
           ]
         ],
         "hangs": {},
-        "plus_between_groups": true,
-        "structure": "兩句以 ＋ 連接（自動切分）"
+        "plus_between_groups": false,
+        "structure": "謂語 Hay 為中心（自動標記）"
       },
-      "structure": "兩句以 ＋ 連接（自動切分）",
+      "structure": "謂語 Hay 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_senior/sound/4/2sentence/5_18.mp3",
       "audio_primary": false,
       "audio_note": "音訊為整段對話（含前後句），非單句錄音",
@@ -2879,21 +2421,21 @@
           "id": "itini",
           "text": "itini",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "這裡",
           "gloss_en": ""
         },
         {
           "id": "malafi",
           "text": "malafi",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "吃晚餐",
           "gloss_en": ""
         },
         {
           "id": "to",
           "text": "to",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "斜格",
           "gloss_en": ""
         },
         {
@@ -2907,21 +2449,14 @@
           "id": "kamo",
           "text": "kamo",
           "role": "pronoun",
-          "gloss_zh": "",
+          "gloss_zh": "你們",
           "gloss_en": ""
         },
         {
           "id": "haw",
           "text": "haw",
-          "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t7",
-          "text": "?",
           "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "助詞",
           "gloss_en": ""
         }
       ],
@@ -2934,8 +2469,7 @@
             "to",
             "romiamiad",
             "kamo",
-            "haw",
-            "t7"
+            "haw"
           ]
         ],
         "hangs": {},
@@ -2958,49 +2492,42 @@
           "id": "cowa",
           "text": "Cowa",
           "role": "adverb",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t1",
-          "text": ",",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "不是[回答用]",
           "gloss_en": ""
         },
         {
           "id": "cowa_3",
           "text": "cowa",
           "role": "adverb",
-          "gloss_zh": "",
+          "gloss_zh": "不是[回答用]",
           "gloss_en": ""
         },
         {
-          "id": "pred2",
+          "id": "pred",
           "text": "katayni",
-          "role": "pred2",
-          "gloss_zh": "",
+          "role": "pred",
+          "gloss_zh": "來",
           "gloss_en": ""
         },
         {
           "id": "itini",
           "text": "itini",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "這裡",
           "gloss_en": ""
         },
         {
           "id": "malafi",
           "text": "malafi",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "吃晚餐",
           "gloss_en": ""
         },
         {
           "id": "to",
           "text": "to",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "斜格",
           "gloss_en": ""
         },
         {
@@ -3014,38 +2541,28 @@
           "id": "kami",
           "text": "kami",
           "role": "pronoun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t9",
-          "text": ".",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "我們",
           "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
-            "cowa"
-          ],
-          [
+            "cowa",
             "cowa_3",
-            "pred2",
+            "pred",
             "itini",
             "malafi",
             "to",
             "romiamiad",
-            "kami",
-            "t9"
+            "kami"
           ]
         ],
         "hangs": {},
-        "plus_between_groups": true,
-        "structure": "兩句以 ＋ 連接（自動切分）"
+        "plus_between_groups": false,
+        "structure": "謂語 katayni 為中心（自動標記）"
       },
-      "structure": "兩句以 ＋ 連接（自動切分）",
+      "structure": "謂語 katayni 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_senior/sound/4/2sentence/5_19.mp3",
       "audio_primary": false,
       "audio_note": "音訊為整段對話（含前後句），非單句錄音",
@@ -3068,35 +2585,28 @@
           "id": "miconga",
           "text": "miconga",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "畫圖",
           "gloss_en": ""
         },
         {
           "id": "kora",
           "text": "kora",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "那個",
           "gloss_en": ""
         },
         {
           "id": "wawa",
           "text": "wawa",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "小孩",
           "gloss_en": ""
         },
         {
           "id": "haw",
           "text": "haw",
-          "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t5",
-          "text": "?",
           "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "助詞",
           "gloss_en": ""
         }
       ],
@@ -3107,8 +2617,7 @@
             "miconga",
             "kora",
             "wawa",
-            "haw",
-            "t5"
+            "haw"
           ]
         ],
         "hangs": {},
@@ -3131,78 +2640,61 @@
           "id": "cowa",
           "text": "Cowa",
           "role": "adverb",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t1",
-          "text": ",",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "不是[回答用]",
           "gloss_en": ""
         },
         {
           "id": "cowa_3",
           "text": "cowa",
           "role": "adverb",
-          "gloss_zh": "",
+          "gloss_zh": "不是[回答用]",
           "gloss_en": ""
         },
         {
-          "id": "pred2",
+          "id": "pred",
           "text": "kaolah",
-          "role": "pred2",
-          "gloss_zh": "",
+          "role": "pred",
+          "gloss_zh": "喜歡",
           "gloss_en": ""
         },
         {
           "id": "miconga",
           "text": "miconga",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "畫圖",
           "gloss_en": ""
         },
         {
           "id": "ko",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "主格",
           "gloss_en": ""
         },
         {
           "id": "mira",
           "text": "mira",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t7",
-          "text": ".",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "他",
           "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
-            "cowa"
-          ],
-          [
+            "cowa",
             "cowa_3",
-            "pred2",
+            "pred",
             "miconga",
             "ko",
-            "mira",
-            "t7"
+            "mira"
           ]
         ],
         "hangs": {},
-        "plus_between_groups": true,
-        "structure": "兩句以 ＋ 連接（自動切分）"
+        "plus_between_groups": false,
+        "structure": "謂語 kaolah 為中心（自動標記）"
       },
-      "structure": "兩句以 ＋ 連接（自動切分）",
+      "structure": "謂語 kaolah 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_senior/sound/4/2sentence/5_20.mp3",
       "audio_primary": false,
       "audio_note": "音訊為整段對話（含前後句），非單句錄音",
@@ -3225,35 +2717,28 @@
           "id": "lomadiw",
           "text": "lomadiw",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "唱歌",
           "gloss_en": ""
         },
         {
           "id": "kora",
           "text": "kora",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "那個",
           "gloss_en": ""
         },
         {
           "id": "wawa",
           "text": "wawa",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "小孩",
           "gloss_en": ""
         },
         {
           "id": "haw",
           "text": "haw",
-          "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t5",
-          "text": "?",
           "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "助詞",
           "gloss_en": ""
         }
       ],
@@ -3264,8 +2749,7 @@
             "lomadiw",
             "kora",
             "wawa",
-            "haw",
-            "t5"
+            "haw"
           ]
         ],
         "hangs": {},
@@ -3288,78 +2772,61 @@
           "id": "cowa",
           "text": "Cowa",
           "role": "adverb",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t1",
-          "text": ",",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "不是[回答用]",
           "gloss_en": ""
         },
         {
           "id": "cowa_3",
           "text": "cowa",
           "role": "adverb",
-          "gloss_zh": "",
+          "gloss_zh": "不是[回答用]",
           "gloss_en": ""
         },
         {
-          "id": "pred2",
+          "id": "pred",
           "text": "kafana’",
-          "role": "pred2",
-          "gloss_zh": "",
+          "role": "pred",
+          "gloss_zh": "會；能",
           "gloss_en": ""
         },
         {
           "id": "lomadiw",
           "text": "lomadiw",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "唱歌",
           "gloss_en": ""
         },
         {
           "id": "ko",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "主格",
           "gloss_en": ""
         },
         {
           "id": "mira",
           "text": "mira",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t7",
-          "text": ".",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "他",
           "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
-            "cowa"
-          ],
-          [
+            "cowa",
             "cowa_3",
-            "pred2",
+            "pred",
             "lomadiw",
             "ko",
-            "mira",
-            "t7"
+            "mira"
           ]
         ],
         "hangs": {},
-        "plus_between_groups": true,
-        "structure": "兩句以 ＋ 連接（自動切分）"
+        "plus_between_groups": false,
+        "structure": "謂語 kafana’ 為中心（自動標記）"
       },
-      "structure": "兩句以 ＋ 連接（自動切分）",
+      "structure": "謂語 kafana’ 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_senior/sound/4/2sentence/5_21.mp3",
       "audio_primary": false,
       "audio_note": "音訊為整段對話（含前後句），非單句錄音",
@@ -3375,63 +2842,56 @@
           "id": "pred",
           "text": "O",
           "role": "pred",
-          "gloss_zh": "",
+          "gloss_zh": "主題",
           "gloss_en": ""
         },
         {
           "id": "tatayra",
           "text": "tatayra",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "要去",
           "gloss_en": ""
         },
         {
           "id": "i",
           "text": "i",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "呢",
           "gloss_en": ""
         },
         {
           "id": "kongkoan",
           "text": "kongkoan",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "學校",
           "gloss_en": ""
         },
         {
           "id": "a",
           "text": "a",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "連繫",
           "gloss_en": ""
         },
         {
           "id": "lomadiw",
           "text": "lomadiw",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "唱歌",
           "gloss_en": ""
         },
         {
           "id": "kamo",
           "text": "kamo",
           "role": "pronoun",
-          "gloss_zh": "",
+          "gloss_zh": "你們",
           "gloss_en": ""
         },
         {
           "id": "haw",
           "text": "haw",
-          "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t8",
-          "text": "?",
           "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "助詞",
           "gloss_en": ""
         }
       ],
@@ -3445,8 +2905,7 @@
             "a",
             "lomadiw",
             "kamo",
-            "haw",
-            "t8"
+            "haw"
           ]
         ],
         "hangs": {},
@@ -3469,102 +2928,85 @@
           "id": "cowa",
           "text": "Cowa",
           "role": "adverb",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t1",
-          "text": ",",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "不是[回答用]",
           "gloss_en": ""
         },
         {
           "id": "cowa_3",
           "text": "cowa",
           "role": "adverb",
-          "gloss_zh": "",
+          "gloss_zh": "不是[回答用]",
           "gloss_en": ""
         },
         {
           "id": "ko",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "主格",
           "gloss_en": ""
         },
         {
-          "id": "pred2",
+          "id": "pred",
           "text": "tatayra",
-          "role": "pred2",
-          "gloss_zh": "",
+          "role": "pred",
+          "gloss_zh": "要去",
           "gloss_en": ""
         },
         {
           "id": "i",
           "text": "i",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "呢",
           "gloss_en": ""
         },
         {
           "id": "kongkoan",
           "text": "kongkoan",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "學校",
           "gloss_en": ""
         },
         {
           "id": "a",
           "text": "a",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "連繫",
           "gloss_en": ""
         },
         {
           "id": "lomadiw",
           "text": "lomadiw",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "唱歌",
           "gloss_en": ""
         },
         {
           "id": "kami",
           "text": "kami",
           "role": "pronoun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t10",
-          "text": ".",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "我們",
           "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
-            "cowa"
-          ],
-          [
+            "cowa",
             "cowa_3",
             "ko",
-            "pred2",
+            "pred",
             "i",
             "kongkoan",
             "a",
             "lomadiw",
-            "kami",
-            "t10"
+            "kami"
           ]
         ],
         "hangs": {},
-        "plus_between_groups": true,
-        "structure": "兩句以 ＋ 連接（自動切分）"
+        "plus_between_groups": false,
+        "structure": "謂語 tatayra 為中心（自動標記）"
       },
-      "structure": "兩句以 ＋ 連接（自動切分）",
+      "structure": "謂語 tatayra 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_senior/sound/4/2sentence/5_22.mp3",
       "audio_primary": false,
       "audio_note": "音訊為整段對話（含前後句），非單句錄音",
@@ -3580,28 +3022,28 @@
           "id": "pred",
           "text": "Ngaʼay",
           "role": "pred",
-          "gloss_zh": "",
+          "gloss_zh": "可以",
           "gloss_en": ""
         },
         {
           "id": "masadak",
           "text": "masadak",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "出現；出來",
           "gloss_en": ""
         },
         {
           "id": "misalama",
           "text": "misalama",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "玩耍",
           "gloss_en": ""
         },
         {
           "id": "i",
           "text": "i",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "呢",
           "gloss_en": ""
         },
         {
@@ -3615,7 +3057,7 @@
           "id": "no",
           "text": "no",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "屬格",
           "gloss_en": ""
         },
         {
@@ -3629,21 +3071,14 @@
           "id": "kako",
           "text": "kako",
           "role": "pronoun",
-          "gloss_zh": "",
+          "gloss_zh": "我",
           "gloss_en": ""
         },
         {
           "id": "haw",
           "text": "haw",
-          "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t9",
-          "text": "?",
           "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "助詞",
           "gloss_en": ""
         }
       ],
@@ -3656,8 +3091,7 @@
             "i",
             "ikor",
             "kako",
-            "haw",
-            "t9"
+            "haw"
           ]
         ],
         "hangs": {
@@ -3685,20 +3119,13 @@
           "id": "pred",
           "text": "Akaa",
           "role": "pred",
-          "gloss_zh": "",
+          "gloss_zh": "不要[表未來不要",
           "gloss_en": ""
         },
         {
-          "id": "t1",
-          "text": ",",
-          "role": "particle",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "pred2",
+          "id": "caka",
           "text": "ca^ka",
-          "role": "pred2",
+          "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -3706,57 +3133,47 @@
           "id": "ngaʼay",
           "text": "ngaʼay",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "可以",
           "gloss_en": ""
         },
         {
           "id": "masadak",
           "text": "masadak",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "出現；出來",
           "gloss_en": ""
         },
         {
           "id": "misalama",
           "text": "misalama",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "玩耍",
           "gloss_en": ""
         },
         {
           "id": "kiso",
           "text": "kiso",
           "role": "pronoun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t7",
-          "text": "!",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "你",
           "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
-            "pred"
-          ],
-          [
-            "pred2",
+            "pred",
+            "caka",
             "ngaʼay",
             "masadak",
             "misalama",
-            "kiso",
-            "t7"
+            "kiso"
           ]
         ],
         "hangs": {},
-        "plus_between_groups": true,
-        "structure": "兩句以 ＋ 連接（自動切分）"
+        "plus_between_groups": false,
+        "structure": "謂語 Akaa 為中心（自動標記）"
       },
-      "structure": "兩句以 ＋ 連接（自動切分）",
+      "structure": "謂語 Akaa 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_senior/sound/4/2sentence/5_23.mp3",
       "audio_primary": false,
       "audio_note": "音訊為整段對話（含前後句），非單句錄音",
@@ -3779,49 +3196,42 @@
           "id": "to",
           "text": "to",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "斜格",
           "gloss_en": ""
         },
         {
           "id": "asiro",
           "text": "asiro",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "橘子",
           "gloss_en": ""
         },
         {
           "id": "ko",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "主格",
           "gloss_en": ""
         },
         {
           "id": "kadango",
           "text": "kadango",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "簍子",
           "gloss_en": ""
         },
         {
           "id": "nangra",
           "text": "nangra",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "他們的",
           "gloss_en": ""
         },
         {
           "id": "haw",
           "text": "haw",
-          "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t7",
-          "text": "?",
           "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "助詞",
           "gloss_en": ""
         }
       ],
@@ -3834,8 +3244,7 @@
             "ko",
             "kadango",
             "nangra",
-            "haw",
-            "t7"
+            "haw"
           ]
         ],
         "hangs": {},
@@ -3858,20 +3267,13 @@
           "id": "cowa",
           "text": "Cowa",
           "role": "adverb",
-          "gloss_zh": "",
+          "gloss_zh": "不是[回答用]",
           "gloss_en": ""
         },
         {
-          "id": "t1",
-          "text": ",",
-          "role": "particle",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "pred2",
+          "id": "pred",
           "text": "cowaho",
-          "role": "pred2",
+          "role": "pred",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -3886,66 +3288,56 @@
           "id": "to",
           "text": "to",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "斜格",
           "gloss_en": ""
         },
         {
           "id": "asiro",
           "text": "asiro",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "橘子",
           "gloss_en": ""
         },
         {
           "id": "ko",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "主格",
           "gloss_en": ""
         },
         {
           "id": "kadango",
           "text": "kadango",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "簍子",
           "gloss_en": ""
         },
         {
           "id": "nangra",
           "text": "nangra",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t9",
-          "text": ".",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "他們的",
           "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
-            "cowa"
-          ],
-          [
-            "pred2",
+            "cowa",
+            "pred",
             "katomes",
             "to",
             "asiro",
             "ko",
             "kadango",
-            "nangra",
-            "t9"
+            "nangra"
           ]
         ],
         "hangs": {},
-        "plus_between_groups": true,
-        "structure": "兩句以 ＋ 連接（自動切分）"
+        "plus_between_groups": false,
+        "structure": "謂語 cowaho 為中心（自動標記）"
       },
-      "structure": "兩句以 ＋ 連接（自動切分）",
+      "structure": "謂語 cowaho 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_senior/sound/4/2sentence/5_24.mp3",
       "audio_primary": false,
       "audio_note": "音訊為整段對話（含前後句），非單句錄音",
@@ -3961,21 +3353,14 @@
           "id": "pred",
           "text": "Aka",
           "role": "pred",
-          "gloss_zh": "",
+          "gloss_zh": "不要[表未來不要",
           "gloss_en": ""
         },
         {
           "id": "kafoti",
           "text": "kafoti’",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t2",
-          "text": "!",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "睡覺",
           "gloss_en": ""
         }
       ],
@@ -3983,8 +3368,7 @@
         "groups": [
           [
             "pred",
-            "kafoti",
-            "t2"
+            "kafoti"
           ]
         ],
         "hangs": {},
@@ -4007,28 +3391,21 @@
           "id": "cowa",
           "text": "Cowa",
           "role": "adverb",
-          "gloss_zh": "",
+          "gloss_zh": "不是[回答用]",
           "gloss_en": ""
         },
         {
           "id": "pred",
           "text": "kafoti’",
           "role": "pred",
-          "gloss_zh": "",
+          "gloss_zh": "睡覺",
           "gloss_en": ""
         },
         {
           "id": "kako",
           "text": "kako",
           "role": "pronoun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t3",
-          "text": ".",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "我",
           "gloss_en": ""
         }
       ],
@@ -4037,8 +3414,7 @@
           [
             "cowa",
             "pred",
-            "kako",
-            "t3"
+            "kako"
           ]
         ],
         "hangs": {},
@@ -4061,7 +3437,7 @@
           "id": "pred",
           "text": "Aka",
           "role": "pred",
-          "gloss_zh": "",
+          "gloss_zh": "不要[表未來不要",
           "gloss_en": ""
         },
         {
@@ -4070,21 +3446,13 @@
           "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
-        },
-        {
-          "id": "t2",
-          "text": "!",
-          "role": "particle",
-          "gloss_zh": "",
-          "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
             "pred",
-            "kafawahen",
-            "t2"
+            "kafawahen"
           ]
         ],
         "hangs": {},
@@ -4107,20 +3475,13 @@
           "id": "pred",
           "text": "Hay",
           "role": "pred",
-          "gloss_zh": "",
+          "gloss_zh": "是的[回答用]",
           "gloss_en": ""
         },
         {
-          "id": "t1",
-          "text": ",",
-          "role": "particle",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "pred2",
+          "id": "mafanaʼto",
           "text": "mafanaʼto",
-          "role": "pred2",
+          "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -4128,33 +3489,23 @@
           "id": "kako",
           "text": "kako",
           "role": "pronoun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t4",
-          "text": "!",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "我",
           "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
-            "pred"
-          ],
-          [
-            "pred2",
-            "kako",
-            "t4"
+            "pred",
+            "mafanaʼto",
+            "kako"
           ]
         ],
         "hangs": {},
-        "plus_between_groups": true,
-        "structure": "兩句以 ＋ 連接（自動切分）"
+        "plus_between_groups": false,
+        "structure": "謂語 Hay 為中心（自動標記）"
       },
-      "structure": "兩句以 ＋ 連接（自動切分）",
+      "structure": "謂語 Hay 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_senior/sound/4/2sentence/5_26.mp3",
       "audio_primary": false,
       "audio_note": "音訊為整段對話（含前後句），非單句錄音",
@@ -4170,7 +3521,7 @@
           "id": "pred",
           "text": "Aka",
           "role": "pred",
-          "gloss_zh": "",
+          "gloss_zh": "不要[表未來不要",
           "gloss_en": ""
         },
         {
@@ -4191,27 +3542,20 @@
           "id": "a",
           "text": "a",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "連繫",
           "gloss_en": ""
         },
         {
           "id": "malafi",
           "text": "malafi",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "吃晚餐",
           "gloss_en": ""
         },
         {
           "id": "yo",
           "text": "yo",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t6",
-          "text": "!",
-          "role": "particle",
           "gloss_zh": "",
           "gloss_en": ""
         }
@@ -4224,8 +3568,7 @@
             "minokay",
             "a",
             "malafi",
-            "yo",
-            "t6"
+            "yo"
           ]
         ],
         "hangs": {},

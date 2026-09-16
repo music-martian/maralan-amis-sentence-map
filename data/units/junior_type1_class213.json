@@ -18,7 +18,7 @@
           "id": "pred",
           "text": "hay",
           "role": "pred",
-          "gloss_zh": "",
+          "gloss_zh": "是的[回答用]",
           "gloss_en": ""
         }
       ],
@@ -46,7 +46,7 @@
           "id": "cowa",
           "text": "cowa",
           "role": "adverb",
-          "gloss_zh": "",
+          "gloss_zh": "不是[回答用]",
           "gloss_en": ""
         }
       ],
@@ -74,7 +74,7 @@
           "id": "to",
           "text": "to",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "斜格",
           "gloss_en": ""
         }
       ],
@@ -102,7 +102,7 @@
           "id": "pred",
           "text": "tada",
           "role": "pred",
-          "gloss_zh": "",
+          "gloss_zh": "真的；非常",
           "gloss_en": ""
         }
       ],
@@ -130,7 +130,7 @@
           "id": "pred",
           "text": "maemin",
           "role": "pred",
-          "gloss_zh": "",
+          "gloss_zh": "全部；大家",
           "gloss_en": ""
         }
       ],
@@ -158,7 +158,7 @@
           "id": "pred",
           "text": "haw；saw",
           "role": "pred",
-          "gloss_zh": "",
+          "gloss_zh": "嗎；呢",
           "gloss_en": ""
         }
       ],
@@ -186,63 +186,35 @@
           "id": "pred",
           "text": "si",
           "role": "pred",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t1",
-          "text": "/",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "主格標記",
           "gloss_en": ""
         },
         {
           "id": "ci",
           "text": "ci",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t3",
-          "text": "/",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "主格標記",
           "gloss_en": ""
         },
         {
           "id": "sa",
           "text": "sa",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t5",
-          "text": "/",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "助詞",
           "gloss_en": ""
         },
         {
           "id": "ca",
           "text": "ca",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t7",
-          "text": "/",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "主格標記",
           "gloss_en": ""
         },
         {
           "id": "ko",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "主格",
           "gloss_en": ""
         }
       ],
@@ -250,13 +222,9 @@
         "groups": [
           [
             "pred",
-            "t1",
             "ci",
-            "t3",
             "sa",
-            "t5",
             "ca",
-            "t7",
             "ko"
           ]
         ],
@@ -278,49 +246,28 @@
           "id": "to",
           "text": "to",
           "role": "case",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t1",
-          "text": "/",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "斜格",
           "gloss_en": ""
         },
         {
           "id": "i",
           "text": "i",
           "role": "case",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t3",
-          "text": "/",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "呢",
           "gloss_en": ""
         },
         {
           "id": "pred",
           "text": "si...an",
           "role": "pred",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t5",
-          "text": "/",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "受格標記",
           "gloss_en": ""
         },
         {
           "id": "cian",
           "text": "ci....an",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "受格標記",
           "gloss_en": ""
         }
       ],
@@ -328,11 +275,8 @@
         "groups": [
           [
             "to",
-            "t1",
             "i",
-            "t3",
             "pred",
-            "t5",
             "cian"
           ]
         ],
@@ -354,35 +298,21 @@
           "id": "no",
           "text": "no",
           "role": "case",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t1",
-          "text": "/",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "屬格",
           "gloss_en": ""
         },
         {
           "id": "pred",
           "text": "ni",
           "role": "pred",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t3",
-          "text": "/",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "這裡",
           "gloss_en": ""
         },
         {
           "id": "na",
           "text": "na",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "屬格標記",
           "gloss_en": ""
         }
       ],
@@ -390,9 +320,7 @@
         "groups": [
           [
             "no",
-            "t1",
             "pred",
-            "t3",
             "na"
           ]
         ],

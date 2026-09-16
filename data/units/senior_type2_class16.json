@@ -18,28 +18,21 @@
           "id": "pred",
           "text": "Ngaʼayho",
           "role": "pred",
-          "gloss_zh": "",
+          "gloss_zh": "好嗎",
           "gloss_en": ""
         },
         {
           "id": "ko",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "主格",
           "gloss_en": ""
         },
         {
           "id": "miso",
           "text": "miso",
           "role": "pronoun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t3",
-          "text": "?",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "你",
           "gloss_en": ""
         }
       ],
@@ -48,8 +41,7 @@
           [
             "pred",
             "ko",
-            "miso",
-            "t3"
+            "miso"
           ]
         ],
         "hangs": {},
@@ -72,42 +64,28 @@
           "id": "pred",
           "text": "Ngaʼayayto",
           "role": "pred",
-          "gloss_zh": "",
+          "gloss_zh": "很好了",
           "gloss_en": ""
         },
         {
           "id": "kako",
           "text": "kako",
           "role": "pronoun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t2",
-          "text": ",",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "我",
           "gloss_en": ""
         },
         {
           "id": "kiso",
           "text": "kiso",
           "role": "pronoun",
-          "gloss_zh": "",
+          "gloss_zh": "你",
           "gloss_en": ""
         },
         {
           "id": "i",
           "text": "i",
-          "role": "case",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t5",
-          "text": "?",
           "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "呢",
           "gloss_en": ""
         }
       ],
@@ -115,19 +93,16 @@
         "groups": [
           [
             "pred",
-            "kako"
-          ],
-          [
+            "kako",
             "kiso",
-            "i",
-            "t5"
+            "i"
           ]
         ],
         "hangs": {},
-        "plus_between_groups": true,
-        "structure": "兩句以 ＋ 連接（自動切分）"
+        "plus_between_groups": false,
+        "structure": "謂語 Ngaʼayayto 為中心（自動標記）"
       },
-      "structure": "兩句以 ＋ 連接（自動切分）",
+      "structure": "謂語 Ngaʼayayto 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_senior/sound/4/2sentence/1_1.mp3",
       "audio_primary": false,
       "audio_note": "音訊為整段對話（含前後句），非單句錄音",
@@ -143,49 +118,35 @@
           "id": "mamaan",
           "text": "Mamaan",
           "role": "adverb",
-          "gloss_zh": "",
+          "gloss_zh": "也",
           "gloss_en": ""
         },
         {
           "id": "pred",
           "text": "ngaʼayayto",
           "role": "pred",
-          "gloss_zh": "",
+          "gloss_zh": "很好了",
           "gloss_en": ""
         },
         {
           "id": "kako",
           "text": "kako",
           "role": "pronoun",
-          "gloss_zh": "",
+          "gloss_zh": "我",
           "gloss_en": ""
         },
         {
-          "id": "t3",
-          "text": ",",
-          "role": "particle",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "pred2",
+          "id": "awiday",
           "text": "awiday",
-          "role": "pred2",
-          "gloss_zh": "",
+          "role": "noun",
+          "gloss_zh": "謝謝",
           "gloss_en": ""
         },
         {
           "id": "tisowanan",
           "text": "tisowanan",
           "role": "pronoun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t6",
-          "text": ".",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "對你",
           "gloss_en": ""
         }
       ],
@@ -194,19 +155,16 @@
           [
             "mamaan",
             "pred",
-            "kako"
-          ],
-          [
-            "pred2",
-            "tisowanan",
-            "t6"
+            "kako",
+            "awiday",
+            "tisowanan"
           ]
         ],
         "hangs": {},
-        "plus_between_groups": true,
-        "structure": "兩句以 ＋ 連接（自動切分）"
+        "plus_between_groups": false,
+        "structure": "謂語 ngaʼayayto 為中心（自動標記）"
       },
-      "structure": "兩句以 ＋ 連接（自動切分）",
+      "structure": "謂語 ngaʼayayto 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_senior/sound/4/2sentence/1_1.mp3",
       "audio_primary": false,
       "audio_note": "音訊為整段對話（含前後句），非單句錄音",
@@ -222,21 +180,14 @@
           "id": "pred",
           "text": "Mamaanay",
           "role": "pred",
-          "gloss_zh": "",
+          "gloss_zh": "怎麼了",
           "gloss_en": ""
         },
         {
           "id": "kiso",
           "text": "kiso",
           "role": "pronoun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t2",
-          "text": "?",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "你",
           "gloss_en": ""
         }
       ],
@@ -244,8 +195,7 @@
         "groups": [
           [
             "pred",
-            "kiso",
-            "t2"
+            "kiso"
           ]
         ],
         "hangs": {},
@@ -268,42 +218,35 @@
           "id": "pred",
           "text": "Adadaay",
           "role": "pred",
-          "gloss_zh": "",
+          "gloss_zh": "痛",
           "gloss_en": ""
         },
         {
           "id": "ko",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "主格",
           "gloss_en": ""
         },
         {
           "id": "mata",
           "text": "mata",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "眼睛",
           "gloss_en": ""
         },
         {
           "id": "no",
           "text": "no",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "屬格",
           "gloss_en": ""
         },
         {
           "id": "mako",
           "text": "mako",
           "role": "pronoun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t5",
-          "text": ".",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "我的",
           "gloss_en": ""
         }
       ],
@@ -312,8 +255,7 @@
           [
             "pred",
             "ko",
-            "mata",
-            "t5"
+            "mata"
           ]
         ],
         "hangs": {
@@ -341,42 +283,35 @@
           "id": "pred",
           "text": "Adadaay",
           "role": "pred",
-          "gloss_zh": "",
+          "gloss_zh": "痛",
           "gloss_en": ""
         },
         {
           "id": "ko",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "主格",
           "gloss_en": ""
         },
         {
           "id": "fongoh",
           "text": "fongoh",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "頭",
           "gloss_en": ""
         },
         {
           "id": "no",
           "text": "no",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "屬格",
           "gloss_en": ""
         },
         {
           "id": "mako",
           "text": "mako",
           "role": "pronoun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t5",
-          "text": ".",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "我的",
           "gloss_en": ""
         }
       ],
@@ -385,8 +320,7 @@
           [
             "pred",
             "ko",
-            "fongoh",
-            "t5"
+            "fongoh"
           ]
         ],
         "hangs": {
@@ -414,22 +348,14 @@
           "id": "pred",
           "text": "Toratoraw",
           "role": "pred",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t1",
-          "text": "!",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "再見",
           "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
-            "pred",
-            "t1"
+            "pred"
           ]
         ],
         "hangs": {},
@@ -452,22 +378,14 @@
           "id": "pred",
           "text": "Awiday",
           "role": "pred",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t1",
-          "text": "!",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "謝謝",
           "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
-            "pred",
-            "t1"
+            "pred"
           ]
         ],
         "hangs": {},
@@ -490,22 +408,14 @@
           "id": "pred",
           "text": "Ahowiday",
           "role": "pred",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t1",
-          "text": "!",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "謝謝",
           "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
-            "pred",
-            "t1"
+            "pred"
           ]
         ],
         "hangs": {},

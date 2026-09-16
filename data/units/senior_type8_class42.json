@@ -18,22 +18,14 @@
           "id": "pred",
           "text": "Toemanayto",
           "role": "pred",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t1",
-          "text": "!",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "天黑了！",
           "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
-            "pred",
-            "t1"
+            "pred"
           ]
         ],
         "hangs": {},
@@ -61,21 +53,14 @@
           "id": "ko",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "主格",
           "gloss_en": ""
         },
         {
           "id": "cidal",
           "text": "cidal",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t3",
-          "text": "!",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "太陽",
           "gloss_en": ""
         }
       ],
@@ -84,8 +69,7 @@
           [
             "pred",
             "ko",
-            "cidal",
-            "t3"
+            "cidal"
           ]
         ],
         "hangs": {},
@@ -106,22 +90,14 @@
           "id": "pred",
           "text": "Mafaliyosayto",
           "role": "pred",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t1",
-          "text": "!",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "颱風來了！",
           "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
-            "pred",
-            "t1"
+            "pred"
           ]
         ],
         "hangs": {},
@@ -142,22 +118,14 @@
           "id": "pred",
           "text": "Maʼoradayto",
           "role": "pred",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t1",
-          "text": "!",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "下雨了！",
           "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
-            "pred",
-            "t1"
+            "pred"
           ]
         ],
         "hangs": {},
@@ -185,21 +153,14 @@
           "id": "ko",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "主格",
           "gloss_en": ""
         },
         {
           "id": "orad",
           "text": "’orad",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t3",
-          "text": "!",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "雨水",
           "gloss_en": ""
         }
       ],
@@ -208,8 +169,7 @@
           [
             "pred",
             "ko",
-            "orad",
-            "t3"
+            "orad"
           ]
         ],
         "hangs": {},
@@ -230,28 +190,21 @@
           "id": "pred",
           "text": "O",
           "role": "pred",
-          "gloss_zh": "",
+          "gloss_zh": "主題",
           "gloss_en": ""
         },
         {
           "id": "paaliwacan",
           "text": "paaliwacan",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "星期日",
           "gloss_en": ""
         },
         {
           "id": "anini",
           "text": "anini",
           "role": "adverb",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t3",
-          "text": ".",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "今天",
           "gloss_en": ""
         }
       ],
@@ -260,8 +213,7 @@
           [
             "pred",
             "paaliwacan",
-            "anini",
-            "t3"
+            "anini"
           ]
         ],
         "hangs": {},
@@ -289,28 +241,21 @@
           "id": "ko",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "主格",
           "gloss_en": ""
         },
         {
           "id": "romiad",
           "text": "romiad",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "日子；天",
           "gloss_en": ""
         },
         {
           "id": "anini",
           "text": "anini",
           "role": "adverb",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t4",
-          "text": ".",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "今天",
           "gloss_en": ""
         }
       ],
@@ -320,8 +265,7 @@
             "pred",
             "ko",
             "romiad",
-            "anini",
-            "t4"
+            "anini"
           ]
         ],
         "hangs": {},
@@ -342,28 +286,21 @@
           "id": "cowa",
           "text": "Cowa",
           "role": "adverb",
-          "gloss_zh": "",
+          "gloss_zh": "不是[回答用]",
           "gloss_en": ""
         },
         {
           "id": "pred",
           "text": "kasi^naw",
           "role": "pred",
-          "gloss_zh": "",
+          "gloss_zh": "冷",
           "gloss_en": ""
         },
         {
           "id": "anini",
           "text": "anini",
           "role": "adverb",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t3",
-          "text": ".",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "今天",
           "gloss_en": ""
         }
       ],
@@ -372,8 +309,7 @@
           [
             "cowa",
             "pred",
-            "anini",
-            "t3"
+            "anini"
           ]
         ],
         "hangs": {},
@@ -401,28 +337,21 @@
           "id": "ko",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "主格",
           "gloss_en": ""
         },
         {
           "id": "orad",
           "text": "’orad",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "雨水",
           "gloss_en": ""
         },
         {
           "id": "anini",
           "text": "anini",
           "role": "adverb",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t4",
-          "text": ".",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "今天",
           "gloss_en": ""
         }
       ],
@@ -432,8 +361,7 @@
             "pred",
             "ko",
             "orad",
-            "anini",
-            "t4"
+            "anini"
           ]
         ],
         "hangs": {},
@@ -461,7 +389,7 @@
           "id": "ko",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "主格",
           "gloss_en": ""
         },
         {
@@ -475,14 +403,7 @@
           "id": "anini",
           "text": "anini",
           "role": "adverb",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t4",
-          "text": ".",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "今天",
           "gloss_en": ""
         }
       ],
@@ -492,8 +413,7 @@
             "pred",
             "ko",
             "fali",
-            "anini",
-            "t4"
+            "anini"
           ]
         ],
         "hangs": {},
@@ -514,28 +434,21 @@
           "id": "pred",
           "text": "O",
           "role": "pred",
-          "gloss_zh": "",
+          "gloss_zh": "主題",
           "gloss_en": ""
         },
         {
           "id": "laloodan",
           "text": "laloodan",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "夏天",
           "gloss_en": ""
         },
         {
           "id": "anini",
           "text": "anini",
           "role": "adverb",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t3",
-          "text": ".",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "今天",
           "gloss_en": ""
         }
       ],
@@ -544,8 +457,7 @@
           [
             "pred",
             "laloodan",
-            "anini",
-            "t3"
+            "anini"
           ]
         ],
         "hangs": {},
@@ -573,7 +485,7 @@
           "id": "ko",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "主格",
           "gloss_en": ""
         },
         {
@@ -587,21 +499,14 @@
           "id": "i",
           "text": "i",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "呢",
           "gloss_en": ""
         },
         {
           "id": "laloodan",
           "text": "laloodan",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t5",
-          "text": ".",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "夏天",
           "gloss_en": ""
         }
       ],
@@ -612,8 +517,7 @@
             "ko",
             "faliyos",
             "i",
-            "laloodan",
-            "t5"
+            "laloodan"
           ]
         ],
         "hangs": {},
@@ -641,35 +545,28 @@
           "id": "ko",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "主格",
           "gloss_en": ""
         },
         {
           "id": "nanom",
           "text": "nanom",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "水",
           "gloss_en": ""
         },
         {
           "id": "no",
           "text": "no",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "屬格",
           "gloss_en": ""
         },
         {
           "id": "alo",
           "text": "’alo",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t5",
-          "text": ".",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "溪",
           "gloss_en": ""
         }
       ],
@@ -678,8 +575,7 @@
           [
             "pred",
             "ko",
-            "nanom",
-            "t5"
+            "nanom"
           ]
         ],
         "hangs": {
@@ -705,20 +601,13 @@
           "id": "pred",
           "text": "Kafarawfawan",
           "role": "pred",
-          "gloss_zh": "",
+          "gloss_zh": "秋天",
           "gloss_en": ""
         },
         {
-          "id": "t1",
-          "text": ",",
-          "role": "particle",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "pred2",
+          "id": "marohemayto",
           "text": "marohemayto",
-          "role": "pred2",
+          "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -726,41 +615,31 @@
           "id": "ko",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "主格",
           "gloss_en": ""
         },
         {
           "id": "asiro",
           "text": "asiro",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t5",
-          "text": ".",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "橘子",
           "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
-            "pred"
-          ],
-          [
-            "pred2",
+            "pred",
+            "marohemayto",
             "ko",
-            "asiro",
-            "t5"
+            "asiro"
           ]
         ],
         "hangs": {},
-        "plus_between_groups": true,
-        "structure": "兩句以 ＋ 連接（自動切分）"
+        "plus_between_groups": false,
+        "structure": "謂語 Kafarawfawan 為中心（自動標記）"
       },
-      "structure": "兩句以 ＋ 連接（自動切分）",
+      "structure": "謂語 Kafarawfawan 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_senior/sound/4/8oralReading/1_3_D.mp3",
       "audio_primary": true
     },
@@ -781,49 +660,42 @@
           "id": "ko",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "主格",
           "gloss_en": ""
         },
         {
           "id": "nanom",
           "text": "nanom",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "水",
           "gloss_en": ""
         },
         {
           "id": "no",
           "text": "no",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "屬格",
           "gloss_en": ""
         },
         {
           "id": "alo",
           "text": "’alo",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "溪",
           "gloss_en": ""
         },
         {
           "id": "i",
           "text": "i",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "呢",
           "gloss_en": ""
         },
         {
           "id": "tiposan",
           "text": "tiposan",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t7",
-          "text": ".",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "冬天",
           "gloss_en": ""
         }
       ],
@@ -834,8 +706,7 @@
             "ko",
             "nanom",
             "i",
-            "tiposan",
-            "t7"
+            "tiposan"
           ]
         ],
         "hangs": {
@@ -868,21 +739,14 @@
           "id": "koni",
           "text": "koni",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "這個",
           "gloss_en": ""
         },
         {
           "id": "faʼinayan",
           "text": "faʼinayan",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t3",
-          "text": ".",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "男",
           "gloss_en": ""
         }
       ],
@@ -891,8 +755,7 @@
           [
             "pred",
             "koni",
-            "faʼinayan",
-            "t3"
+            "faʼinayan"
           ]
         ],
         "hangs": {},
@@ -913,28 +776,21 @@
           "id": "pred",
           "text": "Makapahay",
           "role": "pred",
-          "gloss_zh": "",
+          "gloss_zh": "英俊",
           "gloss_en": ""
         },
         {
           "id": "koni",
           "text": "koni",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "這個",
           "gloss_en": ""
         },
         {
           "id": "fafahiyan",
           "text": "fafahiyan",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t3",
-          "text": ".",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "女",
           "gloss_en": ""
         }
       ],
@@ -943,8 +799,7 @@
           [
             "pred",
             "koni",
-            "fafahiyan",
-            "t3"
+            "fafahiyan"
           ]
         ],
         "hangs": {},
@@ -972,21 +827,14 @@
           "id": "koni",
           "text": "koni",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "這個",
           "gloss_en": ""
         },
         {
           "id": "wawa",
           "text": "wawa",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t3",
-          "text": ".",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "小孩",
           "gloss_en": ""
         }
       ],
@@ -995,8 +843,7 @@
           [
             "pred",
             "koni",
-            "wawa",
-            "t3"
+            "wawa"
           ]
         ],
         "hangs": {},
@@ -1024,21 +871,14 @@
           "id": "koni",
           "text": "koni",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "這個",
           "gloss_en": ""
         },
         {
           "id": "singsi",
           "text": "singsi",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t3",
-          "text": ".",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "老師",
           "gloss_en": ""
         }
       ],
@@ -1047,8 +887,7 @@
           [
             "pred",
             "koni",
-            "singsi",
-            "t3"
+            "singsi"
           ]
         ],
         "hangs": {},
@@ -1076,21 +915,14 @@
           "id": "koni",
           "text": "koni",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "這個",
           "gloss_en": ""
         },
         {
           "id": "mitiliday",
           "text": "mitiliday",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t3",
-          "text": ".",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "學生",
           "gloss_en": ""
         }
       ],
@@ -1099,8 +931,7 @@
           [
             "pred",
             "koni",
-            "mitiliday",
-            "t3"
+            "mitiliday"
           ]
         ],
         "hangs": {},
@@ -1128,21 +959,14 @@
           "id": "kora",
           "text": "kora",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "那個",
           "gloss_en": ""
         },
         {
           "id": "cokowi",
           "text": "cokowi",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t3",
-          "text": ".",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "桌子",
           "gloss_en": ""
         }
       ],
@@ -1151,8 +975,7 @@
           [
             "pred",
             "kora",
-            "cokowi",
-            "t3"
+            "cokowi"
           ]
         ],
         "hangs": {},
@@ -1180,21 +1003,14 @@
           "id": "kora",
           "text": "kora",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "那個",
           "gloss_en": ""
         },
         {
           "id": "hakenang",
           "text": "hakenang",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t3",
-          "text": ".",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "椅子",
           "gloss_en": ""
         }
       ],
@@ -1203,8 +1019,7 @@
           [
             "pred",
             "kora",
-            "hakenang",
-            "t3"
+            "hakenang"
           ]
         ],
         "hangs": {},
@@ -1232,21 +1047,14 @@
           "id": "kora",
           "text": "kora",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "那個",
           "gloss_en": ""
         },
         {
           "id": "loma",
           "text": "loma’",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t3",
-          "text": ".",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "家",
           "gloss_en": ""
         }
       ],
@@ -1255,8 +1063,7 @@
           [
             "pred",
             "kora",
-            "loma",
-            "t3"
+            "loma"
           ]
         ],
         "hangs": {},
@@ -1284,21 +1091,14 @@
           "id": "kora",
           "text": "kora",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "那個",
           "gloss_en": ""
         },
         {
           "id": "kongkoan",
           "text": "kongkoan",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t3",
-          "text": ".",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "學校",
           "gloss_en": ""
         }
       ],
@@ -1307,8 +1107,7 @@
           [
             "pred",
             "kora",
-            "kongkoan",
-            "t3"
+            "kongkoan"
           ]
         ],
         "hangs": {},
@@ -1336,21 +1135,14 @@
           "id": "kora",
           "text": "kora",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "那個",
           "gloss_en": ""
         },
         {
           "id": "impic",
           "text": "impic",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t3",
-          "text": ".",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "筆",
           "gloss_en": ""
         }
       ],
@@ -1359,8 +1151,7 @@
           [
             "pred",
             "kora",
-            "impic",
-            "t3"
+            "impic"
           ]
         ],
         "hangs": {},
@@ -1388,41 +1179,34 @@
           "id": "ko",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "主格",
           "gloss_en": ""
         },
         {
           "id": "fofo",
           "text": "fofo",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "祖父",
           "gloss_en": ""
         },
         {
           "id": "ako",
           "text": "ako",
           "role": "pronoun",
-          "gloss_zh": "",
+          "gloss_zh": "我的",
           "gloss_en": ""
         },
         {
           "id": "to",
           "text": "to",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "斜格",
           "gloss_en": ""
         },
         {
           "id": "romiamiad",
           "text": "romiamiad",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t6",
-          "text": ".",
-          "role": "particle",
           "gloss_zh": "",
           "gloss_en": ""
         }
@@ -1435,8 +1219,7 @@
             "fofo",
             "ako",
             "to",
-            "romiamiad",
-            "t6"
+            "romiamiad"
           ]
         ],
         "hangs": {},
@@ -1464,55 +1247,48 @@
           "id": "to",
           "text": "to",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "斜格",
           "gloss_en": ""
         },
         {
           "id": "riko",
           "text": "riko’",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "衣服",
           "gloss_en": ""
         },
         {
           "id": "ko",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "主格",
           "gloss_en": ""
         },
         {
           "id": "fofo",
           "text": "fofo",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "祖父",
           "gloss_en": ""
         },
         {
           "id": "ako",
           "text": "ako",
           "role": "pronoun",
-          "gloss_zh": "",
+          "gloss_zh": "我的",
           "gloss_en": ""
         },
         {
           "id": "to_3",
           "text": "to",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "斜格",
           "gloss_en": ""
         },
         {
           "id": "romiamiad",
           "text": "romiamiad",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t8",
-          "text": ".",
-          "role": "particle",
           "gloss_zh": "",
           "gloss_en": ""
         }
@@ -1527,8 +1303,7 @@
             "fofo",
             "ako",
             "to_3",
-            "romiamiad",
-            "t8"
+            "romiamiad"
           ]
         ],
         "hangs": {},
@@ -1556,7 +1331,7 @@
           "id": "to",
           "text": "to",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "斜格",
           "gloss_en": ""
         },
         {
@@ -1570,41 +1345,34 @@
           "id": "ko",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "主格",
           "gloss_en": ""
         },
         {
           "id": "wama",
           "text": "wama",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "爸爸",
           "gloss_en": ""
         },
         {
           "id": "ako",
           "text": "ako",
           "role": "pronoun",
-          "gloss_zh": "",
+          "gloss_zh": "我的",
           "gloss_en": ""
         },
         {
           "id": "to_3",
           "text": "to",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "斜格",
           "gloss_en": ""
         },
         {
           "id": "romiamiad",
           "text": "romiamiad",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t8",
-          "text": ".",
-          "role": "particle",
           "gloss_zh": "",
           "gloss_en": ""
         }
@@ -1619,8 +1387,7 @@
             "wama",
             "ako",
             "to_3",
-            "romiamiad",
-            "t8"
+            "romiamiad"
           ]
         ],
         "hangs": {},
@@ -1648,41 +1415,34 @@
           "id": "ko",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "主格",
           "gloss_en": ""
         },
         {
           "id": "wina",
           "text": "wina",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "媽媽",
           "gloss_en": ""
         },
         {
           "id": "ako",
           "text": "ako",
           "role": "pronoun",
-          "gloss_zh": "",
+          "gloss_zh": "我的",
           "gloss_en": ""
         },
         {
           "id": "to",
           "text": "to",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "斜格",
           "gloss_en": ""
         },
         {
           "id": "romiamiad",
           "text": "romiamiad",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t6",
-          "text": ".",
-          "role": "particle",
           "gloss_zh": "",
           "gloss_en": ""
         }
@@ -1695,8 +1455,7 @@
             "wina",
             "ako",
             "to",
-            "romiamiad",
-            "t6"
+            "romiamiad"
           ]
         ],
         "hangs": {},
@@ -1724,41 +1483,34 @@
           "id": "ko",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "主格",
           "gloss_en": ""
         },
         {
           "id": "faki",
           "text": "faki",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "伯父；叔叔；舅舅",
           "gloss_en": ""
         },
         {
           "id": "ako",
           "text": "ako",
           "role": "pronoun",
-          "gloss_zh": "",
+          "gloss_zh": "我的",
           "gloss_en": ""
         },
         {
           "id": "to",
           "text": "to",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "斜格",
           "gloss_en": ""
         },
         {
           "id": "romiamiad",
           "text": "romiamiad",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t6",
-          "text": ".",
-          "role": "particle",
           "gloss_zh": "",
           "gloss_en": ""
         }
@@ -1771,8 +1523,7 @@
             "faki",
             "ako",
             "to",
-            "romiamiad",
-            "t6"
+            "romiamiad"
           ]
         ],
         "hangs": {},
@@ -1800,42 +1551,35 @@
           "id": "ko",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "主格",
           "gloss_en": ""
         },
         {
           "id": "kaka",
           "text": "kaka",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "哥；姊",
           "gloss_en": ""
         },
         {
           "id": "nira",
           "text": "nira",
           "role": "pronoun",
-          "gloss_zh": "",
+          "gloss_zh": "他的",
           "gloss_en": ""
         },
         {
           "id": "to",
           "text": "to",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "斜格",
           "gloss_en": ""
         },
         {
           "id": "faʼinayan",
           "text": "faʼinayan",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t6",
-          "text": ".",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "男",
           "gloss_en": ""
         }
       ],
@@ -1847,8 +1591,7 @@
             "kaka",
             "nira",
             "to",
-            "faʼinayan",
-            "t6"
+            "faʼinayan"
           ]
         ],
         "hangs": {},
@@ -1876,42 +1619,35 @@
           "id": "ko",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "主格",
           "gloss_en": ""
         },
         {
           "id": "kaka",
           "text": "kaka",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "哥；姊",
           "gloss_en": ""
         },
         {
           "id": "nira",
           "text": "nira",
           "role": "pronoun",
-          "gloss_zh": "",
+          "gloss_zh": "他的",
           "gloss_en": ""
         },
         {
           "id": "to",
           "text": "to",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "斜格",
           "gloss_en": ""
         },
         {
           "id": "fafahiyan",
           "text": "fafahiyan",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t6",
-          "text": ".",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "女",
           "gloss_en": ""
         }
       ],
@@ -1923,8 +1659,7 @@
             "kaka",
             "nira",
             "to",
-            "fafahiyan",
-            "t6"
+            "fafahiyan"
           ]
         ],
         "hangs": {},
@@ -1952,56 +1687,49 @@
           "id": "to",
           "text": "to",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "斜格",
           "gloss_en": ""
         },
         {
           "id": "tali",
           "text": "tali",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "芋頭",
           "gloss_en": ""
         },
         {
           "id": "ko",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "主格",
           "gloss_en": ""
         },
         {
           "id": "safa",
           "text": "safa",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "弟；妹",
           "gloss_en": ""
         },
         {
           "id": "nira",
           "text": "nira",
           "role": "pronoun",
-          "gloss_zh": "",
+          "gloss_zh": "他的",
           "gloss_en": ""
         },
         {
           "id": "to_3",
           "text": "to",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "斜格",
           "gloss_en": ""
         },
         {
           "id": "faʼinayan",
           "text": "faʼinayan",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t8",
-          "text": ".",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "男",
           "gloss_en": ""
         }
       ],
@@ -2015,8 +1743,7 @@
             "safa",
             "nira",
             "to_3",
-            "faʼinayan",
-            "t8"
+            "faʼinayan"
           ]
         ],
         "hangs": {},
@@ -2044,42 +1771,35 @@
           "id": "ko",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "主格",
           "gloss_en": ""
         },
         {
           "id": "safa",
           "text": "safa",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "弟；妹",
           "gloss_en": ""
         },
         {
           "id": "nira",
           "text": "nira",
           "role": "pronoun",
-          "gloss_zh": "",
+          "gloss_zh": "他的",
           "gloss_en": ""
         },
         {
           "id": "to",
           "text": "to",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "斜格",
           "gloss_en": ""
         },
         {
           "id": "fafahiyan",
           "text": "fafahiyan",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t6",
-          "text": ".",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "女",
           "gloss_en": ""
         }
       ],
@@ -2091,8 +1811,7 @@
             "safa",
             "nira",
             "to",
-            "fafahiyan",
-            "t6"
+            "fafahiyan"
           ]
         ],
         "hangs": {},
@@ -2113,35 +1832,28 @@
           "id": "pred",
           "text": "Mitiliday",
           "role": "pred",
-          "gloss_zh": "",
+          "gloss_zh": "學生",
           "gloss_en": ""
         },
         {
           "id": "ko",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "主格",
           "gloss_en": ""
         },
         {
           "id": "widang",
           "text": "widang",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "朋友",
           "gloss_en": ""
         },
         {
           "id": "nira",
           "text": "nira",
           "role": "pronoun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t4",
-          "text": ".",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "他的",
           "gloss_en": ""
         }
       ],
@@ -2151,8 +1863,7 @@
             "pred",
             "ko",
             "widang",
-            "nira",
-            "t4"
+            "nira"
           ]
         ],
         "hangs": {},
@@ -2180,21 +1891,14 @@
           "id": "kiso",
           "text": "kiso",
           "role": "pronoun",
-          "gloss_zh": "",
+          "gloss_zh": "你",
           "gloss_en": ""
         },
         {
           "id": "haw",
           "text": "haw",
-          "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t3",
-          "text": "?",
           "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "助詞",
           "gloss_en": ""
         }
       ],
@@ -2203,8 +1907,7 @@
           [
             "pred",
             "kiso",
-            "haw",
-            "t3"
+            "haw"
           ]
         ],
         "hangs": {},
@@ -2232,21 +1935,14 @@
           "id": "kiso",
           "text": "kiso",
           "role": "pronoun",
-          "gloss_zh": "",
+          "gloss_zh": "你",
           "gloss_en": ""
         },
         {
           "id": "haw",
           "text": "haw",
-          "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t3",
-          "text": "?",
           "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "助詞",
           "gloss_en": ""
         }
       ],
@@ -2255,8 +1951,7 @@
           [
             "pred",
             "kiso",
-            "haw",
-            "t3"
+            "haw"
           ]
         ],
         "hangs": {},
@@ -2284,35 +1979,28 @@
           "id": "kiso",
           "text": "kiso",
           "role": "pronoun",
-          "gloss_zh": "",
+          "gloss_zh": "你",
           "gloss_en": ""
         },
         {
           "id": "to",
           "text": "to",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "斜格",
           "gloss_en": ""
         },
         {
           "id": "tali",
           "text": "tali",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "芋頭",
           "gloss_en": ""
         },
         {
           "id": "haw",
           "text": "haw",
-          "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t5",
-          "text": "?",
           "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "助詞",
           "gloss_en": ""
         }
       ],
@@ -2323,8 +2011,7 @@
             "kiso",
             "to",
             "tali",
-            "haw",
-            "t5"
+            "haw"
           ]
         ],
         "hangs": {},
@@ -2352,21 +2039,14 @@
           "id": "kiso",
           "text": "kiso",
           "role": "pronoun",
-          "gloss_zh": "",
+          "gloss_zh": "你",
           "gloss_en": ""
         },
         {
           "id": "haw",
           "text": "haw",
-          "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t3",
-          "text": "?",
           "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "助詞",
           "gloss_en": ""
         }
       ],
@@ -2375,8 +2055,7 @@
           [
             "pred",
             "kiso",
-            "haw",
-            "t3"
+            "haw"
           ]
         ],
         "hangs": {},
@@ -2397,28 +2076,21 @@
           "id": "pred",
           "text": "Mitiliday",
           "role": "pred",
-          "gloss_zh": "",
+          "gloss_zh": "學生",
           "gloss_en": ""
         },
         {
           "id": "kiso",
           "text": "kiso",
           "role": "pronoun",
-          "gloss_zh": "",
+          "gloss_zh": "你",
           "gloss_en": ""
         },
         {
           "id": "haw",
           "text": "haw",
-          "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t3",
-          "text": "?",
           "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "助詞",
           "gloss_en": ""
         }
       ],
@@ -2427,8 +2099,7 @@
           [
             "pred",
             "kiso",
-            "haw",
-            "t3"
+            "haw"
           ]
         ],
         "hangs": {},
@@ -2449,28 +2120,21 @@
           "id": "cowa",
           "text": "Cowa",
           "role": "adverb",
-          "gloss_zh": "",
+          "gloss_zh": "不是[回答用]",
           "gloss_en": ""
         },
         {
           "id": "pred",
           "text": "kafoti’",
           "role": "pred",
-          "gloss_zh": "",
+          "gloss_zh": "睡覺",
           "gloss_en": ""
         },
         {
           "id": "kako",
           "text": "kako",
           "role": "pronoun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t3",
-          "text": ".",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "我",
           "gloss_en": ""
         }
       ],
@@ -2479,8 +2143,7 @@
           [
             "cowa",
             "pred",
-            "kako",
-            "t3"
+            "kako"
           ]
         ],
         "hangs": {},
@@ -2501,28 +2164,21 @@
           "id": "cowa",
           "text": "Cowa",
           "role": "adverb",
-          "gloss_zh": "",
+          "gloss_zh": "不是[回答用]",
           "gloss_en": ""
         },
         {
           "id": "pred",
           "text": "kasikafong",
           "role": "pred",
-          "gloss_zh": "",
+          "gloss_zh": "戴",
           "gloss_en": ""
         },
         {
           "id": "kako",
           "text": "kako",
           "role": "pronoun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t3",
-          "text": ".",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "我",
           "gloss_en": ""
         }
       ],
@@ -2531,8 +2187,7 @@
           [
             "cowa",
             "pred",
-            "kako",
-            "t3"
+            "kako"
           ]
         ],
         "hangs": {},
@@ -2553,42 +2208,35 @@
           "id": "cowa",
           "text": "Cowa",
           "role": "adverb",
-          "gloss_zh": "",
+          "gloss_zh": "不是[回答用]",
           "gloss_en": ""
         },
         {
           "id": "pred",
           "text": "kakomaen",
           "role": "pred",
-          "gloss_zh": "",
+          "gloss_zh": "吃",
           "gloss_en": ""
         },
         {
           "id": "kako",
           "text": "kako",
           "role": "pronoun",
-          "gloss_zh": "",
+          "gloss_zh": "我",
           "gloss_en": ""
         },
         {
           "id": "to",
           "text": "to",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "斜格",
           "gloss_en": ""
         },
         {
           "id": "tali",
           "text": "tali",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t5",
-          "text": ".",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "芋頭",
           "gloss_en": ""
         }
       ],
@@ -2599,8 +2247,7 @@
             "pred",
             "kako",
             "to",
-            "tali",
-            "t5"
+            "tali"
           ]
         ],
         "hangs": {},
@@ -2621,28 +2268,21 @@
           "id": "cowa",
           "text": "Cowa",
           "role": "adverb",
-          "gloss_zh": "",
+          "gloss_zh": "不是[回答用]",
           "gloss_en": ""
         },
         {
           "id": "pred",
           "text": "kalomadiw",
           "role": "pred",
-          "gloss_zh": "",
+          "gloss_zh": "唱歌",
           "gloss_en": ""
         },
         {
           "id": "kako",
           "text": "kako",
           "role": "pronoun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t3",
-          "text": ".",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "我",
           "gloss_en": ""
         }
       ],
@@ -2651,8 +2291,7 @@
           [
             "cowa",
             "pred",
-            "kako",
-            "t3"
+            "kako"
           ]
         ],
         "hangs": {},
@@ -2673,28 +2312,21 @@
           "id": "cowa",
           "text": "Cowa",
           "role": "adverb",
-          "gloss_zh": "",
+          "gloss_zh": "不是[回答用]",
           "gloss_en": ""
         },
         {
           "id": "pred",
           "text": "pitilid",
           "role": "pred",
-          "gloss_zh": "",
+          "gloss_zh": "讀書",
           "gloss_en": ""
         },
         {
           "id": "kako",
           "text": "kako",
           "role": "pronoun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t3",
-          "text": ".",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "我",
           "gloss_en": ""
         }
       ],
@@ -2703,8 +2335,7 @@
           [
             "cowa",
             "pred",
-            "kako",
-            "t3"
+            "kako"
           ]
         ],
         "hangs": {},
@@ -2732,14 +2363,14 @@
           "id": "kiso",
           "text": "kiso",
           "role": "pronoun",
-          "gloss_zh": "",
+          "gloss_zh": "你",
           "gloss_en": ""
         },
         {
           "id": "to",
           "text": "to",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "斜格",
           "gloss_en": ""
         },
         {
@@ -2752,15 +2383,8 @@
         {
           "id": "haw",
           "text": "haw",
-          "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t5",
-          "text": "?",
           "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "助詞",
           "gloss_en": ""
         }
       ],
@@ -2771,8 +2395,7 @@
             "kiso",
             "to",
             "fofoan",
-            "haw",
-            "t5"
+            "haw"
           ]
         ],
         "hangs": {},
@@ -2800,35 +2423,28 @@
           "id": "ko",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "主格",
           "gloss_en": ""
         },
         {
           "id": "widang",
           "text": "widang",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "朋友",
           "gloss_en": ""
         },
         {
           "id": "nira",
           "text": "nira",
           "role": "pronoun",
-          "gloss_zh": "",
+          "gloss_zh": "他的",
           "gloss_en": ""
         },
         {
           "id": "haw",
           "text": "haw",
-          "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t5",
-          "text": "?",
           "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "助詞",
           "gloss_en": ""
         }
       ],
@@ -2839,8 +2455,7 @@
             "ko",
             "widang",
             "nira",
-            "haw",
-            "t5"
+            "haw"
           ]
         ],
         "hangs": {},
@@ -2868,35 +2483,28 @@
           "id": "ko",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "主格",
           "gloss_en": ""
         },
         {
           "id": "kadango",
           "text": "kadango",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "簍子",
           "gloss_en": ""
         },
         {
           "id": "naira",
           "text": "naira",
           "role": "pronoun",
-          "gloss_zh": "",
+          "gloss_zh": "他們",
           "gloss_en": ""
         },
         {
           "id": "haw",
           "text": "haw",
-          "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t5",
-          "text": "?",
           "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "助詞",
           "gloss_en": ""
         }
       ],
@@ -2907,8 +2515,7 @@
             "ko",
             "kadango",
             "naira",
-            "haw",
-            "t5"
+            "haw"
           ]
         ],
         "hangs": {},
@@ -2929,7 +2536,7 @@
           "id": "i",
           "text": "I",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "呢",
           "gloss_en": ""
         },
         {
@@ -2943,35 +2550,28 @@
           "id": "ko",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "主格",
           "gloss_en": ""
         },
         {
           "id": "kongkoan",
           "text": "kongkoan",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "學校",
           "gloss_en": ""
         },
         {
           "id": "namo",
           "text": "namo",
           "role": "pronoun",
-          "gloss_zh": "",
+          "gloss_zh": "你們",
           "gloss_en": ""
         },
         {
           "id": "haw",
           "text": "haw",
-          "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t6",
-          "text": "?",
           "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "助詞",
           "gloss_en": ""
         }
       ],
@@ -2983,8 +2583,7 @@
             "ko",
             "kongkoan",
             "namo",
-            "haw",
-            "t6"
+            "haw"
           ]
         ],
         "hangs": {},
@@ -3012,49 +2611,42 @@
           "id": "ko",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "主格",
           "gloss_en": ""
         },
         {
           "id": "fokes",
           "text": "fokes",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "頭髮",
           "gloss_en": ""
         },
         {
           "id": "no",
           "text": "no",
           "role": "case",
-          "gloss_zh": "",
+          "gloss_zh": "屬格",
           "gloss_en": ""
         },
         {
           "id": "fofo",
           "text": "fofo",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "祖父",
           "gloss_en": ""
         },
         {
           "id": "ita",
           "text": "ita",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "咱們的",
           "gloss_en": ""
         },
         {
           "id": "haw",
           "text": "haw",
-          "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t7",
-          "text": "?",
           "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "助詞",
           "gloss_en": ""
         }
       ],
@@ -3065,8 +2657,7 @@
             "ko",
             "fokes",
             "ita",
-            "haw",
-            "t7"
+            "haw"
           ]
         ],
         "hangs": {

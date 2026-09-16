@@ -18,21 +18,14 @@
           "id": "awa",
           "text": "awa",
           "role": "adverb",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t1",
-          "text": "/",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "沒有[表擁有的否",
           "gloss_en": ""
         },
         {
           "id": "pred",
           "text": "awaay",
           "role": "pred",
-          "gloss_zh": "",
+          "gloss_zh": "沒有[表擁有的否",
           "gloss_en": ""
         }
       ],
@@ -40,7 +33,6 @@
         "groups": [
           [
             "awa",
-            "t1",
             "pred"
           ]
         ],
@@ -62,21 +54,14 @@
           "id": "cowa",
           "text": "cowa",
           "role": "adverb",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t1",
-          "text": "/",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "不是[回答用]",
           "gloss_en": ""
         },
         {
           "id": "pred",
           "text": "caʼka",
           "role": "pred",
-          "gloss_zh": "",
+          "gloss_zh": "沒有[表過去沒有",
           "gloss_en": ""
         }
       ],
@@ -84,7 +69,6 @@
         "groups": [
           [
             "cowa",
-            "t1",
             "pred"
           ]
         ],
@@ -106,49 +90,28 @@
           "id": "pred",
           "text": "aka",
           "role": "pred",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t1",
-          "text": "/",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "不要[表未來不要",
           "gloss_en": ""
         },
         {
           "id": "akaa",
           "text": "akaa",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t3",
-          "text": "/",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "不要[表未來不要",
           "gloss_en": ""
         },
         {
           "id": "akaka",
           "text": "akaka",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
-        },
-        {
-          "id": "t5",
-          "text": "/",
-          "role": "particle",
-          "gloss_zh": "",
+          "gloss_zh": "不要[表未來不要",
           "gloss_en": ""
         },
         {
           "id": "caʼto",
           "text": "caʼto",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "不要[表未來不要",
           "gloss_en": ""
         }
       ],
@@ -156,11 +119,8 @@
         "groups": [
           [
             "pred",
-            "t1",
             "akaa",
-            "t3",
             "akaka",
-            "t5",
             "caʼto"
           ]
         ],
@@ -182,7 +142,7 @@
           "id": "pred",
           "text": "aka",
           "role": "pred",
-          "gloss_zh": "",
+          "gloss_zh": "不要[表未來不要",
           "gloss_en": ""
         }
       ],
