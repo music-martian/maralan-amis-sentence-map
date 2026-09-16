@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="description" content="馬蘭阿美語句型圖 — 問候道別謝謝（Klokah 國中版 class 16）即時 SVG 學習／練習原型" />
+  <title>馬蘭阿美語 · 句型圖 — 問候道別謝謝</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="mode-learn">
+  <div class="app">
+    <header class="site-header">
+      <h1>馬蘭阿美語 · 句型圖</h1>
+      <p class="subtitle">問候道別謝謝（class 16）</p>
+      <a
+        class="klokah-link"
+        href="https://klokah.iformosa.com.tw/sentence/junior/learn/4/2/16"
+        target="_blank"
+        rel="noopener noreferrer"
+      >Klokah 原文教材 ↗</a>
+    </header>
+
+    <div class="toolbar">
+      <div class="mode-toggle" role="group" aria-label="學習模式">
+        <button type="button" id="mode-learn" aria-pressed="true">學習 Learn</button>
+        <button type="button" id="mode-practice" aria-pressed="false">練習 Practice</button>
+      </div>
+
+      <div class="nav">
+        <button type="button" id="btn-prev" aria-label="上一句">‹ 上一句</button>
+        <div class="dots" id="dots" aria-label="句子導覽"></div>
+        <button type="button" id="btn-next" aria-label="下一句">下一句 ›</button>
+      </div>
+
+      <label class="visually-hidden" for="sentence-select" style="position:absolute;left:-9999px">選擇句子</label>
+      <select id="sentence-select" class="sentence-select" aria-label="選擇句子"></select>
+    </div>
+
+    <main class="card">
+      <div class="sentence-meta">
+        <div class="num" id="meta-num"></div>
+        <div class="amis-row">
+          <p class="amis" id="meta-amis"></p>
+          <button type="button" class="audio-btn" id="btn-audio" aria-label="播放句子音訊" title="播放音訊">
+            <span class="audio-icon" aria-hidden="true">🔊</span>
+            <span class="audio-label">播放</span>
+          </button>
+        </div>
+        <p class="zh" id="meta-zh"></p>
+        <p class="en" id="meta-en"></p>
+        <p class="audio-note" id="audio-note" hidden></p>
+      </div>
+      <audio id="sentence-audio" preload="none"></audio>
+
+      <p class="practice-hint" id="practice-hint" hidden>點彩珠看阿美語</p>
+
+      <div class="diagram-wrap" id="diagram" aria-live="polite"></div>
+
+      <div class="color-legend" id="color-legend" aria-label="顏色圖例">
+        <span><i class="swatch" style="background:#C9A6E8"></i>謂語 pred</span>
+        <span><i class="swatch" style="background:#E8B4C4"></i>代詞 pronoun</span>
+        <span><i class="swatch" style="background:#B7D9B8"></i>名詞 noun</span>
+        <span><i class="swatch" style="background:#5B8DEF"></i>格標記 ko/no</span>
+        <span><i class="swatch" style="background:#E8C84A"></i>助詞/副詞</span>
+        <span><i class="swatch" style="background:#E88888"></i>第二子句謂語</span>
+      </div>
+
+      <div class="practice-bar" id="practice-bar" hidden>
+        <div class="progress" id="progress">已顯示 0 / 0</div>
+        <div class="practice-actions">
+          <button type="button" id="btn-reveal-all">全部顯示</button>
+          <button type="button" id="btn-next-q">下一題</button>
+        </div>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <p>Klokah 句型篇國中版 · 馬蘭阿美語 · 問候道別謝謝</p>
+      <p>即時 SVG 句型圖 · 靜態原型 · 無需建置步驟</p>
+    </footer>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="diagram.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

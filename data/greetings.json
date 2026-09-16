@@ -1,0 +1,359 @@
+{
+  "source": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/2/16",
+  "dialect": "馬蘭阿美語",
+  "unit": "問候道別謝謝",
+  "class_id": "16",
+  "footer": "Klokah 句型篇國中版 · 馬蘭阿美語 · 問候道別謝謝",
+  "sentences": [
+    {
+      "id": "01",
+      "amis": "Nga’ayho ko miso?",
+      "zh": "你好嗎？",
+      "en": "How are you?",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Nga’ayho",
+          "role": "pred",
+          "gloss_zh": "好嗎",
+          "gloss_en": "good-Q"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "NOM"
+        },
+        {
+          "id": "miso",
+          "text": "miso",
+          "role": "pronoun",
+          "gloss_zh": "你",
+          "gloss_en": "you"
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "miso"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "謂語 Nga’ayho 為中心；ko 標記主格對象 miso（你）"
+      },
+      "audio": "https://klokah.tw/extension/sp_junior/sound/4/2sentence/1_1.mp3",
+      "audio_exchange": "ex1",
+      "audio_primary": true
+    },
+    {
+      "id": "02",
+      "amis": "Nga’ayayto kako, kiso i?",
+      "zh": "我很好，你呢？",
+      "en": "I’m fine, and you?",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Nga’ayayto",
+          "role": "pred",
+          "gloss_zh": "很好了",
+          "gloss_en": "already-good"
+        },
+        {
+          "id": "kako",
+          "text": "kako",
+          "role": "pronoun",
+          "gloss_zh": "我",
+          "gloss_en": "I"
+        },
+        {
+          "id": "kiso",
+          "text": "kiso",
+          "role": "pronoun",
+          "gloss_zh": "你",
+          "gloss_en": "you"
+        },
+        {
+          "id": "i",
+          "text": "i",
+          "role": "particle",
+          "gloss_zh": "呢",
+          "gloss_en": "Q-particle"
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "kako"
+          ],
+          [
+            "kiso",
+            "i"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接：左句 Nga’ayayto 說明 kako；右句 kiso ＋ 助詞 i"
+      },
+      "audio": "https://klokah.tw/extension/sp_junior/sound/4/2sentence/1_1.mp3",
+      "audio_exchange": "ex1",
+      "audio_primary": false
+    },
+    {
+      "id": "03",
+      "amis": "Mamaan nga’ayayto kako, awiday tisowanan.",
+      "zh": "我也很好，謝謝你。",
+      "en": "I’m fine too, thank you.",
+      "tokens": [
+        {
+          "id": "mamaan",
+          "text": "Mamaan",
+          "role": "adverb",
+          "gloss_zh": "也",
+          "gloss_en": "also"
+        },
+        {
+          "id": "pred",
+          "text": "nga’ayayto",
+          "role": "pred",
+          "gloss_zh": "很好了",
+          "gloss_en": "already-good"
+        },
+        {
+          "id": "kako",
+          "text": "kako",
+          "role": "pronoun",
+          "gloss_zh": "我",
+          "gloss_en": "I"
+        },
+        {
+          "id": "awiday",
+          "text": "awiday",
+          "role": "pred2",
+          "gloss_zh": "謝謝",
+          "gloss_en": "thanks"
+        },
+        {
+          "id": "tisowanan",
+          "text": "tisowanan",
+          "role": "pronoun",
+          "gloss_zh": "對你",
+          "gloss_en": "to-you"
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "mamaan",
+            "pred",
+            "kako"
+          ],
+          [
+            "awiday",
+            "tisowanan"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接：Mamaan 修飾謂語；awiday 作用於 tisowanan"
+      },
+      "audio": "https://klokah.tw/extension/sp_junior/sound/4/2sentence/1_1.mp3",
+      "audio_exchange": "ex1",
+      "audio_primary": false
+    },
+    {
+      "id": "04",
+      "amis": "Mamaanay kiso?",
+      "zh": "你怎麼啦？",
+      "en": "What’s wrong?",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Mamaanay",
+          "role": "pred",
+          "gloss_zh": "怎麼了",
+          "gloss_en": "what’s-wrong"
+        },
+        {
+          "id": "kiso",
+          "text": "kiso",
+          "role": "pronoun",
+          "gloss_zh": "你",
+          "gloss_en": "you"
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "kiso"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "謂語 Mamaanay 直接說明自由主格代詞 kiso（無 ko）"
+      },
+      "audio": "https://klokah.tw/extension/sp_junior/sound/4/2sentence/1_2.mp3",
+      "audio_exchange": "ex2",
+      "audio_primary": true
+    },
+    {
+      "id": "05",
+      "amis": "Adadaay ko mata no mako.",
+      "zh": "我的眼睛痛。",
+      "en": "My eyes hurt.",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Adadaay",
+          "role": "pred",
+          "gloss_zh": "痛",
+          "gloss_en": "painful"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "NOM"
+        },
+        {
+          "id": "mata",
+          "text": "mata",
+          "role": "noun",
+          "gloss_zh": "眼睛",
+          "gloss_en": "eye"
+        },
+        {
+          "id": "no",
+          "text": "no",
+          "role": "case",
+          "gloss_zh": "屬格",
+          "gloss_en": "GEN"
+        },
+        {
+          "id": "mako",
+          "text": "mako",
+          "role": "pronoun",
+          "gloss_zh": "我的",
+          "gloss_en": "my"
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "mata"
+          ]
+        ],
+        "hangs": {
+          "mata": [
+            "no",
+            "mako"
+          ]
+        },
+        "plus_between_groups": false,
+        "structure": "謂語 Adadaay 說明 ko＋mata；no＋mako 是 mata 的領屬"
+      },
+      "audio": "https://klokah.tw/extension/sp_junior/sound/4/2sentence/1_2.mp3",
+      "audio_exchange": "ex2",
+      "audio_primary": false
+    },
+    {
+      "id": "06",
+      "amis": "Adadaay ko fongoh no mako.",
+      "zh": "我的頭很痛。",
+      "en": "My head hurts.",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Adadaay",
+          "role": "pred",
+          "gloss_zh": "痛",
+          "gloss_en": "painful"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "NOM"
+        },
+        {
+          "id": "fongoh",
+          "text": "fongoh",
+          "role": "noun",
+          "gloss_zh": "頭",
+          "gloss_en": "head"
+        },
+        {
+          "id": "no",
+          "text": "no",
+          "role": "case",
+          "gloss_zh": "屬格",
+          "gloss_en": "GEN"
+        },
+        {
+          "id": "mako",
+          "text": "mako",
+          "role": "pronoun",
+          "gloss_zh": "我的",
+          "gloss_en": "my"
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "fongoh"
+          ]
+        ],
+        "hangs": {
+          "fongoh": [
+            "no",
+            "mako"
+          ]
+        },
+        "plus_between_groups": false,
+        "structure": "謂語 Adadaay 說明 ko＋fongoh；no＋mako 是 fongoh 的領屬"
+      },
+      "audio": "https://klokah.tw/extension/sp_junior/sound/4/2sentence/1_3.mp3",
+      "audio_exchange": "ex3",
+      "audio_primary": true
+    },
+    {
+      "id": "07",
+      "amis": "Toratoraw!",
+      "zh": "再見了！",
+      "en": "Goodbye!",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Toratoraw",
+          "role": "pred2",
+          "gloss_zh": "再見",
+          "gloss_en": "goodbye"
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "道別套語 Toratoraw，無額外依附"
+      },
+      "audio": "https://klokah.tw/extension/sp_junior/sound/4/2sentence/1_4.mp3",
+      "audio_exchange": "ex4",
+      "audio_primary": true
+    }
+  ]
+}
