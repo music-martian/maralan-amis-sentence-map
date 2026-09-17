@@ -310,7 +310,8 @@ const GREETINGS = {
         "hangs": {
           "mata": [
             "no",
-            "mako"
+            "mako",
+            "period"
           ]
         },
         "plus_between_groups": false,
@@ -380,7 +381,8 @@ const GREETINGS = {
         "hangs": {
           "fongoh": [
             "no",
-            "mako"
+            "mako",
+            "period"
           ]
         },
         "plus_between_groups": false,
@@ -428,5 +430,4 @@ const GREETINGS = {
     }
   ]
 };
-
 if (typeof window !== 'undefined') window.GREETINGS = GREETINGS;

@@ -44,7 +44,8 @@
 
   const FOOTER = "Klokah · 馬蘭阿美語 · 句型圖（自動標記）";
 
-  const PUNCT_CHARS = "¿¡?!！？。．.,，,;；:…/／\"\"''「」『』（）()[]";
+  // Glottal letters are NOT punctuation in Amis (keep on word beads).
+  const PUNCT_CHARS = "¿¡?!！？。．.,，,;；:…/／\"\"「」『』（）()[]";
   const PUNCT_RE = new RegExp("^[" + PUNCT_CHARS.replace(/[\]\[\\]/g, "\\$&") + "]+$");
 
   function isPunctText(text) {
@@ -242,9 +243,22 @@
     let w = 0;
     for (const ch of text) {
       const code = ch.codePointAt(0);
-      if (ch === "’" || ch === "'" || ch === "‘" || ch === "ʼ") w += fontSize * 0.22;
-      else if (code < 0x80 || (code >= 0xa0 && code <= 0x024f)) w += fontSize * 0.58;
-      else w += fontSize * 0.95;
+      // Glottal letters are narrow — avoid huge gaps inside beads
+      if (
+        ch === "'" ||
+        ch === "’" ||
+        ch === "‘" ||
+        ch === "ʼ" ||
+        ch === "ʾ" ||
+        ch === "ʻ" ||
+        ch === "`"
+      ) {
+        w += fontSize * 0.22;
+      } else if (code < 0x80 || (code >= 0xa0 && code <= 0x024f)) {
+        w += fontSize * 0.58;
+      } else {
+        w += fontSize * 0.95;
+      }
     }
     return w;
   }
@@ -1028,6 +1042,27 @@
       mapRect.setAttribute("height", String(mapBox.y1 - mapBox.y0));
     }
 
+    // Place punct tokens present in the expanded list but missing from layout ids
+    // (e.g. hand-tuned hang rows that omitted trailing period). Anchor to previous
+    // mapped token — for Adadaay…mako. that is mako on the hang row.
+    {
+      let prevNode = null;
+      tokens.forEach((tok) => {
+        if (!tok) return;
+        if (allNodes[tok.id]) {
+          prevNode = allNodes[tok.id];
+          return;
+        }
+        if (!isPunctToken(tok)) return;
+        if (!prevNode) return;
+        const n = makeNode(tok, nodeFont, false);
+        const gap = 12;
+        n.cx = prevNode.cx + prevNode.w / 2 + gap + n.w / 2;
+        n.cy = prevNode.cy;
+        allNodes[tok.id] = n;
+        prevNode = n;
+      });
+    }
 
     Object.values(allNodes).forEach((n) => {
       const tok = byId[n.id];
@@ -1090,6 +1125,7 @@
   global.renderDiagram = renderDiagram;
   global.DIAGRAM_COLORS = COLORS;
   global.DIAGRAM_PUNCT_RE = PUNCT_RE;
+  global.isPunctText = isPunctText;
   global.splitTokenKeepPunct = splitTokenKeepPunct;
   global.expandTokens = expandTokens;
   global.ensureTrailingPunct = ensureTrailingPunct;
