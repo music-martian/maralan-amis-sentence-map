@@ -290,6 +290,13 @@ const GREETINGS = {
           "role": "pronoun",
           "gloss_zh": "我的",
           "gloss_en": "my"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -353,6 +360,13 @@ const GREETINGS = {
           "role": "pronoun",
           "gloss_zh": "我的",
           "gloss_en": "my"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -414,4 +428,5 @@ const GREETINGS = {
     }
   ]
 };
+
 if (typeof window !== 'undefined') window.GREETINGS = GREETINGS;

@@ -62,6 +62,75 @@
     return String(text == null ? "" : text).replace(/[.．]/g, "。");
   }
 
+  function isPeriodPunct(text) {
+    const t = String(text == null ? "" : text);
+    return /^[.．。]+$/.test(t);
+  }
+
+  /**
+   * Render-time safety net: if sentence.amis / text ends with sentence punct
+   * but the expanded token list does not, append matching punct token(s).
+   */
+  function ensureTrailingPunct(tokens, sentence) {
+    const list = (tokens || []).slice();
+    const amis = (sentence && (sentence.amis || sentence.text)) || "";
+    const m = String(amis).trim().match(/[.!?。！？]+$/);
+    if (!m) return list;
+    const trailing = m[0];
+    const norm = (p) =>
+      String(p)
+        .replace(/。/g, ".")
+        .replace(/．/g, ".")
+        .replace(/？/g, "?")
+        .replace(/！/g, "!");
+    let endJoined = "";
+    for (let i = list.length - 1; i >= 0; i--) {
+      if (isPunctToken(list[i])) endJoined = (list[i].text || "") + endJoined;
+      else break;
+    }
+    if (endJoined && norm(endJoined).endsWith(norm(trailing))) return list;
+
+    const usedIds = new Set(list.map((t) => t && t.id).filter(Boolean));
+    function punctIdFor(ch) {
+      const base =
+        ch === "." || ch === "．" || ch === "。"
+          ? "period"
+          : ch === "?" || ch === "？"
+            ? "q"
+            : ch === "!" || ch === "！"
+              ? "excl"
+              : "punct";
+      if (!usedIds.has(base)) return base;
+      let n = 2;
+      while (usedIds.has(base + "_" + n)) n += 1;
+      return base + "_" + n;
+    }
+
+    let need = trailing;
+    if (endJoined) {
+      const nEnd = norm(endJoined);
+      const nNeed = norm(trailing);
+      for (let k = Math.min(nEnd.length, nNeed.length); k > 0; k--) {
+        if (nEnd.endsWith(nNeed.slice(0, k))) {
+          need = trailing.slice(k);
+          break;
+        }
+      }
+    }
+    for (const ch of need) {
+      const id = punctIdFor(ch);
+      usedIds.add(id);
+      list.push({
+        id,
+        text: ch,
+        role: "punct",
+        gloss_zh: "",
+        gloss_en: "",
+      });
+    }
+    return list;
+  }
+
   /** Mirror build_corpus.tokenize — keep punct as standalone tokens. */
   function tokenizeAmis(amis) {
     if (!amis) return [];
@@ -185,11 +254,13 @@
     const tw = measureText(displayText, fontSize);
     const th = fontSize;
     if (role === "punct" || isPunctText(text)) {
-      // Keep punct readable (periods were vanishing at tiny width/size)
-      const f = bead ? 22 : 20;
+      // Keep punct readable — periods need larger glyph + room for filled dot
+      const period = isPeriodPunct(text) || isPeriodPunct(displayText);
+      const f = period ? (bead ? 28 : 26) : bead ? 22 : 20;
       const twP = measureText(displayText, f);
       const h = bead ? 44 : 50;
-      return { w: Math.max(twP + 12, 22), h, _punctFont: f };
+      const minW = period ? 28 : 22;
+      return { w: Math.max(twP + 12, minW), h, _punctFont: f, _periodDot: period };
     }
     const meta = ROLE_META[role] || ROLE_META.pred;
     if (meta.shape === "oval") {
@@ -431,7 +502,19 @@
     if (punct) {
       // Plain punctuation between/after beads — no capsule, no connector
       const label = displayText == null ? punctDisplay(node.text) : punctDisplay(displayText);
-      const pFont = node._punctFont || Math.max(fontSize + 4, 20);
+      const period = node._periodDot || isPeriodPunct(node.text) || isPeriodPunct(label);
+      const pFont = node._punctFont || (period ? 28 : Math.max(fontSize + 4, 20));
+      if (period) {
+        // Filled black circle under/as the period so it cannot vanish on mobile
+        g.appendChild(
+          svgEl("circle", {
+            cx: node.cx,
+            cy: node.cy,
+            r: 6,
+            fill: COLORS.black,
+          })
+        );
+      }
       g.appendChild(
         svgEl("text", {
           x: node.cx,
@@ -584,6 +667,7 @@
       w: sz.w,
       h: sz.h,
       _punctFont: sz._punctFont || null,
+      _periodDot: !!sz._periodDot,
       cx: 0,
       cy: 0,
     };
@@ -662,7 +746,7 @@
 
     const W = 900;
     const stroke = 4;
-    const tokens = expandTokens(sentence.tokens || []);
+    const tokens = ensureTrailingPunct(expandTokens(sentence.tokens || []), sentence);
     const byId = tokenMap(tokens);
 
     // --- Measure wrapped beads first (affects SVG height) ---
@@ -1008,6 +1092,8 @@
   global.DIAGRAM_PUNCT_RE = PUNCT_RE;
   global.splitTokenKeepPunct = splitTokenKeepPunct;
   global.expandTokens = expandTokens;
+  global.ensureTrailingPunct = ensureTrailingPunct;
   global.punctDisplay = punctDisplay;
+  global.isPeriodPunct = isPeriodPunct;
   global.DIAGRAM_ROLE_META = ROLE_META;
 })(typeof window !== "undefined" ? window : globalThis);
