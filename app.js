@@ -282,8 +282,22 @@
     return state.sentences[state.index];
   }
 
+  // Mirror diagram.js: punct role or punct-only text is not a word bead.
+  function isPunctToken(tok) {
+    if (!tok) return false;
+    if (tok.role === "punct") return true;
+    const t = String(tok.text == null ? "" : tok.text);
+    if (!t) return false;
+    if (typeof isPunctText === "function") return isPunctText(t);
+    return /^[.．。,，?？!！;；:：…¿¡\/／""「」『』（）()\[\]]+$/.test(t);
+  }
+
+  function wordTokens(s) {
+    return (s.tokens || []).filter((t) => !isPunctToken(t));
+  }
+
   function tokenCount(s) {
-    return (s.tokens || []).length;
+    return wordTokens(s).length;
   }
 
   function stopAudio() {
@@ -385,7 +399,7 @@
   function revealAll() {
     const s = current();
     if (!s) return;
-    (s.tokens || []).forEach((t) => state.revealed.add(t.id));
+    wordTokens(s).forEach((t) => state.revealed.add(t.id));
     render();
   }
 
@@ -500,13 +514,17 @@
   }
 
   function updateProgress(s) {
-    if (state.mode !== "practice") return;
+    if (state.mode !== "practice") {
+      els.progress.textContent = "";
+      return;
+    }
     if (!s) {
       els.progress.textContent = "已顯示 0 / 0";
       return;
     }
-    const n = state.revealed.size;
-    const m = tokenCount(s);
+    const words = wordTokens(s);
+    const m = words.length;
+    const n = words.filter((t) => state.revealed.has(t.id)).length;
     els.progress.textContent = "已顯示 " + n + " / " + m;
     els.nextQ.disabled = state.index >= state.sentences.length - 1;
   }
