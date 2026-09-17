@@ -132,8 +132,11 @@
     const tw = measureText(text, fontSize);
     const th = fontSize;
     if (role === "punct" || isPunctText(text)) {
+      // Keep punct readable (periods were vanishing at tiny width/size)
+      const f = bead ? 22 : 20;
+      const twP = measureText(text, f);
       const h = bead ? 44 : 50;
-      return { w: Math.max(tw + 6, 14), h };
+      return { w: Math.max(twP + 12, 22), h, _punctFont: f };
     }
     const meta = ROLE_META[role] || ROLE_META.pred;
     if (meta.shape === "oval") {
@@ -161,7 +164,8 @@
         const prev = nodes[i - 1];
         let g = tightAfter.has(prev.id) || prev.role === "case" ? 14 : gap;
         if (n.role === "case") g = 14;
-        if (isPunctToken(prev) || isPunctToken(n)) g = Math.min(g, 8);
+        // Keep a little air around punct so "." / "!" stay visible
+        if (isPunctToken(prev) || isPunctToken(n)) g = Math.max(g, 12);
         x += g;
       }
       n.cx = x + n.w / 2;
@@ -372,15 +376,16 @@
     const y0 = node.cy - node.h / 2;
 
     if (punct) {
-      // Plain punctuation between/after beads — no capsule fill
+      // Plain punctuation between/after beads — no capsule, no connector
       const label = displayText == null ? node.text : displayText;
+      const pFont = node._punctFont || Math.max(fontSize + 4, 20);
       g.appendChild(
         svgEl("text", {
           x: node.cx,
           y: node.cy,
-          fill: COLORS.text,
-          "font-size": fontSize,
-          "font-weight": 700,
+          fill: COLORS.black,
+          "font-size": pFont,
+          "font-weight": 800,
           "font-family": '"Segoe UI","Helvetica Neue",Arial,"Noto Sans","Noto Sans CJK TC","Noto Sans TC","PingFang TC",sans-serif',
           "text-anchor": "middle",
           "dominant-baseline": "central",
@@ -525,6 +530,7 @@
       gloss_en: tok.gloss_en,
       w: sz.w,
       h: sz.h,
+      _punctFont: sz._punctFont || null,
       cx: 0,
       cy: 0,
     };
@@ -611,7 +617,7 @@
     const beadY0 = 88;
     const beadMaxW = W - 80;
     const beads = sentence.tokens.map((t) => makeNode(t, beadFont, true));
-    const beadLayout = layoutBeadsWrapped(beads, beadY0, 10, beadMaxW, 96, sentence);
+    const beadLayout = layoutBeadsWrapped(beads, beadY0, 10, beadMaxW, 108, sentence);
     beadLayout.rows.forEach((r) => {
       const dx = (W - r._width) / 2;
       r.forEach((n) => {
@@ -620,12 +626,12 @@
     });
 
     const extraBeadH = beadLayout.height || 0;
-    const mapRowPitch = 176;
+    const mapRowPitch = 260;
     // Fit frame to content (same density as short sentences — no huge empty map).
     // Estimate map rows from beads; refine after wrap, then shrink H to content.
     let mapRowEstimate = Math.max(1, beadLayout.rowCount || 1);
-    const mapTopPad = 48;
-    const mapBottomPad = 110; // structure line + padding inside map
+    const mapTopPad = 56;
+    const mapBottomPad = 140; // structure line + padding inside map
     const mapFooter = 90; // legend + footer below map
     function heightForMapRows(nRows) {
       const mapInner = mapTopPad + Math.max(0, nRows - 1) * mapRowPitch + mapBottomPad;
@@ -836,22 +842,20 @@
       });
     }
 
-    // Always size frame to actual map rows (avoids tall empty gray on long paragraphs).
-    {
-      const nRows = Math.max(1, wrappedMapRows.length || mapRowEstimate);
-      mapRowEstimate = nRows;
-      H = heightForMapRows(nRows);
-      svg.setAttribute("viewBox", "0 0 " + W + " " + H);
-      frameRect.setAttribute("height", String(H));
-      mintRect.setAttribute("height", String(H - 32));
-      mapBox.y1 = H - mapFooter;
-      mapRect.setAttribute("height", String(mapBox.y1 - mapBox.y0));
-    }
-
-    wrappedMapRows.forEach((rowNodes, rowIdx) => {
+    let mapYCursor = mapBox.y0 + 56;
+    const hangStride = 120; // main → hang band
+    // Clear long role glosses under map beads ("第二子句謂語 · …")
+    const glossClearance = 72;
+    const rowGapAfter = 96;
+    wrappedMapRows.forEach((rowNodes) => {
       if (!rowNodes.length) return;
-      const yMain = mapBox.y0 + 48 + rowIdx * mapRowPitch;
-      const yHang = yMain + 72;
+      const yMain = mapYCursor;
+      const parentIds = rowNodes
+        .filter((n) => !isPunctToken(n))
+        .map((n) => n.id)
+        .filter((id) => hangNodes[id]);
+      const hasHangs = parentIds.length > 0;
+      const yHang = yMain + hangStride;
       layoutSequence(rowNodes, yMain, 36, tight);
       const chainW =
         rowNodes[rowNodes.length - 1].cx +
@@ -862,12 +866,24 @@
       shiftNodes(rowNodes, startX - curStart);
       chainEdges(rowNodes);
       drawPredTicks(rowNodes);
-      const parentIds = rowNodes
-        .filter((n) => !isPunctToken(n))
-        .map((n) => n.id)
-        .filter((id) => hangNodes[id]);
-      layoutHangsForParents(parentIds, yHang);
+      if (hasHangs) layoutHangsForParents(parentIds, yHang);
+      // Next row starts below this row's lowest gloss band
+      const bandBottom = (hasHangs ? yHang : yMain) + glossClearance;
+      mapYCursor = bandBottom + rowGapAfter;
     });
+
+    // Fit frame to the laid-out map content (no empty gray, no clipped rows)
+    {
+      const contentBottom = mapYCursor + 24;
+      const needed = contentBottom + mapFooter;
+      H = Math.max(needed, mapBox.y0 + 220 + mapFooter);
+      svg.setAttribute("viewBox", "0 0 " + W + " " + H);
+      frameRect.setAttribute("height", String(H));
+      mintRect.setAttribute("height", String(H - 32));
+      mapBox.y1 = H - mapFooter;
+      mapRect.setAttribute("height", String(mapBox.y1 - mapBox.y0));
+    }
+
 
     Object.values(allNodes).forEach((n) => {
       const tok = byId[n.id];
