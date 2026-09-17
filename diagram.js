@@ -498,7 +498,23 @@
     return m;
   }
 
+  /** Resolve layout id → token; tolerate pred2/pred role/id drift. */
+  function resolveToken(byId, id, tokens) {
+    if (id == null) return null;
+    if (byId[id]) return byId[id];
+    const list = tokens || [];
+    const byRole = list.find((t) => t.role === id);
+    if (byRole) return byRole;
+    if (id === "pred2" && byId.pred) return byId.pred;
+    if (id === "pred" && byId.pred2) return byId.pred2;
+    return null;
+  }
+
+
   function makeNode(tok, fontSize, bead) {
+    if (!tok) {
+      return { id: "_missing", text: "?", role: "noun", gloss_zh: "", gloss_en: "", w: 40, h: 40, cx: 0, cy: 0 };
+    }
     // Size based on real Amis text so practice-mode hidden pills keep layout
     const sz = sizeFor(tok.text, tok.role, fontSize, bead);
     return {
@@ -604,12 +620,12 @@
     });
 
     const extraBeadH = beadLayout.height || 0;
-    const mapRowPitch = 120;
+    const mapRowPitch = 176;
     // Fit frame to content (same density as short sentences — no huge empty map).
     // Estimate map rows from beads; refine after wrap, then shrink H to content.
     let mapRowEstimate = Math.max(1, beadLayout.rowCount || 1);
     const mapTopPad = 48;
-    const mapBottomPad = 88; // structure line + padding inside map
+    const mapBottomPad = 110; // structure line + padding inside map
     const mapFooter = 90; // legend + footer below map
     function heightForMapRows(nRows) {
       const mapInner = mapTopPad + Math.max(0, nRows - 1) * mapRowPitch + mapBottomPad;
@@ -714,20 +730,41 @@
     const nodeFont = 16;
     const glossFont = 11;
     const allNodes = {};
+    const tokens = sentence.tokens || [];
     const groupsNodes = groups.map((gids) =>
-      gids.map((id) => {
-        const n = makeNode(byId[id], nodeFont, false);
-        allNodes[id] = n;
-        return n;
-      })
-    );
+      gids
+        .map((id) => {
+          const tok = resolveToken(byId, id, tokens);
+          if (!tok) return null;
+          const n = makeNode(tok, nodeFont, false);
+          allNodes[tok.id] = n;
+          return n;
+        })
+        .filter(Boolean)
+    ).filter((g) => g.length);
+    // Fallback: if layout ids were all broken, show every token in order
+    if (!groupsNodes.length && tokens.length) {
+      groupsNodes.push(
+        tokens.map((tok) => {
+          const n = makeNode(tok, nodeFont, false);
+          allNodes[tok.id] = n;
+          return n;
+        })
+      );
+    }
     const hangNodes = {};
     Object.keys(hangs).forEach((parent) => {
-      hangNodes[parent] = hangs[parent].map((id) => {
-        const n = makeNode(byId[id], nodeFont, false);
-        allNodes[id] = n;
-        return n;
-      });
+      const kids = (hangs[parent] || [])
+        .map((id) => {
+          const tok = resolveToken(byId, id, tokens);
+          if (!tok) return null;
+          const n = makeNode(tok, nodeFont, false);
+          allNodes[tok.id] = n;
+          return n;
+        })
+        .filter(Boolean);
+      const pTok = resolveToken(byId, parent, tokens);
+      if (pTok && kids.length) hangNodes[pTok.id] = kids;
     });
 
     const tight = new Set(
@@ -814,7 +851,7 @@
     wrappedMapRows.forEach((rowNodes, rowIdx) => {
       if (!rowNodes.length) return;
       const yMain = mapBox.y0 + 48 + rowIdx * mapRowPitch;
-      const yHang = yMain + 52;
+      const yHang = yMain + 72;
       layoutSequence(rowNodes, yMain, 36, tight);
       const chainW =
         rowNodes[rowNodes.length - 1].cx +
