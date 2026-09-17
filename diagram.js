@@ -44,7 +44,7 @@
 
   const FOOTER = "Klokah · 馬蘭阿美語 · 句型圖（自動標記）";
 
-  const PUNCT_CHARS = "¿¡?!！？。．.,，,;:…/／\"\"''「」『』（）()[]";
+  const PUNCT_CHARS = "¿¡?!！？。．.,，,;；:…/／\"\"''「」『』（）()[]";
   const PUNCT_RE = new RegExp("^[" + PUNCT_CHARS.replace(/[\]\[\\]/g, "\\$&") + "]+$");
 
   function isPunctText(text) {
@@ -55,6 +55,11 @@
     if (!tok) return false;
     if (tok.role === "punct") return true;
     return isPunctText(tok.text);
+  }
+
+  // Use a full-width display mark for periods so they remain visible at bead size.
+  function punctDisplay(text) {
+    return String(text == null ? "" : text).replace(/[.．]/g, "。");
   }
 
   /** Mirror build_corpus.tokenize — keep punct as standalone tokens. */
@@ -85,11 +90,58 @@
     const mid = tok.slice(i, j);
     const trail = tok.slice(j);
     if (mid) {
-      mid.split(/([/／])/).forEach((p) => {
+      mid.split(/([/／;；])/).forEach((p) => {
         if (p) out.push(p);
       });
     }
     for (const ch of trail) out.push(ch);
+    return out;
+  }
+
+  /**
+   * Expand legacy/glued token text at render time without changing source JSON.
+   * Word pieces inherit the source token metadata; punctuation is plain text.
+   */
+  function expandTokens(rawTokens) {
+    const out = [];
+    const usedIds = new Set((rawTokens || []).map((t) => t && t.id).filter(Boolean));
+    (rawTokens || []).forEach((tok) => {
+      if (!tok) return;
+      const parts = splitTokenKeepPunct(tok.text);
+      const sourceId = tok.id || "token";
+      parts.forEach((text, index) => {
+        let id = sourceId;
+        if (index > 0 || (usedIds.has(id) && out.some((t) => t.id === id))) {
+          let suffix = index + 1;
+          id = sourceId + "_" + suffix;
+          while (usedIds.has(id) || out.some((t) => t.id === id)) {
+            suffix += 1;
+            id = sourceId + "_" + suffix;
+          }
+        }
+        usedIds.add(id);
+        const punct = isPunctText(text);
+        out.push(Object.assign({}, tok, {
+          id,
+          text,
+          role: punct ? "punct" : tok.role,
+          gloss_zh: punct ? "" : tok.gloss_zh,
+          gloss_en: punct ? "" : tok.gloss_en,
+          _sourceId: sourceId,
+        }));
+      });
+    });
+    return out;
+  }
+
+  function expandLayoutIds(ids, tokens) {
+    const list = tokens || [];
+    const out = [];
+    (ids || []).forEach((id) => {
+      const matches = list.filter((t) => t._sourceId === id);
+      if (matches.length) matches.forEach((t) => out.push(t.id));
+      else out.push(id);
+    });
     return out;
   }
 
@@ -129,12 +181,13 @@
   }
 
   function sizeFor(text, role, fontSize, bead) {
-    const tw = measureText(text, fontSize);
+    const displayText = role === "punct" || isPunctText(text) ? punctDisplay(text) : text;
+    const tw = measureText(displayText, fontSize);
     const th = fontSize;
     if (role === "punct" || isPunctText(text)) {
       // Keep punct readable (periods were vanishing at tiny width/size)
       const f = bead ? 22 : 20;
-      const twP = measureText(text, f);
+      const twP = measureText(displayText, f);
       const h = bead ? 44 : 50;
       return { w: Math.max(twP + 12, 22), h, _punctFont: f };
     }
@@ -377,7 +430,7 @@
 
     if (punct) {
       // Plain punctuation between/after beads — no capsule, no connector
-      const label = displayText == null ? node.text : displayText;
+      const label = displayText == null ? punctDisplay(node.text) : punctDisplay(displayText);
       const pFont = node._punctFont || Math.max(fontSize + 4, 20);
       g.appendChild(
         svgEl("text", {
@@ -495,9 +548,9 @@
     );
   }
 
-  function tokenMap(sentence) {
+  function tokenMap(tokens) {
     const m = {};
-    sentence.tokens.forEach((t) => {
+    (tokens || []).forEach((t) => {
       m[t.id] = t;
     });
     return m;
@@ -537,7 +590,7 @@
   }
 
   function displayFor(tok, practice, revealed) {
-    if (isPunctToken(tok)) return tok.text;
+    if (isPunctToken(tok)) return punctDisplay(tok.text);
     if (!practice) return tok.text;
     if (revealed && revealed.has(tok.id)) return tok.text;
     return "· · ·";
@@ -609,14 +662,15 @@
 
     const W = 900;
     const stroke = 4;
-    const byId = tokenMap(sentence);
+    const tokens = expandTokens(sentence.tokens || []);
+    const byId = tokenMap(tokens);
 
     // --- Measure wrapped beads first (affects SVG height) ---
     const beadFont = 16;
     const beadGlossFont = 11;
     const beadY0 = 88;
     const beadMaxW = W - 80;
-    const beads = sentence.tokens.map((t) => makeNode(t, beadFont, true));
+    const beads = tokens.map((t) => makeNode(t, beadFont, true));
     const beadLayout = layoutBeadsWrapped(beads, beadY0, 10, beadMaxW, 108, sentence);
     beadLayout.rows.forEach((r) => {
       const dx = (W - r._width) / 2;
@@ -736,8 +790,14 @@
     const nodeFont = 16;
     const glossFont = 11;
     const allNodes = {};
-    const tokens = sentence.tokens || [];
-    const groupsNodes = groups.map((gids) =>
+    const expandedGroups = groups.map((gids) => expandLayoutIds(gids, tokens));
+    const expandedHangs = {};
+    Object.keys(hangs).forEach((parent) => {
+      expandLayoutIds([parent], tokens).forEach((expandedParent) => {
+        expandedHangs[expandedParent] = expandLayoutIds(hangs[parent], tokens);
+      });
+    });
+    const groupsNodes = expandedGroups.map((gids) =>
       gids
         .map((id) => {
           const tok = resolveToken(byId, id, tokens);
@@ -759,8 +819,8 @@
       );
     }
     const hangNodes = {};
-    Object.keys(hangs).forEach((parent) => {
-      const kids = (hangs[parent] || [])
+    Object.keys(expandedHangs).forEach((parent) => {
+      const kids = (expandedHangs[parent] || [])
         .map((id) => {
           const tok = resolveToken(byId, id, tokens);
           if (!tok) return null;
@@ -945,5 +1005,9 @@
 
   global.renderDiagram = renderDiagram;
   global.DIAGRAM_COLORS = COLORS;
+  global.DIAGRAM_PUNCT_RE = PUNCT_RE;
+  global.splitTokenKeepPunct = splitTokenKeepPunct;
+  global.expandTokens = expandTokens;
+  global.punctDisplay = punctDisplay;
   global.DIAGRAM_ROLE_META = ROLE_META;
 })(typeof window !== "undefined" ? window : globalThis);

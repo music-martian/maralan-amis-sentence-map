@@ -156,7 +156,21 @@
       "tokens": [
         {
           "id": "pred",
-          "text": "haw；saw",
+          "text": "haw",
+          "role": "pred",
+          "gloss_zh": "嗎；呢",
+          "gloss_en": ""
+        },
+        {
+          "id": "semi",
+          "text": "；",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred_2",
+          "text": "saw",
           "role": "pred",
           "gloss_zh": "嗎；呢",
           "gloss_en": ""
@@ -165,7 +179,9 @@
       "layout": {
         "groups": [
           [
-            "pred"
+            "pred",
+            "semi",
+            "pred_2"
           ]
         ],
         "hangs": {},

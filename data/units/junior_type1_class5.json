@@ -44,7 +44,21 @@
       "tokens": [
         {
           "id": "pred",
-          "text": "malitengay；matoasay",
+          "text": "malitengay",
+          "role": "pred",
+          "gloss_zh": "老人；長輩",
+          "gloss_en": ""
+        },
+        {
+          "id": "semi",
+          "text": "；",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred_2",
+          "text": "matoasay",
           "role": "pred",
           "gloss_zh": "老人；長輩",
           "gloss_en": ""
@@ -53,7 +67,9 @@
       "layout": {
         "groups": [
           [
-            "pred"
+            "pred",
+            "semi",
+            "pred_2"
           ]
         ],
         "hangs": {},
