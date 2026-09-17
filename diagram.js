@@ -177,12 +177,32 @@
     return groups.length ? groups : [nodes.slice()];
   }
 
+  /** Pack nodes into rows that fit maxWidth (left-origin; caller may center). */
+  function wrapNodesToWidth(nodes, gap, maxWidth) {
+    const rows = [];
+    let row = [];
+    let rowW = 0;
+    nodes.forEach((n) => {
+      const need = n.w + (row.length ? gap : 0);
+      if (row.length && rowW + need > maxWidth) {
+        rows.push(row);
+        row = [];
+        rowW = 0;
+      }
+      rowW += (row.length ? gap : 0) + n.w;
+      row.push(n);
+    });
+    if (row.length) rows.push(row);
+    return rows;
+  }
+
   /**
-   * Layout beads: exactly one row per Amis sentence (no mid-sentence wrap).
-   * Only split at sentence endings in sentence.amis (. ! ? 。！？).
+   * Layout beads: new row at each Amis sentence boundary; also wrap within a
+   * sentence when it exceeds maxWidth so long lines are not clipped.
+   * rowGap must clear Chinese gloss under each bead (~h/2 + 14 + font).
    */
   function layoutBeadsWrapped(nodes, y0, gap, maxWidth, rowGap, sentence) {
-    rowGap = rowGap || 56;
+    rowGap = rowGap || 96;
     if (!nodes.length) return { width: 0, height: 0, rows: [], rowCount: 0, rowGap };
     const groups = groupBeadsBySentence(nodes, sentence || {});
     const rows = [];
@@ -191,18 +211,21 @@
 
     groups.forEach((group) => {
       if (!group.length) return;
-      let x = 0;
-      group.forEach((n, i) => {
-        if (i) x += gap;
-        n.cx = x + n.w / 2;
-        n.cy = y;
-        n._row = rows.length;
-        x += n.w;
+      const subRows = wrapNodesToWidth(group, gap, maxWidth);
+      subRows.forEach((sub) => {
+        let x = 0;
+        sub.forEach((n, i) => {
+          if (i) x += gap;
+          n.cx = x + n.w / 2;
+          n.cy = y;
+          n._row = rows.length;
+          x += n.w;
+        });
+        sub._width = x;
+        maxRowW = Math.max(maxRowW, x);
+        rows.push(sub);
+        y += rowGap;
       });
-      group._width = x;
-      maxRowW = Math.max(maxRowW, x);
-      rows.push(group);
-      y += rowGap;
     });
 
     return {
@@ -487,7 +510,7 @@
     const beadY0 = 88;
     const beadMaxW = W - 80;
     const beads = sentence.tokens.map((t) => makeNode(t, beadFont, true));
-    const beadLayout = layoutBeadsWrapped(beads, beadY0, 10, beadMaxW, 58, sentence);
+    const beadLayout = layoutBeadsWrapped(beads, beadY0, 10, beadMaxW, 96, sentence);
     beadLayout.rows.forEach((r) => {
       const dx = (W - r._width) / 2;
       r.forEach((n) => {
@@ -496,10 +519,13 @@
     });
 
     const extraBeadH = beadLayout.height || 0;
-    const mapSentCount = Math.max(1, splitAmisSentences((sentence && sentence.amis) || "").length);
-    const mapRowPitch = 112;
-    const mapRowExtra = Math.max(0, mapSentCount - 1) * mapRowPitch;
-    const H = 680 + extraBeadH + mapRowExtra;
+    const mapRowPitch = 120;
+    // Rough map-row estimate (refined after node measure): sentence partitions,
+    // each further width-wrapped. Use bead row count as a safe lower bound proxy
+    // then expand H again if map needs more rows after layout.
+    let mapRowEstimate = Math.max(1, beadLayout.rowCount || 1);
+    let mapRowExtra = Math.max(0, mapRowEstimate - 1) * mapRowPitch;
+    let H = 680 + extraBeadH + mapRowExtra;
     const mapY0 = 172 + extraBeadH;
 
     const svg = svgEl("svg", {
@@ -512,17 +538,17 @@
     });
 
     // Frame + mint chrome
-    svg.appendChild(svgEl("rect", { x: 0, y: 0, width: W, height: H, fill: COLORS.frame }));
-    svg.appendChild(
-      svgEl("rect", {
-        x: 16,
-        y: 16,
-        width: W - 32,
-        height: H - 32,
-        rx: 22,
-        fill: COLORS.mint,
-      })
-    );
+    const frameRect = svgEl("rect", { x: 0, y: 0, width: W, height: H, fill: COLORS.frame });
+    svg.appendChild(frameRect);
+    const mintRect = svgEl("rect", {
+      x: 16,
+      y: 16,
+      width: W - 32,
+      height: H - 32,
+      rx: 22,
+      fill: COLORS.mint,
+    });
+    svg.appendChild(mintRect);
 
     const layer = svgEl("g", { class: "diagram-content" });
     svg.appendChild(layer);
@@ -573,18 +599,17 @@
     const bw = mapBox.x1 - mapBox.x0;
     const bh = mapBox.y1 - mapBox.y0;
 
-    layer.appendChild(
-      svgEl("rect", {
-        x: mapBox.x0,
-        y: mapBox.y0,
-        width: bw,
-        height: bh,
-        rx: 14,
-        fill: COLORS.map,
-        stroke: COLORS.black,
-        "stroke-width": stroke,
-      })
-    );
+    const mapRect = svgEl("rect", {
+      x: mapBox.x0,
+      y: mapBox.y0,
+      width: bw,
+      height: bh,
+      rx: 14,
+      fill: COLORS.map,
+      stroke: COLORS.black,
+      "stroke-width": stroke,
+    });
+    layer.appendChild(mapRect);
 
     const layout = sentence.layout || {};
     const groups = layout.groups || [];
@@ -661,63 +686,48 @@
       });
     }
 
-    const mapRows = mapSentCount > 1
-      ? partitionMapNodesBySentence(groupsNodes, sentence)
-      : null;
-
-    if (mapRows && mapRows.length > 1) {
-      // One attachment-map row per Amis sentence (match bead rows).
-      mapRows.forEach((rowNodes, rowIdx) => {
-        if (!rowNodes.length) return;
-        const yMain = mapBox.y0 + 48 + rowIdx * mapRowPitch;
-        const yHang = yMain + 52;
-        layoutSequence(rowNodes, yMain, 36, tight);
-        const chainW =
-          rowNodes[rowNodes.length - 1].cx +
-          rowNodes[rowNodes.length - 1].w / 2 -
-          (rowNodes[0].cx - rowNodes[0].w / 2);
-        const startX = mapBox.x0 + (bw - chainW) / 2;
-        const curStart = rowNodes[0].cx - rowNodes[0].w / 2;
-        shiftNodes(rowNodes, startX - curStart);
-        chainEdges(rowNodes);
-        drawPredTicks(rowNodes);
-        const parentIds = rowNodes.map((n) => n.id).filter((id) => hangNodes[id]);
-        layoutHangsForParents(parentIds, yHang);
+        // Sentence partitions, then width-wrap so long single sentences don't clip.
+    const mapMaxW = bw - 48;
+    const sentParts = partitionMapNodesBySentence(groupsNodes, sentence);
+    const wrappedMapRows = [];
+    sentParts.forEach((part) => {
+      if (!part.length) return;
+      wrapNodesToWidth(part, 36, mapMaxW).forEach((r) => wrappedMapRows.push(r));
+    });
+    if (!wrappedMapRows.length) {
+      groupsNodes.forEach((gn) => {
+        if (gn.length) wrappedMapRows.push(gn);
       });
-    } else {
-      // Single-sentence map: keep prior group + plus layout.
-      const yMain = mapBox.y0 + bh * 0.36;
-      const yHang = mapBox.y0 + bh * 0.68;
-
-      const gwidths = groupsNodes.map((gn) => layoutSequence(gn, yMain, 36, tight));
-      const plusSpace = plusBetween && groupsNodes.length === 2 ? 90 : 0;
-      const total = gwidths.reduce((a, b) => a + b, 0) + plusSpace;
-      let cursor = mapBox.x0 + (bw - total) / 2;
-      let plusXy = null;
-
-      groupsNodes.forEach((gnodes, i) => {
-        layoutSequence(gnodes, yMain, 36, tight);
-        shiftNodes(gnodes, cursor);
-        cursor += gwidths[i];
-        if (plusBetween && i === 0 && groupsNodes.length > 1) {
-          plusXy = { x: cursor + plusSpace / 2, y: yMain };
-          cursor += plusSpace;
-        }
-      });
-
-      groupsNodes.forEach(chainEdges);
-      groupsNodes.forEach(drawPredTicks);
-
-      if (plusXy && groupsNodes.length === 2) {
-        const left = groupsNodes[0][groupsNodes[0].length - 1];
-        const right = groupsNodes[1][0];
-        thickLine(layer, left.cx, left.cy, plusXy.x, plusXy.y, stroke, COLORS.black);
-        thickLine(layer, plusXy.x, plusXy.y, right.cx, right.cy, stroke, COLORS.black);
-        drawPlus(layer, plusXy.x, plusXy.y, 12, stroke, COLORS.black, COLORS.map);
-      }
-
-      layoutHangsForParents(Object.keys(hangNodes), yHang);
     }
+
+    if (wrappedMapRows.length > mapRowEstimate) {
+      const add = (wrappedMapRows.length - mapRowEstimate) * mapRowPitch;
+      H += add;
+      mapRowEstimate = wrappedMapRows.length;
+      svg.setAttribute("viewBox", "0 0 " + W + " " + H);
+      frameRect.setAttribute("height", String(H));
+      mintRect.setAttribute("height", String(H - 32));
+      mapBox.y1 = H - 90;
+      mapRect.setAttribute("height", String(mapBox.y1 - mapBox.y0));
+    }
+
+    wrappedMapRows.forEach((rowNodes, rowIdx) => {
+      if (!rowNodes.length) return;
+      const yMain = mapBox.y0 + 48 + rowIdx * mapRowPitch;
+      const yHang = yMain + 52;
+      layoutSequence(rowNodes, yMain, 36, tight);
+      const chainW =
+        rowNodes[rowNodes.length - 1].cx +
+        rowNodes[rowNodes.length - 1].w / 2 -
+        (rowNodes[0].cx - rowNodes[0].w / 2);
+      const startX = mapBox.x0 + (bw - chainW) / 2;
+      const curStart = rowNodes[0].cx - rowNodes[0].w / 2;
+      shiftNodes(rowNodes, startX - curStart);
+      chainEdges(rowNodes);
+      drawPredTicks(rowNodes);
+      const parentIds = rowNodes.map((n) => n.id).filter((id) => hangNodes[id]);
+      layoutHangsForParents(parentIds, yHang);
+    });
 
     Object.values(allNodes).forEach((n) => {
       const tok = byId[n.id];
