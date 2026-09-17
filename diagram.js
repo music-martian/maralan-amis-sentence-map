@@ -122,12 +122,25 @@
     if (!amis) return [];
     const parts = [];
     let buf = "";
+    let inDq = false; // toggle on " / “ / ”
+    let corner = 0; // nest depth for 「 … 」
     for (const ch of String(amis)) {
-      buf += ch;
-      if (/[.!?。！？]/.test(ch)) {
+      if (ch === '"' || ch === '\u201c' || ch === '\u201d') {
+        inDq = !inDq;
+        buf += ch;
+      } else if (ch === '\u300c') {
+        corner += 1;
+        buf += ch;
+      } else if (ch === '\u300d') {
+        corner = Math.max(0, corner - 1);
+        buf += ch;
+      } else if (/[.!?。！？]/.test(ch) && !inDq && corner === 0) {
+        buf += ch;
         const t = buf.trim();
         if (t) parts.push(t);
         buf = "";
+      } else {
+        buf += ch;
       }
     }
     if (buf.trim()) parts.push(buf.trim());
@@ -199,6 +212,33 @@
       rowCount: rows.length,
       rowGap,
     };
+  }
+
+
+  /** Flatten layout groups into ordered map nodes, then partition by Amis sentence word counts. */
+  function partitionMapNodesBySentence(groupsNodes, sentence) {
+    const flat = [];
+    groupsNodes.forEach((gn) => {
+      gn.forEach((n) => flat.push(n));
+    });
+    if (!flat.length) return [];
+    const sents = splitAmisSentences((sentence && sentence.amis) || "");
+    if (sents.length <= 1) return [flat];
+    const partitions = [];
+    let idx = 0;
+    sents.forEach((sent) => {
+      const n = wordsInAmisSentence(sent).length;
+      if (n <= 0) return;
+      const slice = flat.slice(idx, idx + n);
+      if (slice.length) partitions.push(slice);
+      idx += n;
+    });
+    if (idx < flat.length) {
+      const rest = flat.slice(idx);
+      if (partitions.length) partitions[partitions.length - 1] = partitions[partitions.length - 1].concat(rest);
+      else partitions.push(rest);
+    }
+    return partitions.length ? partitions : [flat];
   }
 
   function shiftNodes(nodes, dx, dy) {
@@ -456,7 +496,10 @@
     });
 
     const extraBeadH = beadLayout.height || 0;
-    const H = 680 + extraBeadH;
+    const mapSentCount = Math.max(1, splitAmisSentences((sentence && sentence.amis) || "").length);
+    const mapRowPitch = 112;
+    const mapRowExtra = Math.max(0, mapSentCount - 1) * mapRowPitch;
+    const H = 680 + extraBeadH + mapRowExtra;
     const mapY0 = 172 + extraBeadH;
 
     const svg = svgEl("svg", {
@@ -574,41 +617,6 @@
         .map((n) => n.id)
     );
 
-    const yMain = mapBox.y0 + bh * 0.36;
-    const yHang = mapBox.y0 + bh * 0.68;
-
-    const gwidths = groupsNodes.map((gn) => layoutSequence(gn, yMain, 36, tight));
-    const plusSpace = plusBetween && groupsNodes.length === 2 ? 90 : 0;
-    const total = gwidths.reduce((a, b) => a + b, 0) + plusSpace;
-    let cursor = mapBox.x0 + (bw - total) / 2;
-    let plusXy = null;
-
-    groupsNodes.forEach((gnodes, i) => {
-      layoutSequence(gnodes, yMain, 36, tight);
-      shiftNodes(gnodes, cursor);
-      cursor += gwidths[i];
-      if (plusBetween && i === 0 && groupsNodes.length > 1) {
-        plusXy = { x: cursor + plusSpace / 2, y: yMain };
-        cursor += plusSpace;
-      }
-    });
-
-    Object.keys(hangNodes).forEach((parent) => {
-      const hlist = hangNodes[parent];
-      const p = allNodes[parent];
-      layoutSequence(hlist, yHang, 30, tight);
-      const hangW =
-        hlist[hlist.length - 1].cx +
-        hlist[hlist.length - 1].w / 2 -
-        (hlist[0].cx - hlist[0].w / 2);
-      const desired = p.cx + 10;
-      const minStart = mapBox.x0 + 40;
-      const maxStart = mapBox.x1 - 40 - hangW;
-      const hs = Math.max(minStart, Math.min(desired, maxStart));
-      const currentStart = hlist[0].cx - hlist[0].w / 2;
-      shiftNodes(hlist, hs - currentStart);
-    });
-
     function chainEdges(gnodes) {
       for (let i = 0; i < gnodes.length - 1; i++) {
         const a = gnodes[i];
@@ -617,10 +625,7 @@
       }
     }
 
-    groupsNodes.forEach(chainEdges);
-
-    // Vertical tick between predicate and nominative
-    groupsNodes.forEach((gnodes) => {
+    function drawPredTicks(gnodes) {
       for (let i = 0; i < gnodes.length; i++) {
         const n = gnodes[i];
         if ((n.role === "pred" || n.role === "pred2") && i + 1 < gnodes.length) {
@@ -632,22 +637,87 @@
           break;
         }
       }
-    });
-
-    if (plusXy && groupsNodes.length === 2) {
-      const left = groupsNodes[0][groupsNodes[0].length - 1];
-      const right = groupsNodes[1][0];
-      thickLine(layer, left.cx, left.cy, plusXy.x, plusXy.y, stroke, COLORS.black);
-      thickLine(layer, plusXy.x, plusXy.y, right.cx, right.cy, stroke, COLORS.black);
-      drawPlus(layer, plusXy.x, plusXy.y, 12, stroke, COLORS.black, COLORS.map);
     }
 
-    Object.keys(hangNodes).forEach((parent) => {
-      const p = allNodes[parent];
-      const hlist = hangNodes[parent];
-      thickLine(layer, p.cx, p.cy, hlist[0].cx, hlist[0].cy, stroke, COLORS.black);
-      chainEdges(hlist);
-    });
+    function layoutHangsForParents(parentIds, yHang) {
+      parentIds.forEach((parent) => {
+        const hlist = hangNodes[parent];
+        if (!hlist || !hlist.length) return;
+        const p = allNodes[parent];
+        if (!p) return;
+        layoutSequence(hlist, yHang, 30, tight);
+        const hangW =
+          hlist[hlist.length - 1].cx +
+          hlist[hlist.length - 1].w / 2 -
+          (hlist[0].cx - hlist[0].w / 2);
+        const desired = p.cx + 10;
+        const minStart = mapBox.x0 + 40;
+        const maxStart = mapBox.x1 - 40 - hangW;
+        const hs = Math.max(minStart, Math.min(desired, maxStart));
+        const currentStart = hlist[0].cx - hlist[0].w / 2;
+        shiftNodes(hlist, hs - currentStart);
+        thickLine(layer, p.cx, p.cy, hlist[0].cx, hlist[0].cy, stroke, COLORS.black);
+        chainEdges(hlist);
+      });
+    }
+
+    const mapRows = mapSentCount > 1
+      ? partitionMapNodesBySentence(groupsNodes, sentence)
+      : null;
+
+    if (mapRows && mapRows.length > 1) {
+      // One attachment-map row per Amis sentence (match bead rows).
+      mapRows.forEach((rowNodes, rowIdx) => {
+        if (!rowNodes.length) return;
+        const yMain = mapBox.y0 + 48 + rowIdx * mapRowPitch;
+        const yHang = yMain + 52;
+        layoutSequence(rowNodes, yMain, 36, tight);
+        const chainW =
+          rowNodes[rowNodes.length - 1].cx +
+          rowNodes[rowNodes.length - 1].w / 2 -
+          (rowNodes[0].cx - rowNodes[0].w / 2);
+        const startX = mapBox.x0 + (bw - chainW) / 2;
+        const curStart = rowNodes[0].cx - rowNodes[0].w / 2;
+        shiftNodes(rowNodes, startX - curStart);
+        chainEdges(rowNodes);
+        drawPredTicks(rowNodes);
+        const parentIds = rowNodes.map((n) => n.id).filter((id) => hangNodes[id]);
+        layoutHangsForParents(parentIds, yHang);
+      });
+    } else {
+      // Single-sentence map: keep prior group + plus layout.
+      const yMain = mapBox.y0 + bh * 0.36;
+      const yHang = mapBox.y0 + bh * 0.68;
+
+      const gwidths = groupsNodes.map((gn) => layoutSequence(gn, yMain, 36, tight));
+      const plusSpace = plusBetween && groupsNodes.length === 2 ? 90 : 0;
+      const total = gwidths.reduce((a, b) => a + b, 0) + plusSpace;
+      let cursor = mapBox.x0 + (bw - total) / 2;
+      let plusXy = null;
+
+      groupsNodes.forEach((gnodes, i) => {
+        layoutSequence(gnodes, yMain, 36, tight);
+        shiftNodes(gnodes, cursor);
+        cursor += gwidths[i];
+        if (plusBetween && i === 0 && groupsNodes.length > 1) {
+          plusXy = { x: cursor + plusSpace / 2, y: yMain };
+          cursor += plusSpace;
+        }
+      });
+
+      groupsNodes.forEach(chainEdges);
+      groupsNodes.forEach(drawPredTicks);
+
+      if (plusXy && groupsNodes.length === 2) {
+        const left = groupsNodes[0][groupsNodes[0].length - 1];
+        const right = groupsNodes[1][0];
+        thickLine(layer, left.cx, left.cy, plusXy.x, plusXy.y, stroke, COLORS.black);
+        thickLine(layer, plusXy.x, plusXy.y, right.cx, right.cy, stroke, COLORS.black);
+        drawPlus(layer, plusXy.x, plusXy.y, 12, stroke, COLORS.black, COLORS.map);
+      }
+
+      layoutHangsForParents(Object.keys(hangNodes), yHang);
+    }
 
     Object.values(allNodes).forEach((n) => {
       const tok = byId[n.id];

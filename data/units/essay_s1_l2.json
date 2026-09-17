@@ -463,8 +463,8 @@
     },
     {
       "id": "006",
-      "amis": "“Manikar a lomowad, aka to kaosoy!",
-      "zh": "老師跟我說：「下次早點起床，不要再遲到了!",
+      "amis": "“Manikar a lomowad, aka to kaosoy!” han no singsi kako.",
+      "zh": "老師跟我說：「下次早點起床，不要再遲到了!」",
       "en": "",
       "tokens": [
         {
@@ -504,41 +504,15 @@
         },
         {
           "id": "kaosoy",
-          "text": "kaosoy",
+          "text": "kaosoy!”",
           "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
-        }
-      ],
-      "layout": {
-        "groups": [
-          [
-            "pred",
-            "a",
-            "lomowad",
-            "aka",
-            "to",
-            "kaosoy"
-          ]
-        ],
-        "hangs": {},
-        "plus_between_groups": false,
-        "structure": "謂語 “Manikar 為中心（自動標記）"
-      },
-      "structure": "謂語 “Manikar 為中心（自動標記）",
-      "audio": "https://web.klokah.tw/text/sound/63854/897435.mp3",
-      "audio_primary": true
-    },
-    {
-      "id": "007",
-      "amis": "” han no singsi kako.",
-      "zh": "」",
-      "en": "",
-      "tokens": [
+        },
         {
-          "id": "pred",
+          "id": "han",
           "text": "han",
-          "role": "pred",
+          "role": "noun",
           "gloss_zh": "助詞",
           "gloss_en": ""
         },
@@ -568,16 +542,25 @@
         "groups": [
           [
             "pred",
-            "no",
-            "singsi",
+            "a",
+            "lomowad",
+            "aka",
+            "to",
+            "kaosoy",
+            "han",
             "kako"
           ]
         ],
-        "hangs": {},
+        "hangs": {
+          "han": [
+            "no",
+            "singsi"
+          ]
+        },
         "plus_between_groups": false,
-        "structure": "謂語 han 為中心（自動標記）"
+        "structure": "謂語為中心；屬格 no/nu 掛於名詞下（自動）"
       },
-      "structure": "謂語 han 為中心（自動標記）",
+      "structure": "謂語為中心；屬格 no/nu 掛於名詞下（自動）",
       "audio": "https://web.klokah.tw/text/sound/63854/897435.mp3",
       "audio_primary": true
     }

@@ -100,8 +100,8 @@
     },
     {
       "id": "002",
-      "amis": "Misatapng to minanam, micomod to ko singsi, sowal sa ko hanciw, \"katomireng!",
-      "zh": "上課了，老師走進教室，班長說:「起立!",
+      "amis": "Misatapng to minanam, micomod to ko singsi, sowal sa ko hanciw, \"katomireng! mitaʼong!\"",
+      "zh": "上課了，老師走進教室，班長說:「起立!敬禮!」",
       "en": "",
       "tokens": [
         {
@@ -187,6 +187,13 @@
           "role": "noun",
           "gloss_zh": "起立",
           "gloss_en": ""
+        },
+        {
+          "id": "mitaʼong",
+          "text": "mitaʼong",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -203,63 +210,20 @@
             "sa",
             "ko_3",
             "hanciw",
-            "katomireng"
+            "katomireng",
+            "mitaʼong"
           ]
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Misatapng 為中心（自動標記）"
+        "structure": "長句：線性排列（自動標記，結構簡化）"
       },
-      "structure": "謂語 Misatapng 為中心（自動標記）",
+      "structure": "長句：線性排列（自動標記，結構簡化）",
       "audio": "https://web.klokah.tw/text/sound/34141/531421.mp3",
       "audio_primary": true
     },
     {
       "id": "003",
-      "amis": "mitaʼong!",
-      "zh": "敬禮!",
-      "en": "",
-      "tokens": [
-        {
-          "id": "pred",
-          "text": "mitaʼong",
-          "role": "pred",
-          "gloss_zh": "敬禮!",
-          "gloss_en": ""
-        }
-      ],
-      "layout": {
-        "groups": [
-          [
-            "pred"
-          ]
-        ],
-        "hangs": {},
-        "plus_between_groups": false,
-        "structure": "謂語 mitaʼong 為中心（自動標記）"
-      },
-      "structure": "謂語 mitaʼong 為中心（自動標記）",
-      "audio": "https://web.klokah.tw/text/sound/34141/531421.mp3",
-      "audio_primary": true
-    },
-    {
-      "id": "004",
-      "amis": "\"",
-      "zh": "」",
-      "en": "",
-      "tokens": [],
-      "layout": {
-        "groups": [],
-        "hangs": {},
-        "plus_between_groups": false,
-        "structure": ""
-      },
-      "structure": "",
-      "audio": "https://web.klokah.tw/text/sound/34141/531421.mp3",
-      "audio_primary": true
-    },
-    {
-      "id": "005",
       "amis": "Sataʼangay hananay niyam ko ngiha’, \"Ngaʼay ho singsi.\"",
       "zh": "我們大聲的說:「老師好。」",
       "en": "",
@@ -343,7 +307,7 @@
       "audio_primary": true
     },
     {
-      "id": "006",
+      "id": "004",
       "amis": "Minanam i, pakafanaʼen no singsi kami to saʼosi no ’Amis.",
       "zh": "上課的時候，老師教我們數字的族語。",
       "en": "",
@@ -448,7 +412,7 @@
       "audio_primary": true
     },
     {
-      "id": "007",
+      "id": "005",
       "amis": "Toʼoren niyam ko singsi a misaʼosi, miraradiw kami to no saʼosi a radiw.",
       "zh": "我們跟著老師唸，我們唱了數字歌。",
       "en": "",
@@ -572,7 +536,7 @@
       "audio_primary": true
     },
     {
-      "id": "008",
+      "id": "006",
       "amis": "Adihayay ko ninanaman no mako a sowal no ’Amis.",
       "zh": "我學會好多族語。",
       "en": "",
@@ -669,7 +633,7 @@
       "audio_primary": true
     },
     {
-      "id": "009",
+      "id": "007",
       "amis": "Talakongkoan kako to romiʼamiʼad, minanam kako to sowal no ’Amis to romiʼamiʼad, o papatengilen ako ko ina to ninanaman ako.",
       "zh": "我天天上學，我天天學族語，我要講給媽媽聽。",
       "en": "",

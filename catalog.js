@@ -9,8 +9,8 @@ const CATALOG = {
     "senior": 1014,
     "talk": 209,
     "dialogue": 883,
-    "essay": 30,
-    "all": 2816
+    "essay": 27,
+    "all": 2813
   },
   "modules": [
     {
@@ -1432,14 +1432,14 @@ const CATALOG = {
               "id": "essay_s1_l1",
               "title": "短文 s1/l1 · 上課用語",
               "path": "data/units/essay_s1_l1.json",
-              "count": 9,
+              "count": 7,
               "source_url": "https://klokah.iformosa.com.tw/essay/d4/s1/l1/learn"
             },
             {
               "id": "essay_s1_l2",
               "title": "短文 s1/l2 · 姓名與問候",
               "path": "data/units/essay_s1_l2.json",
-              "count": 7,
+              "count": 6,
               "source_url": "https://klokah.iformosa.com.tw/essay/d4/s1/l2/learn"
             },
             {

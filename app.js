@@ -424,20 +424,40 @@
   }
 
 
-  /** Insert line breaks after sentence-ending punctuation (keep punctuation). */
+  /** Insert line breaks after sentence-ending punctuation (keep punctuation).
+   * Ignore .!?。！？ inside ASCII/“” quotes and 「」 pairs so titles stay intact.
+   */
   function breakSentences(text) {
     if (!text) return "";
-    let t = String(text).replace(/\r\n/g, "\n").trim();
-    // Split on .!?。！？ when followed by space or quote/bracket then more text
-    t = t.replace(/([.!?。！？])(?!["'」』）\)]?\s*$)/g, "$1\n");
-    // Collapse extra blank lines; trim each line
-    t = t
+    const raw = String(text).replace(/\r\n/g, "\n").trim();
+    let out = "";
+    let inDq = false;
+    let corner = 0;
+    for (let i = 0; i < raw.length; i++) {
+      const ch = raw[i];
+      if (ch === '"' || ch === "\u201c" || ch === "\u201d") {
+        inDq = !inDq;
+        out += ch;
+      } else if (ch === "\u300c") {
+        corner += 1;
+        out += ch;
+      } else if (ch === "\u300d") {
+        corner = Math.max(0, corner - 1);
+        out += ch;
+      } else if (/[.!?。！？]/.test(ch) && !inDq && corner === 0) {
+        out += ch;
+        const rest = raw.slice(i + 1);
+        if (!/^["'」』）\)]?\s*$/.test(rest)) out += "\n";
+      } else {
+        out += ch;
+      }
+    }
+    out = out
       .split("\n")
       .map((ln) => ln.trim())
       .filter((ln, i, arr) => ln || (i > 0 && arr[i - 1]))
       .join("\n");
-    // Avoid breaking decimals / abbreviations lightly: undo break after single capital? skip for Amis
-    return t.replace(/\n{3,}/g, "\n\n");
+    return out.replace(/\n{3,}/g, "\n\n");
   }
 
   function updateMeta(s) {
