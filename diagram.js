@@ -68,6 +68,40 @@
     return /^[.．。]+$/.test(t);
   }
 
+  /** Normalize Amis glottal lookalikes; strip spaces after glottal before a letter. */
+  function tightenGlottal(text) {
+    if (text == null || text === "") return "";
+    let s = String(text);
+    s = s.replace(/['\u2018\u2019\u02BE\u02BB\u02BC`]/g, "\u02BC");
+    // Only leading/word-initial: "ʼ Ateki" → "ʼAteki" (never "lomaʼ namo")
+    s = s.replace(/(^|[\s(（\[「『"“‘])\u02BC\s+(?=[A-Za-z\u00C0-\u024F])/g, "$1\u02BC");
+    return s;
+  }
+
+  const LATIN_FONT =
+    '"Segoe UI","Helvetica Neue",Arial,"Noto Sans","Noto Sans CJK TC","Noto Sans TC","PingFang TC",sans-serif';
+
+  /** SVG label: tighten glottal; tiny negative dx after a leading glottal. */
+  function appendAmisText(parent, attrs, label) {
+    const tight = tightenGlottal(label == null ? "" : label);
+    const a = Object.assign({}, attrs, {
+      "font-family": LATIN_FONT,
+      "letter-spacing": "0",
+    });
+    const textEl = svgEl("text", a);
+    const m = /^(\u02BC)(.+)$/.exec(tight);
+    if (m) {
+      textEl.appendChild(document.createTextNode(m[1]));
+      const rest = svgEl("tspan", { dx: "-0.14em" });
+      rest.textContent = m[2];
+      textEl.appendChild(rest);
+    } else {
+      textEl.textContent = tight;
+    }
+    parent.appendChild(textEl);
+    return textEl;
+  }
+
   /**
    * Render-time safety net: if sentence.amis / text ends with sentence punct
    * but the expanded token list does not, append matching punct token(s).
@@ -253,7 +287,7 @@
         ch === "ʻ" ||
         ch === "`"
       ) {
-        w += fontSize * 0.22;
+        w += fontSize * 0.2;
       } else if (code < 0x80 || (code >= 0xa0 && code <= 0x024f)) {
         w += fontSize * 0.58;
       } else {
@@ -264,7 +298,8 @@
   }
 
   function sizeFor(text, role, fontSize, bead) {
-    const displayText = role === "punct" || isPunctText(text) ? punctDisplay(text) : text;
+    const displayText =
+      role === "punct" || isPunctText(text) ? punctDisplay(text) : tightenGlottal(text);
     const tw = measureText(displayText, fontSize);
     const th = fontSize;
     if (role === "punct" || isPunctText(text)) {
@@ -536,7 +571,8 @@
           fill: COLORS.black,
           "font-size": pFont,
           "font-weight": 800,
-          "font-family": '"Segoe UI","Helvetica Neue",Arial,"Noto Sans","Noto Sans CJK TC","Noto Sans TC","PingFang TC",sans-serif',
+          "font-family": LATIN_FONT,
+          "letter-spacing": "0",
           "text-anchor": "middle",
           "dominant-baseline": "central",
           textContent: label,
@@ -594,18 +630,18 @@
     }
 
     const label = displayText == null ? node.text : displayText;
-    g.appendChild(
-      svgEl("text", {
+    appendAmisText(
+      g,
+      {
         x: node.cx,
         y: node.cy,
         fill: meta.fg,
         "font-size": fontSize,
         "font-weight": 700,
-        "font-family": '"Segoe UI","Helvetica Neue",Arial,"Noto Sans","Noto Sans CJK TC","Noto Sans TC","PingFang TC",sans-serif',
         "text-anchor": "middle",
         "dominant-baseline": "central",
-        textContent: label,
-      })
+      },
+      label
     );
 
     if (clickable && onClick) {
@@ -689,8 +725,8 @@
 
   function displayFor(tok, practice, revealed) {
     if (isPunctToken(tok)) return punctDisplay(tok.text);
-    if (!practice) return tok.text;
-    if (revealed && revealed.has(tok.id)) return tok.text;
+    if (!practice) return tightenGlottal(tok.text);
+    if (revealed && revealed.has(tok.id)) return tightenGlottal(tok.text);
     return "· · ·";
   }
 
@@ -1159,6 +1195,7 @@
   }
 
   global.renderDiagram = renderDiagram;
+  global.tightenGlottal = tightenGlottal;
   global.DIAGRAM_COLORS = COLORS;
   global.DIAGRAM_PUNCT_RE = PUNCT_RE;
   global.isPunctText = isPunctText;

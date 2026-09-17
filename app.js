@@ -438,6 +438,26 @@
   }
 
 
+  /** Normalize Amis glottal lookalikes and drop stray spaces after them. */
+  function tightenGlottal(text) {
+    if (text == null || text === "") return "";
+    let s = String(text);
+    // ' ’ ‘ ʼ ʾ ʻ ` → U+02BC modifier letter apostrophe
+    s = s.replace(/['\u2018\u2019\u02BE\u02BB\u02BC`]/g, "\u02BC");
+    // Only leading/word-initial: "ʼ Ateki" → "ʼAteki" (never "lomaʼ namo")
+    s = s.replace(/(^|[\s(（\[「『"“‘])\u02BC\s+(?=[A-Za-z\u00C0-\u024F])/g, "$1\u02BC");
+    return s;
+  }
+
+  /** Long talk-book style: by substance, not merely a breakSentences newline. */
+  function isLongBlock(text) {
+    if (!text) return false;
+    const t = String(text);
+    if (t.length > 70) return true;
+    const lines = t.split("\n").filter((ln) => ln.trim()).length;
+    return lines >= 4;
+  }
+
   /** Insert line breaks after sentence-ending punctuation (keep punctuation).
    * Ignore .!?。！？ inside ASCII/“” quotes and 「」 pairs so titles stay intact.
    */
@@ -493,20 +513,17 @@
       syncAudio(null);
       return;
     }
-    const amisText = breakSentences(s.amis || "");
-    const zhText = breakSentences(s.zh || "");
-    const enText = breakSentences(s.en || "");
+    const amisText = tightenGlottal(breakSentences(s.amis || ""));
+    const zhText = tightenGlottal(breakSentences(s.zh || ""));
+    const enText = tightenGlottal(breakSentences(s.en || ""));
     els.amis.textContent = amisText;
     els.zh.textContent = zhText;
     els.en.textContent = enText;
     els.en.hidden = !enText;
-    const long =
-      amisText.length > 70 ||
-      zhText.length > 70 ||
-      (amisText + zhText).includes("\n");
-    els.amis.classList.toggle("is-long", long);
-    els.zh.classList.toggle("is-long", long);
-    els.en.classList.toggle("is-long", long && !!enText);
+    // Per-field: short multi-line glosses stay centered; long paragraphs left
+    els.amis.classList.toggle("is-long", isLongBlock(amisText));
+    els.zh.classList.toggle("is-long", isLongBlock(zhText));
+    els.en.classList.toggle("is-long", isLongBlock(enText));
     els.select.value = String(state.index);
     els.prev.disabled = state.index === 0;
     els.next.disabled = state.index >= n - 1;
@@ -610,4 +627,8 @@
     populateUnits();
   }
   loadSelectedUnit();
+  if (typeof globalThis !== "undefined") {
+    globalThis.tightenGlottal = tightenGlottal;
+    globalThis.isLongBlock = isLongBlock;
+  }
 })();
