@@ -78,6 +78,13 @@
           "gloss_en": ""
         },
         {
+          "id": "slash",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "kacaciyaw",
           "text": "kacaciyaw",
           "role": "noun",
@@ -89,6 +96,7 @@
         "groups": [
           [
             "pred",
+            "slash",
             "kacaciyaw"
           ]
         ],
@@ -164,7 +172,7 @@
       "tokens": [
         {
           "id": "pred",
-          "text": "kamaro’",
+          "text": "kamaro",
           "role": "pred",
           "gloss_zh": "坐下",
           "gloss_en": ""
@@ -178,9 +186,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 kamaro’ 為中心（自動標記）"
+        "structure": "謂語 kamaro 為中心（自動標記）"
       },
-      "structure": "謂語 kamaro’ 為中心（自動標記）",
+      "structure": "謂語 kamaro 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_senior/sound/4/1word/17_6.mp3",
       "audio_primary": true
     },
@@ -276,7 +284,7 @@
       "tokens": [
         {
           "id": "pred",
-          "text": "kafoti’",
+          "text": "kafoti",
           "role": "pred",
           "gloss_zh": "睡覺",
           "gloss_en": ""
@@ -290,9 +298,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 kafoti’ 為中心（自動標記）"
+        "structure": "謂語 kafoti 為中心（自動標記）"
       },
-      "structure": "謂語 kafoti’ 為中心（自動標記）",
+      "structure": "謂語 kafoti 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_senior/sound/4/1word/17_10.mp3",
       "audio_primary": true
     },
@@ -338,10 +346,17 @@
           "gloss_en": ""
         },
         {
-          "id": "kalomodiw",
-          "text": "/kalomodiw",
-          "role": "noun",
+          "id": "slash",
+          "text": "/",
+          "role": "punct",
           "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kalomodiw",
+          "text": "kalomodiw",
+          "role": "noun",
+          "gloss_zh": "唱歌",
           "gloss_en": ""
         }
       ],
@@ -349,6 +364,7 @@
         "groups": [
           [
             "pred",
+            "slash",
             "kalomodiw"
           ]
         ],
@@ -452,7 +468,7 @@
       "tokens": [
         {
           "id": "pred",
-          "text": "kamayno’",
+          "text": "kamayno",
           "role": "pred",
           "gloss_zh": "洗",
           "gloss_en": ""
@@ -466,9 +482,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 kamayno’ 為中心（自動標記）"
+        "structure": "謂語 kamayno 為中心（自動標記）"
       },
-      "structure": "謂語 kamayno’ 為中心（自動標記）",
+      "structure": "謂語 kamayno 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_senior/sound/4/1word/17_16.mp3",
       "audio_primary": true
     },
@@ -508,7 +524,7 @@
       "tokens": [
         {
           "id": "pred",
-          "text": "pifaca’",
+          "text": "pifaca",
           "role": "pred",
           "gloss_zh": "洗",
           "gloss_en": ""
@@ -522,9 +538,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 pifaca’ 為中心（自動標記）"
+        "structure": "謂語 pifaca 為中心（自動標記）"
       },
-      "structure": "謂語 pifaca’ 為中心（自動標記）",
+      "structure": "謂語 pifaca 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_senior/sound/4/1word/17_18.mp3",
       "audio_primary": true
     },
@@ -570,9 +586,23 @@
           "gloss_en": ""
         },
         {
+          "id": "lparen",
+          "text": "(",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "kasiriko",
-          "text": "kasiriko’",
+          "text": "kasiriko",
           "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "rparen",
+          "text": ")",
+          "role": "punct",
           "gloss_zh": "",
           "gloss_en": ""
         }
@@ -581,7 +611,9 @@
         "groups": [
           [
             "pred",
-            "kasiriko"
+            "lparen",
+            "kasiriko",
+            "rparen"
           ]
         ],
         "hangs": {},

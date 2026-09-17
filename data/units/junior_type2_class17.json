@@ -48,6 +48,13 @@
           "role": "pronoun",
           "gloss_zh": "你",
           "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -55,7 +62,8 @@
           [
             "pred",
             "ko",
-            "ngangan"
+            "ngangan",
+            "q"
           ]
         ],
         "hangs": {
@@ -120,6 +128,13 @@
           "role": "pronoun",
           "gloss_zh": "我的",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -128,7 +143,8 @@
             "pred",
             "hongay",
             "ko",
-            "ngangan"
+            "ngangan",
+            "period"
           ]
         ],
         "hangs": {
@@ -193,6 +209,13 @@
           "role": "pronoun",
           "gloss_zh": "你的",
           "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -201,7 +224,8 @@
             "pred",
             "ko",
             "ngangan",
-            "iso"
+            "iso",
+            "q"
           ]
         ],
         "hangs": {
@@ -248,7 +272,7 @@
         },
         {
           "id": "ateki",
-          "text": "’Ateki",
+          "text": "Ateki",
           "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
@@ -287,6 +311,13 @@
           "role": "pronoun",
           "gloss_zh": "我的",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -298,7 +329,8 @@
             "ateki",
             "ko",
             "ngangan",
-            "ako"
+            "ako",
+            "period"
           ]
         ],
         "hangs": {
@@ -342,6 +374,13 @@
           "role": "noun",
           "gloss_zh": "人",
           "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -349,7 +388,8 @@
           [
             "pred",
             "kora",
-            "tamdaw"
+            "tamdaw",
+            "q"
           ]
         ],
         "hangs": {},
@@ -395,6 +435,13 @@
           "role": "noun",
           "gloss_zh": "他",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -403,7 +450,8 @@
             "pred",
             "hongay",
             "ko",
-            "mira"
+            "mira",
+            "period"
           ]
         ],
         "hangs": {},
@@ -442,6 +490,13 @@
           "role": "noun",
           "gloss_zh": "男",
           "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -449,7 +504,8 @@
           [
             "pred",
             "kora",
-            "faʼinayan"
+            "faʼinayan",
+            "q"
           ]
         ],
         "hangs": {},
@@ -509,6 +565,13 @@
           "role": "noun",
           "gloss_zh": "他",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -519,7 +582,8 @@
             "na",
             "diway",
             "ko",
-            "mira"
+            "mira",
+            "period"
           ]
         ],
         "hangs": {},
@@ -572,6 +636,13 @@
           "role": "noun",
           "gloss_zh": "他",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -581,7 +652,8 @@
             "singsi",
             "ako",
             "ko",
-            "mira"
+            "mira",
+            "period"
           ]
         ],
         "hangs": {},
@@ -620,6 +692,13 @@
           "role": "noun",
           "gloss_zh": "女",
           "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -627,7 +706,8 @@
           [
             "pred",
             "kora",
-            "fafahiyan"
+            "fafahiyan",
+            "q"
           ]
         ],
         "hangs": {},
@@ -694,6 +774,13 @@
           "role": "noun",
           "gloss_zh": "他",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -705,7 +792,8 @@
             "kaka",
             "ako",
             "ko",
-            "mira"
+            "mira",
+            "period"
           ]
         ],
         "hangs": {},
@@ -754,9 +842,9 @@
         },
         {
           "id": "loma",
-          "text": "loma’",
+          "text": "loma",
           "role": "noun",
-          "gloss_zh": "家",
+          "gloss_zh": "",
           "gloss_en": ""
         },
         {
@@ -764,6 +852,13 @@
           "text": "namo",
           "role": "pronoun",
           "gloss_zh": "你們",
+          "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
           "gloss_en": ""
         }
       ],
@@ -773,7 +868,8 @@
             "pred",
             "ko",
             "paro",
-            "namo"
+            "namo",
+            "q"
           ]
         ],
         "hangs": {
@@ -827,9 +923,9 @@
         },
         {
           "id": "loma",
-          "text": "loma’",
+          "text": "loma",
           "role": "noun",
-          "gloss_zh": "家",
+          "gloss_zh": "",
           "gloss_en": ""
         },
         {
@@ -837,6 +933,13 @@
           "text": "niyam",
           "role": "pronoun",
           "gloss_zh": "我們的",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
           "gloss_en": ""
         }
       ],
@@ -846,7 +949,8 @@
             "pred",
             "ko",
             "paro",
-            "niyam"
+            "niyam",
+            "period"
           ]
         ],
         "hangs": {
@@ -897,6 +1001,13 @@
           "role": "pronoun",
           "gloss_zh": "你的",
           "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -905,7 +1016,8 @@
             "pred",
             "ko",
             "salikaka",
-            "iso"
+            "iso",
+            "q"
           ]
         ],
         "hangs": {},
@@ -967,9 +1079,16 @@
           "gloss_en": ""
         },
         {
-          "id": "ccay",
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
           "text": "ccay",
-          "role": "noun",
+          "role": "pred2",
           "gloss_zh": "一",
           "gloss_en": ""
         },
@@ -1007,6 +1126,13 @@
           "role": "noun",
           "gloss_zh": "女",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -1018,19 +1144,23 @@
             "ako",
             "to",
             "fafahiyan",
-            "ccay",
+            "comma"
+          ],
+          [
+            "pred2",
             "ko_3",
             "safa",
             "ako_3",
             "to_3",
-            "fafahiyan_3"
+            "fafahiyan_3",
+            "period"
           ]
         ],
         "hangs": {},
-        "plus_between_groups": false,
-        "structure": "謂語 Ccay 為中心（自動標記）"
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
       },
-      "structure": "謂語 Ccay 為中心（自動標記）",
+      "structure": "兩句以 ＋ 連接（自動切分）",
       "audio": "https://klokah.tw/extension/sp_junior/sound/4/2sentence/2_10.mp3",
       "audio_primary": false,
       "audio_note": "音訊為整段對話（含前後句），非單句錄音",
@@ -1076,6 +1206,13 @@
           "role": "pronoun",
           "gloss_zh": "你",
           "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -1083,7 +1220,8 @@
           [
             "pred",
             "ko",
-            "mihecaan"
+            "mihecaan",
+            "q"
           ]
         ],
         "hangs": {
@@ -1162,6 +1300,13 @@
           "role": "pronoun",
           "gloss_zh": "我的",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -1172,7 +1317,8 @@
             "ko",
             "lima",
             "ko_3",
-            "mihecaan"
+            "mihecaan",
+            "period"
           ]
         ],
         "hangs": {
@@ -1251,6 +1397,13 @@
           "role": "pronoun",
           "gloss_zh": "你的",
           "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -1261,7 +1414,8 @@
             "mihecaan",
             "a",
             "safa",
-            "iso"
+            "iso",
+            "q"
           ]
         ],
         "hangs": {
@@ -1287,7 +1441,7 @@
       "tokens": [
         {
           "id": "pred",
-          "text": "^nemayto",
+          "text": "nemayto",
           "role": "pred",
           "gloss_zh": "",
           "gloss_en": ""
@@ -1340,6 +1494,13 @@
           "role": "pronoun",
           "gloss_zh": "我的",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -1350,7 +1511,8 @@
             "mihecaan",
             "a",
             "safa",
-            "ako"
+            "ako",
+            "period"
           ]
         ],
         "hangs": {
@@ -1408,6 +1570,13 @@
           "role": "noun",
           "gloss_zh": "小孩",
           "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -1417,7 +1586,8 @@
             "ko",
             "waco",
             "noni",
-            "wawa"
+            "wawa",
+            "q"
           ]
         ],
         "hangs": {},
@@ -1463,6 +1633,13 @@
           "role": "pronoun",
           "gloss_zh": "他的",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -1471,7 +1648,8 @@
             "pred",
             "ko",
             "waco",
-            "nira"
+            "nira",
+            "period"
           ]
         ],
         "hangs": {},
@@ -1524,6 +1702,13 @@
           "role": "pronoun",
           "gloss_zh": "你",
           "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -1531,7 +1716,8 @@
           [
             "pred",
             "ko",
-            "tilid"
+            "tilid",
+            "q"
           ]
         ],
         "hangs": {
@@ -1589,6 +1775,13 @@
           "role": "pronoun",
           "gloss_zh": "我的",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -1596,7 +1789,8 @@
           [
             "pred",
             "ko",
-            "tilid"
+            "tilid",
+            "period"
           ]
         ],
         "hangs": {
@@ -1647,6 +1841,13 @@
           "role": "noun",
           "gloss_zh": "現在",
           "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -1655,7 +1856,8 @@
             "pred",
             "ko",
             "toki",
-            "hatini"
+            "hatini",
+            "q"
           ]
         ],
         "hangs": {},
@@ -1701,6 +1903,13 @@
           "role": "noun",
           "gloss_zh": "現在",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -1709,7 +1918,8 @@
             "pred",
             "ko",
             "toki",
-            "hatini"
+            "hatini",
+            "period"
           ]
         ],
         "hangs": {},
@@ -1783,6 +1993,13 @@
           "role": "pronoun",
           "gloss_zh": "你",
           "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -1795,7 +2012,8 @@
             "lomowad",
             "to",
             "papacem",
-            "kiso"
+            "kiso",
+            "q"
           ]
         ],
         "hangs": {},
@@ -1816,9 +2034,9 @@
       "tokens": [
         {
           "id": "pred",
-          "text": "^nem",
+          "text": "nem",
           "role": "pred",
-          "gloss_zh": "六",
+          "gloss_zh": "",
           "gloss_en": ""
         },
         {
@@ -1869,6 +2087,13 @@
           "role": "pronoun",
           "gloss_zh": "我",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -1881,14 +2106,15 @@
             "lomowad",
             "to",
             "papacem",
-            "kako"
+            "kako",
+            "period"
           ]
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 ^nem 為中心（自動標記）"
+        "structure": "謂語 nem 為中心（自動標記）"
       },
-      "structure": "謂語 ^nem 為中心（自動標記）",
+      "structure": "謂語 nem 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_junior/sound/4/2sentence/2_19.mp3",
       "audio_primary": false,
       "audio_note": "音訊為整段對話（含前後句），非單句錄音",
@@ -1930,9 +2156,9 @@
         },
         {
           "id": "mafoti",
-          "text": "mafoti’",
+          "text": "mafoti",
           "role": "noun",
-          "gloss_zh": "睡覺",
+          "gloss_zh": "",
           "gloss_en": ""
         },
         {
@@ -1955,6 +2181,13 @@
           "role": "pronoun",
           "gloss_zh": "你",
           "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -1967,7 +2200,8 @@
             "mafoti",
             "to",
             "dadaya",
-            "kiso"
+            "kiso",
+            "q"
           ]
         ],
         "hangs": {},
@@ -2016,9 +2250,9 @@
         },
         {
           "id": "mafoti",
-          "text": "mafoti’",
+          "text": "mafoti",
           "role": "noun",
-          "gloss_zh": "睡覺",
+          "gloss_zh": "",
           "gloss_en": ""
         },
         {
@@ -2041,6 +2275,13 @@
           "role": "pronoun",
           "gloss_zh": "我",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -2053,7 +2294,8 @@
             "mafoti",
             "to",
             "dadaya",
-            "kako"
+            "kako",
+            "period"
           ]
         ],
         "hangs": {},
@@ -2092,6 +2334,13 @@
           "role": "noun",
           "gloss_zh": "這個",
           "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -2099,7 +2348,8 @@
           [
             "pred",
             "maan",
-            "koninian"
+            "koninian",
+            "q"
           ]
         ],
         "hangs": {},
@@ -2138,6 +2388,13 @@
           "role": "noun",
           "gloss_zh": "這個",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -2145,7 +2402,8 @@
           [
             "pred",
             "kolong",
-            "koninian"
+            "koninian",
+            "period"
           ]
         ],
         "hangs": {},
@@ -2184,6 +2442,13 @@
           "role": "noun",
           "gloss_zh": "那個",
           "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -2191,7 +2456,8 @@
           [
             "pred",
             "maan",
-            "koraan"
+            "koraan",
+            "q"
           ]
         ],
         "hangs": {},
@@ -2230,6 +2496,13 @@
           "role": "noun",
           "gloss_zh": "那個",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -2237,7 +2510,8 @@
           [
             "pred",
             "kilang",
-            "koraan"
+            "koraan",
+            "period"
           ]
         ],
         "hangs": {},
@@ -2290,6 +2564,13 @@
           "role": "noun",
           "gloss_zh": "那個",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -2299,7 +2580,8 @@
             "talakar",
             "ni",
             "idek",
-            "koraan"
+            "koraan",
+            "period"
           ]
         ],
         "hangs": {},
@@ -2322,7 +2604,7 @@
           "id": "i",
           "text": "I",
           "role": "case",
-          "gloss_zh": "呢",
+          "gloss_zh": "在",
           "gloss_en": ""
         },
         {
@@ -2359,6 +2641,13 @@
           "role": "pronoun",
           "gloss_zh": "我的",
           "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -2367,7 +2656,8 @@
             "i",
             "pred",
             "ko",
-            "impic"
+            "impic",
+            "q"
           ]
         ],
         "hangs": {
@@ -2425,6 +2715,13 @@
           "role": "pronoun",
           "gloss_zh": "你",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -2432,7 +2729,8 @@
           [
             "pred",
             "ko",
-            "impic"
+            "impic",
+            "period"
           ]
         ],
         "hangs": {
@@ -2460,7 +2758,7 @@
           "id": "i",
           "text": "I",
           "role": "case",
-          "gloss_zh": "呢",
+          "gloss_zh": "在",
           "gloss_en": ""
         },
         {
@@ -2490,6 +2788,13 @@
           "role": "pronoun",
           "gloss_zh": "你的",
           "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -2499,7 +2804,8 @@
             "pred",
             "ko",
             "wama",
-            "iso"
+            "iso",
+            "q"
           ]
         ],
         "hangs": {},
@@ -2522,7 +2828,7 @@
           "id": "i",
           "text": "I",
           "role": "case",
-          "gloss_zh": "呢",
+          "gloss_zh": "在",
           "gloss_en": ""
         },
         {
@@ -2552,6 +2858,13 @@
           "role": "pronoun",
           "gloss_zh": "我的",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -2561,7 +2874,8 @@
             "pred",
             "ko",
             "wama",
-            "ako"
+            "ako",
+            "period"
           ]
         ],
         "hangs": {},
@@ -2584,7 +2898,7 @@
           "id": "i",
           "text": "I",
           "role": "case",
-          "gloss_zh": "呢",
+          "gloss_zh": "在",
           "gloss_en": ""
         },
         {
@@ -2603,9 +2917,9 @@
         },
         {
           "id": "loma",
-          "text": "loma’",
+          "text": "loma",
           "role": "noun",
-          "gloss_zh": "家",
+          "gloss_zh": "",
           "gloss_en": ""
         },
         {
@@ -2613,6 +2927,13 @@
           "text": "namo",
           "role": "pronoun",
           "gloss_zh": "你們",
+          "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
           "gloss_en": ""
         }
       ],
@@ -2623,7 +2944,8 @@
             "pred",
             "ko",
             "loma",
-            "namo"
+            "namo",
+            "q"
           ]
         ],
         "hangs": {},
@@ -2646,7 +2968,7 @@
           "id": "i",
           "text": "I",
           "role": "case",
-          "gloss_zh": "呢",
+          "gloss_zh": "在",
           "gloss_en": ""
         },
         {
@@ -2665,9 +2987,9 @@
         },
         {
           "id": "loma",
-          "text": "loma’",
+          "text": "loma",
           "role": "noun",
-          "gloss_zh": "家",
+          "gloss_zh": "",
           "gloss_en": ""
         },
         {
@@ -2675,6 +2997,13 @@
           "text": "niyam",
           "role": "pronoun",
           "gloss_zh": "我們的",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
           "gloss_en": ""
         }
       ],
@@ -2685,7 +3014,8 @@
             "pred",
             "ko",
             "loma",
-            "niyam"
+            "niyam",
+            "period"
           ]
         ],
         "hangs": {},
@@ -2724,6 +3054,13 @@
           "role": "pronoun",
           "gloss_zh": "你",
           "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -2731,7 +3068,8 @@
           [
             "pred",
             "nanicowaay",
-            "kiso"
+            "kiso",
+            "q"
           ]
         ],
         "hangs": {},
@@ -2770,6 +3108,13 @@
           "role": "pronoun",
           "gloss_zh": "我",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -2777,7 +3122,8 @@
           [
             "pred",
             "naniposongay",
-            "kako"
+            "kako",
+            "period"
           ]
         ],
         "hangs": {},
@@ -2816,6 +3162,13 @@
           "role": "adverb",
           "gloss_zh": "今天",
           "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -2823,7 +3176,8 @@
           [
             "pred",
             "kiso",
-            "anini"
+            "anini",
+            "q"
           ]
         ],
         "hangs": {},
@@ -2862,6 +3216,13 @@
           "role": "adverb",
           "gloss_zh": "今天",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -2869,7 +3230,8 @@
           [
             "pred",
             "kako",
-            "anini"
+            "anini",
+            "period"
           ]
         ],
         "hangs": {},
@@ -2915,6 +3277,13 @@
           "role": "noun",
           "gloss_zh": "現在",
           "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -2923,7 +3292,8 @@
             "pred",
             "tatalacowa",
             "kiso",
-            "hatini"
+            "hatini",
+            "q"
           ]
         ],
         "hangs": {},
@@ -2962,6 +3332,13 @@
           "role": "pronoun",
           "gloss_zh": "我",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -2969,7 +3346,8 @@
           [
             "pred",
             "maminokay",
-            "kako"
+            "kako",
+            "period"
           ]
         ],
         "hangs": {},
@@ -3008,6 +3386,13 @@
           "role": "noun",
           "gloss_zh": "昨天",
           "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -3015,7 +3400,8 @@
           [
             "pred",
             "kamo",
-            "nacila"
+            "nacila",
+            "q"
           ]
         ],
         "hangs": {},
@@ -3054,6 +3440,13 @@
           "role": "noun",
           "gloss_zh": "昨天",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -3061,7 +3454,8 @@
           [
             "pred",
             "kami",
-            "nacila"
+            "nacila",
+            "period"
           ]
         ],
         "hangs": {},
@@ -3107,6 +3501,13 @@
           "role": "pronoun",
           "gloss_zh": "你",
           "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -3115,7 +3516,8 @@
             "pred",
             "tatalacowa",
             "anocila",
-            "kiso"
+            "kiso",
+            "q"
           ]
         ],
         "hangs": {},
@@ -3152,7 +3554,7 @@
           "id": "i",
           "text": "i",
           "role": "case",
-          "gloss_zh": "呢",
+          "gloss_zh": "在",
           "gloss_en": ""
         },
         {
@@ -3175,6 +3577,13 @@
           "role": "pronoun",
           "gloss_zh": "我",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -3185,7 +3594,8 @@
             "i",
             "tokos",
             "anocila",
-            "kako"
+            "kako",
+            "period"
           ]
         ],
         "hangs": {},
@@ -3238,6 +3648,13 @@
           "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -3247,7 +3664,8 @@
             "nima",
             "a",
             "wawa",
-            "konini"
+            "konini",
+            "q"
           ]
         ],
         "hangs": {},
@@ -3307,6 +3725,13 @@
           "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -3317,7 +3742,8 @@
             "mira",
             "a",
             "wawa",
-            "konini"
+            "konini",
+            "period"
           ]
         ],
         "hangs": {},
@@ -3370,6 +3796,13 @@
           "role": "noun",
           "gloss_zh": "這個",
           "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -3379,7 +3812,8 @@
             "nima",
             "a",
             "siri",
-            "koni"
+            "koni",
+            "q"
           ]
         ],
         "hangs": {},
@@ -3439,6 +3873,13 @@
           "role": "noun",
           "gloss_zh": "這個",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -3449,7 +3890,8 @@
             "mira",
             "a",
             "siri",
-            "koni"
+            "koni",
+            "period"
           ]
         ],
         "hangs": {},

@@ -67,6 +67,13 @@
           "role": "particle",
           "gloss_zh": "助詞",
           "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -77,7 +84,8 @@
             "aca",
             "ko",
             "lisin",
-            "haw"
+            "haw",
+            "q"
           ]
         ],
         "hangs": {
@@ -141,6 +149,13 @@
           "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -151,7 +166,8 @@
             "pred",
             "a",
             "lisin",
-            "hananay"
+            "hananay",
+            "period"
           ]
         ],
         "hangs": {},
@@ -196,6 +212,13 @@
           "role": "particle",
           "gloss_zh": "助詞",
           "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "？",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -204,7 +227,8 @@
             "pred",
             "to",
             "mihecahecaan",
-            "haw"
+            "haw",
+            "q"
           ]
         ],
         "hangs": {},
@@ -230,9 +254,16 @@
           "gloss_en": ""
         },
         {
-          "id": "pred",
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
           "text": "ano",
-          "role": "pred",
+          "role": "pred2",
           "gloss_zh": "如果",
           "gloss_en": ""
         },
@@ -265,9 +296,23 @@
           "gloss_en": ""
         },
         {
+          "id": "comma_3",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "misalisinay",
           "text": "misalisinay",
-          "role": "noun",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
           "gloss_zh": "",
           "gloss_en": ""
         }
@@ -276,19 +321,26 @@
         "groups": [
           [
             "cowa",
-            "pred",
+            "comma"
+          ],
+          [
+            "pred2",
             "malalid",
             "ko",
             "kedal",
             "na",
-            "misalisinay"
+            "comma_3"
+          ],
+          [
+            "misalisinay",
+            "period"
           ]
         ],
         "hangs": {},
-        "plus_between_groups": false,
-        "structure": "謂語 ano 為中心（自動標記）"
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
       },
-      "structure": "謂語 ano 為中心（自動標記）",
+      "structure": "兩句以 ＋ 連接（自動切分）",
       "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c29s4.mp3",
       "audio_primary": true,
       "speaker": "Difang"
@@ -319,6 +371,13 @@
           "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -326,7 +385,8 @@
           [
             "pred",
             "koni",
-            "lisin"
+            "lisin",
+            "q"
           ]
         ],
         "hangs": {},
@@ -385,6 +445,13 @@
           "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -395,7 +462,8 @@
             "to",
             "kawas",
             "a",
-            "mipaʼorad"
+            "mipaʼorad",
+            "period"
           ]
         ],
         "hangs": {},
@@ -454,6 +522,13 @@
           "role": "particle",
           "gloss_zh": "助詞",
           "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -464,7 +539,8 @@
             "lalikakawaen",
             "toni",
             "lisin",
-            "haw"
+            "haw",
+            "q"
           ]
         ],
         "hangs": {},

@@ -20,12 +20,20 @@
           "role": "pred",
           "gloss_zh": "起立",
           "gloss_en": ""
+        },
+        {
+          "id": "excl",
+          "text": "!",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
-            "pred"
+            "pred",
+            "excl"
           ]
         ],
         "hangs": {},
@@ -44,23 +52,31 @@
       "tokens": [
         {
           "id": "pred",
-          "text": "Kamaro’",
+          "text": "Kamaro",
           "role": "pred",
-          "gloss_zh": "坐下",
+          "gloss_zh": "坐下！",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
           "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
-            "pred"
+            "pred",
+            "period"
           ]
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Kamaro’ 為中心（自動標記）"
+        "structure": "謂語 Kamaro 為中心（自動標記）"
       },
-      "structure": "謂語 Kamaro’ 為中心（自動標記）",
+      "structure": "謂語 Kamaro 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_junior/sound/4/5choiceTwo/5_1_B.mp3",
       "audio_primary": true
     },
@@ -76,12 +92,20 @@
           "role": "pred",
           "gloss_zh": "說",
           "gloss_en": ""
+        },
+        {
+          "id": "excl",
+          "text": "!",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
-            "pred"
+            "pred",
+            "excl"
           ]
         ],
         "hangs": {},
@@ -104,12 +128,20 @@
           "role": "pred",
           "gloss_zh": "去",
           "gloss_en": ""
+        },
+        {
+          "id": "excl",
+          "text": "!",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
-            "pred"
+            "pred",
+            "excl"
           ]
         ],
         "hangs": {},
@@ -132,12 +164,20 @@
           "role": "pred",
           "gloss_zh": "來",
           "gloss_en": ""
+        },
+        {
+          "id": "excl",
+          "text": "!",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
-            "pred"
+            "pred",
+            "excl"
           ]
         ],
         "hangs": {},
@@ -160,12 +200,20 @@
           "role": "pred",
           "gloss_zh": "聽",
           "gloss_en": ""
+        },
+        {
+          "id": "excl",
+          "text": "!",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
-            "pred"
+            "pred",
+            "excl"
           ]
         ],
         "hangs": {},
@@ -188,12 +236,20 @@
           "role": "pred",
           "gloss_zh": "畫圖",
           "gloss_en": ""
+        },
+        {
+          "id": "excl",
+          "text": "!",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
-            "pred"
+            "pred",
+            "excl"
           ]
         ],
         "hangs": {},
@@ -212,23 +268,31 @@
       "tokens": [
         {
           "id": "pred",
-          "text": "Kafoti’",
+          "text": "Kafoti",
           "role": "pred",
-          "gloss_zh": "睡覺",
+          "gloss_zh": "去睡覺！",
+          "gloss_en": ""
+        },
+        {
+          "id": "excl",
+          "text": "!",
+          "role": "punct",
+          "gloss_zh": "",
           "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
-            "pred"
+            "pred",
+            "excl"
           ]
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Kafoti’ 為中心（自動標記）"
+        "structure": "謂語 Kafoti 為中心（自動標記）"
       },
-      "structure": "謂語 Kafoti’ 為中心（自動標記）",
+      "structure": "謂語 Kafoti 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_junior/sound/4/5choiceTwo/5_3_B.mp3",
       "audio_primary": true
     },
@@ -244,12 +308,20 @@
           "role": "pred",
           "gloss_zh": "讀書",
           "gloss_en": ""
+        },
+        {
+          "id": "excl",
+          "text": "!",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
-            "pred"
+            "pred",
+            "excl"
           ]
         ],
         "hangs": {},
@@ -268,7 +340,7 @@
       "tokens": [
         {
           "id": "pred",
-          "text": "Piliso’",
+          "text": "Piliso",
           "role": "pred",
           "gloss_zh": "",
           "gloss_en": ""
@@ -286,6 +358,13 @@
           "role": "noun",
           "gloss_zh": "祖父",
           "gloss_en": ""
+        },
+        {
+          "id": "excl",
+          "text": "!",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -293,14 +372,15 @@
           [
             "pred",
             "to",
-            "fofo"
+            "fofo",
+            "excl"
           ]
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Piliso’ 為中心（自動標記）"
+        "structure": "謂語 Piliso 為中心（自動標記）"
       },
-      "structure": "謂語 Piliso’ 為中心（自動標記）",
+      "structure": "謂語 Piliso 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_junior/sound/4/5choiceTwo/5_4_A.mp3",
       "audio_primary": true
     },
@@ -316,12 +396,20 @@
           "role": "pred",
           "gloss_zh": "唱歌",
           "gloss_en": ""
+        },
+        {
+          "id": "excl",
+          "text": "!",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
-            "pred"
+            "pred",
+            "excl"
           ]
         ],
         "hangs": {},
@@ -340,9 +428,9 @@
       "tokens": [
         {
           "id": "pred",
-          "text": "Pifaca’",
+          "text": "Pifaca",
           "role": "pred",
-          "gloss_zh": "洗",
+          "gloss_zh": "",
           "gloss_en": ""
         },
         {
@@ -354,9 +442,16 @@
         },
         {
           "id": "riko",
-          "text": "riko’",
+          "text": "riko",
           "role": "noun",
-          "gloss_zh": "衣服",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "excl",
+          "text": "!",
+          "role": "punct",
+          "gloss_zh": "",
           "gloss_en": ""
         }
       ],
@@ -365,14 +460,15 @@
           [
             "pred",
             "to",
-            "riko"
+            "riko",
+            "excl"
           ]
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Pifaca’ 為中心（自動標記）"
+        "structure": "謂語 Pifaca 為中心（自動標記）"
       },
-      "structure": "謂語 Pifaca’ 為中心（自動標記）",
+      "structure": "謂語 Pifaca 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_junior/sound/4/5choiceTwo/5_4_C.mp3",
       "audio_primary": true
     },
@@ -395,13 +491,21 @@
           "role": "noun",
           "gloss_zh": "說",
           "gloss_en": ""
+        },
+        {
+          "id": "excl",
+          "text": "!",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
             "pred",
-            "caciyaw"
+            "caciyaw",
+            "excl"
           ]
         ],
         "hangs": {},
@@ -431,13 +535,21 @@
           "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
+        },
+        {
+          "id": "excl",
+          "text": "!",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
             "pred",
-            "kaapac"
+            "kaapac",
+            "excl"
           ]
         ],
         "hangs": {},
@@ -467,13 +579,21 @@
           "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
+        },
+        {
+          "id": "excl",
+          "text": "!",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
             "pred",
-            "pisaloya"
+            "pisaloya",
+            "excl"
           ]
         ],
         "hangs": {},

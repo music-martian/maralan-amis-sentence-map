@@ -46,6 +46,13 @@
           "role": "pronoun",
           "gloss_zh": "你的",
           "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -55,7 +62,8 @@
             "maan",
             "ko",
             "ʼaʼacaen",
-            "iso"
+            "iso",
+            "q"
           ]
         ],
         "hangs": {},
@@ -86,13 +94,21 @@
           "role": "noun",
           "gloss_zh": "帽子",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
             "pred",
-            "kafong"
+            "kafong",
+            "period"
           ]
         ],
         "hangs": {},
@@ -121,7 +137,7 @@
           "id": "i",
           "text": "i",
           "role": "case",
-          "gloss_zh": "呢",
+          "gloss_zh": "在",
           "gloss_en": ""
         },
         {
@@ -146,6 +162,13 @@
           "gloss_en": ""
         },
         {
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "iraay",
           "text": "iraay",
           "role": "adverb",
@@ -153,9 +176,16 @@
           "gloss_en": ""
         },
         {
-          "id": "tila",
+          "id": "pred2",
           "text": "tila",
-          "role": "noun",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
           "gloss_zh": "",
           "gloss_en": ""
         }
@@ -168,15 +198,19 @@
             "sakatolo",
             "a",
             "tingroh",
+            "comma"
+          ],
+          [
             "iraay",
-            "tila"
+            "pred2",
+            "period"
           ]
         ],
         "hangs": {},
-        "plus_between_groups": false,
-        "structure": "謂語 Tayra 為中心（自動標記）"
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
       },
-      "structure": "謂語 Tayra 為中心（自動標記）",
+      "structure": "兩句以 ＋ 連接（自動切分）",
       "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c7s3.mp3",
       "audio_primary": true,
       "speaker": "Paʼacaay"
@@ -195,10 +229,24 @@
           "gloss_en": ""
         },
         {
-          "id": "ahowiday",
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
           "text": "ahowiday",
-          "role": "noun",
+          "role": "pred2",
           "gloss_zh": "謝謝",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
           "gloss_en": ""
         }
       ],
@@ -206,14 +254,18 @@
         "groups": [
           [
             "pred",
-            "ahowiday"
+            "comma"
+          ],
+          [
+            "pred2",
+            "period"
           ]
         ],
         "hangs": {},
-        "plus_between_groups": false,
-        "structure": "謂語 Hay 為中心（自動標記）"
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
       },
-      "structure": "謂語 Hay 為中心（自動標記）",
+      "structure": "兩句以 ＋ 連接（自動切分）",
       "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c7s4.mp3",
       "audio_primary": true,
       "speaker": "Hongay"
@@ -251,6 +303,13 @@
           "role": "noun",
           "gloss_zh": "帽子",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -259,7 +318,8 @@
             "pred",
             "kako",
             "to",
-            "kafong"
+            "kafong",
+            "period"
           ]
         ],
         "hangs": {},
@@ -318,6 +378,13 @@
           "role": "pronoun",
           "gloss_zh": "你的",
           "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -328,7 +395,8 @@
             "cengelan",
             "ko",
             "kaolahan",
-            "iso"
+            "iso",
+            "q"
           ]
         ],
         "hangs": {},
@@ -371,13 +439,20 @@
           "id": "i",
           "text": "i",
           "role": "case",
-          "gloss_zh": "呢",
+          "gloss_zh": "在",
           "gloss_en": ""
         },
         {
-          "id": "o",
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
           "text": "o",
-          "role": "noun",
+          "role": "pred2",
           "gloss_zh": "主題",
           "gloss_en": ""
         },
@@ -385,6 +460,13 @@
           "id": "kohetingay",
           "text": "kohetingay",
           "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
           "gloss_zh": "",
           "gloss_en": ""
         }
@@ -396,15 +478,19 @@
             "ano",
             "ca",
             "i",
-            "o",
-            "kohetingay"
+            "comma"
+          ],
+          [
+            "pred2",
+            "kohetingay",
+            "period"
           ]
         ],
         "hangs": {},
-        "plus_between_groups": false,
-        "structure": "謂語 Kohecalay 為中心（自動標記）"
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
       },
-      "structure": "謂語 Kohecalay 為中心（自動標記）",
+      "structure": "兩句以 ＋ 連接（自動切分）",
       "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c7s7.mp3",
       "audio_primary": true,
       "speaker": "Hongay"

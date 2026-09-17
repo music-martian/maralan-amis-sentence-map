@@ -34,9 +34,16 @@
           "gloss_en": ""
         },
         {
-          "id": "o",
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
           "text": "o",
-          "role": "noun",
+          "role": "pred2",
           "gloss_zh": "主題",
           "gloss_en": ""
         },
@@ -74,6 +81,13 @@
           "role": "particle",
           "gloss_zh": "助詞",
           "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -82,19 +96,23 @@
             "pred",
             "kiso",
             "anini",
-            "o",
+            "comma"
+          ],
+          [
+            "pred2",
             "tadalosid",
             "namo",
             "kona",
             "caʼedong",
-            "haw"
+            "haw",
+            "q"
           ]
         ],
         "hangs": {},
-        "plus_between_groups": false,
-        "structure": "謂語 Makapah 為中心（自動標記）"
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
       },
-      "structure": "謂語 Makapah 為中心（自動標記）",
+      "structure": "兩句以 ＋ 連接（自動切分）",
       "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c28s1.mp3",
       "audio_primary": true,
       "speaker": "Kay^ing"
@@ -113,9 +131,16 @@
           "gloss_en": ""
         },
         {
-          "id": "o",
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
           "text": "o",
-          "role": "noun",
+          "role": "pred2",
           "gloss_zh": "主題",
           "gloss_en": ""
         },
@@ -146,15 +171,26 @@
           "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
             "pred",
-            "o",
+            "comma"
+          ],
+          [
+            "pred2",
             "tadalosid",
-            "konini"
+            "konini",
+            "period"
           ]
         ],
         "hangs": {
@@ -163,10 +199,10 @@
             "falangaw"
           ]
         },
-        "plus_between_groups": false,
-        "structure": "謂語為中心；屬格 no/nu 掛於名詞下（自動）"
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
       },
-      "structure": "謂語為中心；屬格 no/nu 掛於名詞下（自動）",
+      "structure": "兩句以 ＋ 連接（自動切分）",
       "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c28s2.mp3",
       "audio_primary": true,
       "speaker": "Amoy"
@@ -195,7 +231,7 @@
           "id": "i",
           "text": "i",
           "role": "case",
-          "gloss_zh": "呢",
+          "gloss_zh": "在",
           "gloss_en": ""
         },
         {
@@ -211,6 +247,13 @@
           "role": "particle",
           "gloss_zh": "助詞",
           "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -220,7 +263,8 @@
             "kiso",
             "i",
             "pikilomaʼan",
-            "haw"
+            "haw",
+            "q"
           ]
         ],
         "hangs": {},
@@ -246,9 +290,16 @@
           "gloss_en": ""
         },
         {
-          "id": "o",
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
           "text": "o",
-          "role": "noun",
+          "role": "pred2",
           "gloss_zh": "主題",
           "gloss_en": ""
         },
@@ -279,24 +330,35 @@
           "role": "noun",
           "gloss_zh": "全部；大家",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
             "pred",
-            "o",
+            "comma"
+          ],
+          [
+            "pred2",
             "mamikihatiya",
             "ko",
             "finawlan",
-            "maemin"
+            "maemin",
+            "period"
           ]
         ],
         "hangs": {},
-        "plus_between_groups": false,
-        "structure": "謂語 Makero 為中心（自動標記）"
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
       },
-      "structure": "謂語 Makero 為中心（自動標記）",
+      "structure": "兩句以 ＋ 連接（自動切分）",
       "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c28s4.mp3",
       "audio_primary": true,
       "speaker": "Amoy"
@@ -327,6 +389,13 @@
           "role": "particle",
           "gloss_zh": "助詞",
           "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -334,7 +403,8 @@
           [
             "pred",
             "keroen",
-            "haw"
+            "haw",
+            "q"
           ]
         ],
         "hangs": {},
@@ -360,9 +430,16 @@
           "gloss_en": ""
         },
         {
-          "id": "kakitikiting",
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
           "text": "kakitikiting",
-          "role": "noun",
+          "role": "pred2",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -388,9 +465,16 @@
           "gloss_en": ""
         },
         {
+          "id": "comma_3",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "fanaʼ",
           "text": "fanaʼ",
-          "role": "noun",
+          "role": "pred2",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -421,28 +505,42 @@
           "role": "noun",
           "gloss_zh": "跳舞",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
             "pred",
-            "kakitikiting",
+            "comma"
+          ],
+          [
+            "pred2",
             "sa",
             "to",
             "kamay",
+            "comma_3"
+          ],
+          [
             "fanaʼ",
             "sanay",
             "to_3",
             "a",
-            "makero"
+            "makero",
+            "period"
           ]
         ],
         "hangs": {},
-        "plus_between_groups": false,
-        "structure": "謂語 Kantanay 為中心（自動標記）"
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
       },
-      "structure": "謂語 Kantanay 為中心（自動標記）",
+      "structure": "兩句以 ＋ 連接（自動切分）",
       "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c28s6.mp3",
       "audio_primary": true,
       "speaker": "Amoy"
@@ -471,13 +569,20 @@
           "id": "i",
           "text": "i",
           "role": "case",
-          "gloss_zh": "呢",
+          "gloss_zh": "在",
           "gloss_en": ""
         },
         {
-          "id": "romadiw",
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
           "text": "romadiw",
-          "role": "noun",
+          "role": "pred2",
           "gloss_zh": "唱歌",
           "gloss_en": ""
         },
@@ -487,6 +592,13 @@
           "role": "particle",
           "gloss_zh": "助詞",
           "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -495,15 +607,19 @@
             "pred",
             "makero",
             "i",
-            "romadiw",
-            "haw"
+            "comma"
+          ],
+          [
+            "pred2",
+            "haw",
+            "q"
           ]
         ],
         "hangs": {},
-        "plus_between_groups": false,
-        "structure": "謂語 Toya 為中心（自動標記）"
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
       },
-      "structure": "謂語 Toya 為中心（自動標記）",
+      "structure": "兩句以 ＋ 連接（自動切分）",
       "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c28s7.mp3",
       "audio_primary": true,
       "speaker": "Kay^ing"

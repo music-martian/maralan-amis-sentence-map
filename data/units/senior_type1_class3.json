@@ -22,6 +22,13 @@
           "gloss_en": ""
         },
         {
+          "id": "slash",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "nima",
           "text": "nima",
           "role": "noun",
@@ -33,6 +40,7 @@
         "groups": [
           [
             "pred",
+            "slash",
             "nima"
           ]
         ],
@@ -58,6 +66,13 @@
           "gloss_en": ""
         },
         {
+          "id": "slash",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "manan",
           "text": "manan",
           "role": "noun",
@@ -69,6 +84,7 @@
         "groups": [
           [
             "pred",
+            "slash",
             "manan"
           ]
         ],
@@ -94,6 +110,13 @@
           "gloss_en": ""
         },
         {
+          "id": "slash",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "pinaay",
           "text": "pinaay",
           "role": "noun",
@@ -105,6 +128,7 @@
         "groups": [
           [
             "pred",
+            "slash",
             "pinaay"
           ]
         ],
@@ -130,6 +154,13 @@
           "gloss_en": ""
         },
         {
+          "id": "slash",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "papinaay",
           "text": "papinaay",
           "role": "noun",
@@ -141,6 +172,7 @@
         "groups": [
           [
             "pred",
+            "slash",
             "papinaay"
           ]
         ],
@@ -166,6 +198,13 @@
           "gloss_en": ""
         },
         {
+          "id": "slash",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "pred",
           "text": "cowaay",
           "role": "pred",
@@ -173,10 +212,24 @@
           "gloss_en": ""
         },
         {
+          "id": "slash_3",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "icowa",
           "text": "icowa",
           "role": "noun",
           "gloss_zh": "哪裡",
+          "gloss_en": ""
+        },
+        {
+          "id": "slash_4",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
           "gloss_en": ""
         },
         {
@@ -191,8 +244,11 @@
         "groups": [
           [
             "cowa",
+            "slash",
             "pred",
+            "slash_3",
             "icowa",
+            "slash_4",
             "sakacowa"
           ]
         ],
@@ -225,6 +281,13 @@
           "gloss_en": ""
         },
         {
+          "id": "slash",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "hacowa_3",
           "text": "hacowa",
           "role": "noun",
@@ -237,6 +300,7 @@
           [
             "pred",
             "hacowa",
+            "slash",
             "hacowa_3"
           ]
         ],
@@ -262,6 +326,13 @@
           "gloss_en": ""
         },
         {
+          "id": "slash",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "o",
           "text": "o",
           "role": "noun",
@@ -280,6 +351,7 @@
         "groups": [
           [
             "pred",
+            "slash",
             "o",
             "icowaay"
           ]
@@ -306,10 +378,24 @@
           "gloss_en": ""
         },
         {
+          "id": "slash",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "mana",
           "text": "mana",
           "role": "noun",
           "gloss_zh": "為什麼",
+          "gloss_en": ""
+        },
+        {
+          "id": "slash_3",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
           "gloss_en": ""
         },
         {
@@ -324,7 +410,9 @@
         "groups": [
           [
             "pred",
+            "slash",
             "mana",
+            "slash_3",
             "masamanay"
           ]
         ],
@@ -350,6 +438,13 @@
           "gloss_en": ""
         },
         {
+          "id": "semi",
+          "text": ";",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "samaanen",
           "text": "samaanen",
           "role": "noun",
@@ -361,6 +456,7 @@
         "groups": [
           [
             "pred",
+            "semi",
             "samaanen"
           ]
         ],

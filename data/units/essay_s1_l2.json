@@ -37,7 +37,7 @@
           "id": "i",
           "text": "i",
           "role": "case",
-          "gloss_zh": "呢",
+          "gloss_zh": "在",
           "gloss_en": ""
         },
         {
@@ -45,6 +45,13 @@
           "text": "papacem",
           "role": "noun",
           "gloss_zh": "早上",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
           "gloss_en": ""
         }
       ],
@@ -55,7 +62,8 @@
             "kako",
             "talakongkoan",
             "i",
-            "papacem"
+            "papacem",
+            "period"
           ]
         ],
         "hangs": {},
@@ -90,13 +98,20 @@
           "id": "i",
           "text": "i",
           "role": "case",
-          "gloss_zh": "呢",
+          "gloss_zh": "在",
           "gloss_en": ""
         },
         {
-          "id": "matawalay",
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
           "text": "matawalay",
-          "role": "noun",
+          "role": "pred2",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -120,6 +135,13 @@
           "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -128,17 +150,21 @@
             "pred",
             "malingad",
             "i",
-            "matawalay",
+            "comma"
+          ],
+          [
+            "pred2",
             "ako",
             "ko",
-            "kafang"
+            "kafang",
+            "period"
           ]
         ],
         "hangs": {},
-        "plus_between_groups": false,
-        "structure": "謂語 Ya 為中心（自動標記）"
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
       },
-      "structure": "謂語 Ya 為中心（自動標記）",
+      "structure": "兩句以 ＋ 連接（自動切分）",
       "audio": "https://web.klokah.tw/text/sound/63854/897431.mp3",
       "audio_primary": true
     },
@@ -189,6 +215,13 @@
           "role": "pronoun",
           "gloss_zh": "我的",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -199,7 +232,8 @@
             "pred",
             "a",
             "mihawikidan",
-            "ako"
+            "ako",
+            "period"
           ]
         ],
         "hangs": {},
@@ -225,7 +259,7 @@
         },
         {
           "id": "mipakafana",
-          "text": "mipakafana’",
+          "text": "mipakafana",
           "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
@@ -248,13 +282,20 @@
           "id": "i",
           "text": "i",
           "role": "case",
-          "gloss_zh": "呢",
+          "gloss_zh": "在",
           "gloss_en": ""
         },
         {
-          "id": "hacafay",
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
           "text": "hacafay",
-          "role": "noun",
+          "role": "pred2",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -320,6 +361,13 @@
           "role": "pronoun",
           "gloss_zh": "他的",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -330,7 +378,8 @@
             "ko",
             "singsi",
             "i",
-            "hacafay",
+            "comma",
+            "pred2",
             "hananay",
             "ako",
             "ko_3",
@@ -339,7 +388,8 @@
             "minengneng",
             "to",
             "tilid",
-            "nira"
+            "nira",
+            "period"
           ]
         ],
         "hangs": {},
@@ -374,13 +424,20 @@
           "id": "i",
           "text": "i",
           "role": "case",
-          "gloss_zh": "呢",
+          "gloss_zh": "在",
           "gloss_en": ""
         },
         {
-          "id": "pacaliwan",
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
           "text": "pacaliwan",
-          "role": "noun",
+          "role": "pred2",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -432,6 +489,13 @@
           "role": "noun",
           "gloss_zh": "橡皮擦",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -440,24 +504,25 @@
             "pred",
             "miseking",
             "i",
-            "pacaliwan",
+            "comma"
+          ],
+          [
+            "pred2",
+            "no",
+            "kapot",
             "kako",
             "to",
             "impic",
             "ato",
-            "sasipasip"
+            "sasipasip",
+            "period"
           ]
         ],
-        "hangs": {
-          "pacaliwan": [
-            "no",
-            "kapot"
-          ]
-        },
-        "plus_between_groups": false,
-        "structure": "謂語為中心；屬格 no/nu 掛於名詞下（自動）"
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
       },
-      "structure": "謂語為中心；屬格 no/nu 掛於名詞下（自動）",
+      "structure": "兩句以 ＋ 連接（自動切分）",
       "audio": "https://web.klokah.tw/text/sound/63854/926219.mp3",
       "audio_primary": true
     },
@@ -469,7 +534,7 @@
       "tokens": [
         {
           "id": "pred",
-          "text": "“Manikar",
+          "text": "Manikar",
           "role": "pred",
           "gloss_zh": "",
           "gloss_en": ""
@@ -489,9 +554,16 @@
           "gloss_en": ""
         },
         {
-          "id": "aka",
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
           "text": "aka",
-          "role": "noun",
+          "role": "pred2",
           "gloss_zh": "不要[表未來不要",
           "gloss_en": ""
         },
@@ -504,7 +576,7 @@
         },
         {
           "id": "kaosoy",
-          "text": "kaosoy!”",
+          "text": "kaosoy",
           "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
@@ -536,6 +608,13 @@
           "role": "pronoun",
           "gloss_zh": "我",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -544,11 +623,15 @@
             "pred",
             "a",
             "lomowad",
-            "aka",
+            "comma"
+          ],
+          [
+            "pred2",
             "to",
             "kaosoy",
             "han",
-            "kako"
+            "kako",
+            "period"
           ]
         ],
         "hangs": {
@@ -557,10 +640,10 @@
             "singsi"
           ]
         },
-        "plus_between_groups": false,
-        "structure": "謂語為中心；屬格 no/nu 掛於名詞下（自動）"
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
       },
-      "structure": "謂語為中心；屬格 no/nu 掛於名詞下（自動）",
+      "structure": "兩句以 ＋ 連接（自動切分）",
       "audio": "https://web.klokah.tw/text/sound/63854/897435.mp3",
       "audio_primary": true
     }

@@ -22,6 +22,20 @@
           "gloss_en": ""
         },
         {
+          "id": "punc",
+          "text": "；",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "semi",
+          "text": ";",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "mihecaan",
           "text": "mihecaan",
           "role": "noun",
@@ -33,6 +47,8 @@
         "groups": [
           [
             "pred",
+            "punc",
+            "semi",
             "mihecaan"
           ]
         ],
@@ -86,6 +102,13 @@
           "gloss_en": ""
         },
         {
+          "id": "semi",
+          "text": ";",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "malalid",
           "text": "malalid",
           "role": "noun",
@@ -97,6 +120,7 @@
         "groups": [
           [
             "pred",
+            "semi",
             "malalid"
           ]
         ],
@@ -178,6 +202,13 @@
           "gloss_en": ""
         },
         {
+          "id": "slash",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "inacila",
           "text": "inacila",
           "role": "noun",
@@ -189,6 +220,7 @@
         "groups": [
           [
             "pred",
+            "slash",
             "inacila"
           ]
         ],

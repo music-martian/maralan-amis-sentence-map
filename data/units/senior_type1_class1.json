@@ -22,6 +22,13 @@
           "gloss_en": ""
         },
         {
+          "id": "slash",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "cecay",
           "text": "cecay",
           "role": "noun",
@@ -33,6 +40,7 @@
         "groups": [
           [
             "pred",
+            "slash",
             "cecay"
           ]
         ],
@@ -114,6 +122,13 @@
           "gloss_en": ""
         },
         {
+          "id": "slash",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "sepat",
           "text": "sepat",
           "role": "noun",
@@ -125,6 +140,7 @@
         "groups": [
           [
             "pred",
+            "slash",
             "sepat"
           ]
         ],
@@ -172,9 +188,16 @@
       "tokens": [
         {
           "id": "pred",
-          "text": "^nem",
+          "text": "nem",
           "role": "pred",
-          "gloss_zh": "六",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "slash",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
           "gloss_en": ""
         },
         {
@@ -189,14 +212,15 @@
         "groups": [
           [
             "pred",
+            "slash",
             "enem"
           ]
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 ^nem 為中心（自動標記）"
+        "structure": "謂語 nem 為中心（自動標記）"
       },
-      "structure": "謂語 ^nem 為中心（自動標記）",
+      "structure": "謂語 nem 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_senior/sound/4/1word/1_6.mp3",
       "audio_primary": true
     },
@@ -347,10 +371,24 @@
           "gloss_en": ""
         },
         {
+          "id": "lparen",
+          "text": "(",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "cecay",
           "text": "cecay",
           "role": "noun",
           "gloss_zh": "一",
+          "gloss_en": ""
+        },
+        {
+          "id": "rparen",
+          "text": ")",
+          "role": "punct",
+          "gloss_zh": "",
           "gloss_en": ""
         }
       ],
@@ -361,7 +399,9 @@
             "ila",
             "ko",
             "ccay",
-            "cecay"
+            "lparen",
+            "cecay",
+            "rparen"
           ]
         ],
         "hangs": {},
@@ -511,10 +551,24 @@
           "gloss_en": ""
         },
         {
+          "id": "lparen",
+          "text": "(",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "sepat",
           "text": "sepat",
           "role": "noun",
           "gloss_zh": "四",
+          "gloss_en": ""
+        },
+        {
+          "id": "rparen",
+          "text": ")",
+          "role": "punct",
+          "gloss_zh": "",
           "gloss_en": ""
         }
       ],
@@ -525,7 +579,9 @@
             "ila",
             "ko",
             "spat",
-            "sepat"
+            "lparen",
+            "sepat",
+            "rparen"
           ]
         ],
         "hangs": {},
@@ -617,9 +673,16 @@
         },
         {
           "id": "nem",
-          "text": "^nem",
+          "text": "nem",
           "role": "noun",
-          "gloss_zh": "六",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "lparen",
+          "text": "(",
+          "role": "punct",
+          "gloss_zh": "",
           "gloss_en": ""
         },
         {
@@ -627,6 +690,13 @@
           "text": "enem",
           "role": "noun",
           "gloss_zh": "六",
+          "gloss_en": ""
+        },
+        {
+          "id": "rparen",
+          "text": ")",
+          "role": "punct",
+          "gloss_zh": "",
           "gloss_en": ""
         }
       ],
@@ -637,7 +707,9 @@
             "ila",
             "ko",
             "nem",
-            "enem"
+            "lparen",
+            "enem",
+            "rparen"
           ]
         ],
         "hangs": {},
@@ -819,7 +891,7 @@
         },
         {
           "id": "polo",
-          "text": "polo’",
+          "text": "polo",
           "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
@@ -855,7 +927,7 @@
         },
         {
           "id": "polo",
-          "text": "polo’",
+          "text": "polo",
           "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
@@ -882,10 +954,24 @@
           "gloss_en": ""
         },
         {
+          "id": "lparen",
+          "text": "(",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "cecay",
           "text": "cecay",
           "role": "noun",
           "gloss_zh": "一",
+          "gloss_en": ""
+        },
+        {
+          "id": "rparen",
+          "text": ")",
+          "role": "punct",
+          "gloss_zh": "",
           "gloss_en": ""
         }
       ],
@@ -897,7 +983,9 @@
             "ila",
             "ko",
             "ccay",
-            "cecay"
+            "lparen",
+            "cecay",
+            "rparen"
           ]
         ],
         "hangs": {},
@@ -923,7 +1011,7 @@
         },
         {
           "id": "polo",
-          "text": "polo’",
+          "text": "polo",
           "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
@@ -983,7 +1071,7 @@
         },
         {
           "id": "polo",
-          "text": "polo’",
+          "text": "polo",
           "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
@@ -1043,7 +1131,7 @@
         },
         {
           "id": "polo",
-          "text": "polo’",
+          "text": "polo",
           "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
@@ -1070,10 +1158,24 @@
           "gloss_en": ""
         },
         {
+          "id": "lparen",
+          "text": "(",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "sepat",
           "text": "sepat",
           "role": "noun",
           "gloss_zh": "四",
+          "gloss_en": ""
+        },
+        {
+          "id": "rparen",
+          "text": ")",
+          "role": "punct",
+          "gloss_zh": "",
           "gloss_en": ""
         }
       ],
@@ -1085,7 +1187,9 @@
             "ila",
             "ko",
             "spat",
-            "sepat"
+            "lparen",
+            "sepat",
+            "rparen"
           ]
         ],
         "hangs": {},
@@ -1111,7 +1215,7 @@
         },
         {
           "id": "polo",
-          "text": "polo’",
+          "text": "polo",
           "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
@@ -1171,7 +1275,7 @@
         },
         {
           "id": "polo",
-          "text": "polo’",
+          "text": "polo",
           "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
@@ -1206,6 +1310,13 @@
           "gloss_en": ""
         },
         {
+          "id": "lparen",
+          "text": "(",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "sepat",
           "text": "sepat",
           "role": "noun",
@@ -1213,8 +1324,15 @@
           "gloss_en": ""
         },
         {
+          "id": "rparen",
+          "text": ")",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "polo",
-          "text": "polo’",
+          "text": "polo",
           "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
@@ -1224,7 +1342,9 @@
         "groups": [
           [
             "pred",
+            "lparen",
             "sepat",
+            "rparen",
             "polo"
           ]
         ],
@@ -1251,7 +1371,7 @@
         },
         {
           "id": "polo",
-          "text": "polo’",
+          "text": "polo",
           "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
@@ -1280,9 +1400,16 @@
       "tokens": [
         {
           "id": "pred",
-          "text": "^nem",
+          "text": "nem",
           "role": "pred",
-          "gloss_zh": "六",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "lparen",
+          "text": "(",
+          "role": "punct",
+          "gloss_zh": "",
           "gloss_en": ""
         },
         {
@@ -1293,8 +1420,15 @@
           "gloss_en": ""
         },
         {
+          "id": "rparen",
+          "text": ")",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "polo",
-          "text": "polo’",
+          "text": "polo",
           "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
@@ -1304,15 +1438,17 @@
         "groups": [
           [
             "pred",
+            "lparen",
             "enem",
+            "rparen",
             "polo"
           ]
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 ^nem 為中心（自動標記）"
+        "structure": "謂語 nem 為中心（自動標記）"
       },
-      "structure": "謂語 ^nem 為中心（自動標記）",
+      "structure": "謂語 nem 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_senior/sound/4/1word/1_30.mp3",
       "audio_primary": true
     },
@@ -1331,7 +1467,7 @@
         },
         {
           "id": "polo",
-          "text": "polo’",
+          "text": "polo",
           "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
@@ -1367,7 +1503,7 @@
         },
         {
           "id": "polo",
-          "text": "polo’",
+          "text": "polo",
           "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
@@ -1403,7 +1539,7 @@
         },
         {
           "id": "polo",
-          "text": "polo’",
+          "text": "polo",
           "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""

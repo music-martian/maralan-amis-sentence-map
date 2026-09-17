@@ -41,9 +41,16 @@
           "gloss_en": ""
         },
         {
-          "id": "minokay",
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
           "text": "minokay",
-          "role": "noun",
+          "role": "pred2",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -60,6 +67,13 @@
           "role": "particle",
           "gloss_zh": "助詞",
           "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -69,16 +83,20 @@
             "to",
             "ko",
             "kilomaʼan",
-            "minokay",
+            "comma"
+          ],
+          [
+            "pred2",
             "kiso",
-            "haw"
+            "haw",
+            "q"
           ]
         ],
         "hangs": {},
-        "plus_between_groups": false,
-        "structure": "謂語 Mangata 為中心（自動標記）"
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
       },
-      "structure": "謂語 Mangata 為中心（自動標記）",
+      "structure": "兩句以 ＋ 連接（自動切分）",
       "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c20s1.mp3",
       "audio_primary": true,
       "speaker": "Lisin"
@@ -104,9 +122,16 @@
           "gloss_en": ""
         },
         {
-          "id": "ataen",
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
           "text": "ataen",
-          "role": "noun",
+          "role": "pred2",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -151,6 +176,13 @@
           "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -158,20 +190,24 @@
           [
             "pred",
             "to",
-            "ataen",
+            "comma"
+          ],
+          [
+            "pred2",
             "ho",
             "ako",
             "ko",
             "wawa",
             "a",
-            "minokay"
+            "minokay",
+            "period"
           ]
         ],
         "hangs": {},
-        "plus_between_groups": false,
-        "structure": "謂語 Minokay 為中心（自動標記）"
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
       },
-      "structure": "謂語 Minokay 為中心（自動標記）",
+      "structure": "兩句以 ＋ 連接（自動切分）",
       "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c20s2.mp3",
       "audio_primary": true,
       "speaker": "Nakaw"
@@ -186,7 +222,7 @@
           "id": "i",
           "text": "I",
           "role": "case",
-          "gloss_zh": "呢",
+          "gloss_zh": "在",
           "gloss_en": ""
         },
         {
@@ -216,6 +252,13 @@
           "role": "pronoun",
           "gloss_zh": "你們",
           "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -225,7 +268,8 @@
             "pred",
             "ko",
             "pikilomaʼan",
-            "namo"
+            "namo",
+            "q"
           ]
         ],
         "hangs": {},
@@ -277,6 +321,13 @@
           "role": "noun",
           "gloss_zh": "月亮",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -286,7 +337,8 @@
             "no",
             "sakapito",
             "a",
-            "folad"
+            "folad",
+            "period"
           ]
         ],
         "hangs": {},
@@ -322,13 +374,20 @@
           "id": "i",
           "text": "i",
           "role": "case",
-          "gloss_zh": "呢",
+          "gloss_zh": "在",
           "gloss_en": ""
         },
         {
           "id": "pikilomaʼan",
           "text": "pikilomaʼan",
           "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
           "gloss_zh": "",
           "gloss_en": ""
         }
@@ -339,7 +398,8 @@
             "pred",
             "kamo",
             "i",
-            "pikilomaʼan"
+            "pikilomaʼan",
+            "q"
           ]
         ],
         "hangs": {},
@@ -386,6 +446,13 @@
           "gloss_en": ""
         },
         {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "mitokad",
           "text": "Mitokad",
           "role": "noun",
@@ -407,9 +474,16 @@
           "gloss_en": ""
         },
         {
-          "id": "pacakat",
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
           "text": "pacakat",
-          "role": "noun",
+          "role": "pred2",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -428,9 +502,23 @@
           "gloss_en": ""
         },
         {
+          "id": "comma_3",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "malikoda",
           "text": "malikoda",
-          "role": "noun",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "period_3",
+          "text": ".",
+          "role": "punct",
           "gloss_zh": "",
           "gloss_en": ""
         }
@@ -442,20 +530,28 @@
             "maemin",
             "ko",
             "finawlan",
+            "period",
             "mitokad",
             "to",
             "diyong",
-            "pacakat",
+            "comma"
+          ],
+          [
+            "pred2",
             "to_3",
             "selal",
-            "malikoda"
+            "comma_3"
+          ],
+          [
+            "malikoda",
+            "period_3"
           ]
         ],
         "hangs": {},
-        "plus_between_groups": false,
-        "structure": "謂語 Silosiday 為中心（自動標記）"
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
       },
-      "structure": "謂語 Silosiday 為中心（自動標記）",
+      "structure": "兩句以 ＋ 連接（自動切分）",
       "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c20s6.mp3",
       "audio_primary": true,
       "speaker": "Nakaw"
@@ -484,13 +580,20 @@
           "id": "i",
           "text": "i",
           "role": "case",
-          "gloss_zh": "呢",
+          "gloss_zh": "在",
           "gloss_en": ""
         },
         {
-          "id": "pasakahemekan",
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
           "text": "pasakahemekan",
-          "role": "noun",
+          "role": "pred2",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -521,6 +624,13 @@
           "role": "pronoun",
           "gloss_zh": "你們",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -529,18 +639,22 @@
             "pred",
             "han",
             "i",
-            "pasakahemekan",
+            "comma"
+          ],
+          [
+            "pred2",
             "to",
             "ko",
             "kilomaʼan",
-            "namo"
+            "namo",
+            "period"
           ]
         ],
         "hangs": {},
-        "plus_between_groups": false,
-        "structure": "謂語 Tengil 為中心（自動標記）"
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
       },
-      "structure": "謂語 Tengil 為中心（自動標記）",
+      "structure": "兩句以 ＋ 連接（自動切分）",
       "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c20s7.mp3",
       "audio_primary": true,
       "speaker": "Lisin"

@@ -57,6 +57,13 @@
           "gloss_en": ""
         },
         {
+          "id": "slash",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "ako",
           "text": "ako",
           "role": "pronoun",
@@ -69,6 +76,7 @@
           [
             "no",
             "mako",
+            "slash",
             "ako"
           ]
         ],
@@ -129,6 +137,13 @@
           "gloss_en": ""
         },
         {
+          "id": "slash",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "iso",
           "text": "iso",
           "role": "pronoun",
@@ -141,6 +156,7 @@
           [
             "no",
             "miso",
+            "slash",
             "iso"
           ]
         ],
@@ -173,10 +189,24 @@
           "gloss_en": ""
         },
         {
+          "id": "slash",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "mira",
           "text": "mira",
           "role": "noun",
           "gloss_zh": "他",
+          "gloss_en": ""
+        },
+        {
+          "id": "slash_3",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
           "gloss_en": ""
         },
         {
@@ -194,10 +224,24 @@
           "gloss_en": ""
         },
         {
+          "id": "slash_4",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "cira",
           "text": "cira",
           "role": "noun",
           "gloss_zh": "他",
+          "gloss_en": ""
+        },
+        {
+          "id": "slash_5",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
           "gloss_en": ""
         },
         {
@@ -213,10 +257,14 @@
           [
             "ko",
             "pred",
+            "slash",
             "mira",
+            "slash_3",
             "si",
             "mira_3",
+            "slash_4",
             "cira",
+            "slash_5",
             "cingra"
           ]
         ],
@@ -249,10 +297,24 @@
           "gloss_en": ""
         },
         {
+          "id": "slash",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "nira",
           "text": "nira",
           "role": "pronoun",
           "gloss_zh": "他的",
+          "gloss_en": ""
+        },
+        {
+          "id": "slash_3",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
           "gloss_en": ""
         },
         {
@@ -268,7 +330,9 @@
           [
             "no",
             "pred",
+            "slash",
             "nira",
+            "slash_3",
             "ningra"
           ]
         ],
@@ -329,6 +393,13 @@
           "gloss_en": ""
         },
         {
+          "id": "slash",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "niyam_3",
           "text": "niyam",
           "role": "pronoun",
@@ -341,6 +412,7 @@
           [
             "no",
             "niyam",
+            "slash",
             "niyam_3"
           ]
         ],
@@ -429,10 +501,24 @@
           "gloss_en": ""
         },
         {
+          "id": "slash",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "samira",
           "text": "samira",
           "role": "noun",
           "gloss_zh": "他們",
+          "gloss_en": ""
+        },
+        {
+          "id": "slash_3",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
           "gloss_en": ""
         },
         {
@@ -443,6 +529,13 @@
           "gloss_en": ""
         },
         {
+          "id": "slash_4",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "sangra",
           "text": "sangra",
           "role": "noun",
@@ -450,10 +543,24 @@
           "gloss_en": ""
         },
         {
+          "id": "slash_5",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "cangra",
           "text": "cangra",
           "role": "noun",
           "gloss_zh": "他們",
+          "gloss_en": ""
+        },
+        {
+          "id": "slash_6",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
           "gloss_en": ""
         },
         {
@@ -476,22 +583,24 @@
           [
             "ko",
             "pred",
+            "slash",
             "samira",
+            "slash_3",
             "camira",
+            "slash_4",
             "sangra",
-            "cangra"
-          ]
-        ],
-        "hangs": {
-          "cangra": [
+            "slash_5",
+            "cangra",
+            "slash_6",
             "no",
             "mira"
           ]
-        },
+        ],
+        "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語為中心；屬格 no/nu 掛於名詞下（自動）"
+        "structure": "謂語 miraan 為中心（自動標記）"
       },
-      "structure": "謂語為中心；屬格 no/nu 掛於名詞下（自動）",
+      "structure": "謂語 miraan 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_senior/sound/4/1word/2_11.mp3",
       "audio_primary": true
     },
@@ -516,6 +625,13 @@
           "gloss_en": ""
         },
         {
+          "id": "slash",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "na",
           "text": "na",
           "role": "noun",
@@ -527,6 +643,13 @@
           "text": "mira",
           "role": "noun",
           "gloss_zh": "他",
+          "gloss_en": ""
+        },
+        {
+          "id": "slash_3",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
           "gloss_en": ""
         },
         {
@@ -542,8 +665,10 @@
           [
             "no",
             "pred",
+            "slash",
             "na",
             "mira",
+            "slash_3",
             "nangra"
           ]
         ],
@@ -569,10 +694,24 @@
           "gloss_en": ""
         },
         {
+          "id": "slash",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "konian",
           "text": "konian",
           "role": "noun",
           "gloss_zh": "這個",
+          "gloss_en": ""
+        },
+        {
+          "id": "slash_3",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
           "gloss_en": ""
         },
         {
@@ -583,10 +722,24 @@
           "gloss_en": ""
         },
         {
+          "id": "slash_4",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "noni",
           "text": "noni",
           "role": "noun",
           "gloss_zh": "這個",
+          "gloss_en": ""
+        },
+        {
+          "id": "slash_5",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
           "gloss_en": ""
         },
         {
@@ -601,9 +754,13 @@
         "groups": [
           [
             "pred",
+            "slash",
             "konian",
+            "slash_3",
             "koni",
+            "slash_4",
             "noni",
+            "slash_5",
             "kini"
           ]
         ],
@@ -629,10 +786,24 @@
           "gloss_en": ""
         },
         {
+          "id": "slash",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "kora",
           "text": "kora",
           "role": "noun",
           "gloss_zh": "那個",
+          "gloss_en": ""
+        },
+        {
+          "id": "slash_3",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
           "gloss_en": ""
         },
         {
@@ -643,6 +814,13 @@
           "gloss_en": ""
         },
         {
+          "id": "slash_4",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "noya",
           "text": "noya",
           "role": "noun",
@@ -650,10 +828,24 @@
           "gloss_en": ""
         },
         {
+          "id": "slash_5",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "koya",
           "text": "koya",
           "role": "noun",
           "gloss_zh": "那個",
+          "gloss_en": ""
+        },
+        {
+          "id": "slash_6",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
           "gloss_en": ""
         },
         {
@@ -668,10 +860,15 @@
         "groups": [
           [
             "pred",
+            "slash",
             "kora",
+            "slash_3",
             "nora",
+            "slash_4",
             "noya",
+            "slash_5",
             "koya",
+            "slash_6",
             "koranan"
           ]
         ],
@@ -697,6 +894,13 @@
           "gloss_en": ""
         },
         {
+          "id": "slash",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "ini",
           "text": "ini",
           "role": "noun",
@@ -704,10 +908,24 @@
           "gloss_en": ""
         },
         {
+          "id": "slash_3",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "tini",
           "text": "tini",
           "role": "noun",
           "gloss_zh": "這裡",
+          "gloss_en": ""
+        },
+        {
+          "id": "slash_4",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
           "gloss_en": ""
         },
         {
@@ -722,8 +940,11 @@
         "groups": [
           [
             "pred",
+            "slash",
             "ini",
+            "slash_3",
             "tini",
+            "slash_4",
             "itini"
           ]
         ],
@@ -749,10 +970,24 @@
           "gloss_en": ""
         },
         {
+          "id": "slash",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "ira",
           "text": "ira",
           "role": "pronoun",
           "gloss_zh": "他的",
+          "gloss_en": ""
+        },
+        {
+          "id": "slash_3",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
           "gloss_en": ""
         },
         {
@@ -767,7 +1002,9 @@
         "groups": [
           [
             "pred",
+            "slash",
             "ira",
+            "slash_3",
             "itira"
           ]
         ],
@@ -828,6 +1065,13 @@
           "gloss_en": ""
         },
         {
+          "id": "slash",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "ita",
           "text": "ita",
           "role": "noun",
@@ -840,6 +1084,7 @@
           [
             "no",
             "pred",
+            "slash",
             "ita"
           ]
         ],

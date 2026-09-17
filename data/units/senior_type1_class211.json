@@ -156,7 +156,7 @@
       "tokens": [
         {
           "id": "pred",
-          "text": "kafoti’",
+          "text": "kafoti",
           "role": "pred",
           "gloss_zh": "睡覺",
           "gloss_en": ""
@@ -170,9 +170,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 kafoti’ 為中心（自動標記）"
+        "structure": "謂語 kafoti 為中心（自動標記）"
       },
-      "structure": "謂語 kafoti’ 為中心（自動標記）",
+      "structure": "謂語 kafoti 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_senior/sound/4/1word/18_6.mp3",
       "audio_primary": true
     },
@@ -218,6 +218,13 @@
           "gloss_en": ""
         },
         {
+          "id": "slash",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "kalomadiw",
           "text": "kalomadiw",
           "role": "noun",
@@ -229,6 +236,7 @@
         "groups": [
           [
             "pred",
+            "slash",
             "kalomadiw"
           ]
         ],
@@ -332,7 +340,7 @@
       "tokens": [
         {
           "id": "pred",
-          "text": "kamayno’",
+          "text": "kamayno",
           "role": "pred",
           "gloss_zh": "洗",
           "gloss_en": ""
@@ -346,9 +354,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 kamayno’ 為中心（自動標記）"
+        "structure": "謂語 kamayno 為中心（自動標記）"
       },
-      "structure": "謂語 kamayno’ 為中心（自動標記）",
+      "structure": "謂語 kamayno 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_senior/sound/4/1word/18_12.mp3",
       "audio_primary": true
     },
@@ -388,7 +396,7 @@
       "tokens": [
         {
           "id": "pred",
-          "text": "pifaca’",
+          "text": "pifaca",
           "role": "pred",
           "gloss_zh": "洗",
           "gloss_en": ""
@@ -402,9 +410,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 pifaca’ 為中心（自動標記）"
+        "structure": "謂語 pifaca 為中心（自動標記）"
       },
-      "structure": "謂語 pifaca’ 為中心（自動標記）",
+      "structure": "謂語 pifaca 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_senior/sound/4/1word/18_14.mp3",
       "audio_primary": true
     },
@@ -450,6 +458,13 @@
           "gloss_en": ""
         },
         {
+          "id": "lparen",
+          "text": "(",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "kaadad",
           "text": "kaadad",
           "role": "noun",
@@ -469,13 +484,22 @@
           "role": "noun",
           "gloss_zh": "頭",
           "gloss_en": ""
+        },
+        {
+          "id": "rparen",
+          "text": ")",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
             "pred",
-            "kaadad"
+            "lparen",
+            "kaadad",
+            "rparen"
           ]
         ],
         "hangs": {
@@ -533,9 +557,23 @@
           "gloss_en": ""
         },
         {
+          "id": "lparen",
+          "text": "(",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "kasiriko",
-          "text": "kasiriko’",
+          "text": "kasiriko",
           "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "rparen",
+          "text": ")",
+          "role": "punct",
           "gloss_zh": "",
           "gloss_en": ""
         }
@@ -544,7 +582,9 @@
         "groups": [
           [
             "pred",
-            "kasiriko"
+            "lparen",
+            "kasiriko",
+            "rparen"
           ]
         ],
         "hangs": {},
@@ -597,6 +637,13 @@
           "gloss_en": ""
         },
         {
+          "id": "lparen",
+          "text": "(",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "kafadetan",
           "text": "kafa^detan",
           "role": "noun",
@@ -616,13 +663,22 @@
           "role": "noun",
           "gloss_zh": "日子；天",
           "gloss_en": ""
+        },
+        {
+          "id": "rparen",
+          "text": ")",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
             "pred",
-            "kafadetan"
+            "lparen",
+            "kafadetan",
+            "rparen"
           ]
         ],
         "hangs": {
@@ -652,6 +708,13 @@
           "gloss_en": ""
         },
         {
+          "id": "slash",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "kakitec",
           "text": "kaki^tec",
           "role": "noun",
@@ -663,6 +726,7 @@
         "groups": [
           [
             "pred",
+            "slash",
             "kakitec"
           ]
         ],
@@ -744,6 +808,13 @@
           "gloss_en": ""
         },
         {
+          "id": "slash",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "kacaciyaw",
           "text": "kacaciyaw",
           "role": "noun",
@@ -755,6 +826,7 @@
         "groups": [
           [
             "pred",
+            "slash",
             "kacaciyaw"
           ]
         ],
@@ -830,7 +902,7 @@
       "tokens": [
         {
           "id": "pred",
-          "text": "kafana’",
+          "text": "kafana",
           "role": "pred",
           "gloss_zh": "會；能",
           "gloss_en": ""
@@ -844,9 +916,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 kafana’ 為中心（自動標記）"
+        "structure": "謂語 kafana 為中心（自動標記）"
       },
-      "structure": "謂語 kafana’ 為中心（自動標記）",
+      "structure": "謂語 kafana 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_senior/sound/4/1word/18_28.mp3",
       "audio_primary": true
     },
@@ -948,6 +1020,13 @@
           "gloss_en": ""
         },
         {
+          "id": "slash",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "kaaloman",
           "text": "kaaloman",
           "role": "noun",
@@ -959,6 +1038,7 @@
         "groups": [
           [
             "pred",
+            "slash",
             "kaaloman"
           ]
         ],
@@ -1090,7 +1170,7 @@
       "tokens": [
         {
           "id": "pred",
-          "text": "kaamoto’",
+          "text": "kaamoto",
           "role": "pred",
           "gloss_zh": "短",
           "gloss_en": ""
@@ -1104,9 +1184,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 kaamoto’ 為中心（自動標記）"
+        "structure": "謂語 kaamoto 為中心（自動標記）"
       },
-      "structure": "謂語 kaamoto’ 為中心（自動標記）",
+      "structure": "謂語 kaamoto 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_senior/sound/4/1word/18_37.mp3",
       "audio_primary": true
     },
@@ -1236,6 +1316,13 @@
           "gloss_en": ""
         },
         {
+          "id": "slash",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "kaacang",
           "text": "kaacang",
           "role": "noun",
@@ -1247,6 +1334,7 @@
         "groups": [
           [
             "pred",
+            "slash",
             "kaacang"
           ]
         ],

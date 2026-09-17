@@ -20,6 +20,13 @@
           "gloss_en": ""
         },
         {
+          "id": "excl",
+          "text": "!",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "patadoen",
           "text": "Patadoen",
           "role": "noun",
@@ -39,15 +46,24 @@
           "role": "pronoun",
           "gloss_zh": "我",
           "gloss_en": ""
+        },
+        {
+          "id": "excl_3",
+          "text": "!",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
             "pred",
+            "excl",
             "patadoen",
             "ho",
-            "kako"
+            "kako",
+            "excl_3"
           ]
         ],
         "hangs": {},
@@ -78,13 +94,21 @@
           "role": "pronoun",
           "gloss_zh": "你",
           "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
             "pred",
-            "kiso"
+            "kiso",
+            "q"
           ]
         ],
         "hangs": {},
@@ -117,6 +141,13 @@
           "gloss_en": ""
         },
         {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "ira",
           "text": "Ira",
           "role": "pronoun",
@@ -127,7 +158,7 @@
           "id": "i",
           "text": "i",
           "role": "case",
-          "gloss_zh": "呢",
+          "gloss_zh": "在",
           "gloss_en": ""
         },
         {
@@ -150,6 +181,13 @@
           "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
+        },
+        {
+          "id": "period_3",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -157,11 +195,13 @@
           [
             "pred",
             "kako",
+            "period",
             "ira",
             "i",
             "lalomaʼ",
             "ko",
-            "safawah"
+            "safawah",
+            "period_3"
           ]
         ],
         "hangs": {},
@@ -183,7 +223,7 @@
           "id": "i",
           "text": "I",
           "role": "case",
-          "gloss_zh": "呢",
+          "gloss_zh": "在",
           "gloss_en": ""
         },
         {
@@ -227,6 +267,13 @@
           "role": "pronoun",
           "gloss_zh": "你的",
           "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -238,7 +285,8 @@
             "tingroh",
             "ko",
             "kafotiʼan",
-            "iso"
+            "iso",
+            "q"
           ]
         ],
         "hangs": {},
@@ -260,7 +308,7 @@
           "id": "i",
           "text": "I",
           "role": "case",
-          "gloss_zh": "呢",
+          "gloss_zh": "在",
           "gloss_en": ""
         },
         {
@@ -269,13 +317,21 @@
           "role": "pred",
           "gloss_zh": "",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
             "i",
-            "pred"
+            "pred",
+            "period"
           ]
         ],
         "hangs": {},
@@ -312,6 +368,13 @@
           "text": "haw",
           "role": "noun",
           "gloss_zh": "助詞",
+          "gloss_en": ""
+        },
+        {
+          "id": "excl",
+          "text": "!",
+          "role": "punct",
+          "gloss_zh": "",
           "gloss_en": ""
         },
         {
@@ -362,6 +425,13 @@
           "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -370,13 +440,15 @@
             "pred",
             "ho",
             "haw",
+            "excl",
             "kilimen",
             "ho_3",
             "ako",
             "koya",
             "roma",
             "a",
-            "safawah"
+            "safawah",
+            "period"
           ]
         ],
         "hangs": {},
@@ -400,12 +472,20 @@
           "role": "pred",
           "gloss_zh": "謝謝",
           "gloss_en": ""
+        },
+        {
+          "id": "excl",
+          "text": "!",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
-            "pred"
+            "pred",
+            "excl"
           ]
         ],
         "hangs": {},

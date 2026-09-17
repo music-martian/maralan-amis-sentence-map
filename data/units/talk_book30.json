@@ -46,6 +46,13 @@
           "role": "noun",
           "gloss_zh": "現在",
           "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -53,7 +60,8 @@
           [
             "pred",
             "ko",
-            "yincominco"
+            "yincominco",
+            "q"
           ]
         ],
         "hangs": {
@@ -103,6 +111,13 @@
           "role": "noun",
           "gloss_zh": "四",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -111,7 +126,8 @@
             "pred",
             "ira",
             "ko",
-            "sepat"
+            "sepat",
+            "period"
           ]
         ],
         "hangs": {},
@@ -149,6 +165,13 @@
           "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -156,7 +179,8 @@
           [
             "pred",
             "a",
-            "finacadan"
+            "finacadan",
+            "q"
           ]
         ],
         "hangs": {},
@@ -196,86 +220,170 @@
           "gloss_en": ""
         },
         {
-          "id": "tayan",
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
           "text": "Tayan",
-          "role": "noun",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "comma_3",
+          "text": ",",
+          "role": "punct",
           "gloss_zh": "",
           "gloss_en": ""
         },
         {
           "id": "paywan",
           "text": "Paywan",
-          "role": "noun",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "comma_4",
+          "text": ",",
+          "role": "punct",
           "gloss_zh": "",
           "gloss_en": ""
         },
         {
           "id": "ponong",
           "text": "Ponong",
-          "role": "noun",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "comma_5",
+          "text": ",",
+          "role": "punct",
           "gloss_zh": "",
           "gloss_en": ""
         },
         {
           "id": "lokay",
           "text": "Lokay",
-          "role": "noun",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "comma_6",
+          "text": ",",
+          "role": "punct",
           "gloss_zh": "",
           "gloss_en": ""
         },
         {
           "id": "piwma",
           "text": "Piwma",
-          "role": "noun",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "comma_7",
+          "text": ",",
+          "role": "punct",
           "gloss_zh": "",
           "gloss_en": ""
         },
         {
           "id": "tao",
           "text": "Tao",
-          "role": "noun",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "comma_8",
+          "text": ",",
+          "role": "punct",
           "gloss_zh": "",
           "gloss_en": ""
         },
         {
           "id": "saysiya",
           "text": "Saysiya",
-          "role": "noun",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "comma_9",
+          "text": ",",
+          "role": "punct",
           "gloss_zh": "",
           "gloss_en": ""
         },
         {
           "id": "taroko",
           "text": "Taroko",
-          "role": "noun",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "comma_10",
+          "text": ",",
+          "role": "punct",
           "gloss_zh": "",
           "gloss_en": ""
         },
         {
           "id": "cow",
           "text": "Cow",
-          "role": "noun",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "comma_11",
+          "text": ",",
+          "role": "punct",
           "gloss_zh": "",
           "gloss_en": ""
         },
         {
           "id": "kafalan",
           "text": "Kafalan",
-          "role": "noun",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "comma_12",
+          "text": ",",
+          "role": "punct",
           "gloss_zh": "",
           "gloss_en": ""
         },
         {
           "id": "sakiraya",
           "text": "Sakiraya",
-          "role": "noun",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "comma_13",
+          "text": ",",
+          "role": "punct",
           "gloss_zh": "",
           "gloss_en": ""
         },
         {
           "id": "secik",
           "text": "Secik",
-          "role": "noun",
+          "role": "pred2",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -292,6 +400,13 @@
           "role": "particle",
           "gloss_zh": "助詞",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -300,20 +415,33 @@
             "ira",
             "ko",
             "pred",
-            "tayan",
+            "comma",
+            "pred2",
+            "comma_3",
             "paywan",
+            "comma_4",
             "ponong",
+            "comma_5",
             "lokay",
+            "comma_6",
             "piwma",
+            "comma_7",
             "tao",
+            "comma_8",
             "saysiya",
+            "comma_9",
             "taroko",
+            "comma_10",
             "cow",
+            "comma_11",
             "kafalan",
+            "comma_12",
             "sakiraya",
+            "comma_13",
             "secik",
             "ato",
-            "saw"
+            "saw",
+            "period"
           ]
         ],
         "hangs": {},
@@ -386,6 +514,13 @@
           "role": "noun",
           "gloss_zh": "人",
           "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -398,7 +533,8 @@
             "ko",
             "saʼalomanay",
             "ko_3",
-            "tamdaw"
+            "tamdaw",
+            "q"
           ]
         ],
         "hangs": {},
@@ -429,13 +565,21 @@
           "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
             "pred",
-            "ʼamis"
+            "ʼamis",
+            "period"
           ]
         ],
         "hangs": {},
@@ -508,6 +652,13 @@
           "role": "noun",
           "gloss_zh": "人",
           "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -520,7 +671,8 @@
             "ko",
             "samamangay",
             "ko_3",
-            "tamdaw"
+            "tamdaw",
+            "q"
           ]
         ],
         "hangs": {},

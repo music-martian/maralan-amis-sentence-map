@@ -78,6 +78,13 @@
           "gloss_en": ""
         },
         {
+          "id": "slash",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "fafoy",
           "text": "fafoy",
           "role": "noun",
@@ -89,6 +96,7 @@
         "groups": [
           [
             "pred",
+            "slash",
             "fafoy"
           ]
         ],
@@ -198,6 +206,13 @@
           "gloss_en": ""
         },
         {
+          "id": "slash",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "edo",
           "text": "edo",
           "role": "noun",
@@ -205,10 +220,17 @@
           "gloss_en": ""
         },
         {
+          "id": "slash_3",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "do",
-          "text": "^do",
+          "text": "do",
           "role": "noun",
-          "gloss_zh": "鼠",
+          "gloss_zh": "",
           "gloss_en": ""
         }
       ],
@@ -216,7 +238,9 @@
         "groups": [
           [
             "pred",
+            "slash",
             "edo",
+            "slash_3",
             "do"
           ]
         ],
@@ -236,7 +260,7 @@
       "tokens": [
         {
           "id": "pred",
-          "text": "koko’",
+          "text": "koko",
           "role": "pred",
           "gloss_zh": "雞",
           "gloss_en": ""
@@ -250,9 +274,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 koko’ 為中心（自動標記）"
+        "structure": "謂語 koko 為中心（自動標記）"
       },
-      "structure": "謂語 koko’ 為中心（自動標記）",
+      "structure": "謂語 koko 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_junior/sound/4/1word/8_8.mp3",
       "audio_primary": true
     },

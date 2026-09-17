@@ -35,9 +35,16 @@
           "gloss_en": ""
         },
         {
-          "id": "keriden",
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
           "text": "keriden",
-          "role": "noun",
+          "role": "pred2",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -78,9 +85,9 @@
         },
         {
           "id": "miliso",
-          "text": "miliso’",
+          "text": "miliso",
           "role": "noun",
-          "gloss_zh": "拜訪；探望",
+          "gloss_zh": "",
           "gloss_en": ""
         },
         {
@@ -106,9 +113,16 @@
         },
         {
           "id": "niyaro",
-          "text": "niyaro’",
+          "text": "niyaro",
           "role": "noun",
-          "gloss_zh": "村莊；部落",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
           "gloss_en": ""
         }
       ],
@@ -118,7 +132,8 @@
             "pred",
             "kita",
             "mapolong",
-            "keriden",
+            "comma",
+            "pred2",
             "no",
             "singsi",
             "kita_3",
@@ -128,7 +143,8 @@
             "to",
             "kalas",
             "no_3",
-            "niyaro"
+            "niyaro",
+            "period"
           ]
         ],
         "hangs": {},
@@ -160,6 +176,13 @@
           "gloss_en": ""
         },
         {
+          "id": "excl",
+          "text": "!",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "sano",
           "text": "Sano",
           "role": "noun",
@@ -168,7 +191,7 @@
         },
         {
           "id": "amisen",
-          "text": "’Amisen",
+          "text": "Amisen",
           "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
@@ -193,6 +216,13 @@
           "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -200,11 +230,13 @@
           [
             "pred",
             "mangaʼay",
+            "excl",
             "sano",
             "amisen",
             "ita",
             "ko",
-            "matoʼasay"
+            "matoʼasay",
+            "period"
           ]
         ],
         "hangs": {},
@@ -255,6 +287,13 @@
           "role": "particle",
           "gloss_zh": "助詞",
           "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -264,7 +303,8 @@
             "a",
             "tahira",
             "kita",
-            "haw"
+            "haw",
+            "q"
           ]
         ],
         "hangs": {},
@@ -287,12 +327,20 @@
           "role": "pred",
           "gloss_zh": "B:快到了。",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
-            "pred"
+            "pred",
+            "period"
           ]
         ],
         "hangs": {},
@@ -317,10 +365,17 @@
           "gloss_en": ""
         },
         {
-          "id": "miliso",
-          "text": "miliso’",
-          "role": "noun",
-          "gloss_zh": "拜訪；探望",
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "miliso",
+          "role": "pred2",
+          "gloss_zh": "",
           "gloss_en": ""
         },
         {
@@ -334,7 +389,7 @@
           "id": "i",
           "text": "i",
           "role": "case",
-          "gloss_zh": "呢",
+          "gloss_zh": "在",
           "gloss_en": ""
         },
         {
@@ -343,23 +398,34 @@
           "role": "pronoun",
           "gloss_zh": "對你",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
             "pred",
-            "miliso",
+            "comma"
+          ],
+          [
+            "pred2",
             "kami",
             "i",
-            "tisowanan"
+            "tisowanan",
+            "period"
           ]
         ],
         "hangs": {},
-        "plus_between_groups": false,
-        "structure": "謂語 Akong 為中心（自動標記）"
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
       },
-      "structure": "謂語 Akong 為中心（自動標記）",
+      "structure": "兩句以 ＋ 連接（自動切分）",
       "audio": "https://web.klokah.tw/text/sound/26970/441832.mp3",
       "audio_primary": true
     },
@@ -371,9 +437,9 @@
       "tokens": [
         {
           "id": "pred",
-          "text": "Mafana’",
+          "text": "Mafana",
           "role": "pred",
-          "gloss_zh": "會；能",
+          "gloss_zh": "",
           "gloss_en": ""
         },
         {
@@ -392,7 +458,7 @@
         },
         {
           "id": "amis",
-          "text": "’Amis",
+          "text": "Amis",
           "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
@@ -412,6 +478,13 @@
           "gloss_en": ""
         },
         {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "a_3",
           "text": "A",
           "role": "noun",
@@ -419,9 +492,23 @@
           "gloss_en": ""
         },
         {
+          "id": "excl",
+          "text": "!",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "tadamangaʼay",
           "text": "tadamangaʼay",
           "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "period_3",
+          "text": ".",
+          "role": "punct",
           "gloss_zh": "",
           "gloss_en": ""
         }
@@ -435,15 +522,18 @@
             "amis",
             "a",
             "caciyaw",
+            "period",
             "a_3",
-            "tadamangaʼay"
+            "excl",
+            "tadamangaʼay",
+            "period_3"
           ]
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Mafana’ 為中心（自動標記）"
+        "structure": "謂語 Mafana 為中心（自動標記）"
       },
-      "structure": "謂語 Mafana’ 為中心（自動標記）",
+      "structure": "謂語 Mafana 為中心（自動標記）",
       "audio": "https://web.klokah.tw/text/sound/26970/441833.mp3",
       "audio_primary": true
     },
@@ -475,9 +565,16 @@
           "gloss_en": ""
         },
         {
-          "id": "keriden",
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
           "text": "keriden",
-          "role": "noun",
+          "role": "pred2",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -527,7 +624,7 @@
           "id": "i",
           "text": "i",
           "role": "case",
-          "gloss_zh": "呢",
+          "gloss_zh": "在",
           "gloss_en": ""
         },
         {
@@ -550,6 +647,13 @@
           "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -558,7 +662,8 @@
             "pred",
             "kita",
             "mapolong",
-            "keriden",
+            "comma",
+            "pred2",
             "no",
             "singsi",
             "kita_3",
@@ -568,7 +673,8 @@
             "i",
             "pisalamloan",
             "a_3",
-            "omah"
+            "omah",
+            "period"
           ]
         ],
         "hangs": {},
@@ -593,10 +699,24 @@
           "gloss_en": ""
         },
         {
-          "id": "singsi",
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
           "text": "singsi",
-          "role": "noun",
+          "role": "pred2",
           "gloss_zh": "老師",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
           "gloss_en": ""
         }
       ],
@@ -604,14 +724,18 @@
         "groups": [
           [
             "pred",
-            "singsi"
+            "comma"
+          ],
+          [
+            "pred2",
+            "period"
           ]
         ],
         "hangs": {},
-        "plus_between_groups": false,
-        "structure": "謂語 Hai 為中心（自動標記）"
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
       },
-      "structure": "謂語 Hai 為中心（自動標記）",
+      "structure": "兩句以 ＋ 連接（自動切分）",
       "audio": "https://web.klokah.tw/text/sound/26970/441835.mp3",
       "audio_primary": true
     },
@@ -636,9 +760,16 @@
           "gloss_en": ""
         },
         {
-          "id": "haratengen",
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
           "text": "haratengen",
-          "role": "noun",
+          "role": "pred2",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -669,6 +800,13 @@
           "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -676,18 +814,22 @@
           [
             "pred",
             "kita",
-            "haratengen",
+            "comma"
+          ],
+          [
+            "pred2",
             "ko",
             "hahawikiden",
             "a",
-            "sakatayal"
+            "sakatayal",
+            "period"
           ]
         ],
         "hangs": {},
-        "plus_between_groups": false,
-        "structure": "謂語 Pisarayarayto 為中心（自動標記）"
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
       },
-      "structure": "謂語 Pisarayarayto 為中心（自動標記）",
+      "structure": "兩句以 ＋ 連接（自動切分）",
       "audio": "https://web.klokah.tw/text/sound/26970/441836.mp3",
       "audio_primary": true
     },
@@ -705,16 +847,30 @@
           "gloss_en": ""
         },
         {
-          "id": "singsi",
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
           "text": "singsi",
-          "role": "noun",
+          "role": "pred2",
           "gloss_zh": "老師",
+          "gloss_en": ""
+        },
+        {
+          "id": "comma_3",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
           "gloss_en": ""
         },
         {
           "id": "matatoyto",
           "text": "matatoyto",
-          "role": "noun",
+          "role": "pred2",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -738,24 +894,38 @@
           "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
             "pred",
-            "singsi",
+            "comma"
+          ],
+          [
+            "pred2",
+            "comma_3"
+          ],
+          [
             "matatoyto",
             "niyam",
             "ko",
-            "sakatayal"
+            "sakatayal",
+            "period"
           ]
         ],
         "hangs": {},
-        "plus_between_groups": false,
-        "structure": "謂語 Hai 為中心（自動標記）"
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
       },
-      "structure": "謂語 Hai 為中心（自動標記）",
+      "structure": "兩句以 ＋ 連接（自動切分）",
       "audio": "https://web.klokah.tw/text/sound/26970/441837.mp3",
       "audio_primary": true
     },
@@ -785,6 +955,13 @@
           "role": "particle",
           "gloss_zh": "助詞",
           "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -792,7 +969,8 @@
           [
             "pred",
             "ita",
-            "haw"
+            "haw",
+            "q"
           ]
         ],
         "hangs": {},
@@ -817,9 +995,23 @@
           "gloss_en": ""
         },
         {
-          "id": "maraayayho",
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
           "text": "maraayayho",
-          "role": "noun",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
           "gloss_zh": "",
           "gloss_en": ""
         }
@@ -828,14 +1020,18 @@
         "groups": [
           [
             "pred",
-            "maraayayho"
+            "comma"
+          ],
+          [
+            "pred2",
+            "period"
           ]
         ],
         "hangs": {},
-        "plus_between_groups": false,
-        "structure": "謂語 Caayho 為中心（自動標記）"
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
       },
-      "structure": "謂語 Caayho 為中心（自動標記）",
+      "structure": "兩句以 ＋ 連接（自動切分）",
       "audio": "https://web.klokah.tw/text/sound/26970/441839.mp3",
       "audio_primary": true
     },
@@ -858,13 +1054,21 @@
           "role": "pronoun",
           "gloss_zh": "你",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
             "pred",
-            "kiso"
+            "kiso",
+            "period"
           ]
         ],
         "hangs": {},
@@ -889,9 +1093,16 @@
           "gloss_en": ""
         },
         {
-          "id": "micefos",
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
           "text": "micefos",
-          "role": "noun",
+          "role": "pred2",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -901,21 +1112,32 @@
           "role": "pronoun",
           "gloss_zh": "我",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
             "pred",
-            "micefos",
-            "kako"
+            "comma"
+          ],
+          [
+            "pred2",
+            "kako",
+            "period"
           ]
         ],
         "hangs": {},
-        "plus_between_groups": false,
-        "structure": "謂語 Hai 為中心（自動標記）"
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
       },
-      "structure": "謂語 Hai 為中心（自動標記）",
+      "structure": "兩句以 ＋ 連接（自動切分）",
       "audio": "https://web.klokah.tw/text/sound/26970/441841.mp3",
       "audio_primary": true
     },
@@ -962,8 +1184,15 @@
         },
         {
           "id": "ayam",
-          "text": "’ayam",
+          "text": "ayam",
           "role": "noun",
+          "gloss_zh": "鳥",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
           "gloss_zh": "",
           "gloss_en": ""
         }
@@ -976,7 +1205,8 @@
             "to",
             "salaplap",
             "to_3",
-            "ayam"
+            "ayam",
+            "period"
           ]
         ],
         "hangs": {},
@@ -1001,9 +1231,16 @@
           "gloss_en": ""
         },
         {
-          "id": "milaplap",
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
           "text": "milaplap",
-          "role": "noun",
+          "role": "pred2",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -1023,8 +1260,15 @@
         },
         {
           "id": "ayam",
-          "text": "’ayam",
+          "text": "ayam",
           "role": "noun",
+          "gloss_zh": "鳥",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
           "gloss_zh": "",
           "gloss_en": ""
         }
@@ -1033,17 +1277,21 @@
         "groups": [
           [
             "pred",
-            "milaplap",
+            "comma"
+          ],
+          [
+            "pred2",
             "kako",
             "to",
-            "ayam"
+            "ayam",
+            "period"
           ]
         ],
         "hangs": {},
-        "plus_between_groups": false,
-        "structure": "謂語 Hai 為中心（自動標記）"
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
       },
-      "structure": "謂語 Hai 為中心（自動標記）",
+      "structure": "兩句以 ＋ 連接（自動切分）",
       "audio": "https://web.klokah.tw/text/sound/26970/441843.mp3",
       "audio_primary": true
     },
@@ -1075,9 +1323,16 @@
           "gloss_en": ""
         },
         {
-          "id": "tayra",
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
           "text": "tayra",
-          "role": "noun",
+          "role": "pred2",
           "gloss_zh": "去",
           "gloss_en": ""
         },
@@ -1092,7 +1347,7 @@
           "id": "i",
           "text": "i",
           "role": "case",
-          "gloss_zh": "呢",
+          "gloss_zh": "在",
           "gloss_en": ""
         },
         {
@@ -1108,6 +1363,13 @@
           "role": "adverb",
           "gloss_zh": "今天",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -1116,18 +1378,22 @@
             "pred",
             "kita",
             "mapolong",
-            "tayra",
+            "comma"
+          ],
+          [
+            "pred2",
             "kita_3",
             "i",
             "pacoan",
-            "anini"
+            "anini",
+            "period"
           ]
         ],
         "hangs": {},
-        "plus_between_groups": false,
-        "structure": "謂語 Ngaʼayho 為中心（自動標記）"
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
       },
-      "structure": "謂語 Ngaʼayho 為中心（自動標記）",
+      "structure": "兩句以 ＋ 連接（自動切分）",
       "audio": "https://web.klokah.tw/text/sound/26970/441844.mp3",
       "audio_primary": true
     },
@@ -1141,6 +1407,13 @@
           "id": "pred",
           "text": "Tadamangaʼay",
           "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "excl",
+          "text": "!",
+          "role": "punct",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -1171,16 +1444,25 @@
           "role": "noun",
           "gloss_zh": "去",
           "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
             "pred",
+            "excl",
             "maanen",
             "ita",
             "a",
-            "tayra"
+            "tayra",
+            "q"
           ]
         ],
         "hangs": {},
@@ -1224,6 +1506,13 @@
           "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -1232,7 +1521,8 @@
             "pred",
             "kita",
             "to",
-            "paso"
+            "paso",
+            "period"
           ]
         ],
         "hangs": {},
@@ -1264,9 +1554,16 @@
           "gloss_en": ""
         },
         {
-          "id": "mamiʼaca",
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
           "text": "mamiʼaca",
-          "role": "noun",
+          "role": "pred2",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -1290,6 +1587,13 @@
           "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -1297,17 +1601,21 @@
           [
             "pred",
             "kita",
-            "mamiʼaca",
+            "comma"
+          ],
+          [
+            "pred2",
             "kita_3",
             "to",
-            "paya"
+            "paya",
+            "period"
           ]
         ],
         "hangs": {},
-        "plus_between_groups": false,
-        "structure": "謂語 Misarayaray 為中心（自動標記）"
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
       },
-      "structure": "謂語 Misarayaray 為中心（自動標記）",
+      "structure": "兩句以 ＋ 連接（自動切分）",
       "audio": "https://web.klokah.tw/text/sound/26970/441847.mp3",
       "audio_primary": true
     },
@@ -1323,12 +1631,20 @@
           "role": "pred",
           "gloss_zh": "B:是的。",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
-            "pred"
+            "pred",
+            "period"
           ]
         ],
         "hangs": {},
@@ -1374,9 +1690,16 @@
           "gloss_en": ""
         },
         {
-          "id": "o",
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
           "text": "o",
-          "role": "noun",
+          "role": "pred2",
           "gloss_zh": "主題",
           "gloss_en": ""
         },
@@ -1396,15 +1719,22 @@
         },
         {
           "id": "aikoray",
-          "text": "’aikoray",
+          "text": "aikoray",
           "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "comma_3",
+          "text": ",",
+          "role": "punct",
           "gloss_zh": "",
           "gloss_en": ""
         },
         {
           "id": "paytemek",
           "text": "paytemek",
-          "role": "noun",
+          "role": "pred2",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -1435,6 +1765,13 @@
           "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -1444,15 +1781,18 @@
             "paʼayaman",
             "koni",
             "kaʼayaway",
-            "o",
+            "comma",
+            "pred2",
             "paʼonelan",
             "kona",
             "aikoray",
+            "comma_3",
             "paytemek",
             "han",
             "ita",
             "a",
-            "minengen"
+            "minengen",
+            "period"
           ]
         ],
         "hangs": {},
@@ -1499,8 +1839,15 @@
         },
         {
           "id": "onel",
-          "text": "’onel",
+          "text": "onel",
           "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
           "gloss_zh": "",
           "gloss_en": ""
         }
@@ -1512,7 +1859,8 @@
             "matalaw",
             "kako",
             "to",
-            "onel"
+            "onel",
+            "period"
           ]
         ],
         "hangs": {},
@@ -1544,9 +1892,16 @@
           "gloss_en": ""
         },
         {
-          "id": "ka",
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
           "text": "ka",
-          "role": "noun",
+          "role": "pred2",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -1573,8 +1928,15 @@
         },
         {
           "id": "ayam",
-          "text": "’ayam",
+          "text": "ayam",
           "role": "noun",
+          "gloss_zh": "鳥",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
           "gloss_zh": "",
           "gloss_en": ""
         }
@@ -1584,18 +1946,22 @@
           [
             "mamaan",
             "pred",
-            "ka",
+            "comma"
+          ],
+          [
+            "pred2",
             "pinengen",
             "kiso",
             "to",
-            "ayam"
+            "ayam",
+            "period"
           ]
         ],
         "hangs": {},
-        "plus_between_groups": false,
-        "structure": "謂語 aca 為中心（自動標記）"
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
       },
-      "structure": "謂語 aca 為中心（自動標記）",
+      "structure": "兩句以 ＋ 連接（自動切分）",
       "audio": "https://web.klokah.tw/text/sound/26970/441851.mp3",
       "audio_primary": true
     },
@@ -1609,7 +1975,7 @@
           "id": "i",
           "text": "I",
           "role": "case",
-          "gloss_zh": "呢",
+          "gloss_zh": "在",
           "gloss_en": ""
         },
         {
@@ -1651,13 +2017,20 @@
           "id": "i_3",
           "text": "i",
           "role": "case",
-          "gloss_zh": "呢",
+          "gloss_zh": "在",
           "gloss_en": ""
         },
         {
-          "id": "patikor",
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
           "text": "patikor",
-          "role": "noun",
+          "role": "pred2",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -1681,6 +2054,13 @@
           "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -1693,17 +2073,21 @@
             "a",
             "tatokian",
             "i_3",
-            "patikor",
+            "comma"
+          ],
+          [
+            "pred2",
             "kita",
             "a_3",
-            "masaʼopo"
+            "masaʼopo",
+            "period"
           ]
         ],
         "hangs": {},
-        "plus_between_groups": false,
-        "structure": "謂語 ikor 為中心（自動標記）"
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
       },
-      "structure": "謂語 ikor 為中心（自動標記）",
+      "structure": "兩句以 ＋ 連接（自動切分）",
       "audio": "https://web.klokah.tw/text/sound/26970/441852.mp3",
       "audio_primary": true
     },
@@ -1721,9 +2105,16 @@
           "gloss_en": ""
         },
         {
-          "id": "aray",
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
           "text": "aray",
-          "role": "noun",
+          "role": "pred2",
           "gloss_zh": "謝謝",
           "gloss_en": ""
         },
@@ -1733,21 +2124,32 @@
           "role": "noun",
           "gloss_zh": "老師",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
             "pred",
-            "aray",
-            "singsi"
+            "comma"
+          ],
+          [
+            "pred2",
+            "singsi",
+            "period"
           ]
         ],
         "hangs": {},
-        "plus_between_groups": false,
-        "structure": "謂語 Hai 為中心（自動標記）"
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
       },
-      "structure": "謂語 Hai 為中心（自動標記）",
+      "structure": "兩句以 ＋ 連接（自動切分）",
       "audio": "https://web.klokah.tw/text/sound/26970/441853.mp3",
       "audio_primary": true
     },
@@ -1798,6 +2200,13 @@
           "role": "adverb",
           "gloss_zh": "今天",
           "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -1808,7 +2217,8 @@
             "ko",
             "maʼaraw",
             "iso",
-            "anini"
+            "anini",
+            "q"
           ]
         ],
         "hangs": {},
@@ -1862,15 +2272,22 @@
         },
         {
           "id": "onel",
-          "text": "’onel",
+          "text": "onel",
           "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
         },
         {
-          "id": "iraho",
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
           "text": "iraho",
-          "role": "noun",
+          "role": "pred2",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -1897,8 +2314,15 @@
         },
         {
           "id": "ayam",
-          "text": "’ayam",
+          "text": "ayam",
           "role": "noun",
+          "gloss_zh": "鳥",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
           "gloss_zh": "",
           "gloss_en": ""
         }
@@ -1912,18 +2336,22 @@
             "adihayaya",
             "a",
             "onel",
-            "iraho",
+            "comma"
+          ],
+          [
+            "pred2",
             "ko_3",
             "adihayay",
             "a_3",
-            "ayam"
+            "ayam",
+            "period"
           ]
         ],
         "hangs": {},
-        "plus_between_groups": false,
-        "structure": "謂語 Maʼaraw 為中心（自動標記）"
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
       },
-      "structure": "謂語 Maʼaraw 為中心（自動標記）",
+      "structure": "兩句以 ＋ 連接（自動切分）",
       "audio": "https://web.klokah.tw/text/sound/26970/441855.mp3",
       "audio_primary": true
     },
@@ -1941,9 +2369,16 @@
           "gloss_en": ""
         },
         {
-          "id": "lomowadto",
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
           "text": "lomowadto",
-          "role": "noun",
+          "role": "pred2",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -1953,21 +2388,32 @@
           "role": "pronoun",
           "gloss_zh": "咱們",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
             "pred",
-            "lomowadto",
-            "kita"
+            "comma"
+          ],
+          [
+            "pred2",
+            "kita",
+            "period"
           ]
         ],
         "hangs": {},
-        "plus_between_groups": false,
-        "structure": "謂語 Kalamkamen 為中心（自動標記）"
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
       },
-      "structure": "謂語 Kalamkamen 為中心（自動標記）",
+      "structure": "兩句以 ＋ 連接（自動切分）",
       "audio": "https://web.klokah.tw/text/sound/26970/441856.mp3",
       "audio_primary": true
     },
@@ -1992,9 +2438,16 @@
           "gloss_en": ""
         },
         {
-          "id": "rarima",
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
           "text": "rarima",
-          "role": "noun",
+          "role": "pred2",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -2018,6 +2471,13 @@
           "role": "pronoun",
           "gloss_zh": "我的",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -2025,17 +2485,21 @@
           [
             "pred",
             "kako",
-            "rarima",
+            "comma"
+          ],
+          [
+            "pred2",
             "ko",
             "waʼay",
-            "ako"
+            "ako",
+            "period"
           ]
         ],
         "hangs": {},
-        "plus_between_groups": false,
-        "structure": "謂語 Talaen 為中心（自動標記）"
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
       },
-      "structure": "謂語 Talaen 為中心（自動標記）",
+      "structure": "兩句以 ＋ 連接（自動切分）",
       "audio": "https://web.klokah.tw/text/sound/26970/441857.mp3",
       "audio_primary": true
     },
@@ -2079,6 +2543,13 @@
           "role": "particle",
           "gloss_zh": "助詞",
           "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -2088,7 +2559,8 @@
             "kita",
             "a",
             "midangoy",
-            "haw"
+            "haw",
+            "q"
           ]
         ],
         "hangs": {},
@@ -2113,9 +2585,23 @@
           "gloss_en": ""
         },
         {
+          "id": "excl",
+          "text": "!",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "tata",
           "text": "Tata",
           "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
           "gloss_zh": "",
           "gloss_en": ""
         }
@@ -2124,7 +2610,9 @@
         "groups": [
           [
             "pred",
-            "tata"
+            "excl",
+            "tata",
+            "period"
           ]
         ],
         "hangs": {},
@@ -2143,9 +2631,9 @@
       "tokens": [
         {
           "id": "pred",
-          "text": "’Aloman",
+          "text": "Aloman",
           "role": "pred",
-          "gloss_zh": "",
+          "gloss_zh": "多",
           "gloss_en": ""
         },
         {
@@ -2182,6 +2670,13 @@
           "role": "noun",
           "gloss_zh": "這裡",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -2192,14 +2687,15 @@
             "tamdaw",
             "a",
             "midangoy",
-            "itini"
+            "itini",
+            "period"
           ]
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 ’Aloman 為中心（自動標記）"
+        "structure": "謂語 Aloman 為中心（自動標記）"
       },
-      "structure": "謂語 ’Aloman 為中心（自動標記）",
+      "structure": "謂語 Aloman 為中心（自動標記）",
       "audio": "https://web.klokah.tw/text/sound/26970/441860.mp3",
       "audio_primary": true
     },
@@ -2238,9 +2734,16 @@
           "gloss_en": ""
         },
         {
-          "id": "itini",
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
           "text": "itini",
-          "role": "noun",
+          "role": "pred2",
           "gloss_zh": "這裡",
           "gloss_en": ""
         },
@@ -2271,6 +2774,13 @@
           "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -2280,18 +2790,22 @@
             "ko",
             "nanom",
             "itira",
-            "itini",
+            "comma"
+          ],
+          [
+            "pred2",
             "to",
             "kita",
             "a",
-            "midangoy"
+            "midangoy",
+            "period"
           ]
         ],
         "hangs": {},
-        "plus_between_groups": false,
-        "structure": "謂語 Talolong 為中心（自動標記）"
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
       },
-      "structure": "謂語 Talolong 為中心（自動標記）",
+      "structure": "兩句以 ＋ 連接（自動切分）",
       "audio": "https://web.klokah.tw/text/sound/26970/441861.mp3",
       "audio_primary": true
     }

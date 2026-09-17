@@ -22,6 +22,13 @@
           "gloss_en": ""
         },
         {
+          "id": "slash",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "pred",
           "text": "awaay",
           "role": "pred",
@@ -33,6 +40,7 @@
         "groups": [
           [
             "awa",
+            "slash",
             "pred"
           ]
         ],
@@ -58,6 +66,13 @@
           "gloss_en": ""
         },
         {
+          "id": "slash",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "pred",
           "text": "caʼka",
           "role": "pred",
@@ -69,6 +84,7 @@
         "groups": [
           [
             "cowa",
+            "slash",
             "pred"
           ]
         ],
@@ -94,6 +110,13 @@
           "gloss_en": ""
         },
         {
+          "id": "slash",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "akaa",
           "text": "akaa",
           "role": "noun",
@@ -101,10 +124,24 @@
           "gloss_en": ""
         },
         {
+          "id": "slash_3",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "akaka",
           "text": "akaka",
           "role": "noun",
           "gloss_zh": "不要[表未來不要",
+          "gloss_en": ""
+        },
+        {
+          "id": "slash_4",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
           "gloss_en": ""
         },
         {
@@ -119,8 +156,11 @@
         "groups": [
           [
             "pred",
+            "slash",
             "akaa",
+            "slash_3",
             "akaka",
+            "slash_4",
             "caʼto"
           ]
         ],

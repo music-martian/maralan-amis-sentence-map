@@ -78,6 +78,13 @@
           "gloss_en": ""
         },
         {
+          "id": "slash",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "kacaciyaw",
           "text": "kacaciyaw",
           "role": "noun",
@@ -89,6 +96,7 @@
         "groups": [
           [
             "pred",
+            "slash",
             "kacaciyaw"
           ]
         ],
@@ -164,7 +172,7 @@
       "tokens": [
         {
           "id": "pred",
-          "text": "kamaro’",
+          "text": "kamaro",
           "role": "pred",
           "gloss_zh": "坐下",
           "gloss_en": ""
@@ -178,9 +186,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 kamaro’ 為中心（自動標記）"
+        "structure": "謂語 kamaro 為中心（自動標記）"
       },
-      "structure": "謂語 kamaro’ 為中心（自動標記）",
+      "structure": "謂語 kamaro 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_junior/sound/4/1word/17_6.mp3",
       "audio_primary": true
     },

@@ -46,6 +46,13 @@
           "role": "pronoun",
           "gloss_zh": "我的",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -55,7 +62,8 @@
             "kacaw",
             "ko",
             "tadawidang",
-            "ako"
+            "ako",
+            "period"
           ]
         ],
         "hangs": {},
@@ -83,7 +91,7 @@
           "id": "i",
           "text": "i",
           "role": "case",
-          "gloss_zh": "呢",
+          "gloss_zh": "在",
           "gloss_en": ""
         },
         {
@@ -113,6 +121,13 @@
           "role": "noun",
           "gloss_zh": "讀書",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -123,7 +138,8 @@
             "matang",
             "kami",
             "a",
-            "mitilid"
+            "mitilid",
+            "period"
           ]
         ],
         "hangs": {},
@@ -211,9 +227,16 @@
           "gloss_en": ""
         },
         {
-          "id": "mafanaʼay",
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
           "text": "Mafanaʼay",
-          "role": "noun",
+          "role": "pred2",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -237,6 +260,13 @@
           "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -252,10 +282,12 @@
             "pipakongko",
             "no",
             "malitengay",
-            "mafanaʼay",
+            "comma",
+            "pred2",
             "kami_3",
             "a_4",
-            "misanoʼamis"
+            "misanoʼamis",
+            "period"
           ]
         ],
         "hangs": {},
@@ -274,7 +306,7 @@
       "tokens": [
         {
           "id": "pred",
-          "text": "’Kawangay",
+          "text": "Kawangay",
           "role": "pred",
           "gloss_zh": "",
           "gloss_en": ""
@@ -301,9 +333,16 @@
           "gloss_en": ""
         },
         {
-          "id": "amerekay",
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
           "text": "Amerekay",
-          "role": "noun",
+          "role": "pred2",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -334,6 +373,13 @@
           "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -343,18 +389,22 @@
             "a",
             "masosoay",
             "kako",
-            "amerekay",
+            "comma"
+          ],
+          [
+            "pred2",
             "a_3",
             "mangiliway",
             "ci",
-            "kacaw"
+            "kacaw",
+            "period"
           ]
         ],
         "hangs": {},
-        "plus_between_groups": false,
-        "structure": "謂語 ’Kawangay 為中心（自動標記）"
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
       },
-      "structure": "謂語 ’Kawangay 為中心（自動標記）",
+      "structure": "兩句以 ＋ 連接（自動切分）",
       "audio": "https://web.klokah.tw/text/sound/63858/897482.mp3",
       "audio_primary": true
     },
@@ -382,6 +432,13 @@
           "id": "kacaw",
           "text": "Kacaw",
           "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -419,6 +476,13 @@
           "role": "noun",
           "gloss_zh": "他",
           "gloss_en": ""
+        },
+        {
+          "id": "period_3",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -427,9 +491,11 @@
             "pred",
             "ci",
             "kacaw",
+            "period",
             "o",
             "kaolahan",
-            "cira"
+            "cira",
+            "period_3"
           ]
         ],
         "hangs": {

@@ -39,6 +39,13 @@
           "role": "pronoun",
           "gloss_zh": "你的",
           "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -47,7 +54,8 @@
             "pred",
             "ko",
             "salikaka",
-            "iso"
+            "iso",
+            "q"
           ]
         ],
         "hangs": {},
@@ -101,9 +109,16 @@
           "gloss_en": ""
         },
         {
-          "id": "cecay",
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
           "text": "cecay",
-          "role": "noun",
+          "role": "pred2",
           "gloss_zh": "一",
           "gloss_en": ""
         },
@@ -136,9 +151,16 @@
           "gloss_en": ""
         },
         {
-          "id": "cecay_3",
+          "id": "comma_3",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "cecay",
           "text": "cecay",
-          "role": "noun",
+          "role": "pred2",
           "gloss_zh": "一",
           "gloss_en": ""
         },
@@ -169,6 +191,13 @@
           "role": "noun",
           "gloss_zh": "弟；妹",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -179,16 +208,19 @@
             "faʼinayan",
             "a",
             "kaka",
-            "cecay",
+            "comma",
+            "pred2",
             "ko_3",
             "faʼinayan_3",
             "a_3",
             "safa",
-            "cecay_3",
+            "comma_3",
+            "cecay",
             "ko_4",
             "fafahiyan",
             "a_4",
-            "safa_3"
+            "safa_3",
+            "period"
           ]
         ],
         "hangs": {},
@@ -247,6 +279,13 @@
           "role": "noun",
           "gloss_zh": "他",
           "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -257,7 +296,8 @@
             "ko",
             "tayal",
             "na",
-            "mira"
+            "mira",
+            "q"
           ]
         ],
         "hangs": {},
@@ -300,20 +340,34 @@
           "id": "i",
           "text": "i",
           "role": "case",
-          "gloss_zh": "呢",
+          "gloss_zh": "在",
           "gloss_en": ""
         },
         {
-          "id": "malakisiyaay",
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
           "text": "malakisiyaay",
-          "role": "noun",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "comma_3",
+          "text": ",",
+          "role": "punct",
           "gloss_zh": "",
           "gloss_en": ""
         },
         {
           "id": "safa",
           "text": "safa",
-          "role": "noun",
+          "role": "pred2",
           "gloss_zh": "弟；妹",
           "gloss_en": ""
         },
@@ -339,9 +393,16 @@
           "gloss_en": ""
         },
         {
+          "id": "comma_4",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "safa_3",
           "text": "safa",
-          "role": "noun",
+          "role": "pred2",
           "gloss_zh": "弟；妹",
           "gloss_en": ""
         },
@@ -377,13 +438,20 @@
           "id": "i_3",
           "text": "i",
           "role": "case",
-          "gloss_zh": "呢",
+          "gloss_zh": "在",
           "gloss_en": ""
         },
         {
           "id": "taykak",
           "text": "taykak",
           "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
           "gloss_zh": "",
           "gloss_en": ""
         }
@@ -395,18 +463,22 @@
             "kaka",
             "ako",
             "i",
-            "malakisiyaay",
+            "comma",
+            "pred2",
+            "comma_3",
             "safa",
             "to",
             "faʼinayan",
             "malaisingay",
+            "comma_4",
             "safa_3",
             "to_3",
             "fafahiyan",
             "mitiliday",
             "ho",
             "i_3",
-            "taykak"
+            "taykak",
+            "period"
           ]
         ],
         "hangs": {},
@@ -451,6 +523,13 @@
           "role": "particle",
           "gloss_zh": "助詞",
           "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -459,7 +538,8 @@
             "pred",
             "to",
             "kiso",
-            "haw"
+            "haw",
+            "q"
           ]
         ],
         "hangs": {},
@@ -485,9 +565,16 @@
           "gloss_en": ""
         },
         {
-          "id": "sifafahiay",
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
           "text": "sifafahiay",
-          "role": "noun",
+          "role": "pred2",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -504,22 +591,33 @@
           "role": "pronoun",
           "gloss_zh": "我",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
             "pred",
-            "sifafahiay",
+            "comma"
+          ],
+          [
+            "pred2",
             "to",
-            "kako"
+            "kako",
+            "period"
           ]
         ],
         "hangs": {},
-        "plus_between_groups": false,
-        "structure": "謂語 Hay 為中心（自動標記）"
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
       },
-      "structure": "謂語 Hay 為中心（自動標記）",
+      "structure": "兩句以 ＋ 連接（自動切分）",
       "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c11s6.mp3",
       "audio_primary": true,
       "speaker": "Maysang"
@@ -557,6 +655,13 @@
           "role": "pronoun",
           "gloss_zh": "你們",
           "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -565,7 +670,8 @@
             "pred",
             "ko",
             "kasasoʼaraw",
-            "namo"
+            "namo",
+            "q"
           ]
         ],
         "hangs": {},

@@ -78,6 +78,13 @@
           "gloss_en": ""
         },
         {
+          "id": "slash",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "kaemangay",
           "text": "kaemangay",
           "role": "noun",
@@ -89,6 +96,7 @@
         "groups": [
           [
             "pred",
+            "slash",
             "kaemangay"
           ]
         ],
@@ -258,6 +266,13 @@
           "gloss_en": ""
         },
         {
+          "id": "slash",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "widang",
           "text": "widang",
           "role": "noun",
@@ -269,6 +284,7 @@
         "groups": [
           [
             "pred",
+            "slash",
             "widang"
           ]
         ],

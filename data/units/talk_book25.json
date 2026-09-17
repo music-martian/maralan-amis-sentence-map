@@ -37,7 +37,7 @@
           "id": "i",
           "text": "i",
           "role": "case",
-          "gloss_zh": "呢",
+          "gloss_zh": "在",
           "gloss_en": ""
         },
         {
@@ -45,6 +45,13 @@
           "text": "nacila",
           "role": "noun",
           "gloss_zh": "昨天",
+          "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
           "gloss_en": ""
         }
       ],
@@ -55,7 +62,8 @@
             "kamo",
             "misalama",
             "i",
-            "nacila"
+            "nacila",
+            "q"
           ]
         ],
         "hangs": {},
@@ -93,6 +101,13 @@
           "role": "noun",
           "gloss_zh": "玩耍",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -100,7 +115,8 @@
           [
             "pred",
             "kami",
-            "misalama"
+            "misalama",
+            "period"
           ]
         ],
         "hangs": {},
@@ -138,6 +154,13 @@
           "role": "noun",
           "gloss_zh": "去",
           "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -145,7 +168,8 @@
           [
             "pred",
             "kamo",
-            "tayra"
+            "tayra",
+            "q"
           ]
         ],
         "hangs": {},
@@ -176,13 +200,21 @@
           "role": "pronoun",
           "gloss_zh": "我們",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
             "pred",
-            "kami"
+            "kami",
+            "period"
           ]
         ],
         "hangs": {},
@@ -218,7 +250,7 @@
           "id": "i",
           "text": "i",
           "role": "case",
-          "gloss_zh": "呢",
+          "gloss_zh": "在",
           "gloss_en": ""
         },
         {
@@ -234,6 +266,13 @@
           "role": "particle",
           "gloss_zh": "助詞",
           "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -243,7 +282,8 @@
             "kamo",
             "i",
             "piyhaytaw",
-            "haw"
+            "haw",
+            "q"
           ]
         ],
         "hangs": {},
@@ -267,12 +307,20 @@
           "role": "pred",
           "gloss_zh": "Dakoc：有。",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
-            "pred"
+            "pred",
+            "period"
           ]
         ],
         "hangs": {},
@@ -310,6 +358,13 @@
           "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -317,7 +372,8 @@
           [
             "pred",
             "kora",
-            "pala"
+            "pala",
+            "q"
           ]
         ],
         "hangs": {},

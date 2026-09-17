@@ -32,6 +32,13 @@ const GREETINGS = {
           "role": "pronoun",
           "gloss_zh": "你",
           "gloss_en": "you"
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -39,7 +46,8 @@ const GREETINGS = {
           [
             "pred",
             "ko",
-            "miso"
+            "miso",
+            "q"
           ]
         ],
         "hangs": {},
@@ -71,6 +79,13 @@ const GREETINGS = {
           "gloss_en": "I"
         },
         {
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "kiso",
           "text": "kiso",
           "role": "pronoun",
@@ -81,19 +96,28 @@ const GREETINGS = {
           "id": "i",
           "text": "i",
           "role": "particle",
-          "gloss_zh": "呢",
+          "gloss_zh": "在",
           "gloss_en": "Q-particle"
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
             "pred",
-            "kako"
+            "kako",
+            "comma"
           ],
           [
             "kiso",
-            "i"
+            "i",
+            "q"
           ]
         ],
         "hangs": {},
@@ -132,6 +156,13 @@ const GREETINGS = {
           "gloss_en": "I"
         },
         {
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "awiday",
           "text": "awiday",
           "role": "pred2",
@@ -144,6 +175,13 @@ const GREETINGS = {
           "role": "pronoun",
           "gloss_zh": "對你",
           "gloss_en": "to-you"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -151,11 +189,13 @@ const GREETINGS = {
           [
             "mamaan",
             "pred",
-            "kako"
+            "kako",
+            "comma"
           ],
           [
             "awiday",
-            "tisowanan"
+            "tisowanan",
+            "period"
           ]
         ],
         "hangs": {},
@@ -185,13 +225,21 @@ const GREETINGS = {
           "role": "pronoun",
           "gloss_zh": "你",
           "gloss_en": "you"
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
             "pred",
-            "kiso"
+            "kiso",
+            "q"
           ]
         ],
         "hangs": {},
@@ -340,12 +388,20 @@ const GREETINGS = {
           "role": "pred2",
           "gloss_zh": "再見",
           "gloss_en": "goodbye"
+        },
+        {
+          "id": "excl",
+          "text": "!",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
-            "pred"
+            "pred2",
+            "excl"
           ]
         ],
         "hangs": {},

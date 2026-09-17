@@ -58,7 +58,7 @@
           "id": "i",
           "text": "i",
           "role": "case",
-          "gloss_zh": "呢",
+          "gloss_zh": "在",
           "gloss_en": ""
         },
         {
@@ -74,6 +74,13 @@
           "role": "adverb",
           "gloss_zh": "今天",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -87,7 +94,8 @@
             "kako",
             "i",
             "kongkoan",
-            "anini"
+            "anini",
+            "period"
           ]
         ],
         "hangs": {},
@@ -126,9 +134,16 @@
           "gloss_en": ""
         },
         {
-          "id": "micomod",
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
           "text": "micomod",
-          "role": "noun",
+          "role": "pred2",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -154,9 +169,16 @@
           "gloss_en": ""
         },
         {
+          "id": "comma_3",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "sowal",
           "text": "sowal",
-          "role": "noun",
+          "role": "pred2",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -182,16 +204,51 @@
           "gloss_en": ""
         },
         {
+          "id": "comma_4",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "quot",
+          "text": "\"",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "katomireng",
           "text": "katomireng",
-          "role": "noun",
+          "role": "pred2",
           "gloss_zh": "起立",
+          "gloss_en": ""
+        },
+        {
+          "id": "excl",
+          "text": "!",
+          "role": "punct",
+          "gloss_zh": "",
           "gloss_en": ""
         },
         {
           "id": "mitaʼong",
           "text": "mitaʼong",
           "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "excl_3",
+          "text": "!",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "quot_3",
+          "text": "\"",
+          "role": "punct",
           "gloss_zh": "",
           "gloss_en": ""
         }
@@ -202,16 +259,23 @@
             "pred",
             "to",
             "minanam",
-            "micomod",
+            "comma",
+            "pred2",
             "to_3",
             "ko",
             "singsi",
+            "comma_3",
             "sowal",
             "sa",
             "ko_3",
             "hanciw",
+            "comma_4",
+            "quot",
             "katomireng",
-            "mitaʼong"
+            "excl",
+            "mitaʼong",
+            "excl_3",
+            "quot_3"
           ]
         ],
         "hangs": {},
@@ -258,15 +322,29 @@
         },
         {
           "id": "ngiha",
-          "text": "ngiha’",
+          "text": "ngiha",
           "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
         },
         {
-          "id": "ngaʼay",
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "quot",
+          "text": "\"",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
           "text": "Ngaʼay",
-          "role": "noun",
+          "role": "pred2",
           "gloss_zh": "可以",
           "gloss_en": ""
         },
@@ -283,6 +361,20 @@
           "role": "noun",
           "gloss_zh": "老師",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "quot_3",
+          "text": "\"",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -293,16 +385,22 @@
             "niyam",
             "ko",
             "ngiha",
-            "ngaʼay",
+            "comma"
+          ],
+          [
+            "quot",
+            "pred2",
             "ho",
-            "singsi"
+            "singsi",
+            "period",
+            "quot_3"
           ]
         ],
         "hangs": {},
-        "plus_between_groups": false,
-        "structure": "謂語 Sataʼangay 為中心（自動標記）"
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
       },
-      "structure": "謂語 Sataʼangay 為中心（自動標記）",
+      "structure": "兩句以 ＋ 連接（自動切分）",
       "audio": "https://web.klokah.tw/text/sound/34141/531422.mp3",
       "audio_primary": true
     },
@@ -323,13 +421,20 @@
           "id": "i",
           "text": "i",
           "role": "case",
-          "gloss_zh": "呢",
+          "gloss_zh": "在",
           "gloss_en": ""
         },
         {
-          "id": "pakafanaʼen",
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
           "text": "pakafanaʼen",
-          "role": "noun",
+          "role": "pred2",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -377,8 +482,15 @@
         },
         {
           "id": "amis",
-          "text": "’Amis",
+          "text": "Amis",
           "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
           "gloss_zh": "",
           "gloss_en": ""
         }
@@ -388,26 +500,28 @@
           [
             "pred",
             "i",
-            "pakafanaʼen",
+            "comma"
+          ],
+          [
+            "pred2",
+            "no",
+            "singsi",
             "kami",
             "to",
-            "saʼosi"
+            "saʼosi",
+            "period"
           ]
         ],
         "hangs": {
-          "pakafanaʼen": [
-            "no",
-            "singsi"
-          ],
           "saʼosi": [
             "no_3",
             "amis"
           ]
         },
-        "plus_between_groups": false,
-        "structure": "謂語為中心；屬格 no/nu 掛於名詞下（自動）"
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
       },
-      "structure": "謂語為中心；屬格 no/nu 掛於名詞下（自動）",
+      "structure": "兩句以 ＋ 連接（自動切分）",
       "audio": "https://web.klokah.tw/text/sound/34141/531423.mp3",
       "audio_primary": true
     },
@@ -460,9 +574,16 @@
           "gloss_en": ""
         },
         {
-          "id": "miraradiw",
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
           "text": "miraradiw",
-          "role": "noun",
+          "role": "pred2",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -507,6 +628,13 @@
           "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -518,13 +646,15 @@
             "singsi",
             "a",
             "misaʼosi",
-            "miraradiw",
+            "comma",
+            "pred2",
             "kami",
             "to",
             "no",
             "saʼosi",
             "a_3",
-            "radiw"
+            "radiw",
+            "period"
           ]
         ],
         "hangs": {},
@@ -599,8 +729,15 @@
         },
         {
           "id": "amis",
-          "text": "’Amis",
+          "text": "Amis",
           "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
           "gloss_zh": "",
           "gloss_en": ""
         }
@@ -612,7 +749,8 @@
             "ko",
             "ninanaman",
             "a",
-            "sowal"
+            "sowal",
+            "period"
           ]
         ],
         "hangs": {
@@ -667,9 +805,16 @@
           "gloss_en": ""
         },
         {
-          "id": "minanam",
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
           "text": "minanam",
-          "role": "noun",
+          "role": "pred2",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -703,7 +848,7 @@
         },
         {
           "id": "amis",
-          "text": "’Amis",
+          "text": "Amis",
           "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
@@ -723,9 +868,16 @@
           "gloss_en": ""
         },
         {
+          "id": "comma_3",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "o",
           "text": "o",
-          "role": "noun",
+          "role": "pred2",
           "gloss_zh": "主題",
           "gloss_en": ""
         },
@@ -777,6 +929,13 @@
           "role": "pronoun",
           "gloss_zh": "我的",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -786,7 +945,8 @@
             "kako",
             "to",
             "romiʼamiʼad",
-            "minanam",
+            "comma",
+            "pred2",
             "kako_3",
             "to_3",
             "sowal",
@@ -794,6 +954,7 @@
             "amis",
             "to_4",
             "romiʼamiʼad_3",
+            "comma_3",
             "o",
             "papatengilen",
             "ako",
@@ -801,7 +962,8 @@
             "ina",
             "to_5",
             "ninanaman",
-            "ako_3"
+            "ako_3",
+            "period"
           ]
         ],
         "hangs": {},

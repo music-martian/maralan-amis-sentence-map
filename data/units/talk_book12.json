@@ -46,6 +46,13 @@
           "role": "pronoun",
           "gloss_zh": "你的",
           "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -55,7 +62,8 @@
             "maan",
             "ko",
             "tayal",
-            "iso"
+            "iso",
+            "q"
           ]
         ],
         "hangs": {},
@@ -93,6 +101,13 @@
           "role": "pronoun",
           "gloss_zh": "我",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -100,7 +115,8 @@
           [
             "pred",
             "malakincacay",
-            "kako"
+            "kako",
+            "period"
           ]
         ],
         "hangs": {},
@@ -159,6 +175,13 @@
           "role": "particle",
           "gloss_zh": "助詞",
           "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -167,7 +190,8 @@
             "pred",
             "ko",
             "tayal",
-            "haw"
+            "haw",
+            "q"
           ]
         ],
         "hangs": {
@@ -217,6 +241,13 @@
           "role": "pronoun",
           "gloss_zh": "我們的",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -225,7 +256,8 @@
             "pred",
             "ko",
             "tayal",
-            "niyam"
+            "niyam",
+            "period"
           ]
         ],
         "hangs": {},
@@ -256,13 +288,21 @@
           "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
             "pred",
-            "manamanan"
+            "manamanan",
+            "q"
           ]
         ],
         "hangs": {},
@@ -302,16 +342,58 @@
           "gloss_en": ""
         },
         {
-          "id": "mitakaway",
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
           "text": "mitakaway",
-          "role": "noun",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "comma_3",
+          "text": ",",
+          "role": "punct",
           "gloss_zh": "",
           "gloss_en": ""
         },
         {
           "id": "misakaniway",
           "text": "misakaniway",
-          "role": "noun",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "period_3",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "period_4",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "period_5",
+          "text": ".",
+          "role": "punct",
           "gloss_zh": "",
           "gloss_en": ""
         }
@@ -322,15 +404,25 @@
             "pred",
             "to",
             "maliʼangay",
-            "mitakaway",
-            "misakaniway"
+            "comma"
+          ],
+          [
+            "pred2",
+            "comma_3"
+          ],
+          [
+            "misakaniway",
+            "period",
+            "period_3",
+            "period_4",
+            "period_5"
           ]
         ],
         "hangs": {},
-        "plus_between_groups": false,
-        "structure": "謂語 Micepet 為中心（自動標記）"
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
       },
-      "structure": "謂語 Micepet 為中心（自動標記）",
+      "structure": "兩句以 ＋ 連接（自動切分）",
       "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c12s6.mp3",
       "audio_primary": true,
       "speaker": "Lopeng"
@@ -345,6 +437,13 @@
           "id": "pred",
           "text": "Ayo",
           "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "excl",
+          "text": "!",
+          "role": "punct",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -382,17 +481,26 @@
           "role": "pronoun",
           "gloss_zh": "你們",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
             "pred",
+            "excl",
             "kalitaʼangan",
             "to",
             "ko",
             "tayal",
-            "namo"
+            "namo",
+            "period"
           ]
         ],
         "hangs": {},

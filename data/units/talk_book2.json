@@ -27,6 +27,13 @@
           "gloss_en": ""
         },
         {
+          "id": "excl",
+          "text": "!",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "cima",
           "text": "Cima",
           "role": "noun",
@@ -39,6 +46,13 @@
           "role": "pronoun",
           "gloss_zh": "你",
           "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -46,8 +60,10 @@
           [
             "pred",
             "ho",
+            "excl",
             "cima",
-            "kiso"
+            "kiso",
+            "q"
           ]
         ],
         "hangs": {},
@@ -85,6 +101,13 @@
           "role": "pronoun",
           "gloss_zh": "我",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -92,7 +115,8 @@
           [
             "pred",
             "komeng",
-            "kako"
+            "kako",
+            "period"
           ]
         ],
         "hangs": {},
@@ -123,13 +147,21 @@
           "role": "noun",
           "gloss_zh": "那個",
           "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
             "pred",
-            "kora"
+            "kora",
+            "q"
           ]
         ],
         "hangs": {},
@@ -169,9 +201,16 @@
           "gloss_en": ""
         },
         {
-          "id": "si",
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
           "text": "si",
-          "role": "noun",
+          "role": "pred2",
           "gloss_zh": "主格標記",
           "gloss_en": ""
         },
@@ -179,6 +218,13 @@
           "id": "tanaka",
           "text": "Tanaka",
           "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
           "gloss_zh": "",
           "gloss_en": ""
         }
@@ -189,15 +235,19 @@
             "pred",
             "widang",
             "ako",
-            "si",
-            "tanaka"
+            "comma"
+          ],
+          [
+            "pred2",
+            "tanaka",
+            "period"
           ]
         ],
         "hangs": {},
-        "plus_between_groups": false,
-        "structure": "謂語 O 為中心（自動標記）"
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
       },
-      "structure": "謂語 O 為中心（自動標記）",
+      "structure": "兩句以 ＋ 連接（自動切分）",
       "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c2s4.mp3",
       "audio_primary": true,
       "speaker": "Komeng"
@@ -228,6 +278,13 @@
           "role": "noun",
           "gloss_zh": "他",
           "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -235,7 +292,8 @@
           [
             "pred",
             "ko",
-            "mira"
+            "mira",
+            "q"
           ]
         ],
         "hangs": {},
@@ -261,9 +319,16 @@
           "gloss_en": ""
         },
         {
-          "id": "tayniay",
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
           "text": "tayniay",
-          "role": "noun",
+          "role": "pred2",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -301,16 +366,27 @@
           "role": "noun",
           "gloss_zh": "",
           "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
         "groups": [
           [
             "pred",
-            "tayniay",
+            "comma"
+          ],
+          [
+            "pred2",
             "minanam",
             "to",
-            "sowal"
+            "sowal",
+            "period"
           ]
         ],
         "hangs": {
@@ -319,10 +395,10 @@
             "ʼamis"
           ]
         },
-        "plus_between_groups": false,
-        "structure": "謂語為中心；屬格 no/nu 掛於名詞下（自動）"
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
       },
-      "structure": "謂語為中心；屬格 no/nu 掛於名詞下（自動）",
+      "structure": "兩句以 ＋ 連接（自動切分）",
       "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c2s6.mp3",
       "audio_primary": true,
       "speaker": "Komeng"
@@ -353,6 +429,13 @@
           "role": "noun",
           "gloss_zh": "那個",
           "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
         }
       ],
       "layout": {
@@ -360,7 +443,8 @@
           [
             "pred",
             "aca",
-            "kora"
+            "kora",
+            "q"
           ]
         ],
         "hangs": {},

@@ -162,10 +162,24 @@
           "gloss_en": ""
         },
         {
+          "id": "slash",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "payci",
           "text": "payci",
           "role": "noun",
           "gloss_zh": "錢",
+          "gloss_en": ""
+        },
+        {
+          "id": "slash_3",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
           "gloss_en": ""
         },
         {
@@ -180,7 +194,9 @@
         "groups": [
           [
             "pred",
+            "slash",
             "payci",
+            "slash_3",
             "pida"
           ]
         ],
@@ -200,7 +216,7 @@
       "tokens": [
         {
           "id": "pred",
-          "text": "riko’",
+          "text": "riko",
           "role": "pred",
           "gloss_zh": "衣服",
           "gloss_en": ""
@@ -214,9 +230,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 riko’ 為中心（自動標記）"
+        "structure": "謂語 riko 為中心（自動標記）"
       },
-      "structure": "謂語 riko’ 為中心（自動標記）",
+      "structure": "謂語 riko 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_junior/sound/4/1word/10_7.mp3",
       "audio_primary": true
     },

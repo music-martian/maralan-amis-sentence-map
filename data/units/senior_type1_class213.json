@@ -162,6 +162,20 @@
           "gloss_en": ""
         },
         {
+          "id": "punc",
+          "text": "；",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "semi",
+          "text": ";",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "saw",
           "text": "saw",
           "role": "particle",
@@ -173,6 +187,8 @@
         "groups": [
           [
             "pred",
+            "punc",
+            "semi",
             "saw"
           ]
         ],
@@ -198,6 +214,13 @@
           "gloss_en": ""
         },
         {
+          "id": "slash",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "sa",
           "text": "sa",
           "role": "noun",
@@ -205,10 +228,24 @@
           "gloss_en": ""
         },
         {
+          "id": "slash_3",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "ca",
           "text": "ca",
           "role": "noun",
           "gloss_zh": "主格標記",
+          "gloss_en": ""
+        },
+        {
+          "id": "slash_4",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
           "gloss_en": ""
         },
         {
@@ -223,8 +260,11 @@
         "groups": [
           [
             "pred",
+            "slash",
             "sa",
+            "slash_3",
             "ca",
+            "slash_4",
             "ko"
           ]
         ],
@@ -250,10 +290,24 @@
           "gloss_en": ""
         },
         {
+          "id": "slash",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "i",
           "text": "i",
           "role": "case",
-          "gloss_zh": "呢",
+          "gloss_zh": "在",
+          "gloss_en": ""
+        },
+        {
+          "id": "slash_3",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
           "gloss_en": ""
         },
         {
@@ -268,7 +322,9 @@
         "groups": [
           [
             "to",
+            "slash",
             "i",
+            "slash_3",
             "pred"
           ]
         ],
@@ -294,10 +350,24 @@
           "gloss_en": ""
         },
         {
+          "id": "slash",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "pred",
           "text": "ni",
           "role": "pred",
           "gloss_zh": "這裡",
+          "gloss_en": ""
+        },
+        {
+          "id": "slash_3",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
           "gloss_en": ""
         },
         {
@@ -312,7 +382,9 @@
         "groups": [
           [
             "no",
+            "slash",
             "pred",
+            "slash_3",
             "na"
           ]
         ],

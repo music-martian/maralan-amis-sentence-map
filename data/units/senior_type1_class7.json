@@ -72,7 +72,7 @@
       "tokens": [
         {
           "id": "pred",
-          "text": "ngoso’",
+          "text": "ngoso",
           "role": "pred",
           "gloss_zh": "鼻子",
           "gloss_en": ""
@@ -86,9 +86,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 ngoso’ 為中心（自動標記）"
+        "structure": "謂語 ngoso 為中心（自動標記）"
       },
-      "structure": "謂語 ngoso’ 為中心（自動標記）",
+      "structure": "謂語 ngoso 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_senior/sound/4/1word/7_3.mp3",
       "audio_primary": true
     },
@@ -218,6 +218,13 @@
           "gloss_en": ""
         },
         {
+          "id": "slash",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
           "id": "pising",
           "text": "pising",
           "role": "noun",
@@ -229,6 +236,7 @@
         "groups": [
           [
             "pred",
+            "slash",
             "pising"
           ]
         ],
@@ -276,7 +284,7 @@
       "tokens": [
         {
           "id": "pred",
-          "text": "oo’",
+          "text": "oo",
           "role": "pred",
           "gloss_zh": "腳",
           "gloss_en": ""
@@ -290,9 +298,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 oo’ 為中心（自動標記）"
+        "structure": "謂語 oo 為中心（自動標記）"
       },
-      "structure": "謂語 oo’ 為中心（自動標記）",
+      "structure": "謂語 oo 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_senior/sound/4/1word/7_10.mp3",
       "audio_primary": true
     },
@@ -332,16 +340,23 @@
       "tokens": [
         {
           "id": "pred",
-          "text": "ccpi’",
+          "text": "ccpi",
           "role": "pred",
-          "gloss_zh": "大腿",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "slash",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
           "gloss_en": ""
         },
         {
           "id": "cepi",
-          "text": "cepi’",
+          "text": "cepi",
           "role": "noun",
-          "gloss_zh": "大腿",
+          "gloss_zh": "",
           "gloss_en": ""
         }
       ],
@@ -349,14 +364,15 @@
         "groups": [
           [
             "pred",
+            "slash",
             "cepi"
           ]
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 ccpi’ 為中心（自動標記）"
+        "structure": "謂語 ccpi 為中心（自動標記）"
       },
-      "structure": "謂語 ccpi’ 為中心（自動標記）",
+      "structure": "謂語 ccpi 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_senior/sound/4/1word/7_12.mp3",
       "audio_primary": true
     }

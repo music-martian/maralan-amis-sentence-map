@@ -44,6 +44,55 @@
 
   const FOOTER = "Klokah · 馬蘭阿美語 · 句型圖（自動標記）";
 
+  const PUNCT_CHARS = "¿¡?!！？。．.,，,;:…/／\"\"''「」『』（）()[]";
+  const PUNCT_RE = new RegExp("^[" + PUNCT_CHARS.replace(/[\]\[\\]/g, "\\$&") + "]+$");
+
+  function isPunctText(text) {
+    return !!text && PUNCT_RE.test(String(text));
+  }
+
+  function isPunctToken(tok) {
+    if (!tok) return false;
+    if (tok.role === "punct") return true;
+    return isPunctText(tok.text);
+  }
+
+  /** Mirror build_corpus.tokenize — keep punct as standalone tokens. */
+  function tokenizeAmis(amis) {
+    if (!amis) return [];
+    const out = [];
+    String(amis)
+      .trim()
+      .split(/\s+/)
+      .filter(Boolean)
+      .forEach((raw) => {
+        splitTokenKeepPunct(raw).forEach((t) => out.push(t));
+      });
+    return out;
+  }
+
+  function splitTokenKeepPunct(tok) {
+    if (!tok) return [];
+    if (isPunctText(tok)) return Array.from(tok);
+    const out = [];
+    let i = 0;
+    while (i < tok.length && isPunctText(tok[i])) {
+      out.push(tok[i]);
+      i += 1;
+    }
+    let j = tok.length;
+    while (j > i && isPunctText(tok[j - 1])) j -= 1;
+    const mid = tok.slice(i, j);
+    const trail = tok.slice(j);
+    if (mid) {
+      mid.split(/([/／])/).forEach((p) => {
+        if (p) out.push(p);
+      });
+    }
+    for (const ch of trail) out.push(ch);
+    return out;
+  }
+
   function svgEl(name, attrs, children) {
     const el = document.createElementNS("http://www.w3.org/2000/svg", name);
     if (attrs) {
@@ -80,9 +129,13 @@
   }
 
   function sizeFor(text, role, fontSize, bead) {
-    const meta = ROLE_META[role] || ROLE_META.pred;
     const tw = measureText(text, fontSize);
     const th = fontSize;
+    if (role === "punct" || isPunctText(text)) {
+      const h = bead ? 44 : 50;
+      return { w: Math.max(tw + 6, 14), h };
+    }
+    const meta = ROLE_META[role] || ROLE_META.pred;
     if (meta.shape === "oval") {
       const h = Math.max(th + 18, 44);
       const w = Math.max(tw + 22, h * 1.15);
@@ -108,6 +161,7 @@
         const prev = nodes[i - 1];
         let g = tightAfter.has(prev.id) || prev.role === "case" ? 14 : gap;
         if (n.role === "case") g = 14;
+        if (isPunctToken(prev) || isPunctToken(n)) g = Math.min(g, 8);
         x += g;
       }
       n.cx = x + n.w / 2;
@@ -148,14 +202,15 @@
   }
 
   function wordsInAmisSentence(sent) {
-    return String(sent)
-      .replace(/[.!?。！？]/g, " ")
-      .trim()
-      .split(/\s+/)
-      .filter(Boolean);
+    // Prefer punct-keeping tokenize so counts match bead tokens (incl. ? / ,)
+    return tokenizeAmis(sent);
   }
 
-  /** Group bead nodes by sentence boundaries in sentence.amis (yellow-line splits). */
+  /**
+   * Group bead nodes by sentence boundaries in sentence.amis.
+   * Align by re-tokenizing each Amis sentence (punct kept); trailing punct
+   * stays with the sentence that owns it.
+   */
   function groupBeadsBySentence(nodes, sentence) {
     const sents = splitAmisSentences((sentence && sentence.amis) || "");
     if (!nodes.length) return [];
@@ -165,9 +220,14 @@
     sents.forEach((sent) => {
       const n = wordsInAmisSentence(sent).length;
       if (n <= 0) return;
-      const slice = nodes.slice(idx, idx + n);
+      // Prefer exact tokenize count (includes punct); if mismatch, fall back
+      // to counting only non-punct content words from remaining nodes.
+      let take = n;
+      const remaining = nodes.length - idx;
+      if (take > remaining) take = remaining;
+      const slice = nodes.slice(idx, idx + take);
       if (slice.length) groups.push(slice);
-      idx += n;
+      idx += take;
     });
     if (idx < nodes.length) {
       const rest = nodes.slice(idx);
@@ -250,8 +310,9 @@
     const partitions = [];
     let idx = 0;
     sents.forEach((sent) => {
-      const n = wordsInAmisSentence(sent).length;
+      let n = wordsInAmisSentence(sent).length;
       if (n <= 0) return;
+      if (n > flat.length - idx) n = flat.length - idx;
       const slice = flat.slice(idx, idx + n);
       if (slice.length) partitions.push(slice);
       idx += n;
@@ -299,15 +360,36 @@
   }
 
   function drawShape(parent, node, fontSize, strokeW, displayText, clickable, onClick) {
+    const punct = isPunctToken(node);
     const meta = ROLE_META[node.role] || ROLE_META.pred;
     const g = svgEl("g", {
-      class: "token-shape" + (clickable ? " clickable" : ""),
+      class: "token-shape" + (punct ? " token-punct" : "") + (clickable ? " clickable" : ""),
       "data-token-id": node.id,
       style: clickable ? "cursor:pointer" : null,
     });
 
     const x0 = node.cx - node.w / 2;
     const y0 = node.cy - node.h / 2;
+
+    if (punct) {
+      // Plain punctuation between/after beads — no capsule fill
+      const label = displayText == null ? node.text : displayText;
+      g.appendChild(
+        svgEl("text", {
+          x: node.cx,
+          y: node.cy,
+          fill: COLORS.text,
+          "font-size": fontSize,
+          "font-weight": 700,
+          "font-family": '"Segoe UI","Helvetica Neue",Arial,"Noto Sans","Noto Sans CJK TC","Noto Sans TC","PingFang TC",sans-serif',
+          "text-anchor": "middle",
+          "dominant-baseline": "central",
+          textContent: label,
+        })
+      );
+      parent.appendChild(g);
+      return;
+    }
 
     if (meta.shape === "oval") {
       g.appendChild(
@@ -433,12 +515,14 @@
   }
 
   function displayFor(tok, practice, revealed) {
+    if (isPunctToken(tok)) return tok.text;
     if (!practice) return tok.text;
     if (revealed && revealed.has(tok.id)) return tok.text;
     return "· · ·";
   }
 
   function glossFor(tok, practice, revealed) {
+    if (isPunctToken(tok)) return "";
     const meta = ROLE_META[tok.role] || ROLE_META.pred;
     if (practice) {
       if (!(revealed && revealed.has(tok.id))) return "";
@@ -448,6 +532,7 @@
   }
 
   function beadGloss(tok, practice, revealed) {
+    if (isPunctToken(tok)) return "";
     if (practice && !(revealed && revealed.has(tok.id))) return "";
     return tok.gloss_zh || tok.gloss_en || "";
   }
@@ -582,13 +667,14 @@
     });
     beads.forEach((n) => {
       const tok = byId[n.id];
+      const clickable = practice && tok && !isPunctToken(tok);
       drawShape(
         layer,
         n,
         beadFont,
         3.5,
         displayFor(tok, practice, revealed),
-        practice,
+        clickable,
         onReveal
       );
       drawGloss(layer, n, beadGlossFont, beadGloss(tok, practice, revealed));
@@ -654,7 +740,10 @@
       for (let i = 0; i < gnodes.length; i++) {
         const n = gnodes[i];
         if ((n.role === "pred" || n.role === "pred2") && i + 1 < gnodes.length) {
-          const nxt = gnodes[i + 1];
+          let j = i + 1;
+          while (j < gnodes.length && isPunctToken(gnodes[j])) j += 1;
+          if (j >= gnodes.length) break;
+          const nxt = gnodes[j];
           if (nxt.role === "case" || nxt.role === "pronoun") {
             const mx = (n.cx + n.w / 2 + nxt.cx - nxt.w / 2) / 2;
             drawTick(layer, mx, n.cy, 14, stroke, COLORS.black);
@@ -725,19 +814,23 @@
       shiftNodes(rowNodes, startX - curStart);
       chainEdges(rowNodes);
       drawPredTicks(rowNodes);
-      const parentIds = rowNodes.map((n) => n.id).filter((id) => hangNodes[id]);
+      const parentIds = rowNodes
+        .filter((n) => !isPunctToken(n))
+        .map((n) => n.id)
+        .filter((id) => hangNodes[id]);
       layoutHangsForParents(parentIds, yHang);
     });
 
     Object.values(allNodes).forEach((n) => {
       const tok = byId[n.id];
+      const clickable = practice && tok && !isPunctToken(tok);
       drawShape(
         layer,
         n,
         nodeFont,
         stroke,
         displayFor(tok, practice, revealed),
-        practice,
+        clickable,
         onReveal
       );
       drawGloss(layer, n, glossFont, glossFor(tok, practice, revealed));
