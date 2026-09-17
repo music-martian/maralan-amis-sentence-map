@@ -268,7 +268,8 @@ body {
   display: block;
   width: 100%;
   height: auto;
-  max-height: 78vh;
+  /* Let fitted viewBox height show at full width; page scrolls if tall */
+  max-height: none;
 }
 
 .token-shape.clickable:hover rect,

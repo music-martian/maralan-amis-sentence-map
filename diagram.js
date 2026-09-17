@@ -605,13 +605,18 @@
 
     const extraBeadH = beadLayout.height || 0;
     const mapRowPitch = 120;
-    // Rough map-row estimate (refined after node measure): sentence partitions,
-    // each further width-wrapped. Use bead row count as a safe lower bound proxy
-    // then expand H again if map needs more rows after layout.
+    // Fit frame to content (same density as short sentences — no huge empty map).
+    // Estimate map rows from beads; refine after wrap, then shrink H to content.
     let mapRowEstimate = Math.max(1, beadLayout.rowCount || 1);
-    let mapRowExtra = Math.max(0, mapRowEstimate - 1) * mapRowPitch;
-    let H = 680 + extraBeadH + mapRowExtra;
+    const mapTopPad = 48;
+    const mapBottomPad = 88; // structure line + padding inside map
+    const mapFooter = 90; // legend + footer below map
+    function heightForMapRows(nRows) {
+      const mapInner = mapTopPad + Math.max(0, nRows - 1) * mapRowPitch + mapBottomPad;
+      return mapY0 + mapInner + mapFooter;
+    }
     const mapY0 = 172 + extraBeadH;
+    let H = heightForMapRows(mapRowEstimate);
 
     const svg = svgEl("svg", {
       viewBox: `0 0 ${W} ${H}`,
@@ -659,10 +664,13 @@
       )
     );
 
-    // --- Bead rows (one row per sentence; wrap within sentence if needed) ---
+    // --- Bead rows: connect adjacent word beads only (never through punctuation) ---
     beadLayout.rows.forEach((r) => {
-      if (r.length >= 2) {
-        thickLine(layer, r[0].cx, r[0].cy, r[r.length - 1].cx, r[0].cy, 3, COLORS.black);
+      for (let i = 0; i < r.length - 1; i++) {
+        const a = r[i];
+        const b = r[i + 1];
+        if (isPunctToken(a) || isPunctToken(b)) continue;
+        thickLine(layer, a.cx, a.cy, b.cx, b.cy, 3, COLORS.black);
       }
     });
     beads.forEach((n) => {
@@ -732,6 +740,8 @@
       for (let i = 0; i < gnodes.length - 1; i++) {
         const a = gnodes[i];
         const b = gnodes[i + 1];
+        // No connector into/out of punctuation (e.g. wawa / kaemangay, … .)
+        if (isPunctToken(a) || isPunctToken(b)) continue;
         thickLine(layer, a.cx, a.cy, b.cx, b.cy, stroke, COLORS.black);
       }
     }
@@ -789,14 +799,15 @@
       });
     }
 
-    if (wrappedMapRows.length > mapRowEstimate) {
-      const add = (wrappedMapRows.length - mapRowEstimate) * mapRowPitch;
-      H += add;
-      mapRowEstimate = wrappedMapRows.length;
+    // Always size frame to actual map rows (avoids tall empty gray on long paragraphs).
+    {
+      const nRows = Math.max(1, wrappedMapRows.length || mapRowEstimate);
+      mapRowEstimate = nRows;
+      H = heightForMapRows(nRows);
       svg.setAttribute("viewBox", "0 0 " + W + " " + H);
       frameRect.setAttribute("height", String(H));
       mintRect.setAttribute("height", String(H - 32));
-      mapBox.y1 = H - 90;
+      mapBox.y1 = H - mapFooter;
       mapRect.setAttribute("height", String(mapBox.y1 - mapBox.y0));
     }
 
