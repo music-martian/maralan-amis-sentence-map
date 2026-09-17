@@ -118,44 +118,99 @@
   }
 
 
-  function layoutBeadsWrapped(nodes, y0, gap, maxWidth, rowGap) {
-    rowGap = rowGap || 56;
-    if (!nodes.length) return { width: 0, height: 0, rows: [] };
-    const rows = [];
-    let row = [];
-    let rowWidth = 0;
-    nodes.forEach((n, i) => {
-      const g = row.length ? gap : 0;
-      const need = n.w + g;
-      if (row.length && rowWidth + need > maxWidth) {
-        rows.push(row);
-        row = [];
-        rowWidth = 0;
+  function splitAmisSentences(amis) {
+    if (!amis) return [];
+    const parts = [];
+    let buf = "";
+    for (const ch of String(amis)) {
+      buf += ch;
+      if (/[.!?。！？]/.test(ch)) {
+        const t = buf.trim();
+        if (t) parts.push(t);
+        buf = "";
       }
-      const g2 = row.length ? gap : 0;
-      rowWidth += g2 + n.w;
-      row.push(n);
-    });
-    if (row.length) rows.push(row);
+    }
+    if (buf.trim()) parts.push(buf.trim());
+    return parts.length ? parts : [String(amis).trim()];
+  }
 
+  function wordsInAmisSentence(sent) {
+    return String(sent)
+      .replace(/[.!?。！？]/g, " ")
+      .trim()
+      .split(/\s+/)
+      .filter(Boolean);
+  }
+
+  /** Group bead nodes by sentence boundaries in sentence.amis (yellow-line splits). */
+  function groupBeadsBySentence(nodes, sentence) {
+    const sents = splitAmisSentences((sentence && sentence.amis) || "");
+    if (!nodes.length) return [];
+    if (sents.length <= 1) return [nodes.slice()];
+    const groups = [];
+    let idx = 0;
+    sents.forEach((sent) => {
+      const n = wordsInAmisSentence(sent).length;
+      if (n <= 0) return;
+      const slice = nodes.slice(idx, idx + n);
+      if (slice.length) groups.push(slice);
+      idx += n;
+    });
+    if (idx < nodes.length) {
+      const rest = nodes.slice(idx);
+      if (groups.length) groups[groups.length - 1] = groups[groups.length - 1].concat(rest);
+      else groups.push(rest);
+    }
+    return groups.length ? groups : [nodes.slice()];
+  }
+
+  /**
+   * Layout beads: new row at each sentence boundary; also wrap within a
+   * sentence if that sentence alone exceeds maxWidth.
+   */
+  function layoutBeadsWrapped(nodes, y0, gap, maxWidth, rowGap, sentence) {
+    rowGap = rowGap || 56;
+    if (!nodes.length) return { width: 0, height: 0, rows: [], rowCount: 0, rowGap };
+    const groups = groupBeadsBySentence(nodes, sentence || {});
+    const rows = [];
+    let y = y0;
     let maxRowW = 0;
-    rows.forEach((r, ri) => {
-      const y = y0 + ri * rowGap;
+
+    function flushRow(row) {
+      if (!row.length) return;
       let x = 0;
-      r.forEach((n, i) => {
+      row.forEach((n, i) => {
         if (i) x += gap;
         n.cx = x + n.w / 2;
         n.cy = y;
-        n._row = ri;
+        n._row = rows.length;
         x += n.w;
       });
+      row._width = x;
       maxRowW = Math.max(maxRowW, x);
-      // center each row later via shift
-      r._width = x;
+      rows.push(row);
+      y += rowGap;
+    }
+
+    groups.forEach((group) => {
+      let row = [];
+      let rowWidth = 0;
+      group.forEach((n) => {
+        const need = n.w + (row.length ? gap : 0);
+        if (row.length && rowWidth + need > maxWidth) {
+          flushRow(row);
+          row = [];
+          rowWidth = 0;
+        }
+        rowWidth += (row.length ? gap : 0) + n.w;
+        row.push(n);
+      });
+      flushRow(row);
     });
+
     return {
       width: maxRowW,
-      height: (rows.length - 1) * rowGap,
+      height: rows.length ? (rows.length - 1) * rowGap : 0,
       rows,
       rowCount: rows.length,
       rowGap,
@@ -408,7 +463,7 @@
     const beadY0 = 88;
     const beadMaxW = W - 80;
     const beads = sentence.tokens.map((t) => makeNode(t, beadFont, true));
-    const beadLayout = layoutBeadsWrapped(beads, beadY0, 10, beadMaxW, 58);
+    const beadLayout = layoutBeadsWrapped(beads, beadY0, 10, beadMaxW, 58, sentence);
     beadLayout.rows.forEach((r) => {
       const dx = (W - r._width) / 2;
       r.forEach((n) => {
@@ -466,7 +521,7 @@
       )
     );
 
-    // --- Bead rows (wrapped) ---
+    // --- Bead rows (one row per sentence; wrap within sentence if needed) ---
     beadLayout.rows.forEach((r) => {
       if (r.length >= 2) {
         thickLine(layer, r[0].cx, r[0].cy, r[r.length - 1].cx, r[0].cy, 3, COLORS.black);
