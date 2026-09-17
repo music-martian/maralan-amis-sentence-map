@@ -165,8 +165,8 @@
   }
 
   /**
-   * Layout beads: new row at each sentence boundary; also wrap within a
-   * sentence if that sentence alone exceeds maxWidth.
+   * Layout beads: exactly one row per Amis sentence (no mid-sentence wrap).
+   * Only split at sentence endings in sentence.amis (. ! ? 。！？).
    */
   function layoutBeadsWrapped(nodes, y0, gap, maxWidth, rowGap, sentence) {
     rowGap = rowGap || 56;
@@ -176,36 +176,20 @@
     let y = y0;
     let maxRowW = 0;
 
-    function flushRow(row) {
-      if (!row.length) return;
+    groups.forEach((group) => {
+      if (!group.length) return;
       let x = 0;
-      row.forEach((n, i) => {
+      group.forEach((n, i) => {
         if (i) x += gap;
         n.cx = x + n.w / 2;
         n.cy = y;
         n._row = rows.length;
         x += n.w;
       });
-      row._width = x;
+      group._width = x;
       maxRowW = Math.max(maxRowW, x);
-      rows.push(row);
+      rows.push(group);
       y += rowGap;
-    }
-
-    groups.forEach((group) => {
-      let row = [];
-      let rowWidth = 0;
-      group.forEach((n) => {
-        const need = n.w + (row.length ? gap : 0);
-        if (row.length && rowWidth + need > maxWidth) {
-          flushRow(row);
-          row = [];
-          rowWidth = 0;
-        }
-        rowWidth += (row.length ? gap : 0) + n.w;
-        row.push(n);
-      });
-      flushRow(row);
     });
 
     return {
