@@ -1043,24 +1043,60 @@
     }
 
     // Place punct tokens present in the expanded list but missing from layout ids
-    // (e.g. hand-tuned hang rows that omitted trailing period). Anchor to previous
-    // mapped token — for Adadaay…mako. that is mako on the hang row.
+    // (e.g. hand-tuned rows that omitted trailing period). Sentence-final punct
+    // belongs on the top/main row — after the rightmost node of the last main
+    // group (or after the hang parent on the main row), never anchored to a
+    // hang-only token such as mako under mata/fongoh.
     {
-      let prevNode = null;
+      const hangOnlyIds = new Set();
+      const hangChildToParent = {};
+      Object.keys(hangNodes).forEach((parent) => {
+        (hangNodes[parent] || []).forEach((hn) => {
+          hangOnlyIds.add(hn.id);
+          hangChildToParent[hn.id] = parent;
+        });
+      });
+      let prevMainAnchor = null;
       tokens.forEach((tok) => {
         if (!tok) return;
         if (allNodes[tok.id]) {
-          prevNode = allNodes[tok.id];
+          const mapped = allNodes[tok.id];
+          if (!hangOnlyIds.has(tok.id)) {
+            prevMainAnchor = mapped;
+          } else {
+            const pid = hangChildToParent[tok.id];
+            if (pid && allNodes[pid]) prevMainAnchor = allNodes[pid];
+          }
           return;
         }
         if (!isPunctToken(tok)) return;
-        if (!prevNode) return;
+        let placeAfter = prevMainAnchor;
+        if (!placeAfter && wrappedMapRows.length) {
+          const lastRow = wrappedMapRows[wrappedMapRows.length - 1];
+          if (lastRow && lastRow.length) {
+            placeAfter = lastRow.reduce((a, b) =>
+              a.cx + a.w / 2 >= b.cx + b.w / 2 ? a : b
+            );
+          }
+        }
+        if (!placeAfter) return;
+        // Prefer rightmost bead on the last main row when it is at least as
+        // far right as the hang-parent anchor (end of top map row).
+        if (wrappedMapRows.length) {
+          const lastRow = wrappedMapRows[wrappedMapRows.length - 1];
+          if (lastRow && lastRow.length) {
+            const rightmost = lastRow.reduce((a, b) =>
+              a.cx + a.w / 2 >= b.cx + b.w / 2 ? a : b
+            );
+            placeAfter = rightmost;
+          }
+        }
         const n = makeNode(tok, nodeFont, false);
         const gap = 12;
-        n.cx = prevNode.cx + prevNode.w / 2 + gap + n.w / 2;
-        n.cy = prevNode.cy;
+        n.cx = placeAfter.cx + placeAfter.w / 2 + gap + n.w / 2;
+        n.cy = placeAfter.cy;
         allNodes[tok.id] = n;
-        prevNode = n;
+        prevMainAnchor = n;
       });
     }
 

@@ -304,14 +304,14 @@ const GREETINGS = {
           [
             "pred",
             "ko",
-            "mata"
+            "mata",
+            "period"
           ]
         ],
         "hangs": {
           "mata": [
             "no",
-            "mako",
-            "period"
+            "mako"
           ]
         },
         "plus_between_groups": false,
@@ -375,14 +375,14 @@ const GREETINGS = {
           [
             "pred",
             "ko",
-            "fongoh"
+            "fongoh",
+            "period"
           ]
         ],
         "hangs": {
           "fongoh": [
             "no",
-            "mako",
-            "period"
+            "mako"
           ]
         },
         "plus_between_groups": false,

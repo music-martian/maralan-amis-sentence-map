@@ -528,11 +528,11 @@ def build_layout(tokens: List[Dict[str, Any]], amis: str) -> Dict[str, Any]:
                 new_group.append(noun_id)
                 hang_ids = [no_id, poss_id]
                 i += 4
-                # Trailing sentence punct after hang chain → keep on hang row
-                while i < len(group) and by_id[group[i]].get("role") == "punct":
-                    hang_ids.append(group[i])
-                    i += 1
                 hangs[noun_id] = hang_ids
+                # Trailing sentence punct after hang chain → main group (top row)
+                while i < len(group) and by_id[group[i]].get("role") == "punct":
+                    new_group.append(group[i])
+                    i += 1
                 continue
             # also: noun no possessor without leading ko still in group
             if (
@@ -546,10 +546,11 @@ def build_layout(tokens: List[Dict[str, Any]], amis: str) -> Dict[str, Any]:
                 new_group.append(tid)
                 hang_ids = [no_id, poss_id]
                 i += 3
-                while i < len(group) and by_id[group[i]].get("role") == "punct":
-                    hang_ids.append(group[i])
-                    i += 1
                 hangs[tid] = hang_ids
+                # Trailing sentence punct after hang chain → main group (top row)
+                while i < len(group) and by_id[group[i]].get("role") == "punct":
+                    new_group.append(group[i])
+                    i += 1
                 continue
             new_group.append(tid)
             i += 1
