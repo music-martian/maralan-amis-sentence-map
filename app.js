@@ -563,43 +563,10 @@
   }
 
 
-  // Klokah serves lesson HTML from session dialect preference. Force 馬蘭 (did=4)
-  // before opening the unit source_url in a new tab. Keep href for right-click/copy.
-  const KLOKAH_SET_MARALAN =
-    "https://klokah.iformosa.com.tw/set_prefer_dialect/4";
-  if (els.klokah) {
-    els.klokah.addEventListener("click", (e) => {
-      if (e.defaultPrevented) return;
-      if (e.button != null && e.button !== 0) return;
-      if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
-      const src =
-        els.klokah.getAttribute("href") ||
-        (state.unitData && state.unitData.source_url) ||
-        (state.unitMeta && state.unitMeta.source_url) ||
-        "https://klokah.iformosa.com.tw/";
-      e.preventDefault();
-      // Omit noopener so we retain the Window handle for the follow-up navigate.
-      const w = window.open(KLOKAH_SET_MARALAN, "_blank");
-      if (!w) {
-        // Popup blocked: fall back to opening source_url directly.
-        const direct = window.open(src, "_blank");
-        if (!direct) window.location.assign(src);
-        return;
-      }
-      try {
-        w.opener = null;
-      } catch (_) {}
-      setTimeout(() => {
-        try {
-          w.location.href = src;
-        } catch (_) {
-          try {
-            w.location.assign(src);
-          } catch (_) {}
-        }
-      }, 750);
-    });
-  }
+  // Open unit source_url directly. Do NOT route through
+  // /set_prefer_dialect/4 — that endpoint returns an empty page and hangs
+  // on mobile (Brave). Lesson href is set in updateFooter/subtitle.
+  // If Klokah shows the wrong Amis dialect, pick 馬蘭阿美語 in its language menu.
 
   // Wire events
   els.modeLearn.addEventListener("click", () => setMode("learn"));
