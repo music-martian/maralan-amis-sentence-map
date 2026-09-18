@@ -77,6 +77,30 @@ FUNCTION_GLOSS_ZH = {
 _LEXICON_CACHE: Optional[Dict[str, str]] = None
 
 
+KLOKAH_HUB = "https://klokah.iformosa.com.tw"
+KLOKAH_DID = "4"
+
+
+def source_url_sentence(level: str, type_id: Any, class_id: Any) -> str:
+    """Canonical sentence learn URL with Maralan did=4 in the path."""
+    return f"{KLOKAH_HUB}/sentence/{level}/learn/{KLOKAH_DID}/{type_id}/{class_id}"
+
+
+def source_url_talk(book_id: Any) -> str:
+    """Talk URLs have no did in path; click handler sets dialect cookie."""
+    return f"{KLOKAH_HUB}/talk/learn/{book_id}"
+
+
+def source_url_dialogue(scene: Any, stage: Any) -> str:
+    return f"{KLOKAH_HUB}/dialogue/d{KLOKAH_DID}/s{scene}/l{stage}/talking"
+
+
+def source_url_essay(scene: Any, lesson: Any) -> str:
+    return f"{KLOKAH_HUB}/essay/d{KLOKAH_DID}/s{scene}/l{lesson}/learn"
+
+
+
+
 def lexicon_key(amis: str) -> str:
     t = normalize_amis(amis).lower().strip()
     t = re.sub(r"[?!！？。．，,;:]+", "", t).strip()
@@ -754,7 +778,7 @@ def sentences_from_unit_file(
                 "type_name": data.get("type_name") or "生活百句",
                 "class_id": str(data.get("class_id", "16")),
                 "title": data.get("class_name") or "問候道別謝謝",
-                "source_url": data.get("source_url") or "",
+                "source_url": source_url_sentence("junior", data.get("type_id", "2"), data.get("class_id", "16")),
                 "dialect": "馬蘭阿美語",
                 "hand_tuned": True,
                 "sentences": hand_tuned,
@@ -790,14 +814,17 @@ def sentences_from_unit_file(
                     s["audio_exchange"] = f"ex{item.get('order', seq)}"
                 sentences.append(s)
 
+    level = data.get("level") or ("junior" if "junior" in path.name else "senior")
+    type_id = str(data.get("type_id", ""))
+    class_id = str(data.get("class_id", ""))
     meta = {
         "id": unit_id,
-        "module": data.get("level") or ("junior" if "junior" in path.name else "senior"),
-        "type_id": str(data.get("type_id", "")),
+        "module": level,
+        "type_id": type_id,
         "type_name": data.get("type_name") or "",
-        "class_id": str(data.get("class_id", "")),
+        "class_id": class_id,
         "title": data.get("class_name") or unit_id,
-        "source_url": data.get("source_url") or "",
+        "source_url": source_url_sentence(level, type_id, class_id),
         "dialect": "馬蘭阿美語",
         "sentences": sentences,
     }
@@ -915,7 +942,7 @@ def process_talk() -> Tuple[Dict, int]:
             "module": "talk",
             "title": data.get("book_name") or data.get("title_ch") or unit_id,
             "title_ab": data.get("title_ab") or "",
-            "source_url": data.get("source_url") or "",
+            "source_url": source_url_talk(book_id),
             "dialect": "馬蘭阿美語",
             "sentences": sentences,
         }
@@ -984,7 +1011,7 @@ def process_dialogue() -> Tuple[Dict, int]:
             "scene": scene,
             "stage": stage,
             "title": unit_title,
-            "source_url": data.get("source_url") or "",
+            "source_url": source_url_dialogue(scene, stage),
             "dialect": "馬蘭阿美語",
             "sentences": sentences,
         }
@@ -1124,7 +1151,7 @@ def process_essay() -> Tuple[Dict, int]:
             "module": "essay",
             "title": title,
             "theme": theme,
-            "source_url": data.get("source_url") or "",
+            "source_url": source_url_essay(scene, lesson),
             "dialect": "馬蘭阿美語",
             "sentences": sentences,
         }
