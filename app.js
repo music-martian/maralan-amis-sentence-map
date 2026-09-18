@@ -255,6 +255,31 @@
     }
   }
 
+  // Klokah sentence/word audio URLs end in {n}_{learnId}.mp3 (e.g. 2_4.mp3 → item 2-4).
+  function learnIdFromSentence(s) {
+    if (!s || !s.audio) return null;
+    const m = String(s.audio).match(/(?:sentence|word)\/\d+_(\d+)\.mp3/i);
+    if (!m) return null;
+    const n = parseInt(m[1], 10);
+    return Number.isFinite(n) && n >= 1 ? n : null;
+  }
+
+  // Unit source_url is .../learn/{did}/{type}/{classId}/1; rewrite trailing learn id
+  // to the current sentence's Klokah item so 原文教材 opens 2-4, not always 2-1.
+  function klokahHrefForCurrent() {
+    const base =
+      (state.unitData && state.unitData.source_url) ||
+      (state.unitMeta && state.unitMeta.source_url) ||
+      (catalog && catalog.hub_url) ||
+      "https://klokah.iformosa.com.tw/";
+    const m = String(base).match(
+      /^(https?:\/\/[^\s]+\/sentence\/(?:junior|senior)\/learn\/\d+\/\d+\/\d+)(?:\/\d+)?\/?$/i
+    );
+    if (!m) return base;
+    const learnId = learnIdFromSentence(current());
+    return m[1] + "/" + (learnId || 1);
+  }
+
   function updateChrome() {
     const title =
       (state.unitData && state.unitData.title) ||
@@ -266,12 +291,7 @@
         ? title + "（" + n + " 句）"
         : "選擇單元開始學習";
     }
-    const src =
-      (state.unitData && state.unitData.source_url) ||
-      (state.unitMeta && state.unitMeta.source_url) ||
-      (catalog && catalog.hub_url) ||
-      "https://klokah.iformosa.com.tw/";
-    if (els.klokah) els.klokah.href = src;
+    if (els.klokah) els.klokah.href = klokahHrefForCurrent();
     if (els.footerUnit) {
       els.footerUnit.textContent =
         "Klokah · 馬蘭阿美語 · " + (title || "句型圖");
@@ -548,6 +568,7 @@
 
   function render() {
     const s = current();
+    updateChrome();
     updateMeta(s);
     buildDots();
     updateProgress(s);
