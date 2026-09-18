@@ -268,19 +268,32 @@
     return Number.isFinite(n) && n >= 1 ? n : null;
   }
 
-  // Unit source_url is .../learn/{did}/{type}/{classId}/1; rewrite trailing learn id
-  // to the current sentence's Klokah menu item (2-5 → .../17/5).
+  // Build 原文教材 from the current sentence's audio when possible — audio is
+  // dialect-accurate; some Klokah lesson paths swap content by cookie.
   function klokahHrefForCurrent() {
+    const s = current();
+    const audio = (s && s.audio) || "";
+
+    // Dialogue / essay: .../text/sound/{tid}/{id}.mp3 → fixed 馬蘭 text reader
+    const text = audio.match(/web\.klokah\.tw\/text\/sound\/(\d+)\//i);
+    if (text) return "https://web.klokah.tw/text/read.php?tid=" + text[1];
+
+    // Talk: .../con_data/sound/{did}/sentence/{did}c{book}s{n}.mp3
+    const talk = audio.match(/con_data\/sound\/\d+\/sentence\/\d+c(\d+)s\d+\.mp3/i);
+    if (talk) return "https://klokah.iformosa.com.tw/talk/learn/" + talk[1];
+
     const base =
       (state.unitData && state.unitData.source_url) ||
       (state.unitMeta && state.unitMeta.source_url) ||
       (catalog && catalog.hub_url) ||
       "https://klokah.iformosa.com.tw/";
+
+    // Sentence/word: .../learn/{did}/{type}/{classId}/1 → append menu learn_id
     const m = String(base).match(
       /^(https?:\/\/[^\s]+\/sentence\/(?:junior|senior)\/learn\/\d+\/\d+\/\d+)(?:\/\d+)?\/?$/i
     );
     if (!m) return base;
-    const learnId = learnIdFromSentence(current());
+    const learnId = learnIdFromSentence(s);
     return m[1] + "/" + (learnId || 1);
   }
 
