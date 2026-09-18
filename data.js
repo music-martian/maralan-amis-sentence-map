@@ -401,7 +401,7 @@ const GREETINGS = {
         {
           "id": "pred",
           "text": "Toratoraw",
-          "role": "pred2",
+          "role": "pred",
           "gloss_zh": "再見",
           "gloss_en": "goodbye"
         },
@@ -416,7 +416,7 @@ const GREETINGS = {
       "layout": {
         "groups": [
           [
-            "pred2",
+            "pred",
             "excl"
           ]
         ],

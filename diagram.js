@@ -45,6 +45,7 @@
   const FOOTER = "Klokah · 馬蘭阿美語 · 句型圖（自動標記）";
 
   // Glottal letters are NOT punctuation in Amis (keep on word beads).
+  // Glottals (ʼ etc.) are NOT punctuation — keep inside word beads (expandTokens).
   const PUNCT_CHARS = "¿¡?!！？。．.,，,;；:…/／\"\"「」『』（）()[]";
   const PUNCT_RE = new RegExp("^[" + PUNCT_CHARS.replace(/[\]\[\\]/g, "\\$&") + "]+$");
 
@@ -931,6 +932,47 @@
         expandedHangs[expandedParent] = expandLayoutIds(hangs[parent], tokens);
       });
     });
+    // Safety net: sentence punct never stays on a hang row — move to main group.
+    (function promoteHangSentencePunct() {
+      const sentPunct = (tok) => {
+        if (!tok) return false;
+        const t = String(tok.text || "");
+        if (tok.role === "punct" && /[.!?。！？]/.test(t)) return true;
+        const base = String(tok.id || "").replace(/_\d+$/, "");
+        return base === "period" || base === "q" || base === "excl";
+      };
+      Object.keys(expandedHangs).forEach((parent) => {
+        const kids = expandedHangs[parent] || [];
+        const kept = [];
+        const moved = [];
+        kids.forEach((id) => {
+          const tok = resolveToken(byId, id, tokens);
+          if (sentPunct(tok) || /^(period|q|excl)(_\d+)?$/.test(String(id))) {
+            moved.push(id);
+          } else {
+            kept.push(id);
+          }
+        });
+        if (!moved.length) return;
+        expandedHangs[parent] = kept;
+        if (!kept.length) delete expandedHangs[parent];
+        // Prefer the main group that contains the hang parent.
+        let target = null;
+        for (let gi = 0; gi < expandedGroups.length; gi++) {
+          if (expandedGroups[gi].indexOf(parent) >= 0) {
+            target = expandedGroups[gi];
+            break;
+          }
+        }
+        if (!target) {
+          if (!expandedGroups.length) expandedGroups.push([]);
+          target = expandedGroups[expandedGroups.length - 1];
+        }
+        moved.forEach((id) => {
+          if (target.indexOf(id) < 0) target.push(id);
+        });
+      });
+    })();
     const groupsNodes = expandedGroups.map((gids) =>
       gids
         .map((id) => {

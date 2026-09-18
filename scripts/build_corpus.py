@@ -195,7 +195,15 @@ def normalize_amis(text: str) -> str:
         return ""
     t = text.strip()
     # Glottals are letters: normalize every form to U+02BC MODIFIER LETTER APOSTROPHE
-    t = GLOTTAL_RE.sub("\u02bc", t)
+    t = GLOTTAL_RE.sub("ʼ", t)
+    # Leading/word-initial only: "ʼ Ateki" → "ʼAteki" (never "lomaʼ namo")
+    def _tight_lead_glottal(m: re.Match) -> str:
+        return m.group(1) + "ʼ"
+    t = re.sub(
+        r"(^|[\s(（\[「『\"“‘])ʼ\s+(?=[A-Za-z\u00C0-\u024F])",
+        _tight_lead_glottal,
+        t,
+    )
     t = re.sub(r"\s+", " ", t)
     return t
 
@@ -243,7 +251,12 @@ def strip_punct(tok: str) -> str:
 
 
 def _split_token_keep_punct(tok: str) -> List[str]:
-    """Peel leading/trailing punct into separate tokens; split internal /／."""
+    """Peel leading/trailing punct into separate tokens; split internal /／;；.
+
+    Glottal letters are NOT in PUNCT_CHARS — they stay inside word beads.
+    Trailing sentence punct is peeled here; build_layout keeps it on the main
+    group (never inside hang arrays).
+    """
     if not tok:
         return []
     if is_punct(tok):
@@ -558,6 +571,41 @@ def build_layout(tokens: List[Dict[str, Any]], amis: str) -> Dict[str, Any]:
 
     groups = [apply_hangs(g) for g in groups]
 
+    # Safety: sentence-final punct must stay on the main/top row, never in hangs.
+    SENT_PUNCT_TEXTS = {".", "．", "。", "?", "？", "!", "！"}
+
+    def _is_sent_punct_id(tid: str) -> bool:
+        tok = by_id.get(tid)
+        if tok and tok.get("role") == "punct" and (tok.get("text") or "") in SENT_PUNCT_TEXTS:
+            return True
+        base = re.sub(r"_\d+$", "", tid or "")
+        return base in {"period", "q", "excl"}
+
+    for parent, kids in list(hangs.items()):
+        kept = []
+        moved = []
+        for kid in kids:
+            if _is_sent_punct_id(kid):
+                moved.append(kid)
+            else:
+                kept.append(kid)
+        if moved:
+            hangs[parent] = kept
+            if not kept:
+                del hangs[parent]
+            placed = False
+            for g in groups:
+                if parent in g:
+                    for mid in moved:
+                        if mid not in g:
+                            g.append(mid)
+                    placed = True
+                    break
+            if not placed and groups:
+                for mid in moved:
+                    if mid not in groups[-1]:
+                        groups[-1].append(mid)
+
     # structure note
     pred_texts = [t["text"] for t in tokens if t["role"] in {"pred", "pred2"}]
     if plus:
@@ -592,6 +640,12 @@ def make_sentence(
         return None
     toks = tokenize(amis)
     tagged = tag_roles(toks)
+    # One-word / single-clause: never leave a lone pred2 (breaks layout ids)
+    content_tagged = [t for t in tagged if t.get("role") != "punct"]
+    if len(content_tagged) == 1 and content_tagged[0].get("role") == "pred2":
+        content_tagged[0]["role"] = "pred"
+        if content_tagged[0].get("id") == "pred2":
+            content_tagged[0]["id"] = "pred"
     n_content = sum(1 for t in tagged if t.get("role") != "punct")
     # Fill Chinese bead glosses (prototype style)
     for t in tagged:
