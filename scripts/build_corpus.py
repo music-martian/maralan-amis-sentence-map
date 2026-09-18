@@ -83,7 +83,7 @@ KLOKAH_DID = "4"
 
 def source_url_sentence(level: str, type_id: Any, class_id: Any) -> str:
     """Canonical sentence learn URL with Maralan did=4 in the path."""
-    return f"{KLOKAH_HUB}/sentence/{level}/learn/{KLOKAH_DID}/{type_id}/{class_id}"
+    return f"{KLOKAH_HUB}/sentence/{level}/learn/{KLOKAH_DID}/{type_id}/{class_id}/1"
 
 
 def source_url_talk(book_id: Any) -> str:

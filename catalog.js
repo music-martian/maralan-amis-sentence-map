@@ -27,7 +27,7 @@ const CATALOG = {
               "class_id": "1",
               "path": "data/units/junior_type1_class1.json",
               "count": 20,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/1/1",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/1/1/1",
               "hand_tuned": false
             },
             {
@@ -36,7 +36,7 @@ const CATALOG = {
               "class_id": "2",
               "path": "data/units/junior_type1_class2.json",
               "count": 16,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/1/2",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/1/2/1",
               "hand_tuned": false
             },
             {
@@ -45,7 +45,7 @@ const CATALOG = {
               "class_id": "3",
               "path": "data/units/junior_type1_class3.json",
               "count": 6,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/1/3",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/1/3/1",
               "hand_tuned": false
             },
             {
@@ -54,7 +54,7 @@ const CATALOG = {
               "class_id": "4",
               "path": "data/units/junior_type1_class4.json",
               "count": 12,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/1/4",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/1/4/1",
               "hand_tuned": false
             },
             {
@@ -63,7 +63,7 @@ const CATALOG = {
               "class_id": "5",
               "path": "data/units/junior_type1_class5.json",
               "count": 11,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/1/5",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/1/5/1",
               "hand_tuned": false
             },
             {
@@ -72,7 +72,7 @@ const CATALOG = {
               "class_id": "6",
               "path": "data/units/junior_type1_class6.json",
               "count": 11,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/1/6",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/1/6/1",
               "hand_tuned": false
             },
             {
@@ -81,7 +81,7 @@ const CATALOG = {
               "class_id": "7",
               "path": "data/units/junior_type1_class7.json",
               "count": 10,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/1/7",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/1/7/1",
               "hand_tuned": false
             },
             {
@@ -90,7 +90,7 @@ const CATALOG = {
               "class_id": "8",
               "path": "data/units/junior_type1_class8.json",
               "count": 10,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/1/8",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/1/8/1",
               "hand_tuned": false
             },
             {
@@ -99,7 +99,7 @@ const CATALOG = {
               "class_id": "9",
               "path": "data/units/junior_type1_class9.json",
               "count": 10,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/1/9",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/1/9/1",
               "hand_tuned": false
             },
             {
@@ -108,7 +108,7 @@ const CATALOG = {
               "class_id": "10",
               "path": "data/units/junior_type1_class10.json",
               "count": 10,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/1/10",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/1/10/1",
               "hand_tuned": false
             },
             {
@@ -117,7 +117,7 @@ const CATALOG = {
               "class_id": "11",
               "path": "data/units/junior_type1_class11.json",
               "count": 9,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/1/11",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/1/11/1",
               "hand_tuned": false
             },
             {
@@ -126,7 +126,7 @@ const CATALOG = {
               "class_id": "12",
               "path": "data/units/junior_type1_class12.json",
               "count": 10,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/1/12",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/1/12/1",
               "hand_tuned": false
             },
             {
@@ -135,7 +135,7 @@ const CATALOG = {
               "class_id": "13",
               "path": "data/units/junior_type1_class13.json",
               "count": 4,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/1/13",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/1/13/1",
               "hand_tuned": false
             },
             {
@@ -144,7 +144,7 @@ const CATALOG = {
               "class_id": "14",
               "path": "data/units/junior_type1_class14.json",
               "count": 56,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/1/14",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/1/14/1",
               "hand_tuned": false
             },
             {
@@ -153,7 +153,7 @@ const CATALOG = {
               "class_id": "15",
               "path": "data/units/junior_type1_class15.json",
               "count": 9,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/1/15",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/1/15/1",
               "hand_tuned": false
             },
             {
@@ -162,7 +162,7 @@ const CATALOG = {
               "class_id": "212",
               "path": "data/units/junior_type1_class212.json",
               "count": 4,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/1/212",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/1/212/1",
               "hand_tuned": false
             },
             {
@@ -171,7 +171,7 @@ const CATALOG = {
               "class_id": "213",
               "path": "data/units/junior_type1_class213.json",
               "count": 9,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/1/213",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/1/213/1",
               "hand_tuned": false
             }
           ]
@@ -186,7 +186,7 @@ const CATALOG = {
               "class_id": "16",
               "path": "data/units/junior_type2_class16.json",
               "count": 7,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/2/16",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/2/16/1",
               "hand_tuned": true
             },
             {
@@ -195,7 +195,7 @@ const CATALOG = {
               "class_id": "17",
               "path": "data/units/junior_type2_class17.json",
               "count": 54,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/2/17",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/2/17/1",
               "hand_tuned": false
             },
             {
@@ -204,7 +204,7 @@ const CATALOG = {
               "class_id": "18",
               "path": "data/units/junior_type2_class18.json",
               "count": 70,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/2/18",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/2/18/1",
               "hand_tuned": false
             },
             {
@@ -213,7 +213,7 @@ const CATALOG = {
               "class_id": "19",
               "path": "data/units/junior_type2_class19.json",
               "count": 11,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/2/19",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/2/19/1",
               "hand_tuned": false
             }
           ]
@@ -228,7 +228,7 @@ const CATALOG = {
               "class_id": "20",
               "path": "data/units/junior_type3_class20.json",
               "count": 10,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/3/20",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/3/20/1",
               "hand_tuned": false
             },
             {
@@ -237,7 +237,7 @@ const CATALOG = {
               "class_id": "21",
               "path": "data/units/junior_type3_class21.json",
               "count": 10,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/3/21",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/3/21/1",
               "hand_tuned": false
             },
             {
@@ -246,7 +246,7 @@ const CATALOG = {
               "class_id": "22",
               "path": "data/units/junior_type3_class22.json",
               "count": 10,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/3/22",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/3/22/1",
               "hand_tuned": false
             },
             {
@@ -255,7 +255,7 @@ const CATALOG = {
               "class_id": "23",
               "path": "data/units/junior_type3_class23.json",
               "count": 10,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/3/23",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/3/23/1",
               "hand_tuned": false
             },
             {
@@ -264,7 +264,7 @@ const CATALOG = {
               "class_id": "24",
               "path": "data/units/junior_type3_class24.json",
               "count": 8,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/3/24",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/3/24/1",
               "hand_tuned": false
             },
             {
@@ -273,7 +273,7 @@ const CATALOG = {
               "class_id": "216",
               "path": "data/units/junior_type3_class216.json",
               "count": 5,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/3/216",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/3/216/1",
               "hand_tuned": false
             }
           ]
@@ -288,7 +288,7 @@ const CATALOG = {
               "class_id": "26",
               "path": "data/units/junior_type4_class26.json",
               "count": 15,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/4/26",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/4/26/1",
               "hand_tuned": false
             },
             {
@@ -297,7 +297,7 @@ const CATALOG = {
               "class_id": "27",
               "path": "data/units/junior_type4_class27.json",
               "count": 15,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/4/27",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/4/27/1",
               "hand_tuned": false
             },
             {
@@ -306,7 +306,7 @@ const CATALOG = {
               "class_id": "28",
               "path": "data/units/junior_type4_class28.json",
               "count": 15,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/4/28",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/4/28/1",
               "hand_tuned": false
             },
             {
@@ -315,7 +315,7 @@ const CATALOG = {
               "class_id": "29",
               "path": "data/units/junior_type4_class29.json",
               "count": 15,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/4/29",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/4/29/1",
               "hand_tuned": false
             },
             {
@@ -324,7 +324,7 @@ const CATALOG = {
               "class_id": "30",
               "path": "data/units/junior_type4_class30.json",
               "count": 15,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/4/30",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/4/30/1",
               "hand_tuned": false
             }
           ]
@@ -339,7 +339,7 @@ const CATALOG = {
               "class_id": "31",
               "path": "data/units/junior_type5_class31.json",
               "count": 15,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/5/31",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/5/31/1",
               "hand_tuned": false
             },
             {
@@ -348,7 +348,7 @@ const CATALOG = {
               "class_id": "32",
               "path": "data/units/junior_type5_class32.json",
               "count": 15,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/5/32",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/5/32/1",
               "hand_tuned": false
             },
             {
@@ -357,7 +357,7 @@ const CATALOG = {
               "class_id": "33",
               "path": "data/units/junior_type5_class33.json",
               "count": 15,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/5/33",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/5/33/1",
               "hand_tuned": false
             },
             {
@@ -366,7 +366,7 @@ const CATALOG = {
               "class_id": "34",
               "path": "data/units/junior_type5_class34.json",
               "count": 15,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/5/34",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/5/34/1",
               "hand_tuned": false
             },
             {
@@ -375,7 +375,7 @@ const CATALOG = {
               "class_id": "35",
               "path": "data/units/junior_type5_class35.json",
               "count": 15,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/5/35",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/5/35/1",
               "hand_tuned": false
             }
           ]
@@ -390,7 +390,7 @@ const CATALOG = {
               "class_id": "36",
               "path": "data/units/junior_type6_class36.json",
               "count": 80,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/6/36",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/6/36/1",
               "hand_tuned": false
             }
           ]
@@ -405,7 +405,7 @@ const CATALOG = {
               "class_id": "217",
               "path": "data/units/junior_type9_class217.json",
               "count": 37,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/9/217",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/9/217/1",
               "hand_tuned": false
             }
           ]
@@ -420,7 +420,7 @@ const CATALOG = {
               "class_id": "218",
               "path": "data/units/junior_type10_class218.json",
               "count": 1,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/10/218",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/10/218/1",
               "hand_tuned": false
             }
           ]
@@ -441,7 +441,7 @@ const CATALOG = {
               "class_id": "1",
               "path": "data/units/senior_type1_class1.json",
               "count": 32,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/1/1",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/1/1/1",
               "hand_tuned": false
             },
             {
@@ -450,7 +450,7 @@ const CATALOG = {
               "class_id": "2",
               "path": "data/units/senior_type1_class2.json",
               "count": 18,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/1/2",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/1/2/1",
               "hand_tuned": false
             },
             {
@@ -459,7 +459,7 @@ const CATALOG = {
               "class_id": "3",
               "path": "data/units/senior_type1_class3.json",
               "count": 9,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/1/3",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/1/3/1",
               "hand_tuned": false
             },
             {
@@ -468,7 +468,7 @@ const CATALOG = {
               "class_id": "4",
               "path": "data/units/senior_type1_class4.json",
               "count": 13,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/1/4",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/1/4/1",
               "hand_tuned": false
             },
             {
@@ -477,7 +477,7 @@ const CATALOG = {
               "class_id": "5",
               "path": "data/units/senior_type1_class5.json",
               "count": 11,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/1/5",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/1/5/1",
               "hand_tuned": false
             },
             {
@@ -486,7 +486,7 @@ const CATALOG = {
               "class_id": "6",
               "path": "data/units/senior_type1_class6.json",
               "count": 11,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/1/6",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/1/6/1",
               "hand_tuned": false
             },
             {
@@ -495,7 +495,7 @@ const CATALOG = {
               "class_id": "7",
               "path": "data/units/senior_type1_class7.json",
               "count": 12,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/1/7",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/1/7/1",
               "hand_tuned": false
             },
             {
@@ -504,7 +504,7 @@ const CATALOG = {
               "class_id": "8",
               "path": "data/units/senior_type1_class8.json",
               "count": 12,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/1/8",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/1/8/1",
               "hand_tuned": false
             },
             {
@@ -513,7 +513,7 @@ const CATALOG = {
               "class_id": "9",
               "path": "data/units/senior_type1_class9.json",
               "count": 15,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/1/9",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/1/9/1",
               "hand_tuned": false
             },
             {
@@ -522,7 +522,7 @@ const CATALOG = {
               "class_id": "10",
               "path": "data/units/senior_type1_class10.json",
               "count": 15,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/1/10",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/1/10/1",
               "hand_tuned": false
             },
             {
@@ -531,7 +531,7 @@ const CATALOG = {
               "class_id": "11",
               "path": "data/units/senior_type1_class11.json",
               "count": 15,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/1/11",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/1/11/1",
               "hand_tuned": false
             },
             {
@@ -540,7 +540,7 @@ const CATALOG = {
               "class_id": "12",
               "path": "data/units/senior_type1_class12.json",
               "count": 17,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/1/12",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/1/12/1",
               "hand_tuned": false
             },
             {
@@ -549,7 +549,7 @@ const CATALOG = {
               "class_id": "13",
               "path": "data/units/senior_type1_class13.json",
               "count": 4,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/1/13",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/1/13/1",
               "hand_tuned": false
             },
             {
@@ -558,7 +558,7 @@ const CATALOG = {
               "class_id": "14",
               "path": "data/units/senior_type1_class14.json",
               "count": 82,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/1/14",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/1/14/1",
               "hand_tuned": false
             },
             {
@@ -567,7 +567,7 @@ const CATALOG = {
               "class_id": "15",
               "path": "data/units/senior_type1_class15.json",
               "count": 23,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/1/15",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/1/15/1",
               "hand_tuned": false
             },
             {
@@ -576,7 +576,7 @@ const CATALOG = {
               "class_id": "211",
               "path": "data/units/senior_type1_class211.json",
               "count": 43,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/1/211",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/1/211/1",
               "hand_tuned": false
             },
             {
@@ -585,7 +585,7 @@ const CATALOG = {
               "class_id": "212",
               "path": "data/units/senior_type1_class212.json",
               "count": 5,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/1/212",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/1/212/1",
               "hand_tuned": false
             },
             {
@@ -594,7 +594,7 @@ const CATALOG = {
               "class_id": "213",
               "path": "data/units/senior_type1_class213.json",
               "count": 10,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/1/213",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/1/213/1",
               "hand_tuned": false
             }
           ]
@@ -609,7 +609,7 @@ const CATALOG = {
               "class_id": "16",
               "path": "data/units/senior_type2_class16.json",
               "count": 9,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/2/16",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/2/16/1",
               "hand_tuned": false
             },
             {
@@ -618,7 +618,7 @@ const CATALOG = {
               "class_id": "17",
               "path": "data/units/senior_type2_class17.json",
               "count": 72,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/2/17",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/2/17/1",
               "hand_tuned": false
             },
             {
@@ -627,7 +627,7 @@ const CATALOG = {
               "class_id": "18",
               "path": "data/units/senior_type2_class18.json",
               "count": 85,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/2/18",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/2/18/1",
               "hand_tuned": false
             },
             {
@@ -636,7 +636,7 @@ const CATALOG = {
               "class_id": "19",
               "path": "data/units/senior_type2_class19.json",
               "count": 15,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/2/19",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/2/19/1",
               "hand_tuned": false
             },
             {
@@ -645,7 +645,7 @@ const CATALOG = {
               "class_id": "214",
               "path": "data/units/senior_type2_class214.json",
               "count": 53,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/2/214",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/2/214/1",
               "hand_tuned": false
             },
             {
@@ -654,7 +654,7 @@ const CATALOG = {
               "class_id": "215",
               "path": "data/units/senior_type2_class215.json",
               "count": 16,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/2/215",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/2/215/1",
               "hand_tuned": false
             }
           ]
@@ -669,7 +669,7 @@ const CATALOG = {
               "class_id": "20",
               "path": "data/units/senior_type3_class20.json",
               "count": 15,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/3/20",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/3/20/1",
               "hand_tuned": false
             },
             {
@@ -678,7 +678,7 @@ const CATALOG = {
               "class_id": "21",
               "path": "data/units/senior_type3_class21.json",
               "count": 15,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/3/21",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/3/21/1",
               "hand_tuned": false
             },
             {
@@ -687,7 +687,7 @@ const CATALOG = {
               "class_id": "22",
               "path": "data/units/senior_type3_class22.json",
               "count": 15,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/3/22",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/3/22/1",
               "hand_tuned": false
             },
             {
@@ -696,7 +696,7 @@ const CATALOG = {
               "class_id": "23",
               "path": "data/units/senior_type3_class23.json",
               "count": 15,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/3/23",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/3/23/1",
               "hand_tuned": false
             },
             {
@@ -705,7 +705,7 @@ const CATALOG = {
               "class_id": "24",
               "path": "data/units/senior_type3_class24.json",
               "count": 15,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/3/24",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/3/24/1",
               "hand_tuned": false
             }
           ]
@@ -720,7 +720,7 @@ const CATALOG = {
               "class_id": "26",
               "path": "data/units/senior_type4_class26.json",
               "count": 18,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/4/26",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/4/26/1",
               "hand_tuned": false
             },
             {
@@ -729,7 +729,7 @@ const CATALOG = {
               "class_id": "27",
               "path": "data/units/senior_type4_class27.json",
               "count": 24,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/4/27",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/4/27/1",
               "hand_tuned": false
             },
             {
@@ -738,7 +738,7 @@ const CATALOG = {
               "class_id": "28",
               "path": "data/units/senior_type4_class28.json",
               "count": 28,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/4/28",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/4/28/1",
               "hand_tuned": false
             },
             {
@@ -747,7 +747,7 @@ const CATALOG = {
               "class_id": "29",
               "path": "data/units/senior_type4_class29.json",
               "count": 31,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/4/29",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/4/29/1",
               "hand_tuned": false
             },
             {
@@ -756,7 +756,7 @@ const CATALOG = {
               "class_id": "30",
               "path": "data/units/senior_type4_class30.json",
               "count": 29,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/4/30",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/4/30/1",
               "hand_tuned": false
             }
           ]
@@ -771,7 +771,7 @@ const CATALOG = {
               "class_id": "31",
               "path": "data/units/senior_type5_class31.json",
               "count": 15,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/5/31",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/5/31/1",
               "hand_tuned": false
             },
             {
@@ -780,7 +780,7 @@ const CATALOG = {
               "class_id": "32",
               "path": "data/units/senior_type5_class32.json",
               "count": 15,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/5/32",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/5/32/1",
               "hand_tuned": false
             },
             {
@@ -789,7 +789,7 @@ const CATALOG = {
               "class_id": "33",
               "path": "data/units/senior_type5_class33.json",
               "count": 15,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/5/33",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/5/33/1",
               "hand_tuned": false
             },
             {
@@ -798,7 +798,7 @@ const CATALOG = {
               "class_id": "34",
               "path": "data/units/senior_type5_class34.json",
               "count": 15,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/5/34",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/5/34/1",
               "hand_tuned": false
             },
             {
@@ -807,7 +807,7 @@ const CATALOG = {
               "class_id": "35",
               "path": "data/units/senior_type5_class35.json",
               "count": 15,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/5/35",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/5/35/1",
               "hand_tuned": false
             }
           ]
@@ -822,7 +822,7 @@ const CATALOG = {
               "class_id": "37",
               "path": "data/units/senior_type7_class37.json",
               "count": 10,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/7/37",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/7/37/1",
               "hand_tuned": false
             },
             {
@@ -831,7 +831,7 @@ const CATALOG = {
               "class_id": "38",
               "path": "data/units/senior_type7_class38.json",
               "count": 10,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/7/38",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/7/38/1",
               "hand_tuned": false
             },
             {
@@ -840,7 +840,7 @@ const CATALOG = {
               "class_id": "39",
               "path": "data/units/senior_type7_class39.json",
               "count": 10,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/7/39",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/7/39/1",
               "hand_tuned": false
             },
             {
@@ -849,7 +849,7 @@ const CATALOG = {
               "class_id": "40",
               "path": "data/units/senior_type7_class40.json",
               "count": 10,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/7/40",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/7/40/1",
               "hand_tuned": false
             },
             {
@@ -858,7 +858,7 @@ const CATALOG = {
               "class_id": "41",
               "path": "data/units/senior_type7_class41.json",
               "count": 10,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/7/41",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/7/41/1",
               "hand_tuned": false
             }
           ]
@@ -873,7 +873,7 @@ const CATALOG = {
               "class_id": "42",
               "path": "data/units/senior_type8_class42.json",
               "count": 50,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/8/42",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/8/42/1",
               "hand_tuned": false
             }
           ]
@@ -888,7 +888,7 @@ const CATALOG = {
               "class_id": "43",
               "path": "data/units/senior_type9_class43.json",
               "count": 35,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/9/43",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/9/43/1",
               "hand_tuned": false
             }
           ]
@@ -903,7 +903,7 @@ const CATALOG = {
               "class_id": "44",
               "path": "data/units/senior_type10_class44.json",
               "count": 2,
-              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/10/44",
+              "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/4/10/44/1",
               "hand_tuned": false
             }
           ]
@@ -1463,4 +1463,3 @@ const CATALOG = {
   ],
   "hub_url": "https://klokah.iformosa.com.tw/"
 };
-if (typeof window !== 'undefined') window.CATALOG = CATALOG;

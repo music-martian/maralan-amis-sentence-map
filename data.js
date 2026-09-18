@@ -1,6 +1,6 @@
 /** Greetings unit fallback — inlined so file:// works without fetch. */
 const GREETINGS = {
-  "source": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/2/16",
+  "source": "https://klokah.iformosa.com.tw/sentence/junior/learn/4/2/16/1",
   "dialect": "馬蘭阿美語",
   "unit": "問候道別謝謝",
   "class_id": "16",
