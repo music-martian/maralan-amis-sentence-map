@@ -46,7 +46,10 @@
           "text": "kita",
           "role": "pronoun",
           "gloss_zh": "咱們",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "period",
@@ -98,7 +101,7 @@
           "gloss_en": ""
         },
         {
-          "id": "mitaʼong",
+          "id": "mitaong",
           "text": "Mitaʼong",
           "role": "noun",
           "gloss_zh": "",
@@ -117,15 +120,15 @@
           [
             "pred",
             "excl",
-            "mitaʼong",
+            "mitaong",
             "period"
           ]
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Katomireng 為中心（自動標記）"
+        "structure": "述語 Katomireng 為中心（自動標記）"
       },
-      "structure": "謂語 Katomireng 為中心（自動標記）",
+      "structure": "述語 Katomireng 為中心（自動標記）",
       "audio": "https://web.klokah.tw/text/sound/26964/441635.mp3",
       "audio_primary": true
     },
@@ -147,7 +150,10 @@
           "text": "singsi",
           "role": "noun",
           "gloss_zh": "老師",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
         },
         {
           "id": "period",
@@ -167,9 +173,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Ngaʼayho 為中心（自動標記）"
+        "structure": "述語 Ngaʼayho 為中心（自動標記）"
       },
-      "structure": "謂語 Ngaʼayho 為中心（自動標記）",
+      "structure": "述語 Ngaʼayho 為中心（自動標記）",
       "audio": "https://web.klokah.tw/text/sound/26964/441636.mp3",
       "audio_primary": true
     },
@@ -183,7 +189,7 @@
           "id": "pred",
           "text": "Kamaroʼ",
           "role": "pred",
-          "gloss_zh": "A:請坐下。",
+          "gloss_zh": "坐下",
           "gloss_en": ""
         },
         {
@@ -203,9 +209,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Kamaro 為中心（自動標記）"
+        "structure": "述語 Kamaroʼ 為中心（自動標記）"
       },
-      "structure": "謂語 Kamaro 為中心（自動標記）",
+      "structure": "述語 Kamaroʼ 為中心（自動標記）",
       "audio": "https://web.klokah.tw/text/sound/26964/441637.mp3",
       "audio_primary": true
     },
@@ -248,7 +254,10 @@
           "text": "singsi",
           "role": "noun",
           "gloss_zh": "老師",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
         },
         {
           "id": "titaanan",
@@ -368,14 +377,20 @@
           "text": "singsi",
           "role": "noun",
           "gloss_zh": "老師",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
         },
         {
           "id": "haw",
           "text": "haw",
           "role": "particle",
-          "gloss_zh": "助詞",
-          "gloss_en": ""
+          "gloss_zh": "嗎",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "q",
@@ -403,9 +418,9 @@
           ]
         },
         "plus_between_groups": false,
-        "structure": "謂語為中心；屬格 no/nu 掛於名詞下（自動）"
+        "structure": "述語為中心；屬格 no/nu 掛於名詞下（自動）"
       },
-      "structure": "謂語為中心；屬格 no/nu 掛於名詞下（自動）",
+      "structure": "述語為中心；屬格 no/nu 掛於名詞下（自動）",
       "audio": "https://web.klokah.tw/text/sound/26964/441639.mp3",
       "audio_primary": true
     },
@@ -420,7 +435,10 @@
           "text": "Singsi",
           "role": "pred",
           "gloss_zh": "老師",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
         },
         {
           "id": "comma",
@@ -553,8 +571,11 @@
           "id": "tengil",
           "text": "tengil",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "gloss_zh": "聽",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "28認知感官",
+          "vocab_code": "28"
         },
         {
           "id": "ako",
@@ -571,16 +592,19 @@
           "gloss_en": ""
         },
         {
-          "id": "pred2",
+          "id": "ngaay",
           "text": "ngaʼay",
-          "role": "pred2",
+          "role": "particle",
           "gloss_zh": "可以",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
-          "id": "taʼangayen",
+          "id": "pred2",
           "text": "taʼangayen",
-          "role": "noun",
+          "role": "pred2",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -602,8 +626,11 @@
           "id": "haw",
           "text": "haw",
           "role": "particle",
-          "gloss_zh": "助詞",
-          "gloss_en": ""
+          "gloss_zh": "嗎",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "q",
@@ -623,8 +650,8 @@
             "comma"
           ],
           [
+            "ngaay",
             "pred2",
-            "taʼangayen",
             "ko",
             "ngiha",
             "haw",
@@ -678,7 +705,10 @@
           "text": "kako",
           "role": "pronoun",
           "gloss_zh": "我",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "a",
@@ -688,7 +718,7 @@
           "gloss_en": ""
         },
         {
-          "id": "misaʼosi",
+          "id": "misaosi",
           "text": "misaʼosi",
           "role": "noun",
           "gloss_zh": "",
@@ -711,15 +741,15 @@
             "tooren",
             "kako",
             "a",
-            "misaʼosi",
+            "misaosi",
             "period"
           ]
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Pinengneng 為中心（自動標記）"
+        "structure": "述語 Pinengneng 為中心（自動標記）"
       },
-      "structure": "謂語 Pinengneng 為中心（自動標記）",
+      "structure": "述語 Pinengneng 為中心（自動標記）",
       "audio": "https://web.klokah.tw/text/sound/26964/441642.mp3",
       "audio_primary": true
     },
@@ -744,7 +774,7 @@
           "gloss_en": ""
         },
         {
-          "id": "pisaʼosi",
+          "id": "pisaosi",
           "text": "pisaʼosi",
           "role": "noun",
           "gloss_zh": "",
@@ -763,15 +793,15 @@
           [
             "pred",
             "ko",
-            "pisaʼosi",
+            "pisaosi",
             "period"
           ]
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Makapahay 為中心（自動標記）"
+        "structure": "述語 Makapahay 為中心（自動標記）"
       },
-      "structure": "謂語 Makapahay 為中心（自動標記）",
+      "structure": "述語 Makapahay 為中心（自動標記）",
       "audio": "https://web.klokah.tw/text/sound/26964/441643.mp3",
       "audio_primary": true
     },
@@ -796,7 +826,7 @@
           "gloss_en": ""
         },
         {
-          "id": "misaʼosi",
+          "id": "misaosi",
           "text": "misaʼosi",
           "role": "noun",
           "gloss_zh": "",
@@ -817,7 +847,7 @@
           "gloss_en": ""
         },
         {
-          "id": "taʼangayen",
+          "id": "taangayen",
           "text": "taʼangayen",
           "role": "noun",
           "gloss_zh": "",
@@ -850,12 +880,12 @@
           [
             "pred",
             "a",
-            "misaʼosi",
+            "misaosi",
             "comma"
           ],
           [
             "pred2",
-            "taʼangayen",
+            "taangayen",
             "ko",
             "ngiha",
             "period"
@@ -900,8 +930,11 @@
           "id": "caciyaw",
           "text": "caciyaw",
           "role": "noun",
-          "gloss_zh": "說",
-          "gloss_en": ""
+          "gloss_zh": "語言",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "24抽象名詞",
+          "vocab_code": "24"
         },
         {
           "id": "period",
@@ -956,7 +989,10 @@
           "text": "tilid",
           "role": "noun",
           "gloss_zh": "書",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "09物品(不含食品)",
+          "vocab_code": "09"
         },
         {
           "id": "period",
@@ -977,9 +1013,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Pasadaken 為中心（自動標記）"
+        "structure": "述語 Pasadaken 為中心（自動標記）"
       },
-      "structure": "謂語 Pasadaken 為中心（自動標記）",
+      "structure": "述語 Pasadaken 為中心（自動標記）",
       "audio": "https://web.klokah.tw/text/sound/26964/441646.mp3",
       "audio_primary": true
     },
@@ -1008,7 +1044,10 @@
           "text": "singsi",
           "role": "pred2",
           "gloss_zh": "老師",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
         },
         {
           "id": "period",
@@ -1062,7 +1101,10 @@
           "text": "impic",
           "role": "noun",
           "gloss_zh": "筆",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "09物品(不含食品)",
+          "vocab_code": "09"
         },
         {
           "id": "iso",
@@ -1091,9 +1133,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Pasadaken 為中心（自動標記）"
+        "structure": "述語 Pasadaken 為中心（自動標記）"
       },
-      "structure": "謂語 Pasadaken 為中心（自動標記）",
+      "structure": "述語 Pasadaken 為中心（自動標記）",
       "audio": "https://web.klokah.tw/text/sound/26964/441648.mp3",
       "audio_primary": true
     },
@@ -1108,7 +1150,10 @@
           "text": "Singsi",
           "role": "pred",
           "gloss_zh": "老師",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
         },
         {
           "id": "comma",
@@ -1143,7 +1188,10 @@
           "text": "impic",
           "role": "noun",
           "gloss_zh": "筆",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "09物品(不含食品)",
+          "vocab_code": "09"
         },
         {
           "id": "period",
@@ -1200,7 +1248,10 @@
           "text": "sasipasip",
           "role": "noun",
           "gloss_zh": "橡皮擦",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "09物品(不含食品)",
+          "vocab_code": "09"
         },
         {
           "id": "period",
@@ -1221,9 +1272,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Pasadaken 為中心（自動標記）"
+        "structure": "述語 Pasadaken 為中心（自動標記）"
       },
-      "structure": "謂語 Pasadaken 為中心（自動標記）",
+      "structure": "述語 Pasadaken 為中心（自動標記）",
       "audio": "https://web.klokah.tw/text/sound/26964/441650.mp3",
       "audio_primary": true
     },
@@ -1238,7 +1289,10 @@
           "text": "Singsi",
           "role": "pred",
           "gloss_zh": "老師",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
         },
         {
           "id": "comma",
@@ -1273,7 +1327,10 @@
           "text": "sasipasip",
           "role": "noun",
           "gloss_zh": "橡皮擦",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "09物品(不含食品)",
+          "vocab_code": "09"
         },
         {
           "id": "period",
@@ -1351,7 +1408,10 @@
           "text": "sasipasip",
           "role": "noun",
           "gloss_zh": "橡皮擦",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "09物品(不含食品)",
+          "vocab_code": "09"
         },
         {
           "id": "period",
@@ -1375,9 +1435,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Caliwen 為中心（自動標記）"
+        "structure": "述語 Caliwen 為中心（自動標記）"
       },
-      "structure": "謂語 Caliwen 為中心（自動標記）",
+      "structure": "述語 Caliwen 為中心（自動標記）",
       "audio": "https://web.klokah.tw/text/sound/26964/441652.mp3",
       "audio_primary": true
     },
@@ -1388,16 +1448,19 @@
       "en": "",
       "tokens": [
         {
-          "id": "pred",
+          "id": "ngaay",
           "text": "Ngaʼay",
-          "role": "pred",
+          "role": "particle",
           "gloss_zh": "可以",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
-          "id": "a",
+          "id": "pred",
           "text": "a",
-          "role": "noun",
+          "role": "pred",
           "gloss_zh": "連繫",
           "gloss_en": ""
         },
@@ -1413,7 +1476,10 @@
           "text": "kako",
           "role": "pronoun",
           "gloss_zh": "我",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "to",
@@ -1433,8 +1499,11 @@
           "id": "haw",
           "text": "haw",
           "role": "particle",
-          "gloss_zh": "助詞",
-          "gloss_en": ""
+          "gloss_zh": "嗎",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "q",
@@ -1447,8 +1516,8 @@
       "layout": {
         "groups": [
           [
+            "ngaay",
             "pred",
-            "a",
             "pacaliwenho",
             "kako",
             "to",
@@ -1459,9 +1528,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Ngaʼay 為中心（自動標記）"
+        "structure": "述語 a 為中心（自動標記）"
       },
-      "structure": "謂語 Ngaʼay 為中心（自動標記）",
+      "structure": "述語 a 為中心（自動標記）",
       "audio": "https://web.klokah.tw/text/sound/26964/441653.mp3",
       "audio_primary": true
     },
@@ -1519,9 +1588,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Maherekto 為中心（自動標記）"
+        "structure": "述語 Maherekto 為中心（自動標記）"
       },
-      "structure": "謂語 Maherekto 為中心（自動標記）",
+      "structure": "述語 Maherekto 為中心（自動標記）",
       "audio": "https://web.klokah.tw/text/sound/26964/441654.mp3",
       "audio_primary": true
     },
@@ -1574,16 +1643,19 @@
           "gloss_en": ""
         },
         {
-          "id": "pred2",
+          "id": "liyaw",
           "text": "liyaw",
-          "role": "pred2",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "role": "particle",
+          "gloss_zh": "再",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
-          "id": "sato",
+          "id": "pred2",
           "text": "sato",
-          "role": "noun",
+          "role": "pred2",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -1609,7 +1681,7 @@
           "gloss_en": ""
         },
         {
-          "id": "masasoʼaraw",
+          "id": "masasoaraw",
           "text": "masasoʼaraw",
           "role": "noun",
           "gloss_zh": "",
@@ -1620,7 +1692,10 @@
           "text": "kita",
           "role": "pronoun",
           "gloss_zh": "咱們",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "period",
@@ -1641,12 +1716,12 @@
             "comma"
           ],
           [
+            "liyaw",
             "pred2",
-            "sato",
             "a",
             "lipay",
             "a_3",
-            "masasoʼaraw",
+            "masasoaraw",
             "kita",
             "period"
           ]

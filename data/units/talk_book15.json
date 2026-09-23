@@ -17,7 +17,10 @@
           "text": "I",
           "role": "case",
           "gloss_zh": "在",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "pred",
@@ -37,8 +40,11 @@
           "id": "adada",
           "text": "adada",
           "role": "noun",
-          "gloss_zh": "生病",
-          "gloss_en": ""
+          "gloss_zh": "好痛",
+          "gloss_en": "",
+          "level": "中高級",
+          "vocab_cat": "31生老病死傷",
+          "vocab_code": "31"
         },
         {
           "id": "ko",
@@ -84,9 +90,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 hacowaay 為中心（自動標記）"
+        "structure": "述語 hacowaay 為中心（自動標記）"
       },
-      "structure": "謂語 hacowaay 為中心（自動標記）",
+      "structure": "述語 hacowaay 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c15s1.mp3",
       "audio_primary": true,
       "speaker": "Kolas"
@@ -123,7 +129,10 @@
           "text": "folad",
           "role": "noun",
           "gloss_zh": "月亮",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "11自然景觀",
+          "vocab_code": "11"
         },
         {
           "id": "period",
@@ -136,15 +145,21 @@
           "id": "alatek",
           "text": "Alatek",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "gloss_zh": "可能",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "33助動詞",
+          "vocab_code": "33"
         },
         {
-          "id": "ngaʼayay",
+          "id": "ngaayay",
           "text": "ngaʼayay",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "gloss_zh": "好好的",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "32特徵",
+          "vocab_code": "32"
         },
         {
           "id": "comma",
@@ -157,8 +172,11 @@
           "id": "pred2",
           "text": "alatek",
           "role": "pred2",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "gloss_zh": "可能",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "33助動詞",
+          "vocab_code": "33"
         },
         {
           "id": "sasiromaay",
@@ -184,7 +202,7 @@
             "folad",
             "period",
             "alatek",
-            "ngaʼayay",
+            "ngaayay",
             "comma"
           ],
           [
@@ -233,8 +251,11 @@
           "id": "adada",
           "text": "adada",
           "role": "noun",
-          "gloss_zh": "生病",
-          "gloss_en": ""
+          "gloss_zh": "好痛",
+          "gloss_en": "",
+          "level": "中高級",
+          "vocab_cat": "31生老病死傷",
+          "vocab_code": "31"
         },
         {
           "id": "no",
@@ -246,9 +267,12 @@
         {
           "id": "mira",
           "text": "mira",
-          "role": "noun",
-          "gloss_zh": "他",
-          "gloss_en": ""
+          "role": "pronoun",
+          "gloss_zh": "他的",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "saw",
@@ -283,9 +307,9 @@
           ]
         },
         "plus_between_groups": false,
-        "structure": "謂語為中心；屬格 no/nu 掛於名詞下（自動）"
+        "structure": "述語為中心；屬格 no/nu 掛於名詞下（自動）"
       },
-      "structure": "謂語為中心；屬格 no/nu 掛於名詞下（自動）",
+      "structure": "述語為中心；屬格 no/nu 掛於名詞下（自動）",
       "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c15s3.mp3",
       "audio_primary": true,
       "speaker": "Kolas"
@@ -315,14 +339,20 @@
           "text": "fongoh",
           "role": "noun",
           "gloss_zh": "頭",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "06身體部位",
+          "vocab_code": "06"
         },
         {
           "id": "ira",
           "text": "ira",
           "role": "pronoun",
-          "gloss_zh": "他的",
-          "gloss_en": ""
+          "gloss_zh": "有",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "34其他",
+          "vocab_code": "34"
         },
         {
           "id": "comma",
@@ -335,11 +365,14 @@
           "id": "pred2",
           "text": "alatek",
           "role": "pred2",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "gloss_zh": "可能",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "33助動詞",
+          "vocab_code": "33"
         },
         {
-          "id": "miaotaʼay",
+          "id": "miaotaay",
           "text": "miaotaʼay",
           "role": "noun",
           "gloss_zh": "",
@@ -362,9 +395,12 @@
         {
           "id": "ho",
           "text": "ho",
-          "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "role": "particle",
+          "gloss_zh": "還",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "ko_3",
@@ -377,15 +413,21 @@
           "id": "tiyad",
           "text": "tiyad",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "gloss_zh": "肚子",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "06身體部位",
+          "vocab_code": "06"
         },
         {
           "id": "ira_3",
           "text": "ira",
           "role": "pronoun",
-          "gloss_zh": "他的",
-          "gloss_en": ""
+          "gloss_zh": "有",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "34其他",
+          "vocab_code": "34"
         },
         {
           "id": "period",
@@ -406,7 +448,7 @@
           ],
           [
             "pred2",
-            "miaotaʼay",
+            "miaotaay",
             "comma_3"
           ],
           [
@@ -445,7 +487,10 @@
           "text": "i",
           "role": "case",
           "gloss_zh": "在",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "pipaisingan",
@@ -465,8 +510,11 @@
           "id": "haw",
           "text": "haw",
           "role": "particle",
-          "gloss_zh": "助詞",
-          "gloss_en": ""
+          "gloss_zh": "嗎",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "q",
@@ -489,9 +537,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Tayraay 為中心（自動標記）"
+        "structure": "述語 Tayraay 為中心（自動標記）"
       },
-      "structure": "謂語 Tayraay 為中心（自動標記）",
+      "structure": "述語 Tayraay 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c15s5.mp3",
       "audio_primary": true,
       "speaker": "Kolas"
@@ -506,8 +554,11 @@
           "id": "pred",
           "text": "Hay",
           "role": "pred",
-          "gloss_zh": "是的[回答用]",
-          "gloss_en": ""
+          "gloss_zh": "是的",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "24抽象名詞",
+          "vocab_code": "24"
         },
         {
           "id": "comma",
@@ -528,7 +579,10 @@
           "text": "i",
           "role": "case",
           "gloss_zh": "在",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "pipaisingan",
@@ -547,9 +601,12 @@
         {
           "id": "hatini",
           "text": "hatini",
-          "role": "noun",
-          "gloss_zh": "現在",
-          "gloss_en": ""
+          "role": "pronoun",
+          "gloss_zh": "這樣",
+          "gloss_en": "",
+          "level": "中高級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "a",
@@ -633,15 +690,21 @@
           "id": "ira",
           "text": "ira",
           "role": "pronoun",
-          "gloss_zh": "他的",
-          "gloss_en": ""
+          "gloss_zh": "有",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "34其他",
+          "vocab_code": "34"
         },
         {
           "id": "i",
           "text": "i",
           "role": "case",
           "gloss_zh": "在",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "pipaisingan",
@@ -672,9 +735,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Tahacowa 為中心（自動標記）"
+        "structure": "述語 Tahacowa 為中心（自動標記）"
       },
-      "structure": "謂語 Tahacowa 為中心（自動標記）",
+      "structure": "述語 Tahacowa 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c15s7.mp3",
       "audio_primary": true,
       "speaker": "Kolas"

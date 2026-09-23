@@ -23,9 +23,12 @@
         {
           "id": "maan",
           "text": "maan",
-          "role": "noun",
+          "role": "particle",
           "gloss_zh": "什麼",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
         },
         {
           "id": "ko",
@@ -69,9 +72,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 O 為中心（自動標記）"
+        "structure": "述語 O 為中心（自動標記）"
       },
-      "structure": "謂語 O 為中心（自動標記）",
+      "structure": "述語 O 為中心（自動標記）",
       "audio": "https://web.klokah.tw/text/sound/63188/883617.mp3",
       "audio_primary": true
     },
@@ -85,8 +88,11 @@
           "id": "ira",
           "text": "Ira",
           "role": "pronoun",
-          "gloss_zh": "他的",
-          "gloss_en": ""
+          "gloss_zh": "有",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "34其他",
+          "vocab_code": "34"
         },
         {
           "id": "ko",
@@ -105,9 +111,12 @@
         {
           "id": "ato",
           "text": "ato",
-          "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "role": "particle",
+          "gloss_zh": "和",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "lokiw",
@@ -126,9 +135,12 @@
         {
           "id": "saheto",
           "text": "Saheto",
-          "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "role": "particle",
+          "gloss_zh": "都",
+          "gloss_en": "",
+          "level": "中高級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "o",
@@ -185,9 +197,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 adiyamay 為中心（自動標記）"
+        "structure": "述語 ʼadiyamay 為中心（自動標記）"
       },
-      "structure": "謂語 adiyamay 為中心（自動標記）",
+      "structure": "述語 ʼadiyamay 為中心（自動標記）",
       "audio": "https://web.klokah.tw/text/sound/63188/883618.mp3",
       "audio_primary": true
     },
@@ -202,7 +214,10 @@
           "text": "Tosa",
           "role": "pred",
           "gloss_zh": "二",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "01數字計量",
+          "vocab_code": "01"
         },
         {
           "id": "ko",
@@ -212,7 +227,7 @@
           "gloss_en": ""
         },
         {
-          "id": "miʼacaan",
+          "id": "miacaan",
           "text": "miʼacaan",
           "role": "noun",
           "gloss_zh": "",
@@ -226,11 +241,14 @@
           "gloss_en": ""
         },
         {
-          "id": "pred2",
+          "id": "pina",
           "text": "pina",
-          "role": "pred2",
+          "role": "particle",
           "gloss_zh": "多少",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
         },
         {
           "id": "ko_3",
@@ -240,11 +258,14 @@
           "gloss_en": ""
         },
         {
-          "id": "aca",
+          "id": "pred2",
           "text": "ʼaca",
-          "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "role": "pred2",
+          "gloss_zh": "價格",
+          "gloss_en": "",
+          "level": "中高級",
+          "vocab_cat": "24抽象名詞",
+          "vocab_code": "24"
         },
         {
           "id": "q",
@@ -259,13 +280,13 @@
           [
             "pred",
             "ko",
-            "miʼacaan",
+            "miacaan",
             "comma"
           ],
           [
-            "pred2",
+            "pina",
             "ko_3",
-            "aca",
+            "pred2",
             "q"
           ]
         ],
@@ -288,21 +309,30 @@
           "text": "Tosa",
           "role": "pred",
           "gloss_zh": "二",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "01數字計量",
+          "vocab_code": "01"
         },
         {
-          "id": "soʼot",
+          "id": "soot",
           "text": "soʼot",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "gloss_zh": "綁住",
+          "gloss_en": "",
+          "level": "中高級",
+          "vocab_cat": "26肢體動作",
+          "vocab_code": "26"
         },
         {
           "id": "lima",
           "text": "lima",
           "role": "noun",
           "gloss_zh": "五",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "01數字計量",
+          "vocab_code": "01"
         },
         {
           "id": "polo",
@@ -315,8 +345,11 @@
           "id": "ira",
           "text": "ira",
           "role": "pronoun",
-          "gloss_zh": "他的",
-          "gloss_en": ""
+          "gloss_zh": "有",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "34其他",
+          "vocab_code": "34"
         },
         {
           "id": "ko",
@@ -330,7 +363,10 @@
           "text": "lima",
           "role": "noun",
           "gloss_zh": "五",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "01數字計量",
+          "vocab_code": "01"
         },
         {
           "id": "a",
@@ -358,7 +394,7 @@
         "groups": [
           [
             "pred",
-            "soʼot",
+            "soot",
             "lima",
             "polo",
             "ira",
@@ -371,9 +407,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Tosa 為中心（自動標記）"
+        "structure": "述語 Tosa 為中心（自動標記）"
       },
-      "structure": "謂語 Tosa 為中心（自動標記）",
+      "structure": "述語 Tosa 為中心（自動標記）",
       "audio": "https://web.klokah.tw/text/sound/63188/883620.mp3",
       "audio_primary": true
     },
@@ -395,7 +431,10 @@
           "text": "kako",
           "role": "pronoun",
           "gloss_zh": "我",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "tona",
@@ -408,8 +447,11 @@
           "id": "riko",
           "text": "rikoʼ",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "gloss_zh": "衣服",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "18織布服飾",
+          "vocab_code": "18"
         },
         {
           "id": "comma",
@@ -419,11 +461,14 @@
           "gloss_en": ""
         },
         {
-          "id": "pred2",
+          "id": "pina",
           "text": "pina",
-          "role": "pred2",
+          "role": "particle",
           "gloss_zh": "多少",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
         },
         {
           "id": "ko",
@@ -433,11 +478,14 @@
           "gloss_en": ""
         },
         {
-          "id": "aca",
+          "id": "pred2",
           "text": "ʼaca",
-          "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "role": "pred2",
+          "gloss_zh": "價格",
+          "gloss_en": "",
+          "level": "中高級",
+          "vocab_cat": "24抽象名詞",
+          "vocab_code": "24"
         },
         {
           "id": "nira",
@@ -464,9 +512,9 @@
             "comma"
           ],
           [
-            "pred2",
+            "pina",
             "ko",
-            "aca",
+            "pred2",
             "nira",
             "q"
           ]
@@ -490,14 +538,20 @@
           "text": "Lima",
           "role": "pred",
           "gloss_zh": "五",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "01數字計量",
+          "vocab_code": "01"
         },
         {
-          "id": "soʼot",
+          "id": "soot",
           "text": "soʼot",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "gloss_zh": "綁住",
+          "gloss_en": "",
+          "level": "中高級",
+          "vocab_cat": "26肢體動作",
+          "vocab_code": "26"
         },
         {
           "id": "a",
@@ -516,9 +570,12 @@
         {
           "id": "koni",
           "text": "koni",
-          "role": "noun",
+          "role": "pronoun",
           "gloss_zh": "這個",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "a_3",
@@ -531,8 +588,11 @@
           "id": "riko",
           "text": "rikoʼ",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "gloss_zh": "衣服",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "18織布服飾",
+          "vocab_code": "18"
         },
         {
           "id": "period",
@@ -546,7 +606,7 @@
         "groups": [
           [
             "pred",
-            "soʼot",
+            "soot",
             "a",
             "limood",
             "koni",
@@ -557,9 +617,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Lima 為中心（自動標記）"
+        "structure": "述語 Lima 為中心（自動標記）"
       },
-      "structure": "謂語 Lima 為中心（自動標記）",
+      "structure": "述語 Lima 為中心（自動標記）",
       "audio": "https://web.klokah.tw/text/sound/63188/883622.mp3",
       "audio_primary": true
     },
@@ -587,8 +647,11 @@
           "id": "cowa",
           "text": "cowa",
           "role": "adverb",
-          "gloss_zh": "不是[回答用]",
-          "gloss_en": ""
+          "gloss_zh": "不是",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "35否定詞",
+          "vocab_code": "35"
         },
         {
           "id": "pred2",
@@ -621,16 +684,22 @@
         {
           "id": "mamang",
           "text": "mamang",
-          "role": "noun",
-          "gloss_zh": "人名",
-          "gloss_en": ""
+          "role": "particle",
+          "gloss_zh": "少許",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "haw",
           "text": "haw",
           "role": "particle",
-          "gloss_zh": "助詞",
-          "gloss_en": ""
+          "gloss_zh": "嗎",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "q",
@@ -675,8 +744,11 @@
           "id": "cowa",
           "text": "Cowa",
           "role": "adverb",
-          "gloss_zh": "不是[回答用]",
-          "gloss_en": ""
+          "gloss_zh": "不是",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "35否定詞",
+          "vocab_code": "35"
         },
         {
           "id": "pred",
@@ -693,16 +765,19 @@
           "gloss_en": ""
         },
         {
-          "id": "pred2",
+          "id": "ano",
           "text": "ano",
-          "role": "pred2",
+          "role": "particle",
           "gloss_zh": "如果",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
-          "id": "lowanen",
+          "id": "pred2",
           "text": "lowanen",
-          "role": "noun",
+          "role": "pred2",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -711,7 +786,10 @@
           "text": "i",
           "role": "case",
           "gloss_zh": "在",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "comma_3",
@@ -732,7 +810,10 @@
           "text": "kako",
           "role": "pronoun",
           "gloss_zh": "我",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "period",
@@ -750,8 +831,8 @@
             "comma"
           ],
           [
+            "ano",
             "pred2",
-            "lowanen",
             "i",
             "comma_3"
           ],
@@ -811,7 +892,7 @@
           "gloss_en": ""
         },
         {
-          "id": "aʼacaen",
+          "id": "aacaen",
           "text": "ʼaʼacaen",
           "role": "noun",
           "gloss_zh": "",
@@ -842,7 +923,7 @@
             "pred2",
             "kohetingay",
             "ko",
-            "aʼacaen",
+            "aacaen",
             "ako",
             "period"
           ]
@@ -873,7 +954,10 @@
           "text": "kako",
           "role": "pronoun",
           "gloss_zh": "我",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "toni",
@@ -883,18 +967,24 @@
           "gloss_en": ""
         },
         {
-          "id": "poʼot",
+          "id": "poot",
           "text": "poʼot",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "gloss_zh": "小刀",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "09物品(不含食品)",
+          "vocab_code": "09"
         },
         {
           "id": "ato",
           "text": "ato",
-          "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "role": "particle",
+          "gloss_zh": "和",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "inian",
@@ -914,8 +1004,11 @@
           "id": "dangah",
           "text": "dangah",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "gloss_zh": "飯鍋",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "09物品(不含食品)",
+          "vocab_code": "09"
         },
         {
           "id": "period",
@@ -931,7 +1024,7 @@
             "pred",
             "kako",
             "toni",
-            "poʼot",
+            "poot",
             "ato",
             "inian",
             "a",
@@ -941,9 +1034,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Miʼaca 為中心（自動標記）"
+        "structure": "述語 Miʼaca 為中心（自動標記）"
       },
-      "structure": "謂語 Miʼaca 為中心（自動標記）",
+      "structure": "述語 Miʼaca 為中心（自動標記）",
       "audio": "https://web.klokah.tw/text/sound/63188/883626.mp3",
       "audio_primary": true
     },
@@ -972,7 +1065,10 @@
           "text": "tosa",
           "role": "noun",
           "gloss_zh": "二",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "01數字計量",
+          "vocab_code": "01"
         },
         {
           "id": "lefot",
@@ -1010,7 +1106,7 @@
           "gloss_en": ""
         },
         {
-          "id": "misangaʼan",
+          "id": "misangaan",
           "text": "misangaʼan",
           "role": "noun",
           "gloss_zh": "",
@@ -1026,9 +1122,12 @@
         {
           "id": "koni",
           "text": "koni",
-          "role": "noun",
+          "role": "pronoun",
           "gloss_zh": "這個",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "comma",
@@ -1062,8 +1161,11 @@
           "id": "sakadademak",
           "text": "sakadademak",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "gloss_zh": "工具",
+          "gloss_en": "",
+          "level": "中高級",
+          "vocab_cat": "09物品(不含食品)",
+          "vocab_code": "09"
         },
         {
           "id": "period_3",
@@ -1084,7 +1186,7 @@
             "limood",
             "period",
             "o",
-            "misangaʼan",
+            "misangaan",
             "ako",
             "koni",
             "comma",
@@ -1135,7 +1237,10 @@
           "text": "widang",
           "role": "noun",
           "gloss_zh": "朋友",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
         },
         {
           "id": "a",
@@ -1145,7 +1250,7 @@
           "gloss_en": ""
         },
         {
-          "id": "miʼaca",
+          "id": "miaca",
           "text": "miʼaca",
           "role": "noun",
           "gloss_zh": "",
@@ -1159,16 +1264,19 @@
           "gloss_en": ""
         },
         {
-          "id": "pred2",
+          "id": "ngaay",
           "text": "ngaʼay",
-          "role": "pred2",
+          "role": "particle",
           "gloss_zh": "可以",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
-          "id": "kaemeden",
+          "id": "pred2",
           "text": "kaemeden",
-          "role": "noun",
+          "role": "pred2",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -1182,16 +1290,22 @@
         {
           "id": "mamang",
           "text": "mamang",
-          "role": "noun",
-          "gloss_zh": "人名",
-          "gloss_en": ""
+          "role": "particle",
+          "gloss_zh": "少許",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "haw",
           "text": "haw",
           "role": "particle",
-          "gloss_zh": "助詞",
-          "gloss_en": ""
+          "gloss_zh": "嗎",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "q",
@@ -1209,12 +1323,12 @@
             "ko",
             "widang",
             "a",
-            "miʼaca",
+            "miaca",
             "comma"
           ],
           [
+            "ngaay",
             "pred2",
-            "kaemeden",
             "to",
             "mamang",
             "haw",
@@ -1275,7 +1389,10 @@
           "text": "falo",
           "role": "noun",
           "gloss_zh": "八",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "01數字計量",
+          "vocab_code": "01"
         },
         {
           "id": "ko",
@@ -1288,8 +1405,11 @@
           "id": "aca",
           "text": "ʼaca",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "gloss_zh": "價格",
+          "gloss_en": "",
+          "level": "中高級",
+          "vocab_cat": "24抽象名詞",
+          "vocab_code": "24"
         },
         {
           "id": "period",
@@ -1315,9 +1435,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Hayda 為中心（自動標記）"
+        "structure": "述語 Hayda 為中心（自動標記）"
       },
-      "structure": "謂語 Hayda 為中心（自動標記）",
+      "structure": "述語 Hayda 為中心（自動標記）",
       "audio": "https://web.klokah.tw/text/sound/63188/883629.mp3",
       "audio_primary": true
     },
@@ -1359,8 +1479,11 @@
           "id": "ira",
           "text": "Ira",
           "role": "pronoun",
-          "gloss_zh": "他的",
-          "gloss_en": ""
+          "gloss_zh": "有",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "34其他",
+          "vocab_code": "34"
         },
         {
           "id": "ko",
@@ -1373,22 +1496,31 @@
           "id": "riko",
           "text": "rikoʼ",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "gloss_zh": "衣服",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "18織布服飾",
+          "vocab_code": "18"
         },
         {
           "id": "ato",
           "text": "ato",
-          "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "role": "particle",
+          "gloss_zh": "和",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "kafong",
           "text": "kafong",
           "role": "noun",
           "gloss_zh": "帽子",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "18織布服飾",
+          "vocab_code": "18"
         },
         {
           "id": "itini",
@@ -1423,9 +1555,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Katayni 為中心（自動標記）"
+        "structure": "述語 Katayni 為中心（自動標記）"
       },
-      "structure": "謂語 Katayni 為中心（自動標記）",
+      "structure": "述語 Katayni 為中心（自動標記）",
       "audio": "https://web.klokah.tw/text/sound/63188/883630.mp3",
       "audio_primary": true
     },
@@ -1445,9 +1577,12 @@
         {
           "id": "ho",
           "text": "ho",
-          "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "role": "particle",
+          "gloss_zh": "還",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "comma",
@@ -1474,8 +1609,11 @@
           "id": "aca",
           "text": "ʼaca",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "gloss_zh": "價格",
+          "gloss_en": "",
+          "level": "中高級",
+          "vocab_cat": "24抽象名詞",
+          "vocab_code": "24"
         },
         {
           "id": "noni",
@@ -1488,8 +1626,11 @@
           "id": "riko",
           "text": "rikoʼ",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "gloss_zh": "衣服",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "18織布服飾",
+          "vocab_code": "18"
         },
         {
           "id": "q",
@@ -1534,21 +1675,30 @@
           "text": "Tolo",
           "role": "pred",
           "gloss_zh": "三",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "01數字計量",
+          "vocab_code": "01"
         },
         {
-          "id": "soʼot",
+          "id": "soot",
           "text": "soʼot",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "gloss_zh": "綁住",
+          "gloss_en": "",
+          "level": "中高級",
+          "vocab_cat": "26肢體動作",
+          "vocab_code": "26"
         },
         {
           "id": "lima",
           "text": "lima",
           "role": "noun",
           "gloss_zh": "五",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "01數字計量",
+          "vocab_code": "01"
         },
         {
           "id": "polo",
@@ -1568,8 +1718,11 @@
           "id": "aca",
           "text": "ʼaca",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "gloss_zh": "價格",
+          "gloss_en": "",
+          "level": "中高級",
+          "vocab_cat": "24抽象名詞",
+          "vocab_code": "24"
         },
         {
           "id": "no",
@@ -1583,7 +1736,10 @@
           "text": "cecay",
           "role": "noun",
           "gloss_zh": "一",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "01數字計量",
+          "vocab_code": "01"
         },
         {
           "id": "comma",
@@ -1611,7 +1767,10 @@
           "text": "i",
           "role": "case",
           "gloss_zh": "在",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "comma_3",
@@ -1638,8 +1797,11 @@
           "id": "aca_3",
           "text": "ʼaca",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "gloss_zh": "價格",
+          "gloss_en": "",
+          "level": "中高級",
+          "vocab_cat": "24抽象名詞",
+          "vocab_code": "24"
         },
         {
           "id": "period",
@@ -1653,7 +1815,7 @@
         "groups": [
           [
             "pred",
-            "soʼot",
+            "soot",
             "lima",
             "polo",
             "ko",
@@ -1690,7 +1852,10 @@
           "text": "Cecay",
           "role": "pred",
           "gloss_zh": "一",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "01數字計量",
+          "vocab_code": "01"
         },
         {
           "id": "aca",
@@ -1707,7 +1872,7 @@
           "gloss_en": ""
         },
         {
-          "id": "miʼacaan",
+          "id": "miacaan",
           "text": "miʼacaan",
           "role": "noun",
           "gloss_zh": "",
@@ -1739,7 +1904,10 @@
           "text": "kako",
           "role": "pronoun",
           "gloss_zh": "我",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "to",
@@ -1769,7 +1937,7 @@
             "pred",
             "aca",
             "ko",
-            "miʼacaan",
+            "miacaan",
             "ako",
             "comma"
           ],
@@ -1796,18 +1964,24 @@
       "en": "",
       "tokens": [
         {
-          "id": "pred",
+          "id": "ngaay",
           "text": "Ngaʼay",
-          "role": "pred",
+          "role": "particle",
           "gloss_zh": "可以",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "ho",
           "text": "ho",
-          "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "role": "particle",
+          "gloss_zh": "還",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "comma",
@@ -1828,7 +2002,10 @@
           "text": "kako",
           "role": "pronoun",
           "gloss_zh": "我",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "to",
@@ -1847,9 +2024,12 @@
         {
           "id": "ato",
           "text": "ato",
-          "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "role": "particle",
+          "gloss_zh": "和",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "siimocay",
@@ -1869,8 +2049,11 @@
           "id": "titi",
           "text": "titi",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "gloss_zh": "肉",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "06身體部位",
+          "vocab_code": "06"
         },
         {
           "id": "period",
@@ -1883,7 +2066,7 @@
       "layout": {
         "groups": [
           [
-            "pred",
+            "ngaay",
             "ho",
             "comma"
           ],
@@ -1939,7 +2122,10 @@
           "text": "hemay",
           "role": "noun",
           "gloss_zh": "飯",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "21食物(非植物)",
+          "vocab_code": "21"
         },
         {
           "id": "period",
@@ -1958,9 +2144,12 @@
         {
           "id": "ho",
           "text": "ho",
-          "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "role": "particle",
+          "gloss_zh": "還",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "ko_3",
@@ -1970,7 +2159,7 @@
           "gloss_en": ""
         },
         {
-          "id": "sitanaʼay",
+          "id": "sitanaay",
           "text": "sitanaʼay",
           "role": "noun",
           "gloss_zh": "",
@@ -2009,7 +2198,10 @@
           "text": "kiso",
           "role": "pronoun",
           "gloss_zh": "你",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "q",
@@ -2030,7 +2222,7 @@
             "iraay",
             "ho",
             "ko_3",
-            "sitanaʼay",
+            "sitanaay",
             "a",
             "yuping",
             "comma"
@@ -2081,7 +2273,10 @@
           "text": "kako",
           "role": "pronoun",
           "gloss_zh": "我",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "to",
@@ -2095,7 +2290,10 @@
           "text": "cecay",
           "role": "noun",
           "gloss_zh": "一",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "01數字計量",
+          "vocab_code": "01"
         },
         {
           "id": "comma",
@@ -2108,8 +2306,11 @@
           "id": "pred2",
           "text": "cila",
           "role": "pred2",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "gloss_zh": "未來",
+          "gloss_en": "",
+          "level": "中高級",
+          "vocab_cat": "13時間",
+          "vocab_code": "13"
         },
         {
           "id": "to_3",
@@ -2121,9 +2322,12 @@
         {
           "id": "nga",
           "text": "nga",
-          "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "role": "particle",
+          "gloss_zh": "如此",
+          "gloss_en": "",
+          "level": "中高級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "comma_3",
@@ -2133,7 +2337,7 @@
           "gloss_en": ""
         },
         {
-          "id": "miʼaca",
+          "id": "miaca",
           "text": "miʼaca",
           "role": "pred2",
           "gloss_zh": "",
@@ -2144,7 +2348,10 @@
           "text": "kako",
           "role": "pronoun",
           "gloss_zh": "我",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "to_4",
@@ -2158,7 +2365,10 @@
           "text": "hemay",
           "role": "noun",
           "gloss_zh": "飯",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "21食物(非植物)",
+          "vocab_code": "21"
         },
         {
           "id": "period",
@@ -2186,7 +2396,7 @@
             "comma_3"
           ],
           [
-            "miʼaca",
+            "miaca",
             "kako_3",
             "to_4",
             "hemay",
@@ -2211,8 +2421,11 @@
           "id": "pred",
           "text": "Hay",
           "role": "pred",
-          "gloss_zh": "是的[回答用]",
-          "gloss_en": ""
+          "gloss_zh": "是的",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "24抽象名詞",
+          "vocab_code": "24"
         },
         {
           "id": "comma",
@@ -2240,7 +2453,10 @@
           "text": "kiso",
           "role": "pronoun",
           "gloss_zh": "你",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "a",
@@ -2261,7 +2477,10 @@
           "text": "i",
           "role": "case",
           "gloss_zh": "在",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "kalasay",
@@ -2282,7 +2501,10 @@
           "text": "Lima",
           "role": "noun",
           "gloss_zh": "五",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "01數字計量",
+          "vocab_code": "01"
         },
         {
           "id": "polo",
@@ -2316,8 +2538,11 @@
           "id": "aca",
           "text": "ʼaca",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "gloss_zh": "價格",
+          "gloss_en": "",
+          "level": "中高級",
+          "vocab_cat": "24抽象名詞",
+          "vocab_code": "24"
         },
         {
           "id": "period_3",

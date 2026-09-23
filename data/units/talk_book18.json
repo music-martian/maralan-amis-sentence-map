@@ -22,9 +22,12 @@
         {
           "id": "maan",
           "text": "maan",
-          "role": "noun",
+          "role": "particle",
           "gloss_zh": "什麼",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
         },
         {
           "id": "ko",
@@ -44,8 +47,11 @@
           "id": "miso",
           "text": "miso",
           "role": "pronoun",
-          "gloss_zh": "你",
-          "gloss_en": ""
+          "gloss_zh": "你的",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "a",
@@ -92,9 +98,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 O 為中心（自動標記）"
+        "structure": "述語 O 為中心（自動標記）"
       },
-      "structure": "謂語 O 為中心（自動標記）",
+      "structure": "述語 O 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c18s1.mp3",
       "audio_primary": true,
       "speaker": "Saomah"
@@ -117,7 +123,10 @@
           "text": "kako",
           "role": "pronoun",
           "gloss_zh": "我",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "a",
@@ -153,9 +162,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Maolahay 為中心（自動標記）"
+        "structure": "述語 Maolahay 為中心（自動標記）"
       },
-      "structure": "謂語 Maolahay 為中心（自動標記）",
+      "structure": "述語 Maolahay 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c18s2.mp3",
       "audio_primary": true,
       "speaker": "Laway"
@@ -176,9 +185,12 @@
         {
           "id": "maan",
           "text": "maan",
-          "role": "noun",
+          "role": "particle",
           "gloss_zh": "什麼",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
         },
         {
           "id": "ko",
@@ -188,7 +200,7 @@
           "gloss_en": ""
         },
         {
-          "id": "kangaʼayan",
+          "id": "kangaayan",
           "text": "kangaʼayan",
           "role": "noun",
           "gloss_zh": "",
@@ -222,7 +234,7 @@
             "pred",
             "maan",
             "ko",
-            "kangaʼayan",
+            "kangaayan",
             "a",
             "midangoy",
             "q"
@@ -230,9 +242,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 O 為中心（自動標記）"
+        "structure": "述語 O 為中心（自動標記）"
       },
-      "structure": "謂語 O 為中心（自動標記）",
+      "structure": "述語 O 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c18s3.mp3",
       "audio_primary": true,
       "speaker": "Saomah"
@@ -272,16 +284,19 @@
           "gloss_en": ""
         },
         {
-          "id": "pred2",
+          "id": "ngaay",
           "text": "ngaʼay",
-          "role": "pred2",
+          "role": "particle",
           "gloss_zh": "可以",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
-          "id": "haca",
+          "id": "pred2",
           "text": "haca",
-          "role": "noun",
+          "role": "pred2",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -328,7 +343,7 @@
           "gloss_en": ""
         },
         {
-          "id": "ʼaowang",
+          "id": "aowang",
           "text": "ʼaowang",
           "role": "noun",
           "gloss_zh": "",
@@ -351,8 +366,8 @@
             "comma"
           ],
           [
+            "ngaay",
             "pred2",
-            "haca",
             "a",
             "micelem",
             "comma_3"
@@ -363,7 +378,7 @@
           ],
           [
             "mi",
-            "ʼaowang",
+            "aowang",
             "period"
           ]
         ],
@@ -387,7 +402,10 @@
           "text": "I",
           "role": "case",
           "gloss_zh": "在",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "pred",
@@ -401,7 +419,10 @@
           "text": "i",
           "role": "case",
           "gloss_zh": "在",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "comma",
@@ -415,14 +436,20 @@
           "text": "tayra",
           "role": "pred2",
           "gloss_zh": "去",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "25行動",
+          "vocab_code": "25"
         },
         {
           "id": "i_4",
           "text": "i",
           "role": "case",
           "gloss_zh": "在",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "riyal",
@@ -442,11 +469,14 @@
           "id": "fafahiyan",
           "text": "fafahiyan",
           "role": "noun",
-          "gloss_zh": "女",
-          "gloss_en": ""
+          "gloss_zh": "女性",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
         },
         {
-          "id": "miʼadipit",
+          "id": "miadipit",
           "text": "miʼadipit",
           "role": "noun",
           "gloss_zh": "",
@@ -488,7 +518,7 @@
             "riyal",
             "ko",
             "fafahiyan",
-            "miʼadipit",
+            "miadipit",
             "comma_3"
           ],
           [
@@ -523,7 +553,10 @@
           "text": "kako",
           "role": "pronoun",
           "gloss_zh": "我",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "a",
@@ -559,9 +592,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Maolahay 為中心（自動標記）"
+        "structure": "述語 Maolahay 為中心（自動標記）"
       },
-      "structure": "謂語 Maolahay 為中心（自動標記）",
+      "structure": "述語 Maolahay 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c18s7.mp3",
       "audio_primary": true,
       "speaker": "Saomah"

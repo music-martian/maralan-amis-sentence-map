@@ -29,7 +29,7 @@
           "gloss_en": ""
         },
         {
-          "id": "mitaʼong",
+          "id": "mitaong",
           "text": "Mitaʼong",
           "role": "noun",
           "gloss_zh": "",
@@ -48,20 +48,20 @@
           [
             "pred",
             "excl",
-            "mitaʼong",
+            "mitaong",
             "excl_3"
           ]
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Katomireng 為中心（自動標記）"
+        "structure": "述語 Katomireng 為中心（自動標記）"
       },
-      "structure": "謂語 Katomireng 為中心（自動標記）",
+      "structure": "述語 Katomireng 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_senior/sound/4/2sentence/4_1.mp3",
       "audio_primary": true,
       "audio_note": "音訊為 Klokah 對話段（可能含多句）",
-      "audio_exchange": "ex1",
-      "learn_id": 1
+      "learn_id": 1,
+      "audio_exchange": "ex1"
     },
     {
       "id": "002",
@@ -81,7 +81,10 @@
           "text": "singsi",
           "role": "noun",
           "gloss_zh": "老師",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
         },
         {
           "id": "excl",
@@ -101,14 +104,14 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Ngaʼayho 為中心（自動標記）"
+        "structure": "述語 Ngaʼayho 為中心（自動標記）"
       },
-      "structure": "謂語 Ngaʼayho 為中心（自動標記）",
+      "structure": "述語 Ngaʼayho 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_senior/sound/4/2sentence/4_1.mp3",
       "audio_primary": false,
       "audio_note": "音訊為整段對話（含前後句），非單句錄音",
-      "audio_exchange": "ex1",
-      "learn_id": 1
+      "learn_id": 1,
+      "audio_exchange": "ex1"
     },
     {
       "id": "003",
@@ -128,14 +131,20 @@
           "text": "kamo",
           "role": "pronoun",
           "gloss_zh": "你們",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "mitiliday",
           "text": "mitiliday",
           "role": "noun",
           "gloss_zh": "學生",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
         },
         {
           "id": "excl",
@@ -156,14 +165,14 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Ngaʼayho 為中心（自動標記）"
+        "structure": "述語 Ngaʼayho 為中心（自動標記）"
       },
-      "structure": "謂語 Ngaʼayho 為中心（自動標記）",
+      "structure": "述語 Ngaʼayho 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_senior/sound/4/2sentence/4_2.mp3",
       "audio_primary": true,
       "audio_note": "音訊為 Klokah 對話段（可能含多句）",
-      "audio_exchange": "ex2",
-      "learn_id": 2
+      "learn_id": 2,
+      "audio_exchange": "ex2"
     },
     {
       "id": "004",
@@ -175,7 +184,7 @@
           "id": "pred",
           "text": "Kamaroʼ",
           "role": "pred",
-          "gloss_zh": "坐下！",
+          "gloss_zh": "坐下",
           "gloss_en": ""
         },
         {
@@ -195,14 +204,14 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Kamaro 為中心（自動標記）"
+        "structure": "述語 Kamaroʼ 為中心（自動標記）"
       },
-      "structure": "謂語 Kamaro 為中心（自動標記）",
+      "structure": "述語 Kamaroʼ 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_senior/sound/4/2sentence/4_2.mp3",
       "audio_primary": false,
       "audio_note": "音訊為整段對話（含前後句），非單句錄音",
-      "audio_exchange": "ex2",
-      "learn_id": 2
+      "learn_id": 2,
+      "audio_exchange": "ex2"
     },
     {
       "id": "005",
@@ -235,8 +244,11 @@
           "id": "pasowal",
           "text": "Pasowal",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "gloss_zh": "告訴",
+          "gloss_en": "",
+          "level": "中高級",
+          "vocab_cat": "28認知感官",
+          "vocab_code": "28"
         },
         {
           "id": "excl_3",
@@ -258,14 +270,14 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Kasomowal 為中心（自動標記）"
+        "structure": "述語 Kasomowal 為中心（自動標記）"
       },
-      "structure": "謂語 Kasomowal 為中心（自動標記）",
+      "structure": "述語 Kasomowal 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_senior/sound/4/2sentence/4_3.mp3",
       "audio_primary": true,
       "audio_note": "音訊為 Klokah 對話段（可能含多句）",
-      "audio_exchange": "ex3",
-      "learn_id": 3
+      "learn_id": 3,
+      "audio_exchange": "ex3"
     },
     {
       "id": "006",
@@ -297,14 +309,14 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Pitengil 為中心（自動標記）"
+        "structure": "述語 Pitengil 為中心（自動標記）"
       },
-      "structure": "謂語 Pitengil 為中心（自動標記）",
+      "structure": "述語 Pitengil 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_senior/sound/4/2sentence/4_4.mp3",
       "audio_primary": true,
       "audio_note": "音訊為 Klokah 對話段（可能含多句）",
-      "audio_exchange": "ex4",
-      "learn_id": 4
+      "learn_id": 4,
+      "audio_exchange": "ex4"
     },
     {
       "id": "007",
@@ -336,14 +348,14 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Pitilid 為中心（自動標記）"
+        "structure": "述語 Pitilid 為中心（自動標記）"
       },
-      "structure": "謂語 Pitilid 為中心（自動標記）",
+      "structure": "述語 Pitilid 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_senior/sound/4/2sentence/4_5.mp3",
       "audio_primary": true,
       "audio_note": "音訊為 Klokah 對話段（可能含多句）",
-      "audio_exchange": "ex5",
-      "learn_id": 5
+      "learn_id": 5,
+      "audio_exchange": "ex5"
     },
     {
       "id": "008",
@@ -369,8 +381,11 @@
           "id": "fofo",
           "text": "fofo",
           "role": "noun",
-          "gloss_zh": "祖父",
-          "gloss_en": ""
+          "gloss_zh": "孫子/孫女",
+          "gloss_en": "",
+          "level": "中高級",
+          "vocab_cat": "04親屬稱謂",
+          "vocab_code": "04"
         },
         {
           "id": "excl",
@@ -391,14 +406,14 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Piliso 為中心（自動標記）"
+        "structure": "述語 Pilisoʼ 為中心（自動標記）"
       },
-      "structure": "謂語 Piliso 為中心（自動標記）",
+      "structure": "述語 Pilisoʼ 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_senior/sound/4/2sentence/4_6.mp3",
       "audio_primary": true,
       "audio_note": "音訊為 Klokah 對話段（可能含多句）",
-      "audio_exchange": "ex6",
-      "learn_id": 6
+      "learn_id": 6,
+      "audio_exchange": "ex6"
     },
     {
       "id": "009",
@@ -417,8 +432,11 @@
           "id": "caciyaw",
           "text": "caciyaw",
           "role": "noun",
-          "gloss_zh": "說",
-          "gloss_en": ""
+          "gloss_zh": "語言",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "24抽象名詞",
+          "vocab_code": "24"
         },
         {
           "id": "excl",
@@ -438,14 +456,14 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Aka 為中心（自動標記）"
+        "structure": "述語 Aka 為中心（自動標記）"
       },
-      "structure": "謂語 Aka 為中心（自動標記）",
+      "structure": "述語 Aka 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_senior/sound/4/2sentence/4_7.mp3",
       "audio_primary": true,
       "audio_note": "音訊為 Klokah 對話段（可能含多句）",
-      "audio_exchange": "ex7",
-      "learn_id": 7
+      "learn_id": 7,
+      "audio_exchange": "ex7"
     },
     {
       "id": "010",
@@ -485,14 +503,14 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Aka 為中心（自動標記）"
+        "structure": "述語 Aka 為中心（自動標記）"
       },
-      "structure": "謂語 Aka 為中心（自動標記）",
+      "structure": "述語 Aka 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_senior/sound/4/2sentence/4_8.mp3",
       "audio_primary": true,
       "audio_note": "音訊為 Klokah 對話段（可能含多句）",
-      "audio_exchange": "ex8",
-      "learn_id": 8
+      "learn_id": 8,
+      "audio_exchange": "ex8"
     },
     {
       "id": "011",
@@ -532,14 +550,14 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Aka 為中心（自動標記）"
+        "structure": "述語 Aka 為中心（自動標記）"
       },
-      "structure": "謂語 Aka 為中心（自動標記）",
+      "structure": "述語 Aka 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_senior/sound/4/2sentence/4_9.mp3",
       "audio_primary": true,
       "audio_note": "音訊為 Klokah 對話段（可能含多句）",
-      "audio_exchange": "ex9",
-      "learn_id": 9
+      "learn_id": 9,
+      "audio_exchange": "ex9"
     },
     {
       "id": "012",
@@ -565,8 +583,11 @@
           "id": "palatawan",
           "text": "palatawan",
           "role": "noun",
-          "gloss_zh": "窗",
-          "gloss_en": ""
+          "gloss_zh": "窗戶",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "12建築",
+          "vocab_code": "12"
         },
         {
           "id": "excl",
@@ -587,14 +608,14 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Fawahen 為中心（自動標記）"
+        "structure": "述語 Fawahen 為中心（自動標記）"
       },
-      "structure": "謂語 Fawahen 為中心（自動標記）",
+      "structure": "述語 Fawahen 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_senior/sound/4/2sentence/4_10.mp3",
       "audio_primary": true,
       "audio_note": "音訊為 Klokah 對話段（可能含多句）",
-      "audio_exchange": "ex10",
-      "learn_id": 10
+      "learn_id": 10,
+      "audio_exchange": "ex10"
     },
     {
       "id": "013",
@@ -606,8 +627,11 @@
           "id": "pred",
           "text": "Hay",
           "role": "pred",
-          "gloss_zh": "是的[回答用]",
-          "gloss_en": ""
+          "gloss_zh": "是的",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "24抽象名詞",
+          "vocab_code": "24"
         },
         {
           "id": "excl",
@@ -626,14 +650,14 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Hay 為中心（自動標記）"
+        "structure": "述語 Hay 為中心（自動標記）"
       },
-      "structure": "謂語 Hay 為中心（自動標記）",
+      "structure": "述語 Hay 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_senior/sound/4/2sentence/4_10.mp3",
       "audio_primary": false,
       "audio_note": "音訊為整段對話（含前後句），非單句錄音",
-      "audio_exchange": "ex10",
-      "learn_id": 10
+      "learn_id": 10,
+      "audio_exchange": "ex10"
     },
     {
       "id": "014",
@@ -645,8 +669,11 @@
           "id": "pred",
           "text": "Fofo",
           "role": "pred",
-          "gloss_zh": "祖父",
-          "gloss_en": ""
+          "gloss_zh": "孫子/孫女",
+          "gloss_en": "",
+          "level": "中高級",
+          "vocab_cat": "04親屬稱謂",
+          "vocab_code": "04"
         },
         {
           "id": "comma",
@@ -674,7 +701,10 @@
           "text": "fawahan",
           "role": "noun",
           "gloss_zh": "門",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "12建築",
+          "vocab_code": "12"
         },
         {
           "id": "excl",
@@ -705,8 +735,8 @@
       "audio": "https://klokah.tw/extension/sp_senior/sound/4/2sentence/4_11.mp3",
       "audio_primary": true,
       "audio_note": "音訊為 Klokah 對話段（可能含多句）",
-      "audio_exchange": "ex11",
-      "learn_id": 11
+      "learn_id": 11,
+      "audio_exchange": "ex11"
     },
     {
       "id": "015",
@@ -718,8 +748,11 @@
           "id": "pred",
           "text": "Hay",
           "role": "pred",
-          "gloss_zh": "是的[回答用]",
-          "gloss_en": ""
+          "gloss_zh": "是的",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "24抽象名詞",
+          "vocab_code": "24"
         },
         {
           "id": "excl",
@@ -762,14 +795,14 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Hay 為中心（自動標記）"
+        "structure": "述語 Hay 為中心（自動標記）"
       },
-      "structure": "謂語 Hay 為中心（自動標記）",
+      "structure": "述語 Hay 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_senior/sound/4/2sentence/4_11.mp3",
       "audio_primary": false,
       "audio_note": "音訊為整段對話（含前後句），非單句錄音",
-      "audio_exchange": "ex11",
-      "learn_id": 11
+      "learn_id": 11,
+      "audio_exchange": "ex11"
     }
   ]
 }

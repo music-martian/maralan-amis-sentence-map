@@ -20,7 +20,7 @@
           "gloss_en": ""
         },
         {
-          "id": "kilomaʼan",
+          "id": "kilomaan",
           "text": "kilomaʼan",
           "role": "noun",
           "gloss_zh": "",
@@ -55,7 +55,7 @@
           "gloss_en": ""
         },
         {
-          "id": "ʼamis",
+          "id": "amis",
           "text": "ʼAmis",
           "role": "noun",
           "gloss_zh": "",
@@ -65,8 +65,11 @@
           "id": "haw",
           "text": "haw",
           "role": "particle",
-          "gloss_zh": "助詞",
-          "gloss_en": ""
+          "gloss_zh": "嗎",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "q",
@@ -80,7 +83,7 @@
         "groups": [
           [
             "pred",
-            "kilomaʼan",
+            "kilomaan",
             "aca",
             "ko",
             "lisin",
@@ -91,13 +94,13 @@
         "hangs": {
           "lisin": [
             "no",
-            "ʼamis"
+            "amis"
           ]
         },
         "plus_between_groups": false,
-        "structure": "謂語為中心；屬格 no/nu 掛於名詞下（自動）"
+        "structure": "述語為中心；屬格 no/nu 掛於名詞下（自動）"
       },
-      "structure": "謂語為中心；屬格 no/nu 掛於名詞下（自動）",
+      "structure": "述語為中心；屬格 no/nu 掛於名詞下（自動）",
       "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c29s1.mp3",
       "audio_primary": true,
       "speaker": "Fotol"
@@ -172,9 +175,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 pakaʼoraday 為中心（自動標記）"
+        "structure": "述語 pakaʼoraday 為中心（自動標記）"
       },
-      "structure": "謂語 pakaʼoraday 為中心（自動標記）",
+      "structure": "述語 pakaʼoraday 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c29s2.mp3",
       "audio_primary": true,
       "speaker": "Difang"
@@ -210,8 +213,11 @@
           "id": "haw",
           "text": "haw",
           "role": "particle",
-          "gloss_zh": "助詞",
-          "gloss_en": ""
+          "gloss_zh": "嗎",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "q",
@@ -233,9 +239,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Misalisin 為中心（自動標記）"
+        "structure": "述語 Misalisin 為中心（自動標記）"
       },
-      "structure": "謂語 Misalisin 為中心（自動標記）",
+      "structure": "述語 Misalisin 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c29s3.mp3",
       "audio_primary": true,
       "speaker": "Fotol"
@@ -250,8 +256,11 @@
           "id": "cowa",
           "text": "Cowa",
           "role": "adverb",
-          "gloss_zh": "不是[回答用]",
-          "gloss_en": ""
+          "gloss_zh": "不是",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "35否定詞",
+          "vocab_code": "35"
         },
         {
           "id": "comma",
@@ -261,16 +270,19 @@
           "gloss_en": ""
         },
         {
-          "id": "pred2",
+          "id": "ano",
           "text": "ano",
-          "role": "pred2",
+          "role": "particle",
           "gloss_zh": "如果",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
-          "id": "malalid",
+          "id": "pred2",
           "text": "malalid",
-          "role": "noun",
+          "role": "pred2",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -324,8 +336,8 @@
             "comma"
           ],
           [
+            "ano",
             "pred2",
-            "malalid",
             "ko",
             "kedal",
             "na",
@@ -361,9 +373,12 @@
         {
           "id": "koni",
           "text": "koni",
-          "role": "noun",
+          "role": "pronoun",
           "gloss_zh": "這個",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "lisin",
@@ -391,9 +406,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Samaanay 為中心（自動標記）"
+        "structure": "述語 Samaanay 為中心（自動標記）"
       },
-      "structure": "謂語 Samaanay 為中心（自動標記）",
+      "structure": "述語 Samaanay 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c29s5.mp3",
       "audio_primary": true,
       "speaker": "Fotol"
@@ -429,8 +444,11 @@
           "id": "kawas",
           "text": "kawas",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "gloss_zh": "鬼魂",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "17宗教",
+          "vocab_code": "17"
         },
         {
           "id": "a",
@@ -440,7 +458,7 @@
           "gloss_en": ""
         },
         {
-          "id": "mipaʼorad",
+          "id": "mipaorad",
           "text": "mipaʼorad",
           "role": "noun",
           "gloss_zh": "",
@@ -462,15 +480,15 @@
             "to",
             "kawas",
             "a",
-            "mipaʼorad",
+            "mipaorad",
             "period"
           ]
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 O 為中心（自動標記）"
+        "structure": "述語 O 為中心（自動標記）"
       },
-      "structure": "謂語 O 為中心（自動標記）",
+      "structure": "述語 O 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c29s6.mp3",
       "audio_primary": true,
       "speaker": "Difang"
@@ -520,8 +538,11 @@
           "id": "haw",
           "text": "haw",
           "role": "particle",
-          "gloss_zh": "助詞",
-          "gloss_en": ""
+          "gloss_zh": "嗎",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "q",
@@ -545,9 +566,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Adihayay 為中心（自動標記）"
+        "structure": "述語 Adihayay 為中心（自動標記）"
       },
-      "structure": "謂語 Adihayay 為中心（自動標記）",
+      "structure": "述語 Adihayay 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c29s7.mp3",
       "audio_primary": true,
       "speaker": "Fotol"

@@ -27,18 +27,24 @@
           "gloss_en": ""
         },
         {
-          "id": "romiʼad",
+          "id": "romiad",
           "text": "romiʼad",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "gloss_zh": "白天",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "13時間",
+          "vocab_code": "13"
         },
         {
           "id": "anini",
           "text": "anini",
           "role": "adverb",
           "gloss_zh": "今天",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "13時間",
+          "vocab_code": "13"
         },
         {
           "id": "q",
@@ -53,16 +59,16 @@
           [
             "pred",
             "ko",
-            "romiʼad",
+            "romiad",
             "anini",
             "q"
           ]
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Samaanay 為中心（自動標記）"
+        "structure": "述語 Samaanay 為中心（自動標記）"
       },
-      "structure": "謂語 Samaanay 為中心（自動標記）",
+      "structure": "述語 Samaanay 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c4s1.mp3",
       "audio_primary": true,
       "speaker": "Fotol"
@@ -97,9 +103,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Macidalay 為中心（自動標記）"
+        "structure": "述語 Macidalay 為中心（自動標記）"
       },
-      "structure": "謂語 Macidalay 為中心（自動標記）",
+      "structure": "述語 Macidalay 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c4s2.mp3",
       "audio_primary": true,
       "speaker": "Kolas"
@@ -135,8 +141,11 @@
           "id": "faliyos",
           "text": "faliyos",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "gloss_zh": "颱風",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "11自然景觀",
+          "vocab_code": "11"
         },
         {
           "id": "sa",
@@ -174,9 +183,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 O 為中心（自動標記）"
+        "structure": "述語 O 為中心（自動標記）"
       },
-      "structure": "謂語 O 為中心（自動標記）",
+      "structure": "述語 O 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c4s3.mp3",
       "audio_primary": true,
       "speaker": "Fotol"
@@ -191,8 +200,11 @@
           "id": "pred",
           "text": "Hay",
           "role": "pred",
-          "gloss_zh": "是的[回答用]",
-          "gloss_en": ""
+          "gloss_zh": "是的",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "24抽象名詞",
+          "vocab_code": "24"
         },
         {
           "id": "saw",
@@ -209,11 +221,14 @@
           "gloss_en": ""
         },
         {
-          "id": "ngaʼay",
+          "id": "ngaay",
           "text": "Ngaʼay",
-          "role": "noun",
+          "role": "particle",
           "gloss_zh": "可以",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "mifoting",
@@ -227,7 +242,10 @@
           "text": "kita",
           "role": "pronoun",
           "gloss_zh": "咱們",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "period",
@@ -243,7 +261,7 @@
             "pred",
             "saw",
             "excl",
-            "ngaʼay",
+            "ngaay",
             "mifoting",
             "kita",
             "period"
@@ -251,9 +269,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Hay 為中心（自動標記）"
+        "structure": "述語 Hay 為中心（自動標記）"
       },
-      "structure": "謂語 Hay 為中心（自動標記）",
+      "structure": "述語 Hay 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c4s4.mp3",
       "audio_primary": true,
       "speaker": "Kolas"
@@ -268,15 +286,21 @@
           "id": "pred",
           "text": "Hay",
           "role": "pred",
-          "gloss_zh": "是的[回答用]",
-          "gloss_en": ""
+          "gloss_zh": "是的",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "24抽象名詞",
+          "vocab_code": "24"
         },
         {
           "id": "haw",
           "text": "haw",
           "role": "particle",
-          "gloss_zh": "助詞",
-          "gloss_en": ""
+          "gloss_zh": "嗎",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "excl",
@@ -296,9 +320,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Hay 為中心（自動標記）"
+        "structure": "述語 Hay 為中心（自動標記）"
       },
-      "structure": "謂語 Hay 為中心（自動標記）",
+      "structure": "述語 Hay 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c4s5.mp3",
       "audio_primary": true,
       "speaker": "Fotol"
@@ -327,15 +351,21 @@
           "id": "faliyos",
           "text": "faliyos",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "gloss_zh": "颱風",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "11自然景觀",
+          "vocab_code": "11"
         },
         {
           "id": "i",
           "text": "i",
           "role": "case",
           "gloss_zh": "在",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "comma",
@@ -436,9 +466,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Samaanen 為中心（自動標記）"
+        "structure": "述語 Samaanen 為中心（自動標記）"
       },
-      "structure": "謂語 Samaanen 為中心（自動標記）",
+      "structure": "述語 Samaanen 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c4s7.mp3",
       "audio_primary": true,
       "speaker": "Fotol"

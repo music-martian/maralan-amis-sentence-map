@@ -24,23 +24,30 @@
   };
 
   const ROLE_META = {
-    pred: { fill: COLORS.pred, fg: COLORS.text, shape: "capsule", label: "謂語" },
-    pred2: { fill: COLORS.pred2, fg: COLORS.text, shape: "capsule", label: "第二子句謂語" },
-    pronoun: { fill: COLORS.pronoun, fg: COLORS.text, shape: "capsule", label: "代詞" },
+    pred: { fill: COLORS.pred, fg: COLORS.text, shape: "capsule", label: "述語" },
+    pred2: { fill: COLORS.pred2, fg: COLORS.text, shape: "capsule", label: "第二分句述語" },
+    pronoun: { fill: COLORS.pronoun, fg: COLORS.text, shape: "capsule", label: "代名詞" },
     noun: { fill: COLORS.noun, fg: COLORS.text, shape: "capsule", label: "名詞" },
-    case: { fill: COLORS.case, fg: COLORS.white, shape: "oval", label: "格標記" },
+    case: { fill: COLORS.case, fg: COLORS.white, shape: "oval", label: "格位標記" },
     particle: { fill: COLORS.particle, fg: COLORS.text, shape: "diamond", label: "助詞" },
     adverb: { fill: COLORS.adverb, fg: COLORS.text, shape: "capsule", label: "副詞" },
   };
 
   const LEGEND = [
-    [COLORS.pred, "謂語 pred"],
-    [COLORS.pronoun, "代詞 pronoun"],
+    [COLORS.pred, "述語 pred"],
+    [COLORS.pronoun, "代名詞 pronoun"],
     [COLORS.noun, "名詞 noun"],
-    [COLORS.case, "格標記 ko/no"],
+    [COLORS.case, "格位標記 ko/no"],
     [COLORS.particle, "助詞/副詞"],
-    [COLORS.pred2, "第二子句謂語"],
+    [COLORS.pred2, "第二分句述語"],
   ];
+
+  const LEVEL_COLORS = {
+    "初級": "#3CB371",
+    "中級": "#4A90D9",
+    "中高級": "#E6A23C",
+    "高級": "#9B59B6",
+  };
 
   const FOOTER = "Klokah · 馬蘭阿美語 · 句型圖（自動標記）";
 
@@ -232,6 +239,7 @@
           role: punct ? "punct" : tok.role,
           gloss_zh: punct ? "" : tok.gloss_zh,
           gloss_en: punct ? "" : tok.gloss_en,
+          level: punct ? "" : tok.level,
           _sourceId: sourceId,
         }));
       });
@@ -665,16 +673,53 @@
     parent.appendChild(g);
   }
 
-  function drawGloss(parent, node, fontSize, text) {
+  function drawGloss(parent, node, fontSize, text, opts) {
     if (!text) return;
+    opts = opts || {};
+    const y = node.cy + node.h / 2 + 14;
+    const fontFamily =
+      '"Segoe UI","Helvetica Neue",Arial,"Noto Sans","Noto Sans CJK TC","Noto Sans TC","PingFang TC",sans-serif';
+    const level = opts.showLevel ? node.level : "";
+    const levelFill = level && LEVEL_COLORS[level];
+    if (levelFill) {
+      // Approximate CJK width; place filled level dot immediately before gloss.
+      const approxW = String(text).length * fontSize;
+      const gap = 4;
+      const r = 3;
+      const totalW = r * 2 + gap + approxW;
+      const startX = node.cx - totalW / 2;
+      parent.appendChild(
+        svgEl("circle", {
+          cx: startX + r,
+          cy: y + fontSize * 0.42,
+          r: r,
+          fill: levelFill,
+          stroke: "none",
+        })
+      );
+      parent.appendChild(
+        svgEl("text", {
+          x: startX + r * 2 + gap,
+          y: y,
+          fill: COLORS.gloss,
+          "font-size": fontSize,
+          "font-weight": 500,
+          "font-family": fontFamily,
+          "text-anchor": "start",
+          "dominant-baseline": "hanging",
+          textContent: text,
+        })
+      );
+      return;
+    }
     parent.appendChild(
       svgEl("text", {
         x: node.cx,
-        y: node.cy + node.h / 2 + 14,
+        y: y,
         fill: COLORS.gloss,
         "font-size": fontSize,
         "font-weight": 500,
-        "font-family": '"Segoe UI","Helvetica Neue",Arial,"Noto Sans","Noto Sans CJK TC","Noto Sans TC","PingFang TC",sans-serif',
+        "font-family": fontFamily,
         "text-anchor": "middle",
         "dominant-baseline": "hanging",
         textContent: text,
@@ -715,6 +760,7 @@
       role: tok.role,
       gloss_zh: tok.gloss_zh,
       gloss_en: tok.gloss_en,
+      level: tok.level || "",
       w: sz.w,
       h: sz.h,
       _punctFont: sz._punctFont || null,
@@ -869,7 +915,7 @@
       svgEl(
         "text",
         Object.assign(
-          { x: W / 2, y: mapY0 - 14, textContent: "依附關係（謂語當中心，不是英文 SVO）" },
+          { x: W / 2, y: mapY0 - 14, textContent: "依附關係（述語當中心，不是英文 SVO）" },
           labelAttrs
         )
       )
@@ -896,7 +942,7 @@
         clickable,
         onReveal
       );
-      drawGloss(layer, n, beadGlossFont, beadGloss(tok, practice, revealed));
+      drawGloss(layer, n, beadGlossFont, beadGloss(tok, practice, revealed), { showLevel: true });
     });
 
     // --- Map box ---
@@ -1080,7 +1126,7 @@
 
     let mapYCursor = mapBox.y0 + 56;
     const hangStride = 120; // main → hang band
-    // Clear long role glosses under map beads ("第二子句謂語 · …")
+    // Clear long role glosses under map beads ("第二分句述語 · …")
     const glossClearance = 72;
     const rowGapAfter = 96;
     wrappedMapRows.forEach((rowNodes) => {

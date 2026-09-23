@@ -1463,3 +1463,4 @@ const CATALOG = {
   ],
   "hub_url": "https://klokah.iformosa.com.tw/"
 };
+if (typeof window !== 'undefined') window.CATALOG = CATALOG;

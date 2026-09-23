@@ -19,7 +19,10 @@
           "text": "cima",
           "role": "pred",
           "gloss_zh": "誰",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
         },
         {
           "id": "slash",
@@ -46,9 +49,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 cima 為中心（自動標記）"
+        "structure": "述語 cima 為中心（自動標記）"
       },
-      "structure": "謂語 cima 為中心（自動標記）",
+      "structure": "述語 cima 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_junior/sound/4/1word/3_1.mp3",
       "audio_primary": true,
       "learn_id": 1
@@ -64,7 +67,10 @@
           "text": "maan",
           "role": "pred",
           "gloss_zh": "什麼",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
         },
         {
           "id": "slash",
@@ -91,9 +97,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 maan 為中心（自動標記）"
+        "structure": "述語 maan 為中心（自動標記）"
       },
-      "structure": "謂語 maan 為中心（自動標記）",
+      "structure": "述語 maan 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_junior/sound/4/1word/3_2.mp3",
       "audio_primary": true,
       "learn_id": 2
@@ -109,7 +115,10 @@
           "text": "pina",
           "role": "pred",
           "gloss_zh": "多少",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
         },
         {
           "id": "slash",
@@ -136,9 +145,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 pina 為中心（自動標記）"
+        "structure": "述語 pina 為中心（自動標記）"
       },
-      "structure": "謂語 pina 為中心（自動標記）",
+      "structure": "述語 pina 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_junior/sound/4/1word/3_3.mp3",
       "audio_primary": true,
       "learn_id": 3
@@ -181,9 +190,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 papina 為中心（自動標記）"
+        "structure": "述語 papina 為中心（自動標記）"
       },
-      "structure": "謂語 papina 為中心（自動標記）",
+      "structure": "述語 papina 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_junior/sound/4/1word/3_4.mp3",
       "audio_primary": true,
       "learn_id": 4
@@ -198,8 +207,11 @@
           "id": "cowa",
           "text": "cowa",
           "role": "adverb",
-          "gloss_zh": "不是[回答用]",
-          "gloss_en": ""
+          "gloss_zh": "不是",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "35否定詞",
+          "vocab_code": "35"
         },
         {
           "id": "slash",
@@ -225,9 +237,12 @@
         {
           "id": "icowa",
           "text": "icowa",
-          "role": "noun",
+          "role": "particle",
           "gloss_zh": "哪裡",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
         },
         {
           "id": "slash_4",
@@ -258,9 +273,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 cowaay 為中心（自動標記）"
+        "structure": "述語 cowaay 為中心（自動標記）"
       },
-      "structure": "謂語 cowaay 為中心（自動標記）",
+      "structure": "述語 cowaay 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_junior/sound/4/1word/3_5.mp3",
       "audio_primary": true,
       "learn_id": 5
@@ -272,16 +287,19 @@
       "en": "",
       "tokens": [
         {
-          "id": "pred",
+          "id": "ano",
           "text": "ano",
-          "role": "pred",
+          "role": "particle",
           "gloss_zh": "如果",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
-          "id": "hacowa",
+          "id": "pred",
           "text": "hacowa",
-          "role": "noun",
+          "role": "pred",
           "gloss_zh": "什麼時候；何時",
           "gloss_en": ""
         },
@@ -293,7 +311,7 @@
           "gloss_en": ""
         },
         {
-          "id": "hacowa_3",
+          "id": "hacowa",
           "text": "hacowa",
           "role": "noun",
           "gloss_zh": "什麼時候；何時",
@@ -303,17 +321,17 @@
       "layout": {
         "groups": [
           [
+            "ano",
             "pred",
-            "hacowa",
             "slash",
-            "hacowa_3"
+            "hacowa"
           ]
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 ano 為中心（自動標記）"
+        "structure": "述語 hacowa 為中心（自動標記）"
       },
-      "structure": "謂語 ano 為中心（自動標記）",
+      "structure": "述語 hacowa 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_junior/sound/4/1word/3_6.mp3",
       "audio_primary": true,
       "learn_id": 6

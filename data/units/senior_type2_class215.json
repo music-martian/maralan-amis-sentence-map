@@ -15,16 +15,19 @@
       "en": "",
       "tokens": [
         {
-          "id": "pred",
+          "id": "ano",
           "text": "Ano",
-          "role": "pred",
+          "role": "particle",
           "gloss_zh": "如果",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
-          "id": "tomelepto",
+          "id": "pred",
           "text": "tomelepto",
-          "role": "noun",
+          "role": "pred",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -39,15 +42,21 @@
           "id": "orad",
           "text": "ʼorad",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "gloss_zh": "雨",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "11自然景觀",
+          "vocab_code": "11"
         },
         {
           "id": "i",
           "text": "i",
           "role": "case",
           "gloss_zh": "在",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "comma",
@@ -57,18 +66,24 @@
           "gloss_en": ""
         },
         {
-          "id": "pred2",
+          "id": "ngaay",
           "text": "ngaʼay",
-          "role": "pred2",
+          "role": "particle",
           "gloss_zh": "可以",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
-          "id": "masadak",
+          "id": "pred2",
           "text": "masadak",
-          "role": "noun",
-          "gloss_zh": "出現；出來",
-          "gloss_en": ""
+          "role": "pred2",
+          "gloss_zh": "出去",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "25行動",
+          "vocab_code": "25"
         },
         {
           "id": "misalama",
@@ -82,14 +97,20 @@
           "text": "kako",
           "role": "pronoun",
           "gloss_zh": "我",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "haw",
           "text": "haw",
           "role": "particle",
-          "gloss_zh": "助詞",
-          "gloss_en": ""
+          "gloss_zh": "嗎",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "q",
@@ -102,16 +123,16 @@
       "layout": {
         "groups": [
           [
+            "ano",
             "pred",
-            "tomelepto",
             "ko",
             "orad",
             "i",
             "comma"
           ],
           [
+            "ngaay",
             "pred2",
-            "masadak",
             "misalama",
             "kako",
             "haw",
@@ -126,8 +147,8 @@
       "audio": "https://klokah.tw/extension/sp_senior/sound/4/2sentence/6_1.mp3",
       "audio_primary": true,
       "audio_note": "音訊為 Klokah 對話段（可能含多句）",
-      "audio_exchange": "ex1",
-      "learn_id": 1
+      "learn_id": 1,
+      "audio_exchange": "ex1"
     },
     {
       "id": "002",
@@ -136,16 +157,19 @@
       "en": "",
       "tokens": [
         {
-          "id": "pred",
+          "id": "ano",
           "text": "Ano",
-          "role": "pred",
+          "role": "particle",
           "gloss_zh": "如果",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
-          "id": "tomelepto",
+          "id": "pred",
           "text": "tomelepto",
-          "role": "noun",
+          "role": "pred",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -160,15 +184,21 @@
           "id": "orad",
           "text": "ʼorad",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "gloss_zh": "雨",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "11自然景觀",
+          "vocab_code": "11"
         },
         {
           "id": "i",
           "text": "i",
           "role": "case",
           "gloss_zh": "在",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "comma",
@@ -188,8 +218,11 @@
           "id": "masadak",
           "text": "masadak",
           "role": "noun",
-          "gloss_zh": "出現；出來",
-          "gloss_en": ""
+          "gloss_zh": "出去",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "25行動",
+          "vocab_code": "25"
         },
         {
           "id": "misalama",
@@ -203,7 +236,10 @@
           "text": "kiso",
           "role": "pronoun",
           "gloss_zh": "你",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "period",
@@ -216,8 +252,8 @@
       "layout": {
         "groups": [
           [
+            "ano",
             "pred",
-            "tomelepto",
             "ko",
             "orad",
             "i",
@@ -239,8 +275,8 @@
       "audio": "https://klokah.tw/extension/sp_senior/sound/4/2sentence/6_1.mp3",
       "audio_primary": false,
       "audio_note": "音訊為整段對話（含前後句），非單句錄音",
-      "audio_exchange": "ex1",
-      "learn_id": 1
+      "learn_id": 1,
+      "audio_exchange": "ex1"
     },
     {
       "id": "003",
@@ -259,8 +295,11 @@
           "id": "masadak",
           "text": "masadak",
           "role": "noun",
-          "gloss_zh": "出現；出來",
-          "gloss_en": ""
+          "gloss_zh": "出去",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "25行動",
+          "vocab_code": "25"
         },
         {
           "id": "ko",
@@ -274,14 +313,20 @@
           "text": "wina",
           "role": "noun",
           "gloss_zh": "媽媽",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "04親屬稱謂",
+          "vocab_code": "04"
         },
         {
           "id": "i",
           "text": "i",
           "role": "case",
           "gloss_zh": "在",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "comma",
@@ -307,16 +352,22 @@
         {
           "id": "mira",
           "text": "mira",
-          "role": "noun",
-          "gloss_zh": "他",
-          "gloss_en": ""
+          "role": "pronoun",
+          "gloss_zh": "他的",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "haw",
           "text": "haw",
           "role": "particle",
-          "gloss_zh": "助詞",
-          "gloss_en": ""
+          "gloss_zh": "嗎",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "q",
@@ -352,8 +403,8 @@
       "audio": "https://klokah.tw/extension/sp_senior/sound/4/2sentence/6_2.mp3",
       "audio_primary": true,
       "audio_note": "音訊為 Klokah 對話段（可能含多句）",
-      "audio_exchange": "ex2",
-      "learn_id": 2
+      "learn_id": 2,
+      "audio_exchange": "ex2"
     },
     {
       "id": "004",
@@ -365,8 +416,11 @@
           "id": "pred",
           "text": "Hay",
           "role": "pred",
-          "gloss_zh": "是的[回答用]",
-          "gloss_en": ""
+          "gloss_zh": "是的",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "24抽象名詞",
+          "vocab_code": "24"
         },
         {
           "id": "comma",
@@ -386,8 +440,11 @@
           "id": "masadak",
           "text": "masadak",
           "role": "noun",
-          "gloss_zh": "出現；出來",
-          "gloss_en": ""
+          "gloss_zh": "出去",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "25行動",
+          "vocab_code": "25"
         },
         {
           "id": "ko",
@@ -401,14 +458,20 @@
           "text": "wina",
           "role": "noun",
           "gloss_zh": "媽媽",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "04親屬稱謂",
+          "vocab_code": "04"
         },
         {
           "id": "i",
           "text": "i",
           "role": "case",
           "gloss_zh": "在",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "comma_3",
@@ -434,9 +497,12 @@
         {
           "id": "mira",
           "text": "mira",
-          "role": "noun",
-          "gloss_zh": "他",
-          "gloss_en": ""
+          "role": "pronoun",
+          "gloss_zh": "他的",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "period",
@@ -475,8 +541,8 @@
       "audio": "https://klokah.tw/extension/sp_senior/sound/4/2sentence/6_2.mp3",
       "audio_primary": false,
       "audio_note": "音訊為整段對話（含前後句），非單句錄音",
-      "audio_exchange": "ex2",
-      "learn_id": 2
+      "learn_id": 2,
+      "audio_exchange": "ex2"
     },
     {
       "id": "005",
@@ -495,8 +561,11 @@
           "id": "masadak",
           "text": "masadak",
           "role": "noun",
-          "gloss_zh": "出現；出來",
-          "gloss_en": ""
+          "gloss_zh": "出去",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "25行動",
+          "vocab_code": "25"
         },
         {
           "id": "ko",
@@ -510,14 +579,20 @@
           "text": "wama",
           "role": "noun",
           "gloss_zh": "爸爸",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "04親屬稱謂",
+          "vocab_code": "04"
         },
         {
           "id": "i",
           "text": "i",
           "role": "case",
           "gloss_zh": "在",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "comma",
@@ -543,16 +618,22 @@
         {
           "id": "mira",
           "text": "mira",
-          "role": "noun",
-          "gloss_zh": "他",
-          "gloss_en": ""
+          "role": "pronoun",
+          "gloss_zh": "他的",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "haw",
           "text": "haw",
           "role": "particle",
-          "gloss_zh": "助詞",
-          "gloss_en": ""
+          "gloss_zh": "嗎",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "q",
@@ -588,8 +669,8 @@
       "audio": "https://klokah.tw/extension/sp_senior/sound/4/2sentence/6_3.mp3",
       "audio_primary": true,
       "audio_note": "音訊為 Klokah 對話段（可能含多句）",
-      "audio_exchange": "ex3",
-      "learn_id": 3
+      "learn_id": 3,
+      "audio_exchange": "ex3"
     },
     {
       "id": "006",
@@ -601,8 +682,11 @@
           "id": "cowa",
           "text": "Cowa",
           "role": "adverb",
-          "gloss_zh": "不是[回答用]",
-          "gloss_en": ""
+          "gloss_zh": "不是",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "35否定詞",
+          "vocab_code": "35"
         },
         {
           "id": "comma",
@@ -622,8 +706,11 @@
           "id": "masadak",
           "text": "masadak",
           "role": "noun",
-          "gloss_zh": "出現；出來",
-          "gloss_en": ""
+          "gloss_zh": "出去",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "25行動",
+          "vocab_code": "25"
         },
         {
           "id": "ko",
@@ -637,14 +724,20 @@
           "text": "wama",
           "role": "noun",
           "gloss_zh": "爸爸",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "04親屬稱謂",
+          "vocab_code": "04"
         },
         {
           "id": "i",
           "text": "i",
           "role": "case",
           "gloss_zh": "在",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "comma_3",
@@ -677,9 +770,12 @@
         {
           "id": "mira",
           "text": "mira",
-          "role": "noun",
-          "gloss_zh": "他",
-          "gloss_en": ""
+          "role": "pronoun",
+          "gloss_zh": "他的",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "period",
@@ -719,8 +815,8 @@
       "audio": "https://klokah.tw/extension/sp_senior/sound/4/2sentence/6_3.mp3",
       "audio_primary": false,
       "audio_note": "音訊為整段對話（含前後句），非單句錄音",
-      "audio_exchange": "ex3",
-      "learn_id": 3
+      "learn_id": 3,
+      "audio_exchange": "ex3"
     },
     {
       "id": "007",
@@ -740,7 +836,10 @@
           "text": "tatayni",
           "role": "noun",
           "gloss_zh": "要來",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "25行動",
+          "vocab_code": "25"
         },
         {
           "id": "ko",
@@ -753,18 +852,24 @@
           "id": "fofo",
           "text": "fofo",
           "role": "noun",
-          "gloss_zh": "祖父",
-          "gloss_en": ""
+          "gloss_zh": "孫子/孫女",
+          "gloss_en": "",
+          "level": "中高級",
+          "vocab_cat": "04親屬稱謂",
+          "vocab_code": "04"
         },
         {
           "id": "anocila",
           "text": "anocila",
           "role": "adverb",
           "gloss_zh": "明天",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "13時間",
+          "vocab_code": "13"
         },
         {
-          "id": "mafanaʼay",
+          "id": "mafanaay",
           "text": "mafanaʼay",
           "role": "noun",
           "gloss_zh": "",
@@ -775,14 +880,20 @@
           "text": "kamo",
           "role": "pronoun",
           "gloss_zh": "你們",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "haw",
           "text": "haw",
           "role": "particle",
-          "gloss_zh": "助詞",
-          "gloss_en": ""
+          "gloss_zh": "嗎",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "q",
@@ -800,7 +911,7 @@
             "ko",
             "fofo",
             "anocila",
-            "mafanaʼay",
+            "mafanaay",
             "kamo",
             "haw",
             "q"
@@ -808,14 +919,14 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 O 為中心（自動標記）"
+        "structure": "述語 O 為中心（自動標記）"
       },
-      "structure": "謂語 O 為中心（自動標記）",
+      "structure": "述語 O 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_senior/sound/4/2sentence/6_4.mp3",
       "audio_primary": true,
       "audio_note": "音訊為 Klokah 對話段（可能含多句）",
-      "audio_exchange": "ex4",
-      "learn_id": 4
+      "learn_id": 4,
+      "audio_exchange": "ex4"
     },
     {
       "id": "008",
@@ -827,8 +938,11 @@
           "id": "pred",
           "text": "Hay",
           "role": "pred",
-          "gloss_zh": "是的[回答用]",
-          "gloss_en": ""
+          "gloss_zh": "是的",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "24抽象名詞",
+          "vocab_code": "24"
         },
         {
           "id": "comma",
@@ -849,7 +963,10 @@
           "text": "tatayni",
           "role": "noun",
           "gloss_zh": "要來",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "25行動",
+          "vocab_code": "25"
         },
         {
           "id": "ko",
@@ -862,18 +979,24 @@
           "id": "fofo",
           "text": "fofo",
           "role": "noun",
-          "gloss_zh": "祖父",
-          "gloss_en": ""
+          "gloss_zh": "孫子/孫女",
+          "gloss_en": "",
+          "level": "中高級",
+          "vocab_cat": "04親屬稱謂",
+          "vocab_code": "04"
         },
         {
           "id": "anocila",
           "text": "anocila",
           "role": "adverb",
           "gloss_zh": "明天",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "13時間",
+          "vocab_code": "13"
         },
         {
-          "id": "mafanaʼay",
+          "id": "mafanaay",
           "text": "mafanaʼay",
           "role": "noun",
           "gloss_zh": "",
@@ -884,7 +1007,10 @@
           "text": "kami",
           "role": "pronoun",
           "gloss_zh": "我們",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "period",
@@ -906,7 +1032,7 @@
             "ko",
             "fofo",
             "anocila",
-            "mafanaʼay",
+            "mafanaay",
             "kami",
             "period"
           ]
@@ -919,8 +1045,8 @@
       "audio": "https://klokah.tw/extension/sp_senior/sound/4/2sentence/6_4.mp3",
       "audio_primary": false,
       "audio_note": "音訊為整段對話（含前後句），非單句錄音",
-      "audio_exchange": "ex4",
-      "learn_id": 4
+      "learn_id": 4,
+      "audio_exchange": "ex4"
     },
     {
       "id": "009",
@@ -940,7 +1066,10 @@
           "text": "tatayni",
           "role": "noun",
           "gloss_zh": "要來",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "25行動",
+          "vocab_code": "25"
         },
         {
           "id": "ko",
@@ -953,18 +1082,24 @@
           "id": "fai",
           "text": "fai",
           "role": "noun",
-          "gloss_zh": "伯母；嬸嬸；舅母",
-          "gloss_en": ""
+          "gloss_zh": "通稱",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "04親屬稱謂",
+          "vocab_code": "04"
         },
         {
           "id": "anocila",
           "text": "anocila",
           "role": "adverb",
           "gloss_zh": "明天",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "13時間",
+          "vocab_code": "13"
         },
         {
-          "id": "mafanaʼay",
+          "id": "mafanaay",
           "text": "mafanaʼay",
           "role": "noun",
           "gloss_zh": "",
@@ -975,14 +1110,20 @@
           "text": "kamo",
           "role": "pronoun",
           "gloss_zh": "你們",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "haw",
           "text": "haw",
           "role": "particle",
-          "gloss_zh": "助詞",
-          "gloss_en": ""
+          "gloss_zh": "嗎",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "q",
@@ -1000,7 +1141,7 @@
             "ko",
             "fai",
             "anocila",
-            "mafanaʼay",
+            "mafanaay",
             "kamo",
             "haw",
             "q"
@@ -1008,14 +1149,14 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 O 為中心（自動標記）"
+        "structure": "述語 O 為中心（自動標記）"
       },
-      "structure": "謂語 O 為中心（自動標記）",
+      "structure": "述語 O 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_senior/sound/4/2sentence/6_5.mp3",
       "audio_primary": true,
       "audio_note": "音訊為 Klokah 對話段（可能含多句）",
-      "audio_exchange": "ex5",
-      "learn_id": 5
+      "learn_id": 5,
+      "audio_exchange": "ex5"
     },
     {
       "id": "010",
@@ -1027,8 +1168,11 @@
           "id": "cowa",
           "text": "Cowa",
           "role": "adverb",
-          "gloss_zh": "不是[回答用]",
-          "gloss_en": ""
+          "gloss_zh": "不是",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "35否定詞",
+          "vocab_code": "35"
         },
         {
           "id": "comma",
@@ -1048,15 +1192,21 @@
           "id": "fana",
           "text": "fanaʼ",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "gloss_zh": "知道",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "28認知感官",
+          "vocab_code": "28"
         },
         {
           "id": "kami",
           "text": "kami",
           "role": "pronoun",
           "gloss_zh": "我們",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "to",
@@ -1070,7 +1220,10 @@
           "text": "tatayni",
           "role": "noun",
           "gloss_zh": "要來",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "25行動",
+          "vocab_code": "25"
         },
         {
           "id": "ko",
@@ -1083,15 +1236,21 @@
           "id": "fai",
           "text": "fai",
           "role": "noun",
-          "gloss_zh": "伯母；嬸嬸；舅母",
-          "gloss_en": ""
+          "gloss_zh": "通稱",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "04親屬稱謂",
+          "vocab_code": "04"
         },
         {
           "id": "anocila",
           "text": "anocila",
           "role": "adverb",
           "gloss_zh": "明天",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "13時間",
+          "vocab_code": "13"
         },
         {
           "id": "period",
@@ -1127,8 +1286,8 @@
       "audio": "https://klokah.tw/extension/sp_senior/sound/4/2sentence/6_5.mp3",
       "audio_primary": false,
       "audio_note": "音訊為整段對話（含前後句），非單句錄音",
-      "audio_exchange": "ex5",
-      "learn_id": 5
+      "learn_id": 5,
+      "audio_exchange": "ex5"
     },
     {
       "id": "011",
@@ -1148,14 +1307,20 @@
           "text": "laloodan",
           "role": "noun",
           "gloss_zh": "夏天",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "11自然景觀",
+          "vocab_code": "11"
         },
         {
           "id": "hatini",
           "text": "hatini",
-          "role": "noun",
-          "gloss_zh": "現在",
-          "gloss_en": ""
+          "role": "pronoun",
+          "gloss_zh": "這樣",
+          "gloss_en": "",
+          "level": "中高級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "period",
@@ -1176,14 +1341,14 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 O 為中心（自動標記）"
+        "structure": "述語 O 為中心（自動標記）"
       },
-      "structure": "謂語 O 為中心（自動標記）",
+      "structure": "述語 O 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_senior/sound/4/2sentence/6_6.mp3",
       "audio_primary": true,
       "audio_note": "音訊為 Klokah 對話段（可能含多句）",
-      "audio_exchange": "ex6",
-      "learn_id": 6
+      "learn_id": 6,
+      "audio_exchange": "ex6"
     },
     {
       "id": "012",
@@ -1196,14 +1361,20 @@
           "text": "I",
           "role": "case",
           "gloss_zh": "在",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "pred",
           "text": "laloodan",
           "role": "pred",
           "gloss_zh": "夏天",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "11自然景觀",
+          "vocab_code": "11"
         },
         {
           "id": "comma",
@@ -1230,8 +1401,11 @@
           "id": "faliyos",
           "text": "faliyos",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "gloss_zh": "颱風",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "11自然景觀",
+          "vocab_code": "11"
         },
         {
           "id": "period",
@@ -1263,8 +1437,8 @@
       "audio": "https://klokah.tw/extension/sp_senior/sound/4/2sentence/6_6.mp3",
       "audio_primary": false,
       "audio_note": "音訊為整段對話（含前後句），非單句錄音",
-      "audio_exchange": "ex6",
-      "learn_id": 6
+      "learn_id": 6,
+      "audio_exchange": "ex6"
     },
     {
       "id": "013",
@@ -1277,14 +1451,20 @@
           "text": "I",
           "role": "case",
           "gloss_zh": "在",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "pred",
           "text": "laloodan",
           "role": "pred",
           "gloss_zh": "夏天",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "11自然景觀",
+          "vocab_code": "11"
         },
         {
           "id": "comma",
@@ -1312,7 +1492,10 @@
           "text": "nanom",
           "role": "noun",
           "gloss_zh": "水",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "21食物(非植物)",
+          "vocab_code": "21"
         },
         {
           "id": "no",
@@ -1325,8 +1508,11 @@
           "id": "alo",
           "text": "ʼalo",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "gloss_zh": "河流",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "10山川地理",
+          "vocab_code": "10"
         },
         {
           "id": "period",
@@ -1363,8 +1549,8 @@
       "audio": "https://klokah.tw/extension/sp_senior/sound/4/2sentence/6_7.mp3",
       "audio_primary": true,
       "audio_note": "音訊為 Klokah 對話段（可能含多句）",
-      "audio_exchange": "ex7",
-      "learn_id": 7
+      "learn_id": 7,
+      "audio_exchange": "ex7"
     },
     {
       "id": "014",
@@ -1377,7 +1563,10 @@
           "text": "I",
           "role": "case",
           "gloss_zh": "在",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "pred",
@@ -1412,7 +1601,10 @@
           "text": "nanom",
           "role": "noun",
           "gloss_zh": "水",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "21食物(非植物)",
+          "vocab_code": "21"
         },
         {
           "id": "no",
@@ -1425,8 +1617,11 @@
           "id": "alo",
           "text": "ʼalo",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "gloss_zh": "河流",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "10山川地理",
+          "vocab_code": "10"
         },
         {
           "id": "period",
@@ -1463,8 +1658,8 @@
       "audio": "https://klokah.tw/extension/sp_senior/sound/4/2sentence/6_7.mp3",
       "audio_primary": false,
       "audio_note": "音訊為整段對話（含前後句），非單句錄音",
-      "audio_exchange": "ex7",
-      "learn_id": 7
+      "learn_id": 7,
+      "audio_exchange": "ex7"
     },
     {
       "id": "015",
@@ -1477,7 +1672,10 @@
           "text": "I",
           "role": "case",
           "gloss_zh": "在",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "pred",
@@ -1544,8 +1742,8 @@
       "audio": "https://klokah.tw/extension/sp_senior/sound/4/2sentence/6_8.mp3",
       "audio_primary": true,
       "audio_note": "音訊為 Klokah 對話段（可能含多句）",
-      "audio_exchange": "ex8",
-      "learn_id": 8
+      "learn_id": 8,
+      "audio_exchange": "ex8"
     },
     {
       "id": "016",
@@ -1586,7 +1784,10 @@
           "text": "kako",
           "role": "pronoun",
           "gloss_zh": "我",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "period",
@@ -1609,14 +1810,14 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Maolahay 為中心（自動標記）"
+        "structure": "述語 Maolahay 為中心（自動標記）"
       },
-      "structure": "謂語 Maolahay 為中心（自動標記）",
+      "structure": "述語 Maolahay 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_senior/sound/4/2sentence/6_8.mp3",
       "audio_primary": false,
       "audio_note": "音訊為整段對話（含前後句），非單句錄音",
-      "audio_exchange": "ex8",
-      "learn_id": 8
+      "learn_id": 8,
+      "audio_exchange": "ex8"
     }
   ]
 }

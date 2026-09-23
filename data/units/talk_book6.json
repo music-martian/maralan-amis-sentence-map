@@ -17,7 +17,10 @@
           "text": "I",
           "role": "case",
           "gloss_zh": "在",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "pred",
@@ -45,7 +48,10 @@
           "text": "i",
           "role": "case",
           "gloss_zh": "在",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "tini",
@@ -84,9 +90,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 cowaay 為中心（自動標記）"
+        "structure": "述語 cowaay 為中心（自動標記）"
       },
-      "structure": "謂語 cowaay 為中心（自動標記）",
+      "structure": "述語 cowaay 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c6s1.mp3",
       "audio_primary": true,
       "speaker": "Hongay"
@@ -109,7 +115,10 @@
           "text": "i",
           "role": "case",
           "gloss_zh": "在",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "pred",
@@ -137,9 +146,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 tila 為中心（自動標記）"
+        "structure": "述語 tila 為中心（自動標記）"
       },
-      "structure": "謂語 tila 為中心（自動標記）",
+      "structure": "述語 tila 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c6s2.mp3",
       "audio_primary": true,
       "speaker": "Dataw"
@@ -161,8 +170,11 @@
           "id": "haw",
           "text": "haw",
           "role": "particle",
-          "gloss_zh": "助詞",
-          "gloss_en": ""
+          "gloss_zh": "嗎",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "q",
@@ -182,9 +194,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Maraayay 為中心（自動標記）"
+        "structure": "述語 Maraayay 為中心（自動標記）"
       },
-      "structure": "謂語 Maraayay 為中心（自動標記）",
+      "structure": "述語 Maraayay 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c6s3.mp3",
       "audio_primary": true,
       "speaker": "Hongay"
@@ -199,8 +211,11 @@
           "id": "cowa",
           "text": "Cowa",
           "role": "adverb",
-          "gloss_zh": "不是[回答用]",
-          "gloss_en": ""
+          "gloss_zh": "不是",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "35否定詞",
+          "vocab_code": "35"
         },
         {
           "id": "pred",
@@ -263,14 +278,20 @@
           "text": "I",
           "role": "case",
           "gloss_zh": "在",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
-          "id": "pred",
+          "id": "sakacowaay",
           "text": "sakacowaay",
-          "role": "pred",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "role": "particle",
+          "gloss_zh": "哪一個",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
         },
         {
           "id": "q",
@@ -284,15 +305,15 @@
         "groups": [
           [
             "i",
-            "pred",
+            "sakacowaay",
             "q"
           ]
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 sakacowaay 為中心（自動標記）"
+        "structure": "線性排列（自動標記）"
       },
-      "structure": "謂語 sakacowaay 為中心（自動標記）",
+      "structure": "線性排列（自動標記）",
       "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c6s5.mp3",
       "audio_primary": true,
       "speaker": "Hongay"
@@ -320,16 +341,22 @@
         {
           "id": "koni",
           "text": "koni",
-          "role": "noun",
+          "role": "pronoun",
           "gloss_zh": "這個",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "lalan",
           "text": "lalan",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "gloss_zh": "道路",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "10山川地理",
+          "vocab_code": "10"
         },
         {
           "id": "comma",
@@ -342,15 +369,21 @@
           "id": "pred2",
           "text": "tahira",
           "role": "pred2",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "gloss_zh": "到某處",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "14空間",
+          "vocab_code": "14"
         },
         {
           "id": "i",
           "text": "i",
           "role": "case",
           "gloss_zh": "在",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "sakatolo",
@@ -367,7 +400,7 @@
           "gloss_en": ""
         },
         {
-          "id": "kacacipaʼan",
+          "id": "kacacipaan",
           "text": "kacacipaʼan",
           "role": "noun",
           "gloss_zh": "",
@@ -435,7 +468,7 @@
             "i",
             "sakatolo",
             "a",
-            "kacacipaʼan",
+            "kacacipaan",
             "comma_3",
             "pasiwali",
             "sa",
@@ -465,14 +498,20 @@
           "text": "I",
           "role": "case",
           "gloss_zh": "在",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
-          "id": "pred",
+          "id": "sakacowaay",
           "text": "sakacowaay",
-          "role": "pred",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "role": "particle",
+          "gloss_zh": "哪一個",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
         },
         {
           "id": "no",
@@ -482,9 +521,9 @@
           "gloss_en": ""
         },
         {
-          "id": "kingsifo",
+          "id": "pred",
           "text": "kingsifo",
-          "role": "noun",
+          "role": "pred",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -500,17 +539,17 @@
         "groups": [
           [
             "i",
-            "pred",
+            "sakacowaay",
             "no",
-            "kingsifo",
+            "pred",
             "q"
           ]
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 sakacowaay 為中心（自動標記）"
+        "structure": "述語 kingsifo 為中心（自動標記）"
       },
-      "structure": "謂語 sakacowaay 為中心（自動標記）",
+      "structure": "述語 kingsifo 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c6s7.mp3",
       "audio_primary": true,
       "speaker": "Hongay"

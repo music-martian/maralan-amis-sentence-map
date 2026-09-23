@@ -13,18 +13,24 @@
       "en": "",
       "tokens": [
         {
-          "id": "pred",
+          "id": "ngaay",
           "text": "Ngaʼay",
-          "role": "pred",
+          "role": "particle",
           "gloss_zh": "可以",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "ho",
           "text": "ho",
-          "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "role": "particle",
+          "gloss_zh": "還",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "excl",
@@ -36,16 +42,22 @@
         {
           "id": "cima",
           "text": "Cima",
-          "role": "noun",
+          "role": "particle",
           "gloss_zh": "誰",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
         },
         {
           "id": "kiso",
           "text": "kiso",
           "role": "pronoun",
           "gloss_zh": "你",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "q",
@@ -58,7 +70,7 @@
       "layout": {
         "groups": [
           [
-            "pred",
+            "ngaay",
             "ho",
             "excl",
             "cima",
@@ -68,9 +80,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Ngaʼay 為中心（自動標記）"
+        "structure": "線性排列（自動標記）"
       },
-      "structure": "謂語 Ngaʼay 為中心（自動標記）",
+      "structure": "線性排列（自動標記）",
       "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c2s1.mp3",
       "audio_primary": true,
       "speaker": "Ngayaw"
@@ -100,7 +112,10 @@
           "text": "kako",
           "role": "pronoun",
           "gloss_zh": "我",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "period",
@@ -121,9 +136,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Si 為中心（自動標記）"
+        "structure": "述語 Si 為中心（自動標記）"
       },
-      "structure": "謂語 Si 為中心（自動標記）",
+      "structure": "述語 Si 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c2s2.mp3",
       "audio_primary": true,
       "speaker": "Komeng"
@@ -139,14 +154,20 @@
           "text": "Cima",
           "role": "pred",
           "gloss_zh": "誰",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
         },
         {
           "id": "kora",
           "text": "kora",
-          "role": "noun",
+          "role": "pronoun",
           "gloss_zh": "那個",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "q",
@@ -166,9 +187,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Cima 為中心（自動標記）"
+        "structure": "述語 Cima 為中心（自動標記）"
       },
-      "structure": "謂語 Cima 為中心（自動標記）",
+      "structure": "述語 Cima 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c2s3.mp3",
       "audio_primary": true,
       "speaker": "Ngayaw"
@@ -191,7 +212,10 @@
           "text": "widang",
           "role": "noun",
           "gloss_zh": "朋友",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
         },
         {
           "id": "ako",
@@ -275,9 +299,12 @@
         {
           "id": "mira",
           "text": "mira",
-          "role": "noun",
-          "gloss_zh": "他",
-          "gloss_en": ""
+          "role": "pronoun",
+          "gloss_zh": "他的",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "q",
@@ -298,9 +325,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Nanicowaay 為中心（自動標記）"
+        "structure": "述語 Nanicowaay 為中心（自動標記）"
       },
-      "structure": "謂語 Nanicowaay 為中心（自動標記）",
+      "structure": "述語 Nanicowaay 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c2s5.mp3",
       "audio_primary": true,
       "speaker": "Ngayaw"
@@ -336,8 +363,11 @@
           "id": "minanam",
           "text": "minanam",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "gloss_zh": "學習",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "30生活作息",
+          "vocab_code": "30"
         },
         {
           "id": "to",
@@ -350,8 +380,11 @@
           "id": "sowal",
           "text": "sowal",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "gloss_zh": "說",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "28認知感官",
+          "vocab_code": "28"
         },
         {
           "id": "no",
@@ -361,7 +394,7 @@
           "gloss_en": ""
         },
         {
-          "id": "ʼamis",
+          "id": "amis",
           "text": "ʼAmis",
           "role": "noun",
           "gloss_zh": "",
@@ -392,7 +425,7 @@
         "hangs": {
           "sowal": [
             "no",
-            "ʼamis"
+            "amis"
           ]
         },
         "plus_between_groups": true,
@@ -414,7 +447,10 @@
           "text": "Cima",
           "role": "pred",
           "gloss_zh": "誰",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
         },
         {
           "id": "aca",
@@ -426,9 +462,12 @@
         {
           "id": "kora",
           "text": "kora",
-          "role": "noun",
+          "role": "pronoun",
           "gloss_zh": "那個",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "q",
@@ -449,9 +488,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Cima 為中心（自動標記）"
+        "structure": "述語 Cima 為中心（自動標記）"
       },
-      "structure": "謂語 Cima 為中心（自動標記）",
+      "structure": "述語 Cima 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c2s7.mp3",
       "audio_primary": true,
       "speaker": "Ngayaw"

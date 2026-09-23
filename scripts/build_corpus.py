@@ -19,6 +19,8 @@ import sys
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 
+from lexicon import get_lexicon, tw_structure, normalize_vocab_key, CASE_FORMS as LEX_CASE
+
 _HERE = Path(__file__).resolve().parent
 # Support both:
 #   maralan-amis/scripts/build_corpus.py
@@ -82,7 +84,12 @@ KLOKAH_DID = "4"
 
 
 def source_url_sentence(level: str, type_id: Any, class_id: Any) -> str:
-    """Canonical sentence learn URL with Maralan did=4 in the path."""
+    """Canonical sentence learn URL with Maralan did=4 in the path.
+
+    Trailing /1 is required: Klokah learn.js treats the last path segment as
+    learn_id (item within the class). Without it, class_id is misread as
+    learn_id (e.g. .../4/2/17 opens item 2-17 instead of class 17 item 2-1).
+    """
     return f"{KLOKAH_HUB}/sentence/{level}/learn/{KLOKAH_DID}/{type_id}/{class_id}/1"
 
 
@@ -154,8 +161,22 @@ def build_lexicon() -> Dict[str, str]:
 def gloss_zh_for(text: str, role: str, sentence_zh: str = "", n_tokens: int = 0) -> str:
     if role == "punct":
         return ""
-    lex = build_lexicon()
     k = lexicon_key(text)
+    # Case markers: keep short pedagogical glosses (主格/屬格/斜格/在)
+    if role == "case" or k in {"ko", "ku", "no", "nu", "to", "i"}:
+        case_g = {"ko": "主格", "ku": "主格", "no": "屬格", "nu": "屬格", "to": "斜格", "i": "在"}.get(k)
+        if case_g:
+            return case_g
+    # Prefer 馬蘭學習詞表 zh when available
+    mlex = get_lexicon(MATERIALS)
+    hit = mlex.lookup(text)
+    if hit and hit.get("zh"):
+        zh = hit["zh"]
+        short = re.sub(r"[（(][^）)]*[）)]", "", zh).strip() or zh
+        if len(short) > 10:
+            short = short[:10]
+        return short
+    lex = build_lexicon()
     if k in lex:
         return lex[k]
     # Single-token sentence: whole Chinese line is the gloss
@@ -164,12 +185,57 @@ def gloss_zh_for(text: str, role: str, sentence_zh: str = "", n_tokens: int = 0)
         return short[:10]
     # Role fallbacks
     if role == "case":
-        return {"ko": "主格", "ku": "主格", "no": "屬格", "nu": "屬格", "to": "斜格", "i": "在"}.get(k, "格標記")
+        return {"ko": "主格", "ku": "主格", "no": "屬格", "nu": "屬格", "to": "斜格", "i": "在"}.get(k, "格位標記")
     if role == "particle":
         return "助詞"
     if role == "adverb":
         return "副詞"
     return ""
+
+
+def apply_vocab_fields(tok: Dict[str, Any]) -> None:
+    """Attach level / vocab_cat / vocab_code from 馬蘭學習詞表 when matched."""
+    if tok.get("role") == "punct":
+        return
+    mlex = get_lexicon(MATERIALS)
+    hit = mlex.lookup(tok.get("text") or "")
+    if not hit:
+        return
+    if hit.get("level"):
+        tok["level"] = hit["level"]
+    if hit.get("cat"):
+        tok["vocab_cat"] = hit["cat"]
+    if hit.get("cat_code"):
+        tok["vocab_code"] = hit["cat_code"]
+
+
+def enrich_hand_tuned(sentences: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    """TW structure wording + vocab level bake-in for greetings unit.
+
+    Does not call build_lexicon() (avoids cycle with load_hand_tuned_greetings).
+    """
+    mlex = get_lexicon(MATERIALS)
+    for s in sentences or []:
+        if s.get("structure"):
+            s["structure"] = tw_structure(s["structure"])
+        lay = s.get("layout")
+        if isinstance(lay, dict) and lay.get("structure"):
+            lay["structure"] = tw_structure(lay["structure"])
+        for tok in s.get("tokens") or []:
+            if tok.get("role") == "punct":
+                continue
+            apply_vocab_fields(tok)
+            role = tok.get("role") or ""
+            text = tok.get("text") or ""
+            if role == "case" or lexicon_key(text) in {"ko", "ku", "no", "nu", "to", "i"}:
+                continue
+            if not (tok.get("gloss_zh") or "").strip():
+                hit = mlex.lookup(text)
+                if hit and hit.get("zh"):
+                    zh = hit["zh"]
+                    short = re.sub(r"[（(][^）)]*[）)]", "", zh).strip() or zh
+                    tok["gloss_zh"] = short[:10]
+    return sentences
 
 
 
@@ -200,7 +266,7 @@ def load_hand_tuned_greetings() -> List[Dict[str, Any]]:
         raw = p.read_text(encoding="utf-8")
         if p.suffix == ".json":
             data = json.loads(raw)
-            HAND_TUNED_GREETINGS = _force_i_gloss_zai(data.get("sentences") or [])
+            HAND_TUNED_GREETINGS = enrich_hand_tuned(_force_i_gloss_zai(data.get("sentences") or []))
             return HAND_TUNED_GREETINGS
         # strip JS wrapper
         m = re.search(r"const GREETINGS\s*=\s*(\{.*?\});\s*if\s*\(typeof", raw, re.S)
@@ -208,7 +274,7 @@ def load_hand_tuned_greetings() -> List[Dict[str, Any]]:
             m = re.search(r"=\s*(\{.*\"sentences\".*\});\s*(?:if|window)", raw, re.S)
         if m:
             data = json.loads(m.group(1))
-            HAND_TUNED_GREETINGS = _force_i_gloss_zai(data.get("sentences") or [])
+            HAND_TUNED_GREETINGS = enrich_hand_tuned(_force_i_gloss_zai(data.get("sentences") or []))
             return HAND_TUNED_GREETINGS
     HAND_TUNED_GREETINGS = []
     return HAND_TUNED_GREETINGS
@@ -348,13 +414,31 @@ def _punct_id_base(tok: str) -> str:
     return "punc"
 
 
+def _merged_pronouns() -> set:
+    """Static PRONOUNS plus cat_code==02 forms from 馬蘭學習詞表."""
+    lex = get_lexicon(MATERIALS)
+    return set(PRONOUNS) | set(lex.pronouns)
+
+
 def tag_roles(tokens: List[str]) -> List[Dict[str, Any]]:
-    """Heuristic Amis role tagging. Best-effort. Punct → role punct (kept)."""
+    """Heuristic Amis role tagging. Best-effort. Punct → role punct (kept).
+
+    Order:
+      1. punct
+      2. case markers
+      3. lexicon closed-class role (02/03/35/36)
+      4. PRONOUNS / ADVERBS / FINAL_PARTICLES (+ special preds)
+      5. clause-first-content → pred / pred2
+      6. default noun
+    """
     n = len(tokens)
     roles: List[Optional[str]] = [None] * n
     lowers = [strip_punct(t).lower() for t in tokens]
+    lex = get_lexicon(MATERIALS)
+    pronouns = _merged_pronouns()
+    adverbs = set(ADVERBS)
 
-    # Mark punctuation first
+    # 1. Mark punctuation first
     for i, t in enumerate(tokens):
         if is_punct(t) or not lowers[i]:
             if is_punct(t) or not strip_punct(t):
@@ -367,7 +451,7 @@ def tag_roles(tokens: List[str]) -> List[Dict[str, Any]]:
             if i + 1 < n:
                 clause_starts.append(i + 1)
 
-    # Mark case markers (standalone)
+    # 2. Mark case markers (standalone)
     for i, low in enumerate(lowers):
         if roles[i] == "punct":
             continue
@@ -386,29 +470,47 @@ def tag_roles(tokens: List[str]) -> List[Dict[str, Any]]:
                 # locative case-like before content
                 roles[i] = "case"
 
-    # Pronouns / known adverbs / special preds
+    # 3. Lexicon closed-class role hints (pronoun / particle / adverb)
+    #    Cat 03 疑問詞 → particle, but leave clause-initial slot open so
+    #    cima/maan/… can still become pred (predicate-slot interrogatives).
     for i, low in enumerate(lowers):
         if roles[i]:
             continue
-        if low in PRONOUNS:
+        if not low:
+            continue
+        hint = lex.closed_role_hint(low, adverbs)
+        if not hint:
+            continue
+        hit = lex.lookup(low)
+        cat = (hit or {}).get("cat_code") or ""
+        if cat == "03" and i == 0:
+            continue
+        roles[i] = hint
+
+    # 4. Pronouns / known adverbs / special preds / final particles
+    for i, low in enumerate(lowers):
+        if roles[i]:
+            continue
+        if low in pronouns:
             roles[i] = "pronoun"
         elif low == "mamaan":
             roles[i] = "adverb"
         elif low == "mamaanay":
             roles[i] = "pred"
         elif low in {"cima", "maan", "icowa", "pina", "kala", "sakamaan"} and i == 0:
+            # clause-initial interrogatives often fill the predicate slot
             roles[i] = "pred"
         elif low in FINAL_PARTICLES:
-            # final among content (ignore trailing punct)
             j = i + 1
             while j < n and roles[j] == "punct":
                 j += 1
             if j >= n:
                 roles[i] = "particle"
-        elif low in ADVERBS:
+        elif low in adverbs:
             roles[i] = "adverb"
 
-    # First content word of each clause → pred / pred2 (if none yet)
+    # 5. First content word of each clause → pred / pred2 (if none yet)
+    #    Do not override closed-class / pronoun / case already assigned.
     for ci, start in enumerate(clause_starts):
         end = clause_starts[ci + 1] if ci + 1 < len(clause_starts) else n
         already = any(
@@ -422,14 +524,13 @@ def tag_roles(tokens: List[str]) -> List[Dict[str, Any]]:
             low = lowers[i]
             if not low or roles[i] == "punct" or is_punct(tokens[i]):
                 continue
-            # skip leftover case
             if low in CASE_MARKERS:
                 roles[i] = "case"
                 continue
             roles[i] = "pred" if ci == 0 else "pred2"
             break
 
-    # Remaining → noun (default content)
+    # 6. Remaining → noun (default content)
     for i in range(n):
         if roles[i] is None:
             if is_punct(tokens[i]) or not lowers[i]:
@@ -635,9 +736,9 @@ def build_layout(tokens: List[Dict[str, Any]], amis: str) -> Dict[str, Any]:
     if plus:
         structure = "兩句以 ＋ 連接（自動切分）"
     elif hangs:
-        structure = "謂語為中心；屬格 no/nu 掛於名詞下（自動）"
+        structure = "述語為中心；屬格 no/nu 掛於名詞下（自動）"
     elif pred_texts:
-        structure = f"謂語 {pred_texts[0]} 為中心（自動標記）"
+        structure = f"述語 {pred_texts[0]} 為中心（自動標記）"
     else:
         structure = "線性排列（自動標記）"
 
@@ -671,7 +772,7 @@ def make_sentence(
         if content_tagged[0].get("id") == "pred2":
             content_tagged[0]["id"] = "pred"
     n_content = sum(1 for t in tagged if t.get("role") != "punct")
-    # Fill Chinese bead glosses (prototype style)
+    # Fill Chinese bead glosses + vocab level fields
     for t in tagged:
         if t.get("role") == "punct":
             t["gloss_zh"] = ""
@@ -681,8 +782,11 @@ def make_sentence(
             )
             if (t.get("text") or "").strip().lower() == "i":
                 t["gloss_zh"] = "在"
+            apply_vocab_fields(t)
         t["gloss_en"] = t.get("gloss_en") or ""
     layout = build_layout(tagged, amis)
+    if layout.get("structure"):
+        layout["structure"] = tw_structure(layout["structure"])
     s: Dict[str, Any] = {
         "id": sid,
         "amis": amis,
@@ -787,7 +891,9 @@ def sentences_from_unit_file(
         )
 
     seq = 0
-    for item in data.get("learn_data") or []:
+    # Klokah URL learn_id is 1-based position in learn_data (menu 2-5),
+    # NOT item["order"] and NOT the N in audio 2_N.mp3 (those skip deleted rows).
+    for learn_id, item in enumerate(data.get("learn_data") or [], 1):
         extracted = extract_from_learn_item(item)
         for amis, zh, audio, tag, primary in extracted:
             key = norm_key(amis)
@@ -810,6 +916,7 @@ def sentences_from_unit_file(
                 audio_note=note,
             )
             if s:
+                s["learn_id"] = learn_id
                 if tag.startswith("s"):
                     s["audio_exchange"] = f"ex{item.get('order', seq)}"
                 sentences.append(s)

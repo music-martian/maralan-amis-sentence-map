@@ -19,7 +19,10 @@
           "text": "kako",
           "role": "pronoun",
           "gloss_zh": "我",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         }
       ],
       "layout": {
@@ -55,7 +58,10 @@
           "text": "mako",
           "role": "pronoun",
           "gloss_zh": "我的",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "slash",
@@ -101,7 +107,10 @@
           "text": "kiso",
           "role": "pronoun",
           "gloss_zh": "你",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         }
       ],
       "layout": {
@@ -136,8 +145,11 @@
           "id": "miso",
           "text": "miso",
           "role": "pronoun",
-          "gloss_zh": "你",
-          "gloss_en": ""
+          "gloss_zh": "你的",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "slash",
@@ -186,11 +198,14 @@
           "gloss_en": ""
         },
         {
-          "id": "pred",
+          "id": "mira",
           "text": "mira",
-          "role": "pred",
-          "gloss_zh": "他",
-          "gloss_en": ""
+          "role": "pronoun",
+          "gloss_zh": "他的",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "slash",
@@ -200,11 +215,14 @@
           "gloss_en": ""
         },
         {
-          "id": "mira",
+          "id": "mira_3",
           "text": "mira",
-          "role": "noun",
-          "gloss_zh": "他",
-          "gloss_en": ""
+          "role": "pronoun",
+          "gloss_zh": "他的",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "slash_3",
@@ -214,18 +232,21 @@
           "gloss_en": ""
         },
         {
-          "id": "si",
+          "id": "pred",
           "text": "si",
-          "role": "noun",
+          "role": "pred",
           "gloss_zh": "主格標記",
           "gloss_en": ""
         },
         {
-          "id": "mira_3",
+          "id": "mira_4",
           "text": "mira",
-          "role": "noun",
-          "gloss_zh": "他",
-          "gloss_en": ""
+          "role": "pronoun",
+          "gloss_zh": "他的",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "slash_4",
@@ -237,9 +258,12 @@
         {
           "id": "cira",
           "text": "cira",
-          "role": "noun",
+          "role": "pronoun",
           "gloss_zh": "他",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "slash_5",
@@ -251,21 +275,24 @@
         {
           "id": "cingra",
           "text": "cingra",
-          "role": "noun",
+          "role": "pronoun",
           "gloss_zh": "他",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         }
       ],
       "layout": {
         "groups": [
           [
             "ko",
-            "pred",
-            "slash",
             "mira",
-            "slash_3",
-            "si",
+            "slash",
             "mira_3",
+            "slash_3",
+            "pred",
+            "mira_4",
             "slash_4",
             "cira",
             "slash_5",
@@ -274,9 +301,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 mira 為中心（自動標記）"
+        "structure": "述語 si 為中心（自動標記）"
       },
-      "structure": "謂語 mira 為中心（自動標記）",
+      "structure": "述語 si 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_junior/sound/4/1word/2_5.mp3",
       "audio_primary": true,
       "learn_id": 5
@@ -295,11 +322,14 @@
           "gloss_en": ""
         },
         {
-          "id": "pred",
+          "id": "mira",
           "text": "mira",
-          "role": "pred",
-          "gloss_zh": "他",
-          "gloss_en": ""
+          "role": "pronoun",
+          "gloss_zh": "他的",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "slash",
@@ -323,9 +353,9 @@
           "gloss_en": ""
         },
         {
-          "id": "ningra",
+          "id": "pred",
           "text": "ningra",
-          "role": "noun",
+          "role": "pred",
           "gloss_zh": "他的",
           "gloss_en": ""
         }
@@ -334,18 +364,18 @@
         "groups": [
           [
             "no",
-            "pred",
+            "mira",
             "slash",
             "nira",
             "slash_3",
-            "ningra"
+            "pred"
           ]
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 mira 為中心（自動標記）"
+        "structure": "述語 ningra 為中心（自動標記）"
       },
-      "structure": "謂語 mira 為中心（自動標記）",
+      "structure": "述語 ningra 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_junior/sound/4/1word/2_6.mp3",
       "audio_primary": true,
       "learn_id": 6
@@ -361,7 +391,10 @@
           "text": "kami",
           "role": "pronoun",
           "gloss_zh": "我們",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         }
       ],
       "layout": {
@@ -397,7 +430,10 @@
           "text": "niyam",
           "role": "pronoun",
           "gloss_zh": "我們的",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "slash",
@@ -411,7 +447,10 @@
           "text": "niyam",
           "role": "pronoun",
           "gloss_zh": "我們的",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         }
       ],
       "layout": {
@@ -443,7 +482,10 @@
           "text": "kamo",
           "role": "pronoun",
           "gloss_zh": "你們",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         }
       ],
       "layout": {
@@ -471,8 +513,11 @@
           "id": "namo",
           "text": "namo",
           "role": "pronoun",
-          "gloss_zh": "你們",
-          "gloss_en": ""
+          "gloss_zh": "你們的",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         }
       ],
       "layout": {
@@ -527,9 +572,12 @@
         {
           "id": "cangra",
           "text": "cangra",
-          "role": "noun",
+          "role": "pronoun",
           "gloss_zh": "他們",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "slash_4",
@@ -560,9 +608,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 camira 為中心（自動標記）"
+        "structure": "述語 camira 為中心（自動標記）"
       },
-      "structure": "謂語 camira 為中心（自動標記）",
+      "structure": "述語 camira 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_junior/sound/4/1word/2_11.mp3",
       "audio_primary": true,
       "learn_id": 11
@@ -604,9 +652,12 @@
         {
           "id": "mira",
           "text": "mira",
-          "role": "noun",
-          "gloss_zh": "他",
-          "gloss_en": ""
+          "role": "pronoun",
+          "gloss_zh": "他的",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "slash_3",
@@ -618,9 +669,12 @@
         {
           "id": "nangra",
           "text": "nangra",
-          "role": "noun",
+          "role": "pronoun",
           "gloss_zh": "他們的",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         }
       ],
       "layout": {
@@ -637,9 +691,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 miraan 為中心（自動標記）"
+        "structure": "述語 miraan 為中心（自動標記）"
       },
-      "structure": "謂語 miraan 為中心（自動標記）",
+      "structure": "述語 miraan 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_junior/sound/4/1word/2_12.mp3",
       "audio_primary": true,
       "learn_id": 12
@@ -681,9 +735,12 @@
         {
           "id": "koni",
           "text": "koni",
-          "role": "noun",
+          "role": "pronoun",
           "gloss_zh": "這個",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "slash_4",
@@ -730,9 +787,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 koninian 為中心（自動標記）"
+        "structure": "述語 koninian 為中心（自動標記）"
       },
-      "structure": "謂語 koninian 為中心（自動標記）",
+      "structure": "述語 koninian 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_junior/sound/4/1word/2_13.mp3",
       "audio_primary": true,
       "learn_id": 13
@@ -744,11 +801,14 @@
       "en": "",
       "tokens": [
         {
-          "id": "pred",
+          "id": "kora",
           "text": "kora",
-          "role": "pred",
+          "role": "pronoun",
           "gloss_zh": "那個",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "slash",
@@ -758,9 +818,9 @@
           "gloss_en": ""
         },
         {
-          "id": "koya",
+          "id": "pred",
           "text": "koya",
-          "role": "noun",
+          "role": "pred",
           "gloss_zh": "那個",
           "gloss_en": ""
         }
@@ -768,16 +828,16 @@
       "layout": {
         "groups": [
           [
-            "pred",
+            "kora",
             "slash",
-            "koya"
+            "pred"
           ]
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 kora 為中心（自動標記）"
+        "structure": "述語 koya 為中心（自動標記）"
       },
-      "structure": "謂語 kora 為中心（自動標記）",
+      "structure": "述語 koya 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_junior/sound/4/1word/2_14.mp3",
       "audio_primary": true,
       "learn_id": 14
@@ -789,11 +849,14 @@
       "en": "",
       "tokens": [
         {
-          "id": "pred",
+          "id": "ni",
           "text": "ni",
-          "role": "pred",
+          "role": "pronoun",
           "gloss_zh": "這裡",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "slash",
@@ -803,9 +866,9 @@
           "gloss_en": ""
         },
         {
-          "id": "ini",
+          "id": "pred",
           "text": "ini",
-          "role": "noun",
+          "role": "pred",
           "gloss_zh": "這裡",
           "gloss_en": ""
         },
@@ -841,9 +904,9 @@
       "layout": {
         "groups": [
           [
-            "pred",
+            "ni",
             "slash",
-            "ini",
+            "pred",
             "slash_3",
             "tini",
             "slash_4",
@@ -852,9 +915,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 ni 為中心（自動標記）"
+        "structure": "述語 ini 為中心（自動標記）"
       },
-      "structure": "謂語 ni 為中心（自動標記）",
+      "structure": "述語 ini 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_junior/sound/4/1word/2_15.mp3",
       "audio_primary": true,
       "learn_id": 15
@@ -866,11 +929,14 @@
       "en": "",
       "tokens": [
         {
-          "id": "pred",
+          "id": "ra",
           "text": "ra",
-          "role": "pred",
+          "role": "pronoun",
           "gloss_zh": "那裡",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "slash",
@@ -883,8 +949,11 @@
           "id": "ira",
           "text": "ira",
           "role": "pronoun",
-          "gloss_zh": "他的",
-          "gloss_en": ""
+          "gloss_zh": "有",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "34其他",
+          "vocab_code": "34"
         },
         {
           "id": "slash_3",
@@ -894,9 +963,9 @@
           "gloss_en": ""
         },
         {
-          "id": "itira",
+          "id": "pred",
           "text": "itira",
-          "role": "noun",
+          "role": "pred",
           "gloss_zh": "那裡",
           "gloss_en": ""
         }
@@ -904,18 +973,18 @@
       "layout": {
         "groups": [
           [
-            "pred",
+            "ra",
             "slash",
             "ira",
             "slash_3",
-            "itira"
+            "pred"
           ]
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 ra 為中心（自動標記）"
+        "structure": "述語 itira 為中心（自動標記）"
       },
-      "structure": "謂語 ra 為中心（自動標記）",
+      "structure": "述語 itira 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_junior/sound/4/1word/2_16.mp3",
       "audio_primary": true,
       "learn_id": 16

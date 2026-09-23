@@ -20,11 +20,14 @@
           "gloss_en": ""
         },
         {
-          "id": "pred",
+          "id": "ho",
           "text": "ho",
-          "role": "pred",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "role": "particle",
+          "gloss_zh": "還",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "ko",
@@ -34,9 +37,9 @@
           "gloss_en": ""
         },
         {
-          "id": "kamaroʼan",
+          "id": "pred",
           "text": "kamaroʼan",
-          "role": "noun",
+          "role": "pred",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -59,14 +62,20 @@
           "text": "kamo",
           "role": "pronoun",
           "gloss_zh": "你們",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "haw",
           "text": "haw",
           "role": "particle",
-          "gloss_zh": "助詞",
-          "gloss_en": ""
+          "gloss_zh": "嗎",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "q",
@@ -80,9 +89,9 @@
         "groups": [
           [
             "iraay",
-            "pred",
+            "ho",
             "ko",
-            "kamaroʼan",
+            "pred",
             "comma"
           ],
           [
@@ -111,8 +120,11 @@
           "id": "cowa",
           "text": "Cowa",
           "role": "adverb",
-          "gloss_zh": "不是[回答用]",
-          "gloss_en": ""
+          "gloss_zh": "不是",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "35否定詞",
+          "vocab_code": "35"
         },
         {
           "id": "pred",
@@ -126,7 +138,10 @@
           "text": "kami",
           "role": "pronoun",
           "gloss_zh": "我們",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "comma",
@@ -140,7 +155,10 @@
           "text": "i",
           "role": "case",
           "gloss_zh": "在",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "pred2",
@@ -154,7 +172,10 @@
           "text": "kami",
           "role": "pronoun",
           "gloss_zh": "我們",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "toya",
@@ -192,7 +213,7 @@
           "gloss_en": ""
         },
         {
-          "id": "kamaroʼan",
+          "id": "kamaroan",
           "text": "kamaroʼan",
           "role": "noun",
           "gloss_zh": "",
@@ -223,7 +244,7 @@
             "ko",
             "mitamakoay",
             "a",
-            "kamaroʼan",
+            "kamaroan",
             "period"
           ]
         ],
@@ -246,8 +267,11 @@
           "id": "pred",
           "text": "Hay",
           "role": "pred",
-          "gloss_zh": "是的[回答用]",
-          "gloss_en": ""
+          "gloss_zh": "是的",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "24抽象名詞",
+          "vocab_code": "24"
         },
         {
           "id": "comma",
@@ -275,7 +299,10 @@
           "text": "kamo",
           "role": "pronoun",
           "gloss_zh": "你們",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "comma_3",
@@ -296,7 +323,10 @@
           "text": "kako",
           "role": "pronoun",
           "gloss_zh": "我",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "period",
@@ -370,9 +400,12 @@
         {
           "id": "koni",
           "text": "koni",
-          "role": "noun",
+          "role": "pronoun",
           "gloss_zh": "這個",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "comma",
@@ -413,8 +446,11 @@
           "id": "namo",
           "text": "namo",
           "role": "pronoun",
-          "gloss_zh": "你們",
-          "gloss_en": ""
+          "gloss_zh": "你們的",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "q",
@@ -497,7 +533,7 @@
           "gloss_en": ""
         },
         {
-          "id": "sangaʼayay",
+          "id": "sangaayay",
           "text": "sangaʼayay",
           "role": "noun",
           "gloss_zh": "",
@@ -507,8 +543,11 @@
           "id": "namo",
           "text": "namo",
           "role": "pronoun",
-          "gloss_zh": "你們",
-          "gloss_en": ""
+          "gloss_zh": "你們的",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "q",
@@ -526,16 +565,16 @@
             "a",
             "datengan",
             "ko",
-            "sangaʼayay",
+            "sangaayay",
             "namo",
             "q"
           ]
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 O 為中心（自動標記）"
+        "structure": "述語 O 為中心（自動標記）"
       },
-      "structure": "謂語 O 為中心（自動標記）",
+      "structure": "述語 O 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c13s5.mp3",
       "audio_primary": true,
       "speaker": "Diway"
@@ -591,16 +630,22 @@
         {
           "id": "ato",
           "text": "ato",
-          "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "role": "particle",
+          "gloss_zh": "和",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "kohaw",
           "text": "kohaw",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "gloss_zh": "湯",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "21食物(非植物)",
+          "vocab_code": "21"
         },
         {
           "id": "no",

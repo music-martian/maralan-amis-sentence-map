@@ -68,9 +68,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 O 為中心（自動標記）"
+        "structure": "述語 O 為中心（自動標記）"
       },
-      "structure": "謂語 O 為中心（自動標記）",
+      "structure": "述語 O 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c17s1.mp3",
       "audio_primary": true,
       "speaker": "Soʼir"
@@ -106,8 +106,11 @@
           "id": "ira",
           "text": "ira",
           "role": "pronoun",
-          "gloss_zh": "他的",
-          "gloss_en": ""
+          "gloss_zh": "有",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "34其他",
+          "vocab_code": "34"
         },
         {
           "id": "sanay",
@@ -195,7 +198,10 @@
           "text": "kiso",
           "role": "pronoun",
           "gloss_zh": "你",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "niy",
@@ -221,16 +227,22 @@
         {
           "id": "maan",
           "text": "maan",
-          "role": "noun",
+          "role": "particle",
           "gloss_zh": "什麼",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
         },
         {
           "id": "ho",
           "text": "ho",
-          "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "role": "particle",
+          "gloss_zh": "還",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "q",
@@ -256,9 +268,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Halisiraway 為中心（自動標記）"
+        "structure": "述語 Halisiraway 為中心（自動標記）"
       },
-      "structure": "謂語 Halisiraway 為中心（自動標記）",
+      "structure": "述語 Halisiraway 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c17s3.mp3",
       "audio_primary": true,
       "speaker": "Soʼir"
@@ -294,8 +306,11 @@
           "id": "pred2",
           "text": "kalang",
           "role": "pred2",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "gloss_zh": "螃蟹",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "07動物(含昆蟲)",
+          "vocab_code": "07"
         },
         {
           "id": "comma_3",
@@ -335,9 +350,12 @@
         {
           "id": "ho",
           "text": "ho",
-          "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "role": "particle",
+          "gloss_zh": "還",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "period",
@@ -418,9 +436,12 @@
         {
           "id": "maan",
           "text": "maan",
-          "role": "noun",
+          "role": "particle",
           "gloss_zh": "什麼",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
         },
         {
           "id": "ko",
@@ -440,8 +461,11 @@
           "id": "kohaw",
           "text": "kohaw",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "gloss_zh": "湯",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "21食物(非植物)",
+          "vocab_code": "21"
         },
         {
           "id": "ita",
@@ -472,9 +496,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 O 為中心（自動標記）"
+        "structure": "述語 O 為中心（自動標記）"
       },
-      "structure": "謂語 O 為中心（自動標記）",
+      "structure": "述語 O 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c17s5.mp3",
       "audio_primary": true,
       "speaker": "Soʼir"
@@ -525,9 +549,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 O 為中心（自動標記）"
+        "structure": "述語 O 為中心（自動標記）"
       },
-      "structure": "謂語 O 為中心（自動標記）",
+      "structure": "述語 O 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c17s6.mp3",
       "audio_primary": true,
       "speaker": "Kay^ing"
@@ -553,7 +577,7 @@
           "gloss_en": ""
         },
         {
-          "id": "ʼanengelay",
+          "id": "anengelay",
           "text": "ʼAnengelay",
           "role": "noun",
           "gloss_zh": "",
@@ -600,7 +624,7 @@
           [
             "pred",
             "excl",
-            "ʼanengelay",
+            "anengelay",
             "ko",
             "dongec",
             "comma"

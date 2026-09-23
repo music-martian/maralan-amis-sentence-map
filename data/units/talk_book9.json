@@ -27,16 +27,19 @@
           "gloss_en": ""
         },
         {
-          "id": "pred2",
+          "id": "mana",
           "text": "mana",
-          "role": "pred2",
-          "gloss_zh": "為什麼",
-          "gloss_en": ""
+          "role": "particle",
+          "gloss_zh": "怎麼",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
         },
         {
-          "id": "mocel",
+          "id": "pred2",
           "text": "mo^cel",
-          "role": "noun",
+          "role": "pred2",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -51,8 +54,11 @@
           "id": "sowal",
           "text": "sowal",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "gloss_zh": "說",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "28認知感官",
+          "vocab_code": "28"
         },
         {
           "id": "iso",
@@ -76,7 +82,7 @@
           "gloss_en": ""
         },
         {
-          "id": "ʼamis",
+          "id": "amis",
           "text": "ʼAmis",
           "role": "noun",
           "gloss_zh": "",
@@ -97,14 +103,14 @@
             "comma"
           ],
           [
+            "mana",
             "pred2",
-            "mocel",
             "ko",
             "sowal",
             "iso",
             "to",
             "no",
-            "ʼamis",
+            "amis",
             "q"
           ]
         ],
@@ -127,8 +133,11 @@
           "id": "pred",
           "text": "Hay",
           "role": "pred",
-          "gloss_zh": "是的[回答用]",
-          "gloss_en": ""
+          "gloss_zh": "是的",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "24抽象名詞",
+          "vocab_code": "24"
         },
         {
           "id": "saw",
@@ -154,9 +163,12 @@
         {
           "id": "ho",
           "text": "ho",
-          "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "role": "particle",
+          "gloss_zh": "還",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "ko",
@@ -223,7 +235,10 @@
           "text": "Cima",
           "role": "pred",
           "gloss_zh": "誰",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
         },
         {
           "id": "ko",
@@ -233,7 +248,7 @@
           "gloss_en": ""
         },
         {
-          "id": "pakafanaʼay",
+          "id": "pakafanaay",
           "text": "pakafanaʼay",
           "role": "noun",
           "gloss_zh": "",
@@ -259,16 +274,16 @@
           [
             "pred",
             "ko",
-            "pakafanaʼay",
+            "pakafanaay",
             "tisowanan",
             "q"
           ]
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Cima 為中心（自動標記）"
+        "structure": "述語 Cima 為中心（自動標記）"
       },
-      "structure": "謂語 Cima 為中心（自動標記）",
+      "structure": "述語 Cima 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c9s3.mp3",
       "audio_primary": true,
       "speaker": "Lamlo"
@@ -290,8 +305,11 @@
           "id": "fofo",
           "text": "fofo",
           "role": "noun",
-          "gloss_zh": "祖父",
-          "gloss_en": ""
+          "gloss_zh": "孫子/孫女",
+          "gloss_en": "",
+          "level": "中高級",
+          "vocab_cat": "04親屬稱謂",
+          "vocab_code": "04"
         },
         {
           "id": "ako",
@@ -319,9 +337,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Sa 為中心（自動標記）"
+        "structure": "述語 Sa 為中心（自動標記）"
       },
-      "structure": "謂語 Sa 為中心（自動標記）",
+      "structure": "述語 Sa 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c9s4.mp3",
       "audio_primary": true,
       "speaker": "Potal"
@@ -337,21 +355,30 @@
           "text": "Mitilid",
           "role": "pred",
           "gloss_zh": "讀書",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "30生活作息",
+          "vocab_code": "30"
         },
         {
           "id": "kiso",
           "text": "kiso",
           "role": "pronoun",
           "gloss_zh": "你",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "i",
           "text": "i",
           "role": "case",
           "gloss_zh": "在",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "taypak",
@@ -372,7 +399,10 @@
           "text": "i",
           "role": "case",
           "gloss_zh": "在",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "pred2",
@@ -389,11 +419,14 @@
           "gloss_en": ""
         },
         {
-          "id": "pakafanaʼ",
+          "id": "pakafana",
           "text": "pakafanaʼ",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "gloss_zh": "教",
+          "gloss_en": "",
+          "level": "中高級",
+          "vocab_cat": "28認知感官",
+          "vocab_code": "28"
         },
         {
           "id": "sa",
@@ -406,8 +439,11 @@
           "id": "fofo",
           "text": "fofo",
           "role": "noun",
-          "gloss_zh": "祖父",
-          "gloss_en": ""
+          "gloss_zh": "孫子/孫女",
+          "gloss_en": "",
+          "level": "中高級",
+          "vocab_cat": "04親屬稱謂",
+          "vocab_code": "04"
         },
         {
           "id": "iso",
@@ -437,7 +473,7 @@
             "i_3",
             "pred2",
             "to",
-            "pakafanaʼ",
+            "pakafana",
             "sa",
             "fofo",
             "iso",
@@ -464,7 +500,10 @@
           "text": "Pahanhan",
           "role": "pred",
           "gloss_zh": "休息",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "30生活作息",
+          "vocab_code": "30"
         },
         {
           "id": "ko",
@@ -478,14 +517,20 @@
           "text": "mitiliday",
           "role": "noun",
           "gloss_zh": "學生",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
         },
         {
           "id": "i",
           "text": "i",
           "role": "case",
           "gloss_zh": "在",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "comma",
@@ -513,7 +558,10 @@
           "text": "kako",
           "role": "pronoun",
           "gloss_zh": "我",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "comma_3",
@@ -527,7 +575,10 @@
           "text": "i",
           "role": "case",
           "gloss_zh": "在",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "tiya",
@@ -537,11 +588,14 @@
           "gloss_en": ""
         },
         {
-          "id": "pakafanaʼ",
+          "id": "pakafana",
           "text": "pakafanaʼ",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "gloss_zh": "教",
+          "gloss_en": "",
+          "level": "中高級",
+          "vocab_cat": "28認知感官",
+          "vocab_code": "28"
         },
         {
           "id": "sa",
@@ -554,8 +608,11 @@
           "id": "fofo",
           "text": "fofo",
           "role": "noun",
-          "gloss_zh": "祖父",
-          "gloss_en": ""
+          "gloss_zh": "孫子/孫女",
+          "gloss_en": "",
+          "level": "中高級",
+          "vocab_cat": "04親屬稱謂",
+          "vocab_code": "04"
         },
         {
           "id": "ako",
@@ -586,7 +643,7 @@
             "comma_3",
             "i_3",
             "tiya",
-            "pakafanaʼ",
+            "pakafana",
             "sa",
             "fofo",
             "ako",
@@ -641,7 +698,10 @@
           "text": "kiso",
           "role": "pronoun",
           "gloss_zh": "你",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "period",

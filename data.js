@@ -31,7 +31,10 @@ const GREETINGS = {
           "text": "miso",
           "role": "pronoun",
           "gloss_zh": "你",
-          "gloss_en": "you"
+          "gloss_en": "you",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "q",
@@ -52,7 +55,7 @@ const GREETINGS = {
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Ngaʼayho 為中心；ko 標記主格對象 miso（你）"
+        "structure": "述語 Ngaʼayho 為中心；ko 標記主格對象 miso（你）"
       },
       "audio": "https://klokah.tw/extension/sp_junior/sound/4/2sentence/1_1.mp3",
       "audio_exchange": "ex1",
@@ -76,7 +79,10 @@ const GREETINGS = {
           "text": "kako",
           "role": "pronoun",
           "gloss_zh": "我",
-          "gloss_en": "I"
+          "gloss_en": "I",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "comma",
@@ -90,14 +96,20 @@ const GREETINGS = {
           "text": "kiso",
           "role": "pronoun",
           "gloss_zh": "你",
-          "gloss_en": "you"
+          "gloss_en": "you",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "i",
           "text": "i",
           "role": "particle",
           "gloss_zh": "在",
-          "gloss_en": "Q-particle"
+          "gloss_en": "Q-particle",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "q",
@@ -153,7 +165,10 @@ const GREETINGS = {
           "text": "kako",
           "role": "pronoun",
           "gloss_zh": "我",
-          "gloss_en": "I"
+          "gloss_en": "I",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "comma",
@@ -200,7 +215,7 @@ const GREETINGS = {
         ],
         "hangs": {},
         "plus_between_groups": true,
-        "structure": "兩句以 ＋ 連接：Mamaan 修飾謂語；awiday 作用於 tisowanan"
+        "structure": "兩句以 ＋ 連接：Mamaan 修飾述語；awiday 作用於 tisowanan"
       },
       "audio": "https://klokah.tw/extension/sp_junior/sound/4/2sentence/1_1.mp3",
       "audio_exchange": "ex1",
@@ -224,7 +239,10 @@ const GREETINGS = {
           "text": "kiso",
           "role": "pronoun",
           "gloss_zh": "你",
-          "gloss_en": "you"
+          "gloss_en": "you",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "q",
@@ -244,7 +262,7 @@ const GREETINGS = {
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Mamaanay 直接說明自由主格代詞 kiso（無 ko）"
+        "structure": "述語 Mamaanay 直接說明自由主格代名詞 kiso（無 ko）"
       },
       "audio": "https://klokah.tw/extension/sp_junior/sound/4/2sentence/1_2.mp3",
       "audio_exchange": "ex2",
@@ -275,7 +293,10 @@ const GREETINGS = {
           "text": "mata",
           "role": "noun",
           "gloss_zh": "眼睛",
-          "gloss_en": "eye"
+          "gloss_en": "eye",
+          "level": "初級",
+          "vocab_cat": "06身體部位",
+          "vocab_code": "06"
         },
         {
           "id": "no",
@@ -289,7 +310,10 @@ const GREETINGS = {
           "text": "mako",
           "role": "pronoun",
           "gloss_zh": "我的",
-          "gloss_en": "my"
+          "gloss_en": "my",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "period",
@@ -315,7 +339,7 @@ const GREETINGS = {
           ]
         },
         "plus_between_groups": false,
-        "structure": "謂語 Adadaay 說明 ko＋mata；no＋mako 是 mata 的領屬"
+        "structure": "述語 Adadaay 說明 ko＋mata；no＋mako 是 mata 的領屬"
       },
       "audio": "https://klokah.tw/extension/sp_junior/sound/4/2sentence/1_2.mp3",
       "audio_exchange": "ex2",
@@ -346,7 +370,10 @@ const GREETINGS = {
           "text": "fongoh",
           "role": "noun",
           "gloss_zh": "頭",
-          "gloss_en": "head"
+          "gloss_en": "head",
+          "level": "初級",
+          "vocab_cat": "06身體部位",
+          "vocab_code": "06"
         },
         {
           "id": "no",
@@ -360,7 +387,10 @@ const GREETINGS = {
           "text": "mako",
           "role": "pronoun",
           "gloss_zh": "我的",
-          "gloss_en": "my"
+          "gloss_en": "my",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "period",
@@ -386,7 +416,7 @@ const GREETINGS = {
           ]
         },
         "plus_between_groups": false,
-        "structure": "謂語 Adadaay 說明 ko＋fongoh；no＋mako 是 fongoh 的領屬"
+        "structure": "述語 Adadaay 說明 ko＋fongoh；no＋mako 是 fongoh 的領屬"
       },
       "audio": "https://klokah.tw/extension/sp_junior/sound/4/2sentence/1_3.mp3",
       "audio_exchange": "ex3",

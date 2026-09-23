@@ -17,7 +17,10 @@
           "text": "Pito",
           "role": "pred",
           "gloss_zh": "七",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "01數字計量",
+          "vocab_code": "01"
         },
         {
           "id": "ko",
@@ -30,8 +33,11 @@
           "id": "toki",
           "text": "toki",
           "role": "noun",
-          "gloss_zh": "鐘",
-          "gloss_en": ""
+          "gloss_zh": "手錶",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "09物品(不含食品)",
+          "vocab_code": "09"
         },
         {
           "id": "tahiraay",
@@ -52,28 +58,40 @@
           "text": "kako",
           "role": "pronoun",
           "gloss_zh": "我",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "i",
           "text": "i",
           "role": "case",
           "gloss_zh": "在",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "kongkoan",
           "text": "kongkoan",
           "role": "noun",
           "gloss_zh": "學校",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "12建築",
+          "vocab_code": "12"
         },
         {
           "id": "anini",
           "text": "anini",
           "role": "adverb",
           "gloss_zh": "今天",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "13時間",
+          "vocab_code": "13"
         },
         {
           "id": "period",
@@ -100,9 +118,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Pito 為中心（自動標記）"
+        "structure": "述語 Pito 為中心（自動標記）"
       },
-      "structure": "謂語 Pito 為中心（自動標記）",
+      "structure": "述語 Pito 為中心（自動標記）",
       "audio": "https://web.klokah.tw/text/sound/34141/531420.mp3",
       "audio_primary": true
     },
@@ -130,8 +148,11 @@
           "id": "minanam",
           "text": "minanam",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "gloss_zh": "學習",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "30生活作息",
+          "vocab_code": "30"
         },
         {
           "id": "comma",
@@ -166,7 +187,10 @@
           "text": "singsi",
           "role": "noun",
           "gloss_zh": "老師",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
         },
         {
           "id": "comma_3",
@@ -179,8 +203,11 @@
           "id": "sowal",
           "text": "sowal",
           "role": "pred2",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "gloss_zh": "說",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "28認知感官",
+          "vocab_code": "28"
         },
         {
           "id": "sa",
@@ -232,7 +259,7 @@
           "gloss_en": ""
         },
         {
-          "id": "mitaʼong",
+          "id": "mitaong",
           "text": "mitaʼong",
           "role": "noun",
           "gloss_zh": "",
@@ -273,7 +300,7 @@
             "quot",
             "katomireng",
             "excl",
-            "mitaʼong",
+            "mitaong",
             "excl_3",
             "quot_3"
           ]
@@ -311,7 +338,10 @@
           "text": "niyam",
           "role": "pronoun",
           "gloss_zh": "我們的",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "ko",
@@ -342,25 +372,34 @@
           "gloss_en": ""
         },
         {
-          "id": "pred2",
+          "id": "ngaay",
           "text": "Ngaʼay",
-          "role": "pred2",
+          "role": "particle",
           "gloss_zh": "可以",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "ho",
           "text": "ho",
-          "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "role": "particle",
+          "gloss_zh": "還",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
-          "id": "singsi",
+          "id": "pred2",
           "text": "singsi",
-          "role": "noun",
+          "role": "pred2",
           "gloss_zh": "老師",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
         },
         {
           "id": "period",
@@ -389,9 +428,9 @@
           ],
           [
             "quot",
-            "pred2",
+            "ngaay",
             "ho",
-            "singsi",
+            "pred2",
             "period",
             "quot_3"
           ]
@@ -414,15 +453,21 @@
           "id": "pred",
           "text": "Minanam",
           "role": "pred",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "gloss_zh": "學習",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "30生活作息",
+          "vocab_code": "30"
         },
         {
           "id": "i",
           "text": "i",
           "role": "case",
           "gloss_zh": "在",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "comma",
@@ -450,14 +495,20 @@
           "text": "singsi",
           "role": "noun",
           "gloss_zh": "老師",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
         },
         {
           "id": "kami",
           "text": "kami",
           "role": "pronoun",
           "gloss_zh": "我們",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "to",
@@ -467,11 +518,14 @@
           "gloss_en": ""
         },
         {
-          "id": "saʼosi",
+          "id": "saosi",
           "text": "saʼosi",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "gloss_zh": "數",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "34其他",
+          "vocab_code": "34"
         },
         {
           "id": "no_3",
@@ -508,12 +562,12 @@
             "singsi",
             "kami",
             "to",
-            "saʼosi",
+            "saosi",
             "period"
           ]
         ],
         "hangs": {
-          "saʼosi": [
+          "saosi": [
             "no_3",
             "amis"
           ]
@@ -543,7 +597,10 @@
           "text": "niyam",
           "role": "pronoun",
           "gloss_zh": "我們的",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "ko",
@@ -557,7 +614,10 @@
           "text": "singsi",
           "role": "noun",
           "gloss_zh": "老師",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
         },
         {
           "id": "a",
@@ -567,7 +627,7 @@
           "gloss_en": ""
         },
         {
-          "id": "misaʼosi",
+          "id": "misaosi",
           "text": "misaʼosi",
           "role": "noun",
           "gloss_zh": "",
@@ -592,7 +652,10 @@
           "text": "kami",
           "role": "pronoun",
           "gloss_zh": "我們",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "to",
@@ -609,11 +672,14 @@
           "gloss_en": ""
         },
         {
-          "id": "saʼosi",
+          "id": "saosi",
           "text": "saʼosi",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "gloss_zh": "數",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "34其他",
+          "vocab_code": "34"
         },
         {
           "id": "a_3",
@@ -626,8 +692,11 @@
           "id": "radiw",
           "text": "radiw",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "gloss_zh": "歌",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "23聲音",
+          "vocab_code": "23"
         },
         {
           "id": "period",
@@ -645,13 +714,13 @@
             "ko",
             "singsi",
             "a",
-            "misaʼosi",
+            "misaosi",
             "comma",
             "pred2",
             "kami",
             "to",
             "no",
-            "saʼosi",
+            "saosi",
             "a_3",
             "radiw",
             "period"
@@ -704,7 +773,10 @@
           "text": "mako",
           "role": "pronoun",
           "gloss_zh": "我的",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "a",
@@ -717,8 +789,11 @@
           "id": "sowal",
           "text": "sowal",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "gloss_zh": "說",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "28認知感官",
+          "vocab_code": "28"
         },
         {
           "id": "no_3",
@@ -764,9 +839,9 @@
           ]
         },
         "plus_between_groups": false,
-        "structure": "謂語為中心；屬格 no/nu 掛於名詞下（自動）"
+        "structure": "述語為中心；屬格 no/nu 掛於名詞下（自動）"
       },
-      "structure": "謂語為中心；屬格 no/nu 掛於名詞下（自動）",
+      "structure": "述語為中心；屬格 no/nu 掛於名詞下（自動）",
       "audio": "https://web.klokah.tw/text/sound/34141/531425.mp3",
       "audio_primary": true
     },
@@ -788,7 +863,10 @@
           "text": "kako",
           "role": "pronoun",
           "gloss_zh": "我",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "to",
@@ -798,11 +876,14 @@
           "gloss_en": ""
         },
         {
-          "id": "romiʼamiʼad",
+          "id": "romiamiad",
           "text": "romiʼamiʼad",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "gloss_zh": "天天",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "13時間",
+          "vocab_code": "13"
         },
         {
           "id": "comma",
@@ -815,15 +896,21 @@
           "id": "pred2",
           "text": "minanam",
           "role": "pred2",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "gloss_zh": "學習",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "30生活作息",
+          "vocab_code": "30"
         },
         {
           "id": "kako_3",
           "text": "kako",
           "role": "pronoun",
           "gloss_zh": "我",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "to_3",
@@ -836,8 +923,11 @@
           "id": "sowal",
           "text": "sowal",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "gloss_zh": "說",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "28認知感官",
+          "vocab_code": "28"
         },
         {
           "id": "no",
@@ -861,11 +951,14 @@
           "gloss_en": ""
         },
         {
-          "id": "romiʼamiʼad_3",
+          "id": "romiamiad_3",
           "text": "romiʼamiʼad",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "gloss_zh": "天天",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "13時間",
+          "vocab_code": "13"
         },
         {
           "id": "comma_3",
@@ -944,7 +1037,7 @@
             "pred",
             "kako",
             "to",
-            "romiʼamiʼad",
+            "romiamiad",
             "comma",
             "pred2",
             "kako_3",
@@ -953,7 +1046,7 @@
             "no",
             "amis",
             "to_4",
-            "romiʼamiʼad_3",
+            "romiamiad_3",
             "comma_3",
             "o",
             "papatengilen",

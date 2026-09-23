@@ -30,8 +30,11 @@
           "id": "salikaka",
           "text": "salikaka",
           "role": "noun",
-          "gloss_zh": "兄弟姊妹",
-          "gloss_en": ""
+          "gloss_zh": "堂、表兄弟姐妹",
+          "gloss_en": "",
+          "level": "中高級",
+          "vocab_cat": "04親屬稱謂",
+          "vocab_code": "04"
         },
         {
           "id": "iso",
@@ -60,9 +63,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Papinaay 為中心（自動標記）"
+        "structure": "述語 Papinaay 為中心（自動標記）"
       },
-      "structure": "謂語 Papinaay 為中心（自動標記）",
+      "structure": "述語 Papinaay 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c11s1.mp3",
       "audio_primary": true,
       "speaker": "Piyac"
@@ -78,7 +81,10 @@
           "text": "Cecay",
           "role": "pred",
           "gloss_zh": "一",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "01數字計量",
+          "vocab_code": "01"
         },
         {
           "id": "ko",
@@ -88,11 +94,14 @@
           "gloss_en": ""
         },
         {
-          "id": "faʼinayan",
+          "id": "fainayan",
           "text": "faʼinayan",
           "role": "noun",
-          "gloss_zh": "男",
-          "gloss_en": ""
+          "gloss_zh": "男性",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
         },
         {
           "id": "a",
@@ -105,8 +114,11 @@
           "id": "kaka",
           "text": "kaka",
           "role": "noun",
-          "gloss_zh": "哥；姊",
-          "gloss_en": ""
+          "gloss_zh": "兄長",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "04親屬稱謂",
+          "vocab_code": "04"
         },
         {
           "id": "comma",
@@ -120,7 +132,10 @@
           "text": "cecay",
           "role": "pred2",
           "gloss_zh": "一",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "01數字計量",
+          "vocab_code": "01"
         },
         {
           "id": "ko_3",
@@ -130,11 +145,14 @@
           "gloss_en": ""
         },
         {
-          "id": "faʼinayan_3",
+          "id": "fainayan_3",
           "text": "faʼinayan",
           "role": "noun",
-          "gloss_zh": "男",
-          "gloss_en": ""
+          "gloss_zh": "男性",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
         },
         {
           "id": "a_3",
@@ -147,8 +165,11 @@
           "id": "safa",
           "text": "safa",
           "role": "noun",
-          "gloss_zh": "弟；妹",
-          "gloss_en": ""
+          "gloss_zh": "通稱",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "04親屬稱謂",
+          "vocab_code": "04"
         },
         {
           "id": "comma_3",
@@ -162,7 +183,10 @@
           "text": "cecay",
           "role": "pred2",
           "gloss_zh": "一",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "01數字計量",
+          "vocab_code": "01"
         },
         {
           "id": "ko_4",
@@ -175,8 +199,11 @@
           "id": "fafahiyan",
           "text": "fafahiyan",
           "role": "noun",
-          "gloss_zh": "女",
-          "gloss_en": ""
+          "gloss_zh": "女性",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
         },
         {
           "id": "a_4",
@@ -189,8 +216,11 @@
           "id": "safa_3",
           "text": "safa",
           "role": "noun",
-          "gloss_zh": "弟；妹",
-          "gloss_en": ""
+          "gloss_zh": "通稱",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "04親屬稱謂",
+          "vocab_code": "04"
         },
         {
           "id": "period",
@@ -205,13 +235,13 @@
           [
             "pred",
             "ko",
-            "faʼinayan",
+            "fainayan",
             "a",
             "kaka",
             "comma",
             "pred2",
             "ko_3",
-            "faʼinayan_3",
+            "fainayan_3",
             "a_3",
             "safa",
             "comma_3",
@@ -263,8 +293,11 @@
           "id": "tayal",
           "text": "tayal",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "gloss_zh": "工作",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "30生活作息",
+          "vocab_code": "30"
         },
         {
           "id": "na",
@@ -276,9 +309,12 @@
         {
           "id": "mira",
           "text": "mira",
-          "role": "noun",
-          "gloss_zh": "他",
-          "gloss_en": ""
+          "role": "pronoun",
+          "gloss_zh": "他的",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "q",
@@ -302,9 +338,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 O 為中心（自動標記）"
+        "structure": "述語 O 為中心（自動標記）"
       },
-      "structure": "謂語 O 為中心（自動標記）",
+      "structure": "述語 O 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c11s3.mp3",
       "audio_primary": true,
       "speaker": "Piyac"
@@ -326,8 +362,11 @@
           "id": "kaka",
           "text": "kaka",
           "role": "noun",
-          "gloss_zh": "哥；姊",
-          "gloss_en": ""
+          "gloss_zh": "兄長",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "04親屬稱謂",
+          "vocab_code": "04"
         },
         {
           "id": "ako",
@@ -341,7 +380,10 @@
           "text": "i",
           "role": "case",
           "gloss_zh": "在",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "comma",
@@ -368,8 +410,11 @@
           "id": "safa",
           "text": "safa",
           "role": "pred2",
-          "gloss_zh": "弟；妹",
-          "gloss_en": ""
+          "gloss_zh": "通稱",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "04親屬稱謂",
+          "vocab_code": "04"
         },
         {
           "id": "to",
@@ -379,11 +424,14 @@
           "gloss_en": ""
         },
         {
-          "id": "faʼinayan",
+          "id": "fainayan",
           "text": "faʼinayan",
           "role": "noun",
-          "gloss_zh": "男",
-          "gloss_en": ""
+          "gloss_zh": "男性",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
         },
         {
           "id": "malaisingay",
@@ -403,8 +451,11 @@
           "id": "safa_3",
           "text": "safa",
           "role": "pred2",
-          "gloss_zh": "弟；妹",
-          "gloss_en": ""
+          "gloss_zh": "通稱",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "04親屬稱謂",
+          "vocab_code": "04"
         },
         {
           "id": "to_3",
@@ -417,29 +468,41 @@
           "id": "fafahiyan",
           "text": "fafahiyan",
           "role": "noun",
-          "gloss_zh": "女",
-          "gloss_en": ""
+          "gloss_zh": "女性",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
         },
         {
           "id": "mitiliday",
           "text": "mitiliday",
           "role": "noun",
           "gloss_zh": "學生",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
         },
         {
           "id": "ho",
           "text": "ho",
-          "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "role": "particle",
+          "gloss_zh": "還",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "i_3",
           "text": "i",
           "role": "case",
           "gloss_zh": "在",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "taykak",
@@ -468,7 +531,7 @@
             "comma_3",
             "safa",
             "to",
-            "faʼinayan",
+            "fainayan",
             "malaisingay",
             "comma_4",
             "safa_3",
@@ -515,14 +578,20 @@
           "text": "kiso",
           "role": "pronoun",
           "gloss_zh": "你",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "haw",
           "text": "haw",
           "role": "particle",
-          "gloss_zh": "助詞",
-          "gloss_en": ""
+          "gloss_zh": "嗎",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "q",
@@ -544,9 +613,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Sifafahiay 為中心（自動標記）"
+        "structure": "述語 Sifafahiay 為中心（自動標記）"
       },
-      "structure": "謂語 Sifafahiay 為中心（自動標記）",
+      "structure": "述語 Sifafahiay 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c11s5.mp3",
       "audio_primary": true,
       "speaker": "Piyac"
@@ -561,8 +630,11 @@
           "id": "pred",
           "text": "Hay",
           "role": "pred",
-          "gloss_zh": "是的[回答用]",
-          "gloss_en": ""
+          "gloss_zh": "是的",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "24抽象名詞",
+          "vocab_code": "24"
         },
         {
           "id": "comma",
@@ -590,7 +662,10 @@
           "text": "kako",
           "role": "pronoun",
           "gloss_zh": "我",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "period",
@@ -643,7 +718,7 @@
           "gloss_en": ""
         },
         {
-          "id": "kasasoʼaraw",
+          "id": "kasasoaraw",
           "text": "kasasoʼaraw",
           "role": "noun",
           "gloss_zh": "",
@@ -653,8 +728,11 @@
           "id": "namo",
           "text": "namo",
           "role": "pronoun",
-          "gloss_zh": "你們",
-          "gloss_en": ""
+          "gloss_zh": "你們的",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "q",
@@ -669,16 +747,16 @@
           [
             "pred",
             "ko",
-            "kasasoʼaraw",
+            "kasasoaraw",
             "namo",
             "q"
           ]
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Samaanay 為中心（自動標記）"
+        "structure": "述語 Samaanay 為中心（自動標記）"
       },
-      "structure": "謂語 Samaanay 為中心（自動標記）",
+      "structure": "述語 Samaanay 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c11s7.mp3",
       "audio_primary": true,
       "speaker": "Piyac"

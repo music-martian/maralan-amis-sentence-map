@@ -22,14 +22,14 @@
           "gloss_en": ""
         },
         {
-          "id": "punc",
+          "id": "semi",
           "text": "；",
           "role": "punct",
           "gloss_zh": "",
           "gloss_en": ""
         },
         {
-          "id": "semi",
+          "id": "semi_3",
           "text": ";",
           "role": "punct",
           "gloss_zh": "",
@@ -39,24 +39,27 @@
           "id": "mihecaan",
           "text": "mihecaan",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "gloss_zh": "年",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "13時間",
+          "vocab_code": "13"
         }
       ],
       "layout": {
         "groups": [
           [
             "pred",
-            "punc",
             "semi",
+            "semi_3",
             "mihecaan"
           ]
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 miheca 為中心（自動標記）"
+        "structure": "述語 miheca 為中心（自動標記）"
       },
-      "structure": "謂語 miheca 為中心（自動標記）",
+      "structure": "述語 miheca 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_junior/sound/4/1word/12_1.mp3",
       "audio_primary": true,
       "learn_id": 1
@@ -83,9 +86,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 romiad 為中心（自動標記）"
+        "structure": "述語 romiad 為中心（自動標記）"
       },
-      "structure": "謂語 romiad 為中心（自動標記）",
+      "structure": "述語 romiad 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_junior/sound/4/1word/12_2.mp3",
       "audio_primary": true,
       "learn_id": 2
@@ -128,9 +131,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 romiamiad 為中心（自動標記）"
+        "structure": "述語 romiamiad 為中心（自動標記）"
       },
-      "structure": "謂語 romiamiad 為中心（自動標記）",
+      "structure": "述語 romiamiad 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_junior/sound/4/1word/12_3.mp3",
       "audio_primary": true,
       "learn_id": 3
@@ -142,24 +145,27 @@
       "en": "",
       "tokens": [
         {
-          "id": "pred",
+          "id": "hatini",
           "text": "hatini",
-          "role": "pred",
-          "gloss_zh": "現在",
-          "gloss_en": ""
+          "role": "pronoun",
+          "gloss_zh": "這樣",
+          "gloss_en": "",
+          "level": "中高級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         }
       ],
       "layout": {
         "groups": [
           [
-            "pred"
+            "hatini"
           ]
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 hatini 為中心（自動標記）"
+        "structure": "線性排列（自動標記）"
       },
-      "structure": "謂語 hatini 為中心（自動標記）",
+      "structure": "線性排列（自動標記）",
       "audio": "https://klokah.tw/extension/sp_junior/sound/4/1word/12_4.mp3",
       "audio_primary": true,
       "learn_id": 4
@@ -175,7 +181,10 @@
           "text": "anini",
           "role": "adverb",
           "gloss_zh": "今天",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "13時間",
+          "vocab_code": "13"
         }
       ],
       "layout": {
@@ -204,7 +213,10 @@
           "text": "nacila",
           "role": "pred",
           "gloss_zh": "昨天",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "13時間",
+          "vocab_code": "13"
         },
         {
           "id": "slash",
@@ -217,8 +229,11 @@
           "id": "inacila",
           "text": "inacila",
           "role": "noun",
-          "gloss_zh": "昨天",
-          "gloss_en": ""
+          "gloss_zh": "前天",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "13時間",
+          "vocab_code": "13"
         }
       ],
       "layout": {
@@ -231,9 +246,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 nacila 為中心（自動標記）"
+        "structure": "述語 nacila 為中心（自動標記）"
       },
-      "structure": "謂語 nacila 為中心（自動標記）",
+      "structure": "述語 nacila 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_junior/sound/4/1word/12_6.mp3",
       "audio_primary": true,
       "learn_id": 6
@@ -249,7 +264,10 @@
           "text": "anocila",
           "role": "adverb",
           "gloss_zh": "明天",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "13時間",
+          "vocab_code": "13"
         }
       ],
       "layout": {
@@ -278,7 +296,10 @@
           "text": "papacem",
           "role": "pred",
           "gloss_zh": "早上",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "13時間",
+          "vocab_code": "13"
         }
       ],
       "layout": {
@@ -289,9 +310,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 papacem 為中心（自動標記）"
+        "structure": "述語 papacem 為中心（自動標記）"
       },
-      "structure": "謂語 papacem 為中心（自動標記）",
+      "structure": "述語 papacem 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_junior/sound/4/1word/12_8.mp3",
       "audio_primary": true,
       "learn_id": 8
@@ -307,7 +328,10 @@
           "text": "dadaya",
           "role": "pred",
           "gloss_zh": "晚上",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "13時間",
+          "vocab_code": "13"
         }
       ],
       "layout": {
@@ -318,9 +342,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 dadaya 為中心（自動標記）"
+        "structure": "述語 dadaya 為中心（自動標記）"
       },
-      "structure": "謂語 dadaya 為中心（自動標記）",
+      "structure": "述語 dadaya 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_junior/sound/4/1word/12_9.mp3",
       "audio_primary": true,
       "learn_id": 9
@@ -363,9 +387,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 ikor 為中心（自動標記）"
+        "structure": "述語 ikor 為中心（自動標記）"
       },
-      "structure": "謂語 ikor 為中心（自動標記）",
+      "structure": "述語 ikor 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/sp_junior/sound/4/1word/12_10.mp3",
       "audio_primary": true,
       "learn_id": 10

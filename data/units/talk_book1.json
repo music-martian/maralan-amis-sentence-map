@@ -13,18 +13,24 @@
       "en": "",
       "tokens": [
         {
-          "id": "pred",
+          "id": "ngaay",
           "text": "Ngaʼay",
-          "role": "pred",
+          "role": "particle",
           "gloss_zh": "可以",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "ho",
           "text": "ho",
-          "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "role": "particle",
+          "gloss_zh": "還",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "excl",
@@ -34,9 +40,9 @@
           "gloss_en": ""
         },
         {
-          "id": "tatalacowa",
+          "id": "pred",
           "text": "Tatalacowa",
-          "role": "noun",
+          "role": "pred",
           "gloss_zh": "",
           "gloss_en": ""
         },
@@ -45,7 +51,10 @@
           "text": "kiso",
           "role": "pronoun",
           "gloss_zh": "你",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "q",
@@ -58,19 +67,19 @@
       "layout": {
         "groups": [
           [
-            "pred",
+            "ngaay",
             "ho",
             "excl",
-            "tatalacowa",
+            "pred",
             "kiso",
             "q"
           ]
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Ngaʼay 為中心（自動標記）"
+        "structure": "述語 Tatalacowa 為中心（自動標記）"
       },
-      "structure": "謂語 Ngaʼay 為中心（自動標記）",
+      "structure": "述語 Tatalacowa 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c1s1.mp3",
       "audio_primary": true,
       "speaker": "Talosang"
@@ -93,7 +102,10 @@
           "text": "kako",
           "role": "pronoun",
           "gloss_zh": "我",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "to",
@@ -107,7 +119,10 @@
           "text": "wama",
           "role": "noun",
           "gloss_zh": "爸爸",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "04親屬稱謂",
+          "vocab_code": "04"
         },
         {
           "id": "ako",
@@ -119,16 +134,22 @@
         {
           "id": "ato",
           "text": "ato",
-          "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "role": "particle",
+          "gloss_zh": "和",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "wina",
           "text": "wina",
           "role": "noun",
           "gloss_zh": "媽媽",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "04親屬稱謂",
+          "vocab_code": "04"
         },
         {
           "id": "ako_3",
@@ -161,9 +182,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Mamilisoʼ 為中心（自動標記）"
+        "structure": "述語 Mamilisoʼ 為中心（自動標記）"
       },
-      "structure": "謂語 Mamilisoʼ 為中心（自動標記）",
+      "structure": "述語 Mamilisoʼ 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c1s2.mp3",
       "audio_primary": true,
       "speaker": "Takiyo"
@@ -178,8 +199,11 @@
           "id": "pred",
           "text": "Ngaʼayay",
           "role": "pred",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "gloss_zh": "好好的",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "32特徵",
+          "vocab_code": "32"
         },
         {
           "id": "sa",
@@ -191,16 +215,22 @@
         {
           "id": "mira",
           "text": "mira",
-          "role": "noun",
-          "gloss_zh": "他",
-          "gloss_en": ""
+          "role": "pronoun",
+          "gloss_zh": "他的",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "haw",
           "text": "haw",
           "role": "particle",
-          "gloss_zh": "助詞",
-          "gloss_en": ""
+          "gloss_zh": "嗎",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "q",
@@ -222,9 +252,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Ngaʼayay 為中心（自動標記）"
+        "structure": "述語 Ngaʼayay 為中心（自動標記）"
       },
-      "structure": "謂語 Ngaʼayay 為中心（自動標記）",
+      "structure": "述語 Ngaʼayay 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c1s3.mp3",
       "audio_primary": true,
       "speaker": "Talosang"
@@ -239,8 +269,11 @@
           "id": "pred",
           "text": "Hay",
           "role": "pred",
-          "gloss_zh": "是的[回答用]",
-          "gloss_en": ""
+          "gloss_zh": "是的",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "24抽象名詞",
+          "vocab_code": "24"
         },
         {
           "id": "comma",
@@ -253,8 +286,11 @@
           "id": "pred2",
           "text": "ngaʼayay",
           "role": "pred2",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "gloss_zh": "好好的",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "32特徵",
+          "vocab_code": "32"
         },
         {
           "id": "period",
@@ -295,21 +331,30 @@
           "text": "Pina",
           "role": "pred",
           "gloss_zh": "多少",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
         },
         {
-          "id": "romiʼad",
+          "id": "romiad",
           "text": "romiʼad",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "gloss_zh": "白天",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "13時間",
+          "vocab_code": "13"
         },
         {
           "id": "kiso",
           "text": "kiso",
           "role": "pronoun",
           "gloss_zh": "你",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "q",
@@ -323,16 +368,16 @@
         "groups": [
           [
             "pred",
-            "romiʼad",
+            "romiad",
             "kiso",
             "q"
           ]
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Pina 為中心（自動標記）"
+        "structure": "述語 Pina 為中心（自動標記）"
       },
-      "structure": "謂語 Pina 為中心（自動標記）",
+      "structure": "述語 Pina 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c1s5.mp3",
       "audio_primary": true,
       "speaker": "Talosang"
@@ -362,7 +407,10 @@
           "text": "anocila",
           "role": "adverb",
           "gloss_zh": "明天",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "13時間",
+          "vocab_code": "13"
         },
         {
           "id": "period",
@@ -383,9 +431,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Minokay 為中心（自動標記）"
+        "structure": "述語 Minokay 為中心（自動標記）"
       },
-      "structure": "謂語 Minokay 為中心（自動標記）",
+      "structure": "述語 Minokay 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c1s6.mp3",
       "audio_primary": true,
       "speaker": "Takiyo"
@@ -408,14 +456,20 @@
           "text": "kiso",
           "role": "pronoun",
           "gloss_zh": "你",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "anocila",
           "text": "anocila",
           "role": "adverb",
           "gloss_zh": "明天",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "13時間",
+          "vocab_code": "13"
         },
         {
           "id": "q",
@@ -436,7 +490,10 @@
           "text": "kita",
           "role": "pronoun",
           "gloss_zh": "咱們",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "makena",
@@ -468,9 +525,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Mimaan 為中心（自動標記）"
+        "structure": "述語 Mimaan 為中心（自動標記）"
       },
-      "structure": "謂語 Mimaan 為中心（自動標記）",
+      "structure": "述語 Mimaan 為中心（自動標記）",
       "audio": "https://klokah.tw/extension/con_data/sound/4/sentence/4c1s7.mp3",
       "audio_primary": true,
       "speaker": "Talosang"

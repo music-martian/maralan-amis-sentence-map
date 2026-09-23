@@ -25,7 +25,10 @@
           "text": "kita",
           "role": "pronoun",
           "gloss_zh": "咱們",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "mapolong",
@@ -60,21 +63,30 @@
           "text": "singsi",
           "role": "noun",
           "gloss_zh": "老師",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
         },
         {
           "id": "kita_3",
           "text": "kita",
           "role": "pronoun",
           "gloss_zh": "咱們",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "anini",
           "text": "anini",
           "role": "adverb",
           "gloss_zh": "今天",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "13時間",
+          "vocab_code": "13"
         },
         {
           "id": "a",
@@ -87,7 +99,7 @@
           "id": "miliso",
           "text": "milisoʼ",
           "role": "noun",
-          "gloss_zh": "",
+          "gloss_zh": "拜訪；探望",
           "gloss_en": ""
         },
         {
@@ -115,8 +127,11 @@
           "id": "niyaro",
           "text": "niyaroʼ",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "gloss_zh": "部落",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "24抽象名詞",
+          "vocab_code": "24"
         },
         {
           "id": "period",
@@ -169,7 +184,7 @@
           "gloss_en": ""
         },
         {
-          "id": "mangaʼay",
+          "id": "mangaay",
           "text": "mangaʼay",
           "role": "noun",
           "gloss_zh": "",
@@ -211,7 +226,7 @@
           "gloss_en": ""
         },
         {
-          "id": "matoʼasay",
+          "id": "matoasay",
           "text": "matoʼasay",
           "role": "noun",
           "gloss_zh": "",
@@ -229,21 +244,21 @@
         "groups": [
           [
             "pred",
-            "mangaʼay",
+            "mangaay",
             "excl",
             "sano",
             "amisen",
             "ita",
             "ko",
-            "matoʼasay",
+            "matoasay",
             "period"
           ]
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Tada 為中心（自動標記）"
+        "structure": "述語 Tada 為中心（自動標記）"
       },
-      "structure": "謂語 Tada 為中心（自動標記）",
+      "structure": "述語 Tada 為中心（自動標記）",
       "audio": "https://web.klokah.tw/text/sound/26970/441829.mp3",
       "audio_primary": true
     },
@@ -271,22 +286,31 @@
           "id": "tahira",
           "text": "tahira",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "gloss_zh": "到某處",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "14空間",
+          "vocab_code": "14"
         },
         {
           "id": "kita",
           "text": "kita",
           "role": "pronoun",
           "gloss_zh": "咱們",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "haw",
           "text": "haw",
           "role": "particle",
-          "gloss_zh": "助詞",
-          "gloss_en": ""
+          "gloss_zh": "嗎",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "q",
@@ -309,9 +333,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Mangatato 為中心（自動標記）"
+        "structure": "述語 Mangatato 為中心（自動標記）"
       },
-      "structure": "謂語 Mangatato 為中心（自動標記）",
+      "structure": "述語 Mangatato 為中心（自動標記）",
       "audio": "https://web.klokah.tw/text/sound/26970/441830.mp3",
       "audio_primary": true
     },
@@ -345,9 +369,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Mangatato 為中心（自動標記）"
+        "structure": "述語 Mangatato 為中心（自動標記）"
       },
-      "structure": "謂語 Mangatato 為中心（自動標記）",
+      "structure": "述語 Mangatato 為中心（自動標記）",
       "audio": "https://web.klokah.tw/text/sound/26970/441831.mp3",
       "audio_primary": true
     },
@@ -375,7 +399,7 @@
           "id": "pred2",
           "text": "milisoʼ",
           "role": "pred2",
-          "gloss_zh": "",
+          "gloss_zh": "拜訪；探望",
           "gloss_en": ""
         },
         {
@@ -383,14 +407,20 @@
           "text": "kami",
           "role": "pronoun",
           "gloss_zh": "我們",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "i",
           "text": "i",
           "role": "case",
           "gloss_zh": "在",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "tisowanan",
@@ -439,15 +469,21 @@
           "id": "pred",
           "text": "Mafanaʼ",
           "role": "pred",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "gloss_zh": "會",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "28認知感官",
+          "vocab_code": "28"
         },
         {
           "id": "kamo",
           "text": "kamo",
           "role": "pronoun",
           "gloss_zh": "你們",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "tono",
@@ -474,8 +510,11 @@
           "id": "caciyaw",
           "text": "caciyaw",
           "role": "noun",
-          "gloss_zh": "說",
-          "gloss_en": ""
+          "gloss_zh": "語言",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "24抽象名詞",
+          "vocab_code": "24"
         },
         {
           "id": "period",
@@ -499,7 +538,7 @@
           "gloss_en": ""
         },
         {
-          "id": "tadamangaʼay",
+          "id": "tadamangaay",
           "text": "tadamangaʼay",
           "role": "noun",
           "gloss_zh": "",
@@ -525,15 +564,15 @@
             "period",
             "a_3",
             "excl",
-            "tadamangaʼay",
+            "tadamangaay",
             "period_3"
           ]
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Mafana 為中心（自動標記）"
+        "structure": "述語 Mafanaʼ 為中心（自動標記）"
       },
-      "structure": "謂語 Mafana 為中心（自動標記）",
+      "structure": "述語 Mafanaʼ 為中心（自動標記）",
       "audio": "https://web.klokah.tw/text/sound/26970/441833.mp3",
       "audio_primary": true
     },
@@ -555,7 +594,10 @@
           "text": "kita",
           "role": "pronoun",
           "gloss_zh": "咱們",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "mapolong",
@@ -590,21 +632,30 @@
           "text": "singsi",
           "role": "noun",
           "gloss_zh": "老師",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
         },
         {
           "id": "kita_3",
           "text": "kita",
           "role": "pronoun",
           "gloss_zh": "咱們",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "anini",
           "text": "anini",
           "role": "adverb",
           "gloss_zh": "今天",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "13時間",
+          "vocab_code": "13"
         },
         {
           "id": "a",
@@ -618,14 +669,20 @@
           "text": "tayra",
           "role": "noun",
           "gloss_zh": "去",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "25行動",
+          "vocab_code": "25"
         },
         {
           "id": "i",
           "text": "i",
           "role": "case",
           "gloss_zh": "在",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "pisalamloan",
@@ -710,7 +767,10 @@
           "text": "singsi",
           "role": "pred2",
           "gloss_zh": "老師",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
         },
         {
           "id": "period",
@@ -757,7 +817,10 @@
           "text": "kita",
           "role": "pronoun",
           "gloss_zh": "咱們",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "comma",
@@ -770,8 +833,11 @@
           "id": "pred2",
           "text": "haratengen",
           "role": "pred2",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "gloss_zh": "想",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "28認知感官",
+          "vocab_code": "28"
         },
         {
           "id": "ko",
@@ -858,7 +924,10 @@
           "text": "singsi",
           "role": "pred2",
           "gloss_zh": "老師",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
         },
         {
           "id": "comma_3",
@@ -879,7 +948,10 @@
           "text": "niyam",
           "role": "pronoun",
           "gloss_zh": "我們的",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "ko",
@@ -953,8 +1025,11 @@
           "id": "haw",
           "text": "haw",
           "role": "particle",
-          "gloss_zh": "助詞",
-          "gloss_en": ""
+          "gloss_zh": "嗎",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "q",
@@ -975,9 +1050,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Maraodayto 為中心（自動標記）"
+        "structure": "述語 Maraodayto 為中心（自動標記）"
       },
-      "structure": "謂語 Maraodayto 為中心（自動標記）",
+      "structure": "述語 Maraodayto 為中心（自動標記）",
       "audio": "https://web.klokah.tw/text/sound/26970/441838.mp3",
       "audio_primary": true
     },
@@ -1053,7 +1128,10 @@
           "text": "kiso",
           "role": "pronoun",
           "gloss_zh": "你",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "period",
@@ -1073,9 +1151,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Picefos 為中心（自動標記）"
+        "structure": "述語 Picefos 為中心（自動標記）"
       },
-      "structure": "謂語 Picefos 為中心（自動標記）",
+      "structure": "述語 Picefos 為中心（自動標記）",
       "audio": "https://web.klokah.tw/text/sound/26970/441840.mp3",
       "audio_primary": true
     },
@@ -1111,7 +1189,10 @@
           "text": "kako",
           "role": "pronoun",
           "gloss_zh": "我",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "period",
@@ -1159,7 +1240,10 @@
           "text": "kiso",
           "role": "pronoun",
           "gloss_zh": "你",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "to",
@@ -1187,7 +1271,10 @@
           "text": "ʼayam",
           "role": "noun",
           "gloss_zh": "鳥",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "07動物(含昆蟲)",
+          "vocab_code": "07"
         },
         {
           "id": "period",
@@ -1211,9 +1298,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Piala 為中心（自動標記）"
+        "structure": "述語 Piala 為中心（自動標記）"
       },
-      "structure": "謂語 Piala 為中心（自動標記）",
+      "structure": "述語 Piala 為中心（自動標記）",
       "audio": "https://web.klokah.tw/text/sound/26970/441842.mp3",
       "audio_primary": true
     },
@@ -1249,7 +1336,10 @@
           "text": "kako",
           "role": "pronoun",
           "gloss_zh": "我",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "to",
@@ -1263,7 +1353,10 @@
           "text": "ʼayam",
           "role": "noun",
           "gloss_zh": "鳥",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "07動物(含昆蟲)",
+          "vocab_code": "07"
         },
         {
           "id": "period",
@@ -1313,7 +1406,10 @@
           "text": "kita",
           "role": "pronoun",
           "gloss_zh": "咱們",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "mapolong",
@@ -1334,21 +1430,30 @@
           "text": "tayra",
           "role": "pred2",
           "gloss_zh": "去",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "25行動",
+          "vocab_code": "25"
         },
         {
           "id": "kita_3",
           "text": "kita",
           "role": "pronoun",
           "gloss_zh": "咱們",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "i",
           "text": "i",
           "role": "case",
           "gloss_zh": "在",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "pacoan",
@@ -1362,7 +1467,10 @@
           "text": "anini",
           "role": "adverb",
           "gloss_zh": "今天",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "13時間",
+          "vocab_code": "13"
         },
         {
           "id": "period",
@@ -1443,7 +1551,10 @@
           "text": "tayra",
           "role": "noun",
           "gloss_zh": "去",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "25行動",
+          "vocab_code": "25"
         },
         {
           "id": "q",
@@ -1467,9 +1578,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Tadamangaʼay 為中心（自動標記）"
+        "structure": "述語 Tadamangaʼay 為中心（自動標記）"
       },
-      "structure": "謂語 Tadamangaʼay 為中心（自動標記）",
+      "structure": "述語 Tadamangaʼay 為中心（自動標記）",
       "audio": "https://web.klokah.tw/text/sound/26970/441845.mp3",
       "audio_primary": true
     },
@@ -1491,7 +1602,10 @@
           "text": "kita",
           "role": "pronoun",
           "gloss_zh": "咱們",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "to",
@@ -1504,8 +1618,11 @@
           "id": "paso",
           "text": "paso",
           "role": "noun",
-          "gloss_zh": "",
-          "gloss_en": ""
+          "gloss_zh": "公車",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "20交通",
+          "vocab_code": "20"
         },
         {
           "id": "period",
@@ -1527,9 +1644,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Midakaw 為中心（自動標記）"
+        "structure": "述語 Midakaw 為中心（自動標記）"
       },
-      "structure": "謂語 Midakaw 為中心（自動標記）",
+      "structure": "述語 Midakaw 為中心（自動標記）",
       "audio": "https://web.klokah.tw/text/sound/26970/441846.mp3",
       "audio_primary": true
     },
@@ -1551,7 +1668,10 @@
           "text": "kita",
           "role": "pronoun",
           "gloss_zh": "咱們",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "comma",
@@ -1572,7 +1692,10 @@
           "text": "kita",
           "role": "pronoun",
           "gloss_zh": "咱們",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "to",
@@ -1649,9 +1772,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Hai 為中心（自動標記）"
+        "structure": "述語 Hai 為中心（自動標記）"
       },
-      "structure": "謂語 Hai 為中心（自動標記）",
+      "structure": "述語 Hai 為中心（自動標記）",
       "audio": "https://web.klokah.tw/text/sound/26970/441848.mp3",
       "audio_primary": true
     },
@@ -1669,7 +1792,7 @@
           "gloss_en": ""
         },
         {
-          "id": "paʼayaman",
+          "id": "paayaman",
           "text": "paʼayaman",
           "role": "noun",
           "gloss_zh": "",
@@ -1678,12 +1801,15 @@
         {
           "id": "koni",
           "text": "koni",
-          "role": "noun",
+          "role": "pronoun",
           "gloss_zh": "這個",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
-          "id": "kaʼayaway",
+          "id": "kaayaway",
           "text": "kaʼayaway",
           "role": "noun",
           "gloss_zh": "",
@@ -1704,7 +1830,7 @@
           "gloss_en": ""
         },
         {
-          "id": "paʼonelan",
+          "id": "paonelan",
           "text": "paʼonelan",
           "role": "noun",
           "gloss_zh": "",
@@ -1778,12 +1904,12 @@
         "groups": [
           [
             "pred",
-            "paʼayaman",
+            "paayaman",
             "koni",
-            "kaʼayaway",
+            "kaayaway",
             "comma",
             "pred2",
-            "paʼonelan",
+            "paonelan",
             "kona",
             "aikoray",
             "comma_3",
@@ -1814,7 +1940,10 @@
           "text": "Singsi",
           "role": "pred",
           "gloss_zh": "老師",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
         },
         {
           "id": "matalaw",
@@ -1828,7 +1957,10 @@
           "text": "kako",
           "role": "pronoun",
           "gloss_zh": "我",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "to",
@@ -1865,9 +1997,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Singsi 為中心（自動標記）"
+        "structure": "述語 Singsi 為中心（自動標記）"
       },
-      "structure": "謂語 Singsi 為中心（自動標記）",
+      "structure": "述語 Singsi 為中心（自動標記）",
       "audio": "https://web.klokah.tw/text/sound/26970/441850.mp3",
       "audio_primary": true
     },
@@ -1917,7 +2049,10 @@
           "text": "kiso",
           "role": "pronoun",
           "gloss_zh": "你",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "to",
@@ -1931,7 +2066,10 @@
           "text": "ʼayam",
           "role": "noun",
           "gloss_zh": "鳥",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "07動物(含昆蟲)",
+          "vocab_code": "07"
         },
         {
           "id": "period",
@@ -1976,7 +2114,10 @@
           "text": "I",
           "role": "case",
           "gloss_zh": "在",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "pred",
@@ -1997,7 +2138,10 @@
           "text": "cecay",
           "role": "noun",
           "gloss_zh": "一",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "01數字計量",
+          "vocab_code": "01"
         },
         {
           "id": "a",
@@ -2018,7 +2162,10 @@
           "text": "i",
           "role": "case",
           "gloss_zh": "在",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "comma",
@@ -2039,7 +2186,10 @@
           "text": "kita",
           "role": "pronoun",
           "gloss_zh": "咱們",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "a_3",
@@ -2049,7 +2199,7 @@
           "gloss_en": ""
         },
         {
-          "id": "masaʼopo",
+          "id": "masaopo",
           "text": "masaʼopo",
           "role": "noun",
           "gloss_zh": "",
@@ -2079,7 +2229,7 @@
             "pred2",
             "kita",
             "a_3",
-            "masaʼopo",
+            "masaopo",
             "period"
           ]
         ],
@@ -2123,7 +2273,10 @@
           "text": "singsi",
           "role": "noun",
           "gloss_zh": "老師",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
         },
         {
           "id": "period",
@@ -2169,9 +2322,12 @@
         {
           "id": "maan",
           "text": "maan",
-          "role": "noun",
+          "role": "particle",
           "gloss_zh": "什麼",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
         },
         {
           "id": "ko",
@@ -2181,7 +2337,7 @@
           "gloss_en": ""
         },
         {
-          "id": "maʼaraw",
+          "id": "maaraw",
           "text": "maʼaraw",
           "role": "noun",
           "gloss_zh": "",
@@ -2199,7 +2355,10 @@
           "text": "anini",
           "role": "adverb",
           "gloss_zh": "今天",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "13時間",
+          "vocab_code": "13"
         },
         {
           "id": "q",
@@ -2215,7 +2374,7 @@
             "pred",
             "maan",
             "ko",
-            "maʼaraw",
+            "maaraw",
             "iso",
             "anini",
             "q"
@@ -2223,9 +2382,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 O 為中心（自動標記）"
+        "structure": "述語 O 為中心（自動標記）"
       },
-      "structure": "謂語 O 為中心（自動標記）",
+      "structure": "述語 O 為中心（自動標記）",
       "audio": "https://web.klokah.tw/text/sound/26970/441854.mp3",
       "audio_primary": true
     },
@@ -2317,7 +2476,10 @@
           "text": "ʼayam",
           "role": "noun",
           "gloss_zh": "鳥",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "07動物(含昆蟲)",
+          "vocab_code": "07"
         },
         {
           "id": "period",
@@ -2387,7 +2549,10 @@
           "text": "kita",
           "role": "pronoun",
           "gloss_zh": "咱們",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "period",
@@ -2435,7 +2600,10 @@
           "text": "kako",
           "role": "pronoun",
           "gloss_zh": "我",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "comma",
@@ -2459,7 +2627,7 @@
           "gloss_en": ""
         },
         {
-          "id": "waʼay",
+          "id": "waay",
           "text": "waʼay",
           "role": "noun",
           "gloss_zh": "",
@@ -2490,7 +2658,7 @@
           [
             "pred2",
             "ko",
-            "waʼay",
+            "waay",
             "ako",
             "period"
           ]
@@ -2521,7 +2689,10 @@
           "text": "kita",
           "role": "pronoun",
           "gloss_zh": "咱們",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "a",
@@ -2541,8 +2712,11 @@
           "id": "haw",
           "text": "haw",
           "role": "particle",
-          "gloss_zh": "助詞",
-          "gloss_en": ""
+          "gloss_zh": "嗎",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
         },
         {
           "id": "q",
@@ -2565,9 +2739,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Malahakelong 為中心（自動標記）"
+        "structure": "述語 Malahakelong 為中心（自動標記）"
       },
-      "structure": "謂語 Malahakelong 為中心（自動標記）",
+      "structure": "述語 Malahakelong 為中心（自動標記）",
       "audio": "https://web.klokah.tw/text/sound/26970/441858.mp3",
       "audio_primary": true
     },
@@ -2617,9 +2791,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Hayda 為中心（自動標記）"
+        "structure": "述語 Hayda 為中心（自動標記）"
       },
-      "structure": "謂語 Hayda 為中心（自動標記）",
+      "structure": "述語 Hayda 為中心（自動標記）",
       "audio": "https://web.klokah.tw/text/sound/26970/441859.mp3",
       "audio_primary": true
     },
@@ -2633,7 +2807,7 @@
           "id": "pred",
           "text": "ʼAloman",
           "role": "pred",
-          "gloss_zh": "多",
+          "gloss_zh": "",
           "gloss_en": ""
         },
         {
@@ -2648,7 +2822,10 @@
           "text": "tamdaw",
           "role": "noun",
           "gloss_zh": "人",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
         },
         {
           "id": "a",
@@ -2693,9 +2870,9 @@
         ],
         "hangs": {},
         "plus_between_groups": false,
-        "structure": "謂語 Aloman 為中心（自動標記）"
+        "structure": "述語 ʼAloman 為中心（自動標記）"
       },
-      "structure": "謂語 Aloman 為中心（自動標記）",
+      "structure": "述語 ʼAloman 為中心（自動標記）",
       "audio": "https://web.klokah.tw/text/sound/26970/441860.mp3",
       "audio_primary": true
     },
@@ -2724,7 +2901,10 @@
           "text": "nanom",
           "role": "noun",
           "gloss_zh": "水",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "21食物(非植物)",
+          "vocab_code": "21"
         },
         {
           "id": "itira",
@@ -2759,7 +2939,10 @@
           "text": "kita",
           "role": "pronoun",
           "gloss_zh": "咱們",
-          "gloss_en": ""
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
         },
         {
           "id": "a",
