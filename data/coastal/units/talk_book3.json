@@ -1,0 +1,1124 @@
+{
+  "id": "talk_book3",
+  "module": "talk",
+  "title": "肚子餓",
+  "title_ab": "Macahiw",
+  "source_url": "https://klokah.iformosa.com.tw/talk/learn/3",
+  "dialect": "海岸阿美語",
+  "sentences": [
+    {
+      "id": "001",
+      "amis": "Ina, macahiw to kako, ira ko kakaenen?",
+      "zh": "Rengos：媽媽，我肚子好餓，有東西吃嗎？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Ina",
+          "role": "pred",
+          "gloss_zh": "媽媽",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "04親屬稱謂",
+          "vocab_code": "04"
+        },
+        {
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "macahiw",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "斜格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "kako",
+          "text": "kako",
+          "role": "pronoun",
+          "gloss_zh": "我",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "comma_3",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ira",
+          "text": "ira",
+          "role": "pronoun",
+          "gloss_zh": "有",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "34其他",
+          "vocab_code": "34"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "kakaenen",
+          "text": "kakaenen",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "comma"
+          ],
+          [
+            "pred2",
+            "to",
+            "kako",
+            "comma_3"
+          ],
+          [
+            "ira",
+            "ko",
+            "kakaenen",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://klokah.tw/extension/con_data/sound/3/sentence/3c3s1.mp3",
+      "audio_primary": true,
+      "speaker": "Rengos"
+    },
+    {
+      "id": "002",
+      "amis": "Ira i pinsiang ko lidaw.",
+      "zh": "Ina：冰箱裡有西瓜。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "ira",
+          "text": "Ira",
+          "role": "pronoun",
+          "gloss_zh": "有",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "34其他",
+          "vocab_code": "34"
+        },
+        {
+          "id": "i",
+          "text": "i",
+          "role": "case",
+          "gloss_zh": "在",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred",
+          "text": "pinsiang",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "lidaw",
+          "text": "lidaw",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "ira",
+            "i",
+            "pred",
+            "ko",
+            "lidaw",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 pinsiang 為中心（自動標記）"
+      },
+      "structure": "述語 pinsiang 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/con_data/sound/3/sentence/3c3s2.mp3",
+      "audio_primary": true,
+      "speaker": "Ina"
+    },
+    {
+      "id": "003",
+      "amis": "Naʼay, caayay kafecol komaen to lidaw.",
+      "zh": "Rengos：不要，吃西瓜吃不飽。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Naʼay",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "caayay",
+          "text": "caayay",
+          "role": "adverb",
+          "gloss_zh": "不是",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "35否定詞",
+          "vocab_code": "35"
+        },
+        {
+          "id": "pred2",
+          "text": "kafecol",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "komaen",
+          "text": "komaen",
+          "role": "noun",
+          "gloss_zh": "吃",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "27飲食",
+          "vocab_code": "27"
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "斜格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "lidaw",
+          "text": "lidaw",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "comma"
+          ],
+          [
+            "caayay",
+            "pred2",
+            "komaen",
+            "to",
+            "lidaw",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://klokah.tw/extension/con_data/sound/3/sentence/3c3s3.mp3",
+      "audio_primary": true,
+      "speaker": "Rengos"
+    },
+    {
+      "id": "004",
+      "amis": "O maan to ko kacahiwan iso?",
+      "zh": "Ina：你有這麼餓嗎？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "O",
+          "role": "pred",
+          "gloss_zh": "主題",
+          "gloss_en": ""
+        },
+        {
+          "id": "maan",
+          "text": "maan",
+          "role": "particle",
+          "gloss_zh": "什麼",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "斜格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "kacahiwan",
+          "text": "kacahiwan",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "iso",
+          "text": "iso",
+          "role": "pronoun",
+          "gloss_zh": "你的",
+          "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "maan",
+            "to",
+            "ko",
+            "kacahiwan",
+            "iso",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 O 為中心（自動標記）"
+      },
+      "structure": "述語 O 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/con_data/sound/3/sentence/3c3s4.mp3",
+      "audio_primary": true,
+      "speaker": "Ina"
+    },
+    {
+      "id": "005",
+      "amis": "Tadamaroray kako anini a miongto, o maan ko mitangtangan iso a dateng sao?",
+      "zh": "Rengos：我今天運動實在很累，你煮什麼菜？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Tadamaroray",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kako",
+          "text": "kako",
+          "role": "pronoun",
+          "gloss_zh": "我",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "anini",
+          "text": "anini",
+          "role": "adverb",
+          "gloss_zh": "現在",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "13時間",
+          "vocab_code": "13"
+        },
+        {
+          "id": "a",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "連繫",
+          "gloss_en": ""
+        },
+        {
+          "id": "miongto",
+          "text": "miongto",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "o",
+          "role": "pred2",
+          "gloss_zh": "主題",
+          "gloss_en": ""
+        },
+        {
+          "id": "maan",
+          "text": "maan",
+          "role": "particle",
+          "gloss_zh": "什麼",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "mitangtangan",
+          "text": "mitangtangan",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "iso",
+          "text": "iso",
+          "role": "pronoun",
+          "gloss_zh": "你的",
+          "gloss_en": ""
+        },
+        {
+          "id": "a_3",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "連繫",
+          "gloss_en": ""
+        },
+        {
+          "id": "dateng",
+          "text": "dateng",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "sao",
+          "text": "sao",
+          "role": "noun",
+          "gloss_zh": "嗎；呢",
+          "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "kako",
+            "anini",
+            "a",
+            "miongto",
+            "comma",
+            "pred2",
+            "maan",
+            "ko",
+            "mitangtangan",
+            "iso",
+            "a_3",
+            "dateng",
+            "sao",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "長句：線性排列（自動標記，結構簡化）"
+      },
+      "structure": "長句：線性排列（自動標記，結構簡化）",
+      "audio": "https://klokah.tw/extension/con_data/sound/3/sentence/3c3s5.mp3",
+      "audio_primary": true,
+      "speaker": "Rengos"
+    },
+    {
+      "id": "006",
+      "amis": "Ira ko foting, ʼafar, titi ato tatokem.",
+      "zh": "Ina：有魚、蝦、肉和龍葵。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "ira",
+          "text": "Ira",
+          "role": "pronoun",
+          "gloss_zh": "有",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "34其他",
+          "vocab_code": "34"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "pred",
+          "text": "foting",
+          "role": "pred",
+          "gloss_zh": "魚",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "07動物(含昆蟲)",
+          "vocab_code": "07"
+        },
+        {
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "ʼafar",
+          "role": "pred2",
+          "gloss_zh": "蝦",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "07動物(含昆蟲)",
+          "vocab_code": "07"
+        },
+        {
+          "id": "comma_3",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "titi",
+          "text": "titi",
+          "role": "pred2",
+          "gloss_zh": "肉",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "06身體部位",
+          "vocab_code": "06"
+        },
+        {
+          "id": "ato",
+          "text": "ato",
+          "role": "particle",
+          "gloss_zh": "和",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "tatokem",
+          "text": "tatokem",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "ira",
+            "ko",
+            "pred",
+            "comma"
+          ],
+          [
+            "pred2",
+            "comma_3"
+          ],
+          [
+            "titi",
+            "ato",
+            "tatokem",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://klokah.tw/extension/con_data/sound/3/sentence/3c3s6.mp3",
+      "audio_primary": true,
+      "speaker": "Ina"
+    },
+    {
+      "id": "007",
+      "amis": "Ngalef saan ko cahiw ako a pakasanek to misafelan iso.",
+      "zh": "Rengos：聞到你的料理我更加的餓。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Ngalef",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "saan",
+          "text": "saan",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "cahiw",
+          "text": "cahiw",
+          "role": "noun",
+          "gloss_zh": "餓",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "27飲食",
+          "vocab_code": "27"
+        },
+        {
+          "id": "ako",
+          "text": "ako",
+          "role": "pronoun",
+          "gloss_zh": "我的",
+          "gloss_en": ""
+        },
+        {
+          "id": "a",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "連繫",
+          "gloss_en": ""
+        },
+        {
+          "id": "pakasanek",
+          "text": "pakasanek",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "斜格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "misafelan",
+          "text": "misafelan",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "iso",
+          "text": "iso",
+          "role": "pronoun",
+          "gloss_zh": "你的",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "saan",
+            "ko",
+            "cahiw",
+            "ako",
+            "a",
+            "pakasanek",
+            "to",
+            "misafelan",
+            "iso",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Ngalef 為中心（自動標記）"
+      },
+      "structure": "述語 Ngalef 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/con_data/sound/3/sentence/3c3s7.mp3",
+      "audio_primary": true,
+      "speaker": "Rengos"
+    },
+    {
+      "id": "008",
+      "amis": "Pahanhan han ho i tiraw i ʼanengan a maroʼ.",
+      "zh": "Ina：先在那椅子上坐著休息吧。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Pahanhan",
+          "role": "pred",
+          "gloss_zh": "休息",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "30生活作息",
+          "vocab_code": "30"
+        },
+        {
+          "id": "han",
+          "text": "han",
+          "role": "noun",
+          "gloss_zh": "助詞",
+          "gloss_en": ""
+        },
+        {
+          "id": "ho",
+          "text": "ho",
+          "role": "particle",
+          "gloss_zh": "還",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "i",
+          "text": "i",
+          "role": "case",
+          "gloss_zh": "在",
+          "gloss_en": ""
+        },
+        {
+          "id": "tiraw",
+          "text": "tiraw",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "i_3",
+          "text": "i",
+          "role": "case",
+          "gloss_zh": "在",
+          "gloss_en": ""
+        },
+        {
+          "id": "anengan",
+          "text": "ʼanengan",
+          "role": "noun",
+          "gloss_zh": "椅子",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "09物品(不含食品)",
+          "vocab_code": "09"
+        },
+        {
+          "id": "a",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "連繫",
+          "gloss_en": ""
+        },
+        {
+          "id": "maro",
+          "text": "maroʼ",
+          "role": "noun",
+          "gloss_zh": "坐著",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "25行動",
+          "vocab_code": "25"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "han",
+            "ho",
+            "i",
+            "tiraw",
+            "i_3",
+            "anengan",
+            "a",
+            "maro",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Pahanhan 為中心（自動標記）"
+      },
+      "structure": "述語 Pahanhan 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/con_data/sound/3/sentence/3c3s8.mp3",
+      "audio_primary": true,
+      "speaker": "Ina"
+    },
+    {
+      "id": "009",
+      "amis": "Te:di saan ko cidal anini, losoʼ sa ko ciferang ako.",
+      "zh": "Rengos：今天的太陽很炎熱，我一直在流汗。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Te:di",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "saan",
+          "text": "saan",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "cidal",
+          "text": "cidal",
+          "role": "noun",
+          "gloss_zh": "太陽",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "11自然景觀",
+          "vocab_code": "11"
+        },
+        {
+          "id": "anini",
+          "text": "anini",
+          "role": "adverb",
+          "gloss_zh": "現在",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "13時間",
+          "vocab_code": "13"
+        },
+        {
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "losoʼ",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "sa",
+          "text": "sa",
+          "role": "noun",
+          "gloss_zh": "助詞",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko_3",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "ciferang",
+          "text": "ciferang",
+          "role": "noun",
+          "gloss_zh": "汗水",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "06身體部位",
+          "vocab_code": "06"
+        },
+        {
+          "id": "ako",
+          "text": "ako",
+          "role": "pronoun",
+          "gloss_zh": "我的",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "saan",
+            "ko",
+            "cidal",
+            "anini",
+            "comma"
+          ],
+          [
+            "pred2",
+            "sa",
+            "ko_3",
+            "ciferang",
+            "ako",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://klokah.tw/extension/con_data/sound/3/sentence/3c3s9.mp3",
+      "audio_primary": true,
+      "speaker": "Rengos"
+    },
+    {
+      "id": "010",
+      "amis": "Sisiten to sasifin ko ciferang, malalisanaw.",
+      "zh": "Ina：用毛巾把汗水擦乾，以免感冒。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Sisiten",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "斜格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "sasifin",
+          "text": "sasifin",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "ciferang",
+          "text": "ciferang",
+          "role": "noun",
+          "gloss_zh": "汗水",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "06身體部位",
+          "vocab_code": "06"
+        },
+        {
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "malalisanaw",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "to",
+            "sasifin",
+            "ko",
+            "ciferang",
+            "comma"
+          ],
+          [
+            "pred2",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://klokah.tw/extension/con_data/sound/3/sentence/3c3s10.mp3",
+      "audio_primary": true,
+      "speaker": "Ina"
+    }
+  ]
+}

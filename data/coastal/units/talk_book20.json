@@ -1,0 +1,1182 @@
+{
+  "id": "talk_book20",
+  "module": "talk",
+  "title": "豐年祭",
+  "title_ab": "Miilisin",
+  "source_url": "https://klokah.iformosa.com.tw/talk/learn/20",
+  "dialect": "海岸阿美語",
+  "sentences": [
+    {
+      "id": "001",
+      "amis": "Minokay i kailisinan no niyaroʼ kiso?",
+      "zh": "Kidaw：部落的豐年祭時你會回去嗎？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Minokay",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "i",
+          "text": "i",
+          "role": "case",
+          "gloss_zh": "在",
+          "gloss_en": ""
+        },
+        {
+          "id": "kailisinan",
+          "text": "kailisinan",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "no",
+          "text": "no",
+          "role": "case",
+          "gloss_zh": "屬格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "niyaro",
+          "text": "niyaroʼ",
+          "role": "noun",
+          "gloss_zh": "部落",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "24抽象名詞",
+          "vocab_code": "24"
+        },
+        {
+          "id": "kiso",
+          "text": "kiso",
+          "role": "pronoun",
+          "gloss_zh": "你",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "i",
+            "kailisinan",
+            "kiso",
+            "q"
+          ]
+        ],
+        "hangs": {
+          "kailisinan": [
+            "no",
+            "niyaro"
+          ]
+        },
+        "plus_between_groups": false,
+        "structure": "述語為中心；屬格 no/nu 掛於名詞下（自動）"
+      },
+      "structure": "述語為中心；屬格 no/nu 掛於名詞下（自動）",
+      "audio": "https://klokah.tw/extension/con_data/sound/3/sentence/3c20s1.mp3",
+      "audio_primary": true,
+      "speaker": "Kidaw"
+    },
+    {
+      "id": "002",
+      "amis": "Hai; hakelongen niyam ko wawa a minokay.",
+      "zh": "Nakaw：是的；我們會帶著孩子回去。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "hai",
+          "text": "Hai",
+          "role": "particle",
+          "gloss_zh": "是嗎",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "semi",
+          "text": ";",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred",
+          "text": "hakelongen",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "niyam",
+          "text": "niyam",
+          "role": "pronoun",
+          "gloss_zh": "我們的",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "wawa",
+          "text": "wawa",
+          "role": "noun",
+          "gloss_zh": "小孩",
+          "gloss_en": ""
+        },
+        {
+          "id": "a",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "連繫",
+          "gloss_en": ""
+        },
+        {
+          "id": "minokay",
+          "text": "minokay",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "hai",
+            "semi",
+            "pred",
+            "niyam",
+            "ko",
+            "wawa",
+            "a",
+            "minokay",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 hakelongen 為中心（自動標記）"
+      },
+      "structure": "述語 hakelongen 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/con_data/sound/3/sentence/3c20s2.mp3",
+      "audio_primary": true,
+      "speaker": "Nakaw"
+    },
+    {
+      "id": "003",
+      "amis": "Sakapina a folad ko ilisin namo?",
+      "zh": "Kidaw：你們豐年祭是幾月呢？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Sakapina",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "a",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "連繫",
+          "gloss_en": ""
+        },
+        {
+          "id": "folad",
+          "text": "folad",
+          "role": "noun",
+          "gloss_zh": "月亮",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "11自然景觀",
+          "vocab_code": "11"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "ilisin",
+          "text": "ilisin",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "namo",
+          "text": "namo",
+          "role": "pronoun",
+          "gloss_zh": "你們的",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "a",
+            "folad",
+            "ko",
+            "ilisin",
+            "namo",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Sakapina 為中心（自動標記）"
+      },
+      "structure": "述語 Sakapina 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/con_data/sound/3/sentence/3c20s3.mp3",
+      "audio_primary": true,
+      "speaker": "Kidaw"
+    },
+    {
+      "id": "004",
+      "amis": "Sakapito a folad, lima a romiʼad ko likoda.",
+      "zh": "Nakaw：七月份，有五天的盛會。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Sakapito",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "a",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "連繫",
+          "gloss_en": ""
+        },
+        {
+          "id": "folad",
+          "text": "folad",
+          "role": "noun",
+          "gloss_zh": "月亮",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "11自然景觀",
+          "vocab_code": "11"
+        },
+        {
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "lima",
+          "role": "pred2",
+          "gloss_zh": "五",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "01數字計量",
+          "vocab_code": "01"
+        },
+        {
+          "id": "a_3",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "連繫",
+          "gloss_en": ""
+        },
+        {
+          "id": "romiad",
+          "text": "romiʼad",
+          "role": "noun",
+          "gloss_zh": "白天",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "13時間",
+          "vocab_code": "13"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "likoda",
+          "text": "likoda",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "a",
+            "folad",
+            "comma"
+          ],
+          [
+            "pred2",
+            "a_3",
+            "romiad",
+            "ko",
+            "likoda",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://klokah.tw/extension/con_data/sound/3/sentence/3c20s4.mp3",
+      "audio_primary": true,
+      "speaker": "Nakaw"
+    },
+    {
+      "id": "005",
+      "amis": "O maan ko tadamaanay a lawla i kailisinan?",
+      "zh": "Kidaw：豐年祭時有什麼特別的活動？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "O",
+          "role": "pred",
+          "gloss_zh": "主題",
+          "gloss_en": ""
+        },
+        {
+          "id": "maan",
+          "text": "maan",
+          "role": "particle",
+          "gloss_zh": "什麼",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "tadamaanay",
+          "text": "tadamaanay",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "a",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "連繫",
+          "gloss_en": ""
+        },
+        {
+          "id": "lawla",
+          "text": "lawla",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "i",
+          "text": "i",
+          "role": "case",
+          "gloss_zh": "在",
+          "gloss_en": ""
+        },
+        {
+          "id": "kailisinan",
+          "text": "kailisinan",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "maan",
+            "ko",
+            "tadamaanay",
+            "a",
+            "lawla",
+            "i",
+            "kailisinan",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 O 為中心（自動標記）"
+      },
+      "structure": "述語 O 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/con_data/sound/3/sentence/3c20s5.mp3",
+      "audio_primary": true,
+      "speaker": "Kidaw"
+    },
+    {
+      "id": "006",
+      "amis": "Maemin ci losid ko polong finaolan no niyaroʼ. Ira ko hahay, malalifet ko kapah micelem, miʼadop ato pacakat to selal.",
+      "zh": "Nakaw：部落的族人全部著傳統服飾。有豐年歌舞、年輕人潛水抓魚及狩獵競技和年齡階層進階。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Maemin",
+          "role": "pred",
+          "gloss_zh": "全部",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "01數字計量",
+          "vocab_code": "01"
+        },
+        {
+          "id": "ci",
+          "text": "ci",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "losid",
+          "text": "losid",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "polong",
+          "text": "polong",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "finaolan",
+          "text": "finaolan",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "no",
+          "text": "no",
+          "role": "case",
+          "gloss_zh": "屬格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "niyaro",
+          "text": "niyaroʼ",
+          "role": "noun",
+          "gloss_zh": "部落",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "24抽象名詞",
+          "vocab_code": "24"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ira",
+          "text": "Ira",
+          "role": "pronoun",
+          "gloss_zh": "有",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "34其他",
+          "vocab_code": "34"
+        },
+        {
+          "id": "ko_3",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "hahay",
+          "text": "hahay",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "malalifet",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko_4",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "kapah",
+          "text": "kapah",
+          "role": "noun",
+          "gloss_zh": "青年",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
+        },
+        {
+          "id": "micelem",
+          "text": "micelem",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "comma_3",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "miadop",
+          "text": "miʼadop",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ato",
+          "text": "ato",
+          "role": "particle",
+          "gloss_zh": "和",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "pacakat",
+          "text": "pacakat",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "斜格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "selal",
+          "text": "selal",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "period_3",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ci",
+            "losid",
+            "ko",
+            "polong",
+            "finaolan",
+            "no",
+            "niyaro",
+            "period",
+            "ira",
+            "ko_3",
+            "hahay",
+            "comma",
+            "pred2",
+            "ko_4",
+            "kapah",
+            "micelem",
+            "comma_3",
+            "miadop",
+            "ato",
+            "pacakat",
+            "to",
+            "selal",
+            "period_3"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "長句：線性排列（自動標記，結構簡化）"
+      },
+      "structure": "長句：線性排列（自動標記，結構簡化）",
+      "audio": "https://klokah.tw/extension/con_data/sound/3/sentence/3c20s6.mp3",
+      "audio_primary": true,
+      "speaker": "Nakaw"
+    },
+    {
+      "id": "007",
+      "amis": "Tengil han fangcal ko likoda no niyaroʼ namo.",
+      "zh": "Kidaw：聽起來你們部落豐年祭很有趣。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Tengil",
+          "role": "pred",
+          "gloss_zh": "聽",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "28認知感官",
+          "vocab_code": "28"
+        },
+        {
+          "id": "han",
+          "text": "han",
+          "role": "noun",
+          "gloss_zh": "助詞",
+          "gloss_en": ""
+        },
+        {
+          "id": "fangcal",
+          "text": "fangcal",
+          "role": "noun",
+          "gloss_zh": "漂亮",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "32特徵",
+          "vocab_code": "32"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "likoda",
+          "text": "likoda",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "no",
+          "text": "no",
+          "role": "case",
+          "gloss_zh": "屬格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "niyaro",
+          "text": "niyaroʼ",
+          "role": "noun",
+          "gloss_zh": "部落",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "24抽象名詞",
+          "vocab_code": "24"
+        },
+        {
+          "id": "namo",
+          "text": "namo",
+          "role": "pronoun",
+          "gloss_zh": "你們的",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "han",
+            "fangcal",
+            "ko",
+            "likoda",
+            "namo",
+            "period"
+          ]
+        ],
+        "hangs": {
+          "likoda": [
+            "no",
+            "niyaro"
+          ]
+        },
+        "plus_between_groups": false,
+        "structure": "述語為中心；屬格 no/nu 掛於名詞下（自動）"
+      },
+      "structure": "述語為中心；屬格 no/nu 掛於名詞下（自動）",
+      "audio": "https://klokah.tw/extension/con_data/sound/3/sentence/3c20s7.mp3",
+      "audio_primary": true,
+      "speaker": "Kidaw"
+    },
+    {
+      "id": "008",
+      "amis": "Saka, ano ira ko limaw namo, katayra to mikiʼaraw.",
+      "zh": "Nakaw：所以，你們有時間，可以去參觀。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Saka",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ano",
+          "text": "ano",
+          "role": "particle",
+          "gloss_zh": "如果",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "ira",
+          "text": "ira",
+          "role": "pronoun",
+          "gloss_zh": "有",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "34其他",
+          "vocab_code": "34"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "pred2",
+          "text": "limaw",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "namo",
+          "text": "namo",
+          "role": "pronoun",
+          "gloss_zh": "你們的",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "comma_3",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "katayra",
+          "text": "katayra",
+          "role": "pred2",
+          "gloss_zh": "去",
+          "gloss_en": ""
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "斜格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "mikiaraw",
+          "text": "mikiʼaraw",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "comma"
+          ],
+          [
+            "ano",
+            "ira",
+            "ko",
+            "pred2",
+            "namo",
+            "comma_3"
+          ],
+          [
+            "katayra",
+            "to",
+            "mikiaraw",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://klokah.tw/extension/con_data/sound/3/sentence/3c20s8.mp3",
+      "audio_primary": true,
+      "speaker": "Nakaw"
+    },
+    {
+      "id": "009",
+      "amis": "Ngaʼay to! tala hanto niyam ko ilisin namo.",
+      "zh": "Kidaw：當然！我們期待你們的豐年祭。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Ngaʼay",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "斜格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "excl",
+          "text": "!",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "tala",
+          "text": "tala",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "hanto",
+          "text": "hanto",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "niyam",
+          "text": "niyam",
+          "role": "pronoun",
+          "gloss_zh": "我們的",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "ilisin",
+          "text": "ilisin",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "namo",
+          "text": "namo",
+          "role": "pronoun",
+          "gloss_zh": "你們的",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "to",
+            "excl",
+            "tala",
+            "hanto",
+            "niyam",
+            "ko",
+            "ilisin",
+            "namo",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Ngaʼay 為中心（自動標記）"
+      },
+      "structure": "述語 Ngaʼay 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/con_data/sound/3/sentence/3c20s9.mp3",
+      "audio_primary": true,
+      "speaker": "Kidaw"
+    },
+    {
+      "id": "010",
+      "amis": "Hakelongen ko salikaka namo yo!",
+      "zh": "Nakaw：帶著你們的親友呦！",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Hakelongen",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "salikaka",
+          "text": "salikaka",
+          "role": "noun",
+          "gloss_zh": "兄弟姊妹",
+          "gloss_en": ""
+        },
+        {
+          "id": "namo",
+          "text": "namo",
+          "role": "pronoun",
+          "gloss_zh": "你們的",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "yo",
+          "text": "yo",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "excl",
+          "text": "!",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "salikaka",
+            "namo",
+            "yo",
+            "excl"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Hakelongen 為中心（自動標記）"
+      },
+      "structure": "述語 Hakelongen 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/con_data/sound/3/sentence/3c20s10.mp3",
+      "audio_primary": true,
+      "speaker": "Nakaw"
+    }
+  ]
+}

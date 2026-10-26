@@ -1,0 +1,957 @@
+{
+  "id": "talk_book15",
+  "module": "talk",
+  "title": "生病",
+  "title_ab": "Adada",
+  "source_url": "https://klokah.iformosa.com.tw/talk/learn/15",
+  "dialect": "海岸阿美語",
+  "sentences": [
+    {
+      "id": "001",
+      "amis": "Aya! o maan ko adada no fafahi iso?",
+      "zh": "Ngohod：哎呀！你的妻子是什麼病呢？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Aya",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "excl",
+          "text": "!",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "o",
+          "text": "o",
+          "role": "noun",
+          "gloss_zh": "主題",
+          "gloss_en": ""
+        },
+        {
+          "id": "maan",
+          "text": "maan",
+          "role": "particle",
+          "gloss_zh": "什麼",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "adada",
+          "text": "adada",
+          "role": "noun",
+          "gloss_zh": "痛",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "31生老病死傷",
+          "vocab_code": "31"
+        },
+        {
+          "id": "no",
+          "text": "no",
+          "role": "case",
+          "gloss_zh": "屬格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "fafahi",
+          "text": "fafahi",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "iso",
+          "text": "iso",
+          "role": "pronoun",
+          "gloss_zh": "你的",
+          "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "excl",
+            "o",
+            "maan",
+            "ko",
+            "adada",
+            "iso",
+            "q"
+          ]
+        ],
+        "hangs": {
+          "adada": [
+            "no",
+            "fafahi"
+          ]
+        },
+        "plus_between_groups": false,
+        "structure": "述語為中心；屬格 no/nu 掛於名詞下（自動）"
+      },
+      "structure": "述語為中心；屬格 no/nu 掛於名詞下（自動）",
+      "audio": "https://klokah.tw/extension/con_data/sound/3/sentence/3c15s1.mp3",
+      "audio_primary": true,
+      "speaker": "Ngohod"
+    },
+    {
+      "id": "002",
+      "amis": "Halafin to ko adada no fongoh nira.",
+      "zh": "Alaw：他頭痛很久了。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Halafin",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "斜格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "adada",
+          "text": "adada",
+          "role": "noun",
+          "gloss_zh": "痛",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "31生老病死傷",
+          "vocab_code": "31"
+        },
+        {
+          "id": "no",
+          "text": "no",
+          "role": "case",
+          "gloss_zh": "屬格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "fongoh",
+          "text": "fongoh",
+          "role": "noun",
+          "gloss_zh": "頭",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "06身體部位",
+          "vocab_code": "06"
+        },
+        {
+          "id": "nira",
+          "text": "nira",
+          "role": "pronoun",
+          "gloss_zh": "他",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "to",
+            "ko",
+            "adada",
+            "nira",
+            "period"
+          ]
+        ],
+        "hangs": {
+          "adada": [
+            "no",
+            "fongoh"
+          ]
+        },
+        "plus_between_groups": false,
+        "structure": "述語為中心；屬格 no/nu 掛於名詞下（自動）"
+      },
+      "structure": "述語為中心；屬格 no/nu 掛於名詞下（自動）",
+      "audio": "https://klokah.tw/extension/con_data/sound/3/sentence/3c15s2.mp3",
+      "audio_primary": true,
+      "speaker": "Alaw"
+    },
+    {
+      "id": "003",
+      "amis": "Na masongilaʼ to makinsa panengneng to ising?",
+      "zh": "Ngohod：有讓醫生做徹底檢查嗎？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Na",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "masongila",
+          "text": "masongilaʼ",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "斜格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "makinsa",
+          "text": "makinsa",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "panengneng",
+          "text": "panengneng",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "to_3",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "斜格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "ising",
+          "text": "ising",
+          "role": "noun",
+          "gloss_zh": "醫生",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "masongila",
+            "to",
+            "makinsa",
+            "panengneng",
+            "to_3",
+            "ising",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Na 為中心（自動標記）"
+      },
+      "structure": "述語 Na 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/con_data/sound/3/sentence/3c15s3.mp3",
+      "audio_primary": true,
+      "speaker": "Ngohod"
+    },
+    {
+      "id": "004",
+      "amis": "O tatayra to a miniwing misaheci pakinsa.",
+      "zh": "Alaw：正要去住院做逐項的檢查。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "O",
+          "role": "pred",
+          "gloss_zh": "主題",
+          "gloss_en": ""
+        },
+        {
+          "id": "tatayra",
+          "text": "tatayra",
+          "role": "noun",
+          "gloss_zh": "要去",
+          "gloss_en": ""
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "斜格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "a",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "連繫",
+          "gloss_en": ""
+        },
+        {
+          "id": "miniwing",
+          "text": "miniwing",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "misaheci",
+          "text": "misaheci",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pakinsa",
+          "text": "pakinsa",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "tatayra",
+            "to",
+            "a",
+            "miniwing",
+            "misaheci",
+            "pakinsa",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 O 為中心（自動標記）"
+      },
+      "structure": "述語 O 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/con_data/sound/3/sentence/3c15s4.mp3",
+      "audio_primary": true,
+      "speaker": "Alaw"
+    },
+    {
+      "id": "005",
+      "amis": "Pisanaʼonnaʼon to, mangalefaw.",
+      "zh": "Ngohod：請多保重，以免加重。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Pisanaʼonnaʼon",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "斜格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "mangalefaw",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "to",
+            "comma"
+          ],
+          [
+            "pred2",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://klokah.tw/extension/con_data/sound/3/sentence/3c15s5.mp3",
+      "audio_primary": true,
+      "speaker": "Ngohod"
+    },
+    {
+      "id": "006",
+      "amis": "Na adada cingra caay to kadepoc ko pidipot to wawa.",
+      "zh": "Alaw：從她生病以來，都無法專心照顧小孩。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Na",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "adada",
+          "text": "adada",
+          "role": "noun",
+          "gloss_zh": "痛",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "31生老病死傷",
+          "vocab_code": "31"
+        },
+        {
+          "id": "cingra",
+          "text": "cingra",
+          "role": "pronoun",
+          "gloss_zh": "他",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "caay",
+          "text": "caay",
+          "role": "adverb",
+          "gloss_zh": "不是[回答用]",
+          "gloss_en": ""
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "斜格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "kadepoc",
+          "text": "kadepoc",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "pidipot",
+          "text": "pidipot",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "to_3",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "斜格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "wawa",
+          "text": "wawa",
+          "role": "noun",
+          "gloss_zh": "小孩",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "adada",
+            "cingra",
+            "caay",
+            "to",
+            "kadepoc",
+            "ko",
+            "pidipot",
+            "to_3",
+            "wawa",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Na 為中心（自動標記）"
+      },
+      "structure": "述語 Na 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/con_data/sound/3/sentence/3c15s6.mp3",
+      "audio_primary": true,
+      "speaker": "Alaw"
+    },
+    {
+      "id": "007",
+      "amis": "I cowaay ko paisingan namo?",
+      "zh": "Ngohod：你們在哪裡就醫呢？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "i",
+          "text": "I",
+          "role": "case",
+          "gloss_zh": "在",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred",
+          "text": "cowaay",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "paisingan",
+          "text": "paisingan",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "namo",
+          "text": "namo",
+          "role": "pronoun",
+          "gloss_zh": "你們的",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "i",
+            "pred",
+            "ko",
+            "paisingan",
+            "namo",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 cowaay 為中心（自動標記）"
+      },
+      "structure": "述語 cowaay 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/con_data/sound/3/sentence/3c15s7.mp3",
+      "audio_primary": true,
+      "speaker": "Ngohod"
+    },
+    {
+      "id": "008",
+      "amis": "Tayra kami i Cangken paisingan.",
+      "zh": "Alaw：我們要去長庚醫院。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Tayra",
+          "role": "pred",
+          "gloss_zh": "去",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "25行動",
+          "vocab_code": "25"
+        },
+        {
+          "id": "kami",
+          "text": "kami",
+          "role": "pronoun",
+          "gloss_zh": "我們",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "i",
+          "text": "i",
+          "role": "case",
+          "gloss_zh": "在",
+          "gloss_en": ""
+        },
+        {
+          "id": "cangken",
+          "text": "Cangken",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "paisingan",
+          "text": "paisingan",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "kami",
+            "i",
+            "cangken",
+            "paisingan",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Tayra 為中心（自動標記）"
+      },
+      "structure": "述語 Tayra 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/con_data/sound/3/sentence/3c15s8.mp3",
+      "audio_primary": true,
+      "speaker": "Alaw"
+    },
+    {
+      "id": "009",
+      "amis": "Aka to karawraw ko falocoʼ, pisanaʼonaʼon to tireng.",
+      "zh": "Ngohod：你不要太操心，多注意身體。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "aka",
+          "text": "Aka",
+          "role": "adverb",
+          "gloss_zh": "不要",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "35否定詞",
+          "vocab_code": "35"
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "斜格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "pred",
+          "text": "karawraw",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "faloco",
+          "text": "falocoʼ",
+          "role": "noun",
+          "gloss_zh": "心臟",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "06身體部位",
+          "vocab_code": "06"
+        },
+        {
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "pisanaʼonaʼon",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "to_3",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "斜格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "tireng",
+          "text": "tireng",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "aka",
+            "to",
+            "pred",
+            "ko",
+            "faloco",
+            "comma"
+          ],
+          [
+            "pred2",
+            "to_3",
+            "tireng",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://klokah.tw/extension/con_data/sound/3/sentence/3c15s9.mp3",
+      "audio_primary": true,
+      "speaker": "Ngohod"
+    },
+    {
+      "id": "010",
+      "amis": "Hai, piʼimer to ko ngaʼayay.",
+      "zh": "Alaw：是的，保健最為首要。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "hai",
+          "text": "Hai",
+          "role": "particle",
+          "gloss_zh": "是嗎",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "piʼimer",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "斜格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "ngaayay",
+          "text": "ngaʼayay",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "hai",
+            "comma"
+          ],
+          [
+            "pred2",
+            "to",
+            "ko",
+            "ngaayay",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://klokah.tw/extension/con_data/sound/3/sentence/3c15s10.mp3",
+      "audio_primary": true,
+      "speaker": "Alaw"
+    }
+  ]
+}

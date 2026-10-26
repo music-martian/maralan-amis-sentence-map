@@ -1,0 +1,702 @@
+{
+  "id": "essay_s2_l2",
+  "module": "essay",
+  "title": "短文 s2/l2 · 姓名與問候",
+  "theme": "姓名與問候",
+  "source_url": "https://klokah.iformosa.com.tw/essay/d3/s2/l2/learn",
+  "dialect": "海岸阿美語",
+  "sentences": [
+    {
+      "id": "001",
+      "amis": "Sangaʼayay a widang ako ci Kacaw, o wawa no Pangcah cingra.",
+      "zh": "我的好朋友叫Kacaw，他也是阿美族的小孩。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Sangaʼayay",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "a",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "連繫",
+          "gloss_en": ""
+        },
+        {
+          "id": "widang",
+          "text": "widang",
+          "role": "noun",
+          "gloss_zh": "朋友",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
+        },
+        {
+          "id": "ako",
+          "text": "ako",
+          "role": "pronoun",
+          "gloss_zh": "我的",
+          "gloss_en": ""
+        },
+        {
+          "id": "ci",
+          "text": "ci",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kacaw",
+          "text": "Kacaw",
+          "role": "noun",
+          "gloss_zh": "男子名",
+          "gloss_en": ""
+        },
+        {
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "o",
+          "role": "pred2",
+          "gloss_zh": "主題",
+          "gloss_en": ""
+        },
+        {
+          "id": "wawa",
+          "text": "wawa",
+          "role": "noun",
+          "gloss_zh": "小孩",
+          "gloss_en": ""
+        },
+        {
+          "id": "no",
+          "text": "no",
+          "role": "case",
+          "gloss_zh": "屬格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "pangcah",
+          "text": "Pangcah",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "cingra",
+          "text": "cingra",
+          "role": "pronoun",
+          "gloss_zh": "他",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "a",
+            "widang",
+            "ako",
+            "ci",
+            "kacaw",
+            "comma"
+          ],
+          [
+            "pred2",
+            "wawa",
+            "cingra",
+            "period"
+          ]
+        ],
+        "hangs": {
+          "wawa": [
+            "no",
+            "pangcah"
+          ]
+        },
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://web.klokah.tw/text/sound/63834/897159.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "002",
+      "amis": "Malacafay kami a mitilid i Tafalong a niyaroʼ.",
+      "zh": "我們一起在太巴塱部落讀書。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Malacafay",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kami",
+          "text": "kami",
+          "role": "pronoun",
+          "gloss_zh": "我們",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "a",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "連繫",
+          "gloss_en": ""
+        },
+        {
+          "id": "mitilid",
+          "text": "mitilid",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "i",
+          "text": "i",
+          "role": "case",
+          "gloss_zh": "在",
+          "gloss_en": ""
+        },
+        {
+          "id": "tafalong",
+          "text": "Tafalong",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "a_3",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "連繫",
+          "gloss_en": ""
+        },
+        {
+          "id": "niyaro",
+          "text": "niyaroʼ",
+          "role": "noun",
+          "gloss_zh": "部落",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "24抽象名詞",
+          "vocab_code": "24"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "kami",
+            "a",
+            "mitilid",
+            "i",
+            "tafalong",
+            "a_3",
+            "niyaro",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Malacafay 為中心（自動標記）"
+      },
+      "structure": "述語 Malacafay 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/63834/897160.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "003",
+      "amis": "Pararid kami a malacecay mitengil to ko pikimad no matoʼasay, tadamafanaʼ to kami a caciyaw to sowal no Pangcah.",
+      "zh": "我們常常一起聽耆老說故事，我們都很會說阿美語。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pararid",
+          "text": "Pararid",
+          "role": "particle",
+          "gloss_zh": "經常",
+          "gloss_en": "",
+          "level": "中高級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "kami",
+          "text": "kami",
+          "role": "pronoun",
+          "gloss_zh": "我們",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "pred",
+          "text": "a",
+          "role": "pred",
+          "gloss_zh": "連繫",
+          "gloss_en": ""
+        },
+        {
+          "id": "malacecay",
+          "text": "malacecay",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "mitengil",
+          "text": "mitengil",
+          "role": "noun",
+          "gloss_zh": "聽",
+          "gloss_en": ""
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "斜格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "pikimad",
+          "text": "pikimad",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "no",
+          "text": "no",
+          "role": "case",
+          "gloss_zh": "屬格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "matoasay",
+          "text": "matoʼasay",
+          "role": "noun",
+          "gloss_zh": "老人家",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
+        },
+        {
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "tadamafanaʼ",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "to_3",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "斜格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "kami_3",
+          "text": "kami",
+          "role": "pronoun",
+          "gloss_zh": "我們",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "a",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "連繫",
+          "gloss_en": ""
+        },
+        {
+          "id": "caciyaw",
+          "text": "caciyaw",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "to_4",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "斜格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "sowal",
+          "text": "sowal",
+          "role": "noun",
+          "gloss_zh": "語言",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "24抽象名詞",
+          "vocab_code": "24"
+        },
+        {
+          "id": "no_3",
+          "text": "no",
+          "role": "case",
+          "gloss_zh": "屬格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "pangcah",
+          "text": "Pangcah",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pararid",
+            "kami",
+            "pred",
+            "malacecay",
+            "mitengil",
+            "to",
+            "ko",
+            "pikimad",
+            "no",
+            "matoasay",
+            "comma",
+            "pred2",
+            "to_3",
+            "kami_3",
+            "a",
+            "caciyaw",
+            "to_4",
+            "sowal",
+            "no_3",
+            "pangcah",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "長句：線性排列（自動標記，結構簡化）"
+      },
+      "structure": "長句：線性排列（自動標記，結構簡化）",
+      "audio": "https://web.klokah.tw/text/sound/63834/897161.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "004",
+      "amis": "Takaraw a masoeso kako, poener a makoli ci Kacaw.",
+      "zh": "我很高也很胖，Kacaw很矮也很瘦。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Takaraw",
+          "role": "pred",
+          "gloss_zh": "高",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "32特徵",
+          "vocab_code": "32"
+        },
+        {
+          "id": "a",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "連繫",
+          "gloss_en": ""
+        },
+        {
+          "id": "masoeso",
+          "text": "masoeso",
+          "role": "noun",
+          "gloss_zh": "胖",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "32特徵",
+          "vocab_code": "32"
+        },
+        {
+          "id": "kako",
+          "text": "kako",
+          "role": "pronoun",
+          "gloss_zh": "我",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "poener",
+          "role": "pred2",
+          "gloss_zh": "矮",
+          "gloss_en": ""
+        },
+        {
+          "id": "a_3",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "連繫",
+          "gloss_en": ""
+        },
+        {
+          "id": "makoli",
+          "text": "makoli",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ci",
+          "text": "ci",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kacaw",
+          "text": "Kacaw",
+          "role": "noun",
+          "gloss_zh": "男子名",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "a",
+            "masoeso",
+            "kako",
+            "comma"
+          ],
+          [
+            "pred2",
+            "a_3",
+            "makoli",
+            "ci",
+            "kacaw",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://web.klokah.tw/text/sound/63834/897162.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "005",
+      "amis": "Tada tariktikay ci Kacaw, maolah kami cingraan a mapolong.",
+      "zh": "Kacaw很有活力，大家都很喜歡他。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Tada",
+          "role": "pred",
+          "gloss_zh": "真的；非常",
+          "gloss_en": ""
+        },
+        {
+          "id": "tariktikay",
+          "text": "tariktikay",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ci",
+          "text": "ci",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kacaw",
+          "text": "Kacaw",
+          "role": "noun",
+          "gloss_zh": "男子名",
+          "gloss_en": ""
+        },
+        {
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "maolah",
+          "role": "pred2",
+          "gloss_zh": "喜愛",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "29情緒思維",
+          "vocab_code": "29"
+        },
+        {
+          "id": "kami",
+          "text": "kami",
+          "role": "pronoun",
+          "gloss_zh": "我們",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "cingraan",
+          "text": "cingraan",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "a",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "連繫",
+          "gloss_en": ""
+        },
+        {
+          "id": "mapolong",
+          "text": "mapolong",
+          "role": "pronoun",
+          "gloss_zh": "全部；大家",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "tariktikay",
+            "ci",
+            "kacaw",
+            "comma"
+          ],
+          [
+            "pred2",
+            "kami",
+            "cingraan",
+            "a",
+            "mapolong",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://web.klokah.tw/text/sound/63834/897163.mp3",
+      "audio_primary": true
+    }
+  ]
+}

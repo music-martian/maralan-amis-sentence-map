@@ -1,0 +1,730 @@
+{
+  "id": "essay_s1_l2",
+  "module": "essay",
+  "title": "短文 s1/l2 · 姓名與問候",
+  "theme": "姓名與問候",
+  "source_url": "https://klokah.iformosa.com.tw/essay/d3/s1/l2/learn",
+  "dialect": "海岸阿美語",
+  "sentences": [
+    {
+      "id": "001",
+      "amis": "Maapac kako to dafak a talapitilidan.",
+      "zh": "我早上上學遲到了。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Maapac",
+          "role": "pred",
+          "gloss_zh": "遲到",
+          "gloss_en": ""
+        },
+        {
+          "id": "kako",
+          "text": "kako",
+          "role": "pronoun",
+          "gloss_zh": "我",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "斜格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "dafak",
+          "text": "dafak",
+          "role": "noun",
+          "gloss_zh": "早上",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "13時間",
+          "vocab_code": "13"
+        },
+        {
+          "id": "a",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "連繫",
+          "gloss_en": ""
+        },
+        {
+          "id": "talapitilidan",
+          "text": "talapitilidan",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "kako",
+            "to",
+            "dafak",
+            "a",
+            "talapitilidan",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Maapac 為中心（自動標記）"
+      },
+      "structure": "述語 Maapac 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/63830/897110.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "002",
+      "amis": "Matawal ako mihawikid to, kafang a talapitilidan.",
+      "zh": "去學校的時候，我忘了帶書包。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Matawal",
+          "role": "pred",
+          "gloss_zh": "忘記",
+          "gloss_en": ""
+        },
+        {
+          "id": "ako",
+          "text": "ako",
+          "role": "pronoun",
+          "gloss_zh": "我的",
+          "gloss_en": ""
+        },
+        {
+          "id": "mihawikid",
+          "text": "mihawikid",
+          "role": "noun",
+          "gloss_zh": "攜帶",
+          "gloss_en": ""
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "斜格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "kafang",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "a",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "連繫",
+          "gloss_en": ""
+        },
+        {
+          "id": "talapitilidan",
+          "text": "talapitilidan",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ako",
+            "mihawikid",
+            "to",
+            "comma"
+          ],
+          [
+            "pred2",
+            "a",
+            "talapitilidan",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://web.klokah.tw/text/sound/63830/897111.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "003",
+      "amis": "Awaawaay ko mihawikidan ako.",
+      "zh": "我什麼東西都沒有帶。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Awaawaay",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "mihawikidan",
+          "text": "mihawikidan",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ako",
+          "text": "ako",
+          "role": "pronoun",
+          "gloss_zh": "我的",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "mihawikidan",
+            "ako",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Awaawaay 為中心（自動標記）"
+      },
+      "structure": "述語 Awaawaay 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/63830/897112.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "004",
+      "amis": "Misatapang to a minanam, malacafay a minengneng to codad kako ato kapot ako.",
+      "zh": "上課的時候，我和同學一起看課本。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Misatapang",
+          "role": "pred",
+          "gloss_zh": "開始",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "34其他",
+          "vocab_code": "34"
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "斜格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "a",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "連繫",
+          "gloss_en": ""
+        },
+        {
+          "id": "minanam",
+          "text": "minanam",
+          "role": "noun",
+          "gloss_zh": "學習",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "30生活作息",
+          "vocab_code": "30"
+        },
+        {
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "malacafay",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "a_3",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "連繫",
+          "gloss_en": ""
+        },
+        {
+          "id": "minengneng",
+          "text": "minengneng",
+          "role": "noun",
+          "gloss_zh": "看",
+          "gloss_en": ""
+        },
+        {
+          "id": "to_3",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "斜格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "codad",
+          "text": "codad",
+          "role": "noun",
+          "gloss_zh": "書",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "09物品(不含食品)",
+          "vocab_code": "09"
+        },
+        {
+          "id": "kako",
+          "text": "kako",
+          "role": "pronoun",
+          "gloss_zh": "我",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "ato",
+          "text": "ato",
+          "role": "particle",
+          "gloss_zh": "和",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "kapot",
+          "text": "kapot",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ako",
+          "text": "ako",
+          "role": "pronoun",
+          "gloss_zh": "我的",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "to",
+            "a",
+            "minanam",
+            "comma",
+            "pred2",
+            "a_3",
+            "minengneng",
+            "to_3",
+            "codad",
+            "kako",
+            "ato",
+            "kapot",
+            "ako",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "長句：線性排列（自動標記，結構簡化）"
+      },
+      "structure": "長句：線性排列（自動標記，結構簡化）",
+      "audio": "https://web.klokah.tw/text/sound/63830/897113.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "005",
+      "amis": "Misatapang to a miseking, pacaliw ko kapot to impic ato sararop i takowanan.",
+      "zh": "考試的時候，同學借我筆和橡皮擦。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Misatapang",
+          "role": "pred",
+          "gloss_zh": "開始",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "34其他",
+          "vocab_code": "34"
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "斜格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "a",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "連繫",
+          "gloss_en": ""
+        },
+        {
+          "id": "miseking",
+          "text": "miseking",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "pacaliw",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "kapot",
+          "text": "kapot",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "to_3",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "斜格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "impic",
+          "text": "impic",
+          "role": "noun",
+          "gloss_zh": "筆",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "09物品(不含食品)",
+          "vocab_code": "09"
+        },
+        {
+          "id": "ato",
+          "text": "ato",
+          "role": "particle",
+          "gloss_zh": "和",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "sararop",
+          "text": "sararop",
+          "role": "noun",
+          "gloss_zh": "橡皮擦",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "09物品(不含食品)",
+          "vocab_code": "09"
+        },
+        {
+          "id": "i",
+          "text": "i",
+          "role": "case",
+          "gloss_zh": "在",
+          "gloss_en": ""
+        },
+        {
+          "id": "takowanan",
+          "text": "takowanan",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "to",
+            "a",
+            "miseking",
+            "comma",
+            "pred2",
+            "ko",
+            "kapot",
+            "to_3",
+            "impic",
+            "ato",
+            "sararop",
+            "i",
+            "takowanan",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "長句：線性排列（自動標記，結構簡化）"
+      },
+      "structure": "長句：線性排列（自動標記，結構簡化）",
+      "audio": "https://web.klokah.tw/text/sound/63830/897114.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "006",
+      "amis": "Sowal sa ko singsi i takowanan “karatar to a lomowad, aka to kaapac!”",
+      "zh": "老師跟我說：「下次早點起床，不要再遲到了!」",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Sowal",
+          "role": "pred",
+          "gloss_zh": "語言",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "24抽象名詞",
+          "vocab_code": "24"
+        },
+        {
+          "id": "sa",
+          "text": "sa",
+          "role": "noun",
+          "gloss_zh": "助詞",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "singsi",
+          "text": "singsi",
+          "role": "noun",
+          "gloss_zh": "老師",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
+        },
+        {
+          "id": "i",
+          "text": "i",
+          "role": "case",
+          "gloss_zh": "在",
+          "gloss_en": ""
+        },
+        {
+          "id": "takowanan",
+          "text": "takowanan",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "karatar",
+          "text": "karatar",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "斜格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "a",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "連繫",
+          "gloss_en": ""
+        },
+        {
+          "id": "lomowad",
+          "text": "lomowad",
+          "role": "noun",
+          "gloss_zh": "起床",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "30生活作息",
+          "vocab_code": "30"
+        },
+        {
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "aka",
+          "text": "aka",
+          "role": "adverb",
+          "gloss_zh": "不要",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "35否定詞",
+          "vocab_code": "35"
+        },
+        {
+          "id": "to_3",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "斜格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "pred2",
+          "text": "kaapac",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "sa",
+            "ko",
+            "singsi",
+            "i",
+            "takowanan",
+            "karatar",
+            "to",
+            "a",
+            "lomowad",
+            "comma",
+            "aka",
+            "to_3",
+            "pred2"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "長句：線性排列（自動標記，結構簡化）"
+      },
+      "structure": "長句：線性排列（自動標記，結構簡化）",
+      "audio": "https://web.klokah.tw/text/sound/63830/897115.mp3",
+      "audio_primary": true
+    }
+  ]
+}

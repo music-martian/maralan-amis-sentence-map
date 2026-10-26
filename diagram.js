@@ -1,5 +1,5 @@
 /**
- * Live SVG sentence-map renderer for 馬蘭阿美語.
+ * Live SVG sentence-map renderer for 阿美語 (dialect name from app.js).
  * Mirrors layout/colors from generate_diagrams.py (mint canvas, bead-row + attachment map).
  */
 (function (global) {
@@ -49,7 +49,10 @@
     "高級": "#9B59B6",
   };
 
-  const FOOTER = "Klokah · 馬蘭阿美語 · 句型圖（自動標記）";
+  function footerText() {
+    const name = (typeof window !== "undefined" && window.CURRENT_DIALECT_NAME) || "阿美語";
+    return "Klokah · " + name + " · 句型圖（自動標記）";
+  }
 
   // Glottal letters are NOT punctuation in Amis (keep on word beads).
   // Glottals (ʼ etc.) are NOT punctuation — keep inside word beads (expandTokens).
@@ -1275,7 +1278,7 @@
         "font-size": 11,
         "font-family": '"Segoe UI","Helvetica Neue",Arial,"Noto Sans","Noto Sans CJK TC","Noto Sans TC","PingFang TC",sans-serif',
         "text-anchor": "middle",
-        textContent: FOOTER,
+        textContent: footerText(),
       })
     );
 

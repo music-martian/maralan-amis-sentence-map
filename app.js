@@ -1,16 +1,47 @@
 /**
- * Learn / Practice shell for 馬蘭阿美語 sentence maps.
+ * Learn / Practice shell for 阿美語 sentence maps (per-dialect catalogs).
  * Cascading Module → Type → Unit selectors; fetches per-unit JSON on Pages.
  */
 (function () {
   "use strict";
 
-  const catalog =
-    typeof CATALOG !== "undefined"
-      ? CATALOG
-      : typeof window !== "undefined"
-        ? window.CATALOG
-        : null;
+  // Per-dialect catalogs from catalog.js (DIALECTS order = selector order).
+  const catalogs =
+    typeof CATALOGS !== "undefined" ? CATALOGS : (window.CATALOGS || {});
+  const dialects = (
+    typeof DIALECTS !== "undefined" ? DIALECTS : window.DIALECTS || []
+  ).filter((d) => catalogs[d.slug]);
+  const defaultDialect =
+    typeof DEFAULT_DIALECT !== "undefined" ? DEFAULT_DIALECT : "maralan";
+  const DIALECT_KEY = "amis-sentence-map.dialect";
+
+  function resolveDialect(raw) {
+    if (!raw) return null;
+    const v = String(raw).trim();
+    const d = dialects.find(
+      (x) => x.slug === v || x.name === v || x.did === v || x.name.replace("阿美語", "") === v
+    );
+    return d ? d.slug : null;
+  }
+
+  function initialDialect() {
+    let fromUrl = null;
+    try {
+      fromUrl = resolveDialect(new URLSearchParams(location.search).get("dialect"));
+    } catch (_) {}
+    let stored = null;
+    try {
+      stored = resolveDialect(localStorage.getItem(DIALECT_KEY));
+    } catch (_) {}
+    return fromUrl || stored || resolveDialect(defaultDialect) || (dialects[0] && dialects[0].slug);
+  }
+
+  let dialectSlug = initialDialect();
+  let catalog = catalogs[dialectSlug] || null;
+
+  function dialectName() {
+    return (catalog && catalog.dialect) || "阿美語";
+  }
 
   const greetingsFallback =
     typeof GREETINGS !== "undefined"
@@ -37,6 +68,7 @@
     subtitle: document.getElementById("unit-subtitle"),
     klokah: document.getElementById("klokah-link"),
     footerUnit: document.getElementById("footer-unit"),
+    selDialect: document.getElementById("sel-dialect"),
     selModule: document.getElementById("sel-module"),
     selType: document.getElementById("sel-type"),
     selUnit: document.getElementById("sel-unit"),
@@ -165,8 +197,9 @@
 
   async function fetchUnit(unitMeta) {
     const path = unitPath(unitMeta);
-    // Default greetings: prefer inlined GREETINGS when offline / file://
+    // Default greetings: prefer inlined GREETINGS when offline / file:// (馬蘭 only)
     if (
+      dialectSlug === "maralan" &&
       unitMeta.id === "junior_type2_class16" &&
       greetingsFallback &&
       greetingsFallback.sentences &&
@@ -219,8 +252,9 @@
       setMode(state.mode);
     } catch (err) {
       console.warn(err);
-      // file:// fallback only for greetings
+      // file:// fallback only for 馬蘭 greetings
       if (
+        dialectSlug === "maralan" &&
         unitMeta.id === "junior_type2_class16" &&
         greetingsFallback &&
         greetingsFallback.sentences
@@ -274,7 +308,7 @@
     const s = current();
     const audio = (s && s.audio) || "";
 
-    // Dialogue / essay: .../text/sound/{tid}/{id}.mp3 → fixed 馬蘭 text reader
+    // Dialogue / essay: .../text/sound/{tid}/{id}.mp3 → text reader (tid is per-dialect)
     const text = audio.match(/web\.klokah\.tw\/text\/sound\/(\d+)\//i);
     if (text) return "https://web.klokah.tw/text/read.php?tid=" + text[1];
 
@@ -311,7 +345,7 @@
     if (els.klokah) els.klokah.href = klokahHrefForCurrent();
     if (els.footerUnit) {
       els.footerUnit.textContent =
-        "Klokah · 馬蘭阿美語 · " + (title || "句型圖");
+        "Klokah · " + dialectName() + " · " + (title || "句型圖");
     }
   }
 
@@ -539,7 +573,7 @@
       "";
     els.num.textContent =
       (n ? state.index + 1 + " / " + n : "—") +
-      "  ·  馬蘭阿美語 句型圖" +
+      "  ·  " + dialectName() + " 句型圖" +
       (title ? " · " + title : "");
     if (!s) {
       els.amis.textContent = "";
@@ -604,7 +638,7 @@
   // Open unit source_url directly. Do NOT route through
   // /set_prefer_dialect/4 — that endpoint returns an empty page and hangs
   // on mobile (Brave). Lesson href is set in updateFooter/subtitle.
-  // If Klokah shows the wrong Amis dialect, pick 馬蘭阿美語 in its language menu.
+  // If Klokah shows the wrong Amis dialect, pick the dialect in its language menu.
 
   // Wire events
   els.modeLearn.addEventListener("click", () => setMode("learn"));
@@ -652,6 +686,48 @@
     if (e.key === "ArrowRight") go(state.index + 1);
   });
 
+  function showUnitFor(cat) {
+    const defaultId = cat.default_unit || "junior_type2_class16";
+    const found = findUnitInCatalog(defaultId);
+    if (found) {
+      populateModules(found.mod.id);
+      populateTypes(found.typ.id);
+      populateUnits(found.unit.id);
+    } else {
+      populateModules();
+      populateTypes();
+      populateUnits();
+    }
+    loadSelectedUnit();
+  }
+
+  function applyDialectChrome() {
+    document.documentElement.setAttribute("data-dialect", dialectSlug || "");
+    window.CURRENT_DIALECT_NAME = dialectName();
+    if (els.selDialect) els.selDialect.value = dialectSlug;
+  }
+
+  function setDialect(slug) {
+    if (!catalogs[slug] || slug === dialectSlug) return;
+    dialectSlug = slug;
+    catalog = catalogs[slug];
+    try {
+      localStorage.setItem(DIALECT_KEY, slug);
+    } catch (_) {}
+    try {
+      const u = new URL(location.href);
+      u.searchParams.set("dialect", slug);
+      history.replaceState(null, "", u.toString());
+    } catch (_) {}
+    applyDialectChrome();
+    showUnitFor(catalog);
+  }
+
+  if (els.selDialect) {
+    fillSelect(els.selDialect, dialects, (d) => d.slug, (d) => d.name, dialectSlug);
+    els.selDialect.addEventListener("change", () => setDialect(els.selDialect.value));
+  }
+
   // Boot
   if (!catalog || !catalog.modules || !catalog.modules.length) {
     document.body.innerHTML =
@@ -659,18 +735,8 @@
     return;
   }
 
-  const defaultId = catalog.default_unit || "junior_type2_class16";
-  const found = findUnitInCatalog(defaultId);
-  if (found) {
-    populateModules(found.mod.id);
-    populateTypes(found.typ.id);
-    populateUnits(found.unit.id);
-  } else {
-    populateModules();
-    populateTypes();
-    populateUnits();
-  }
-  loadSelectedUnit();
+  applyDialectChrome();
+  showUnitFor(catalog);
   if (typeof globalThis !== "undefined") {
     globalThis.tightenGlottal = tightenGlottal;
     globalThis.isLongBlock = isLongBlock;

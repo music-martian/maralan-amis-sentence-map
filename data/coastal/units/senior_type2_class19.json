@@ -1,0 +1,842 @@
+{
+  "id": "senior_type2_class19",
+  "module": "senior",
+  "type_id": "2",
+  "type_name": "生活百句",
+  "class_id": "19",
+  "title": "祈使句",
+  "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/3/2/19/1",
+  "dialect": "海岸阿美語",
+  "sentences": [
+    {
+      "id": "001",
+      "amis": "Katomireng!Mitaʼong！",
+      "zh": "起立！敬禮！(班長說)",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Katomireng!Mitaʼong",
+          "role": "pred",
+          "gloss_zh": "起立！敬禮！",
+          "gloss_en": ""
+        },
+        {
+          "id": "excl",
+          "text": "！",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "excl"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Katomireng!Mitaʼong 為中心（自動標記）"
+      },
+      "structure": "述語 Katomireng!Mitaʼong 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/2sentence/4_1.mp3",
+      "audio_primary": true,
+      "audio_note": "音訊為 Klokah 對話段（可能含多句）",
+      "learn_id": 1,
+      "audio_exchange": "ex1"
+    },
+    {
+      "id": "002",
+      "amis": "Ngaʼay ho singsi!",
+      "zh": "老師好！(全班說)",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Ngaʼay",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ho",
+          "text": "ho",
+          "role": "particle",
+          "gloss_zh": "還",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "singsi",
+          "text": "singsi",
+          "role": "noun",
+          "gloss_zh": "老師",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
+        },
+        {
+          "id": "excl",
+          "text": "!",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ho",
+            "singsi",
+            "excl"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Ngaʼay 為中心（自動標記）"
+      },
+      "structure": "述語 Ngaʼay 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/2sentence/4_1.mp3",
+      "audio_primary": false,
+      "audio_note": "音訊為整段對話（含前後句），非單句錄音",
+      "learn_id": 1,
+      "audio_exchange": "ex1"
+    },
+    {
+      "id": "003",
+      "amis": "Ngaʼay ho kamo mitiliday!",
+      "zh": "同學好 (老師說)",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Ngaʼay",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ho",
+          "text": "ho",
+          "role": "particle",
+          "gloss_zh": "還",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "kamo",
+          "text": "kamo",
+          "role": "pronoun",
+          "gloss_zh": "你們",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "mitiliday",
+          "text": "mitiliday",
+          "role": "noun",
+          "gloss_zh": "學生",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
+        },
+        {
+          "id": "excl",
+          "text": "!",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ho",
+            "kamo",
+            "mitiliday",
+            "excl"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Ngaʼay 為中心（自動標記）"
+      },
+      "structure": "述語 Ngaʼay 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/2sentence/4_2.mp3",
+      "audio_primary": true,
+      "audio_note": "音訊為 Klokah 對話段（可能含多句）",
+      "learn_id": 2,
+      "audio_exchange": "ex2"
+    },
+    {
+      "id": "004",
+      "amis": "Kamaroʼ!",
+      "zh": "坐下！ (班長說)",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Kamaroʼ",
+          "role": "pred",
+          "gloss_zh": "坐下",
+          "gloss_en": ""
+        },
+        {
+          "id": "excl",
+          "text": "!",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "excl"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Kamaroʼ 為中心（自動標記）"
+      },
+      "structure": "述語 Kamaroʼ 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/2sentence/4_2.mp3",
+      "audio_primary": false,
+      "audio_note": "音訊為整段對話（含前後句），非單句錄音",
+      "learn_id": 2,
+      "audio_exchange": "ex2"
+    },
+    {
+      "id": "005",
+      "amis": "Da kasomowal!",
+      "zh": "請說(說說看)！",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Da",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kasomowal",
+          "text": "kasomowal",
+          "role": "noun",
+          "gloss_zh": "說",
+          "gloss_en": ""
+        },
+        {
+          "id": "excl",
+          "text": "!",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "kasomowal",
+            "excl"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Da 為中心（自動標記）"
+      },
+      "structure": "述語 Da 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/2sentence/4_3.mp3",
+      "audio_primary": true,
+      "audio_note": "音訊為 Klokah 對話段（可能含多句）",
+      "learn_id": 3,
+      "audio_exchange": "ex3"
+    },
+    {
+      "id": "006",
+      "amis": "Tengilen!",
+      "zh": "請聽(聽聽看)！",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Tengilen",
+          "role": "pred",
+          "gloss_zh": "請聽！",
+          "gloss_en": ""
+        },
+        {
+          "id": "excl",
+          "text": "!",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "excl"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Tengilen 為中心（自動標記）"
+      },
+      "structure": "述語 Tengilen 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/2sentence/4_4.mp3",
+      "audio_primary": true,
+      "audio_note": "音訊為 Klokah 對話段（可能含多句）",
+      "learn_id": 4,
+      "audio_exchange": "ex4"
+    },
+    {
+      "id": "007",
+      "amis": "Pisaʼosi to!",
+      "zh": "去讀書！",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Pisaʼosi",
+          "role": "pred",
+          "gloss_zh": "讀書",
+          "gloss_en": ""
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "斜格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "excl",
+          "text": "!",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "to",
+            "excl"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Pisaʼosi 為中心（自動標記）"
+      },
+      "structure": "述語 Pisaʼosi 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/2sentence/4_5.mp3",
+      "audio_primary": true,
+      "audio_note": "音訊為 Klokah 對話段（可能含多句）",
+      "learn_id": 5,
+      "audio_exchange": "ex5"
+    },
+    {
+      "id": "008",
+      "amis": "Kapilisoʼ to ci akongan!",
+      "zh": "去探望祖父！",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Kapilisoʼ",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "斜格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "ci",
+          "text": "ci",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "akongan",
+          "text": "akongan",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "excl",
+          "text": "!",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "to",
+            "ci",
+            "akongan",
+            "excl"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Kapilisoʼ 為中心（自動標記）"
+      },
+      "structure": "述語 Kapilisoʼ 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/2sentence/4_6.mp3",
+      "audio_primary": true,
+      "audio_note": "音訊為 Klokah 對話段（可能含多句）",
+      "learn_id": 6,
+      "audio_exchange": "ex6"
+    },
+    {
+      "id": "009",
+      "amis": "Aka ka caciyaw! / Katomerep!",
+      "zh": "別說話！(安靜！)",
+      "en": "",
+      "tokens": [
+        {
+          "id": "aka",
+          "text": "Aka",
+          "role": "adverb",
+          "gloss_zh": "不要",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "35否定詞",
+          "vocab_code": "35"
+        },
+        {
+          "id": "pred",
+          "text": "ka",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "caciyaw",
+          "text": "caciyaw",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "excl",
+          "text": "!",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "slash",
+          "text": "/",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "katomerep",
+          "text": "Katomerep",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "excl_3",
+          "text": "!",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "aka",
+            "pred",
+            "caciyaw",
+            "excl",
+            "slash",
+            "katomerep",
+            "excl_3"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 ka 為中心（自動標記）"
+      },
+      "structure": "述語 ka 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/2sentence/4_7.mp3",
+      "audio_primary": true,
+      "audio_note": "音訊為 Klokah 對話段（可能含多句）",
+      "learn_id": 7,
+      "audio_exchange": "ex7"
+    },
+    {
+      "id": "010",
+      "amis": "Aka ka apac!",
+      "zh": "別遲到！",
+      "en": "",
+      "tokens": [
+        {
+          "id": "aka",
+          "text": "Aka",
+          "role": "adverb",
+          "gloss_zh": "不要",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "35否定詞",
+          "vocab_code": "35"
+        },
+        {
+          "id": "pred",
+          "text": "ka",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "apac",
+          "text": "apac",
+          "role": "noun",
+          "gloss_zh": "遲到",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "24抽象名詞",
+          "vocab_code": "24"
+        },
+        {
+          "id": "excl",
+          "text": "!",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "aka",
+            "pred",
+            "apac",
+            "excl"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 ka 為中心（自動標記）"
+      },
+      "structure": "述語 ka 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/2sentence/4_8.mp3",
+      "audio_primary": true,
+      "audio_note": "音訊為 Klokah 對話段（可能含多句）",
+      "learn_id": 8,
+      "audio_exchange": "ex8"
+    },
+    {
+      "id": "011",
+      "amis": "Aka pilaʼom!",
+      "zh": "別浪費！",
+      "en": "",
+      "tokens": [
+        {
+          "id": "aka",
+          "text": "Aka",
+          "role": "adverb",
+          "gloss_zh": "不要",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "35否定詞",
+          "vocab_code": "35"
+        },
+        {
+          "id": "pred",
+          "text": "pilaʼom",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "excl",
+          "text": "!",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "aka",
+            "pred",
+            "excl"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 pilaʼom 為中心（自動標記）"
+      },
+      "structure": "述語 pilaʼom 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/2sentence/4_9.mp3",
+      "audio_primary": true,
+      "audio_note": "音訊為 Klokah 對話段（可能含多句）",
+      "learn_id": 9,
+      "audio_exchange": "ex9"
+    },
+    {
+      "id": "012",
+      "amis": "Fawahan ko sasingaran!",
+      "zh": "開窗(把窗戶打開)！",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Fawahan",
+          "role": "pred",
+          "gloss_zh": "門",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "sasingaran",
+          "text": "sasingaran",
+          "role": "noun",
+          "gloss_zh": "窗戶",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "12建築",
+          "vocab_code": "12"
+        },
+        {
+          "id": "excl",
+          "text": "!",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "sasingaran",
+            "excl"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Fawahan 為中心（自動標記）"
+      },
+      "structure": "述語 Fawahan 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/2sentence/4_10.mp3",
+      "audio_primary": true,
+      "audio_note": "音訊為 Klokah 對話段（可能含多句）",
+      "learn_id": 10,
+      "audio_exchange": "ex10"
+    },
+    {
+      "id": "013",
+      "amis": "Hayda!",
+      "zh": "好！",
+      "en": "",
+      "tokens": [
+        {
+          "id": "hayda",
+          "text": "Hayda",
+          "role": "particle",
+          "gloss_zh": "好的",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "excl",
+          "text": "!",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "hayda",
+            "excl"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "線性排列（自動標記）"
+      },
+      "structure": "線性排列（自動標記）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/2sentence/4_10.mp3",
+      "audio_primary": false,
+      "audio_note": "音訊為整段對話（含前後句），非單句錄音",
+      "learn_id": 10,
+      "audio_exchange": "ex10"
+    },
+    {
+      "id": "014",
+      "amis": "Ama, fawahen ho!",
+      "zh": "祖母，請開門！(較客氣之說法)",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Ama",
+          "role": "pred",
+          "gloss_zh": "女性長輩",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "04親屬稱謂",
+          "vocab_code": "04"
+        },
+        {
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "fawahen",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ho",
+          "text": "ho",
+          "role": "particle",
+          "gloss_zh": "還",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "excl",
+          "text": "!",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "comma"
+          ],
+          [
+            "pred2",
+            "ho",
+            "excl"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/2sentence/4_11.mp3",
+      "audio_primary": true,
+      "audio_note": "音訊為 Klokah 對話段（可能含多句）",
+      "learn_id": 11,
+      "audio_exchange": "ex11"
+    },
+    {
+      "id": "015",
+      "amis": "Tayni to!",
+      "zh": "好！來了！",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Tayni",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "斜格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "excl",
+          "text": "!",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "to",
+            "excl"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Tayni 為中心（自動標記）"
+      },
+      "structure": "述語 Tayni 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/2sentence/4_11.mp3",
+      "audio_primary": false,
+      "audio_note": "音訊為整段對話（含前後句），非單句錄音",
+      "learn_id": 11,
+      "audio_exchange": "ex11"
+    }
+  ]
+}

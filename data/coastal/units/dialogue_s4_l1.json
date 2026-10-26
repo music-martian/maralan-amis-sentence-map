@@ -1,0 +1,2690 @@
+{
+  "id": "dialogue_s4_l1",
+  "module": "dialogue",
+  "scene": 4,
+  "stage": 1,
+  "title": "情境4 · 初級 · 對話練習(一)",
+  "source_url": "https://klokah.iformosa.com.tw/dialogue/d3/s4/l1/talking",
+  "dialect": "海岸阿美語",
+  "sentences": [
+    {
+      "id": "001",
+      "amis": "Masamaan ko romiʼad anini?",
+      "zh": "A:今天天氣如何?",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Masamaan",
+          "role": "pred",
+          "gloss_zh": "如何",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "romiad",
+          "text": "romiʼad",
+          "role": "noun",
+          "gloss_zh": "白天",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "13時間",
+          "vocab_code": "13"
+        },
+        {
+          "id": "anini",
+          "text": "anini",
+          "role": "adverb",
+          "gloss_zh": "現在",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "13時間",
+          "vocab_code": "13"
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "romiad",
+            "anini",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Masamaan 為中心（自動標記）"
+      },
+      "structure": "述語 Masamaan 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26955/441337.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "002",
+      "amis": "Masadakay to ko cidal, faedetay ko romiʼad.",
+      "zh": "B:太陽出來了，天氣很熱。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Masadakay",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "斜格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "cidal",
+          "text": "cidal",
+          "role": "noun",
+          "gloss_zh": "太陽",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "11自然景觀",
+          "vocab_code": "11"
+        },
+        {
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "faedetay",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko_3",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "romiad",
+          "text": "romiʼad",
+          "role": "noun",
+          "gloss_zh": "白天",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "13時間",
+          "vocab_code": "13"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "to",
+            "ko",
+            "cidal",
+            "comma"
+          ],
+          [
+            "pred2",
+            "ko_3",
+            "romiad",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://web.klokah.tw/text/sound/26955/441338.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "003",
+      "amis": "Sienaway i papotal haw?",
+      "zh": "A:外面會很冷嗎?",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Sienaway",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "i",
+          "text": "i",
+          "role": "case",
+          "gloss_zh": "在",
+          "gloss_en": ""
+        },
+        {
+          "id": "papotal",
+          "text": "papotal",
+          "role": "noun",
+          "gloss_zh": "外面",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "14空間",
+          "vocab_code": "14"
+        },
+        {
+          "id": "haw",
+          "text": "haw",
+          "role": "particle",
+          "gloss_zh": "助詞",
+          "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "i",
+            "papotal",
+            "haw",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Sienaway 為中心（自動標記）"
+      },
+      "structure": "述語 Sienaway 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26955/441339.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "004",
+      "amis": "Sienaway, adihayen ko micaʼdongan a rikoʼ.",
+      "zh": "B:很冷，要多穿衣服。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Sienaway",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "adihayen",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "micadongan",
+          "text": "micaʼdongan",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "a",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "連繫",
+          "gloss_en": ""
+        },
+        {
+          "id": "riko",
+          "text": "rikoʼ",
+          "role": "noun",
+          "gloss_zh": "衣服",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "18織布服飾",
+          "vocab_code": "18"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "comma"
+          ],
+          [
+            "pred2",
+            "ko",
+            "micadongan",
+            "a",
+            "riko",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://web.klokah.tw/text/sound/26955/441340.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "005",
+      "amis": "Faedetay i papotal haw?",
+      "zh": "A:外面會很熱嗎?",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Faedetay",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "i",
+          "text": "i",
+          "role": "case",
+          "gloss_zh": "在",
+          "gloss_en": ""
+        },
+        {
+          "id": "papotal",
+          "text": "papotal",
+          "role": "noun",
+          "gloss_zh": "外面",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "14空間",
+          "vocab_code": "14"
+        },
+        {
+          "id": "haw",
+          "text": "haw",
+          "role": "particle",
+          "gloss_zh": "助詞",
+          "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "i",
+            "papotal",
+            "haw",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Faedetay 為中心（自動標記）"
+      },
+      "structure": "述語 Faedetay 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26955/441341.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "006",
+      "amis": "Cowa, mafaliay, saemelay.",
+      "zh": "B:不會，起風了，很涼快。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "cowa",
+          "text": "Cowa",
+          "role": "adverb",
+          "gloss_zh": "副詞",
+          "gloss_en": ""
+        },
+        {
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "mafaliay",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "comma_3",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "saemelay",
+          "text": "saemelay",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "cowa",
+            "comma"
+          ],
+          [
+            "pred2",
+            "comma_3"
+          ],
+          [
+            "saemelay",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://web.klokah.tw/text/sound/26955/441342.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "007",
+      "amis": "Masa maanay ko romiʼad anini?",
+      "zh": "A:今天天氣怎麼樣?",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Masa",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "maanay",
+          "text": "maanay",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "romiad",
+          "text": "romiʼad",
+          "role": "noun",
+          "gloss_zh": "白天",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "13時間",
+          "vocab_code": "13"
+        },
+        {
+          "id": "anini",
+          "text": "anini",
+          "role": "adverb",
+          "gloss_zh": "現在",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "13時間",
+          "vocab_code": "13"
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "maanay",
+            "ko",
+            "romiad",
+            "anini",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Masa 為中心（自動標記）"
+      },
+      "structure": "述語 Masa 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26955/441343.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "008",
+      "amis": "Anini a romiʼad cowa ka sienaw cowa ka faedet sangaʼayay sanay.",
+      "zh": "B:今天不冷也不熱，很舒服。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "anini",
+          "text": "Anini",
+          "role": "adverb",
+          "gloss_zh": "現在",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "13時間",
+          "vocab_code": "13"
+        },
+        {
+          "id": "pred",
+          "text": "a",
+          "role": "pred",
+          "gloss_zh": "連繫",
+          "gloss_en": ""
+        },
+        {
+          "id": "romiad",
+          "text": "romiʼad",
+          "role": "noun",
+          "gloss_zh": "白天",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "13時間",
+          "vocab_code": "13"
+        },
+        {
+          "id": "cowa",
+          "text": "cowa",
+          "role": "adverb",
+          "gloss_zh": "副詞",
+          "gloss_en": ""
+        },
+        {
+          "id": "ka",
+          "text": "ka",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "sienaw",
+          "text": "sienaw",
+          "role": "noun",
+          "gloss_zh": "冷",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "32特徵",
+          "vocab_code": "32"
+        },
+        {
+          "id": "cowa_3",
+          "text": "cowa",
+          "role": "adverb",
+          "gloss_zh": "副詞",
+          "gloss_en": ""
+        },
+        {
+          "id": "ka_3",
+          "text": "ka",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "faedet",
+          "text": "faedet",
+          "role": "noun",
+          "gloss_zh": "炎熱",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "32特徵",
+          "vocab_code": "32"
+        },
+        {
+          "id": "sangaayay",
+          "text": "sangaʼayay",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "sanay",
+          "text": "sanay",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "anini",
+            "pred",
+            "romiad",
+            "cowa",
+            "ka",
+            "sienaw",
+            "cowa_3",
+            "ka_3",
+            "faedet",
+            "sangaayay",
+            "sanay",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 a 為中心（自動標記）"
+      },
+      "structure": "述語 a 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26955/441344.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "009",
+      "amis": "Masamaanay tona dadaya?",
+      "zh": "A:今天晚上天氣如何?",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Masamaanay",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "tona",
+          "text": "tona",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "dadaya",
+          "text": "dadaya",
+          "role": "noun",
+          "gloss_zh": "晚上",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "13時間",
+          "vocab_code": "13"
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "tona",
+            "dadaya",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Masamaanay 為中心（自動標記）"
+      },
+      "structure": "述語 Masamaanay 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26955/441345.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "010",
+      "amis": "Away ko toʼem i kakarayan, masadakay to ko foʼis.",
+      "zh": "B:天空沒有雲，星星出來了。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Away",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "toem",
+          "text": "toʼem",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "i",
+          "text": "i",
+          "role": "case",
+          "gloss_zh": "在",
+          "gloss_en": ""
+        },
+        {
+          "id": "kakarayan",
+          "text": "kakarayan",
+          "role": "noun",
+          "gloss_zh": "天空",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "11自然景觀",
+          "vocab_code": "11"
+        },
+        {
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "masadakay",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "斜格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "ko_3",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "fois",
+          "text": "foʼis",
+          "role": "noun",
+          "gloss_zh": "星星",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "11自然景觀",
+          "vocab_code": "11"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "toem",
+            "i",
+            "kakarayan",
+            "comma"
+          ],
+          [
+            "pred2",
+            "to",
+            "ko_3",
+            "fois",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://web.klokah.tw/text/sound/26955/441346.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "011",
+      "amis": "Samaanay i papotal?",
+      "zh": "A:外面天氣如何?",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Samaanay",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "i",
+          "text": "i",
+          "role": "case",
+          "gloss_zh": "在",
+          "gloss_en": ""
+        },
+        {
+          "id": "papotal",
+          "text": "papotal",
+          "role": "noun",
+          "gloss_zh": "外面",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "14空間",
+          "vocab_code": "14"
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "i",
+            "papotal",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Samaanay 為中心（自動標記）"
+      },
+      "structure": "述語 Samaanay 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26955/441347.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "012",
+      "amis": "Katomerepho no ʼorad, macidalayto, iraay ko talakal i Idek.",
+      "zh": "B:雨剛剛停，出了太陽，彩虹出來了。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Katomerepho",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "no",
+          "text": "no",
+          "role": "case",
+          "gloss_zh": "屬格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "orad",
+          "text": "ʼorad",
+          "role": "noun",
+          "gloss_zh": "雨",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "11自然景觀",
+          "vocab_code": "11"
+        },
+        {
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "macidalayto",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "comma_3",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "iraay",
+          "text": "iraay",
+          "role": "adverb",
+          "gloss_zh": "有；擁有",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "talakal",
+          "text": "talakal",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "i",
+          "text": "i",
+          "role": "case",
+          "gloss_zh": "在",
+          "gloss_en": ""
+        },
+        {
+          "id": "idek",
+          "text": "Idek",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "no",
+            "orad",
+            "comma"
+          ],
+          [
+            "pred2",
+            "comma_3"
+          ],
+          [
+            "iraay",
+            "ko",
+            "talakal",
+            "i",
+            "idek",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://web.klokah.tw/text/sound/26955/441348.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "013",
+      "amis": "Samaanay ko romiʼad itira?",
+      "zh": "A:你那裡的天氣如何?",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Samaanay",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "romiad",
+          "text": "romiʼad",
+          "role": "noun",
+          "gloss_zh": "白天",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "13時間",
+          "vocab_code": "13"
+        },
+        {
+          "id": "itira",
+          "text": "itira",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "romiad",
+            "itira",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Samaanay 為中心（自動標記）"
+      },
+      "structure": "述語 Samaanay 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26955/441349.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "014",
+      "amis": "Taʼangayay ko fali i tamiyanan.",
+      "zh": "B:我們這裡颳大風。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Taʼangayay",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "fali",
+          "text": "fali",
+          "role": "noun",
+          "gloss_zh": "風",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "10山川地理",
+          "vocab_code": "10"
+        },
+        {
+          "id": "i",
+          "text": "i",
+          "role": "case",
+          "gloss_zh": "在",
+          "gloss_en": ""
+        },
+        {
+          "id": "tamiyanan",
+          "text": "tamiyanan",
+          "role": "pronoun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "fali",
+            "i",
+            "tamiyanan",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Taʼangayay 為中心（自動標記）"
+      },
+      "structure": "述語 Taʼangayay 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26955/441350.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "015",
+      "amis": "Ngaʼayay ko romiʼad i tira haw?",
+      "zh": "A:你那裡的天氣好嗎?",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Ngaʼayay",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "romiad",
+          "text": "romiʼad",
+          "role": "noun",
+          "gloss_zh": "白天",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "13時間",
+          "vocab_code": "13"
+        },
+        {
+          "id": "i",
+          "text": "i",
+          "role": "case",
+          "gloss_zh": "在",
+          "gloss_en": ""
+        },
+        {
+          "id": "tira",
+          "text": "tira",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "haw",
+          "text": "haw",
+          "role": "particle",
+          "gloss_zh": "助詞",
+          "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "romiad",
+            "i",
+            "tira",
+            "haw",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Ngaʼayay 為中心（自動標記）"
+      },
+      "structure": "述語 Ngaʼayay 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26955/441351.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "016",
+      "amis": "Ngaʼayay, taʼangayay ko cidal.",
+      "zh": "B:很好，出大太陽。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Ngaʼayay",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "taʼangayay",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "cidal",
+          "text": "cidal",
+          "role": "noun",
+          "gloss_zh": "太陽",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "11自然景觀",
+          "vocab_code": "11"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "comma"
+          ],
+          [
+            "pred2",
+            "ko",
+            "cidal",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://web.klokah.tw/text/sound/26955/441352.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "017",
+      "amis": "Tayrato kako i pitilidan.",
+      "zh": "A:我要去上學了。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Tayrato",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kako",
+          "text": "kako",
+          "role": "pronoun",
+          "gloss_zh": "我",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "i",
+          "text": "i",
+          "role": "case",
+          "gloss_zh": "在",
+          "gloss_en": ""
+        },
+        {
+          "id": "pitilidan",
+          "text": "pitilidan",
+          "role": "noun",
+          "gloss_zh": "學校",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "12建築",
+          "vocab_code": "12"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "kako",
+            "i",
+            "pitilidan",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Tayrato 為中心（自動標記）"
+      },
+      "structure": "述語 Tayrato 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26955/441353.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "018",
+      "amis": "Sienaway ko romiʼad, adihayen ko rikoʼ.",
+      "zh": "B:天氣很冷，要多穿衣服。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Sienaway",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "romiad",
+          "text": "romiʼad",
+          "role": "noun",
+          "gloss_zh": "白天",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "13時間",
+          "vocab_code": "13"
+        },
+        {
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "adihayen",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko_3",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "riko",
+          "text": "rikoʼ",
+          "role": "noun",
+          "gloss_zh": "衣服",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "18織布服飾",
+          "vocab_code": "18"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "romiad",
+            "comma"
+          ],
+          [
+            "pred2",
+            "ko_3",
+            "riko",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://web.klokah.tw/text/sound/26955/441354.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "019",
+      "amis": "Malingad to kako.",
+      "zh": "A:我要出門了。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Malingad",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "斜格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "kako",
+          "text": "kako",
+          "role": "pronoun",
+          "gloss_zh": "我",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "to",
+            "kako",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Malingad 為中心（自動標記）"
+      },
+      "structure": "述語 Malingad 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26955/441355.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "020",
+      "amis": "Taʼangay ko ʼorad ano sawni. alaen ko linay.",
+      "zh": "B:等一下會下大雨，你要記得帶傘。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Taʼangay",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "orad",
+          "text": "ʼorad",
+          "role": "noun",
+          "gloss_zh": "雨",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "11自然景觀",
+          "vocab_code": "11"
+        },
+        {
+          "id": "ano",
+          "text": "ano",
+          "role": "particle",
+          "gloss_zh": "如果",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "sawni",
+          "text": "sawni",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "alaen",
+          "text": "alaen",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko_3",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "linay",
+          "text": "linay",
+          "role": "noun",
+          "gloss_zh": "雨傘",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "09物品(不含食品)",
+          "vocab_code": "09"
+        },
+        {
+          "id": "period_3",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "orad",
+            "ano",
+            "sawni",
+            "period",
+            "alaen",
+            "ko_3",
+            "linay",
+            "period_3"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Taʼangay 為中心（自動標記）"
+      },
+      "structure": "述語 Taʼangay 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26955/441356.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "021",
+      "amis": "Maʼorad saw?",
+      "zh": "A:會下雨嗎?",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Maʼorad",
+          "role": "pred",
+          "gloss_zh": "下雨",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "11自然景觀",
+          "vocab_code": "11"
+        },
+        {
+          "id": "saw",
+          "text": "saw",
+          "role": "particle",
+          "gloss_zh": "嗎",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "saw",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Maʼorad 為中心（自動標記）"
+      },
+      "structure": "述語 Maʼorad 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26955/441357.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "022",
+      "amis": "Makakelengay i sawni, mamaʼorad ano sawni.",
+      "zh": "B:剛剛打雷了，等一下應該就會下雨。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Makakelengay",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "i",
+          "text": "i",
+          "role": "case",
+          "gloss_zh": "在",
+          "gloss_en": ""
+        },
+        {
+          "id": "sawni",
+          "text": "sawni",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "mamaʼorad",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ano",
+          "text": "ano",
+          "role": "particle",
+          "gloss_zh": "如果",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "sawni_3",
+          "text": "sawni",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "i",
+            "sawni",
+            "comma"
+          ],
+          [
+            "pred2",
+            "ano",
+            "sawni_3",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://web.klokah.tw/text/sound/26955/441358.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "023",
+      "amis": "Maʼoraday to haw?",
+      "zh": "A:下雨了嗎?",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Maʼoraday",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "斜格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "haw",
+          "text": "haw",
+          "role": "particle",
+          "gloss_zh": "助詞",
+          "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "to",
+            "haw",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Maʼoraday 為中心（自動標記）"
+      },
+      "structure": "述語 Maʼoraday 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26955/441359.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "024",
+      "amis": "Maʼoraday i sawni, tomerepayto nohatiai.",
+      "zh": "B:剛剛有下雨，現在雨停了。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Maʼoraday",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "i",
+          "text": "i",
+          "role": "case",
+          "gloss_zh": "在",
+          "gloss_en": ""
+        },
+        {
+          "id": "sawni",
+          "text": "sawni",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "tomerepayto",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "nohatiai",
+          "text": "nohatiai",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "i",
+            "sawni",
+            "comma"
+          ],
+          [
+            "pred2",
+            "nohatiai",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://web.klokah.tw/text/sound/26955/441360.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "025",
+      "amis": "Maʼoradayto haw?",
+      "zh": "A:下雨了嗎?",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Maʼoradayto",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "haw",
+          "text": "haw",
+          "role": "particle",
+          "gloss_zh": "助詞",
+          "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "haw",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Maʼoradayto 為中心（自動標記）"
+      },
+      "structure": "述語 Maʼoradayto 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26955/441361.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "026",
+      "amis": "Hato nama ʼoraday to, macepaʼay ko lalan.",
+      "zh": "B:好像下過雨了，馬路是濕的。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Hato",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "nama",
+          "text": "nama",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "oraday",
+          "text": "ʼoraday",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "斜格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "macepaʼay",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "lalan",
+          "text": "lalan",
+          "role": "noun",
+          "gloss_zh": "道路",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "10山川地理",
+          "vocab_code": "10"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "nama",
+            "oraday",
+            "to",
+            "comma"
+          ],
+          [
+            "pred2",
+            "ko",
+            "lalan",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://web.klokah.tw/text/sound/26955/441362.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "027",
+      "amis": "Maʼoraday haw? Mana cepaʼsaan ko tireng iso.",
+      "zh": "A:有下雨嗎?你怎麼全身都濕了?",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Maʼoraday",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "haw",
+          "text": "haw",
+          "role": "noun",
+          "gloss_zh": "助詞",
+          "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "mana",
+          "text": "Mana",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "cepasaan",
+          "text": "cepaʼsaan",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "tireng",
+          "text": "tireng",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "iso",
+          "text": "iso",
+          "role": "pronoun",
+          "gloss_zh": "你的",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "haw",
+            "q",
+            "mana",
+            "cepasaan",
+            "ko",
+            "tireng",
+            "iso",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Maʼoraday 為中心（自動標記）"
+      },
+      "structure": "述語 Maʼoraday 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26955/441363.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "028",
+      "amis": "Maʼoraday ko papotal, cowa ka cilinay kako.",
+      "zh": "B:外面在下雨，我沒有帶雨傘。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Maʼoraday",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "papotal",
+          "text": "papotal",
+          "role": "noun",
+          "gloss_zh": "外面",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "14空間",
+          "vocab_code": "14"
+        },
+        {
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "cowa",
+          "text": "cowa",
+          "role": "adverb",
+          "gloss_zh": "副詞",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "ka",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "cilinay",
+          "text": "cilinay",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kako",
+          "text": "kako",
+          "role": "pronoun",
+          "gloss_zh": "我",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "papotal",
+            "comma"
+          ],
+          [
+            "cowa",
+            "pred2",
+            "cilinay",
+            "kako",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://web.klokah.tw/text/sound/26955/441364.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "029",
+      "amis": "Ngaʼayayho kiso haw?",
+      "zh": "A:你還好嗎?",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Ngaʼayayho",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kiso",
+          "text": "kiso",
+          "role": "pronoun",
+          "gloss_zh": "你",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "haw",
+          "text": "haw",
+          "role": "particle",
+          "gloss_zh": "助詞",
+          "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "kiso",
+            "haw",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Ngaʼayayho 為中心（自動標記）"
+      },
+      "structure": "述語 Ngaʼayayho 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26955/441365.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "030",
+      "amis": "Taʼangayay ko fali, adadaay ko fongoh ako tona maiyof no fali.",
+      "zh": "B:風好大，吹得我頭好痛。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Taʼangayay",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "fali",
+          "text": "fali",
+          "role": "noun",
+          "gloss_zh": "風",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "10山川地理",
+          "vocab_code": "10"
+        },
+        {
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "adadaay",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko_3",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "fongoh",
+          "text": "fongoh",
+          "role": "noun",
+          "gloss_zh": "頭",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "06身體部位",
+          "vocab_code": "06"
+        },
+        {
+          "id": "ako",
+          "text": "ako",
+          "role": "pronoun",
+          "gloss_zh": "我的",
+          "gloss_en": ""
+        },
+        {
+          "id": "tona",
+          "text": "tona",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "maiyof",
+          "text": "maiyof",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "no",
+          "text": "no",
+          "role": "case",
+          "gloss_zh": "屬格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "fali_3",
+          "text": "fali",
+          "role": "noun",
+          "gloss_zh": "風",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "10山川地理",
+          "vocab_code": "10"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "fali",
+            "comma"
+          ],
+          [
+            "pred2",
+            "ko_3",
+            "fongoh",
+            "ako",
+            "tona",
+            "maiyof",
+            "period"
+          ]
+        ],
+        "hangs": {
+          "maiyof": [
+            "no",
+            "fali_3"
+          ]
+        },
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://web.klokah.tw/text/sound/26955/441366.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "031",
+      "amis": "Ngaʼayay kiso haw?",
+      "zh": "A:你還好嗎?",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Ngaʼayay",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kiso",
+          "text": "kiso",
+          "role": "pronoun",
+          "gloss_zh": "你",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "haw",
+          "text": "haw",
+          "role": "particle",
+          "gloss_zh": "助詞",
+          "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "kiso",
+            "haw",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Ngaʼayay 為中心（自動標記）"
+      },
+      "structure": "述語 Ngaʼayay 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26955/441367.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "032",
+      "amis": "Taʼangayay ko cidal, lasang sanay ko fongoh ako tona mapacidal.",
+      "zh": "B:太陽好大，曬得我頭好暈。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Taʼangayay",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "cidal",
+          "text": "cidal",
+          "role": "noun",
+          "gloss_zh": "太陽",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "11自然景觀",
+          "vocab_code": "11"
+        },
+        {
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "lasang",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "sanay",
+          "text": "sanay",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko_3",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "fongoh",
+          "text": "fongoh",
+          "role": "noun",
+          "gloss_zh": "頭",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "06身體部位",
+          "vocab_code": "06"
+        },
+        {
+          "id": "ako",
+          "text": "ako",
+          "role": "pronoun",
+          "gloss_zh": "我的",
+          "gloss_en": ""
+        },
+        {
+          "id": "tona",
+          "text": "tona",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "mapacidal",
+          "text": "mapacidal",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "cidal",
+            "comma"
+          ],
+          [
+            "pred2",
+            "sanay",
+            "ko_3",
+            "fongoh",
+            "ako",
+            "tona",
+            "mapacidal",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://web.klokah.tw/text/sound/26955/441368.mp3",
+      "audio_primary": true
+    }
+  ]
+}

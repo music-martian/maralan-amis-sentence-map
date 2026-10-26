@@ -25,7 +25,7 @@ from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 
 SITE = Path(__file__).resolve().parent.parent
-UNITS_DIR = SITE / "data" / "units"
+UNITS_DIR = SITE / "data" / "maralan" / "units"  # 馬蘭 only
 GREETINGS_JSON = SITE / "data" / "greetings.json"
 DATA_JS = SITE / "data.js"
 

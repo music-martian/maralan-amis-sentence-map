@@ -1,0 +1,2445 @@
+{
+  "id": "senior_type4_class27",
+  "module": "senior",
+  "type_id": "4",
+  "type_name": "選擇題（一）",
+  "class_id": "27",
+  "title": "訊息問句(問數量)",
+  "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/3/4/27/1",
+  "dialect": "海岸阿美語",
+  "sentences": [
+    {
+      "id": "001",
+      "amis": "Papina ko tamdaw no lomaʼ namo?",
+      "zh": "你們家有幾個人？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Papina",
+          "role": "pred",
+          "gloss_zh": "多少",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "tamdaw",
+          "text": "tamdaw",
+          "role": "noun",
+          "gloss_zh": "人",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
+        },
+        {
+          "id": "no",
+          "text": "no",
+          "role": "case",
+          "gloss_zh": "屬格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "loma",
+          "text": "lomaʼ",
+          "role": "noun",
+          "gloss_zh": "家",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "12建築",
+          "vocab_code": "12"
+        },
+        {
+          "id": "namo",
+          "text": "namo",
+          "role": "pronoun",
+          "gloss_zh": "你們的",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "tamdaw",
+            "namo",
+            "q"
+          ]
+        ],
+        "hangs": {
+          "tamdaw": [
+            "no",
+            "loma"
+          ]
+        },
+        "plus_between_groups": false,
+        "structure": "述語為中心；屬格 no/nu 掛於名詞下（自動）"
+      },
+      "structure": "述語為中心；屬格 no/nu 掛於名詞下（自動）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/4choiceOne/2_1.mp3",
+      "audio_primary": true,
+      "learn_id": 1
+    },
+    {
+      "id": "002",
+      "amis": "A enem ko tamdaw no lomaʼ niyam.",
+      "zh": "我們家有六個人。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "A",
+          "role": "pred",
+          "gloss_zh": "連繫",
+          "gloss_en": ""
+        },
+        {
+          "id": "enem",
+          "text": "enem",
+          "role": "noun",
+          "gloss_zh": "六",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "01數字計量",
+          "vocab_code": "01"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "tamdaw",
+          "text": "tamdaw",
+          "role": "noun",
+          "gloss_zh": "人",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
+        },
+        {
+          "id": "no",
+          "text": "no",
+          "role": "case",
+          "gloss_zh": "屬格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "loma",
+          "text": "lomaʼ",
+          "role": "noun",
+          "gloss_zh": "家",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "12建築",
+          "vocab_code": "12"
+        },
+        {
+          "id": "niyam",
+          "text": "niyam",
+          "role": "pronoun",
+          "gloss_zh": "我們的",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "enem",
+            "ko",
+            "tamdaw",
+            "niyam",
+            "period"
+          ]
+        ],
+        "hangs": {
+          "tamdaw": [
+            "no",
+            "loma"
+          ]
+        },
+        "plus_between_groups": false,
+        "structure": "述語為中心；屬格 no/nu 掛於名詞下（自動）"
+      },
+      "structure": "述語為中心；屬格 no/nu 掛於名詞下（自動）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/4choiceOne/2_1.mp3",
+      "audio_primary": true,
+      "learn_id": 1
+    },
+    {
+      "id": "003",
+      "amis": "Papina ko tamdaw no lomaʼ nangra?",
+      "zh": "他們家有幾個人？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Papina",
+          "role": "pred",
+          "gloss_zh": "多少",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "tamdaw",
+          "text": "tamdaw",
+          "role": "noun",
+          "gloss_zh": "人",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
+        },
+        {
+          "id": "no",
+          "text": "no",
+          "role": "case",
+          "gloss_zh": "屬格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "loma",
+          "text": "lomaʼ",
+          "role": "noun",
+          "gloss_zh": "家",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "12建築",
+          "vocab_code": "12"
+        },
+        {
+          "id": "nangra",
+          "text": "nangra",
+          "role": "pronoun",
+          "gloss_zh": "他們的",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "tamdaw",
+            "nangra",
+            "q"
+          ]
+        ],
+        "hangs": {
+          "tamdaw": [
+            "no",
+            "loma"
+          ]
+        },
+        "plus_between_groups": false,
+        "structure": "述語為中心；屬格 no/nu 掛於名詞下（自動）"
+      },
+      "structure": "述語為中心；屬格 no/nu 掛於名詞下（自動）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/4choiceOne/2_2.mp3",
+      "audio_primary": true,
+      "learn_id": 2
+    },
+    {
+      "id": "004",
+      "amis": "A enem ko tamdaw no lomaʼ nangra.",
+      "zh": "他們家有六個人。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "A",
+          "role": "pred",
+          "gloss_zh": "連繫",
+          "gloss_en": ""
+        },
+        {
+          "id": "enem",
+          "text": "enem",
+          "role": "noun",
+          "gloss_zh": "六",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "01數字計量",
+          "vocab_code": "01"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "tamdaw",
+          "text": "tamdaw",
+          "role": "noun",
+          "gloss_zh": "人",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
+        },
+        {
+          "id": "no",
+          "text": "no",
+          "role": "case",
+          "gloss_zh": "屬格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "loma",
+          "text": "lomaʼ",
+          "role": "noun",
+          "gloss_zh": "家",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "12建築",
+          "vocab_code": "12"
+        },
+        {
+          "id": "nangra",
+          "text": "nangra",
+          "role": "pronoun",
+          "gloss_zh": "他們的",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "enem",
+            "ko",
+            "tamdaw",
+            "nangra",
+            "period"
+          ]
+        ],
+        "hangs": {
+          "tamdaw": [
+            "no",
+            "loma"
+          ]
+        },
+        "plus_between_groups": false,
+        "structure": "述語為中心；屬格 no/nu 掛於名詞下（自動）"
+      },
+      "structure": "述語為中心；屬格 no/nu 掛於名詞下（自動）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/4choiceOne/2_2.mp3",
+      "audio_primary": true,
+      "learn_id": 2
+    },
+    {
+      "id": "005",
+      "amis": "Lalima ko tadaw no lomaʼ niyam.",
+      "zh": "我們家有五個人。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Lalima",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "tadaw",
+          "text": "tadaw",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "no",
+          "text": "no",
+          "role": "case",
+          "gloss_zh": "屬格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "loma",
+          "text": "lomaʼ",
+          "role": "noun",
+          "gloss_zh": "家",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "12建築",
+          "vocab_code": "12"
+        },
+        {
+          "id": "niyam",
+          "text": "niyam",
+          "role": "pronoun",
+          "gloss_zh": "我們的",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "tadaw",
+            "niyam",
+            "period"
+          ]
+        ],
+        "hangs": {
+          "tadaw": [
+            "no",
+            "loma"
+          ]
+        },
+        "plus_between_groups": false,
+        "structure": "述語為中心；屬格 no/nu 掛於名詞下（自動）"
+      },
+      "structure": "述語為中心；屬格 no/nu 掛於名詞下（自動）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/4choiceOne/2_3.mp3",
+      "audio_primary": true,
+      "learn_id": 3
+    },
+    {
+      "id": "006",
+      "amis": "Papina ko tamdaw no lomaʼ nangra.",
+      "zh": "他們家有幾個人？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Papina",
+          "role": "pred",
+          "gloss_zh": "多少",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "tamdaw",
+          "text": "tamdaw",
+          "role": "noun",
+          "gloss_zh": "人",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
+        },
+        {
+          "id": "no",
+          "text": "no",
+          "role": "case",
+          "gloss_zh": "屬格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "loma",
+          "text": "lomaʼ",
+          "role": "noun",
+          "gloss_zh": "家",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "12建築",
+          "vocab_code": "12"
+        },
+        {
+          "id": "nangra",
+          "text": "nangra",
+          "role": "pronoun",
+          "gloss_zh": "他們的",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "tamdaw",
+            "nangra",
+            "period"
+          ]
+        ],
+        "hangs": {
+          "tamdaw": [
+            "no",
+            "loma"
+          ]
+        },
+        "plus_between_groups": false,
+        "structure": "述語為中心；屬格 no/nu 掛於名詞下（自動）"
+      },
+      "structure": "述語為中心；屬格 no/nu 掛於名詞下（自動）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/4choiceOne/2_4.mp3",
+      "audio_primary": true,
+      "learn_id": 4
+    },
+    {
+      "id": "007",
+      "amis": "Sasepat ko tamdaw no lomaʼ nangra.",
+      "zh": "他們家有四個人。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Sasepat",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "tamdaw",
+          "text": "tamdaw",
+          "role": "noun",
+          "gloss_zh": "人",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
+        },
+        {
+          "id": "no",
+          "text": "no",
+          "role": "case",
+          "gloss_zh": "屬格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "loma",
+          "text": "lomaʼ",
+          "role": "noun",
+          "gloss_zh": "家",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "12建築",
+          "vocab_code": "12"
+        },
+        {
+          "id": "nangra",
+          "text": "nangra",
+          "role": "pronoun",
+          "gloss_zh": "他們的",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "tamdaw",
+            "nangra",
+            "period"
+          ]
+        ],
+        "hangs": {
+          "tamdaw": [
+            "no",
+            "loma"
+          ]
+        },
+        "plus_between_groups": false,
+        "structure": "述語為中心；屬格 no/nu 掛於名詞下（自動）"
+      },
+      "structure": "述語為中心；屬格 no/nu 掛於名詞下（自動）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/4choiceOne/2_4.mp3",
+      "audio_primary": true,
+      "learn_id": 4
+    },
+    {
+      "id": "008",
+      "amis": "Papina ko salikaka iso?",
+      "zh": "你有幾個兄弟姊妹？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Papina",
+          "role": "pred",
+          "gloss_zh": "多少",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "salikaka",
+          "text": "salikaka",
+          "role": "noun",
+          "gloss_zh": "兄弟姊妹",
+          "gloss_en": ""
+        },
+        {
+          "id": "iso",
+          "text": "iso",
+          "role": "pronoun",
+          "gloss_zh": "你的",
+          "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "salikaka",
+            "iso",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Papina 為中心（自動標記）"
+      },
+      "structure": "述語 Papina 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/4choiceOne/2_5.mp3",
+      "audio_primary": true,
+      "learn_id": 5
+    },
+    {
+      "id": "009",
+      "amis": "Ira ko cecay fafahiyan a kaka ato cecay ko fafahiyan a safa.",
+      "zh": "我有一個姊姊和一個妹妹。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "ira",
+          "text": "Ira",
+          "role": "pronoun",
+          "gloss_zh": "有",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "34其他",
+          "vocab_code": "34"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "pred",
+          "text": "cecay",
+          "role": "pred",
+          "gloss_zh": "一",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "01數字計量",
+          "vocab_code": "01"
+        },
+        {
+          "id": "fafahiyan",
+          "text": "fafahiyan",
+          "role": "noun",
+          "gloss_zh": "女性",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
+        },
+        {
+          "id": "a",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "連繫",
+          "gloss_en": ""
+        },
+        {
+          "id": "kaka",
+          "text": "kaka",
+          "role": "noun",
+          "gloss_zh": "兄長",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "04親屬稱謂",
+          "vocab_code": "04"
+        },
+        {
+          "id": "ato",
+          "text": "ato",
+          "role": "particle",
+          "gloss_zh": "和",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "cecay",
+          "text": "cecay",
+          "role": "noun",
+          "gloss_zh": "一",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "01數字計量",
+          "vocab_code": "01"
+        },
+        {
+          "id": "ko_3",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "fafahiyan_3",
+          "text": "fafahiyan",
+          "role": "noun",
+          "gloss_zh": "女性",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
+        },
+        {
+          "id": "a_3",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "連繫",
+          "gloss_en": ""
+        },
+        {
+          "id": "safa",
+          "text": "safa",
+          "role": "noun",
+          "gloss_zh": "通稱",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "04親屬稱謂",
+          "vocab_code": "04"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "ira",
+            "ko",
+            "pred",
+            "fafahiyan",
+            "a",
+            "kaka",
+            "ato",
+            "cecay",
+            "ko_3",
+            "fafahiyan_3",
+            "a_3",
+            "safa",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 cecay 為中心（自動標記）"
+      },
+      "structure": "述語 cecay 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/4choiceOne/2_5.mp3",
+      "audio_primary": true,
+      "learn_id": 5
+    },
+    {
+      "id": "010",
+      "amis": "Ira ko cecay fafahiyan a safa.",
+      "zh": "我有一個妹妹。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "ira",
+          "text": "Ira",
+          "role": "pronoun",
+          "gloss_zh": "有",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "34其他",
+          "vocab_code": "34"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "pred",
+          "text": "cecay",
+          "role": "pred",
+          "gloss_zh": "一",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "01數字計量",
+          "vocab_code": "01"
+        },
+        {
+          "id": "fafahiyan",
+          "text": "fafahiyan",
+          "role": "noun",
+          "gloss_zh": "女性",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
+        },
+        {
+          "id": "a",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "連繫",
+          "gloss_en": ""
+        },
+        {
+          "id": "safa",
+          "text": "safa",
+          "role": "noun",
+          "gloss_zh": "通稱",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "04親屬稱謂",
+          "vocab_code": "04"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "ira",
+            "ko",
+            "pred",
+            "fafahiyan",
+            "a",
+            "safa",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 cecay 為中心（自動標記）"
+      },
+      "structure": "述語 cecay 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/4choiceOne/2_6.mp3",
+      "audio_primary": true,
+      "learn_id": 6
+    },
+    {
+      "id": "011",
+      "amis": "Ira ko cecay faʼinayan a kaka ato cecay faʼinayan a safa.",
+      "zh": "我有一個哥哥和一個弟弟。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "ira",
+          "text": "Ira",
+          "role": "pronoun",
+          "gloss_zh": "有",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "34其他",
+          "vocab_code": "34"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "pred",
+          "text": "cecay",
+          "role": "pred",
+          "gloss_zh": "一",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "01數字計量",
+          "vocab_code": "01"
+        },
+        {
+          "id": "fainayan",
+          "text": "faʼinayan",
+          "role": "noun",
+          "gloss_zh": "男性",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
+        },
+        {
+          "id": "a",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "連繫",
+          "gloss_en": ""
+        },
+        {
+          "id": "kaka",
+          "text": "kaka",
+          "role": "noun",
+          "gloss_zh": "兄長",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "04親屬稱謂",
+          "vocab_code": "04"
+        },
+        {
+          "id": "ato",
+          "text": "ato",
+          "role": "particle",
+          "gloss_zh": "和",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "cecay",
+          "text": "cecay",
+          "role": "noun",
+          "gloss_zh": "一",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "01數字計量",
+          "vocab_code": "01"
+        },
+        {
+          "id": "fainayan_3",
+          "text": "faʼinayan",
+          "role": "noun",
+          "gloss_zh": "男性",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
+        },
+        {
+          "id": "a_3",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "連繫",
+          "gloss_en": ""
+        },
+        {
+          "id": "safa",
+          "text": "safa",
+          "role": "noun",
+          "gloss_zh": "通稱",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "04親屬稱謂",
+          "vocab_code": "04"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "ira",
+            "ko",
+            "pred",
+            "fainayan",
+            "a",
+            "kaka",
+            "ato",
+            "cecay",
+            "fainayan_3",
+            "a_3",
+            "safa",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 cecay 為中心（自動標記）"
+      },
+      "structure": "述語 cecay 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/4choiceOne/2_7.mp3",
+      "audio_primary": true,
+      "learn_id": 7
+    },
+    {
+      "id": "012",
+      "amis": "Pina ko waco iso?",
+      "zh": "你有幾隻狗？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Pina",
+          "role": "pred",
+          "gloss_zh": "多少",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "waco",
+          "text": "waco",
+          "role": "noun",
+          "gloss_zh": "狗",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "07動物(含昆蟲)",
+          "vocab_code": "07"
+        },
+        {
+          "id": "iso",
+          "text": "iso",
+          "role": "pronoun",
+          "gloss_zh": "你的",
+          "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "waco",
+            "iso",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Pina 為中心（自動標記）"
+      },
+      "structure": "述語 Pina 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/4choiceOne/2_8.mp3",
+      "audio_primary": true,
+      "learn_id": 8
+    },
+    {
+      "id": "013",
+      "amis": "Cecay aca ko waco ako.",
+      "zh": "我有一隻狗。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Cecay",
+          "role": "pred",
+          "gloss_zh": "一",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "01數字計量",
+          "vocab_code": "01"
+        },
+        {
+          "id": "aca",
+          "text": "aca",
+          "role": "particle",
+          "gloss_zh": "僅僅",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "waco",
+          "text": "waco",
+          "role": "noun",
+          "gloss_zh": "狗",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "07動物(含昆蟲)",
+          "vocab_code": "07"
+        },
+        {
+          "id": "ako",
+          "text": "ako",
+          "role": "pronoun",
+          "gloss_zh": "我的",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "aca",
+            "ko",
+            "waco",
+            "ako",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Cecay 為中心（自動標記）"
+      },
+      "structure": "述語 Cecay 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/4choiceOne/2_8.mp3",
+      "audio_primary": true,
+      "learn_id": 8
+    },
+    {
+      "id": "014",
+      "amis": "Tatosa aca ko waco ako.",
+      "zh": "我有兩隻狗。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Tatosa",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "aca",
+          "text": "aca",
+          "role": "particle",
+          "gloss_zh": "僅僅",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "waco",
+          "text": "waco",
+          "role": "noun",
+          "gloss_zh": "狗",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "07動物(含昆蟲)",
+          "vocab_code": "07"
+        },
+        {
+          "id": "ako",
+          "text": "ako",
+          "role": "pronoun",
+          "gloss_zh": "我的",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "aca",
+            "ko",
+            "waco",
+            "ako",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Tatosa 為中心（自動標記）"
+      },
+      "structure": "述語 Tatosa 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/4choiceOne/2_9.mp3",
+      "audio_primary": true,
+      "learn_id": 9
+    },
+    {
+      "id": "015",
+      "amis": "Adihay ko waco ako.",
+      "zh": "我有很多隻狗。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Adihay",
+          "role": "pred",
+          "gloss_zh": "多",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "32特徵",
+          "vocab_code": "32"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "waco",
+          "text": "waco",
+          "role": "noun",
+          "gloss_zh": "狗",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "07動物(含昆蟲)",
+          "vocab_code": "07"
+        },
+        {
+          "id": "ako",
+          "text": "ako",
+          "role": "pronoun",
+          "gloss_zh": "我的",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "waco",
+            "ako",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Adihay 為中心（自動標記）"
+      },
+      "structure": "述語 Adihay 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/4choiceOne/2_10.mp3",
+      "audio_primary": true,
+      "learn_id": 10
+    },
+    {
+      "id": "016",
+      "amis": "Pina ko codad nora wawa?",
+      "zh": "那個小孩有幾本書？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Pina",
+          "role": "pred",
+          "gloss_zh": "多少",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "codad",
+          "text": "codad",
+          "role": "noun",
+          "gloss_zh": "書",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "09物品(不含食品)",
+          "vocab_code": "09"
+        },
+        {
+          "id": "nora",
+          "text": "nora",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "wawa",
+          "text": "wawa",
+          "role": "noun",
+          "gloss_zh": "小孩",
+          "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "codad",
+            "nora",
+            "wawa",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Pina 為中心（自動標記）"
+      },
+      "structure": "述語 Pina 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/4choiceOne/2_11.mp3",
+      "audio_primary": true,
+      "learn_id": 11
+    },
+    {
+      "id": "017",
+      "amis": "Cecay aca ko codad nira.",
+      "zh": "她有一本書。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Cecay",
+          "role": "pred",
+          "gloss_zh": "一",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "01數字計量",
+          "vocab_code": "01"
+        },
+        {
+          "id": "aca",
+          "text": "aca",
+          "role": "particle",
+          "gloss_zh": "僅僅",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "codad",
+          "text": "codad",
+          "role": "noun",
+          "gloss_zh": "書",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "09物品(不含食品)",
+          "vocab_code": "09"
+        },
+        {
+          "id": "nira",
+          "text": "nira",
+          "role": "pronoun",
+          "gloss_zh": "他",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "aca",
+            "ko",
+            "codad",
+            "nira",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Cecay 為中心（自動標記）"
+      },
+      "structure": "述語 Cecay 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/4choiceOne/2_11.mp3",
+      "audio_primary": true,
+      "learn_id": 11
+    },
+    {
+      "id": "018",
+      "amis": "Tosa aca ko codad ningra.",
+      "zh": "她有二本書。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Tosa",
+          "role": "pred",
+          "gloss_zh": "二",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "01數字計量",
+          "vocab_code": "01"
+        },
+        {
+          "id": "aca",
+          "text": "aca",
+          "role": "particle",
+          "gloss_zh": "僅僅",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "codad",
+          "text": "codad",
+          "role": "noun",
+          "gloss_zh": "書",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "09物品(不含食品)",
+          "vocab_code": "09"
+        },
+        {
+          "id": "ningra",
+          "text": "ningra",
+          "role": "pronoun",
+          "gloss_zh": "他的",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "aca",
+            "ko",
+            "codad",
+            "ningra",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Tosa 為中心（自動標記）"
+      },
+      "structure": "述語 Tosa 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/4choiceOne/2_12.mp3",
+      "audio_primary": true,
+      "learn_id": 12
+    },
+    {
+      "id": "019",
+      "amis": "Pina ko codad nora wawa.",
+      "zh": "那個小孩有幾本書？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Pina",
+          "role": "pred",
+          "gloss_zh": "多少",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "codad",
+          "text": "codad",
+          "role": "noun",
+          "gloss_zh": "書",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "09物品(不含食品)",
+          "vocab_code": "09"
+        },
+        {
+          "id": "nora",
+          "text": "nora",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "wawa",
+          "text": "wawa",
+          "role": "noun",
+          "gloss_zh": "小孩",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "codad",
+            "nora",
+            "wawa",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Pina 為中心（自動標記）"
+      },
+      "structure": "述語 Pina 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/4choiceOne/2_13.mp3",
+      "audio_primary": true,
+      "learn_id": 13
+    },
+    {
+      "id": "020",
+      "amis": "Adihay ko codad ningra.",
+      "zh": "她有很多本書。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Adihay",
+          "role": "pred",
+          "gloss_zh": "多",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "32特徵",
+          "vocab_code": "32"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "codad",
+          "text": "codad",
+          "role": "noun",
+          "gloss_zh": "書",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "09物品(不含食品)",
+          "vocab_code": "09"
+        },
+        {
+          "id": "ningra",
+          "text": "ningra",
+          "role": "pronoun",
+          "gloss_zh": "他的",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "codad",
+            "ningra",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Adihay 為中心（自動標記）"
+      },
+      "structure": "述語 Adihay 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/4choiceOne/2_13.mp3",
+      "audio_primary": true,
+      "learn_id": 13
+    },
+    {
+      "id": "021",
+      "amis": "Pina to ko toki anini?",
+      "zh": "現在是幾點鐘？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Pina",
+          "role": "pred",
+          "gloss_zh": "多少",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "斜格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "toki",
+          "text": "toki",
+          "role": "noun",
+          "gloss_zh": "手錶",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "09物品(不含食品)",
+          "vocab_code": "09"
+        },
+        {
+          "id": "anini",
+          "text": "anini",
+          "role": "adverb",
+          "gloss_zh": "現在",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "13時間",
+          "vocab_code": "13"
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "to",
+            "ko",
+            "toki",
+            "anini",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Pina 為中心（自動標記）"
+      },
+      "structure": "述語 Pina 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/4choiceOne/2_14.mp3",
+      "audio_primary": true,
+      "learn_id": 14
+    },
+    {
+      "id": "022",
+      "amis": "Sepat to ko toki anini.",
+      "zh": "現在是四點鐘。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Sepat",
+          "role": "pred",
+          "gloss_zh": "四",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "01數字計量",
+          "vocab_code": "01"
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "斜格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "toki",
+          "text": "toki",
+          "role": "noun",
+          "gloss_zh": "手錶",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "09物品(不含食品)",
+          "vocab_code": "09"
+        },
+        {
+          "id": "anini",
+          "text": "anini",
+          "role": "adverb",
+          "gloss_zh": "現在",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "13時間",
+          "vocab_code": "13"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "to",
+            "ko",
+            "toki",
+            "anini",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Sepat 為中心（自動標記）"
+      },
+      "structure": "述語 Sepat 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/4choiceOne/2_14.mp3",
+      "audio_primary": true,
+      "learn_id": 14
+    },
+    {
+      "id": "023",
+      "amis": "Pina ko toki lomowad kiso to dafak?",
+      "zh": "你早上幾點鐘起床？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Pina",
+          "role": "pred",
+          "gloss_zh": "多少",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "toki",
+          "text": "toki",
+          "role": "noun",
+          "gloss_zh": "手錶",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "09物品(不含食品)",
+          "vocab_code": "09"
+        },
+        {
+          "id": "lomowad",
+          "text": "lomowad",
+          "role": "noun",
+          "gloss_zh": "起床",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "30生活作息",
+          "vocab_code": "30"
+        },
+        {
+          "id": "kiso",
+          "text": "kiso",
+          "role": "pronoun",
+          "gloss_zh": "你",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "斜格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "dafak",
+          "text": "dafak",
+          "role": "noun",
+          "gloss_zh": "早上",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "13時間",
+          "vocab_code": "13"
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "toki",
+            "lomowad",
+            "kiso",
+            "to",
+            "dafak",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Pina 為中心（自動標記）"
+      },
+      "structure": "述語 Pina 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/4choiceOne/2_15.mp3",
+      "audio_primary": true,
+      "learn_id": 15
+    },
+    {
+      "id": "024",
+      "amis": "Enem ko toki lomowad kako to dafak.",
+      "zh": "我早上六點鐘起床。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Enem",
+          "role": "pred",
+          "gloss_zh": "六",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "01數字計量",
+          "vocab_code": "01"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "toki",
+          "text": "toki",
+          "role": "noun",
+          "gloss_zh": "手錶",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "09物品(不含食品)",
+          "vocab_code": "09"
+        },
+        {
+          "id": "lomowad",
+          "text": "lomowad",
+          "role": "noun",
+          "gloss_zh": "起床",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "30生活作息",
+          "vocab_code": "30"
+        },
+        {
+          "id": "kako",
+          "text": "kako",
+          "role": "pronoun",
+          "gloss_zh": "我",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "斜格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "dafak",
+          "text": "dafak",
+          "role": "noun",
+          "gloss_zh": "早上",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "13時間",
+          "vocab_code": "13"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "toki",
+            "lomowad",
+            "kako",
+            "to",
+            "dafak",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Enem 為中心（自動標記）"
+      },
+      "structure": "述語 Enem 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/4choiceOne/2_15.mp3",
+      "audio_primary": true,
+      "learn_id": 15
+    },
+    {
+      "id": "025",
+      "amis": "Pina ko toki mafotiʼ kiso to dadaya?",
+      "zh": "你晚上幾點鐘睡覺？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Pina",
+          "role": "pred",
+          "gloss_zh": "多少",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "toki",
+          "text": "toki",
+          "role": "noun",
+          "gloss_zh": "手錶",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "09物品(不含食品)",
+          "vocab_code": "09"
+        },
+        {
+          "id": "mafoti",
+          "text": "mafotiʼ",
+          "role": "noun",
+          "gloss_zh": "睡覺",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "30生活作息",
+          "vocab_code": "30"
+        },
+        {
+          "id": "kiso",
+          "text": "kiso",
+          "role": "pronoun",
+          "gloss_zh": "你",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "斜格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "dadaya",
+          "text": "dadaya",
+          "role": "noun",
+          "gloss_zh": "晚上",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "13時間",
+          "vocab_code": "13"
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "toki",
+            "mafoti",
+            "kiso",
+            "to",
+            "dadaya",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Pina 為中心（自動標記）"
+      },
+      "structure": "述語 Pina 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/4choiceOne/2_16.mp3",
+      "audio_primary": true,
+      "learn_id": 16
+    },
+    {
+      "id": "026",
+      "amis": "Moʼetep ko toki mafotiʼ kako to dadaya.",
+      "zh": "我晚上十點鐘睡覺。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Moʼetep",
+          "role": "pred",
+          "gloss_zh": "十",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "toki",
+          "text": "toki",
+          "role": "noun",
+          "gloss_zh": "手錶",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "09物品(不含食品)",
+          "vocab_code": "09"
+        },
+        {
+          "id": "mafoti",
+          "text": "mafotiʼ",
+          "role": "noun",
+          "gloss_zh": "睡覺",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "30生活作息",
+          "vocab_code": "30"
+        },
+        {
+          "id": "kako",
+          "text": "kako",
+          "role": "pronoun",
+          "gloss_zh": "我",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "斜格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "dadaya",
+          "text": "dadaya",
+          "role": "noun",
+          "gloss_zh": "晚上",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "13時間",
+          "vocab_code": "13"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "toki",
+            "mafoti",
+            "kako",
+            "to",
+            "dadaya",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Moʼetep 為中心（自動標記）"
+      },
+      "structure": "述語 Moʼetep 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/4choiceOne/2_16.mp3",
+      "audio_primary": true,
+      "learn_id": 16
+    }
+  ]
+}

@@ -1,0 +1,2165 @@
+{
+  "id": "senior_type4_class30",
+  "module": "senior",
+  "type_id": "4",
+  "type_name": "選擇題（一）",
+  "class_id": "30",
+  "title": "是非問句(問動作進行、能力、喜好--連動結構)",
+  "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/3/4/30/1",
+  "dialect": "海岸阿美語",
+  "sentences": [
+    {
+      "id": "001",
+      "amis": "Misaʼosi kiso ?",
+      "zh": "你在讀書嗎？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Misaʼosi",
+          "role": "pred",
+          "gloss_zh": "讀書",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "30生活作息",
+          "vocab_code": "30"
+        },
+        {
+          "id": "kiso",
+          "text": "kiso",
+          "role": "pronoun",
+          "gloss_zh": "你",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "kiso",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Misaʼosi 為中心（自動標記）"
+      },
+      "structure": "述語 Misaʼosi 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/4choiceOne/5_1.mp3",
+      "audio_primary": true,
+      "learn_id": 1
+    },
+    {
+      "id": "002",
+      "amis": "Hai, misaʼosi kako.",
+      "zh": "是的，我在讀書。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "hai",
+          "text": "Hai",
+          "role": "particle",
+          "gloss_zh": "是嗎",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "misaʼosi",
+          "role": "pred2",
+          "gloss_zh": "讀書",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "30生活作息",
+          "vocab_code": "30"
+        },
+        {
+          "id": "kako",
+          "text": "kako",
+          "role": "pronoun",
+          "gloss_zh": "我",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "hai",
+            "comma"
+          ],
+          [
+            "pred2",
+            "kako",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/4choiceOne/5_1.mp3",
+      "audio_primary": true,
+      "learn_id": 1
+    },
+    {
+      "id": "003",
+      "amis": "Caay, micoka kako.",
+      "zh": "不，我在畫畫。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "caay",
+          "text": "Caay",
+          "role": "adverb",
+          "gloss_zh": "不是[回答用]",
+          "gloss_en": ""
+        },
+        {
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "micoka",
+          "role": "pred2",
+          "gloss_zh": "畫圖",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "26肢體動作",
+          "vocab_code": "26"
+        },
+        {
+          "id": "kako",
+          "text": "kako",
+          "role": "pronoun",
+          "gloss_zh": "我",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "caay",
+            "comma"
+          ],
+          [
+            "pred2",
+            "kako",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/4choiceOne/5_2.mp3",
+      "audio_primary": true,
+      "learn_id": 2
+    },
+    {
+      "id": "004",
+      "amis": "Mafotiʼ ko safa iso?",
+      "zh": "你妹妹在睡覺嗎？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Mafotiʼ",
+          "role": "pred",
+          "gloss_zh": "睡覺",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "30生活作息",
+          "vocab_code": "30"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "safa",
+          "text": "safa",
+          "role": "noun",
+          "gloss_zh": "通稱",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "04親屬稱謂",
+          "vocab_code": "04"
+        },
+        {
+          "id": "iso",
+          "text": "iso",
+          "role": "pronoun",
+          "gloss_zh": "你的",
+          "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "safa",
+            "iso",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Mafotiʼ 為中心（自動標記）"
+      },
+      "structure": "述語 Mafotiʼ 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/4choiceOne/5_3.mp3",
+      "audio_primary": true,
+      "learn_id": 3
+    },
+    {
+      "id": "005",
+      "amis": "Hai, mafotiʼ cingra.",
+      "zh": "是的，她在睡覺。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "hai",
+          "text": "Hai",
+          "role": "particle",
+          "gloss_zh": "是嗎",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "mafotiʼ",
+          "role": "pred2",
+          "gloss_zh": "睡覺",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "30生活作息",
+          "vocab_code": "30"
+        },
+        {
+          "id": "cingra",
+          "text": "cingra",
+          "role": "pronoun",
+          "gloss_zh": "他",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "hai",
+            "comma"
+          ],
+          [
+            "pred2",
+            "cingra",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/4choiceOne/5_3.mp3",
+      "audio_primary": true,
+      "learn_id": 3
+    },
+    {
+      "id": "006",
+      "amis": "Caayay, masakero cingra.",
+      "zh": "不是，她在跳舞。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "caayay",
+          "text": "Caayay",
+          "role": "adverb",
+          "gloss_zh": "不是",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "35否定詞",
+          "vocab_code": "35"
+        },
+        {
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "masakero",
+          "role": "pred2",
+          "gloss_zh": "跳舞",
+          "gloss_en": ""
+        },
+        {
+          "id": "cingra",
+          "text": "cingra",
+          "role": "pronoun",
+          "gloss_zh": "他",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "caayay",
+            "comma"
+          ],
+          [
+            "pred2",
+            "cingra",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/4choiceOne/5_4.mp3",
+      "audio_primary": true,
+      "learn_id": 4
+    },
+    {
+      "id": "007",
+      "amis": "Misalama kora wawawawa?",
+      "zh": "那些孩子在玩耍嗎？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Misalama",
+          "role": "pred",
+          "gloss_zh": "玩耍",
+          "gloss_en": ""
+        },
+        {
+          "id": "kora",
+          "text": "kora",
+          "role": "noun",
+          "gloss_zh": "那個",
+          "gloss_en": ""
+        },
+        {
+          "id": "wawawawa",
+          "text": "wawawawa",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "kora",
+            "wawawawa",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Misalama 為中心（自動標記）"
+      },
+      "structure": "述語 Misalama 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/4choiceOne/5_5.mp3",
+      "audio_primary": true,
+      "learn_id": 5
+    },
+    {
+      "id": "008",
+      "amis": "Hai, misalama kora wawawawa.",
+      "zh": "是/對，那些孩子在玩耍。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "hai",
+          "text": "Hai",
+          "role": "particle",
+          "gloss_zh": "是嗎",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "misalama",
+          "role": "pred2",
+          "gloss_zh": "玩耍",
+          "gloss_en": ""
+        },
+        {
+          "id": "kora",
+          "text": "kora",
+          "role": "noun",
+          "gloss_zh": "那個",
+          "gloss_en": ""
+        },
+        {
+          "id": "wawawawa",
+          "text": "wawawawa",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "hai",
+            "comma"
+          ],
+          [
+            "pred2",
+            "kora",
+            "wawawawa",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/4choiceOne/5_5.mp3",
+      "audio_primary": true,
+      "learn_id": 5
+    },
+    {
+      "id": "009",
+      "amis": "Romadiw cangra?",
+      "zh": "他們在唱歌嗎？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Romadiw",
+          "role": "pred",
+          "gloss_zh": "唱歌",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "30生活作息",
+          "vocab_code": "30"
+        },
+        {
+          "id": "cangra",
+          "text": "cangra",
+          "role": "pronoun",
+          "gloss_zh": "他們",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "cangra",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Romadiw 為中心（自動標記）"
+      },
+      "structure": "述語 Romadiw 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/4choiceOne/5_6.mp3",
+      "audio_primary": true,
+      "learn_id": 6
+    },
+    {
+      "id": "010",
+      "amis": "Caayay,misaʼosi cangra.",
+      "zh": "不是，他們在讀書。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Caayay,misaʼosi",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "cangra",
+          "text": "cangra",
+          "role": "pronoun",
+          "gloss_zh": "他們",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "cangra",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Caayay,misaʼosi 為中心（自動標記）"
+      },
+      "structure": "述語 Caayay,misaʼosi 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/4choiceOne/5_6.mp3",
+      "audio_primary": true,
+      "learn_id": 6
+    },
+    {
+      "id": "011",
+      "amis": "Maʼorad ?",
+      "zh": "在下雨嗎？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Maʼorad",
+          "role": "pred",
+          "gloss_zh": "下雨",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "11自然景觀",
+          "vocab_code": "11"
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Maʼorad 為中心（自動標記）"
+      },
+      "structure": "述語 Maʼorad 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/4choiceOne/5_7.mp3",
+      "audio_primary": true,
+      "learn_id": 7
+    },
+    {
+      "id": "012",
+      "amis": "Hai, maʼorad i matini.",
+      "zh": "是/對，正在下雨。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "hai",
+          "text": "Hai",
+          "role": "particle",
+          "gloss_zh": "是嗎",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "maʼorad",
+          "role": "pred2",
+          "gloss_zh": "下雨",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "11自然景觀",
+          "vocab_code": "11"
+        },
+        {
+          "id": "i",
+          "text": "i",
+          "role": "case",
+          "gloss_zh": "在",
+          "gloss_en": ""
+        },
+        {
+          "id": "matini",
+          "text": "matini",
+          "role": "pronoun",
+          "gloss_zh": "這樣",
+          "gloss_en": "",
+          "level": "中高級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "hai",
+            "comma"
+          ],
+          [
+            "pred2",
+            "i",
+            "matini",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/4choiceOne/5_7.mp3",
+      "audio_primary": true,
+      "learn_id": 7
+    },
+    {
+      "id": "013",
+      "amis": "Maʼorad to ?",
+      "zh": "在下雨嗎？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Maʼorad",
+          "role": "pred",
+          "gloss_zh": "下雨",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "11自然景觀",
+          "vocab_code": "11"
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "斜格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "to",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Maʼorad 為中心（自動標記）"
+      },
+      "structure": "述語 Maʼorad 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/4choiceOne/5_8.mp3",
+      "audio_primary": true,
+      "learn_id": 8
+    },
+    {
+      "id": "014",
+      "amis": "Caayay, masadak to ko cidal!",
+      "zh": "不，太陽出來了！",
+      "en": "",
+      "tokens": [
+        {
+          "id": "caayay",
+          "text": "Caayay",
+          "role": "adverb",
+          "gloss_zh": "不是",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "35否定詞",
+          "vocab_code": "35"
+        },
+        {
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "masadak",
+          "role": "pred2",
+          "gloss_zh": "出去",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "25行動",
+          "vocab_code": "25"
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "斜格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "cidal",
+          "text": "cidal",
+          "role": "noun",
+          "gloss_zh": "太陽",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "11自然景觀",
+          "vocab_code": "11"
+        },
+        {
+          "id": "excl",
+          "text": "!",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "caayay",
+            "comma"
+          ],
+          [
+            "pred2",
+            "to",
+            "ko",
+            "cidal",
+            "excl"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/4choiceOne/5_8.mp3",
+      "audio_primary": true,
+      "learn_id": 8
+    },
+    {
+      "id": "015",
+      "amis": "Paraid tayra miliso ci akongan kamo?",
+      "zh": "你們常常去探望祖父嗎？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Paraid",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "tayra",
+          "text": "tayra",
+          "role": "noun",
+          "gloss_zh": "去",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "25行動",
+          "vocab_code": "25"
+        },
+        {
+          "id": "miliso",
+          "text": "miliso",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ci",
+          "text": "ci",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "akongan",
+          "text": "akongan",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kamo",
+          "text": "kamo",
+          "role": "pronoun",
+          "gloss_zh": "你們",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "tayra",
+            "miliso",
+            "ci",
+            "akongan",
+            "kamo",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Paraid 為中心（自動標記）"
+      },
+      "structure": "述語 Paraid 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/4choiceOne/5_9.mp3",
+      "audio_primary": true,
+      "learn_id": 9
+    },
+    {
+      "id": "016",
+      "amis": "Hai, pararid tayra miliso ci akongan kami.",
+      "zh": "對，我們常常去探望祖父。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "hai",
+          "text": "Hai",
+          "role": "particle",
+          "gloss_zh": "是嗎",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pararid",
+          "text": "pararid",
+          "role": "particle",
+          "gloss_zh": "經常",
+          "gloss_en": "",
+          "level": "中高級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "pred2",
+          "text": "tayra",
+          "role": "pred2",
+          "gloss_zh": "去",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "25行動",
+          "vocab_code": "25"
+        },
+        {
+          "id": "miliso",
+          "text": "miliso",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ci",
+          "text": "ci",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "akongan",
+          "text": "akongan",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kami",
+          "text": "kami",
+          "role": "pronoun",
+          "gloss_zh": "我們",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "hai",
+            "comma"
+          ],
+          [
+            "pararid",
+            "pred2",
+            "miliso",
+            "ci",
+            "akongan",
+            "kami",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/4choiceOne/5_9.mp3",
+      "audio_primary": true,
+      "learn_id": 9
+    },
+    {
+      "id": "017",
+      "amis": "Mafanaʼ mifacaʼ to rikoʼ kiso ?",
+      "zh": "你會洗衣服嗎？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Mafanaʼ",
+          "role": "pred",
+          "gloss_zh": "知道",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "28認知感官",
+          "vocab_code": "28"
+        },
+        {
+          "id": "mifaca",
+          "text": "mifacaʼ",
+          "role": "noun",
+          "gloss_zh": "洗",
+          "gloss_en": ""
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "斜格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "riko",
+          "text": "rikoʼ",
+          "role": "noun",
+          "gloss_zh": "衣服",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "18織布服飾",
+          "vocab_code": "18"
+        },
+        {
+          "id": "kiso",
+          "text": "kiso",
+          "role": "pronoun",
+          "gloss_zh": "你",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "mifaca",
+            "to",
+            "riko",
+            "kiso",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Mafanaʼ 為中心（自動標記）"
+      },
+      "structure": "述語 Mafanaʼ 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/4choiceOne/5_10.mp3",
+      "audio_primary": true,
+      "learn_id": 10
+    },
+    {
+      "id": "018",
+      "amis": "Hai, mafanaʼ mifacaʼ kako.",
+      "zh": "會，我會洗衣服。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "hai",
+          "text": "Hai",
+          "role": "particle",
+          "gloss_zh": "是嗎",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "mafanaʼ",
+          "role": "pred2",
+          "gloss_zh": "知道",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "28認知感官",
+          "vocab_code": "28"
+        },
+        {
+          "id": "mifaca",
+          "text": "mifacaʼ",
+          "role": "noun",
+          "gloss_zh": "洗",
+          "gloss_en": ""
+        },
+        {
+          "id": "kako",
+          "text": "kako",
+          "role": "pronoun",
+          "gloss_zh": "我",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "hai",
+            "comma"
+          ],
+          [
+            "pred2",
+            "mifaca",
+            "kako",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/4choiceOne/5_10.mp3",
+      "audio_primary": true,
+      "learn_id": 10
+    },
+    {
+      "id": "019",
+      "amis": "Mafanaʼ romadiw kora wawawawa ?",
+      "zh": "那些孩子會唱歌嗎？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Mafanaʼ",
+          "role": "pred",
+          "gloss_zh": "知道",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "28認知感官",
+          "vocab_code": "28"
+        },
+        {
+          "id": "romadiw",
+          "text": "romadiw",
+          "role": "noun",
+          "gloss_zh": "唱歌",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "30生活作息",
+          "vocab_code": "30"
+        },
+        {
+          "id": "kora",
+          "text": "kora",
+          "role": "noun",
+          "gloss_zh": "那個",
+          "gloss_en": ""
+        },
+        {
+          "id": "wawawawa",
+          "text": "wawawawa",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "romadiw",
+            "kora",
+            "wawawawa",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Mafanaʼ 為中心（自動標記）"
+      },
+      "structure": "述語 Mafanaʼ 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/4choiceOne/5_11.mp3",
+      "audio_primary": true,
+      "learn_id": 11
+    },
+    {
+      "id": "020",
+      "amis": "Hai, mafanaʼ romadiw cangra.",
+      "zh": "是，他們很會唱歌。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "hai",
+          "text": "Hai",
+          "role": "particle",
+          "gloss_zh": "是嗎",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "mafanaʼ",
+          "role": "pred2",
+          "gloss_zh": "知道",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "28認知感官",
+          "vocab_code": "28"
+        },
+        {
+          "id": "romadiw",
+          "text": "romadiw",
+          "role": "noun",
+          "gloss_zh": "唱歌",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "30生活作息",
+          "vocab_code": "30"
+        },
+        {
+          "id": "cangra",
+          "text": "cangra",
+          "role": "pronoun",
+          "gloss_zh": "他們",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "hai",
+            "comma"
+          ],
+          [
+            "pred2",
+            "romadiw",
+            "cangra",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/4choiceOne/5_11.mp3",
+      "audio_primary": true,
+      "learn_id": 11
+    },
+    {
+      "id": "021",
+      "amis": "Maolah misaʼosi kiso ?",
+      "zh": "你喜歡讀書嗎？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Maolah",
+          "role": "pred",
+          "gloss_zh": "喜愛",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "29情緒思維",
+          "vocab_code": "29"
+        },
+        {
+          "id": "misaosi",
+          "text": "misaʼosi",
+          "role": "noun",
+          "gloss_zh": "讀書",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "30生活作息",
+          "vocab_code": "30"
+        },
+        {
+          "id": "kiso",
+          "text": "kiso",
+          "role": "pronoun",
+          "gloss_zh": "你",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "misaosi",
+            "kiso",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Maolah 為中心（自動標記）"
+      },
+      "structure": "述語 Maolah 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/4choiceOne/5_12.mp3",
+      "audio_primary": true,
+      "learn_id": 12
+    },
+    {
+      "id": "022",
+      "amis": "Hai, maolah misaʼosi kako.",
+      "zh": "是/對，我喜歡讀書。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "hai",
+          "text": "Hai",
+          "role": "particle",
+          "gloss_zh": "是嗎",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "maolah",
+          "role": "pred2",
+          "gloss_zh": "喜愛",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "29情緒思維",
+          "vocab_code": "29"
+        },
+        {
+          "id": "misaosi",
+          "text": "misaʼosi",
+          "role": "noun",
+          "gloss_zh": "讀書",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "30生活作息",
+          "vocab_code": "30"
+        },
+        {
+          "id": "kako",
+          "text": "kako",
+          "role": "pronoun",
+          "gloss_zh": "我",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "hai",
+            "comma"
+          ],
+          [
+            "pred2",
+            "misaosi",
+            "kako",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/4choiceOne/5_12.mp3",
+      "audio_primary": true,
+      "learn_id": 12
+    },
+    {
+      "id": "023",
+      "amis": "Maolah micoka kora wawa ?",
+      "zh": "那個孩子喜歡畫圖嗎？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Maolah",
+          "role": "pred",
+          "gloss_zh": "喜愛",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "29情緒思維",
+          "vocab_code": "29"
+        },
+        {
+          "id": "micoka",
+          "text": "micoka",
+          "role": "noun",
+          "gloss_zh": "畫圖",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "26肢體動作",
+          "vocab_code": "26"
+        },
+        {
+          "id": "kora",
+          "text": "kora",
+          "role": "noun",
+          "gloss_zh": "那個",
+          "gloss_en": ""
+        },
+        {
+          "id": "wawa",
+          "text": "wawa",
+          "role": "noun",
+          "gloss_zh": "小孩",
+          "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "micoka",
+            "kora",
+            "wawa",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Maolah 為中心（自動標記）"
+      },
+      "structure": "述語 Maolah 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/4choiceOne/5_13.mp3",
+      "audio_primary": true,
+      "learn_id": 13
+    },
+    {
+      "id": "024",
+      "amis": "Hai, maolah micoka cingra.",
+      "zh": "是/對，他很喜歡畫圖。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "hai",
+          "text": "Hai",
+          "role": "particle",
+          "gloss_zh": "是嗎",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "maolah",
+          "role": "pred2",
+          "gloss_zh": "喜愛",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "29情緒思維",
+          "vocab_code": "29"
+        },
+        {
+          "id": "micoka",
+          "text": "micoka",
+          "role": "noun",
+          "gloss_zh": "畫圖",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "26肢體動作",
+          "vocab_code": "26"
+        },
+        {
+          "id": "cingra",
+          "text": "cingra",
+          "role": "pronoun",
+          "gloss_zh": "他",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "hai",
+            "comma"
+          ],
+          [
+            "pred2",
+            "micoka",
+            "cingra",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/4choiceOne/5_13.mp3",
+      "audio_primary": true,
+      "learn_id": 13
+    },
+    {
+      "id": "025",
+      "amis": "Maolah romadiw kora wawawawa ?",
+      "zh": "那些孩子喜歡唱歌嗎？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Maolah",
+          "role": "pred",
+          "gloss_zh": "喜愛",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "29情緒思維",
+          "vocab_code": "29"
+        },
+        {
+          "id": "romadiw",
+          "text": "romadiw",
+          "role": "noun",
+          "gloss_zh": "唱歌",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "30生活作息",
+          "vocab_code": "30"
+        },
+        {
+          "id": "kora",
+          "text": "kora",
+          "role": "noun",
+          "gloss_zh": "那個",
+          "gloss_en": ""
+        },
+        {
+          "id": "wawawawa",
+          "text": "wawawawa",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "romadiw",
+            "kora",
+            "wawawawa",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Maolah 為中心（自動標記）"
+      },
+      "structure": "述語 Maolah 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/4choiceOne/5_14.mp3",
+      "audio_primary": true,
+      "learn_id": 14
+    },
+    {
+      "id": "026",
+      "amis": "Hai, maolah romadiw cangra.",
+      "zh": "是，他們喜歡唱歌。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "hai",
+          "text": "Hai",
+          "role": "particle",
+          "gloss_zh": "是嗎",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "maolah",
+          "role": "pred2",
+          "gloss_zh": "喜愛",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "29情緒思維",
+          "vocab_code": "29"
+        },
+        {
+          "id": "romadiw",
+          "text": "romadiw",
+          "role": "noun",
+          "gloss_zh": "唱歌",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "30生活作息",
+          "vocab_code": "30"
+        },
+        {
+          "id": "cangra",
+          "text": "cangra",
+          "role": "pronoun",
+          "gloss_zh": "他們",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "hai",
+            "comma"
+          ],
+          [
+            "pred2",
+            "romadiw",
+            "cangra",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/4choiceOne/5_14.mp3",
+      "audio_primary": true,
+      "learn_id": 14
+    },
+    {
+      "id": "027",
+      "amis": "Maolah masakero kora wawawawa ?",
+      "zh": "那些孩子喜歡跳舞嗎？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Maolah",
+          "role": "pred",
+          "gloss_zh": "喜愛",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "29情緒思維",
+          "vocab_code": "29"
+        },
+        {
+          "id": "masakero",
+          "text": "masakero",
+          "role": "noun",
+          "gloss_zh": "跳舞",
+          "gloss_en": ""
+        },
+        {
+          "id": "kora",
+          "text": "kora",
+          "role": "noun",
+          "gloss_zh": "那個",
+          "gloss_en": ""
+        },
+        {
+          "id": "wawawawa",
+          "text": "wawawawa",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "masakero",
+            "kora",
+            "wawawawa",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Maolah 為中心（自動標記）"
+      },
+      "structure": "述語 Maolah 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/4choiceOne/5_15.mp3",
+      "audio_primary": true,
+      "learn_id": 15
+    },
+    {
+      "id": "028",
+      "amis": "Caayay, maolah minengneng to tilifi cangra.",
+      "zh": "不，他們喜歡看電視。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "caayay",
+          "text": "Caayay",
+          "role": "adverb",
+          "gloss_zh": "不是",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "35否定詞",
+          "vocab_code": "35"
+        },
+        {
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "maolah",
+          "role": "pred2",
+          "gloss_zh": "喜愛",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "29情緒思維",
+          "vocab_code": "29"
+        },
+        {
+          "id": "minengneng",
+          "text": "minengneng",
+          "role": "noun",
+          "gloss_zh": "看",
+          "gloss_en": ""
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "斜格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "tilifi",
+          "text": "tilifi",
+          "role": "noun",
+          "gloss_zh": "電視",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "09物品(不含食品)",
+          "vocab_code": "09"
+        },
+        {
+          "id": "cangra",
+          "text": "cangra",
+          "role": "pronoun",
+          "gloss_zh": "他們",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "caayay",
+            "comma"
+          ],
+          [
+            "pred2",
+            "minengneng",
+            "to",
+            "tilifi",
+            "cangra",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/4choiceOne/5_15.mp3",
+      "audio_primary": true,
+      "learn_id": 15
+    },
+    {
+      "id": "029",
+      "amis": "Maolah misalama kora wawawawa?",
+      "zh": "那些孩子喜歡玩耍嗎？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Maolah",
+          "role": "pred",
+          "gloss_zh": "喜愛",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "29情緒思維",
+          "vocab_code": "29"
+        },
+        {
+          "id": "misalama",
+          "text": "misalama",
+          "role": "noun",
+          "gloss_zh": "玩耍",
+          "gloss_en": ""
+        },
+        {
+          "id": "kora",
+          "text": "kora",
+          "role": "noun",
+          "gloss_zh": "那個",
+          "gloss_en": ""
+        },
+        {
+          "id": "wawawawa",
+          "text": "wawawawa",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "misalama",
+            "kora",
+            "wawawawa",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Maolah 為中心（自動標記）"
+      },
+      "structure": "述語 Maolah 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/4choiceOne/5_16.mp3",
+      "audio_primary": true,
+      "learn_id": 16
+    },
+    {
+      "id": "030",
+      "amis": "Caayay, maolah komaen cangra.",
+      "zh": "不，他們喜歡吃東西。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "caayay",
+          "text": "Caayay",
+          "role": "adverb",
+          "gloss_zh": "不是",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "35否定詞",
+          "vocab_code": "35"
+        },
+        {
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "maolah",
+          "role": "pred2",
+          "gloss_zh": "喜愛",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "29情緒思維",
+          "vocab_code": "29"
+        },
+        {
+          "id": "komaen",
+          "text": "komaen",
+          "role": "noun",
+          "gloss_zh": "吃",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "27飲食",
+          "vocab_code": "27"
+        },
+        {
+          "id": "cangra",
+          "text": "cangra",
+          "role": "pronoun",
+          "gloss_zh": "他們",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "caayay",
+            "comma"
+          ],
+          [
+            "pred2",
+            "komaen",
+            "cangra",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/4choiceOne/5_16.mp3",
+      "audio_primary": true,
+      "learn_id": 16
+    }
+  ]
+}

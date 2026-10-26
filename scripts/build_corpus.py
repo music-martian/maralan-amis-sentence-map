@@ -2,12 +2,14 @@
 """
 Build Maralan Amis sentence-map corpus from Klokah gather materials.
 
-Reads junior/senior/talk/dialogue/essay JSON under materials/,
-auto-tokenizes + heuristic role-tags, emits:
-  - maralan-amis-sentence-map/data/catalog.json
-  - maralan-amis-sentence-map/data/units/*.json
-  - maralan-amis-sentence-map/catalog.js  (catalog inlined for Pages)
-  - maralan-amis-sentence-map/data.js     (hand-tuned greetings fallback)
+Per dialect (see scripts/dialects.py) reads junior/senior/talk/dialogue/essay
+JSON under maralan-amis/<materials>/, auto-tokenizes + heuristic role-tags, emits:
+  - maralan-amis-sentence-map/data/<slug>/catalog.json
+  - maralan-amis-sentence-map/data/<slug>/units/*.json
+  - maralan-amis-sentence-map/catalog.js  (all dialect catalogs inlined for Pages)
+  - maralan-amis-sentence-map/data.js     (馬蘭 hand-tuned greetings fallback)
+
+Usage: build_corpus.py [--dialect maralan] [--dialect coastal]
 
 Auto-tagging is best-effort for learning maps — not linguistic gold.
 """
@@ -34,9 +36,15 @@ if (_HERE.parent / "materials").is_dir():
 else:
     SITE = _HERE.parent
     ROOT = SITE.parent / "maralan-amis"
+from dialects import DIALECTS, BY_SLUG, DEFAULT_DIALECT
+
+# Per-dialect globals — set by configure(slug)
+DIALECT: Dict[str, Any] = {}
+DIALECT_NAME = ""
 MATERIALS = ROOT / "materials"
 UNITS_DIR = SITE / "data" / "units"
 CATALOG_JSON = SITE / "data" / "catalog.json"
+UNITS_REL = "data/units"
 
 # Glottal-stop letters in Amis (never sentence punctuation)
 GLOTTAL_CHARS = "'\u2019\u2018\u02bc\u02be\u02bb`"  # ' ’ ‘ ʼ ʾ ʻ `
@@ -83,8 +91,23 @@ KLOKAH_HUB = "https://klokah.iformosa.com.tw"
 KLOKAH_DID = "4"
 
 
+def configure(slug: str) -> None:
+    """Point all module globals at one dialect's materials + output dir."""
+    global DIALECT, DIALECT_NAME, MATERIALS, UNITS_DIR, CATALOG_JSON, UNITS_REL, KLOKAH_DID
+    global _LEXICON_CACHE, HAND_TUNED_GREETINGS
+    DIALECT = BY_SLUG[slug]
+    DIALECT_NAME = DIALECT["name"]
+    KLOKAH_DID = DIALECT["did"]
+    MATERIALS = ROOT / DIALECT["materials"]
+    UNITS_REL = f"data/{slug}/units"
+    UNITS_DIR = SITE / UNITS_REL
+    CATALOG_JSON = SITE / "data" / slug / "catalog.json"
+    _LEXICON_CACHE = None
+    HAND_TUNED_GREETINGS = None
+
+
 def source_url_sentence(level: str, type_id: Any, class_id: Any) -> str:
-    """Canonical sentence learn URL with Maralan did=4 in the path.
+    """Canonical sentence learn URL with the dialect did in the path.
 
     Trailing /1 is required: Klokah learn.js treats the last path segment as
     learn_id (item within the class). Without it, class_id is misread as
@@ -168,7 +191,7 @@ def gloss_zh_for(text: str, role: str, sentence_zh: str = "", n_tokens: int = 0)
         if case_g:
             return case_g
     # Prefer 馬蘭學習詞表 zh when available
-    mlex = get_lexicon(MATERIALS)
+    mlex = get_lexicon(MATERIALS, DIALECT.get("vocab"))
     hit = mlex.lookup(text)
     if hit and hit.get("zh"):
         zh = hit["zh"]
@@ -197,7 +220,7 @@ def apply_vocab_fields(tok: Dict[str, Any]) -> None:
     """Attach level / vocab_cat / vocab_code from 馬蘭學習詞表 when matched."""
     if tok.get("role") == "punct":
         return
-    mlex = get_lexicon(MATERIALS)
+    mlex = get_lexicon(MATERIALS, DIALECT.get("vocab"))
     hit = mlex.lookup(tok.get("text") or "")
     if not hit:
         return
@@ -214,7 +237,7 @@ def enrich_hand_tuned(sentences: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
 
     Does not call build_lexicon() (avoids cycle with load_hand_tuned_greetings).
     """
-    mlex = get_lexicon(MATERIALS)
+    mlex = get_lexicon(MATERIALS, DIALECT.get("vocab"))
     for s in sentences or []:
         if s.get("structure"):
             s["structure"] = tw_structure(s["structure"])
@@ -255,6 +278,9 @@ def load_hand_tuned_greetings() -> List[Dict[str, Any]]:
     """Prefer existing hand-tuned greetings from site data.js / greetings.json."""
     global HAND_TUNED_GREETINGS
     if HAND_TUNED_GREETINGS is not None:
+        return HAND_TUNED_GREETINGS
+    if not DIALECT.get("hand_tuned_greetings"):
+        HAND_TUNED_GREETINGS = []
         return HAND_TUNED_GREETINGS
     candidates = [
         SITE / "data" / "greetings.json",
@@ -416,7 +442,7 @@ def _punct_id_base(tok: str) -> str:
 
 def _merged_pronouns() -> set:
     """Static PRONOUNS plus cat_code==02 forms from 馬蘭學習詞表."""
-    lex = get_lexicon(MATERIALS)
+    lex = get_lexicon(MATERIALS, DIALECT.get("vocab"))
     return set(PRONOUNS) | set(lex.pronouns)
 
 
@@ -434,7 +460,7 @@ def tag_roles(tokens: List[str]) -> List[Dict[str, Any]]:
     n = len(tokens)
     roles: List[Optional[str]] = [None] * n
     lowers = [strip_punct(t).lower() for t in tokens]
-    lex = get_lexicon(MATERIALS)
+    lex = get_lexicon(MATERIALS, DIALECT.get("vocab"))
     pronouns = _merged_pronouns()
     adverbs = set(ADVERBS)
 
@@ -883,7 +909,7 @@ def sentences_from_unit_file(
                 "class_id": str(data.get("class_id", "16")),
                 "title": data.get("class_name") or "問候道別謝謝",
                 "source_url": source_url_sentence("junior", data.get("type_id", "2"), data.get("class_id", "16")),
-                "dialect": "馬蘭阿美語",
+                "dialect": DIALECT_NAME,
                 "hand_tuned": True,
                 "sentences": hand_tuned,
             },
@@ -932,7 +958,7 @@ def sentences_from_unit_file(
         "class_id": class_id,
         "title": data.get("class_name") or unit_id,
         "source_url": source_url_sentence(level, type_id, class_id),
-        "dialect": "馬蘭阿美語",
+        "dialect": DIALECT_NAME,
         "sentences": sentences,
     }
     return meta, len(sentences)
@@ -985,7 +1011,7 @@ def process_sentence_modules() -> Tuple[List[Dict], Dict[str, int]]:
                     "id": unit_id,
                     "title": unit["title"],
                     "class_id": class_id,
-                    "path": f"data/units/{unit_id}.json",
+                    "path": f"{UNITS_REL}/{unit_id}.json",
                     "count": n,
                     "source_url": unit.get("source_url") or "",
                     "hand_tuned": bool(unit.get("hand_tuned")),
@@ -1050,7 +1076,7 @@ def process_talk() -> Tuple[Dict, int]:
             "title": data.get("book_name") or data.get("title_ch") or unit_id,
             "title_ab": data.get("title_ab") or "",
             "source_url": source_url_talk(book_id),
-            "dialect": "馬蘭阿美語",
+            "dialect": DIALECT_NAME,
             "sentences": sentences,
         }
         (UNITS_DIR / f"{unit_id}.json").write_text(
@@ -1059,7 +1085,7 @@ def process_talk() -> Tuple[Dict, int]:
         units_meta.append({
             "id": unit_id,
             "title": unit["title"],
-            "path": f"data/units/{unit_id}.json",
+            "path": f"{UNITS_REL}/{unit_id}.json",
             "count": len(sentences),
             "source_url": unit["source_url"],
         })
@@ -1119,7 +1145,7 @@ def process_dialogue() -> Tuple[Dict, int]:
             "stage": stage,
             "title": unit_title,
             "source_url": source_url_dialogue(scene, stage),
-            "dialect": "馬蘭阿美語",
+            "dialect": DIALECT_NAME,
             "sentences": sentences,
         }
         (UNITS_DIR / f"{unit_id}.json").write_text(
@@ -1128,7 +1154,7 @@ def process_dialogue() -> Tuple[Dict, int]:
         by_scene.setdefault(scene, []).append({
             "id": unit_id,
             "title": unit_title,
-            "path": f"data/units/{unit_id}.json",
+            "path": f"{UNITS_REL}/{unit_id}.json",
             "count": len(sentences),
             "source_url": unit["source_url"],
             "stage": stage,
@@ -1259,7 +1285,7 @@ def process_essay() -> Tuple[Dict, int]:
             "title": title,
             "theme": theme,
             "source_url": source_url_essay(scene, lesson),
-            "dialect": "馬蘭阿美語",
+            "dialect": DIALECT_NAME,
             "sentences": sentences,
         }
         (UNITS_DIR / f"{unit_id}.json").write_text(
@@ -1268,7 +1294,7 @@ def process_essay() -> Tuple[Dict, int]:
         units_meta.append({
             "id": unit_id,
             "title": title,
-            "path": f"data/units/{unit_id}.json",
+            "path": f"{UNITS_REL}/{unit_id}.json",
             "count": len(sentences),
             "source_url": unit["source_url"],
         })
@@ -1281,21 +1307,50 @@ def process_essay() -> Tuple[Dict, int]:
     return mod, total
 
 
-def write_catalog_js(catalog: Dict[str, Any]) -> None:
-    body = json.dumps(catalog, ensure_ascii=False, indent=2)
+def write_catalog_js(catalogs: Dict[str, Any]) -> None:
+    """Inline every built dialect catalog + the selector list (works on file://)."""
+    dialects = [
+        {"slug": d["slug"], "name": d["name"], "did": d["did"]}
+        for d in DIALECTS if d["slug"] in catalogs
+    ]
+    body = json.dumps(catalogs, ensure_ascii=False, indent=2)
     js = (
-        "/** Auto-generated catalog — module/type/unit index for sentence maps. */\n"
-        f"const CATALOG = {body};\n"
-        "if (typeof window !== 'undefined') window.CATALOG = CATALOG;\n"
+        "/** Auto-generated catalogs — per-dialect module/type/unit index for sentence maps. */\n"
+        f"const DIALECTS = {json.dumps(dialects, ensure_ascii=False)};\n"
+        f"const DEFAULT_DIALECT = {json.dumps(DEFAULT_DIALECT)};\n"
+        f"const CATALOGS = {body};\n"
+        "if (typeof window !== 'undefined') {\n"
+        "  window.DIALECTS = DIALECTS;\n"
+        "  window.DEFAULT_DIALECT = DEFAULT_DIALECT;\n"
+        "  window.CATALOGS = CATALOGS;\n"
+        "}\n"
     )
     (SITE / "catalog.js").write_text(js, encoding="utf-8")
+
+
+def apply_gloss_overrides() -> None:
+    """Dialect-specific hand fixes (exact token text → gloss_zh)."""
+    ov = DIALECT.get("gloss_overrides") or {}
+    if not ov:
+        return
+    for p in UNITS_DIR.glob("*.json"):
+        d = json.loads(p.read_text(encoding="utf-8"))
+        changed = False
+        for s in d.get("sentences") or []:
+            for t in s.get("tokens") or []:
+                g = ov.get(t.get("text"))
+                if g and t.get("gloss_zh") != g:
+                    t["gloss_zh"] = g
+                    changed = True
+        if changed:
+            p.write_text(json.dumps(d, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
 def write_data_js_greetings_fallback(greetings_unit: Dict[str, Any]) -> None:
     """Keep GREETINGS global for offline / file:// fallback of default unit."""
     payload = {
         "source": greetings_unit.get("source_url") or "",
-        "dialect": "馬蘭阿美語",
+        "dialect": DIALECT_NAME,
         "unit": greetings_unit.get("title") or "問候道別謝謝",
         "class_id": "16",
         "footer": "Klokah 句型篇國中版 · 馬蘭阿美語 · 問候道別謝謝",
@@ -1310,7 +1365,11 @@ def write_data_js_greetings_fallback(greetings_unit: Dict[str, Any]) -> None:
     (SITE / "data.js").write_text(js, encoding="utf-8")
 
 
-def main() -> None:
+def build_dialect(slug: str) -> Optional[Dict[str, Any]]:
+    configure(slug)
+    if not MATERIALS.is_dir():
+        print(f"SKIP {slug}: no materials at {MATERIALS}", file=sys.stderr)
+        return None
     UNITS_DIR.mkdir(parents=True, exist_ok=True)
     # clear old unit jsons
     for old in UNITS_DIR.glob("*.json"):
@@ -1335,8 +1394,9 @@ def main() -> None:
     grand = sum(counts.values())
 
     catalog = {
-        "dialect": "馬蘭阿美語",
-        "dialect_id": "4",
+        "dialect": DIALECT_NAME,
+        "dialect_id": KLOKAH_DID,
+        "dialect_slug": DIALECT["slug"],
         "default_unit": "junior_type2_class16",
         "generated_note": (
             "Auto-tagged sentence maps from Klokah gather. "
@@ -1351,14 +1411,14 @@ def main() -> None:
     CATALOG_JSON.write_text(
         json.dumps(catalog, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
-    write_catalog_js(catalog)
+    apply_gloss_overrides()
 
     # greetings fallback
     gpath = UNITS_DIR / "junior_type2_class16.json"
-    if gpath.exists():
+    if DIALECT.get("hand_tuned_greetings") and gpath.exists():
         write_data_js_greetings_fallback(json.loads(gpath.read_text(encoding="utf-8")))
 
-    print("=== Corpus build complete ===")
+    print(f"=== Corpus build complete: {DIALECT_NAME} (did={KLOKAH_DID}) ===")
     for k in ("junior", "senior", "talk", "dialogue", "essay"):
         print(f"  {k}: {counts[k]} sentences")
     print(f"  TOTAL: {grand}")
@@ -1366,6 +1426,28 @@ def main() -> None:
     print(f"  catalog: {CATALOG_JSON}")
     n_units = len(list(UNITS_DIR.glob('*.json')))
     print(f"  unit files: {n_units}")
+    return catalog
+
+
+def main() -> None:
+    import argparse
+    ap = argparse.ArgumentParser(description=__doc__)
+    ap.add_argument("--dialect", action="append",
+                    help="dialect slug(s) to rebuild (default: all with materials)")
+    args = ap.parse_args()
+    slugs = args.dialect or [d["slug"] for d in DIALECTS]
+    catalogs: Dict[str, Any] = {}
+    # keep catalogs of dialects not rebuilt this run
+    for d in DIALECTS:
+        cj = SITE / "data" / d["slug"] / "catalog.json"
+        if d["slug"] not in slugs and cj.exists():
+            catalogs[d["slug"]] = json.loads(cj.read_text(encoding="utf-8"))
+    for slug in slugs:
+        cat = build_dialect(slug)
+        if cat:
+            catalogs[slug] = cat
+    ordered = {d["slug"]: catalogs[d["slug"]] for d in DIALECTS if d["slug"] in catalogs}
+    write_catalog_js(ordered)
 
 
 if __name__ == "__main__":

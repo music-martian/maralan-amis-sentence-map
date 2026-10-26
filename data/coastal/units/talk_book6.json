@@ -1,0 +1,728 @@
+{
+  "id": "talk_book6",
+  "module": "talk",
+  "title": "問路",
+  "title_ab": "Milicay to lalan",
+  "source_url": "https://klokah.iformosa.com.tw/talk/learn/6",
+  "dialect": "海岸阿美語",
+  "sentences": [
+    {
+      "id": "001",
+      "amis": "Ira ko paisingan itini?",
+      "zh": "Milicayay：這裡有診所嗎？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "ira",
+          "text": "Ira",
+          "role": "pronoun",
+          "gloss_zh": "有",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "34其他",
+          "vocab_code": "34"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "pred",
+          "text": "paisingan",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "itini",
+          "text": "itini",
+          "role": "particle",
+          "gloss_zh": "在",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "ira",
+            "ko",
+            "pred",
+            "itini",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 paisingan 為中心（自動標記）"
+      },
+      "structure": "述語 paisingan 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/con_data/sound/3/sentence/3c6s1.mp3",
+      "audio_primary": true,
+      "speaker": "Milicayay"
+    },
+    {
+      "id": "002",
+      "amis": "Ira, tosa aca.",
+      "zh": "Mayaw：有，只有兩間。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "ira",
+          "text": "Ira",
+          "role": "pronoun",
+          "gloss_zh": "有",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "34其他",
+          "vocab_code": "34"
+        },
+        {
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "tosa",
+          "role": "pred2",
+          "gloss_zh": "二",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "01數字計量",
+          "vocab_code": "01"
+        },
+        {
+          "id": "aca",
+          "text": "aca",
+          "role": "particle",
+          "gloss_zh": "僅僅",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "ira",
+            "comma"
+          ],
+          [
+            "pred2",
+            "aca",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://klokah.tw/extension/con_data/sound/3/sentence/3c6s2.mp3",
+      "audio_primary": true,
+      "speaker": "Mayaw"
+    },
+    {
+      "id": "003",
+      "amis": "I cowa ko mangataay?",
+      "zh": "Milicayay：哪一間比較近呢？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "i",
+          "text": "I",
+          "role": "case",
+          "gloss_zh": "在",
+          "gloss_en": ""
+        },
+        {
+          "id": "cowa",
+          "text": "cowa",
+          "role": "adverb",
+          "gloss_zh": "副詞",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "pred",
+          "text": "mangataay",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "i",
+            "cowa",
+            "ko",
+            "pred",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 mangataay 為中心（自動標記）"
+      },
+      "structure": "述語 mangataay 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/con_data/sound/3/sentence/3c6s3.mp3",
+      "audio_primary": true,
+      "speaker": "Milicayay"
+    },
+    {
+      "id": "004",
+      "amis": "I ti:raw tora takara:way a lomaʼ ko mangataay.",
+      "zh": "Mayaw：在那棟高高的大樓是比較近的。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "i",
+          "text": "I",
+          "role": "case",
+          "gloss_zh": "在",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred",
+          "text": "ti:raw",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "tora",
+          "text": "tora",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "takaraway",
+          "text": "takara:way",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "a",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "連繫",
+          "gloss_en": ""
+        },
+        {
+          "id": "loma",
+          "text": "lomaʼ",
+          "role": "noun",
+          "gloss_zh": "家",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "12建築",
+          "vocab_code": "12"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "mangataay",
+          "text": "mangataay",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "i",
+            "pred",
+            "tora",
+            "takaraway",
+            "a",
+            "loma",
+            "ko",
+            "mangataay",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 ti:raw 為中心（自動標記）"
+      },
+      "structure": "述語 ti:raw 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/con_data/sound/3/sentence/3c6s4.mp3",
+      "audio_primary": true,
+      "speaker": "Mayaw"
+    },
+    {
+      "id": "005",
+      "amis": "Pafesot han pakayni ko rakat?",
+      "zh": "Milicayay：從這裡直走嗎？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Pafesot",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "han",
+          "text": "han",
+          "role": "noun",
+          "gloss_zh": "助詞",
+          "gloss_en": ""
+        },
+        {
+          "id": "pakayni",
+          "text": "pakayni",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "rakat",
+          "text": "rakat",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "han",
+            "pakayni",
+            "ko",
+            "rakat",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Pafesot 為中心（自動標記）"
+      },
+      "structure": "述語 Pafesot 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/con_data/sound/3/sentence/3c6s5.mp3",
+      "audio_primary": true,
+      "speaker": "Milicayay"
+    },
+    {
+      "id": "006",
+      "amis": "Hai, caay karaay.",
+      "zh": "Mayaw：是的，不會遠。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "hai",
+          "text": "Hai",
+          "role": "particle",
+          "gloss_zh": "是嗎",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "caay",
+          "text": "caay",
+          "role": "adverb",
+          "gloss_zh": "不是[回答用]",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "karaay",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "hai",
+            "comma"
+          ],
+          [
+            "caay",
+            "pred2",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://klokah.tw/extension/con_data/sound/3/sentence/3c6s6.mp3",
+      "audio_primary": true,
+      "speaker": "Mayaw"
+    },
+    {
+      "id": "007",
+      "amis": "Mafanaʼ kiso i cowa ko patiyamay hani?",
+      "zh": "Milicayay：你知道商店在哪裡呢？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Mafanaʼ",
+          "role": "pred",
+          "gloss_zh": "知道",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "28認知感官",
+          "vocab_code": "28"
+        },
+        {
+          "id": "kiso",
+          "text": "kiso",
+          "role": "pronoun",
+          "gloss_zh": "你",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "i",
+          "text": "i",
+          "role": "case",
+          "gloss_zh": "在",
+          "gloss_en": ""
+        },
+        {
+          "id": "cowa",
+          "text": "cowa",
+          "role": "adverb",
+          "gloss_zh": "副詞",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "patiyamay",
+          "text": "patiyamay",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "hani",
+          "text": "hani",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "kiso",
+            "i",
+            "cowa",
+            "ko",
+            "patiyamay",
+            "hani",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Mafanaʼ 為中心（自動標記）"
+      },
+      "structure": "述語 Mafanaʼ 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/con_data/sound/3/sentence/3c6s7.mp3",
+      "audio_primary": true,
+      "speaker": "Milicayay"
+    },
+    {
+      "id": "008",
+      "amis": "Ira i tiraw.",
+      "zh": "Mayaw：就在那裡。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "ira",
+          "text": "Ira",
+          "role": "pronoun",
+          "gloss_zh": "有",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "34其他",
+          "vocab_code": "34"
+        },
+        {
+          "id": "i",
+          "text": "i",
+          "role": "case",
+          "gloss_zh": "在",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred",
+          "text": "tiraw",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "ira",
+            "i",
+            "pred",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 tiraw 為中心（自動標記）"
+      },
+      "structure": "述語 tiraw 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/con_data/sound/3/sentence/3c6s8.mp3",
+      "audio_primary": true,
+      "speaker": "Mayaw"
+    },
+    {
+      "id": "009",
+      "amis": "I sakacowa nora kongyen?",
+      "zh": "Milicayay：在公園的哪一邊？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "i",
+          "text": "I",
+          "role": "case",
+          "gloss_zh": "在",
+          "gloss_en": ""
+        },
+        {
+          "id": "sakacowa",
+          "text": "sakacowa",
+          "role": "particle",
+          "gloss_zh": "什麼地方",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
+        },
+        {
+          "id": "pred",
+          "text": "nora",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kongyen",
+          "text": "kongyen",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "i",
+            "sakacowa",
+            "pred",
+            "kongyen",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 nora 為中心（自動標記）"
+      },
+      "structure": "述語 nora 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/con_data/sound/3/sentence/3c6s9.mp3",
+      "audio_primary": true,
+      "speaker": "Milicayay"
+    },
+    {
+      "id": "010",
+      "amis": "I sakatimol nora kongyen.",
+      "zh": "Mayaw：在那座公園的南邊。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "i",
+          "text": "I",
+          "role": "case",
+          "gloss_zh": "在",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred",
+          "text": "sakatimol",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "nora",
+          "text": "nora",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kongyen",
+          "text": "kongyen",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "i",
+            "pred",
+            "nora",
+            "kongyen",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 sakatimol 為中心（自動標記）"
+      },
+      "structure": "述語 sakatimol 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/con_data/sound/3/sentence/3c6s10.mp3",
+      "audio_primary": true,
+      "speaker": "Mayaw"
+    }
+  ]
+}

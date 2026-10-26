@@ -1,0 +1,1230 @@
+{
+  "id": "junior_type5_class31",
+  "module": "junior",
+  "type_id": "5",
+  "type_name": "選擇題（二）",
+  "class_id": "31",
+  "title": "訊息問句[問姓名或關係]",
+  "source_url": "https://klokah.iformosa.com.tw/sentence/junior/learn/3/5/31/1",
+  "dialect": "海岸阿美語",
+  "sentences": [
+    {
+      "id": "001",
+      "amis": "Cima ko ngangan no mama iso?",
+      "zh": "你爸爸叫甚麼名字？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Cima",
+          "role": "pred",
+          "gloss_zh": "誰",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "ngangan",
+          "text": "ngangan",
+          "role": "noun",
+          "gloss_zh": "名字",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
+        },
+        {
+          "id": "no",
+          "text": "no",
+          "role": "case",
+          "gloss_zh": "屬格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "mama",
+          "text": "mama",
+          "role": "noun",
+          "gloss_zh": "爸爸",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "04親屬稱謂",
+          "vocab_code": "04"
+        },
+        {
+          "id": "iso",
+          "text": "iso",
+          "role": "pronoun",
+          "gloss_zh": "你的",
+          "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "ngangan",
+            "iso",
+            "q"
+          ]
+        ],
+        "hangs": {
+          "ngangan": [
+            "no",
+            "mama"
+          ]
+        },
+        "plus_between_groups": false,
+        "structure": "述語為中心；屬格 no/nu 掛於名詞下（自動）"
+      },
+      "structure": "述語為中心；屬格 no/nu 掛於名詞下（自動）",
+      "audio": "https://klokah.tw/extension/sp_junior/sound/3/5choiceTwo/1_1_A.mp3",
+      "audio_primary": true,
+      "learn_id": 1
+    },
+    {
+      "id": "002",
+      "amis": "Cima ko ngangan no akong iso?",
+      "zh": "你祖父叫甚麼名字？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Cima",
+          "role": "pred",
+          "gloss_zh": "誰",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "ngangan",
+          "text": "ngangan",
+          "role": "noun",
+          "gloss_zh": "名字",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
+        },
+        {
+          "id": "no",
+          "text": "no",
+          "role": "case",
+          "gloss_zh": "屬格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "akong",
+          "text": "akong",
+          "role": "noun",
+          "gloss_zh": "男性長輩",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "04親屬稱謂",
+          "vocab_code": "04"
+        },
+        {
+          "id": "iso",
+          "text": "iso",
+          "role": "pronoun",
+          "gloss_zh": "你的",
+          "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "ngangan",
+            "iso",
+            "q"
+          ]
+        ],
+        "hangs": {
+          "ngangan": [
+            "no",
+            "akong"
+          ]
+        },
+        "plus_between_groups": false,
+        "structure": "述語為中心；屬格 no/nu 掛於名詞下（自動）"
+      },
+      "structure": "述語為中心；屬格 no/nu 掛於名詞下（自動）",
+      "audio": "https://klokah.tw/extension/sp_junior/sound/3/5choiceTwo/1_1_B.mp3",
+      "audio_primary": true,
+      "learn_id": 1
+    },
+    {
+      "id": "003",
+      "amis": "Cima ko ngangan no singsi iso?",
+      "zh": "你老師叫甚麼名字？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Cima",
+          "role": "pred",
+          "gloss_zh": "誰",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "ngangan",
+          "text": "ngangan",
+          "role": "noun",
+          "gloss_zh": "名字",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
+        },
+        {
+          "id": "no",
+          "text": "no",
+          "role": "case",
+          "gloss_zh": "屬格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "singsi",
+          "text": "singsi",
+          "role": "noun",
+          "gloss_zh": "老師",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
+        },
+        {
+          "id": "iso",
+          "text": "iso",
+          "role": "pronoun",
+          "gloss_zh": "你的",
+          "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "ngangan",
+            "iso",
+            "q"
+          ]
+        ],
+        "hangs": {
+          "ngangan": [
+            "no",
+            "singsi"
+          ]
+        },
+        "plus_between_groups": false,
+        "structure": "述語為中心；屬格 no/nu 掛於名詞下（自動）"
+      },
+      "structure": "述語為中心；屬格 no/nu 掛於名詞下（自動）",
+      "audio": "https://klokah.tw/extension/sp_junior/sound/3/5choiceTwo/1_1_C.mp3",
+      "audio_primary": true,
+      "learn_id": 1
+    },
+    {
+      "id": "004",
+      "amis": "Cima ko ngangan no kaka nira?",
+      "zh": "他姊姊叫甚麼名字？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Cima",
+          "role": "pred",
+          "gloss_zh": "誰",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "ngangan",
+          "text": "ngangan",
+          "role": "noun",
+          "gloss_zh": "名字",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
+        },
+        {
+          "id": "no",
+          "text": "no",
+          "role": "case",
+          "gloss_zh": "屬格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "kaka",
+          "text": "kaka",
+          "role": "noun",
+          "gloss_zh": "兄長",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "04親屬稱謂",
+          "vocab_code": "04"
+        },
+        {
+          "id": "nira",
+          "text": "nira",
+          "role": "pronoun",
+          "gloss_zh": "他",
+          "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "ngangan",
+            "nira",
+            "q"
+          ]
+        ],
+        "hangs": {
+          "ngangan": [
+            "no",
+            "kaka"
+          ]
+        },
+        "plus_between_groups": false,
+        "structure": "述語為中心；屬格 no/nu 掛於名詞下（自動）"
+      },
+      "structure": "述語為中心；屬格 no/nu 掛於名詞下（自動）",
+      "audio": "https://klokah.tw/extension/sp_junior/sound/3/5choiceTwo/1_2_A.mp3",
+      "audio_primary": true,
+      "learn_id": 2
+    },
+    {
+      "id": "005",
+      "amis": "Cima ko ngangan ni ama nira?",
+      "zh": "他祖母叫甚麼名字？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Cima",
+          "role": "pred",
+          "gloss_zh": "誰",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "ngangan",
+          "text": "ngangan",
+          "role": "noun",
+          "gloss_zh": "名字",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
+        },
+        {
+          "id": "ni",
+          "text": "ni",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ama",
+          "text": "ama",
+          "role": "noun",
+          "gloss_zh": "女性長輩",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "04親屬稱謂",
+          "vocab_code": "04"
+        },
+        {
+          "id": "nira",
+          "text": "nira",
+          "role": "pronoun",
+          "gloss_zh": "他",
+          "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "ngangan",
+            "ni",
+            "ama",
+            "nira",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Cima 為中心（自動標記）"
+      },
+      "structure": "述語 Cima 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/sp_junior/sound/3/5choiceTwo/1_2_B.mp3",
+      "audio_primary": true,
+      "learn_id": 2
+    },
+    {
+      "id": "006",
+      "amis": "Cima ko ngangan ni ina nira?",
+      "zh": "他媽媽叫甚麼名字？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Cima",
+          "role": "pred",
+          "gloss_zh": "誰",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "ngangan",
+          "text": "ngangan",
+          "role": "noun",
+          "gloss_zh": "名字",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
+        },
+        {
+          "id": "ni",
+          "text": "ni",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ina",
+          "text": "ina",
+          "role": "noun",
+          "gloss_zh": "媽媽",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "04親屬稱謂",
+          "vocab_code": "04"
+        },
+        {
+          "id": "nira",
+          "text": "nira",
+          "role": "pronoun",
+          "gloss_zh": "他",
+          "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "ngangan",
+            "ni",
+            "ina",
+            "nira",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Cima 為中心（自動標記）"
+      },
+      "structure": "述語 Cima 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/sp_junior/sound/3/5choiceTwo/1_2_C.mp3",
+      "audio_primary": true,
+      "learn_id": 2
+    },
+    {
+      "id": "007",
+      "amis": "Cima ko ngangan nora ising?",
+      "zh": "那個醫生叫甚麼名字？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Cima",
+          "role": "pred",
+          "gloss_zh": "誰",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "ngangan",
+          "text": "ngangan",
+          "role": "noun",
+          "gloss_zh": "名字",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
+        },
+        {
+          "id": "nora",
+          "text": "nora",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ising",
+          "text": "ising",
+          "role": "noun",
+          "gloss_zh": "醫生",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "ngangan",
+            "nora",
+            "ising",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Cima 為中心（自動標記）"
+      },
+      "structure": "述語 Cima 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/sp_junior/sound/3/5choiceTwo/1_3_A.mp3",
+      "audio_primary": true,
+      "learn_id": 3
+    },
+    {
+      "id": "008",
+      "amis": "Cima ko ngangan nora singsi?",
+      "zh": "那個老師叫甚麼名字？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Cima",
+          "role": "pred",
+          "gloss_zh": "誰",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "ngangan",
+          "text": "ngangan",
+          "role": "noun",
+          "gloss_zh": "名字",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
+        },
+        {
+          "id": "nora",
+          "text": "nora",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "singsi",
+          "text": "singsi",
+          "role": "noun",
+          "gloss_zh": "老師",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "ngangan",
+            "nora",
+            "singsi",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Cima 為中心（自動標記）"
+      },
+      "structure": "述語 Cima 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/sp_junior/sound/3/5choiceTwo/1_3_B.mp3",
+      "audio_primary": true,
+      "learn_id": 3
+    },
+    {
+      "id": "009",
+      "amis": "Cima ko ngangan nora mitiliday?",
+      "zh": "那個學生叫甚麼名字？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Cima",
+          "role": "pred",
+          "gloss_zh": "誰",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "ngangan",
+          "text": "ngangan",
+          "role": "noun",
+          "gloss_zh": "名字",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
+        },
+        {
+          "id": "nora",
+          "text": "nora",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "mitiliday",
+          "text": "mitiliday",
+          "role": "noun",
+          "gloss_zh": "學生",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "ngangan",
+            "nora",
+            "mitiliday",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Cima 為中心（自動標記）"
+      },
+      "structure": "述語 Cima 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/sp_junior/sound/3/5choiceTwo/1_3_C.mp3",
+      "audio_primary": true,
+      "learn_id": 3
+    },
+    {
+      "id": "010",
+      "amis": "Cima ko ngangan nora fafahiyan?",
+      "zh": "那個女人叫甚麼名字？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Cima",
+          "role": "pred",
+          "gloss_zh": "誰",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "ngangan",
+          "text": "ngangan",
+          "role": "noun",
+          "gloss_zh": "名字",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
+        },
+        {
+          "id": "nora",
+          "text": "nora",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "fafahiyan",
+          "text": "fafahiyan",
+          "role": "noun",
+          "gloss_zh": "女性",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "ngangan",
+            "nora",
+            "fafahiyan",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Cima 為中心（自動標記）"
+      },
+      "structure": "述語 Cima 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/sp_junior/sound/3/5choiceTwo/1_4_A.mp3",
+      "audio_primary": true,
+      "learn_id": 4
+    },
+    {
+      "id": "011",
+      "amis": "Cima ko ngangan nora faʼinayan?",
+      "zh": "那個男人叫甚麼名字？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Cima",
+          "role": "pred",
+          "gloss_zh": "誰",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "ngangan",
+          "text": "ngangan",
+          "role": "noun",
+          "gloss_zh": "名字",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
+        },
+        {
+          "id": "nora",
+          "text": "nora",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "fainayan",
+          "text": "faʼinayan",
+          "role": "noun",
+          "gloss_zh": "男性",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "ngangan",
+            "nora",
+            "fainayan",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Cima 為中心（自動標記）"
+      },
+      "structure": "述語 Cima 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/sp_junior/sound/3/5choiceTwo/1_4_B.mp3",
+      "audio_primary": true,
+      "learn_id": 4
+    },
+    {
+      "id": "012",
+      "amis": "Cima ko ngangan nora matoʼasay?",
+      "zh": "那個老人叫甚麼名字？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Cima",
+          "role": "pred",
+          "gloss_zh": "誰",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "ngangan",
+          "text": "ngangan",
+          "role": "noun",
+          "gloss_zh": "名字",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
+        },
+        {
+          "id": "nora",
+          "text": "nora",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "matoasay",
+          "text": "matoʼasay",
+          "role": "noun",
+          "gloss_zh": "老人家",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "ngangan",
+            "nora",
+            "matoasay",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Cima 為中心（自動標記）"
+      },
+      "structure": "述語 Cima 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/sp_junior/sound/3/5choiceTwo/1_4_C.mp3",
+      "audio_primary": true,
+      "learn_id": 4
+    },
+    {
+      "id": "013",
+      "amis": "Cima kora matoʼasay?",
+      "zh": "那個老人是誰？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Cima",
+          "role": "pred",
+          "gloss_zh": "誰",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
+        },
+        {
+          "id": "kora",
+          "text": "kora",
+          "role": "noun",
+          "gloss_zh": "那個",
+          "gloss_en": ""
+        },
+        {
+          "id": "matoasay",
+          "text": "matoʼasay",
+          "role": "noun",
+          "gloss_zh": "老人家",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "kora",
+            "matoasay",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Cima 為中心（自動標記）"
+      },
+      "structure": "述語 Cima 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/sp_junior/sound/3/5choiceTwo/1_5_A.mp3",
+      "audio_primary": true,
+      "learn_id": 5
+    },
+    {
+      "id": "014",
+      "amis": "Cima kora faʼinayan?",
+      "zh": "那個男人是誰？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Cima",
+          "role": "pred",
+          "gloss_zh": "誰",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
+        },
+        {
+          "id": "kora",
+          "text": "kora",
+          "role": "noun",
+          "gloss_zh": "那個",
+          "gloss_en": ""
+        },
+        {
+          "id": "fainayan",
+          "text": "faʼinayan",
+          "role": "noun",
+          "gloss_zh": "男性",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "kora",
+            "fainayan",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Cima 為中心（自動標記）"
+      },
+      "structure": "述語 Cima 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/sp_junior/sound/3/5choiceTwo/1_5_B.mp3",
+      "audio_primary": true,
+      "learn_id": 5
+    },
+    {
+      "id": "015",
+      "amis": "Cima kora wawa?",
+      "zh": "那個小孩是誰？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Cima",
+          "role": "pred",
+          "gloss_zh": "誰",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
+        },
+        {
+          "id": "kora",
+          "text": "kora",
+          "role": "noun",
+          "gloss_zh": "那個",
+          "gloss_en": ""
+        },
+        {
+          "id": "wawa",
+          "text": "wawa",
+          "role": "noun",
+          "gloss_zh": "小孩",
+          "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "kora",
+            "wawa",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Cima 為中心（自動標記）"
+      },
+      "structure": "述語 Cima 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/sp_junior/sound/3/5choiceTwo/1_5_C.mp3",
+      "audio_primary": true,
+      "learn_id": 5
+    }
+  ]
+}

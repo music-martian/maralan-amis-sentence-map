@@ -1,0 +1,3197 @@
+{
+  "id": "dialogue_s10_l1",
+  "module": "dialogue",
+  "scene": 10,
+  "stage": 1,
+  "title": "情境10 · 中高級 · 對話練習(一)",
+  "source_url": "https://klokah.iformosa.com.tw/dialogue/d3/s10/l1/talking",
+  "dialect": "海岸阿美語",
+  "sentences": [
+    {
+      "id": "001",
+      "amis": "Ngaʼayho, o maan ko aʼacaen iso?",
+      "zh": "A:你好，你要買什麼?",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Ngaʼayho",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "o",
+          "role": "pred2",
+          "gloss_zh": "主題",
+          "gloss_en": ""
+        },
+        {
+          "id": "maan",
+          "text": "maan",
+          "role": "particle",
+          "gloss_zh": "什麼",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "aacaen",
+          "text": "aʼacaen",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "iso",
+          "text": "iso",
+          "role": "pronoun",
+          "gloss_zh": "你的",
+          "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "comma"
+          ],
+          [
+            "pred2",
+            "maan",
+            "ko",
+            "aacaen",
+            "iso",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://web.klokah.tw/text/sound/26961/441538.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "002",
+      "amis": "Miʼaca kako to cecay a kokpo.",
+      "zh": "B:我要買一個杯子。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Miʼaca",
+          "role": "pred",
+          "gloss_zh": "買",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "25行動",
+          "vocab_code": "25"
+        },
+        {
+          "id": "kako",
+          "text": "kako",
+          "role": "pronoun",
+          "gloss_zh": "我",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "斜格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "cecay",
+          "text": "cecay",
+          "role": "noun",
+          "gloss_zh": "一",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "01數字計量",
+          "vocab_code": "01"
+        },
+        {
+          "id": "a",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "連繫",
+          "gloss_en": ""
+        },
+        {
+          "id": "kokpo",
+          "text": "kokpo",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "kako",
+            "to",
+            "cecay",
+            "a",
+            "kokpo",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Miʼaca 為中心（自動標記）"
+      },
+      "structure": "述語 Miʼaca 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26961/441539.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "003",
+      "amis": "Ngaʼayho? O maan ko aʼacaen iso?",
+      "zh": "A:你好，你要買什麼?",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Ngaʼayho",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "o",
+          "text": "O",
+          "role": "noun",
+          "gloss_zh": "主題",
+          "gloss_en": ""
+        },
+        {
+          "id": "maan",
+          "text": "maan",
+          "role": "particle",
+          "gloss_zh": "什麼",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "aacaen",
+          "text": "aʼacaen",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "iso",
+          "text": "iso",
+          "role": "pronoun",
+          "gloss_zh": "你的",
+          "gloss_en": ""
+        },
+        {
+          "id": "q_3",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "q",
+            "o",
+            "maan",
+            "ko",
+            "aacaen",
+            "iso",
+            "q_3"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Ngaʼayho 為中心（自動標記）"
+      },
+      "structure": "述語 Ngaʼayho 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26961/441540.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "004",
+      "amis": "Miʼaca kako to cecay a kafong.",
+      "zh": "B:我要買一頂帽子。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Miʼaca",
+          "role": "pred",
+          "gloss_zh": "買",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "25行動",
+          "vocab_code": "25"
+        },
+        {
+          "id": "kako",
+          "text": "kako",
+          "role": "pronoun",
+          "gloss_zh": "我",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "斜格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "cecay",
+          "text": "cecay",
+          "role": "noun",
+          "gloss_zh": "一",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "01數字計量",
+          "vocab_code": "01"
+        },
+        {
+          "id": "a",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "連繫",
+          "gloss_en": ""
+        },
+        {
+          "id": "kafong",
+          "text": "kafong",
+          "role": "noun",
+          "gloss_zh": "帽子",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "18織布服飾",
+          "vocab_code": "18"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "kako",
+            "to",
+            "cecay",
+            "a",
+            "kafong",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Miʼaca 為中心（自動標記）"
+      },
+      "structure": "述語 Miʼaca 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26961/441541.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "005",
+      "amis": "Miʼaca kako to kokpo, miliwalay kiso haw?",
+      "zh": "A:我要買杯子，你們有賣嗎?",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Miʼaca",
+          "role": "pred",
+          "gloss_zh": "買",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "25行動",
+          "vocab_code": "25"
+        },
+        {
+          "id": "kako",
+          "text": "kako",
+          "role": "pronoun",
+          "gloss_zh": "我",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "斜格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "kokpo",
+          "text": "kokpo",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "miliwalay",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kiso",
+          "text": "kiso",
+          "role": "pronoun",
+          "gloss_zh": "你",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "haw",
+          "text": "haw",
+          "role": "particle",
+          "gloss_zh": "助詞",
+          "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "kako",
+            "to",
+            "kokpo",
+            "comma"
+          ],
+          [
+            "pred2",
+            "kiso",
+            "haw",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://web.klokah.tw/text/sound/26961/441542.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "006",
+      "amis": "Iraay, pina ko aʼacaen iso.",
+      "zh": "B:有，你要買幾個?",
+      "en": "",
+      "tokens": [
+        {
+          "id": "iraay",
+          "text": "Iraay",
+          "role": "adverb",
+          "gloss_zh": "有；擁有",
+          "gloss_en": ""
+        },
+        {
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pina",
+          "text": "pina",
+          "role": "particle",
+          "gloss_zh": "多少",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "pred2",
+          "text": "aʼacaen",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "iso",
+          "text": "iso",
+          "role": "pronoun",
+          "gloss_zh": "你的",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "iraay",
+            "comma"
+          ],
+          [
+            "pina",
+            "ko",
+            "pred2",
+            "iso",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://web.klokah.tw/text/sound/26961/441543.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "007",
+      "amis": "Miliwalay kiso to ʼicep haw?",
+      "zh": "A:你們有賣檳榔嗎?",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Miliwalay",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kiso",
+          "text": "kiso",
+          "role": "pronoun",
+          "gloss_zh": "你",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "斜格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "icep",
+          "text": "ʼicep",
+          "role": "noun",
+          "gloss_zh": "檳榔",
+          "gloss_en": "",
+          "level": "中高級",
+          "vocab_cat": "08植物",
+          "vocab_code": "08"
+        },
+        {
+          "id": "haw",
+          "text": "haw",
+          "role": "particle",
+          "gloss_zh": "助詞",
+          "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "kiso",
+            "to",
+            "icep",
+            "haw",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Miliwalay 為中心（自動標記）"
+      },
+      "structure": "述語 Miliwalay 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26961/441544.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "008",
+      "amis": "Awaay, cowa kapiliwal kako to ʼicep.",
+      "zh": "B:沒有，我們沒有賣檳榔。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Awaay",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "cowa",
+          "text": "cowa",
+          "role": "adverb",
+          "gloss_zh": "副詞",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "kapiliwal",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kako",
+          "text": "kako",
+          "role": "pronoun",
+          "gloss_zh": "我",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "斜格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "icep",
+          "text": "ʼicep",
+          "role": "noun",
+          "gloss_zh": "檳榔",
+          "gloss_en": "",
+          "level": "中高級",
+          "vocab_cat": "08植物",
+          "vocab_code": "08"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "comma"
+          ],
+          [
+            "cowa",
+            "pred2",
+            "kako",
+            "to",
+            "icep",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://web.klokah.tw/text/sound/26961/441545.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "009",
+      "amis": "Miʼaca kako to felac.",
+      "zh": "A:我要買米。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Miʼaca",
+          "role": "pred",
+          "gloss_zh": "買",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "25行動",
+          "vocab_code": "25"
+        },
+        {
+          "id": "kako",
+          "text": "kako",
+          "role": "pronoun",
+          "gloss_zh": "我",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "斜格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "felac",
+          "text": "felac",
+          "role": "noun",
+          "gloss_zh": "白米",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "21食物(非植物)",
+          "vocab_code": "21"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "kako",
+            "to",
+            "felac",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Miʼaca 為中心（自動標記）"
+      },
+      "structure": "述語 Miʼaca 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26961/441546.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "010",
+      "amis": "Pina a lofoc ko ʼacaen iso?",
+      "zh": "B:你要買幾包?",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Pina",
+          "role": "pred",
+          "gloss_zh": "多少",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
+        },
+        {
+          "id": "a",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "連繫",
+          "gloss_en": ""
+        },
+        {
+          "id": "lofoc",
+          "text": "lofoc",
+          "role": "noun",
+          "gloss_zh": "袋子",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "09物品(不含食品)",
+          "vocab_code": "09"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "acaen",
+          "text": "ʼacaen",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "iso",
+          "text": "iso",
+          "role": "pronoun",
+          "gloss_zh": "你的",
+          "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "a",
+            "lofoc",
+            "ko",
+            "acaen",
+            "iso",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Pina 為中心（自動標記）"
+      },
+      "structure": "述語 Pina 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26961/441547.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "011",
+      "amis": "Pafelien kako to tolo a lofoc.",
+      "zh": "A:給我三包。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Pafelien",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kako",
+          "text": "kako",
+          "role": "pronoun",
+          "gloss_zh": "我",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "斜格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "tolo",
+          "text": "tolo",
+          "role": "noun",
+          "gloss_zh": "三",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "01數字計量",
+          "vocab_code": "01"
+        },
+        {
+          "id": "a",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "連繫",
+          "gloss_en": ""
+        },
+        {
+          "id": "lofoc",
+          "text": "lofoc",
+          "role": "noun",
+          "gloss_zh": "袋子",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "09物品(不含食品)",
+          "vocab_code": "09"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "kako",
+            "to",
+            "tolo",
+            "a",
+            "lofoc",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Pafelien 為中心（自動標記）"
+      },
+      "structure": "述語 Pafelien 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26961/441548.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "012",
+      "amis": "Miʼaca kako to konga.",
+      "zh": "A:我要買地瓜。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Miʼaca",
+          "role": "pred",
+          "gloss_zh": "買",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "25行動",
+          "vocab_code": "25"
+        },
+        {
+          "id": "kako",
+          "text": "kako",
+          "role": "pronoun",
+          "gloss_zh": "我",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "斜格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "konga",
+          "text": "konga",
+          "role": "noun",
+          "gloss_zh": "甘藷",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "08植物",
+          "vocab_code": "08"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "kako",
+            "to",
+            "konga",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Miʼaca 為中心（自動標記）"
+      },
+      "structure": "述語 Miʼaca 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26961/441549.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "013",
+      "amis": "Maeminayto a maliwal ko konga.",
+      "zh": "B:地瓜都賣完了。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Maeminayto",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "a",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "連繫",
+          "gloss_en": ""
+        },
+        {
+          "id": "maliwal",
+          "text": "maliwal",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "konga",
+          "text": "konga",
+          "role": "noun",
+          "gloss_zh": "甘藷",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "08植物",
+          "vocab_code": "08"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "a",
+            "maliwal",
+            "ko",
+            "konga",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Maeminayto 為中心（自動標記）"
+      },
+      "structure": "述語 Maeminayto 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26961/441550.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "014",
+      "amis": "Miʼaca kako to simal tosa a talid.",
+      "zh": "A:我要買兩瓶油。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Miʼaca",
+          "role": "pred",
+          "gloss_zh": "買",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "25行動",
+          "vocab_code": "25"
+        },
+        {
+          "id": "kako",
+          "text": "kako",
+          "role": "pronoun",
+          "gloss_zh": "我",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "斜格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "simal",
+          "text": "simal",
+          "role": "noun",
+          "gloss_zh": "油脂",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "06身體部位",
+          "vocab_code": "06"
+        },
+        {
+          "id": "tosa",
+          "text": "tosa",
+          "role": "noun",
+          "gloss_zh": "二",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "01數字計量",
+          "vocab_code": "01"
+        },
+        {
+          "id": "a",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "連繫",
+          "gloss_en": ""
+        },
+        {
+          "id": "talid",
+          "text": "talid",
+          "role": "noun",
+          "gloss_zh": "瓶子",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "09物品(不含食品)",
+          "vocab_code": "09"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "kako",
+            "to",
+            "simal",
+            "tosa",
+            "a",
+            "talid",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Miʼaca 為中心（自動標記）"
+      },
+      "structure": "述語 Miʼaca 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26961/441551.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "015",
+      "amis": "Cecayto a talid ko ʼosaw.",
+      "zh": "B:我們只剩一瓶。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Cecayto",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "a",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "連繫",
+          "gloss_en": ""
+        },
+        {
+          "id": "talid",
+          "text": "talid",
+          "role": "noun",
+          "gloss_zh": "瓶子",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "09物品(不含食品)",
+          "vocab_code": "09"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "osaw",
+          "text": "ʼosaw",
+          "role": "noun",
+          "gloss_zh": "剩下",
+          "gloss_en": "",
+          "level": "中高級",
+          "vocab_cat": "34其他",
+          "vocab_code": "34"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "a",
+            "talid",
+            "ko",
+            "osaw",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Cecayto 為中心（自動標記）"
+      },
+      "structure": "述語 Cecayto 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26961/441552.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "016",
+      "amis": "Olili patadoen kako a miʼaca to fitaʼol.",
+      "zh": "A:去幫我買蛋。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Olili",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "patadoen",
+          "text": "patadoen",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kako",
+          "text": "kako",
+          "role": "pronoun",
+          "gloss_zh": "我",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "a",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "連繫",
+          "gloss_en": ""
+        },
+        {
+          "id": "miaca",
+          "text": "miʼaca",
+          "role": "noun",
+          "gloss_zh": "買",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "25行動",
+          "vocab_code": "25"
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "斜格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "fitaol",
+          "text": "fitaʼol",
+          "role": "noun",
+          "gloss_zh": "蛋",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "21食物(非植物)",
+          "vocab_code": "21"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "patadoen",
+            "kako",
+            "a",
+            "miaca",
+            "to",
+            "fitaol",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Olili 為中心（自動標記）"
+      },
+      "structure": "述語 Olili 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26961/441553.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "017",
+      "amis": "Pina a tingting ko ʼacaen iso.",
+      "zh": "B:你要買幾斤?",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Pina",
+          "role": "pred",
+          "gloss_zh": "多少",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
+        },
+        {
+          "id": "a",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "連繫",
+          "gloss_en": ""
+        },
+        {
+          "id": "tingting",
+          "text": "tingting",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "acaen",
+          "text": "ʼacaen",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "iso",
+          "text": "iso",
+          "role": "pronoun",
+          "gloss_zh": "你的",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "a",
+            "tingting",
+            "ko",
+            "acaen",
+            "iso",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Pina 為中心（自動標記）"
+      },
+      "structure": "述語 Pina 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26961/441554.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "018",
+      "amis": "Pina a tingting ko ʼacaen iso a fitaʼol?",
+      "zh": "A:你要買幾斤蛋?",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Pina",
+          "role": "pred",
+          "gloss_zh": "多少",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
+        },
+        {
+          "id": "a",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "連繫",
+          "gloss_en": ""
+        },
+        {
+          "id": "tingting",
+          "text": "tingting",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "acaen",
+          "text": "ʼacaen",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "iso",
+          "text": "iso",
+          "role": "pronoun",
+          "gloss_zh": "你的",
+          "gloss_en": ""
+        },
+        {
+          "id": "a_3",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "連繫",
+          "gloss_en": ""
+        },
+        {
+          "id": "fitaol",
+          "text": "fitaʼol",
+          "role": "noun",
+          "gloss_zh": "蛋",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "21食物(非植物)",
+          "vocab_code": "21"
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "a",
+            "tingting",
+            "ko",
+            "acaen",
+            "iso",
+            "a_3",
+            "fitaol",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Pina 為中心（自動標記）"
+      },
+      "structure": "述語 Pina 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26961/441555.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "019",
+      "amis": "Tosa a tingting ko ʼacaen ako.",
+      "zh": "B:我要買兩斤。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Tosa",
+          "role": "pred",
+          "gloss_zh": "二",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "01數字計量",
+          "vocab_code": "01"
+        },
+        {
+          "id": "a",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "連繫",
+          "gloss_en": ""
+        },
+        {
+          "id": "tingting",
+          "text": "tingting",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "acaen",
+          "text": "ʼacaen",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ako",
+          "text": "ako",
+          "role": "pronoun",
+          "gloss_zh": "我的",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "a",
+            "tingting",
+            "ko",
+            "acaen",
+            "ako",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Tosa 為中心（自動標記）"
+      },
+      "structure": "述語 Tosa 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26961/441556.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "020",
+      "amis": "Miʼaca kako to tosa a falod no kenaw.",
+      "zh": "A:我要買兩把蔥。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Miʼaca",
+          "role": "pred",
+          "gloss_zh": "買",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "25行動",
+          "vocab_code": "25"
+        },
+        {
+          "id": "kako",
+          "text": "kako",
+          "role": "pronoun",
+          "gloss_zh": "我",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "斜格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "tosa",
+          "text": "tosa",
+          "role": "noun",
+          "gloss_zh": "二",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "01數字計量",
+          "vocab_code": "01"
+        },
+        {
+          "id": "a",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "連繫",
+          "gloss_en": ""
+        },
+        {
+          "id": "falod",
+          "text": "falod",
+          "role": "noun",
+          "gloss_zh": "捆綁",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "26肢體動作",
+          "vocab_code": "26"
+        },
+        {
+          "id": "no",
+          "text": "no",
+          "role": "case",
+          "gloss_zh": "屬格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "kenaw",
+          "text": "kenaw",
+          "role": "noun",
+          "gloss_zh": "蔥",
+          "gloss_en": "",
+          "level": "中高級",
+          "vocab_cat": "08植物",
+          "vocab_code": "08"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "kako",
+            "to",
+            "tosa",
+            "a",
+            "falod",
+            "period"
+          ]
+        ],
+        "hangs": {
+          "falod": [
+            "no",
+            "kenaw"
+          ]
+        },
+        "plus_between_groups": false,
+        "structure": "述語為中心；屬格 no/nu 掛於名詞下（自動）"
+      },
+      "structure": "述語為中心；屬格 no/nu 掛於名詞下（自動）",
+      "audio": "https://web.klokah.tw/text/sound/26961/441557.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "021",
+      "amis": "Toloayto kona ʼosaw, emin han ako a pafeli kiso.",
+      "zh": "B:這裡剩三把，都給你啦!",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Toloayto",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kona",
+          "text": "kona",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "osaw",
+          "text": "ʼosaw",
+          "role": "noun",
+          "gloss_zh": "剩下",
+          "gloss_en": "",
+          "level": "中高級",
+          "vocab_cat": "34其他",
+          "vocab_code": "34"
+        },
+        {
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "emin",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "han",
+          "text": "han",
+          "role": "noun",
+          "gloss_zh": "助詞",
+          "gloss_en": ""
+        },
+        {
+          "id": "ako",
+          "text": "ako",
+          "role": "pronoun",
+          "gloss_zh": "我的",
+          "gloss_en": ""
+        },
+        {
+          "id": "a",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "連繫",
+          "gloss_en": ""
+        },
+        {
+          "id": "pafeli",
+          "text": "pafeli",
+          "role": "noun",
+          "gloss_zh": "給",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "25行動",
+          "vocab_code": "25"
+        },
+        {
+          "id": "kiso",
+          "text": "kiso",
+          "role": "pronoun",
+          "gloss_zh": "你",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "kona",
+            "osaw",
+            "comma"
+          ],
+          [
+            "pred2",
+            "han",
+            "ako",
+            "a",
+            "pafeli",
+            "kiso",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://web.klokah.tw/text/sound/26961/441558.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "022",
+      "amis": "Hakowaay ko ʼaca nona cecay lofoc no felac?",
+      "zh": "A:這包米多少錢?",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Hakowaay",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "aca",
+          "text": "ʼaca",
+          "role": "noun",
+          "gloss_zh": "價格",
+          "gloss_en": "",
+          "level": "中高級",
+          "vocab_cat": "24抽象名詞",
+          "vocab_code": "24"
+        },
+        {
+          "id": "nona",
+          "text": "nona",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "cecay",
+          "text": "cecay",
+          "role": "noun",
+          "gloss_zh": "一",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "01數字計量",
+          "vocab_code": "01"
+        },
+        {
+          "id": "lofoc",
+          "text": "lofoc",
+          "role": "noun",
+          "gloss_zh": "袋子",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "09物品(不含食品)",
+          "vocab_code": "09"
+        },
+        {
+          "id": "no",
+          "text": "no",
+          "role": "case",
+          "gloss_zh": "屬格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "felac",
+          "text": "felac",
+          "role": "noun",
+          "gloss_zh": "白米",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "21食物(非植物)",
+          "vocab_code": "21"
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "aca",
+            "nona",
+            "cecay",
+            "lofoc",
+            "q"
+          ]
+        ],
+        "hangs": {
+          "lofoc": [
+            "no",
+            "felac"
+          ]
+        },
+        "plus_between_groups": false,
+        "structure": "述語為中心；屬格 no/nu 掛於名詞下（自動）"
+      },
+      "structure": "述語為中心；屬格 no/nu 掛於名詞下（自動）",
+      "audio": "https://web.klokah.tw/text/sound/26961/441559.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "023",
+      "amis": "Tosa a soʼot no payso ko cecay lofoc.",
+      "zh": "B:一包200元。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Tosa",
+          "role": "pred",
+          "gloss_zh": "二",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "01數字計量",
+          "vocab_code": "01"
+        },
+        {
+          "id": "a",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "連繫",
+          "gloss_en": ""
+        },
+        {
+          "id": "soot",
+          "text": "soʼot",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "no",
+          "text": "no",
+          "role": "case",
+          "gloss_zh": "屬格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "payso",
+          "text": "payso",
+          "role": "noun",
+          "gloss_zh": "錢",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "09物品(不含食品)",
+          "vocab_code": "09"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "cecay",
+          "text": "cecay",
+          "role": "noun",
+          "gloss_zh": "一",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "01數字計量",
+          "vocab_code": "01"
+        },
+        {
+          "id": "lofoc",
+          "text": "lofoc",
+          "role": "noun",
+          "gloss_zh": "袋子",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "09物品(不含食品)",
+          "vocab_code": "09"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "a",
+            "soot",
+            "ko",
+            "cecay",
+            "lofoc",
+            "period"
+          ]
+        ],
+        "hangs": {
+          "soot": [
+            "no",
+            "payso"
+          ]
+        },
+        "plus_between_groups": false,
+        "structure": "述語為中心；屬格 no/nu 掛於名詞下（自動）"
+      },
+      "structure": "述語為中心；屬格 no/nu 掛於名詞下（自動）",
+      "audio": "https://web.klokah.tw/text/sound/26961/441560.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "024",
+      "amis": "O emin i tosapoloʼ ira ko cecay a rimood. tosaen aca a poloʼ a rimood.",
+      "zh": "A:總共21元，算20元就好。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "O",
+          "role": "pred",
+          "gloss_zh": "主題",
+          "gloss_en": ""
+        },
+        {
+          "id": "emin",
+          "text": "emin",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "i",
+          "text": "i",
+          "role": "case",
+          "gloss_zh": "在",
+          "gloss_en": ""
+        },
+        {
+          "id": "tosapolo",
+          "text": "tosapoloʼ",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ira",
+          "text": "ira",
+          "role": "pronoun",
+          "gloss_zh": "有",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "34其他",
+          "vocab_code": "34"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "cecay",
+          "text": "cecay",
+          "role": "noun",
+          "gloss_zh": "一",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "01數字計量",
+          "vocab_code": "01"
+        },
+        {
+          "id": "a",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "連繫",
+          "gloss_en": ""
+        },
+        {
+          "id": "rimood",
+          "text": "rimood",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "tosaen",
+          "text": "tosaen",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "aca",
+          "text": "aca",
+          "role": "particle",
+          "gloss_zh": "僅僅",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "a_3",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "連繫",
+          "gloss_en": ""
+        },
+        {
+          "id": "polo",
+          "text": "poloʼ",
+          "role": "noun",
+          "gloss_zh": "十",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "01數字計量",
+          "vocab_code": "01"
+        },
+        {
+          "id": "a_4",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "連繫",
+          "gloss_en": ""
+        },
+        {
+          "id": "rimood_3",
+          "text": "rimood",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "period_3",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "emin",
+            "i",
+            "tosapolo",
+            "ira",
+            "ko",
+            "cecay",
+            "a",
+            "rimood",
+            "period",
+            "tosaen",
+            "aca",
+            "a_3",
+            "polo",
+            "a_4",
+            "rimood_3",
+            "period_3"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "長句：線性排列（自動標記，結構簡化）"
+      },
+      "structure": "長句：線性排列（自動標記，結構簡化）",
+      "audio": "https://web.klokah.tw/text/sound/26961/441561.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "025",
+      "amis": "Ahowiday.",
+      "zh": "B:謝謝。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Ahowiday",
+          "role": "pred",
+          "gloss_zh": "B:謝謝。",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Ahowiday 為中心（自動標記）"
+      },
+      "structure": "述語 Ahowiday 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26961/441562.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "026",
+      "amis": "Onini siwa a poloʼ ira ko lima a rimood.",
+      "zh": "A:這裡95元。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Onini",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "siwa",
+          "text": "siwa",
+          "role": "noun",
+          "gloss_zh": "九",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "01數字計量",
+          "vocab_code": "01"
+        },
+        {
+          "id": "a",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "連繫",
+          "gloss_en": ""
+        },
+        {
+          "id": "polo",
+          "text": "poloʼ",
+          "role": "noun",
+          "gloss_zh": "十",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "01數字計量",
+          "vocab_code": "01"
+        },
+        {
+          "id": "ira",
+          "text": "ira",
+          "role": "pronoun",
+          "gloss_zh": "有",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "34其他",
+          "vocab_code": "34"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "lima",
+          "text": "lima",
+          "role": "noun",
+          "gloss_zh": "五",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "01數字計量",
+          "vocab_code": "01"
+        },
+        {
+          "id": "a_3",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "連繫",
+          "gloss_en": ""
+        },
+        {
+          "id": "rimood",
+          "text": "rimood",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "siwa",
+            "a",
+            "polo",
+            "ira",
+            "ko",
+            "lima",
+            "a_3",
+            "rimood",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Onini 為中心（自動標記）"
+      },
+      "structure": "述語 Onini 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26961/441563.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "027",
+      "amis": "Tongalen to miming. Sacecay han a soʼot a rimood.",
+      "zh": "B:我再買一點，湊100元。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Tongalen",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "斜格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "miming",
+          "text": "miming",
+          "role": "noun",
+          "gloss_zh": "一點點",
+          "gloss_en": "",
+          "level": "中高級",
+          "vocab_cat": "01數字計量",
+          "vocab_code": "01"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "sacecay",
+          "text": "Sacecay",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "han",
+          "text": "han",
+          "role": "noun",
+          "gloss_zh": "助詞",
+          "gloss_en": ""
+        },
+        {
+          "id": "a",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "連繫",
+          "gloss_en": ""
+        },
+        {
+          "id": "soot",
+          "text": "soʼot",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "a_3",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "連繫",
+          "gloss_en": ""
+        },
+        {
+          "id": "rimood",
+          "text": "rimood",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "period_3",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "to",
+            "miming",
+            "period",
+            "sacecay",
+            "han",
+            "a",
+            "soot",
+            "a_3",
+            "rimood",
+            "period_3"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Tongalen 為中心（自動標記）"
+      },
+      "structure": "述語 Tongalen 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26961/441564.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "028",
+      "amis": "O emin lima a soʼot ira ko motep a rimood.",
+      "zh": "A:全部510元。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "O",
+          "role": "pred",
+          "gloss_zh": "主題",
+          "gloss_en": ""
+        },
+        {
+          "id": "emin",
+          "text": "emin",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "lima",
+          "text": "lima",
+          "role": "noun",
+          "gloss_zh": "五",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "01數字計量",
+          "vocab_code": "01"
+        },
+        {
+          "id": "a",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "連繫",
+          "gloss_en": ""
+        },
+        {
+          "id": "soot",
+          "text": "soʼot",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ira",
+          "text": "ira",
+          "role": "pronoun",
+          "gloss_zh": "有",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "34其他",
+          "vocab_code": "34"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "motep",
+          "text": "motep",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "a_3",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "連繫",
+          "gloss_en": ""
+        },
+        {
+          "id": "rimood",
+          "text": "rimood",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "emin",
+            "lima",
+            "a",
+            "soot",
+            "ira",
+            "ko",
+            "motep",
+            "a_3",
+            "rimood",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 O 為中心（自動標記）"
+      },
+      "structure": "述語 O 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26961/441565.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "029",
+      "amis": "Limaen aca a soʼot a rimood haw?",
+      "zh": "B:算我500元好嗎?",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Limaen",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "aca",
+          "text": "aca",
+          "role": "particle",
+          "gloss_zh": "僅僅",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "a",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "連繫",
+          "gloss_en": ""
+        },
+        {
+          "id": "soot",
+          "text": "soʼot",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "a_3",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "連繫",
+          "gloss_en": ""
+        },
+        {
+          "id": "rimood",
+          "text": "rimood",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "haw",
+          "text": "haw",
+          "role": "particle",
+          "gloss_zh": "助詞",
+          "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "aca",
+            "a",
+            "soot",
+            "a_3",
+            "rimood",
+            "haw",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Limaen 為中心（自動標記）"
+      },
+      "structure": "述語 Limaen 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26961/441566.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "030",
+      "amis": "ʼatekakay tato, ngaʼay saka emeden to miming haw?",
+      "zh": "A:這個太貴了，可以算便宜一點嗎?",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "ʼatekakay",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "tato",
+          "text": "tato",
+          "role": "particle",
+          "gloss_zh": "很",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "ngaʼay",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "saka",
+          "text": "saka",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "emeden",
+          "text": "emeden",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "斜格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "miming",
+          "text": "miming",
+          "role": "noun",
+          "gloss_zh": "一點點",
+          "gloss_en": "",
+          "level": "中高級",
+          "vocab_cat": "01數字計量",
+          "vocab_code": "01"
+        },
+        {
+          "id": "haw",
+          "text": "haw",
+          "role": "particle",
+          "gloss_zh": "助詞",
+          "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "tato",
+            "comma"
+          ],
+          [
+            "pred2",
+            "saka",
+            "emeden",
+            "to",
+            "miming",
+            "haw",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://web.klokah.tw/text/sound/26961/441567.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "031",
+      "amis": "Cowa ka ngaʼay, o saka emedayto koni.",
+      "zh": "B:不行，這個已經很便宜了。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "cowa",
+          "text": "Cowa",
+          "role": "adverb",
+          "gloss_zh": "副詞",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred",
+          "text": "ka",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ngaay",
+          "text": "ngaʼay",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "o",
+          "role": "pred2",
+          "gloss_zh": "主題",
+          "gloss_en": ""
+        },
+        {
+          "id": "saka",
+          "text": "saka",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "emedayto",
+          "text": "emedayto",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "koni",
+          "text": "koni",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "cowa",
+            "pred",
+            "ngaay",
+            "comma"
+          ],
+          [
+            "pred2",
+            "saka",
+            "emedayto",
+            "koni",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://web.klokah.tw/text/sound/26961/441568.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "032",
+      "amis": "Maolah kako tona ʼodax.",
+      "zh": "A:我要這包餅乾。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Maolah",
+          "role": "pred",
+          "gloss_zh": "喜愛",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "29情緒思維",
+          "vocab_code": "29"
+        },
+        {
+          "id": "kako",
+          "text": "kako",
+          "role": "pronoun",
+          "gloss_zh": "我",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "tona",
+          "text": "tona",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "odax",
+          "text": "ʼodax",
+          "role": "noun",
+          "gloss_zh": "蜜",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "21食物(非植物)",
+          "vocab_code": "21"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "kako",
+            "tona",
+            "odax",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Maolah 為中心（自動標記）"
+      },
+      "structure": "述語 Maolah 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26961/441569.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "033",
+      "amis": "O na odax tolo a poloʼ a rimood. iraho ko roma a kangalayan iso?",
+      "zh": "B:這餅乾30元，還需要別的東西嗎?",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "O",
+          "role": "pred",
+          "gloss_zh": "主題",
+          "gloss_en": ""
+        },
+        {
+          "id": "na",
+          "text": "na",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "odax",
+          "text": "odax",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "tolo",
+          "text": "tolo",
+          "role": "noun",
+          "gloss_zh": "三",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "01數字計量",
+          "vocab_code": "01"
+        },
+        {
+          "id": "a",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "連繫",
+          "gloss_en": ""
+        },
+        {
+          "id": "polo",
+          "text": "poloʼ",
+          "role": "noun",
+          "gloss_zh": "十",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "01數字計量",
+          "vocab_code": "01"
+        },
+        {
+          "id": "a_3",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "連繫",
+          "gloss_en": ""
+        },
+        {
+          "id": "rimood",
+          "text": "rimood",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "iraho",
+          "text": "iraho",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "roma",
+          "text": "roma",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "a_4",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "連繫",
+          "gloss_en": ""
+        },
+        {
+          "id": "kangalayan",
+          "text": "kangalayan",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "iso",
+          "text": "iso",
+          "role": "pronoun",
+          "gloss_zh": "你的",
+          "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "na",
+            "odax",
+            "tolo",
+            "a",
+            "polo",
+            "a_3",
+            "rimood",
+            "period",
+            "iraho",
+            "ko",
+            "roma",
+            "a_4",
+            "kangalayan",
+            "iso",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "長句：線性排列（自動標記，結構簡化）"
+      },
+      "structure": "長句：線性排列（自動標記，結構簡化）",
+      "audio": "https://web.klokah.tw/text/sound/26961/441570.mp3",
+      "audio_primary": true
+    }
+  ]
+}

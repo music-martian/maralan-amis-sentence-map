@@ -1,0 +1,1229 @@
+{
+  "id": "senior_type5_class31",
+  "module": "senior",
+  "type_id": "5",
+  "type_name": "選擇題（二）",
+  "class_id": "31",
+  "title": "訊息問句(問姓名、關係、數量、地方",
+  "source_url": "https://klokah.iformosa.com.tw/sentence/senior/learn/3/5/31/1",
+  "dialect": "海岸阿美語",
+  "sentences": [
+    {
+      "id": "001",
+      "amis": "Cima ko ngangan no kaka nira?",
+      "zh": "他姊姊叫甚麼名字？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Cima",
+          "role": "pred",
+          "gloss_zh": "誰",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "ngangan",
+          "text": "ngangan",
+          "role": "noun",
+          "gloss_zh": "名字",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
+        },
+        {
+          "id": "no",
+          "text": "no",
+          "role": "case",
+          "gloss_zh": "屬格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "kaka",
+          "text": "kaka",
+          "role": "noun",
+          "gloss_zh": "兄長",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "04親屬稱謂",
+          "vocab_code": "04"
+        },
+        {
+          "id": "nira",
+          "text": "nira",
+          "role": "pronoun",
+          "gloss_zh": "他",
+          "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "ngangan",
+            "nira",
+            "q"
+          ]
+        ],
+        "hangs": {
+          "ngangan": [
+            "no",
+            "kaka"
+          ]
+        },
+        "plus_between_groups": false,
+        "structure": "述語為中心；屬格 no/nu 掛於名詞下（自動）"
+      },
+      "structure": "述語為中心；屬格 no/nu 掛於名詞下（自動）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/5choiceTwo/1_1_A.mp3",
+      "audio_primary": true,
+      "learn_id": 1
+    },
+    {
+      "id": "002",
+      "amis": "Cima ko ngangan ni ama nira?",
+      "zh": "他祖母叫甚麼名字？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Cima",
+          "role": "pred",
+          "gloss_zh": "誰",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "ngangan",
+          "text": "ngangan",
+          "role": "noun",
+          "gloss_zh": "名字",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
+        },
+        {
+          "id": "ni",
+          "text": "ni",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ama",
+          "text": "ama",
+          "role": "noun",
+          "gloss_zh": "女性長輩",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "04親屬稱謂",
+          "vocab_code": "04"
+        },
+        {
+          "id": "nira",
+          "text": "nira",
+          "role": "pronoun",
+          "gloss_zh": "他",
+          "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "ngangan",
+            "ni",
+            "ama",
+            "nira",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Cima 為中心（自動標記）"
+      },
+      "structure": "述語 Cima 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/5choiceTwo/1_1_B.mp3",
+      "audio_primary": true,
+      "learn_id": 1
+    },
+    {
+      "id": "003",
+      "amis": "Cima ko ngangan ni ina nira.",
+      "zh": "他媽媽叫甚麼名字？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Cima",
+          "role": "pred",
+          "gloss_zh": "誰",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "ngangan",
+          "text": "ngangan",
+          "role": "noun",
+          "gloss_zh": "名字",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
+        },
+        {
+          "id": "ni",
+          "text": "ni",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ina",
+          "text": "ina",
+          "role": "noun",
+          "gloss_zh": "媽媽",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "04親屬稱謂",
+          "vocab_code": "04"
+        },
+        {
+          "id": "nira",
+          "text": "nira",
+          "role": "pronoun",
+          "gloss_zh": "他",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "ngangan",
+            "ni",
+            "ina",
+            "nira",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Cima 為中心（自動標記）"
+      },
+      "structure": "述語 Cima 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/5choiceTwo/1_1_C.mp3",
+      "audio_primary": true,
+      "learn_id": 1
+    },
+    {
+      "id": "004",
+      "amis": "Cima kora matoʼasay?",
+      "zh": "那個老人是誰？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Cima",
+          "role": "pred",
+          "gloss_zh": "誰",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
+        },
+        {
+          "id": "kora",
+          "text": "kora",
+          "role": "noun",
+          "gloss_zh": "那個",
+          "gloss_en": ""
+        },
+        {
+          "id": "matoasay",
+          "text": "matoʼasay",
+          "role": "noun",
+          "gloss_zh": "老人家",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "kora",
+            "matoasay",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Cima 為中心（自動標記）"
+      },
+      "structure": "述語 Cima 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/5choiceTwo/1_2_A.mp3",
+      "audio_primary": true,
+      "learn_id": 2
+    },
+    {
+      "id": "005",
+      "amis": "Cima kora faʼinayan?",
+      "zh": "那個男人是誰？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Cima",
+          "role": "pred",
+          "gloss_zh": "誰",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
+        },
+        {
+          "id": "kora",
+          "text": "kora",
+          "role": "noun",
+          "gloss_zh": "那個",
+          "gloss_en": ""
+        },
+        {
+          "id": "fainayan",
+          "text": "faʼinayan",
+          "role": "noun",
+          "gloss_zh": "男性",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "kora",
+            "fainayan",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Cima 為中心（自動標記）"
+      },
+      "structure": "述語 Cima 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/5choiceTwo/1_2_B.mp3",
+      "audio_primary": true,
+      "learn_id": 2
+    },
+    {
+      "id": "006",
+      "amis": "Cima kora wawa?",
+      "zh": "那個小孩是誰？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Cima",
+          "role": "pred",
+          "gloss_zh": "誰",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
+        },
+        {
+          "id": "kora",
+          "text": "kora",
+          "role": "noun",
+          "gloss_zh": "那個",
+          "gloss_en": ""
+        },
+        {
+          "id": "wawa",
+          "text": "wawa",
+          "role": "noun",
+          "gloss_zh": "小孩",
+          "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "kora",
+            "wawa",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Cima 為中心（自動標記）"
+      },
+      "structure": "述語 Cima 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/5choiceTwo/1_2_C.mp3",
+      "audio_primary": true,
+      "learn_id": 2
+    },
+    {
+      "id": "007",
+      "amis": "Pina ko konga noni a wawa?",
+      "zh": "這個小孩有幾個地瓜？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Pina",
+          "role": "pred",
+          "gloss_zh": "多少",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "konga",
+          "text": "konga",
+          "role": "noun",
+          "gloss_zh": "甘藷",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "08植物",
+          "vocab_code": "08"
+        },
+        {
+          "id": "noni",
+          "text": "noni",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "a",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "連繫",
+          "gloss_en": ""
+        },
+        {
+          "id": "wawa",
+          "text": "wawa",
+          "role": "noun",
+          "gloss_zh": "小孩",
+          "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "konga",
+            "noni",
+            "a",
+            "wawa",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Pina 為中心（自動標記）"
+      },
+      "structure": "述語 Pina 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/5choiceTwo/1_3_A.mp3",
+      "audio_primary": true,
+      "learn_id": 3
+    },
+    {
+      "id": "008",
+      "amis": "Pina ko mamiʼ noni a wawa.",
+      "zh": "這個小孩有幾個橘子？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Pina",
+          "role": "pred",
+          "gloss_zh": "多少",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "mami",
+          "text": "mamiʼ",
+          "role": "noun",
+          "gloss_zh": "柑橘",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "08植物",
+          "vocab_code": "08"
+        },
+        {
+          "id": "noni",
+          "text": "noni",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "a",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "連繫",
+          "gloss_en": ""
+        },
+        {
+          "id": "wawa",
+          "text": "wawa",
+          "role": "noun",
+          "gloss_zh": "小孩",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "mami",
+            "noni",
+            "a",
+            "wawa",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Pina 為中心（自動標記）"
+      },
+      "structure": "述語 Pina 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/5choiceTwo/1_3_B.mp3",
+      "audio_primary": true,
+      "learn_id": 3
+    },
+    {
+      "id": "009",
+      "amis": "Pina ko pawli noni a wawa.",
+      "zh": "這個小孩有幾根香蕉？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Pina",
+          "role": "pred",
+          "gloss_zh": "多少",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "pawli",
+          "text": "pawli",
+          "role": "noun",
+          "gloss_zh": "香蕉",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "08植物",
+          "vocab_code": "08"
+        },
+        {
+          "id": "noni",
+          "text": "noni",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "a",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "連繫",
+          "gloss_en": ""
+        },
+        {
+          "id": "wawa",
+          "text": "wawa",
+          "role": "noun",
+          "gloss_zh": "小孩",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "pawli",
+            "noni",
+            "a",
+            "wawa",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Pina 為中心（自動標記）"
+      },
+      "structure": "述語 Pina 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/5choiceTwo/1_3_C.mp3",
+      "audio_primary": true,
+      "learn_id": 3
+    },
+    {
+      "id": "010",
+      "amis": "Pina ko mihecaan iso ?",
+      "zh": "你幾歲？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Pina",
+          "role": "pred",
+          "gloss_zh": "多少",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "mihecaan",
+          "text": "mihecaan",
+          "role": "noun",
+          "gloss_zh": "年；歲",
+          "gloss_en": ""
+        },
+        {
+          "id": "iso",
+          "text": "iso",
+          "role": "pronoun",
+          "gloss_zh": "你的",
+          "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "mihecaan",
+            "iso",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Pina 為中心（自動標記）"
+      },
+      "structure": "述語 Pina 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/5choiceTwo/1_4_A.mp3",
+      "audio_primary": true,
+      "learn_id": 4
+    },
+    {
+      "id": "011",
+      "amis": "Pina ko mihecaan no kaka iso?",
+      "zh": "你哥哥幾歲？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Pina",
+          "role": "pred",
+          "gloss_zh": "多少",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "mihecaan",
+          "text": "mihecaan",
+          "role": "noun",
+          "gloss_zh": "年；歲",
+          "gloss_en": ""
+        },
+        {
+          "id": "no",
+          "text": "no",
+          "role": "case",
+          "gloss_zh": "屬格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "kaka",
+          "text": "kaka",
+          "role": "noun",
+          "gloss_zh": "兄長",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "04親屬稱謂",
+          "vocab_code": "04"
+        },
+        {
+          "id": "iso",
+          "text": "iso",
+          "role": "pronoun",
+          "gloss_zh": "你的",
+          "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "mihecaan",
+            "iso",
+            "q"
+          ]
+        ],
+        "hangs": {
+          "mihecaan": [
+            "no",
+            "kaka"
+          ]
+        },
+        "plus_between_groups": false,
+        "structure": "述語為中心；屬格 no/nu 掛於名詞下（自動）"
+      },
+      "structure": "述語為中心；屬格 no/nu 掛於名詞下（自動）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/5choiceTwo/1_4_B.mp3",
+      "audio_primary": true,
+      "learn_id": 4
+    },
+    {
+      "id": "012",
+      "amis": "Pina ko mihecaan no safa iso?",
+      "zh": "你妹妹幾歲？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Pina",
+          "role": "pred",
+          "gloss_zh": "多少",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "mihecaan",
+          "text": "mihecaan",
+          "role": "noun",
+          "gloss_zh": "年；歲",
+          "gloss_en": ""
+        },
+        {
+          "id": "no",
+          "text": "no",
+          "role": "case",
+          "gloss_zh": "屬格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "safa",
+          "text": "safa",
+          "role": "noun",
+          "gloss_zh": "通稱",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "04親屬稱謂",
+          "vocab_code": "04"
+        },
+        {
+          "id": "iso",
+          "text": "iso",
+          "role": "pronoun",
+          "gloss_zh": "你的",
+          "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "mihecaan",
+            "iso",
+            "q"
+          ]
+        ],
+        "hangs": {
+          "mihecaan": [
+            "no",
+            "safa"
+          ]
+        },
+        "plus_between_groups": false,
+        "structure": "述語為中心；屬格 no/nu 掛於名詞下（自動）"
+      },
+      "structure": "述語為中心；屬格 no/nu 掛於名詞下（自動）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/5choiceTwo/1_4_C.mp3",
+      "audio_primary": true,
+      "learn_id": 4
+    },
+    {
+      "id": "013",
+      "amis": "Icowa ko rikoʼ no mita?",
+      "zh": "我們的衣服在哪裡？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Icowa",
+          "role": "pred",
+          "gloss_zh": "哪裡",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "riko",
+          "text": "rikoʼ",
+          "role": "noun",
+          "gloss_zh": "衣服",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "18織布服飾",
+          "vocab_code": "18"
+        },
+        {
+          "id": "no",
+          "text": "no",
+          "role": "case",
+          "gloss_zh": "屬格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "mita",
+          "text": "mita",
+          "role": "pronoun",
+          "gloss_zh": "咱們的",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "riko",
+            "q"
+          ]
+        ],
+        "hangs": {
+          "riko": [
+            "no",
+            "mita"
+          ]
+        },
+        "plus_between_groups": false,
+        "structure": "述語為中心；屬格 no/nu 掛於名詞下（自動）"
+      },
+      "structure": "述語為中心；屬格 no/nu 掛於名詞下（自動）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/5choiceTwo/1_5_A.mp3",
+      "audio_primary": true,
+      "learn_id": 5
+    },
+    {
+      "id": "014",
+      "amis": "Icowa ko payso no mita?",
+      "zh": "我們的錢在哪裡？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Icowa",
+          "role": "pred",
+          "gloss_zh": "哪裡",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "payso",
+          "text": "payso",
+          "role": "noun",
+          "gloss_zh": "錢",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "09物品(不含食品)",
+          "vocab_code": "09"
+        },
+        {
+          "id": "no",
+          "text": "no",
+          "role": "case",
+          "gloss_zh": "屬格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "mita",
+          "text": "mita",
+          "role": "pronoun",
+          "gloss_zh": "咱們的",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "payso",
+            "q"
+          ]
+        ],
+        "hangs": {
+          "payso": [
+            "no",
+            "mita"
+          ]
+        },
+        "plus_between_groups": false,
+        "structure": "述語為中心；屬格 no/nu 掛於名詞下（自動）"
+      },
+      "structure": "述語為中心；屬格 no/nu 掛於名詞下（自動）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/5choiceTwo/1_5_B.mp3",
+      "audio_primary": true,
+      "learn_id": 5
+    },
+    {
+      "id": "015",
+      "amis": "Icowa ko linay no mita?",
+      "zh": "我們的雨傘在哪裡？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Icowa",
+          "role": "pred",
+          "gloss_zh": "哪裡",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "linay",
+          "text": "linay",
+          "role": "noun",
+          "gloss_zh": "雨傘",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "09物品(不含食品)",
+          "vocab_code": "09"
+        },
+        {
+          "id": "no",
+          "text": "no",
+          "role": "case",
+          "gloss_zh": "屬格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "mita",
+          "text": "mita",
+          "role": "pronoun",
+          "gloss_zh": "咱們的",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "linay",
+            "q"
+          ]
+        ],
+        "hangs": {
+          "linay": [
+            "no",
+            "mita"
+          ]
+        },
+        "plus_between_groups": false,
+        "structure": "述語為中心；屬格 no/nu 掛於名詞下（自動）"
+      },
+      "structure": "述語為中心；屬格 no/nu 掛於名詞下（自動）",
+      "audio": "https://klokah.tw/extension/sp_senior/sound/3/5choiceTwo/1_5_C.mp3",
+      "audio_primary": true,
+      "learn_id": 5
+    }
+  ]
+}

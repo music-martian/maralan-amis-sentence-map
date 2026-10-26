@@ -1,0 +1,1007 @@
+{
+  "id": "talk_book4",
+  "module": "talk",
+  "title": "今天的天氣怎麼樣？",
+  "title_ab": "Masamaan ko romi’ad anini?",
+  "source_url": "https://klokah.iformosa.com.tw/talk/learn/4",
+  "dialect": "海岸阿美語",
+  "sentences": [
+    {
+      "id": "001",
+      "amis": "Masamaan ko romiʼad anini?",
+      "zh": "ʼAnga：今天的天氣怎麼樣？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Masamaan",
+          "role": "pred",
+          "gloss_zh": "如何",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "romiad",
+          "text": "romiʼad",
+          "role": "noun",
+          "gloss_zh": "白天",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "13時間",
+          "vocab_code": "13"
+        },
+        {
+          "id": "anini",
+          "text": "anini",
+          "role": "adverb",
+          "gloss_zh": "現在",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "13時間",
+          "vocab_code": "13"
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "romiad",
+            "anini",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Masamaan 為中心（自動標記）"
+      },
+      "structure": "述語 Masamaan 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/con_data/sound/3/sentence/3c4s1.mp3",
+      "audio_primary": true,
+      "speaker": "ʼAnga"
+    },
+    {
+      "id": "002",
+      "amis": "Fangcal ko romiʼad, macidal.",
+      "zh": "Fotol：是好天氣，出太陽。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Fangcal",
+          "role": "pred",
+          "gloss_zh": "漂亮",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "32特徵",
+          "vocab_code": "32"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "romiad",
+          "text": "romiʼad",
+          "role": "noun",
+          "gloss_zh": "白天",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "13時間",
+          "vocab_code": "13"
+        },
+        {
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "macidal",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "romiad",
+            "comma"
+          ],
+          [
+            "pred2",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://klokah.tw/extension/con_data/sound/3/sentence/3c4s2.mp3",
+      "audio_primary": true,
+      "speaker": "Fotol"
+    },
+    {
+      "id": "003",
+      "amis": "Ira ko faliyos sa ko katengilan.",
+      "zh": "ʼAnga：聽說有颱風。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "ira",
+          "text": "Ira",
+          "role": "pronoun",
+          "gloss_zh": "有",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "34其他",
+          "vocab_code": "34"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "pred",
+          "text": "faliyos",
+          "role": "pred",
+          "gloss_zh": "颱風",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "11自然景觀",
+          "vocab_code": "11"
+        },
+        {
+          "id": "sa",
+          "text": "sa",
+          "role": "noun",
+          "gloss_zh": "助詞",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko_3",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "katengilan",
+          "text": "katengilan",
+          "role": "noun",
+          "gloss_zh": "聽說",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "24抽象名詞",
+          "vocab_code": "24"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "ira",
+            "ko",
+            "pred",
+            "sa",
+            "ko_3",
+            "katengilan",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 faliyos 為中心（自動標記）"
+      },
+      "structure": "述語 faliyos 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/con_data/sound/3/sentence/3c4s3.mp3",
+      "audio_primary": true,
+      "speaker": "ʼAnga"
+    },
+    {
+      "id": "004",
+      "amis": "Soʼelin! a matira mangaʼay mifoting kita.",
+      "zh": "Fotol：真的嗎？那我們可以去捕魚了。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "soelin",
+          "text": "Soʼelin",
+          "role": "particle",
+          "gloss_zh": "真的",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "excl",
+          "text": "!",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred",
+          "text": "a",
+          "role": "pred",
+          "gloss_zh": "連繫",
+          "gloss_en": ""
+        },
+        {
+          "id": "matira",
+          "text": "matira",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "mangaay",
+          "text": "mangaʼay",
+          "role": "particle",
+          "gloss_zh": "可以",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "mifoting",
+          "text": "mifoting",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kita",
+          "text": "kita",
+          "role": "pronoun",
+          "gloss_zh": "咱們",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "soelin",
+            "excl",
+            "pred",
+            "matira",
+            "mangaay",
+            "mifoting",
+            "kita",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 a 為中心（自動標記）"
+      },
+      "structure": "述語 a 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/con_data/sound/3/sentence/3c4s4.mp3",
+      "audio_primary": true,
+      "speaker": "Fotol"
+    },
+    {
+      "id": "005",
+      "amis": "Ira ko foting saw?",
+      "zh": "ʼAnga：會有魚嗎？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "ira",
+          "text": "Ira",
+          "role": "pronoun",
+          "gloss_zh": "有",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "34其他",
+          "vocab_code": "34"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "pred",
+          "text": "foting",
+          "role": "pred",
+          "gloss_zh": "魚",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "07動物(含昆蟲)",
+          "vocab_code": "07"
+        },
+        {
+          "id": "saw",
+          "text": "saw",
+          "role": "particle",
+          "gloss_zh": "嗎",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "ira",
+            "ko",
+            "pred",
+            "saw",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 foting 為中心（自動標記）"
+      },
+      "structure": "述語 foting 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/con_data/sound/3/sentence/3c4s5.mp3",
+      "audio_primary": true,
+      "speaker": "ʼAnga"
+    },
+    {
+      "id": "006",
+      "amis": "Ano makereng ko ʼorad, mangaʼay tayra i ʼalo micadiway.",
+      "zh": "Fotol：下豪大雨的時候，可以去河邊網魚。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "ano",
+          "text": "Ano",
+          "role": "particle",
+          "gloss_zh": "如果",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "pred",
+          "text": "makereng",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "orad",
+          "text": "ʼorad",
+          "role": "noun",
+          "gloss_zh": "雨",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "11自然景觀",
+          "vocab_code": "11"
+        },
+        {
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "mangaay",
+          "text": "mangaʼay",
+          "role": "particle",
+          "gloss_zh": "可以",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "pred2",
+          "text": "tayra",
+          "role": "pred2",
+          "gloss_zh": "去",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "25行動",
+          "vocab_code": "25"
+        },
+        {
+          "id": "i",
+          "text": "i",
+          "role": "case",
+          "gloss_zh": "在",
+          "gloss_en": ""
+        },
+        {
+          "id": "alo",
+          "text": "ʼalo",
+          "role": "noun",
+          "gloss_zh": "河流",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "10山川地理",
+          "vocab_code": "10"
+        },
+        {
+          "id": "micadiway",
+          "text": "micadiway",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "ano",
+            "pred",
+            "ko",
+            "orad",
+            "comma"
+          ],
+          [
+            "mangaay",
+            "pred2",
+            "i",
+            "alo",
+            "micadiway",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://klokah.tw/extension/con_data/sound/3/sentence/3c4s6.mp3",
+      "audio_primary": true,
+      "speaker": "Fotol"
+    },
+    {
+      "id": "007",
+      "amis": "O maan ko i ʼaloay sao?",
+      "zh": "ʼAnga：在河裡有什麼呢？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "O",
+          "role": "pred",
+          "gloss_zh": "主題",
+          "gloss_en": ""
+        },
+        {
+          "id": "maan",
+          "text": "maan",
+          "role": "particle",
+          "gloss_zh": "什麼",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "i",
+          "text": "i",
+          "role": "case",
+          "gloss_zh": "在",
+          "gloss_en": ""
+        },
+        {
+          "id": "aloay",
+          "text": "ʼaloay",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "sao",
+          "text": "sao",
+          "role": "noun",
+          "gloss_zh": "嗎；呢",
+          "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "maan",
+            "ko",
+            "i",
+            "aloay",
+            "sao",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 O 為中心（自動標記）"
+      },
+      "structure": "述語 O 為中心（自動標記）",
+      "audio": "https://klokah.tw/extension/con_data/sound/3/sentence/3c4s7.mp3",
+      "audio_primary": true,
+      "speaker": "ʼAnga"
+    },
+    {
+      "id": "008",
+      "amis": "Ira ko foting, o hara, o ʼafar, o kafos, o kalang ato masamaamaanay aalaen.",
+      "zh": "Fotol：有魚、溪魚、蝦、小溪蝦、螃蟹還有各式各樣溪流生物。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "ira",
+          "text": "Ira",
+          "role": "pronoun",
+          "gloss_zh": "有",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "34其他",
+          "vocab_code": "34"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "pred",
+          "text": "foting",
+          "role": "pred",
+          "gloss_zh": "魚",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "07動物(含昆蟲)",
+          "vocab_code": "07"
+        },
+        {
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "o",
+          "role": "pred2",
+          "gloss_zh": "主題",
+          "gloss_en": ""
+        },
+        {
+          "id": "hara",
+          "text": "hara",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "comma_3",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "o",
+          "text": "o",
+          "role": "pred2",
+          "gloss_zh": "主題",
+          "gloss_en": ""
+        },
+        {
+          "id": "afar",
+          "text": "ʼafar",
+          "role": "noun",
+          "gloss_zh": "蝦",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "07動物(含昆蟲)",
+          "vocab_code": "07"
+        },
+        {
+          "id": "comma_4",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "o_3",
+          "text": "o",
+          "role": "pred2",
+          "gloss_zh": "主題",
+          "gloss_en": ""
+        },
+        {
+          "id": "kafos",
+          "text": "kafos",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "comma_5",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "o_4",
+          "text": "o",
+          "role": "pred2",
+          "gloss_zh": "主題",
+          "gloss_en": ""
+        },
+        {
+          "id": "kalang",
+          "text": "kalang",
+          "role": "noun",
+          "gloss_zh": "螃蟹",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "07動物(含昆蟲)",
+          "vocab_code": "07"
+        },
+        {
+          "id": "ato",
+          "text": "ato",
+          "role": "particle",
+          "gloss_zh": "和",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "masamaamaanay",
+          "text": "masamaamaanay",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "aalaen",
+          "text": "aalaen",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "ira",
+            "ko",
+            "pred",
+            "comma",
+            "pred2",
+            "hara",
+            "comma_3",
+            "o",
+            "afar",
+            "comma_4",
+            "o_3",
+            "kafos",
+            "comma_5",
+            "o_4",
+            "kalang",
+            "ato",
+            "masamaamaanay",
+            "aalaen",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "長句：線性排列（自動標記，結構簡化）"
+      },
+      "structure": "長句：線性排列（自動標記，結構簡化）",
+      "audio": "https://klokah.tw/extension/con_data/sound/3/sentence/3c4s8.mp3",
+      "audio_primary": true,
+      "speaker": "Fotol"
+    },
+    {
+      "id": "009",
+      "amis": "Matiniay ko ʼorip no Pangcah?",
+      "zh": "ʼAnga：這是阿美族的生活文化嗎？",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Matiniay",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "orip",
+          "text": "ʼorip",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "no",
+          "text": "no",
+          "role": "case",
+          "gloss_zh": "屬格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "pangcah",
+          "text": "Pangcah",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "orip",
+            "q"
+          ]
+        ],
+        "hangs": {
+          "orip": [
+            "no",
+            "pangcah"
+          ]
+        },
+        "plus_between_groups": false,
+        "structure": "述語為中心；屬格 no/nu 掛於名詞下（自動）"
+      },
+      "structure": "述語為中心；屬格 no/nu 掛於名詞下（自動）",
+      "audio": "https://klokah.tw/extension/con_data/sound/3/sentence/3c4s9.mp3",
+      "audio_primary": true,
+      "speaker": "ʼAnga"
+    },
+    {
+      "id": "010",
+      "amis": "Hai, caay kanikaw ko Pangcah to kakaenen.",
+      "zh": "Fotol：是的，阿美族靠大自然生活，不缺食物。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "hai",
+          "text": "Hai",
+          "role": "particle",
+          "gloss_zh": "是嗎",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "caay",
+          "text": "caay",
+          "role": "adverb",
+          "gloss_zh": "不是[回答用]",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "kanikaw",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "pangcah",
+          "text": "Pangcah",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "斜格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "kakaenen",
+          "text": "kakaenen",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "hai",
+            "comma"
+          ],
+          [
+            "caay",
+            "pred2",
+            "ko",
+            "pangcah",
+            "to",
+            "kakaenen",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://klokah.tw/extension/con_data/sound/3/sentence/3c4s10.mp3",
+      "audio_primary": true,
+      "speaker": "Fotol"
+    }
+  ]
+}

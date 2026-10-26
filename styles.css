@@ -582,3 +582,14 @@ body.mode-practice .amis-row {
 #meta-en[hidden] {
   display: none;
 }
+
+/* Dialect selector (very top) */
+.dialect-bar {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 0 0.6rem;
+}
+.dialect-bar .dialect-picker {
+  flex: 0 1 12rem;
+  min-width: 10rem;
+}

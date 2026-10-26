@@ -1,0 +1,2981 @@
+{
+  "id": "dialogue_s2_l1",
+  "module": "dialogue",
+  "scene": 2,
+  "stage": 1,
+  "title": "情境2 · 初級 · 對話練習(一)",
+  "source_url": "https://klokah.iformosa.com.tw/dialogue/d3/s2/l1/talking",
+  "dialect": "海岸阿美語",
+  "sentences": [
+    {
+      "id": "001",
+      "amis": "Cima kiso?",
+      "zh": "A:你是誰?",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Cima",
+          "role": "pred",
+          "gloss_zh": "誰",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
+        },
+        {
+          "id": "kiso",
+          "text": "kiso",
+          "role": "pronoun",
+          "gloss_zh": "你",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "kiso",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Cima 為中心（自動標記）"
+      },
+      "structure": "述語 Cima 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26953/441264.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "002",
+      "amis": "Ci kacaw kako.",
+      "zh": "B:我是Kacaw。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Ci",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kacaw",
+          "text": "kacaw",
+          "role": "noun",
+          "gloss_zh": "男子名",
+          "gloss_en": ""
+        },
+        {
+          "id": "kako",
+          "text": "kako",
+          "role": "pronoun",
+          "gloss_zh": "我",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "kacaw",
+            "kako",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Ci 為中心（自動標記）"
+      },
+      "structure": "述語 Ci 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26953/441265.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "003",
+      "amis": "O wawa ni Mayaw kako. ci kacaw kako.",
+      "zh": "B:我是Mayaw的兒子，我叫Kacaw。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "O",
+          "role": "pred",
+          "gloss_zh": "主題",
+          "gloss_en": ""
+        },
+        {
+          "id": "wawa",
+          "text": "wawa",
+          "role": "noun",
+          "gloss_zh": "小孩",
+          "gloss_en": ""
+        },
+        {
+          "id": "ni",
+          "text": "ni",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "mayaw",
+          "text": "Mayaw",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kako",
+          "text": "kako",
+          "role": "pronoun",
+          "gloss_zh": "我",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ci",
+          "text": "ci",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kacaw",
+          "text": "kacaw",
+          "role": "noun",
+          "gloss_zh": "男子名",
+          "gloss_en": ""
+        },
+        {
+          "id": "kako_3",
+          "text": "kako",
+          "role": "pronoun",
+          "gloss_zh": "我",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "period_3",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "wawa",
+            "ni",
+            "mayaw",
+            "kako",
+            "period",
+            "ci",
+            "kacaw",
+            "kako_3",
+            "period_3"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 O 為中心（自動標記）"
+      },
+      "structure": "述語 O 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26953/441267.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "004",
+      "amis": "Ci Kacaw kako, o mitiliday ni Mayaw kako.",
+      "zh": "B:我叫Kacaw，我是Mayaw的學生",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Ci",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kacaw",
+          "text": "Kacaw",
+          "role": "noun",
+          "gloss_zh": "男子名",
+          "gloss_en": ""
+        },
+        {
+          "id": "kako",
+          "text": "kako",
+          "role": "pronoun",
+          "gloss_zh": "我",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "o",
+          "role": "pred2",
+          "gloss_zh": "主題",
+          "gloss_en": ""
+        },
+        {
+          "id": "mitiliday",
+          "text": "mitiliday",
+          "role": "noun",
+          "gloss_zh": "學生",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
+        },
+        {
+          "id": "ni",
+          "text": "ni",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "mayaw",
+          "text": "Mayaw",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kako_3",
+          "text": "kako",
+          "role": "pronoun",
+          "gloss_zh": "我",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "kacaw",
+            "kako",
+            "comma"
+          ],
+          [
+            "pred2",
+            "mitiliday",
+            "ni",
+            "mayaw",
+            "kako_3",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://web.klokah.tw/text/sound/26953/730465.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "005",
+      "amis": "Samaanay ko ngangan iso?",
+      "zh": "A:你的名字是什麼?",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Samaanay",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "ngangan",
+          "text": "ngangan",
+          "role": "noun",
+          "gloss_zh": "名字",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
+        },
+        {
+          "id": "iso",
+          "text": "iso",
+          "role": "pronoun",
+          "gloss_zh": "你的",
+          "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "ngangan",
+            "iso",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Samaanay 為中心（自動標記）"
+      },
+      "structure": "述語 Samaanay 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26953/441270.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "006",
+      "amis": "O ngangan ako ci Kacaw.",
+      "zh": "B:我的名字是Kacaw。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "O",
+          "role": "pred",
+          "gloss_zh": "主題",
+          "gloss_en": ""
+        },
+        {
+          "id": "ngangan",
+          "text": "ngangan",
+          "role": "noun",
+          "gloss_zh": "名字",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
+        },
+        {
+          "id": "ako",
+          "text": "ako",
+          "role": "pronoun",
+          "gloss_zh": "我的",
+          "gloss_en": ""
+        },
+        {
+          "id": "ci",
+          "text": "ci",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kacaw",
+          "text": "Kacaw",
+          "role": "noun",
+          "gloss_zh": "男子名",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ngangan",
+            "ako",
+            "ci",
+            "kacaw",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 O 為中心（自動標記）"
+      },
+      "structure": "述語 O 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26953/441271.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "007",
+      "amis": "Cima ko ngangan ni Ama iso?",
+      "zh": "A:你爸爸的名字是什麼?",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Cima",
+          "role": "pred",
+          "gloss_zh": "誰",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "ngangan",
+          "text": "ngangan",
+          "role": "noun",
+          "gloss_zh": "名字",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
+        },
+        {
+          "id": "ni",
+          "text": "ni",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ama",
+          "text": "Ama",
+          "role": "noun",
+          "gloss_zh": "女性長輩",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "04親屬稱謂",
+          "vocab_code": "04"
+        },
+        {
+          "id": "iso",
+          "text": "iso",
+          "role": "pronoun",
+          "gloss_zh": "你的",
+          "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "ngangan",
+            "ni",
+            "ama",
+            "iso",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Cima 為中心（自動標記）"
+      },
+      "structure": "述語 Cima 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26953/441272.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "008",
+      "amis": "Ci mayaw ko ngangan ni Ama ako.",
+      "zh": "B:我爸爸的名字是Mayaw。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Ci",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "mayaw",
+          "text": "mayaw",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "ngangan",
+          "text": "ngangan",
+          "role": "noun",
+          "gloss_zh": "名字",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
+        },
+        {
+          "id": "ni",
+          "text": "ni",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ama",
+          "text": "Ama",
+          "role": "noun",
+          "gloss_zh": "女性長輩",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "04親屬稱謂",
+          "vocab_code": "04"
+        },
+        {
+          "id": "ako",
+          "text": "ako",
+          "role": "pronoun",
+          "gloss_zh": "我的",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "mayaw",
+            "ko",
+            "ngangan",
+            "ni",
+            "ama",
+            "ako",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Ci 為中心（自動標記）"
+      },
+      "structure": "述語 Ci 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26953/441273.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "009",
+      "amis": "Cima cingra?",
+      "zh": "A:他是誰?",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Cima",
+          "role": "pred",
+          "gloss_zh": "誰",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
+        },
+        {
+          "id": "cingra",
+          "text": "cingra",
+          "role": "pronoun",
+          "gloss_zh": "他",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "cingra",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Cima 為中心（自動標記）"
+      },
+      "structure": "述語 Cima 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26953/441274.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "010",
+      "amis": "ci Kolas cingra.",
+      "zh": "B:他是Kolas。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "ci",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kolas",
+          "text": "Kolas",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "cingra",
+          "text": "cingra",
+          "role": "pronoun",
+          "gloss_zh": "他",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "kolas",
+            "cingra",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 ci 為中心（自動標記）"
+      },
+      "structure": "述語 ci 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26953/466901.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "011",
+      "amis": "O kaka ako cingra, ci Kolas ko ngangan ningra.",
+      "zh": "B:他是我的哥哥，他叫Kolas。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "O",
+          "role": "pred",
+          "gloss_zh": "主題",
+          "gloss_en": ""
+        },
+        {
+          "id": "kaka",
+          "text": "kaka",
+          "role": "noun",
+          "gloss_zh": "兄長",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "04親屬稱謂",
+          "vocab_code": "04"
+        },
+        {
+          "id": "ako",
+          "text": "ako",
+          "role": "pronoun",
+          "gloss_zh": "我的",
+          "gloss_en": ""
+        },
+        {
+          "id": "cingra",
+          "text": "cingra",
+          "role": "pronoun",
+          "gloss_zh": "他",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "ci",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kolas",
+          "text": "Kolas",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "ngangan",
+          "text": "ngangan",
+          "role": "noun",
+          "gloss_zh": "名字",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
+        },
+        {
+          "id": "ningra",
+          "text": "ningra",
+          "role": "pronoun",
+          "gloss_zh": "他的",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "kaka",
+            "ako",
+            "cingra",
+            "comma"
+          ],
+          [
+            "pred2",
+            "kolas",
+            "ko",
+            "ngangan",
+            "ningra",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://web.klokah.tw/text/sound/26953/441275.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "012",
+      "amis": "cima ko ngaangan ningra?",
+      "zh": "A:他的名字是什麼?",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "cima",
+          "role": "pred",
+          "gloss_zh": "誰",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "ngaangan",
+          "text": "ngaangan",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ningra",
+          "text": "ningra",
+          "role": "pronoun",
+          "gloss_zh": "他的",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "ngaangan",
+            "ningra",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 cima 為中心（自動標記）"
+      },
+      "structure": "述語 cima 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26953/441276.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "013",
+      "amis": "Ci Kolas ko ngangan ningra.",
+      "zh": "B:他的名字是Kolas。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Ci",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kolas",
+          "text": "Kolas",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "ngangan",
+          "text": "ngangan",
+          "role": "noun",
+          "gloss_zh": "名字",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
+        },
+        {
+          "id": "ningra",
+          "text": "ningra",
+          "role": "pronoun",
+          "gloss_zh": "他的",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "kolas",
+            "ko",
+            "ngangan",
+            "ningra",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Ci 為中心（自動標記）"
+      },
+      "structure": "述語 Ci 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26953/441277.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "014",
+      "amis": "Ci Mayaw ko ngangan ningra haw?.",
+      "zh": "A:他的名字是Mayaw嗎?",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Ci",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "mayaw",
+          "text": "Mayaw",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "ngangan",
+          "text": "ngangan",
+          "role": "noun",
+          "gloss_zh": "名字",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
+        },
+        {
+          "id": "ningra",
+          "text": "ningra",
+          "role": "pronoun",
+          "gloss_zh": "他的",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "haw",
+          "text": "haw",
+          "role": "particle",
+          "gloss_zh": "助詞",
+          "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "mayaw",
+            "ko",
+            "ngangan",
+            "ningra",
+            "haw",
+            "q",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Ci 為中心（自動標記）"
+      },
+      "structure": "述語 Ci 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26953/441278.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "015",
+      "amis": "Hay, ci Mayaw ko ngangan ningra.",
+      "zh": "B:是，他的名字是Mayaw。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Hay",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "ci",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "mayaw",
+          "text": "Mayaw",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "ngangan",
+          "text": "ngangan",
+          "role": "noun",
+          "gloss_zh": "名字",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
+        },
+        {
+          "id": "ningra",
+          "text": "ningra",
+          "role": "pronoun",
+          "gloss_zh": "他的",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "comma"
+          ],
+          [
+            "pred2",
+            "mayaw",
+            "ko",
+            "ngangan",
+            "ningra",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://web.klokah.tw/text/sound/26953/441279.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "016",
+      "amis": "Ci Mayaw ko ngangan ningra haw?",
+      "zh": "A:他的名字是Mayaw嗎?",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Ci",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "mayaw",
+          "text": "Mayaw",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "ngangan",
+          "text": "ngangan",
+          "role": "noun",
+          "gloss_zh": "名字",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
+        },
+        {
+          "id": "ningra",
+          "text": "ningra",
+          "role": "pronoun",
+          "gloss_zh": "他的",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "haw",
+          "text": "haw",
+          "role": "particle",
+          "gloss_zh": "助詞",
+          "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "mayaw",
+            "ko",
+            "ngangan",
+            "ningra",
+            "haw",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Ci 為中心（自動標記）"
+      },
+      "structure": "述語 Ci 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26953/441280.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "017",
+      "amis": "Caay, ci Kolas ko ngangan ningra.",
+      "zh": "B:不是，他的名字是Kolas。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "caay",
+          "text": "Caay",
+          "role": "adverb",
+          "gloss_zh": "不是[回答用]",
+          "gloss_en": ""
+        },
+        {
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "ci",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kolas",
+          "text": "Kolas",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "ngangan",
+          "text": "ngangan",
+          "role": "noun",
+          "gloss_zh": "名字",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
+        },
+        {
+          "id": "ningra",
+          "text": "ningra",
+          "role": "pronoun",
+          "gloss_zh": "他的",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "caay",
+            "comma"
+          ],
+          [
+            "pred2",
+            "kolas",
+            "ko",
+            "ngangan",
+            "ningra",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://web.klokah.tw/text/sound/26953/466902.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "018",
+      "amis": "Cima kara tamdaw?",
+      "zh": "A:那個人是誰?",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Cima",
+          "role": "pred",
+          "gloss_zh": "誰",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
+        },
+        {
+          "id": "kara",
+          "text": "kara",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "tamdaw",
+          "text": "tamdaw",
+          "role": "noun",
+          "gloss_zh": "人",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "kara",
+            "tamdaw",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Cima 為中心（自動標記）"
+      },
+      "structure": "述語 Cima 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26953/441281.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "019",
+      "amis": "Ci panay cingra. o fai ako.",
+      "zh": "B:她是Panay。她是我的阿姨。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Ci",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "panay",
+          "text": "panay",
+          "role": "noun",
+          "gloss_zh": "稻穀",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "08植物",
+          "vocab_code": "08"
+        },
+        {
+          "id": "cingra",
+          "text": "cingra",
+          "role": "pronoun",
+          "gloss_zh": "他",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "o",
+          "text": "o",
+          "role": "noun",
+          "gloss_zh": "主題",
+          "gloss_en": ""
+        },
+        {
+          "id": "fai",
+          "text": "fai",
+          "role": "noun",
+          "gloss_zh": "通稱",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "04親屬稱謂",
+          "vocab_code": "04"
+        },
+        {
+          "id": "ako",
+          "text": "ako",
+          "role": "pronoun",
+          "gloss_zh": "我的",
+          "gloss_en": ""
+        },
+        {
+          "id": "period_3",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "panay",
+            "cingra",
+            "period",
+            "o",
+            "fai",
+            "ako",
+            "period_3"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Ci 為中心（自動標記）"
+      },
+      "structure": "述語 Ci 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26953/441282.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "020",
+      "amis": "Cima kora tamdaw?",
+      "zh": "A:那個人是誰?",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Cima",
+          "role": "pred",
+          "gloss_zh": "誰",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
+        },
+        {
+          "id": "kora",
+          "text": "kora",
+          "role": "noun",
+          "gloss_zh": "那個",
+          "gloss_en": ""
+        },
+        {
+          "id": "tamdaw",
+          "text": "tamdaw",
+          "role": "noun",
+          "gloss_zh": "人",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "kora",
+            "tamdaw",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Cima 為中心（自動標記）"
+      },
+      "structure": "述語 Cima 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26953/441283.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "021",
+      "amis": "O idang ako cingra, ci Imoy ko ngangan ningra.",
+      "zh": "B:她是我的朋友，她的名字是Imoy。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "O",
+          "role": "pred",
+          "gloss_zh": "主題",
+          "gloss_en": ""
+        },
+        {
+          "id": "idang",
+          "text": "idang",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ako",
+          "text": "ako",
+          "role": "pronoun",
+          "gloss_zh": "我的",
+          "gloss_en": ""
+        },
+        {
+          "id": "cingra",
+          "text": "cingra",
+          "role": "pronoun",
+          "gloss_zh": "他",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "ci",
+          "role": "pred2",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "imoy",
+          "text": "Imoy",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "ngangan",
+          "text": "ngangan",
+          "role": "noun",
+          "gloss_zh": "名字",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
+        },
+        {
+          "id": "ningra",
+          "text": "ningra",
+          "role": "pronoun",
+          "gloss_zh": "他的",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "idang",
+            "ako",
+            "cingra",
+            "comma"
+          ],
+          [
+            "pred2",
+            "imoy",
+            "ko",
+            "ngangan",
+            "ningra",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://web.klokah.tw/text/sound/26953/441284.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "022",
+      "amis": "Pina ko mihecaan iso anini a mihecaan?",
+      "zh": "A:你今年幾歲?",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Pina",
+          "role": "pred",
+          "gloss_zh": "多少",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "mihecaan",
+          "text": "mihecaan",
+          "role": "noun",
+          "gloss_zh": "年；歲",
+          "gloss_en": ""
+        },
+        {
+          "id": "iso",
+          "text": "iso",
+          "role": "pronoun",
+          "gloss_zh": "你的",
+          "gloss_en": ""
+        },
+        {
+          "id": "anini",
+          "text": "anini",
+          "role": "adverb",
+          "gloss_zh": "現在",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "13時間",
+          "vocab_code": "13"
+        },
+        {
+          "id": "a",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "連繫",
+          "gloss_en": ""
+        },
+        {
+          "id": "mihecaan_3",
+          "text": "mihecaan",
+          "role": "noun",
+          "gloss_zh": "年；歲",
+          "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "mihecaan",
+            "iso",
+            "anini",
+            "a",
+            "mihecaan_3",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Pina 為中心（自動標記）"
+      },
+      "structure": "述語 Pina 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26953/441285.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "023",
+      "amis": "Mo^tep ko mihecaan a ko anini.",
+      "zh": "B:我今年10歲。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Mo^tep",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "mihecaan",
+          "text": "mihecaan",
+          "role": "noun",
+          "gloss_zh": "年；歲",
+          "gloss_en": ""
+        },
+        {
+          "id": "a",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "連繫",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko_3",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "anini",
+          "text": "anini",
+          "role": "adverb",
+          "gloss_zh": "現在",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "13時間",
+          "vocab_code": "13"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "mihecaan",
+            "a",
+            "ko_3",
+            "anini",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Mo^tep 為中心（自動標記）"
+      },
+      "structure": "述語 Mo^tep 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26953/441286.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "024",
+      "amis": "Pina ko mihecaan ningra anini?",
+      "zh": "A:他今年幾歲?",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Pina",
+          "role": "pred",
+          "gloss_zh": "多少",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "mihecaan",
+          "text": "mihecaan",
+          "role": "noun",
+          "gloss_zh": "年；歲",
+          "gloss_en": ""
+        },
+        {
+          "id": "ningra",
+          "text": "ningra",
+          "role": "pronoun",
+          "gloss_zh": "他的",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "anini",
+          "text": "anini",
+          "role": "adverb",
+          "gloss_zh": "現在",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "13時間",
+          "vocab_code": "13"
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "mihecaan",
+            "ningra",
+            "anini",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Pina 為中心（自動標記）"
+      },
+      "structure": "述語 Pina 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26953/441287.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "025",
+      "amis": "Tosa ko safaw ko mihecaan niira anini.",
+      "zh": "B:他今年12歲。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Tosa",
+          "role": "pred",
+          "gloss_zh": "二",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "01數字計量",
+          "vocab_code": "01"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "safaw",
+          "text": "safaw",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko_3",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "mihecaan",
+          "text": "mihecaan",
+          "role": "noun",
+          "gloss_zh": "年；歲",
+          "gloss_en": ""
+        },
+        {
+          "id": "niira",
+          "text": "niira",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "anini",
+          "text": "anini",
+          "role": "adverb",
+          "gloss_zh": "現在",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "13時間",
+          "vocab_code": "13"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "safaw",
+            "ko_3",
+            "mihecaan",
+            "niira",
+            "anini",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Tosa 為中心（自動標記）"
+      },
+      "structure": "述語 Tosa 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26953/441288.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "026",
+      "amis": "Pina ko mihecaan ni wama iso anini mihecaan?",
+      "zh": "A:你爸爸今年幾歲?",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Pina",
+          "role": "pred",
+          "gloss_zh": "多少",
+          "gloss_en": "",
+          "level": "中級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "mihecaan",
+          "text": "mihecaan",
+          "role": "noun",
+          "gloss_zh": "年；歲",
+          "gloss_en": ""
+        },
+        {
+          "id": "ni",
+          "text": "ni",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "wama",
+          "text": "wama",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "iso",
+          "text": "iso",
+          "role": "pronoun",
+          "gloss_zh": "你的",
+          "gloss_en": ""
+        },
+        {
+          "id": "anini",
+          "text": "anini",
+          "role": "adverb",
+          "gloss_zh": "現在",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "13時間",
+          "vocab_code": "13"
+        },
+        {
+          "id": "mihecaan_3",
+          "text": "mihecaan",
+          "role": "noun",
+          "gloss_zh": "年；歲",
+          "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "mihecaan",
+            "ni",
+            "wama",
+            "iso",
+            "anini",
+            "mihecaan_3",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Pina 為中心（自動標記）"
+      },
+      "structure": "述語 Pina 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26953/441289.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "027",
+      "amis": "Limapoloʼ ko mihecaan ni wama ako anini.",
+      "zh": "B:我爸爸今年50歲。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Limapoloʼ",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "mihecaan",
+          "text": "mihecaan",
+          "role": "noun",
+          "gloss_zh": "年；歲",
+          "gloss_en": ""
+        },
+        {
+          "id": "ni",
+          "text": "ni",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "wama",
+          "text": "wama",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ako",
+          "text": "ako",
+          "role": "pronoun",
+          "gloss_zh": "我的",
+          "gloss_en": ""
+        },
+        {
+          "id": "anini",
+          "text": "anini",
+          "role": "adverb",
+          "gloss_zh": "現在",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "13時間",
+          "vocab_code": "13"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "mihecaan",
+            "ni",
+            "wama",
+            "ako",
+            "anini",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Limapoloʼ 為中心（自動標記）"
+      },
+      "structure": "述語 Limapoloʼ 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26953/441290.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "028",
+      "amis": "Papina ko salikaka iso?",
+      "zh": "A:你有幾個兄弟姊妹?",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Papina",
+          "role": "pred",
+          "gloss_zh": "多少",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "salikaka",
+          "text": "salikaka",
+          "role": "noun",
+          "gloss_zh": "兄弟姊妹",
+          "gloss_en": ""
+        },
+        {
+          "id": "iso",
+          "text": "iso",
+          "role": "pronoun",
+          "gloss_zh": "你的",
+          "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "salikaka",
+            "iso",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Papina 為中心（自動標記）"
+      },
+      "structure": "述語 Papina 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26953/441291.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "029",
+      "amis": "Tatosa ko kaka ako, cecay ko safa ako to faʼinayan.",
+      "zh": "B:我有兩個兄姐，一個弟妹。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Tatosa",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "kaka",
+          "text": "kaka",
+          "role": "noun",
+          "gloss_zh": "兄長",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "04親屬稱謂",
+          "vocab_code": "04"
+        },
+        {
+          "id": "ako",
+          "text": "ako",
+          "role": "pronoun",
+          "gloss_zh": "我的",
+          "gloss_en": ""
+        },
+        {
+          "id": "comma",
+          "text": ",",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred2",
+          "text": "cecay",
+          "role": "pred2",
+          "gloss_zh": "一",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "01數字計量",
+          "vocab_code": "01"
+        },
+        {
+          "id": "ko_3",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "safa",
+          "text": "safa",
+          "role": "noun",
+          "gloss_zh": "通稱",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "04親屬稱謂",
+          "vocab_code": "04"
+        },
+        {
+          "id": "ako_3",
+          "text": "ako",
+          "role": "pronoun",
+          "gloss_zh": "我的",
+          "gloss_en": ""
+        },
+        {
+          "id": "to",
+          "text": "to",
+          "role": "case",
+          "gloss_zh": "斜格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "fainayan",
+          "text": "faʼinayan",
+          "role": "noun",
+          "gloss_zh": "男性",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "kaka",
+            "ako",
+            "comma"
+          ],
+          [
+            "pred2",
+            "ko_3",
+            "safa",
+            "ako_3",
+            "to",
+            "fainayan",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": true,
+        "structure": "兩句以 ＋ 連接（自動切分）"
+      },
+      "structure": "兩句以 ＋ 連接（自動切分）",
+      "audio": "https://web.klokah.tw/text/sound/26953/441292.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "030",
+      "amis": "Iraay ko faʼinayan a kaka iso haw?",
+      "zh": "A:你有哥哥嗎?",
+      "en": "",
+      "tokens": [
+        {
+          "id": "iraay",
+          "text": "Iraay",
+          "role": "adverb",
+          "gloss_zh": "有；擁有",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "pred",
+          "text": "faʼinayan",
+          "role": "pred",
+          "gloss_zh": "男性",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
+        },
+        {
+          "id": "a",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "連繫",
+          "gloss_en": ""
+        },
+        {
+          "id": "kaka",
+          "text": "kaka",
+          "role": "noun",
+          "gloss_zh": "兄長",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "04親屬稱謂",
+          "vocab_code": "04"
+        },
+        {
+          "id": "iso",
+          "text": "iso",
+          "role": "pronoun",
+          "gloss_zh": "你的",
+          "gloss_en": ""
+        },
+        {
+          "id": "haw",
+          "text": "haw",
+          "role": "particle",
+          "gloss_zh": "助詞",
+          "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "iraay",
+            "ko",
+            "pred",
+            "a",
+            "kaka",
+            "iso",
+            "haw",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 faʼinayan 為中心（自動標記）"
+      },
+      "structure": "述語 faʼinayan 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26953/441293.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "031",
+      "amis": "Awaay ko faʼinayan a kaka ako.",
+      "zh": "B:我沒有哥哥。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Awaay",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "fainayan",
+          "text": "faʼinayan",
+          "role": "noun",
+          "gloss_zh": "男性",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "05人物、身分",
+          "vocab_code": "05"
+        },
+        {
+          "id": "a",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "連繫",
+          "gloss_en": ""
+        },
+        {
+          "id": "kaka",
+          "text": "kaka",
+          "role": "noun",
+          "gloss_zh": "兄長",
+          "gloss_en": "",
+          "level": "高級",
+          "vocab_cat": "04親屬稱謂",
+          "vocab_code": "04"
+        },
+        {
+          "id": "ako",
+          "text": "ako",
+          "role": "pronoun",
+          "gloss_zh": "我的",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "fainayan",
+            "a",
+            "kaka",
+            "ako",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 Awaay 為中心（自動標記）"
+      },
+      "structure": "述語 Awaay 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26953/441294.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "032",
+      "amis": "Papina ko paro no lomaʼ namo?",
+      "zh": "A:你們家有幾個人?",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Papina",
+          "role": "pred",
+          "gloss_zh": "多少",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "03疑問詞",
+          "vocab_code": "03"
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "paro",
+          "text": "paro",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "no",
+          "text": "no",
+          "role": "case",
+          "gloss_zh": "屬格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "loma",
+          "text": "lomaʼ",
+          "role": "noun",
+          "gloss_zh": "家",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "12建築",
+          "vocab_code": "12"
+        },
+        {
+          "id": "namo",
+          "text": "namo",
+          "role": "pronoun",
+          "gloss_zh": "你們的",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "paro",
+            "namo",
+            "q"
+          ]
+        ],
+        "hangs": {
+          "paro": [
+            "no",
+            "loma"
+          ]
+        },
+        "plus_between_groups": false,
+        "structure": "述語為中心；屬格 no/nu 掛於名詞下（自動）"
+      },
+      "structure": "述語為中心；屬格 no/nu 掛於名詞下（自動）",
+      "audio": "https://web.klokah.tw/text/sound/26953/441295.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "033",
+      "amis": "Sasepat ko paro no lomaʼ niyam.",
+      "zh": "B:我們家有4個人。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "pred",
+          "text": "Sasepat",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "ko",
+          "text": "ko",
+          "role": "case",
+          "gloss_zh": "主格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "paro",
+          "text": "paro",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "no",
+          "text": "no",
+          "role": "case",
+          "gloss_zh": "屬格",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "36助詞或其他",
+          "vocab_code": "36"
+        },
+        {
+          "id": "loma",
+          "text": "lomaʼ",
+          "role": "noun",
+          "gloss_zh": "家",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "12建築",
+          "vocab_code": "12"
+        },
+        {
+          "id": "niyam",
+          "text": "niyam",
+          "role": "pronoun",
+          "gloss_zh": "我們的",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "pred",
+            "ko",
+            "paro",
+            "niyam",
+            "period"
+          ]
+        ],
+        "hangs": {
+          "paro": [
+            "no",
+            "loma"
+          ]
+        },
+        "plus_between_groups": false,
+        "structure": "述語為中心；屬格 no/nu 掛於名詞下（自動）"
+      },
+      "structure": "述語為中心；屬格 no/nu 掛於名詞下（自動）",
+      "audio": "https://web.klokah.tw/text/sound/26953/441296.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "034",
+      "amis": "I cowaay kiso a mitilid?",
+      "zh": "A:你在哪裡讀書?",
+      "en": "",
+      "tokens": [
+        {
+          "id": "i",
+          "text": "I",
+          "role": "case",
+          "gloss_zh": "在",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred",
+          "text": "cowaay",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kiso",
+          "text": "kiso",
+          "role": "pronoun",
+          "gloss_zh": "你",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "a",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "連繫",
+          "gloss_en": ""
+        },
+        {
+          "id": "mitilid",
+          "text": "mitilid",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "q",
+          "text": "?",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "i",
+            "pred",
+            "kiso",
+            "a",
+            "mitilid",
+            "q"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 cowaay 為中心（自動標記）"
+      },
+      "structure": "述語 cowaay 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26953/441297.mp3",
+      "audio_primary": true
+    },
+    {
+      "id": "035",
+      "amis": "I kalinkoay kako a mitilid.",
+      "zh": "B:我在花蓮讀書。",
+      "en": "",
+      "tokens": [
+        {
+          "id": "i",
+          "text": "I",
+          "role": "case",
+          "gloss_zh": "在",
+          "gloss_en": ""
+        },
+        {
+          "id": "pred",
+          "text": "kalinkoay",
+          "role": "pred",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "kako",
+          "text": "kako",
+          "role": "pronoun",
+          "gloss_zh": "我",
+          "gloss_en": "",
+          "level": "初級",
+          "vocab_cat": "02代名詞、指示詞",
+          "vocab_code": "02"
+        },
+        {
+          "id": "a",
+          "text": "a",
+          "role": "noun",
+          "gloss_zh": "連繫",
+          "gloss_en": ""
+        },
+        {
+          "id": "mitilid",
+          "text": "mitilid",
+          "role": "noun",
+          "gloss_zh": "",
+          "gloss_en": ""
+        },
+        {
+          "id": "period",
+          "text": ".",
+          "role": "punct",
+          "gloss_zh": "",
+          "gloss_en": ""
+        }
+      ],
+      "layout": {
+        "groups": [
+          [
+            "i",
+            "pred",
+            "kako",
+            "a",
+            "mitilid",
+            "period"
+          ]
+        ],
+        "hangs": {},
+        "plus_between_groups": false,
+        "structure": "述語 kalinkoay 為中心（自動標記）"
+      },
+      "structure": "述語 kalinkoay 為中心（自動標記）",
+      "audio": "https://web.klokah.tw/text/sound/26953/441298.mp3",
+      "audio_primary": true
+    }
+  ]
+}

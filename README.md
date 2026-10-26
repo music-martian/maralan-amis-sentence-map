@@ -1,4 +1,4 @@
-# 馬蘭阿美語 · 句型圖
+# 阿美語 · 句型圖
 
 Interactive sentence maps for **馬蘭阿美語 (Maralan Amis)** from the Klokah gather (國中／高中句型、生活會話、情境族語、族語短文).
 

@@ -13,7 +13,7 @@ from typing import Any, Dict, List, Optional, Tuple
 from difflib import SequenceMatcher
 
 SITE = Path(__file__).resolve().parent.parent
-UNITS_DIR = SITE / "data" / "units"
+UNITS_DIR = SITE / "data" / "maralan" / "units"  # 馬蘭 only
 OUT_JSON = SITE / "scripts" / "klokah_link_audit.json"
 OUT_MD = SITE / "scripts" / "klokah_link_audit.md"
 

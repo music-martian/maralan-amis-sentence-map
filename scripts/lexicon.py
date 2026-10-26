@@ -1,4 +1,4 @@
-"""Klokah 馬蘭學習詞表 (1,094) — load, normalize, closed-class role hints."""
+"""Klokah 學習詞表 per dialect (馬蘭/海岸 1,094 each) — load, normalize, closed-class role hints."""
 from __future__ import annotations
 
 import json
@@ -164,16 +164,16 @@ class MaralanLexicon:
         return role
 
 
-_CACHE: Optional[MaralanLexicon] = None
+_CACHE: Dict[str, MaralanLexicon] = {}
 
 
-def get_lexicon(materials_root: Path) -> MaralanLexicon:
-    global _CACHE
-    if _CACHE is not None:
-        return _CACHE
-    path = materials_root / "glossary" / "maralan_vocab.json"
-    _CACHE = MaralanLexicon(path)
-    return _CACHE
+def get_lexicon(materials_root: Path, vocab_file: Optional[str] = None) -> MaralanLexicon:
+    """Dialect 學習詞表 lexicon (cached per file). Default: 馬蘭 maralan_vocab.json."""
+    path = materials_root / "glossary" / (vocab_file or "maralan_vocab.json")
+    key = str(path)
+    if key not in _CACHE:
+        _CACHE[key] = MaralanLexicon(path)
+    return _CACHE[key]
 
 
 def tw_structure(s: str) -> str:
