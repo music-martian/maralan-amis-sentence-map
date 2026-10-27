@@ -184,6 +184,31 @@ def build_lexicon() -> Dict[str, str]:
 CASE_ZH = {"ko": "主格標記", "ku": "主格標記", "no": "屬格標記", "nu": "屬格標記", "to": "斜格／受格標記", "i": "處所／前置詞"}
 
 
+# Multi-sense words: 詞表 lists one sense only; pick by the sentence's Chinese.
+# fofo (馬蘭) = grandparent AND grandchild (reciprocal kin term); 詞表 has only 孫子/孫女.
+SENSE_BY_CONTEXT = {
+    "fofo": {
+        "requires_zh": "孫",  # only when the 詞表 sense is the kin term (not 海岸 魚筌)
+        "rules": [
+            (("祖父祖母", "祖父母", "阿公和阿媽", "爺爺奶奶"), "祖父母"),
+            (("祖父", "爺爺", "阿公", "外公"), "祖父"),
+            (("祖母", "奶奶", "阿媽", "阿嬤", "外婆"), "祖母"),
+            (("孫",), "孫子/孫女"),
+        ],
+    },
+}
+
+
+def _context_sense(k: str, base_zh: str, sentence_zh: str) -> Optional[str]:
+    spec = SENSE_BY_CONTEXT.get(k)
+    if not spec or not sentence_zh or spec["requires_zh"] not in (base_zh or ""):
+        return None
+    for keys, zh in spec["rules"]:
+        if any(x in sentence_zh for x in keys):
+            return zh
+    return None
+
+
 def gloss_zh_for(text: str, role: str, sentence_zh: str = "", n_tokens: int = 0) -> str:
     if role == "punct":
         return ""
@@ -199,7 +224,7 @@ def gloss_zh_for(text: str, role: str, sentence_zh: str = "", n_tokens: int = 0)
     mlex = get_lexicon(MATERIALS, DIALECT.get("vocab"))
     hit = mlex.lookup(text)
     if hit and hit.get("zh"):
-        zh = hit["zh"]
+        zh = _context_sense(k, hit["zh"], sentence_zh) or hit["zh"]
         short = re.sub(r"[（(][^）)]*[）)]", "", zh).strip() or zh
         if len(short) > 10:
             short = short[:10]
