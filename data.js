@@ -23,7 +23,7 @@ const GREETINGS = {
           "id": "ko",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "主格",
+          "gloss_zh": "主格標記",
           "gloss_en": "NOM"
         },
         {
@@ -285,7 +285,7 @@ const GREETINGS = {
           "id": "ko",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "主格",
+          "gloss_zh": "主格標記",
           "gloss_en": "NOM"
         },
         {
@@ -302,7 +302,7 @@ const GREETINGS = {
           "id": "no",
           "text": "no",
           "role": "case",
-          "gloss_zh": "屬格",
+          "gloss_zh": "屬格標記",
           "gloss_en": "GEN"
         },
         {
@@ -362,7 +362,7 @@ const GREETINGS = {
           "id": "ko",
           "text": "ko",
           "role": "case",
-          "gloss_zh": "主格",
+          "gloss_zh": "主格標記",
           "gloss_en": "NOM"
         },
         {
@@ -379,7 +379,7 @@ const GREETINGS = {
           "id": "no",
           "text": "no",
           "role": "case",
-          "gloss_zh": "屬格",
+          "gloss_zh": "屬格標記",
           "gloss_en": "GEN"
         },
         {

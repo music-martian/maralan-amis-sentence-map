@@ -69,9 +69,9 @@ ADVERBS = {"mamaan", "anini", "anocila", "iraay", "cowa", "caay", "awa"}
 
 # Fixed Chinese glosses for function words (match greetings prototype style)
 FUNCTION_GLOSS_ZH = {
-    "ko": "主格", "ku": "主格",
-    "no": "屬格", "nu": "屬格",
-    "to": "斜格",
+    "ko": "主格標記", "ku": "主格標記",
+    "no": "屬格標記", "nu": "屬格標記",
+    "to": "斜格／受格標記",
     "i": "在",
     "a": "連繫",
     "haw": "助詞", "saw": "助詞", "han": "助詞", "sa": "助詞",
@@ -181,13 +181,18 @@ def build_lexicon() -> Dict[str, str]:
     return lex
 
 
+CASE_ZH = {"ko": "主格標記", "ku": "主格標記", "no": "屬格標記", "nu": "屬格標記", "to": "斜格／受格標記", "i": "處所／前置詞"}
+
+
 def gloss_zh_for(text: str, role: str, sentence_zh: str = "", n_tokens: int = 0) -> str:
     if role == "punct":
         return ""
     k = lexicon_key(text)
     # Case markers: keep short pedagogical glosses (主格/屬格/斜格/在)
     if role == "case" or k in {"ko", "ku", "no", "nu", "to", "i"}:
-        case_g = {"ko": "主格", "ku": "主格", "no": "屬格", "nu": "屬格", "to": "斜格", "i": "在"}.get(k)
+        case_g = CASE_ZH.get(k)
+        if k == "i" and role != "case":
+            case_g = "在"
         if case_g:
             return case_g
     # Prefer 馬蘭學習詞表 zh when available
@@ -208,7 +213,7 @@ def gloss_zh_for(text: str, role: str, sentence_zh: str = "", n_tokens: int = 0)
         return short[:10]
     # Role fallbacks
     if role == "case":
-        return {"ko": "主格", "ku": "主格", "no": "屬格", "nu": "屬格", "to": "斜格", "i": "在"}.get(k, "格位標記")
+        return CASE_ZH.get(k, "格位標記")
     if role == "particle":
         return "助詞"
     if role == "adverb":
@@ -270,7 +275,7 @@ def _force_i_gloss_zai(sentences: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
     for s in sentences or []:
         for tok in s.get("tokens") or []:
             if (tok.get("text") or "").strip().lower() == "i":
-                tok["gloss_zh"] = "在"
+                tok["gloss_zh"] = CASE_ZH["i"] if tok.get("role") == "case" else "在"
     return sentences
 
 
@@ -807,7 +812,7 @@ def make_sentence(
                 t.get("text") or "", t.get("role") or "", zh, n_content
             )
             if (t.get("text") or "").strip().lower() == "i":
-                t["gloss_zh"] = "在"
+                t["gloss_zh"] = CASE_ZH["i"] if t.get("role") == "case" else "在"
             apply_vocab_fields(t)
         t["gloss_en"] = t.get("gloss_en") or ""
     layout = build_layout(tagged, amis)
