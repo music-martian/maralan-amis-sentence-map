@@ -196,6 +196,12 @@ SENSE_BY_CONTEXT = {
             (("孫",), "孫子/孫女"),
         ],
     },
+    # 海岸 詞表: akong 男性長輩(祖父；外公；岳父) / ama 女性長輩(祖母；外婆；岳母);
+    # 馬蘭 akong / mamo have no 詞表 entry (gloss was blank).
+    "akong": {"requires_zh": "", "rules": [(("祖父", "爺爺", "阿公", "外公"), "祖父"), (("岳父",), "岳父")]},
+    "ama": {"requires_zh": "長輩", "rules": [(("祖母", "奶奶", "阿媽", "阿嬤", "外婆"), "祖母"), (("岳母",), "岳母"), (("爸爸", "父親"), "爸爸")]},
+    "mamo": {"requires_zh": "", "rules": [(("祖母", "奶奶", "阿媽", "阿嬤", "外婆"), "祖母")]},
+    "wama": {"requires_zh": "", "rules": [(("爸爸", "父親"), "爸爸")]},
 }
 
 
@@ -229,6 +235,10 @@ def gloss_zh_for(text: str, role: str, sentence_zh: str = "", n_tokens: int = 0)
         if len(short) > 10:
             short = short[:10]
         return short
+    if not hit:
+        ctx = _context_sense(k, "", sentence_zh)
+        if ctx:
+            return ctx
     lex = build_lexicon()
     if k in lex:
         return lex[k]
