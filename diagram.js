@@ -37,7 +37,7 @@
     [COLORS.pred, "述語 pred"],
     [COLORS.pronoun, "代名詞 pronoun"],
     [COLORS.noun, "名詞 noun"],
-    [COLORS.case, "格位標記 ko/no"],
+    [COLORS.case, "格位標記 ko/no/to/i"],
     [COLORS.particle, "助詞/副詞"],
     [COLORS.pred2, "第二分句述語"],
   ];
